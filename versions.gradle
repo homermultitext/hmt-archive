@@ -1,0 +1,20 @@
+
+ext {
+
+    //groovyversion = "1.7.11"
+    groovyversion = "2.0.6"
+
+    citeversion = "0.14.2"
+    hocuspocusversion= "0.7.26"
+    greekutilsversion = "0.8.5"
+
+
+    //needed for hocuspocus:
+    jingversion= "20091111"
+    saxonversion = "8.7"
+
+    junitversion = "4.10"
+    xmlunitversion = "1.3"
+
+       
+}
