@@ -79,7 +79,10 @@ task venAReadme (type: Copy) {
     into "${buildDir}/${archiveDir}/VenetusA"
 }
 
+
+// Texts other than Iliad and scholia
 task venAOther (type: Copy, dependsOn: venAReadme) {
+    description = "Copies into build area all texts other than Iliad and scholia"
     from ("editions/VenetusA/OtherTexts")
     into("${buildDir}/editions/archive/VenetusA")
     include("*.xml")
@@ -97,6 +100,7 @@ task venAOther (type: Copy, dependsOn: venAReadme) {
 }
 
 
+// Iliad
 task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
     description = "Compiles single Iliad text from multiple source files."
     main = "org.homermultitext.IliadCompiler"
@@ -228,9 +232,6 @@ task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileG
 
 
 
-/*
-
-
 task msALaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand"
     from ('teiHeaders/VenetusA')
@@ -242,6 +243,17 @@ task msALaterHeader(type: Copy) {
     }
 
 }
+task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A interlinear scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["editions/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml", "${buildDir}/${archiveDir}/VenetusA" , "msAlater"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+    description = "Compiles and validates complete edition of Venetus A later scholia"
+
 
 task msAimLaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand in intermarginal position"
@@ -250,45 +262,21 @@ task msAimLaterHeader(type: Copy) {
     include ('VenetusA-Scholia.xml')
     filter(ReplaceTokens, tokens : [scholiatitle : 'Scholia in later hand in intermarginal position '] )
     rename { String fileName ->
-        fileName.replace('.xml','-msAimlater.xml')
+        fileName.replace('.xml','-msAimLater.xml')
     }
 }
 
-
-*/
-
-
-
-
-/*
-
-task msAlaterScholia (type: ScholiaCompileTask, dependsOn: [msALaterHeader, venAReadme]) {
-    description = "Compiles and validates complete edition of Venetus A later scholia"
-    srcEditions = "editions/VenetusA/Scholia"
-    outputDirectory = "${buildDir}/${archiveDir}/VenetusA"
-    teiHeaderFile = "${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml"    
-    siglum = "msAlater"
-    doLast {
-        File scholia = new File("${buildDir}/${archiveDir}/VenetusA/VenetusA-Scholia-msALater.xml")
-        def root = new XmlParser().parse(scholia)
-        System.err.println "${scholia} validates syntactically"
-    }
-
-}
-
-task msAimlaterScholia (type: ScholiaCompileTask, dependsOn: [msAimLaterHeader, venAReadme]) {
+task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A later scholia in intermarginal position"
-    srcEditions = "editions/VenetusA/Scholia"
-    outputDirectory = "${buildDir}/${archiveDir}/VenetusA"
-    teiHeaderFile = "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimlater.xml"    
-    siglum = "msAimlater"
-    doLast {
-        File scholia = new File("${buildDir}/${archiveDir}/VenetusA/VenetusA-Scholia-msAimlater.xml")
-        def root = new XmlParser().parse(scholia)
-        System.err.println "${scholia} validates syntactically"
-    }
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["editions/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater.xml", "${buildDir}/${archiveDir}/VenetusA" , "msAimlater"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
 }
-*/
+
+
+
 
 task inv (type: Copy) {
     description = "Copies text inventory and README into build area."
@@ -319,11 +307,7 @@ task furmanEditions (type: Copy) {
 }
 
 /* Can add venAOther when those texts are ready. */
-
-
-//task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimlaterScholia, msAimScholia, msAintScholia, msAlaterScholia, translations, venAOther])  {
-
-task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimScholia, msAintScholia, translations, venAOther])  {
+task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
     description = "Builds zip file of all Venetus A documents."
     classifier = "venaxml"
     from(file("${buildDir}/${archiveDir}/VenetusA"))
