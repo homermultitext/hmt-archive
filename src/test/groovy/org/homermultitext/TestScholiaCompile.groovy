@@ -22,5 +22,9 @@ class TestScholiaCompile extends GroovyTestCase {
         ScholiaCompiler sc = new ScholiaCompiler(xmlDir, header, outputDir, siglum)
         assert sc
         sc.compileTexts()
+
+        System.err.println "Check compilation of " + sc.scholiaEdition
+
+        assert (sc.compilationParses()  == true )
     }
 }

@@ -25,7 +25,7 @@ class ScholiaCompiler {
     /** Siglum for one document of scholia. */
     String siglum
 
-
+    /** Resulting edition of scholia. */
     File scholiaEdition
 
     /** Verbosity level 0-3 of debugging output */
@@ -52,7 +52,7 @@ class ScholiaCompiler {
         String scholiaFileName = FilenameUtils.getName(headerFile.getAbsoluteFile().toString())
 
         System.err.println "Writing scholia edition " + scholiaFileName
-        File scholiaEdition = new File(outputDirectory,scholiaFileName)
+        scholiaEdition = new File(outputDirectory,scholiaFileName)
         scholiaEdition.setText("")
 
 
@@ -113,6 +113,23 @@ class ScholiaCompiler {
         scholiaEdition.append("</body>\n</text>\n</TEI>", "UTF-8")
     }
 
+    /** Determines whether resulting scholia text validates.
+    * @returns true if XML parses syntactically.
+    */
+    boolean compilationParses() {
+        try {
+            groovy.util.Node root = new XmlParser().parse(scholiaEdition)
+            System.err.println "${scholiaEdition} validates syntactically"
+            return true
+        } catch (Exception e) {
+            System.err.println "Error parsing ${scholiaEdition}:  ${e}"
+            return false
+        }
+    }
+
+
+
+
 
     /** Creates a ScholiaCompiler object and compiles editions of scholia. 
     */
@@ -142,6 +159,12 @@ class ScholiaCompiler {
 
         ScholiaCompiler sc = new ScholiaCompiler(src,teiHeader,outputDir, args[3])
         sc.compileTexts()
+        if (sc.compilationParses()) {
+            System.err.println "ScholiaCompiler: composite text ${sc.scholiaEdition} parses"
+        } else {
+            System.err.println "ScholiaCompiler:  could not parse composite text ${sc.scholiaEdition} parses"
+        }
+
     }
 
 }
