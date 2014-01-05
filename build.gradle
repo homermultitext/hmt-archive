@@ -11,7 +11,6 @@ using local classes:
 
 
 *  From buildSrc tree, depends on:
-*   - IliadCompileTask
 *   - ScholiaCompileTask
 *   - IndexScholia
 *   - TabulateTask
@@ -99,7 +98,7 @@ task venAOther (type: Copy, dependsOn: venAReadme) {
 }
 
 
-task iliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
+task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
     description = "Compiles single Iliad text from multiple source files."
     main = "org.homermultitext.IliadCompiler"
     args = ["editions/VenetusA/Iliad", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${archiveDir}/VenetusA" ]
@@ -107,22 +106,6 @@ task iliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
-
-
-/*
-task venAIliad (type: IliadCompileTask, dependsOn: venAReadme) {
-
-    srcEditions =  "editions/VenetusA/Iliad"
-    teiHeaderFile = "teiHeaders/VenetusA/VenetusA-Iliad.xml"    
-    outputDirectory =  "${buildDir}/${archiveDir}/VenetusA"
-
-    doLast {
-        File iliad = new File("${buildDir}/${archiveDir}/VenetusA/VenetusA-Iliad.xml")
-        def root = new XmlParser().parse(iliad)
-        System.err.println "${iliad} validates syntactically"
-    }
-}
-*/
 
 task msAHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A main scholia"
@@ -203,6 +186,16 @@ task msAimLaterHeader(type: Copy) {
     }
 }
 
+
+
+task msAScholia(type: JavaExec, dependsOn: [msAHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A main scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["editions/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml", "${buildDir}/${archiveDir}/VenetusA" , "msA"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
 
 /*
 task msAScholia (type: ScholiaCompileTask, dependsOn: [msAHeader, venAReadme]) {

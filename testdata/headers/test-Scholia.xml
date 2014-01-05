@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad, test data</title>
+                <author>Neel Smith</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Public domain test data.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Artifical test file.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language
+                    ident="grc">Greek, in pre-composed UTF-8</language>
+                <language
+                    ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+        <p>Template document:  body will be ignored, and only teiHeader element
+        reused.</p>
+        </body>
+    </text>
+    </TEI>
