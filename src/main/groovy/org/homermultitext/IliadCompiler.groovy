@@ -21,7 +21,7 @@ class IliadCompiler {
     File outputDir
 
     /** Resulting file with Iliad edition of Venetus A. */
-    File venetusA
+    File compositeIliad
 
     /** Namespace object for parsing TEI documents. */
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
@@ -35,7 +35,7 @@ class IliadCompiler {
         this.headerFile = teiHeaderFile
         this.outputDir = outDir
         String outFileName = FilenameUtils.getName(headerFile.getAbsoluteFile().toString())
-        this.venetusA = new File(outputDir,outFileName)
+        this.compositeIliad = new File(outputDir,outFileName)
     }
 
 
@@ -44,11 +44,11 @@ class IliadCompiler {
     */
     boolean compilationParses() {
         try {
-            groovy.util.Node root = new XmlParser().parse(venetusA)
-            System.err.println "${venetusA} validates syntactically"
+            groovy.util.Node root = new XmlParser().parse(compositeIliad)
+            System.err.println "${compositeIliad} validates syntactically"
             return true
         } catch (Exception e) {
-            System.err.println "Error parsing ${venetusA}:  ${e}"
+            System.err.println "Error parsing ${compositeIliad}:  ${e}"
             return false
         }
     }
@@ -56,14 +56,14 @@ class IliadCompiler {
     /** Compiles an Iliad text.
     */
     void compileTexts() {
-        venetusA.setText("")
+        compositeIliad.setText("")
         def hdrRoot = new XmlParser().parse(headerFile)
         def hdrElem = hdrRoot[tei.teiHeader][0]
         GreekNode gn = new GreekNode(hdrElem)
-        venetusA.append('<?xml version="1.0" encoding="UTF-8"?>\n', "UTF-8")
-        venetusA.append('<TEI  xmlns="http://www.tei-c.org/ns/1.0">\n', "UTF-8")
-        venetusA.append(gn.toXml() + "\n", "UTF-8")
-        venetusA.append("<text>\n<body>", "UTF-8")
+        compositeIliad.append('<?xml version="1.0" encoding="UTF-8"?>\n', "UTF-8")
+        compositeIliad.append('<TEI  xmlns="http://www.tei-c.org/ns/1.0">\n', "UTF-8")
+        compositeIliad.append(gn.toXml() + "\n", "UTF-8")
+        compositeIliad.append("<text>\n<body>", "UTF-8")
 
 
         def fileNames = []
@@ -75,13 +75,13 @@ class IliadCompiler {
             try {
                 def fRoot = new XmlParser().parse(srcFile)
                 GreekNode iliadDiv = new GreekNode(fRoot[tei.text][tei.body][tei.div][0])
-                venetusA.append(iliadDiv.toXml(), "UTF-8")
+                compositeIliad.append(iliadDiv.toXml(), "UTF-8")
             } catch (Exception e) {
                 System.err.println "Could not parse or process ${srcFile}!"
                 System.err.println "Exception: ${e}"
             }
         }
-        venetusA.append("</body>\n</text>\n</TEI>", "UTF-8")
+        compositeIliad.append("</body>\n</text>\n</TEI>", "UTF-8")
     }
 
 
@@ -113,7 +113,9 @@ class IliadCompiler {
         IliadCompiler iliad = new IliadCompiler(src,teiHeader,outputDir)
         iliad.compileTexts()
         if (iliad.compilationParses()) {
+            System.err.println "IliadCompiler: composite text ${iliad.compositeIliad} parses"
         } else {
+            System.err.println "IliadCompiler:  could not parse composite text ${iliad.compositeIliad} parses"
         }
     }
 
