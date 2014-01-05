@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+	xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad, test data</title>
+				<author>Neel Smith</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>Public domain test data.</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Artifical test file.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language
+					ident="grc">Greek, in pre-composed UTF-8</language>
+				<language
+					ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body
+			xml:lang="grc">
+			<div
+				n="1">
+				<l
+					n="1">Μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος </l>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -4,7 +4,12 @@ import java.text.Normalizer
 //import edu.holycross.shot.hocuspocus.Corpus
 
 
-/* hmtxml project:  main build.
+/* hmtarchive project.
+
+Replace the following build tasks with JavaExec tasks
+using local classes:
+
+
 *  From buildSrc tree, depends on:
 *   - IliadCompileTask
 *   - ScholiaCompileTask
@@ -93,8 +98,20 @@ task venAOther (type: Copy, dependsOn: venAReadme) {
     }
 }
 
-task venAIliad (type: IliadCompileTask, dependsOn: venAReadme) {
+
+task iliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
     description = "Compiles single Iliad text from multiple source files."
+    main = "org.homermultitext.IliadCompiler"
+    args = ["editions/VenetusA/Iliad", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${archiveDir}/VenetusA" ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+
+/*
+task venAIliad (type: IliadCompileTask, dependsOn: venAReadme) {
+
     srcEditions =  "editions/VenetusA/Iliad"
     teiHeaderFile = "teiHeaders/VenetusA/VenetusA-Iliad.xml"    
     outputDirectory =  "${buildDir}/${archiveDir}/VenetusA"
@@ -105,7 +122,7 @@ task venAIliad (type: IliadCompileTask, dependsOn: venAReadme) {
         System.err.println "${iliad} validates syntactically"
     }
 }
-
+*/
 
 task msAHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A main scholia"
@@ -186,6 +203,8 @@ task msAimLaterHeader(type: Copy) {
     }
 }
 
+
+/*
 task msAScholia (type: ScholiaCompileTask, dependsOn: [msAHeader, venAReadme]) {
     description = "Compiles and validates complete edition of Venetus A main scholia"
     srcEditions = "editions/VenetusA/Scholia"
@@ -279,6 +298,7 @@ task msAimlaterScholia (type: ScholiaCompileTask, dependsOn: [msAimLaterHeader, 
         System.err.println "${scholia} validates syntactically"
     }
 }
+*/
 
 task inv (type: Copy) {
     description = "Copies text inventory and README into build area."
@@ -302,42 +322,52 @@ task translations (type: Copy) {
     into "${buildDir}/${archiveDir}/translations"
 }
 
-task FurmanEditions (type: Copy) {
+task furmanEditions (type: Copy) {
     description = "Copies Furman-generated  editions of texts into build area."
     from ("editions/Furman")
     into "${buildDir}/${archiveDir}/Furman"
 }
 
 /* Can add venAOther when those texts are ready. */
+
+/*
 task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimlaterScholia, msAimScholia, msAintScholia, msAlaterScholia, translations, venAOther])  {
     description = "Builds zip file of all Venetus A documents."
     classifier = "venaxml"
     from(file("${buildDir}/${archiveDir}/VenetusA"))
     into('venetus-A-xml')
-    include("**/*.xml", "README.md")
+
+FIX THIS WHEN UNCOMMENTING:
+    include("** /*.xml", "README.md")
     doLast {
         System.err.println "All venetusA texts validate syntactically."
     }
 }
+*/
 
 
 /* Can add dependencies on other MSS where we have tasks for them. */
-task editions(type: Zip, dependsOn: [venetusA, FurmanEditions]) {
+/*
+task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
     description="Builds zip file of all edited manuscripts."
     classifier = 'xml'
     from(file("${buildDir}/${archiveDir}"))
     into('hmt-editions-xml')
-    include("**/*.xml", "**/README.md")
+FIX WHEN UNCOMMENITNG:
+    include("** / *.xml", "** /README.md")
     doLast {
         System.err.println "All Venetus A texts validate syntactically, and are compiled in zip file hmt-editions-xml"
     }
 }
+*/
+
 
 
 /* ******************************************************************* */
 /* **** Tasks for secondary processing of composite editions   ******* */
 /* ******************************************************************* */
 
+/*
 task indexVenetusAScholia (type: IndexScholiaTask) {
     description="Generates tsv relating scholia to Iliad passage commented on."
     srcEditions = "editions/VenetusA/Scholia"
@@ -353,6 +383,7 @@ task tabFiles(type: TabulateTask, dependsOn: editions) {
     textInventory = "${buildDir}/${archiveDir}/inventory.xml"
     outputDirectory = "${buildDir}/tabulated"
 }
+*/
 
 task setupTabs (type: Copy) {
     description = "Generates README to accompany tabulated versions of HMT editions."
@@ -364,18 +395,20 @@ task setupTabs (type: Copy) {
     into "${buildDir}/tabulated"
 }
 
+/*
 task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
     description = "Creates zip package of all HMT editions in tabular format."
     classifier = 'tabulated'
     from (file("${buildDir}/tabulated"))
-    include("**/*.txt", "**/*.md")
+FIX WHEN UNCOMMENDING
+    include("** /*.txt", "** /*.md")
     baseName = "hmt-editions"
     doLast {
         System.err.println "Tabulated version of all XML editions compiled in zip file hmt-editions-tabulated"
     }
 
 }
-
+*/
 
 task setUpTurtle(type: Copy) {
     description = "Generates README to accompany RDF version of HMT editions."
@@ -387,7 +420,7 @@ task setUpTurtle(type: Copy) {
     into "${buildDir}/rdf"
 }
 
-
+/*
 task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
     description = "Use hocuspocus to create a full rdf representation of the archive suitable for import into a CTS"
     main = "org.homermultitext.TextArchive"
@@ -396,7 +429,7 @@ task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
-
+*/
 
 /* Corpus-wide tokenization */
 task setupTokens (type: Copy) {
@@ -411,12 +444,13 @@ task setupTokens (type: Copy) {
 
 
 // MOVE THIS TO A DSE TASK
+/*
 task tokenize(type: TokenizeTask, dependsOn: [tabulated, setupTokens]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     tabDir (file("${buildDir}/tabulated"))
     tokensFile (file("${buildDir}/tokens/tokens.ttl"))
 }
-
+*/
 
 
 
@@ -437,8 +471,6 @@ task collections(type: Zip, dependsOn: [setUpCollections]) {
     baseName = "hmt-collections"
 
 }
-
-
 
 
 task setUpImages (type: Copy) {
@@ -477,6 +509,7 @@ task rdf(type: Zip, dependsOn: [ctsttl, setUpTurtle]) {
     description = "Creates zip package of all HMT editions in TTL format."
     classifier = 'rdf'
     from (file("${buildDir}/rdf"))
+FIX WHEN UNCOMMENITNG
     include("** / *.ttl", "README.md")
     baseName = "hmt-editions"
     doLast {
@@ -485,6 +518,8 @@ task rdf(type: Zip, dependsOn: [ctsttl, setUpTurtle]) {
 }
 */
 
+
+/*
 task tokens(type: Zip, dependsOn: tokenize) {
     description = "Packages tokenization TTL"
     classifier = 'tokens'
@@ -494,7 +529,11 @@ task tokens(type: Zip, dependsOn: tokenize) {
         System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
     }
 }
+*/
 
+
+
+/*
 task cite (dependsOn : [editions, collections, indices, images]) {
     doLast {
         println "Built zip files of all HMT CITE archives."
@@ -510,6 +549,7 @@ artifacts {
     hmtEditions indices
     hmtEditions images
 }
+*/
 
 uploadArchives {
     repositories.mavenDeployer {
@@ -520,6 +560,7 @@ uploadArchives {
 }
 
 
+/*
 uploadHmtEditions {
     repositories.mavenDeployer {
         repository(url: nexusRepo) {                   
@@ -532,6 +573,7 @@ uploadHmtEditions {
 }
 
 test.dependsOn editions
+*/
 
 /* Always buildArchives from a completely clean state */
 buildArchives.dependsOn clean
