@@ -323,19 +323,16 @@ task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msA
 
 
 /* Can add dependencies on other MSS where we have tasks for them. */
-/*
 task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
     description="Builds zip file of all edited manuscripts."
-    classifier = 'xml'
+    classifier = 'editions'
     from(file("${buildDir}/${archiveDir}"))
-    into('hmt-editions-xml')
-FIX WHEN UNCOMMENITNG:
-    include("** / *.xml", "** /README.md")
+     include("**/*.xml", "**/README.md")
     doLast {
-        System.err.println "All Venetus A texts validate syntactically, and are compiled in zip file hmt-editions-xml"
+        System.err.println "All Venetus A texts validate syntactically, and are compiled in zip file hmtarchive-VERSION-editions.zip."
     }
 }
-*/
+
 
 
 
@@ -352,7 +349,9 @@ task indexVenetusAScholia (type: IndexScholiaTask) {
     iliadUrnString = "urn:cts:greekLit:tlg0012.tlg001.msA"
     versionStr = "hmt"
 }
+*/
 
+/*
 task tabFiles(type: TabulateTask, dependsOn: editions) {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
     archiveDirectory = "${buildDir}/${archiveDir}"
@@ -515,17 +514,19 @@ task cite (dependsOn : [editions, collections, indices, images]) {
         println "Built zip files of all HMT CITE archives."
     }
 }
-
+*/
 artifacts {
     hmtEditions editions
+/*
     hmtEditions tabulated
     hmtEditions tokens
 
     hmtEditions collections
     hmtEditions indices
     hmtEditions images
-}
 */
+}
+
 
 uploadArchives {
     repositories.mavenDeployer {
