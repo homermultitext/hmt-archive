@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aethiopica</title>
+                <author>Heliodorus</author>
+                <editor>Matthew Angiolillo</editor>
+                <editor>Thomas Arralde</editor>
+                <editor>Christopher Blackwell</editor>
+                <editor>Casey Dué</editor>
+                <editor>Mary Ebbott</editor>
+                <editor>Neel Smith</editor>
+                <editor>Megan Whitacre</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>New electronic edition created for the Homer Multitext Project.</p>
+            </publicationStmt>
+            <sourceDesc>
+              
+                <p>Based on Miriam Hecquet's edition of the text, compared against the
+                photography of the Venetus A manuscript.</p>
+                
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <p n="1">
+                <w>εὑρ<unclear>έτ</unclear>ις</w>
+                <w><unclear>α</unclear>λλ</w>’ <w>αγ<unclear>ε</unclear></w> παρὰ τῆς
+                        <w>ἀρ<unclear>σ</unclear>ακης</w> ὑμῶν <w>εκ<unclear>α</unclear>στος</w>
+                <w>προστ<unclear>ετα</unclear>γ<unclear>μ</unclear>έ<unclear>νων</unclear></w>
+                <choice>
+                    <sic><w><unclear>ο</unclear>ς</w></sic>
+                    <corr>ὡς</corr>
+                </choice> ταχος <w><gap unit="chars" extent="1"/>γ<unclear>έ</unclear><gap
+                        unit="chars" extent="1"/></w>
+                <w>πράττε<unclear>ται</unclear></w>’ <w>εἴτ<unclear>ε</unclear></w> πῦρ εἴτε
+                        <w>ὕ<unclear>δ</unclear>ωρ</w>
+                <w>βασιλ<unclear>ι</unclear>δ<unclear>ι</unclear></w> ὥρισται καθαμενῶν κατὰ τὸν
+                    <gap unit="chars" extent="1"/> τὸν αὐτὸν <unclear>μ</unclear>’ ὦρον καὶ
+                        <w>ταύτ<gap unit="chars" extent="1"/>ν</w>
+                <w>ὁμο<unclear>ῦ</unclear></w>
+                <gap unit="chars" extent="5"/>
+                <w>ὑπο<unclear>σ</unclear>τ<unclear>ῆ</unclear>ν<unclear>αι</unclear></w> χαρίσασθε·
+                        <w>συμ<unclear>παρεκ</unclear><gap unit="chars" extent="1"/></w>
+                <w>λ<unclear>ει</unclear></w> δὲ ταῦτα καὶ <unclear>ή</unclear> <w>χ<unclear>αρ<gap unit="chars"
+                            extent="1"/>ε</unclear>κλει<unclear>α</unclear></w>
+                <gap unit="chars" extent="6"/>
+                <w><unclear>ε</unclear>πιδα<unclear>κ</unclear>ρῦσα<unclear>ν</unclear></w> τῆς
+                        <w><unclear>τ</unclear>ῶθε</w>
+                <w>αγ<unclear>έ</unclear>ν<unclear>η</unclear>τ<unclear>ο</unclear></w> τῶν ἐκ τῆς
+                        <w>βα<unclear>σ</unclear>ιλεί<unclear>ο</unclear>υ</w>
+                <w><gap unit="chars" extent="4"/><unclear>π</unclear>ρ<gap unit="chars" extent="1"/><unclear>πε</unclear>σού</w>
+                <gap unit="chars" extent="2"/> τὸ πλῆθος συμφορα <w>συ<unclear>ν</unclear>ίεσαν</w>
+                γε <w><unclear>ἡρ</unclear><gap unit="chars" extent="1"/><unclear>μ</unclear><gap
+                        unit="chars" extent="1"/></w>
+                <unclear>λόγον</unclear> τοῦτον τῶν <w>δει<unclear>σμ</unclear>ῶν</w>
+                <w><unclear>ὑ</unclear><gap unit="chars" extent="3"/>γο<unclear>υσ</unclear>ι</w>
+                <w><unclear>κ</unclear>α<unclear>τ</unclear><supplied>ὰ</supplied></w> τῶν
+                        <w><unclear>σ</unclear>ατράπείων</w>
+                <w>ἐκ<unclear>τ</unclear>ὸς</w>
+                <w>ἐξ<gap unit="chars" extent="1"/>εσαν</w></p>
+        </body>
+    </text>
+</TEI>
