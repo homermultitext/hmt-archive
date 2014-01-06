@@ -57,8 +57,8 @@ class IliadCompiler {
     */
     void compileTexts() {
         compositeIliad.setText("")
-        def hdrRoot = new XmlParser().parse(headerFile)
-        def hdrElem = hdrRoot[tei.teiHeader][0]
+        groovy.util.Node hdrRoot = new XmlParser().parse(headerFile)
+        groovy.util.Node hdrElem = hdrRoot[tei.teiHeader][0]
         GreekNode gn = new GreekNode(hdrElem)
         compositeIliad.append('<?xml version="1.0" encoding="UTF-8"?>\n', "UTF-8")
         compositeIliad.append('<TEI  xmlns="http://www.tei-c.org/ns/1.0">\n', "UTF-8")

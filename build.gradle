@@ -520,11 +520,10 @@ artifacts {
 /*
     hmtEditions tabulated
     hmtEditions tokens
-
+*/
     hmtEditions collections
     hmtEditions indices
     hmtEditions images
-*/
 }
 
 
