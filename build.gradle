@@ -11,7 +11,6 @@ using local classes:
 
 
 *  From buildSrc tree, depends on:
-*   - IndexScholia
 *   - TabulateTask
 *   - TokenizeTask
 *   - OrderTokensTask
@@ -509,14 +508,13 @@ task tokens(type: Zip, dependsOn: tokenize) {
 */
 
 
-
-/*
 task cite (dependsOn : [editions, collections, indices, images]) {
     doLast {
         println "Built zip files of all HMT CITE archives."
     }
 }
-*/
+
+
 artifacts {
     hmtEditions editions
 /*
