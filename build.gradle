@@ -306,7 +306,7 @@ task furmanEditions (type: Copy) {
     into "${buildDir}/${archiveDir}/Furman"
 }
 
-/* Can add venAOther when those texts are ready. */
+// Can add venAOther when those texts are ready.
 task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
     description = "Builds zip file of all Venetus A documents."
     classifier = "venaxml"
@@ -322,7 +322,7 @@ task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msA
 
 
 
-/* Can add dependencies on other MSS where we have tasks for them. */
+// Can add dependencies on other MSS when we have tasks for them.
 task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
     description="Builds zip file of all edited manuscripts."
     classifier = 'editions'
@@ -340,16 +340,18 @@ task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
 /* **** Tasks for secondary processing of composite editions   ******* */
 /* ******************************************************************* */
 
-/*
-task indexVenetusAScholia (type: IndexScholiaTask) {
+
+task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
     description="Generates tsv relating scholia to Iliad passage commented on."
-    srcEditions = "editions/VenetusA/Scholia"
-    outputDirectory = "cite/indices"
-    outputFile = "scholiaToIliad.tsv"
-    iliadUrnString = "urn:cts:greekLit:tlg0012.tlg001.msA"
-    versionStr = "hmt"
+    main = "org.homermultitext.ScholiaIndexer"
+
+    args = ["editions/VenetusA/Scholia","cite/indices","scholiaToIliad.tsv",
+        "urn:cts:greekLit:tlg0012.tlg001.msA", "hmt" ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
 }
-*/
+
 
 /*
 task tabFiles(type: TabulateTask, dependsOn: editions) {
@@ -418,7 +420,7 @@ task setupTokens (type: Copy) {
 }
 
 
-// MOVE THIS TO A DSE TASK
+// MOVE THIS TO A hocuspocus TASK
 /*
 task tokenize(type: TokenizeTask, dependsOn: [tabulated, setupTokens]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"

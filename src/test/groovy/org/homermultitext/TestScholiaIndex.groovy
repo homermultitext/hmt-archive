@@ -23,5 +23,9 @@ class TestScholiaIndex extends GroovyTestCase {
             outputDir.mkdir()
         }
         ScholiaIndexer indexer = new ScholiaIndexer(xmlDir, outputDir,indexFileName, iliad,version)
+
+        indexer.writeIndex()
+
     }
+
 }
