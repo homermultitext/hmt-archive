@@ -230,7 +230,7 @@ task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileG
 
 
 
-
+// Venetus A, later scholia
 task msALaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand"
     from ('teiHeaders/VenetusA')
@@ -254,6 +254,7 @@ task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, co
     description = "Compiles and validates complete edition of Venetus A later scholia"
 
 
+// Venetus A, later intermarginal scholia
 task msAimLaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand in intermarginal position"
     from ('teiHeaders/VenetusA')
@@ -305,13 +306,11 @@ task furmanEditions (type: Copy) {
     into "${buildDir}/${archiveDir}/Furman"
 }
 
-// Can add venAOther when those texts are ready.
 task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
     description = "Builds zip file of all Venetus A documents."
     classifier = "venaxml"
     from(file("${buildDir}/${archiveDir}/VenetusA"))
     into('venetus-A-xml')
-
 
     include("**/*.xml", "README.md")
     doLast {
@@ -352,14 +351,21 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
 }
 
 
-/*
-task tabFiles(type: TabulateTask, dependsOn: editions) {
+task tabFiles (type: JavaExec, dependsOn : "compileGroovy") {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
-    archiveDirectory = "${buildDir}/${archiveDir}"
-    textInventory = "${buildDir}/${archiveDir}/inventory.xml"
-    outputDirectory = "${buildDir}/tabulated"
+    main = "org.homermultitext.Tabulator"
+    args =[]
+    //args = ["editions/VenetusA/Scholia","cite/indices","scholiaToIliad.tsv",
+//        "urn:cts:greekLit:tlg0012.tlg001.msA", "hmt" ]
+
+//    archiveDirectory = "${buildDir}/${archiveDir}"
+//    textInventory = "${buildDir}/${archiveDir}/inventory.xml"
+//    outputDirectory = "${buildDir}/tabulated"
+
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
 }
-*/
 
 task setupTabs (type: Copy) {
     description = "Generates README to accompany tabulated versions of HMT editions."
@@ -371,20 +377,19 @@ task setupTabs (type: Copy) {
     into "${buildDir}/tabulated"
 }
 
-/*
+
 task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
     description = "Creates zip package of all HMT editions in tabular format."
     classifier = 'tabulated'
     from (file("${buildDir}/tabulated"))
-FIX WHEN UNCOMMENDING
-    include("** /*.txt", "** /*.md")
+    include("**/*.txt", "**/*.md")
     baseName = "hmt-editions"
     doLast {
         System.err.println "Tabulated version of all XML editions compiled in zip file hmt-editions-tabulated"
     }
 
 }
-*/
+
 
 task setUpTurtle(type: Copy) {
     description = "Generates README to accompany RDF version of HMT editions."
@@ -493,6 +498,7 @@ FIX WHEN UNCOMMENITNG
     }
 }
 */
+
 
 
 /*
