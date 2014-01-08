@@ -29,55 +29,34 @@ class HmtTokenizer {
         this.ttlFile = ttl
     }
 
-    /** Uses a hocuspocus Corpus to tabulate the entire repository.
-    *  @throws Exception if outputDirectory does not exist and cannot
-    *  be created.
-    */
-    void tabulate()  
-    throws Exception {
-        Corpus c = new Corpus(textInventory, archiveDirectory)
-        try  {
-            if (! outputDirectory.exists()) {
-                outputDirectory.mkdir()
-            } 
-        } catch (Exception e) {
-            System.err.println "Tabulator:  could not make output directory ${outputDirectory}"
-            throw e
-        }
-        c.tabulateRepository(outputDirectory)
+    void tokenize() {
+        System.err.println "TOKENIZE HERE"
     }
 
-    /** Creates a Tabulator object and creates tabular representation of all texts.
+
+
+    /** Creates an HmtTokenizer object and tokenizes tabular files
     */
     public static void main(String[] args) 
     throws Exception {
-
-        if (args.size() != 3) {
-            System.err.println "usage: Tabulator ARCHIVEDIR TEXTINVENTORY OUTPUTDIR"
+        if (args.size() != 2) {
+            System.err.println "usage: HmtTokenizer TABDIR OUTPUTFILE"
             System.exit(-1)
         }
 
         File src
-        //TextInventory ti
-        File tiFile
-        File outputDir 
-
+        File outFile
 
         try {
             src = new File (args[0])
-            tiFile = new File(args[1])
-            //ti = new TextInventory(tiFile)
-            outputDir = new File(args[2])
-            if (! outputDir.exists()) {
-                outputDir.mkdir()
-            }
+            outFile = new File(args[1])
+
         } catch (Exception e) {
             System.err.println "Tabulator main method: Bad param or params: ${args}"
             throw e
         }
-        Tabulator tab = new Tabulator(src, tiFile, outputDir)
-        tab.tabulate()
-
+        HmtTokenizer ht = new HmtTokenizer(src,outFile)
+        ht.tokenize()
     }
     /* end main method */
 
