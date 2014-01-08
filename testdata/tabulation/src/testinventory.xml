@@ -65,9 +65,9 @@
   
 <textgroup urn="urn:cts:greekLit:tlg7000">
   <groupname xml:lang="eng">The Greek Anthology</groupname>
-    <work xml:lang="grc" urn="urn:cts:greekLit:tlg001">
+    <work xml:lang="grc" urn="urn:cts:greekLit:tlg7000.tlg001">
     <title xml:lang="eng">The Anthology</title>
-      <edition urn="urn:cts:greekLit:msA">
+      <edition urn="urn:cts:greekLit:tlg7000.tlg001.msA">
       <label xml:lang="eng">VenetusA</label>
         <description xml:lang="eng">Metrical summaries of each book [= 9.385], and an epigram
         attributed to Hadrian [= 9.387], from the Venetus A manuscript (Marciana 454 = 822)</description>

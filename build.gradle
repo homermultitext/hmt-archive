@@ -354,13 +354,7 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
 task tabFiles (type: JavaExec, dependsOn : "compileGroovy") {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
     main = "org.homermultitext.Tabulator"
-    args =[]
-    //args = ["editions/VenetusA/Scholia","cite/indices","scholiaToIliad.tsv",
-//        "urn:cts:greekLit:tlg0012.tlg001.msA", "hmt" ]
-
-//    archiveDirectory = "${buildDir}/${archiveDir}"
-//    textInventory = "${buildDir}/${archiveDir}/inventory.xml"
-//    outputDirectory = "${buildDir}/tabulated"
+    args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tabulated"]	
 
 
     classpath sourceSets.main.output.classesDir
@@ -401,7 +395,7 @@ task setUpTurtle(type: Copy) {
     into "${buildDir}/rdf"
 }
 
-/*
+
 task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
     description = "Use hocuspocus to create a full rdf representation of the archive suitable for import into a CTS"
     main = "org.homermultitext.TextArchive"
@@ -410,7 +404,7 @@ task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
-*/
+
 
 /* Corpus-wide tokenization */
 task setupTokens (type: Copy) {
@@ -431,7 +425,18 @@ task tokenize(type: TokenizeTask, dependsOn: [tabulated, setupTokens]) {
     tabDir (file("${buildDir}/tabulated"))
     tokensFile (file("${buildDir}/tokens/tokens.ttl"))
 }
+
+task tokens(type: Zip, dependsOn: tokenize) {
+    description = "Packages tokenization TTL"
+    classifier = 'tokens'
+    from (file("${buildDir}/tokens"))
+    baseName = "hmt-editions"
+    doLast {
+        System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
+    }
+}
 */
+
 
 
 
@@ -485,33 +490,19 @@ task indices(type: Zip, dependsOn: [setUpIndices]) {
 
 }
 
-/*
+
 task rdf(type: Zip, dependsOn: [ctsttl, setUpTurtle]) {
     description = "Creates zip package of all HMT editions in TTL format."
     classifier = 'rdf'
     from (file("${buildDir}/rdf"))
-FIX WHEN UNCOMMENITNG
-    include("** / *.ttl", "README.md")
+    include("**/*.ttl", "README.md")
     baseName = "hmt-editions"
     doLast {
         System.err.println "RDF (TTL) version of all XML editions compiled in zip file hmt-editions-rdf"
     }
 }
-*/
 
 
-
-/*
-task tokens(type: Zip, dependsOn: tokenize) {
-    description = "Packages tokenization TTL"
-    classifier = 'tokens'
-    from (file("${buildDir}/tokens"))
-    baseName = "hmt-editions"
-    doLast {
-        System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
-    }
-}
-*/
 
 
 task cite (dependsOn : [editions, collections, indices, images]) {
@@ -523,8 +514,8 @@ task cite (dependsOn : [editions, collections, indices, images]) {
 
 artifacts {
     hmtEditions editions
-/*
     hmtEditions tabulated
+/*
     hmtEditions tokens
 */
     hmtEditions collections
@@ -542,7 +533,7 @@ uploadArchives {
 }
 
 
-/*
+
 uploadHmtEditions {
     repositories.mavenDeployer {
         repository(url: nexusRepo) {                   
@@ -554,8 +545,8 @@ uploadHmtEditions {
     }
 }
 
-test.dependsOn editions
-*/
+//test.dependsOn editions
+
 
 /* Always buildArchives from a completely clean state */
 buildArchives.dependsOn clean

@@ -2,7 +2,7 @@
 package  org.homermultitext
 
 
-import edu.harvard.chs.cite.CtsUrn
+import edu.harvard.chs.cite.TextInventory
 
 import static org.junit.Assert.*
 import org.junit.Test
@@ -11,15 +11,23 @@ import org.junit.Test
 */
 class TestTabulate extends GroovyTestCase {
 
-    File xmlDir = new File("testdata/Scholia")
+    File xmlDir = new File("testdata/tabulation/src")
     File outputDir = new File("build")
-    String indexFileName = "testScholiaIndex.tsv"
-    CtsUrn iliad = new CtsUrn("urn:cts:greekLit:tlg0012.tlg001.msA")
-    String version = "hmt"
+    File tiFile = new File ("testdata/tabulation/src/testinventory.xml")
+
+
+    //TextInventory ti 
 
     @Test
     void testTabulating() {
-        Tabulator tab = new Tabulator()
+      
+//        ti = new TextInventory(tiFile)
+
+        if (!outputDir.exists()) {
+            outputDir.mkdir()
+        }
+        Tabulator tab = new Tabulator(xmlDir,tiFile,outputDir)
+        tab.tabulate()
     }
 
 }
