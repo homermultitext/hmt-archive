@@ -11,7 +11,7 @@ import org.junit.Test
 */
 class TestTabulate extends GroovyTestCase {
 
-    File xmlDir = new File("testdata/tabulation/src")
+    File xmlDir = new File("testdata/tabulation/src/xml")
     File outputDir = new File("build/tabtest")
     File tiFile = new File ("testdata/tabulation/src/testinventory.xml")
 

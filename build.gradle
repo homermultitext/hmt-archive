@@ -1,8 +1,5 @@
 import org.apache.tools.ant.filters.*
-import java.text.Normalizer
-//import edu.harvard.chs.cite.CtsUrn
-//import edu.holycross.shot.hocuspocus.Corpus
-
+//import java.text.Normalizer
 
 /* hmtarchive project.
 
@@ -11,7 +8,6 @@ using local classes:
 
 
 *  From buildSrc tree, depends on:
-*   - TabulateTask
 *   - TokenizeTask
 *   - OrderTokensTask
 *
@@ -277,7 +273,6 @@ task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme
 
 
 
-
 task inv (type: Copy) {
     description = "Copies text inventory and README into build area."
     from ("inventories")
@@ -383,7 +378,6 @@ task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
     }
 
 }
-
 
 task setUpTurtle(type: Copy) {
     description = "Generates README to accompany RDF version of HMT editions."

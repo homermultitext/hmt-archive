@@ -12,16 +12,15 @@ import edu.harvard.chs.cite.*
 */
 class TestCorpus extends GroovyTestCase {
 
-    void testCorpus() {
-        File archiveDir  = new File("build/editions/archive")
-        File invFile = new File("build/editions/archive/inventory.xml")
-        TextArchive ta = new TextArchive(invFile, archiveDir)        
 
-        // because we put inventory.xml inside the archive:
-        shouldFail {
-            assert ta.corpus.filesAndInventoryMatch()
-        }
-        def extraFileList = ["inventory.xml"]
-        assert ta.corpus.inventoriedMissingFromInventory() == extraFileList
+    File xmlDir = new File("testdata/tabulation/src/xml")
+    File tiFile = new File ("testdata/tabulation/src/testinventory.xml")
+    TextArchive ta = new TextArchive(tiFile, xmlDir)        
+
+
+    void testCorpus() {
+        System.err.println "In archive: " + ta.corpus.filesInArchive()
+        System.err.println "In inventory: " + ta.corpus.filesInInventory()
+        assert ta.corpus.filesAndInventoryMatch()
     }
 }
