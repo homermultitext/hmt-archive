@@ -59,7 +59,6 @@ class HmtTabulator {
         }
 
         File src
-        //TextInventory ti
         File tiFile
         File outputDir 
 

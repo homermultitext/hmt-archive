@@ -15,11 +15,11 @@ class TestTokenize extends GroovyTestCase {
 
     File xmlDir = new File("testdata/tabulation/src/xml")
     File tiFile = new File ("testdata/tabulation/src/testinventory.xml")
-    File outputDir = new File("build/tabtest")
+    File outputDir = new File("build")
     File outputFile = new File("build/testtokens.ttl")
 
 
-    File tabResults  = new File("build/tabtest/VenetusA-Hadrian-Epigram-00001.txt")
+    File tabResults  = new File("build/VenetusA-Hadrian-Epigram-00001.txt")
 
 
     @Test
@@ -41,8 +41,13 @@ class TestTokenize extends GroovyTestCase {
         assert tabResults.readLines().size() == expectedLines
 
         /* Tokenize with HMT Greek tokenizer: */
-        HmtTokenizer tokenizer = new HmtTokenizer(outputDir, outputFile)
+        HmtTokenizer tokenizer = new HmtTokenizer(xmlDir,tiFile,outputDir, outputFile)
         tokenizer.tokenize()
+
+
+        Integer expectedTokens = 39
+        File results = new File("${outputDir}/tokens.txt")
+        assert results.readLines().size() == expectedTokens
     }
 
 }
