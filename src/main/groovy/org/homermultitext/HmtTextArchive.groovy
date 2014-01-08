@@ -4,22 +4,20 @@ import edu.holycross.shot.hocuspocus.Corpus
 import edu.harvard.chs.cite.TextInventory
 import edu.harvard.chs.cite.CtsUrn
 
-import edu.harvard.chs.f1k.GreekNode
+//import edu.harvard.chs.f1k.GreekNode
 
-
-
-class TextArchive {
+class HmtTextArchive {
 
     Corpus corpus
 
-    TextArchive(File ti, archiveDir) {
+    HmtTextArchive(File ti, archiveDir) {
         this.corpus = new Corpus(ti,archiveDir)
     }
 
     public static void main(String[] args) 
     throws Exception {
         if (args.size() != 4) {
-            System.err.println "usage: TextArchive TEXTINVENTORY ARCHIVEDIR TABDIR RDFDIR"
+            System.err.println "usage: HmtTextArchive TEXTINVENTORY ARCHIVEDIR TABDIR RDFDIR"
             System.exit(-1)
         }
         File inv
@@ -36,7 +34,7 @@ class TextArchive {
                 outputDir.mkdir()
             }
         } catch (Exception e) {
-            System.err.println "TextArchive main method: Bad param or params: ${args}"
+            System.err.println "HmtTextArchive main method: Bad param or params: ${args}"
             throw e
         }
         Corpus c = new Corpus (inv, archiveDirectory)

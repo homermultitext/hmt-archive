@@ -8,7 +8,7 @@ import org.apache.commons.io.FilenameUtils
 
 /**
 */
-class Tabulator {
+class HmtTabulator {
 
     /** Namespace object for TEI */
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
@@ -23,7 +23,7 @@ class Tabulator {
     Integer debug = 1
 
 
-    Tabulator(File srcDir, File textInventory, File outDir) {
+    HmtTabulator(File srcDir, File textInventory, File outDir) {
         this.archiveDirectory = srcDir
         this.textInventory = textInventory
         this.outputDirectory = outDir
@@ -42,19 +42,19 @@ class Tabulator {
                 outputDirectory.mkdir()
             } 
         } catch (Exception e) {
-            System.err.println "Tabulator:  could not make output directory ${outputDirectory}"
+            System.err.println "HmtTabulator:  could not make output directory ${outputDirectory}"
             throw e
         }
         c.tabulateRepository(outputDirectory)
     }
 
-    /** Creates a Tabulator object and creates tabular representation of all texts.
+    /** Creates a HmtTabulator object and creates tabular representation of all texts.
     */
     public static void main(String[] args) 
     throws Exception {
 
         if (args.size() != 3) {
-            System.err.println "usage: Tabulator ARCHIVEDIR TEXTINVENTORY OUTPUTDIR"
+            System.err.println "usage: HmtTabulator ARCHIVEDIR TEXTINVENTORY OUTPUTDIR"
             System.exit(-1)
         }
 
@@ -73,10 +73,10 @@ class Tabulator {
                 outputDir.mkdir()
             }
         } catch (Exception e) {
-            System.err.println "Tabulator main method: Bad param or params: ${args}"
+            System.err.println "HmtTabulator main method: Bad param or params: ${args}"
             throw e
         }
-        Tabulator tab = new Tabulator(src, tiFile, outputDir)
+        HmtTabulator tab = new HmtTabulator(src, tiFile, outputDir)
         tab.tabulate()
 
     }
