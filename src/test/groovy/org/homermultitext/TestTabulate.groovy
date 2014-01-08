@@ -12,22 +12,29 @@ import org.junit.Test
 class TestTabulate extends GroovyTestCase {
 
     File xmlDir = new File("testdata/tabulation/src")
-    File outputDir = new File("build")
+    File outputDir = new File("build/tabtest")
     File tiFile = new File ("testdata/tabulation/src/testinventory.xml")
 
-
-    //TextInventory ti 
+    File results  = new File("build/tabtest/VenetusA-Hadrian-Epigram-00001.txt")
 
     @Test
     void testTabulating() {
-      
-//        ti = new TextInventory(tiFile)
-
-        if (!outputDir.exists()) {
+        File buildDir = new File ("build")
+        if (! buildDir.exists()) {
+            buildDir.mkdir()
+        }
+        if (! outputDir.exists()) {
             outputDir.mkdir()
         }
         Tabulator tab = new Tabulator(xmlDir,tiFile,outputDir)
         tab.tabulate()
+        Integer expectedLines = 7
+        Integer actualLines = 0
+        results.eachLine {
+            actualLines++
+        }
+        assert expectedLines == actualLines
+
     }
 
 }
