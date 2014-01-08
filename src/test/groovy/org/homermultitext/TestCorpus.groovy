@@ -15,7 +15,7 @@ class TestCorpus extends GroovyTestCase {
 
     File xmlDir = new File("testdata/tabulation/src/xml")
     File tiFile = new File ("testdata/tabulation/src/testinventory.xml")
-    TextArchive ta = new TextArchive(tiFile, xmlDir)        
+    HmtTextArchive ta = new HmtTextArchive(tiFile, xmlDir)        
 
 
     void testCorpus() {

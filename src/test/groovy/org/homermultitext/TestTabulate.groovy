@@ -26,7 +26,7 @@ class TestTabulate extends GroovyTestCase {
         if (! outputDir.exists()) {
             outputDir.mkdir()
         }
-        Tabulator tab = new Tabulator(xmlDir,tiFile,outputDir)
+        HmtTabulator tab = new HmtTabulator(xmlDir,tiFile,outputDir)
         tab.tabulate()
         Integer expectedLines = 7
         Integer actualLines = 0

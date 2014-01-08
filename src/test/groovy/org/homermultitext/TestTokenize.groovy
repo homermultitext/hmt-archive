@@ -2,7 +2,9 @@
 package  org.homermultitext
 
 
-import edu.harvard.chs.cite.TextInventory
+
+import edu.holycross.shot.hocuspocus.HmtGreekTokenization
+//import edu.holycross.shot.hocuspocus.Tabulator
 
 import static org.junit.Assert.*
 import org.junit.Test
@@ -11,25 +13,36 @@ import org.junit.Test
 */
 class TestTokenize extends GroovyTestCase {
 
-    File tabulatedDir = new File("testdata/tabulation/")
+    File xmlDir = new File("testdata/tabulation/src/xml")
+    File tiFile = new File ("testdata/tabulation/src/testinventory.xml")
+    File outputDir = new File("build/tabtest")
     File outputFile = new File("build/testtokens.ttl")
 
+
+    File tabResults  = new File("build/tabtest/VenetusA-Hadrian-Epigram-00001.txt")
+
+
     @Test
-    void testTokenizing() {
+    void testTokenizingSoupToNuts() {
         File buildDir = new File ("build")
         if (! buildDir.exists()) {
             buildDir.mkdir()
         }
-
-        Tabulator tab = new Tabulator(xmlDir,tiFile,outputDir)
-        tab.tabulate()
-        Integer expectedLines = 7
-        Integer actualLines = 0
-        results.eachLine {
-            actualLines++
+        if (! outputDir.exists()) {
+            outputDir.mkdir()
         }
-        assert expectedLines == actualLines
 
+        /* Generate from source files a tabulate file to tokenize: */
+        HmtTabulator tab = new HmtTabulator(xmlDir,tiFile,outputDir)
+        tab.tabulate()
+
+
+        Integer expectedLines = 7
+        assert tabResults.readLines().size() == expectedLines
+
+        /* Tokenize with HMT Greek tokenizer: */
+        HmtTokenizer tokenizer = new HmtTokenizer(outputDir, outputFile)
+        tokenizer.tokenize()
     }
 
 }

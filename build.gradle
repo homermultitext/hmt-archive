@@ -1,5 +1,4 @@
 import org.apache.tools.ant.filters.*
-//import java.text.Normalizer
 
 /* hmtarchive project.
 
@@ -348,7 +347,7 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
 
 task tabFiles (type: JavaExec, dependsOn : "compileGroovy") {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
-    main = "org.homermultitext.Tabulator"
+    main = "org.homermultitext.HmtTabulator"
     args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tabulated"]	
 
 
@@ -412,13 +411,15 @@ task setupTokens (type: Copy) {
 }
 
 
-// MOVE THIS TO A hocuspocus TASK
-/*
-task tokenize(type: TokenizeTask, dependsOn: [tabulated, setupTokens]) {
+task tokenize(type: JavaExec, dependsOn: [compileGroovy, tabulated, setupTokens]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
-    tabDir (file("${buildDir}/tabulated"))
-    tokensFile (file("${buildDir}/tokens/tokens.ttl"))
+    main = "org.homermultitext.HmtTokenizer"
+    args = ["${buildDir}/tabulated", "${buildDir}/tokens/tokens.ttl"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
 }
+
 
 task tokens(type: Zip, dependsOn: tokenize) {
     description = "Packages tokenization TTL"
@@ -429,7 +430,7 @@ task tokens(type: Zip, dependsOn: tokenize) {
         System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
     }
 }
-*/
+
 
 
 
