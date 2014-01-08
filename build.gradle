@@ -410,15 +410,10 @@ task setupTokens (type: Copy) {
     into "${buildDir}/tokens"
 }
 
-
 task tokenize(type: JavaExec, dependsOn: [compileGroovy, tabulated, setupTokens]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     main = "org.homermultitext.HmtTokenizer"
-//    args = ["${buildDir}/tabulated", "${buildDir}/tokens/tokens.ttl"]
     args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tabulated", "${buildDir}/tokens/tokens.ttl"]	
-
-
-
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime

@@ -20,19 +20,14 @@ class HmtTokenizer {
     /** Directory containing .txt files with tabulated representation of texts */
     File tabulatedDirectory
 
-    /** Writable file where TTL output can be written. */
-    File ttlFile
-
-
     /** Verbosity level 0-3 of debugging output */
     Integer debug = 1
 
 
-    HmtTokenizer(File srcDir, File textInventory, File outDir, File ttlOutput) {
+    HmtTokenizer(File srcDir, File textInventory, File outDir) {
         this.archiveDirectory = srcDir
         this.textInventory = textInventory
         this.tabulatedDirectory = outDir
-        this.ttlFile = ttlOutput
     }
 
     void tokenize() 
@@ -57,15 +52,14 @@ class HmtTokenizer {
     */
     public static void main(String[] args) 
     throws Exception {
-        if (args.size() != 4) {
-            System.err.println "usage: HmtTokenizer ARCHIVEDIR TEXTINVENTORY OUTPUTDIR TTLFILE"
+        if (args.size() != 3) {
+            System.err.println "usage: HmtTokenizer ARCHIVEDIR TEXTINVENTORY OUTPUTDIR "
             System.exit(-1)
         }
 
         File src
         File tiFile
         File outputDir 
-        File ttl
 
         try {
             src = new File (args[0])
@@ -74,15 +68,12 @@ class HmtTokenizer {
             if (! outputDir.exists()) {
                 outputDir.mkdir()
             }
-            ttl = new File(args[3])
         } catch (Exception e) {
             System.err.println "HmtTabulator main method: Bad param or params: ${args}"
             throw e
         }
 
-
-
-        HmtTokenizer ht = new HmtTokenizer(src,tiFile,outputDir,ttl)
+        HmtTokenizer ht = new HmtTokenizer(src,tiFile,outputDir)
         ht.tokenize()
     }
     /* end main method */
