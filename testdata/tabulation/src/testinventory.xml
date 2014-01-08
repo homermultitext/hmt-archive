@@ -1,0 +1,105 @@
+<?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory
+  tiid="hmt"
+  tiversion="4.0"
+  xmlns="http://chs.harvard.edu/xmlns/cts/ti"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <ctsnamespace
+    abbr="greekLit"
+    ns="chs.harvard.edu/ctsns/greekLit">
+    <description
+      xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory of Greek
+      texts. </description>
+  </ctsnamespace>
+  
+  <collection
+    id="mth"
+    isdefault="yes">
+    <dc:title
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1">Editions of texts created for the Homer Multitext
+      project.</dc:title>
+    <dc:creator
+      xmlns="http://purl.org/dc/elements/1.1"> Christopher W. Blackwell </dc:creator>
+    <dc:creator
+      xmlns="http://purl.org/dc/elements/1.1"> Neel Smith </dc:creator>
+    <dc:coverage
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1">All texts currently released through the HMT project's
+      Nexus repository, and only those texts. </dc:coverage>
+    <dc:description
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1">Diplomatic editions of texts from papyrus and
+      manuscript sources including texts of the Iliad. </dc:description>
+    <dc:rights
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Licensed under the terms of the Creative Commons
+      Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0). </dc:rights>
+  </collection>
+  <collection
+    id="manuscripts"
+    isdefault="no">
+    <dc:title
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Manuscripts </dc:title>
+    <dc:creator
+      xmlns="http://purl.org/dc/elements/1.1"> Neel Smith </dc:creator>
+    <dc:creator
+      xmlns="http://purl.org/dc/elements/1.1"> Christopher W. Blackwell </dc:creator>
+    <dc:coverage
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Diplomatic editions of Byzantine and Medieval
+      manuscripts in the Homer Multitext project's published editions. </dc:coverage>
+    <dc:description
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1">Diplomatic editions of Byzantine and Medieval
+      manuscripts in the Homer Multitext project's published editions. </dc:description>
+    <dc:rights
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1">Licensed under the terms of the Creative Commons
+      Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0). </dc:rights>
+  </collection>
+    
+  
+    
+  
+<textgroup urn="urn:cts:greekLit:tlg7000">
+  <groupname xml:lang="eng">The Greek Anthology</groupname>
+    <work xml:lang="grc" urn="urn:cts:greekLit:tlg001">
+    <title xml:lang="eng">The Anthology</title>
+      <edition urn="urn:cts:greekLit:msA">
+      <label xml:lang="eng">VenetusA</label>
+        <description xml:lang="eng">Metrical summaries of each book [= 9.385], and an epigram
+        attributed to Hadrian [= 9.387], from the Venetus A manuscript (Marciana 454 = 822)</description>
+        <online
+          docname="VenetusA-Hadrian-Epigram.xml">
+          <validate
+            schema="chstei.rng"/>
+          <namespaceMapping
+            abbreviation="tei"
+            nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+              label="book"
+              scope="/tei:TEI/tei:text/tei:body"
+              xpath="/tei:div[@n = '?']">
+              <citation
+                label="poem"
+                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:div[@n = '?']">
+                
+                <citation label="line" xpath="/tei:l[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+              </citation>
+              
+            </citation>
+          </citationMapping>
+        </online>
+        
+        
+      </edition>
+      
+      
+    </work>
+  </textgroup>
+
+ </TextInventory>
