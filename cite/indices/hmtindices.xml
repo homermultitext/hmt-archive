@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/repos/hmt-bitbucket/hmtxml/cite/indices/CiteIndexInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
+    <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
+    <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="compGraphics.csv"></source>
+    </index>
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="graphicsToImage.csv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="signsToProclus.tsv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="proclusToImage.tsv"></source>
+    </index>
+
+    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
+        <source type="file" value="comparetti-defaultImg.tsv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="vaFolio-compImage.tsv"></source>
+    </index>
+    
+    <index verb="hmt:reuses" inverse="cite:isReusedBy">
+        <source type="file" value="quotations.tsv"></source>
+    </index>
+
+    <index verb="hmt:reuses" inverse="cite:isReusedBy">
+        <source type="file" value="proclusToReuse.tsv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="compFolio-compImage.tsv"></source>
+    </index>
+    
+    <index verb="hmt:editStatus" inverse="hmt:statusOf">
+    <source type="file" value="thermometer.csv"/>
+    </index>
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="shipsToImage.csv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="captionsToImage.csv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="pageToImage.csv"></source>
+    </index>
+
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="folioToImage.tsv"></source>
+    </index>
+    
+
+    <index verb="cite:illustrates" inverse="cite:illustratedBy">
+        <source type="file" value="imageToE4.tsv"></source>
+    </index>
+
+    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
+        <source type="file" value="folioToOverviewImage.csv"></source>
+    </index>
+    
+    
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="scholiaToIliad.tsv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="linesToImage-9.csv"></source>
+    </index>
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="linesToImage-4.csv"></source>
+    </index>
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="linesToImage-7.csv"></source>
+    </index>
+    
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="scholiaToImgIndex.tsv"></source>
+    </index>
+    
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="textUrnToFolio.tsv"></source>
+    </index>
+
+
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="scholiaToFolio.tsv"></source>
+    </index>
+
+
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="criticalsignToFolio.tsv"></source>
+    </index>
+
+
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="criticalsignToText.tsv"></source>
+    </index>
+
+
+</indexInventory>
