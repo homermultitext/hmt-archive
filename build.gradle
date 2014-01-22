@@ -1,15 +1,10 @@
 import org.apache.tools.ant.filters.*
 
 /* hmtarchive project.
-
-Replace the following build tasks with JavaExec tasks
-using local classes:
-
-
-*  From buildSrc tree, depends on:
-*   - OrderTokensTask
-*
-*/
+ *
+ *  From old buildSrc tree, consider: OrderTokensTask ?
+ *
+ */
 apply plugin: "base"
 apply plugin:  "groovy"
 apply plugin:  "maven"
