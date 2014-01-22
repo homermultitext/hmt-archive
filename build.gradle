@@ -516,7 +516,31 @@ task imgttl (type: JavaExec, dependsOn: compileGroovy) {
 
 
 
-task rdf(type: Zip, dependsOn: [ctsttl, imgttl, setUpTurtle]) {
+task ccttl (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Generates RDF for Collections configured for prestochango"
+    main = "org.homermultitext.HmtCollectionTurtleizer"
+    args = ["cite/collections/hmtcollections.xml", "http://www.homermultitext.org/hmtschemas/collections/CiteCollectionService.rng", "cite/collections", "${buildDir}/rdf"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+
+task idxttl (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Generates RDF for indices configured for abracadabra"
+    main = "org.homermultitext.HmtIndexTurtleizer"
+    args = ["${idxinv}", "${idxarchive}", "${buildDir}/ttl", "indices.ttl", "${prefix}"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+}
+
+
+
+
+
+task rdf(type: Zip, dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
     description = "Creates zip package of all HMT editions in TTL format."
     classifier = 'rdf'
     from (file("${buildDir}/rdf"))
@@ -527,36 +551,10 @@ task rdf(type: Zip, dependsOn: [ctsttl, imgttl, setUpTurtle]) {
     }
 }
 
-
 ///////////////////////////////////////////////////////////////////////////
 
 
 
-/*
-
-
-task ccttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for Collections configured for prestochango"
-    main = "org.homermultitext.citemanager.PrestochangoTurtleizer"
-    args = ["${collinv}", "${collectionInvUrl}", "${collarchive}", "${buildDir}/ttl", "${prefix}"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-
-}
-
-
-task idxttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for indices configured for abracadabra"
-    main = "org.homermultitext.citemanager.AbracadabraTurtleizer"
-    args = ["${idxinv}", "${idxarchive}", "${buildDir}/ttl", "indices.ttl", "${prefix}"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-
-}
-
-*/
 
 /*
 task ttl (dependsOn: [ctsttl, imgttl, ccttl, idxttl]) {
