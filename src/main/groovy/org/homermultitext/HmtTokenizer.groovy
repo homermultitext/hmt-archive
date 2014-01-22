@@ -33,14 +33,18 @@ class HmtTokenizer {
     void tokenize() 
     throws Exception {
         Corpus c = new Corpus(textInventory, archiveDirectory)
+	def tokenSystemMap = ["grc" : "edu.holycross.shot.hocuspocus.HmtGreekTokenization"]
+	c.languageToTokenSystemMap = tokenSystemMap.clone()
+
         try  {
             if (! outputDirectory.exists()) {
                 outputDirectory.mkdir()
             } 
         } catch (Exception e) {
-            System.err.println "HmtTabulator:  could not make output directory ${tabulatedDirectory}"
+            System.err.println "HmtTokenizer:  could not make output directory ${this.outputDirectory}"
             throw e
         }
+	System.out.println "Beginning to tokenize entire repository:  please be patient."
         c.tokenizeRepository(this.outputDirectory)
     }
 

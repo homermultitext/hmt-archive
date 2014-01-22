@@ -294,13 +294,9 @@ task furmanEditions (type: Copy) {
     into "${buildDir}/${archiveDir}/Furman"
 }
 
-task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
-    description = "Builds zip file of all Venetus A documents."
-    classifier = "venaxml"
-    from(file("${buildDir}/${archiveDir}/VenetusA"))
-    into('venetus-A-xml')
+//task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
 
-    include("**/*.xml", "README.md")
+task venetusA(dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
     doLast {
         System.err.println "All venetusA texts validate syntactically."
     }
@@ -311,9 +307,10 @@ task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msA
 // Can add dependencies on other MSS when we have tasks for them.
 task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
     description="Builds zip file of all edited manuscripts."
-    classifier = 'editions'
+    classifier = 'xml'
+    baseName = "hmt-editions"
     from(file("${buildDir}/${archiveDir}"))
-     include("**/*.xml", "**/README.md")
+    include("**/*.xml", "**/README.md")
     doLast {
         System.err.println "All Venetus A texts validate syntactically, and are compiled in zip file hmtarchive-VERSION-editions.zip."
     }
@@ -506,6 +503,7 @@ artifacts {
     hmtEditions collections
     hmtEditions indices
     hmtEditions images
+    hmtEditions rdf
 }
 
 
