@@ -529,7 +529,7 @@ task ccttl (type: JavaExec, dependsOn: compileGroovy) {
 task idxttl (type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates RDF for indices configured for abracadabra"
     main = "org.homermultitext.HmtIndexTurtleizer"
-    args = ["${idxinv}", "${idxarchive}", "${buildDir}/ttl", "indices.ttl", "${prefix}"]
+    args = ["cite/indices/hmtindices.xml", "cite/indices", "${buildDir}/rdf", "indices.ttl"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
