@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    xmlns:cite="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <start>
+        <element
+            name="cite:collectionService">
+            <zeroOrMore>
+            <element name="cite:extensionImplementation">
+                <attribute name="name"></attribute>
+                <attribute name="baseUrl"></attribute>
+            </element>
+            </zeroOrMore>
+            <oneOrMore>
+                <externalRef href="CiteCollection.rng"></externalRef>
+            </oneOrMore>
+        </element>
+    </start>
+</grammar>

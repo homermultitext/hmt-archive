@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    xmlns:cite="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
+    <define name="citedatachoice">
+        <choice>
+            <value>string</value>
+            <value>number</value>
+            <value>boolean</value>
+            <value>datetime</value>
+            <!-- The following will map to String or Text in many back-end systems -->
+            <value>citeurn</value>
+            <value>ctsurn</value>
+            <value>citeimg</value>
+            <value>markdown</value>
+            
+            <!-- Special editorial metadata types -->
+            <value>authuser</value>
+            <!-- This should map to a date-time object of some sort -->
+           <value>timestamp</value>
+            
+        </choice>
+    </define>
+    
+    <define
+        name="metadata">
+        <optional>
+            <element
+                name="dc:title">
+                <text/>
+            </element>
+        </optional>
+        <zeroOrMore>
+            <element
+                name="dc:creator">
+                <text/>
+            </element>
+        </zeroOrMore>
+        <optional>
+            <element
+                name="dc:coverage">
+                <text/>
+            </element>
+        </optional>
+        <optional>
+            <element
+                name="dc:description">
+                <text/>
+            </element>
+        </optional>
+        <optional>
+            <element
+                name="dc:rights">
+                <text/>
+            </element>
+        </optional>
+    </define>
+    <start>
+        <element
+            name="cite:citeCollection">
+            <attribute
+                name="canonicalId"/>
+            <attribute name="label"/>
+          
+            <attribute
+                name="urn"/>
+            <element
+                name="cite:namespaceMapping">
+                <attribute
+                    name="abbr"/>
+                <attribute
+                    name="fullValue"/>
+                <empty/>
+            </element>
+            <ref
+                name="metadata"/>
+            <optional>
+                <element
+                    name="cite:orderedBy">
+                    <attribute
+                        name="property"/>
+                    <empty/>
+                </element>
+            </optional>
+            
+            <optional>
+            <externalRef href="src.rng"/>
+            </optional>
+            <oneOrMore>
+                <element
+                    name="cite:citeProperty">
+                    <attribute
+                        name="name"/>
+                    <attribute
+                        name="label"/>
+                    <attribute
+                        name="type">
+                       <ref name="citedatachoice"></ref>
+                    </attribute>
+                    <optional>
+                        <element
+                            name="cite:valueList">
+                            <oneOrMore>
+                                <element
+                                    name="cite:value">
+                                    <text/>
+                                </element>
+                            </oneOrMore>
+                        </element>
+                    </optional>
+                </element>
+            </oneOrMore>
+            <zeroOrMore>
+                <element
+                    name="cite:extendedBy">
+                    <attribute
+                        name="abbr"/>
+                    <attribute
+                        name="uri"/>
+                    <attribute
+                        name="extendedCitation">
+                        <choice>
+                            <value>true</value>
+                            <value>false</value>
+                        </choice>
+                    </attribute>
+                    <oneOrMore>
+                        <element
+                            name="cite:request">
+                            <attribute
+                                name="name"/>
+                            <zeroOrMore>
+                                <element
+                                    name="cite:parameter">
+                                    <attribute
+                                        name="name"/>
+                                    <attribute name="type">
+                                    <ref name="citedatachoice"></ref>
+                                    </attribute>
+                                </element>
+                            </zeroOrMore>
+                        </element>
+                    </oneOrMore>
+                </element>
+            </zeroOrMore>
+        </element>
+    </start>
+</grammar>
