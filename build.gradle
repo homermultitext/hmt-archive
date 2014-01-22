@@ -498,6 +498,87 @@ task cite (dependsOn : [editions, collections, indices, images]) {
     }
 }
 
+/*
+
+task ctsttl(type: JavaExec, dependsOn: compileGroovy) {
+     description = "Generates TTL statements about text contents"
+
+    main = "org.homermultitext.citemanager.HocusPocusTurtleizer"
+    args = ["${ctsinventory}", "${ctsarchive}", "${buildDir}/ttl", "cts.ttl", "${prefix}"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+}
+
+
+task imgttl (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Generates RDF for configured NYSI"
+    main = "org.homermultitext.citemanager.NysiTurtleizer"
+    args = ["${imgcolldir}", "${imgdatadir}", "${buildDir}/ttl", "citeimgs.ttl", "${prefix}"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+    doFirst {
+        System.err.println "\nTTLize images with ${args}\n"
+    }
+}
+
+
+task ccttl (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Generates RDF for Collections configured for prestochango"
+    main = "org.homermultitext.citemanager.PrestochangoTurtleizer"
+    args = ["${collinv}", "${collectionInvUrl}", "${collarchive}", "${buildDir}/ttl", "${prefix}"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+}
+
+
+task idxttl (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Generates RDF for indices configured for abracadabra"
+    main = "org.homermultitext.citemanager.AbracadabraTurtleizer"
+    args = ["${idxinv}", "${idxarchive}", "${buildDir}/ttl", "indices.ttl", "${prefix}"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+}
+
+*/
+
+/*
+task ttl (dependsOn: [ctsttl, imgttl, ccttl, idxttl]) {
+    doLast {
+        String charEnc = "UTF-8"
+	String prefix = "${prefixString}"
+//        String prefix = "@prefix cts:        <http://www.homermultitext.org/cts/rdf/> .\n@prefix cite:        <http://www.homermultitext.org/cite/rdf/> .\n@prefix hmt:        <http://www.homermultitext.org/hmt/rdf/> .\n@prefix citedata:        <http://www.homermultitext.org/hmt/citedata/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. \n@prefix  xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix olo:     <http://purl.org/ontology/olo/core#> .\n@prefix lex:        <http://data.perseus.org/rdfverbs/> .\n@prefix pal: <http://shot.holycrossedu/rdfverbs/pal/> .\n@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix latepig: <http://shot.holycross.edu/rdf/latepig/> .\n\n"
+        
+        File ctsttl = new File("${buildDir}/ttl/cts.ttl")
+        File collectionsttl = new File("${buildDir}/ttl/collections.ttl")
+        File idxttl = new File("${buildDir}/ttl/indices.ttl")
+        File citeimgttl = new File("${buildDir}/ttl/citeimgs.ttl")
+
+        def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
+
+        File ttl = new File("${buildDir}/ttl/all.ttl")        
+        ttl.append( prefix )
+
+        srcFiles.each {  f ->
+            if (f.exists()) {
+                ttl.withWriterAppend(charEnc) {writer -> 
+                    f.newReader(charEnc).eachLine {String line -> 
+                        writer << "\n${line}"         
+            } 
+            }
+        } }
+
+        System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
+    }
+}
+
+*/
 
 artifacts {
     hmtEditions editions

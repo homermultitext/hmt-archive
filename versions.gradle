@@ -4,6 +4,9 @@ ext {
     //groovyversion = "1.7.11"
     groovyversion = "2.0.6"
 
+
+    citemgrversion = ""
+
     citeversion = "0.14.2"
     hocuspocusversion= "0.9.0"
     greekutilsversion = "0.8.5"
@@ -15,6 +18,8 @@ ext {
 
     junitversion = "4.10"
     xmlunitversion = "1.3"
+
+
 
        
 }
