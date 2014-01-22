@@ -1,0 +1,1817 @@
+<TextInventory
+  tiid="hmt"
+  tiversion="3.0.rc1"
+  xmlns="http://chs.harvard.edu/xmlns/cts3/ti"
+  xmlns:dc="http://purl.org/dc/elements/1.1">
+  <ctsnamespace
+    abbr="greekLit"
+    ns="chs.harvard.edu/ctsns/greekLit">
+    <description
+      xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory of Greek
+      texts. </description>
+  </ctsnamespace>
+  <ctsnamespace
+    abbr="homerPap"
+    ns="chs.harvard.edu/ctsns/homericPapyri">
+    <description
+      xml:lang="eng"> Papyri represented by electronic editions in the Homer Multitext Project.
+    </description>
+  </ctsnamespace>
+  <collection
+    id="mth"
+    isdefault="yes">
+    <title
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1">Sample of texts from CHS Homer 
+      Multitext project to use in unit-testing hocus pocus </title>
+    <creator
+      xmlns="http://purl.org/dc/elements/1.1"> Neel Smith </creator>
+
+    <coverage
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Representative sample for testing. </coverage>
+    <description
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Selections from Iliad. </description>
+    <rights
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Licensed under the terms of Creative Commons
+      attribution-share-alike license. </rights>
+  </collection>
+  <collection
+    id="manuscripts"
+    isdefault="no">
+    <title
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Manuscripts </title>
+    <creator
+      xmlns="http://purl.org/dc/elements/1.1"> D. Neel Smith </creator>
+    <creator
+      xmlns="http://purl.org/dc/elements/1.1"> Christopher W. Blackwell </creator>
+    <coverage
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Byzantine and Medieval manuscripts. </coverage>
+    <description
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> See http://chs.harvard.edu . </description>
+    <rights
+      xml:lang="eng"
+      xmlns="http://purl.org/dc/elements/1.1"> Licensed under the terms of Creative Commons
+      attribution-share-alike license. </rights>
+  </collection>
+  <citationSchemes>
+    <scheme
+      projid="bookpoeticline"
+      type="logical">
+      <label> book/line </label>
+      <description
+        xml:lang="eng"> Poem divided into books, with citation of individual lines of verse within
+        books. </description>
+    </scheme>
+   </citationSchemes>
+  <textgroup
+    projid="greekLit:tlg0012">
+    <groupname
+      xml:lang="eng"> Homer </groupname>
+    <work
+      projid="greekLit:tlg001"
+      xml:lang="grc">
+      <title
+        xml:lang="eng"> Iliad </title>
+      <edition
+        projid="greekLit:msBm1">
+        <label
+          xml:lang="eng"> Bm1 </label>
+        <description
+          xml:lang="eng"> Egerton 267 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm2">
+        <label
+          xml:lang="eng"> Bm2 </label>
+        <description
+          xml:lang="eng"> King's 16 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm3">
+        <label
+          xml:lang="eng"> Bm3 </label>
+        <description
+          xml:lang="eng"> Harley 1675 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msCa2">
+        <label
+          xml:lang="eng"> Ca2 </label>
+        <description
+          xml:lang="eng"> coll. Trinitatis Cant. 983 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msA">
+        <label
+          xml:lang="eng"> A </label>
+        <description
+          xml:lang="eng"> Venice: Marcianus Graecus Z.454 (=822). </description>
+        <online
+          docname="A_Iliad_p5uc.xml">
+          <validate
+            schema="chstei.rng"/>
+          <namespaceMapping
+            abbreviation="tei"
+            nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+              label="book"
+              scope="/tei:TEI/tei:text/tei:body"
+              xpath="/tei:div[@n = '?']">
+              <citation
+                label="line"
+                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:l[@n = '?']"/>
+            </citation>
+          </citationMapping>
+        </online>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msAg">
+        <label
+          xml:lang="eng"> Ag </label>
+        <description
+          xml:lang="eng"> Angelicus 122 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msAthous">
+        <label
+          xml:lang="eng"> Athous </label>
+        <description
+          xml:lang="eng"> Vatopedi 592 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msB">
+        <label
+          xml:lang="eng"> B </label>
+        <description
+          xml:lang="eng"> Ven. 453 </description>
+        <online
+          docname="tier2/B_Iliad_p5.xml">
+          <validate
+            schema="chstei.rng"/>
+          <namespaceMapping
+            abbreviation="tei"
+            nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+              label="book"
+              scope="/tei:TEI/tei:text/tei:body"
+              xpath="/tei:div[@n = '?']">
+              <citation
+                label="line"
+                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:l[@n = '?']"/>
+            </citation>
+          </citationMapping>
+        </online>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm4">
+        <label
+          xml:lang="eng"> Bm4 </label>
+        <description
+          xml:lang="eng"> Harley 1771 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm5">
+        <label
+          xml:lang="eng"> Bm5 </label>
+        <description
+          xml:lang="eng"> Harley 5600 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm6">
+        <label
+          xml:lang="eng"> Bm6 </label>
+        <description
+          xml:lang="eng"> Harley 5601 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm7">
+        <label
+          xml:lang="eng"> Bm7 </label>
+        <description
+          xml:lang="eng"> Harley 5672 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm8">
+        <label
+          xml:lang="eng"> Bm8 </label>
+        <description
+          xml:lang="eng"> Harley 5693 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msBm9">
+        <label
+          xml:lang="eng"> Bm9 </label>
+        <description
+          xml:lang="eng"> add. MSS 8232 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msC">
+        <label
+          xml:lang="eng"> C </label>
+        <description
+          xml:lang="eng"> Laur. 32.3 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msCa1">
+        <label
+          xml:lang="eng"> Ca1 </label>
+        <description
+          xml:lang="eng"> coll. Corporis Christi Cant. 81 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msCa3">
+        <label
+          xml:lang="eng"> Ca3 </label>
+        <description
+          xml:lang="eng"> Cambridge University Library 1290 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msD">
+        <label
+          xml:lang="eng"> D </label>
+        <description
+          xml:lang="eng"> Laur. 32.15 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msE1">
+        <label
+          xml:lang="eng"> E1 </label>
+        <description
+          xml:lang="eng"> Escorialensis 83 (Σ ii.7) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msE2">
+        <label
+          xml:lang="eng"> E2 </label>
+        <description
+          xml:lang="eng"> Escorialensis 213 (Φ ii.19) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msE3">
+        <label
+          xml:lang="eng"> E3 </label>
+        <description
+          xml:lang="eng"> Escorialensis 291 (Υ i.1) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msE4">
+        <label
+          xml:lang="eng"> E4 </label>
+        <description
+          xml:lang="eng"> Escorialensis 509 (Ω i.12) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msEt">
+        <label
+          xml:lang="eng"> Et </label>
+        <description
+          xml:lang="eng"> Etonensis 139 = Bl. 4.12 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msGe">
+        <label
+          xml:lang="eng"> Ge </label>
+        <description
+          xml:lang="eng"> Genavensis 44 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msGf">
+        <label
+          xml:lang="eng"> Gf </label>
+        <description
+          xml:lang="eng"> Grotta Ferrata Z α xxiv </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msH1">
+        <label
+          xml:lang="eng"> H1 </label>
+        <description
+          xml:lang="eng"> Holkham Hall, Norfolk, 263 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msH2">
+        <label
+          xml:lang="eng"> H2 </label>
+        <description
+          xml:lang="eng"> Holkham 264 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL1">
+        <label
+          xml:lang="eng"> L1 </label>
+        <description
+          xml:lang="eng"> Laurentianus 31.5 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL2">
+        <label
+          xml:lang="eng"> L2 </label>
+        <description
+          xml:lang="eng"> Laur. 32.15 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL3">
+        <label
+          xml:lang="eng"> L3 </label>
+        <description
+          xml:lang="eng"> Laur. 32.4 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL4">
+        <label
+          xml:lang="eng"> L4 </label>
+        <description
+          xml:lang="eng"> Laur. 32.5 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL5">
+        <label
+          xml:lang="eng"> L5 </label>
+        <description
+          xml:lang="eng"> Laur. 32.6 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL6">
+        <label
+          xml:lang="eng"> L6 </label>
+        <description
+          xml:lang="eng"> Laur. 32.8 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL7">
+        <label
+          xml:lang="eng"> L7 </label>
+        <description
+          xml:lang="eng"> Laur. 32.10 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL8">
+        <label
+          xml:lang="eng"> L8 </label>
+        <description
+          xml:lang="eng"> Laur. 32.11 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL9">
+        <label
+          xml:lang="eng"> L9 </label>
+        <description
+          xml:lang="eng"> Laur. 32.18 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL10">
+        <label
+          xml:lang="eng"> L10 </label>
+        <description
+          xml:lang="eng"> Laur. 32.22 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL11">
+        <label
+          xml:lang="eng"> L11 </label>
+        <description
+          xml:lang="eng"> Laur. 32.25 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL12">
+        <label
+          xml:lang="eng"> L12 </label>
+        <description
+          xml:lang="eng"> Laur. 32.27 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL13">
+        <label
+          xml:lang="eng"> L13 </label>
+        <description
+          xml:lang="eng"> Laur. 32.28 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL14">
+        <label
+          xml:lang="eng"> L14 </label>
+        <description
+          xml:lang="eng"> Laur. 32.31 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL15">
+        <label
+          xml:lang="eng"> L15 </label>
+        <description
+          xml:lang="eng"> Laur. 32.38 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL16">
+        <label
+          xml:lang="eng"> L16 </label>
+        <description
+          xml:lang="eng"> Laur. 32.47 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL17">
+        <label
+          xml:lang="eng"> L17 </label>
+        <description
+          xml:lang="eng"> Laur. 91 sup. 1 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL18">
+        <label
+          xml:lang="eng"> L18 </label>
+        <description
+          xml:lang="eng"> Laur. 91 sup. 2 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL19">
+        <label
+          xml:lang="eng"> L19 </label>
+        <description
+          xml:lang="eng"> Conv. soppr. 48 (già Badia 36) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msL20">
+        <label
+          xml:lang="eng"> L20 </label>
+        <description
+          xml:lang="eng"> Conv. soppr. 139 (già Badia 64) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msLe1">
+        <label
+          xml:lang="eng"> Le1 </label>
+        <description
+          xml:lang="eng"> Leidensis Voss. graec. 64 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msLe2">
+        <label
+          xml:lang="eng"> Le2 </label>
+        <description
+          xml:lang="eng"> Leidensis 22, xviii </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msLi">
+        <label
+          xml:lang="eng"> Li </label>
+        <description
+          xml:lang="eng"> Lipsiensis 32 (ol. 1275) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM1">
+        <label
+          xml:lang="eng"> M1 </label>
+        <description
+          xml:lang="eng"> Ambrosianus 74 (A 181 supp.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM2">
+        <label
+          xml:lang="eng"> M2 </label>
+        <description
+          xml:lang="eng"> Ambr. 89 (B 39 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM3">
+        <label
+          xml:lang="eng"> M3 </label>
+        <description
+          xml:lang="eng"> Ambr. 152 (B 150 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM4">
+        <label
+          xml:lang="eng"> M4 </label>
+        <description
+          xml:lang="eng"> Ambr. 281 (E 35 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM5">
+        <label
+          xml:lang="eng"> M5 </label>
+        <description
+          xml:lang="eng"> Ambr. 355 (F 101 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM6">
+        <label
+          xml:lang="eng"> M6 </label>
+        <description
+          xml:lang="eng"> Ambr. 441 (H 77 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM7">
+        <label
+          xml:lang="eng"> M7 </label>
+        <description
+          xml:lang="eng"> Ambr. 450 (I 4 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM8">
+        <label
+          xml:lang="eng"> M8 </label>
+        <description
+          xml:lang="eng"> Ambr. 463 (I 58 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM9">
+        <label
+          xml:lang="eng"> M9 </label>
+        <description
+          xml:lang="eng"> Ambr. 1057 (I 90 inf.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM10">
+        <label
+          xml:lang="eng"> M10 </label>
+        <description
+          xml:lang="eng"> Ambr. 486 (L 73 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM11">
+        <label
+          xml:lang="eng"> M11 </label>
+        <description
+          xml:lang="eng"> Ambr. 502 A(L 116 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM12">
+        <label
+          xml:lang="eng"> M12 </label>
+        <description
+          xml:lang="eng"> Ambr. 532 (M 86 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM13">
+        <label
+          xml:lang="eng"> M13 </label>
+        <description
+          xml:lang="eng"> Ambr. 1015 (E 56 inf.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM14">
+        <label
+          xml:lang="eng"> M14 </label>
+        <description
+          xml:lang="eng"> Ambr. 1046 (I 30 inf.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM15">
+        <label
+          xml:lang="eng"> M15 </label>
+        <description
+          xml:lang="eng"> Ambr. 426 (H 22 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM16">
+        <label
+          xml:lang="eng"> M16 </label>
+        <description
+          xml:lang="eng"> Ambr. 576 (N 275 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msM17">
+        <label
+          xml:lang="eng"> M17 </label>
+        <description
+          xml:lang="eng"> Ambr. 725 (R 119 sup.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMa1">
+        <label
+          xml:lang="eng"> Ma1 </label>
+        <description
+          xml:lang="eng"> Madrid, Biblioteca Nacional. 4555 (18 Ir.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMa2">
+        <label
+          xml:lang="eng"> Ma2 </label>
+        <description
+          xml:lang="eng"> Madrid 4560 (23 Ir.) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMa3">
+        <label
+          xml:lang="eng"> Ma3 </label>
+        <description
+          xml:lang="eng"> Madrid 4841 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMc">
+        <label
+          xml:lang="eng"> Mc </label>
+        <description
+          xml:lang="eng"> Monte Cassino S 94 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMo2">
+        <label
+          xml:lang="eng"> Mo2 </label>
+        <description
+          xml:lang="eng"> Estensis 104 (II. D 5) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMo1">
+        <label
+          xml:lang="eng"> Mo1 </label>
+        <description
+          xml:lang="eng"> Estensis 123 (III. D 4) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMon1">
+        <label
+          xml:lang="eng"> Mon1 </label>
+        <description
+          xml:lang="eng"> Munich, Hofbibliothek 111 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMon2">
+        <label
+          xml:lang="eng"> Mon2 </label>
+        <description
+          xml:lang="eng"> Munich, Hofbibliothek 311 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msMon3">
+        <label
+          xml:lang="eng"> Mon3 </label>
+        <description
+          xml:lang="eng"> Munich, Hofbibliothek 519 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msN1">
+        <label
+          xml:lang="eng"> N1 </label>
+        <description
+          xml:lang="eng"> Napoli, Biblioteca nazionale III. E 37 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msN2">
+        <label
+          xml:lang="eng"> N2 </label>
+        <description
+          xml:lang="eng"> Napoli, Biblioteca nazionale II. F 1 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msN4">
+        <label
+          xml:lang="eng"> N4 </label>
+        <description
+          xml:lang="eng"> Napoli, Biblioteca nazionale II. F 3 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msN3">
+        <label
+          xml:lang="eng"> N3 </label>
+        <description
+          xml:lang="eng"> Napoli, Biblioteca nazionale II. F 2 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO1">
+        <label
+          xml:lang="eng"> O1 </label>
+        <description
+          xml:lang="eng"> Barocci 96 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO2">
+        <label
+          xml:lang="eng"> O2 </label>
+        <description
+          xml:lang="eng"> Barocci 203 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO3">
+        <label
+          xml:lang="eng"> O3 </label>
+        <description
+          xml:lang="eng"> Laud. 41 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO4">
+        <label
+          xml:lang="eng"> O4 </label>
+        <description
+          xml:lang="eng"> Laud. 54 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO5">
+        <label
+          xml:lang="eng"> O5 </label>
+        <description
+          xml:lang="eng"> Auct. T 2. 7 (misc. 207) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO6">
+        <label
+          xml:lang="eng"> O6 </label>
+        <description
+          xml:lang="eng"> Canonici 43 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO7">
+        <label
+          xml:lang="eng"> O7 </label>
+        <description
+          xml:lang="eng"> Canonici 66 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO8">
+        <label
+          xml:lang="eng"> O8 </label>
+        <description
+          xml:lang="eng"> coll. Nov. Oxon. D 298 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msO9">
+        <label
+          xml:lang="eng"> O9 </label>
+        <description
+          xml:lang="eng"> ms. collegii Corporis Christi Oxon. CCCCLXX F 4. 12 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP1">
+        <label
+          xml:lang="eng"> P1 </label>
+        <description
+          xml:lang="eng"> Paris Bibliothèque Nationale, grec 1805 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP2">
+        <label
+          xml:lang="eng"> P2 </label>
+        <description
+          xml:lang="eng"> Paris grec 2680 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP4">
+        <label
+          xml:lang="eng"> P4 </label>
+        <description
+          xml:lang="eng"> Paris grec 2682 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP3">
+        <label
+          xml:lang="eng"> P3 </label>
+        <description
+          xml:lang="eng"> Paris grec 2681 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP5">
+        <label
+          xml:lang="eng"> P5 </label>
+        <description
+          xml:lang="eng"> Paris grec 2683 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP6">
+        <label
+          xml:lang="eng"> P6 </label>
+        <description
+          xml:lang="eng"> Paris grec 2684 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP7">
+        <label
+          xml:lang="eng"> P7 </label>
+        <description
+          xml:lang="eng"> Paris grec 2685 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP8">
+        <label
+          xml:lang="eng"> P8 </label>
+        <description
+          xml:lang="eng"> Paris grec 2686 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP9">
+        <label
+          xml:lang="eng"> P9 </label>
+        <description
+          xml:lang="eng"> Paris grec 2687 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP10">
+        <label
+          xml:lang="eng"> P10 </label>
+        <description
+          xml:lang="eng"> Paris grec 2697 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP12">
+        <label
+          xml:lang="eng"> P12 </label>
+        <description
+          xml:lang="eng"> Paris grec 2767 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP11">
+        <label
+          xml:lang="eng"> P11 </label>
+        <description
+          xml:lang="eng"> Paris grec 2766 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP13">
+        <label
+          xml:lang="eng"> P13 </label>
+        <description
+          xml:lang="eng"> Paris grec 2768 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP14">
+        <label
+          xml:lang="eng"> P14 </label>
+        <description
+          xml:lang="eng"> Paris grec 2830 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP15">
+        <label
+          xml:lang="eng"> P15 </label>
+        <description
+          xml:lang="eng"> Paris grec 2894 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP16">
+        <label
+          xml:lang="eng"> P16 </label>
+        <description
+          xml:lang="eng"> Paris supplément grec 144 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP17">
+        <label
+          xml:lang="eng"> P17 </label>
+        <description
+          xml:lang="eng"> Paris supplément grec 497 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP19">
+        <label
+          xml:lang="eng"> P19 </label>
+        <description
+          xml:lang="eng"> Paris supplément grec 656 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP18">
+        <label
+          xml:lang="eng"> P18 </label>
+        <description
+          xml:lang="eng"> Paris supplément grec 608 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP20">
+        <label
+          xml:lang="eng"> P20 </label>
+        <description
+          xml:lang="eng"> Paris supplément grec 679 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP21">
+        <label
+          xml:lang="eng"> P21 </label>
+        <description
+          xml:lang="eng"> Paris supplément grec 1095 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msPa">
+        <label
+          xml:lang="eng"> Pa </label>
+        <description
+          xml:lang="eng"> Parma, Biblioteca Palatina HH. 11. 27 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msP22">
+        <label
+          xml:lang="eng"> P22 </label>
+        <description
+          xml:lang="eng"> Paris supplément grec 1247 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msPal1">
+        <label
+          xml:lang="eng"> Pal1 </label>
+        <description
+          xml:lang="eng"> Heidelberg 40 (Wilken p. 276) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msPal2">
+        <label
+          xml:lang="eng"> Pal2 </label>
+        <description
+          xml:lang="eng"> Heidelberg 222 (Wilken p. 282) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msPe">
+        <label
+          xml:lang="eng"> Pe </label>
+        <description
+          xml:lang="eng"> Perugia, Bibl. Comm. E 48 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msPi">
+        <label
+          xml:lang="eng"> Pi </label>
+        <description
+          xml:lang="eng"> Pistoia, Bibl. Fortiguerri A 55 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msQ1">
+        <label
+          xml:lang="eng"> Q1 </label>
+        <description
+          xml:lang="eng"> Moscow, Library of the Ministry of Foreign Affairs </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msQ2">
+        <label
+          xml:lang="eng"> Q2 </label>
+        <description
+          xml:lang="eng"> Moscow, Bibliotheca S. Synodi, no 474 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msQ3">
+        <label
+          xml:lang="eng"> Q3 </label>
+        <description
+          xml:lang="eng"> Moscow, Library of the Ministry of Foreign Affairs </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msR1">
+        <label
+          xml:lang="eng"> R1 </label>
+        <description
+          xml:lang="eng"> Riccardianus 30 (K. II 10) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msS">
+        <label
+          xml:lang="eng"> S </label>
+        <description
+          xml:lang="eng"> Stuttgart, Königliche öffentliche Bibliothek 5 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msT">
+        <label
+          xml:lang="eng"> T </label>
+        <description
+          xml:lang="eng"> British Library, Burney 86 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msR4">
+        <label
+          xml:lang="eng"> R4 </label>
+        <description
+          xml:lang="eng"> Riccardianus 896 (S. II 24) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msR3">
+        <label
+          xml:lang="eng"> R3 </label>
+        <description
+          xml:lang="eng"> Riccardianus 32 (K. II 19) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msR2">
+        <label
+          xml:lang="eng"> R2 </label>
+        <description
+          xml:lang="eng"> Riccardianus 62 (K. II 11) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU1">
+        <label
+          xml:lang="eng"> U1 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana 431 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU3">
+        <label
+          xml:lang="eng"> U3 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana 456 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU4">
+        <label
+          xml:lang="eng"> U4 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana 458 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU2">
+        <label
+          xml:lang="eng"> U2 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana 455 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU5">
+        <label
+          xml:lang="eng"> U5 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana 459 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU6">
+        <label
+          xml:lang="eng"> U6 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana 459 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU7">
+        <label
+          xml:lang="eng"> U7 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana 514 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU8">
+        <label
+          xml:lang="eng"> U8 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana ix. 3 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU9">
+        <label
+          xml:lang="eng"> U9 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana ix. 2 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU10">
+        <label
+          xml:lang="eng"> U10 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana ix. 16 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU11">
+        <label
+          xml:lang="eng"> U11 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana ix. 21 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU12">
+        <label
+          xml:lang="eng"> U12 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana ix. 25 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msU13">
+        <label
+          xml:lang="eng"> U13 </label>
+        <description
+          xml:lang="eng"> Venice, Marciana ix. 33 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV1">
+        <label
+          xml:lang="eng"> V1 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 26 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV2">
+        <label
+          xml:lang="eng"> V2 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 27 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV3">
+        <label
+          xml:lang="eng"> V3 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 28 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV4">
+        <label
+          xml:lang="eng"> V4 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 29 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV5">
+        <label
+          xml:lang="eng"> V5 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 30 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV6">
+        <label
+          xml:lang="eng"> V6 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 31 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV7">
+        <label
+          xml:lang="eng"> V7 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 50 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV8">
+        <label
+          xml:lang="eng"> V8 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 97 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV9">
+        <label
+          xml:lang="eng"> V9 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 902 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV10">
+        <label
+          xml:lang="eng"> V10 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 903 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV11">
+        <label
+          xml:lang="eng"> V11 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 915 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV12">
+        <label
+          xml:lang="eng"> V12 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 1315 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV13">
+        <label
+          xml:lang="eng"> V13 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 1316 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV14">
+        <label
+          xml:lang="eng"> V14 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 1317 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV15">
+        <label
+          xml:lang="eng"> V15 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 1318 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV16">
+        <label
+          xml:lang="eng"> V16 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 1319 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV17">
+        <label
+          xml:lang="eng"> V17 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 1404 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV18">
+        <label
+          xml:lang="eng"> V18 </label>
+        <description
+          xml:lang="eng"> Vat. graec. 1626 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV19">
+        <label
+          xml:lang="eng"> V19 </label>
+        <description
+          xml:lang="eng"> Pal. 6 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV20">
+        <label
+          xml:lang="eng"> V20 </label>
+        <description
+          xml:lang="eng"> Pal. 12 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV21">
+        <label
+          xml:lang="eng"> V21 </label>
+        <description
+          xml:lang="eng"> Pal. 150 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV22">
+        <label
+          xml:lang="eng"> V22 </label>
+        <description
+          xml:lang="eng"> Pal. 180 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV23">
+        <label
+          xml:lang="eng"> V23 </label>
+        <description
+          xml:lang="eng"> Pal. 310 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV26">
+        <label
+          xml:lang="eng"> V26 </label>
+        <description
+          xml:lang="eng"> Urbinas 138 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV24">
+        <label
+          xml:lang="eng"> V24 </label>
+        <description
+          xml:lang="eng"> Urbinas 136 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV25">
+        <label
+          xml:lang="eng"> V25 </label>
+        <description
+          xml:lang="eng"> Urbinas 137 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV27">
+        <label
+          xml:lang="eng"> V27 </label>
+        <description
+          xml:lang="eng"> Ottobuoni 58 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV28">
+        <label
+          xml:lang="eng"> V28 </label>
+        <description
+          xml:lang="eng"> Ottobuoni 303 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV29">
+        <label
+          xml:lang="eng"> V29 </label>
+        <description
+          xml:lang="eng"> Ottobuoni 342 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV30">
+        <label
+          xml:lang="eng"> V30 </label>
+        <description
+          xml:lang="eng"> Regina Sueciae 92 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV31">
+        <label
+          xml:lang="eng"> V31 </label>
+        <description
+          xml:lang="eng"> Pio II 38 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV32">
+        <label
+          xml:lang="eng"> V32 </label>
+        <description
+          xml:lang="eng"> Barberini I 161 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV33">
+        <label
+          xml:lang="eng"> V33 </label>
+        <description
+          xml:lang="eng"> Barberini I 93 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV34">
+        <label
+          xml:lang="eng"> V34 </label>
+        <description
+          xml:lang="eng"> Barberini I 110 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV35">
+        <label
+          xml:lang="eng"> V35 </label>
+        <description
+          xml:lang="eng"> Barberini II 16 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msV36">
+        <label
+          xml:lang="eng"> V36 </label>
+        <description
+          xml:lang="eng"> cod. Ross. 986 (no, 16) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVe1">
+        <label
+          xml:lang="eng"> Ve1 </label>
+        <description
+          xml:lang="eng"> Rome, biblioteca Vittorio Emmanuele 6 (Collegio Romano), Madrid biblioteca
+          Nacional 4626 (lxxi Iriarte) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVe2">
+        <label
+          xml:lang="eng"> Ve2 </label>
+        <description
+          xml:lang="eng"> bibl. Vittorio Emmanuele 8 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVi1">
+        <label
+          xml:lang="eng"> Vi1 </label>
+        <description
+          xml:lang="eng"> Vienna, phil. 5, ol. 'L' </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVi2">
+        <label
+          xml:lang="eng"> Vi2 </label>
+        <description
+          xml:lang="eng"> Vienna, phil. 39, ol. 'G' </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVi3">
+        <label
+          xml:lang="eng"> Vi3 </label>
+        <description
+          xml:lang="eng"> Vienna, phil. 49 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVi4">
+        <label
+          xml:lang="eng"> Vi4 </label>
+        <description
+          xml:lang="eng"> Vienna, phil. 61 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVi5">
+        <label
+          xml:lang="eng"> Vi5 </label>
+        <description
+          xml:lang="eng"> Vienna, phil. 117, ol. 'H' </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVi6">
+        <label
+          xml:lang="eng"> Vi6 </label>
+        <description
+          xml:lang="eng"> 176 in Kollarii supplementis ineditis...ex Windhagiana bibliotheca </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msVi7">
+        <label
+          xml:lang="eng"> Vi7 </label>
+        <description
+          xml:lang="eng"> Vienna, phil. 241 </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msW2">
+        <label
+          xml:lang="eng"> W2 </label>
+        <description
+          xml:lang="eng"> Breslau 25 (= Heyne Vrat. d) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msW1">
+        <label
+          xml:lang="eng"> W1 </label>
+        <description
+          xml:lang="eng"> Breslau 24 (= Heyne Vrat. c) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msW3">
+        <label
+          xml:lang="eng"> W3 </label>
+        <description
+          xml:lang="eng"> Breslau 26 (= Heyne Vrat. b) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msW4">
+        <label
+          xml:lang="eng"> W4 </label>
+        <description
+          xml:lang="eng"> Breslau 27 (= Heyne Vrat. A) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+      <edition
+        projid="greekLit:msW5">
+        <label
+          xml:lang="eng"> W5 </label>
+        <description
+          xml:lang="eng"> Breslau 29 (= Heyne Vrat. a) </description>
+        <memberof
+          collection="manuscripts"/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  
+  
+</TextInventory>
