@@ -18,7 +18,7 @@ class HmtTokenizer {
     File textInventory
 
     /** Directory containing .txt files with tabulated representation of texts */
-    File tabulatedDirectory
+    File outputDirectory
 
     /** Verbosity level 0-3 of debugging output */
     Integer debug = 1
@@ -27,23 +27,21 @@ class HmtTokenizer {
     HmtTokenizer(File srcDir, File textInventory, File outDir) {
         this.archiveDirectory = srcDir
         this.textInventory = textInventory
-        this.tabulatedDirectory = outDir
+        this.outputDirectory = outDir
     }
 
     void tokenize() 
     throws Exception {
         Corpus c = new Corpus(textInventory, archiveDirectory)
         try  {
-            if (! tabulatedDirectory.exists()) {
-                tabulatedDirectory.mkdir()
+            if (! outputDirectory.exists()) {
+                outputDirectory.mkdir()
             } 
         } catch (Exception e) {
             System.err.println "HmtTabulator:  could not make output directory ${tabulatedDirectory}"
             throw e
         }
-        c.tokenizeInventory(new HmtGreekTokenization(), tabulatedDirectory)
-
-
+        c.tokenizeRepository(this.outputDirectory)
     }
 
 
@@ -72,6 +70,7 @@ class HmtTokenizer {
             System.err.println "HmtTabulator main method: Bad param or params: ${args}"
             throw e
         }
+
 
         HmtTokenizer ht = new HmtTokenizer(src,tiFile,outputDir)
         ht.tokenize()

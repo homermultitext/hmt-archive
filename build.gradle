@@ -7,7 +7,6 @@ using local classes:
 
 
 *  From buildSrc tree, depends on:
-*   - TokenizeTask
 *   - OrderTokensTask
 *
 */
@@ -25,7 +24,7 @@ group = "org.homermultitext"
 if (project.hasProperty("nightly")) {
     version = "${new Date().format('yyyy-MM-dd')}".toString()
 } else {
-    version = '0.1.0'
+    version = '2014.1'
 }
 
 
@@ -345,7 +344,7 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
 }
 
 
-task tabFiles (type: JavaExec, dependsOn : ["inv", "compileGroovy"]) {
+task tabFiles (type: JavaExec, dependsOn : ["compileGroovy", "editions"]) {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
     main = "org.homermultitext.HmtTabulator"
     args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tabulated"]	
@@ -410,10 +409,11 @@ task setupTokens (type: Copy) {
     into "${buildDir}/tokens"
 }
 
-task tokenize(type: JavaExec, dependsOn: [compileGroovy, tabulated, setupTokens]) {
+task tokenize(type: JavaExec, dependsOn: [compileGroovy, setupTokens]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     main = "org.homermultitext.HmtTokenizer"
-    args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tabulated", "${buildDir}/tokens/tokens.ttl"]	
+    args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tokens"]	
+
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -429,8 +429,6 @@ task tokens(type: Zip, dependsOn: tokenize) {
         System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
     }
 }
-
-
 
 
 
@@ -509,9 +507,7 @@ task cite (dependsOn : [editions, collections, indices, images]) {
 artifacts {
     hmtEditions editions
     hmtEditions tabulated
-/*
     hmtEditions tokens
-*/
     hmtEditions collections
     hmtEditions indices
     hmtEditions images

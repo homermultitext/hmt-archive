@@ -44,7 +44,6 @@ class TestTokenize extends GroovyTestCase {
         HmtTokenizer tokenizer = new HmtTokenizer(xmlDir,tiFile,outputDir)//, outputFile)
         tokenizer.tokenize()
 
-
         Integer expectedTokens = 39
         File results = new File("${outputDir}/tokens.txt")
         assert results.readLines().size() == expectedTokens
