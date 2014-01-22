@@ -345,7 +345,7 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
 }
 
 
-task tabFiles (type: JavaExec, dependsOn : "compileGroovy") {
+task tabFiles (type: JavaExec, dependsOn : ["inv", "compileGroovy"]) {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
     main = "org.homermultitext.HmtTabulator"
     args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tabulated"]	
