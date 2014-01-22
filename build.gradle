@@ -527,7 +527,6 @@ uploadArchives {
 }
 
 
-
 uploadHmtEditions {
     repositories.mavenDeployer {
         repository(url: nexusRepo) {                   
