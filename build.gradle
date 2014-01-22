@@ -40,23 +40,26 @@ configurations {
 }
 
 dependencies {
-    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyversion
-    compile group: "edu.holycross.shot", name: "hocuspocus", version: hocuspocusversion
-    compile group: 'edu.harvard.chs', name : 'cite' , version: citeversion
-    compile group: 'edu.harvard.chs', name : 'greekutils' , version: greekutilsversion
-    compile group: 'com.thaiopensource', name:'jing', version: jingversion    
-    compile group: 'net.sf.saxon', name: 'saxon-dom', version: saxonversion
+  compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyversion
 
-    testCompile group: 'junit', name: 'junit', version: junitversion
-    testCompile group :'xmlunit', name: 'xmlunit', version: xmlunitversion
+  compile group: 'edu.holycross.shot', name: 'nysi', version: nysiversion
+  compile group : 'edu.holycross.shot', name : 'prestochango', version : prestochangoversion
+  compile group : 'edu.holycross.shot', name : 'abracadabra', version : abracadabraversion
+  compile group: "edu.holycross.shot", name: "hocuspocus", version: hocuspocusversion
 
+  compile group: 'edu.harvard.chs', name : 'cite' , version: citeversion
+  compile group: 'edu.harvard.chs', name : 'greekutils' , version: greekutilsversion
+
+  compile group: 'com.thaiopensource', name:'jing', version: jingversion    
+  compile group: 'net.sf.saxon', name: 'saxon-dom', version: saxonversion
+
+  testCompile group: 'junit', name: 'junit', version: junitversion
+  testCompile group :'xmlunit', name: 'xmlunit', version: xmlunitversion
 }
 
 
-
-/* ******************************************************************* */
-/* **** Tasks for assembling editions from source material *********** */
-/* ******************************************************************* */
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for assembling editions from source material
 
 
 task venAReadme (type: Copy) {
@@ -304,7 +307,7 @@ task venetusA(dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia,
 
 
 
-// Can add dependencies on other MSS when we have tasks for them.
+/// Can add dependencies on other MSS when we have tasks for them.
 task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
     description="Builds zip file of all edited manuscripts."
     classifier = 'xml'
@@ -318,10 +321,13 @@ task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
 
 
 
+///////////////////////////////////////////////////////////////////////////
 
-/* ******************************************************************* */
-/* **** Tasks for secondary processing of composite editions   ******* */
-/* ******************************************************************* */
+
+
+
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for secondary processing of composite editions
 
 
 task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
@@ -380,15 +386,6 @@ task setUpTurtle(type: Copy) {
 }
 
 
-task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
-    description = "Use hocuspocus to create a full rdf representation of the archive suitable for import into a CTS"
-    main = "org.homermultitext.TextArchive"
-    args = ["${buildDir}/${archiveDir}/inventory.xml", "${buildDir}/${archiveDir}", "${buildDir}/tabulated", "${buildDir}/rdf" ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
 
 /* Corpus-wide tokenization */
 task setupTokens (type: Copy) {
@@ -422,9 +419,13 @@ task tokens(type: Zip, dependsOn: tokenize) {
     }
 }
 
+///////////////////////////////////////////////////////////////////////////
 
 
-/* Other publishable artifacts */
+
+
+///////////////////////////////////////////////////////////////////////////
+//// TASKS PUBLISHING CITE ARCHIVES
 
 task setUpCollections (type: Copy) {
     description = "Prepares files for publishing collections archive."
@@ -474,8 +475,48 @@ task indices(type: Zip, dependsOn: [setUpIndices]) {
 
 }
 
+task cite (dependsOn : [editions, collections, indices, images]) {
+    doLast {
+        println "Built zip files of all HMT CITE archives."
+    }
+}
 
-task rdf(type: Zip, dependsOn: [ctsttl, setUpTurtle]) {
+///////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////
+//// RDF TASKS 
+
+task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
+    description = "Use hocuspocus to create a full rdf representation of the text archive suitable for import into a CTS"
+    main = "org.homermultitext.HmtTextTurtleizer"
+    args = ["${buildDir}/${archiveDir}/inventory.xml", "${buildDir}/${archiveDir}", "${buildDir}/rdf", "cts.ttl" ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+
+task imgttl (type: JavaExec, dependsOn: compileGroovy) {
+    description = "Generates RDF for configured image repository"
+    main = "org.homermultitext.HmtImgTurtleizer"
+    args = ["cite/images/collections", "cite/images/data", "${buildDir}/rdf", "citeimgs.ttl"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+    doFirst {
+        System.err.println "\nTTLize images with ${args}\n"
+    }
+}
+
+
+
+
+task rdf(type: Zip, dependsOn: [ctsttl, imgttl, setUpTurtle]) {
     description = "Creates zip package of all HMT editions in TTL format."
     classifier = 'rdf'
     from (file("${buildDir}/rdf"))
@@ -487,39 +528,11 @@ task rdf(type: Zip, dependsOn: [ctsttl, setUpTurtle]) {
 }
 
 
+///////////////////////////////////////////////////////////////////////////
 
 
-task cite (dependsOn : [editions, collections, indices, images]) {
-    doLast {
-        println "Built zip files of all HMT CITE archives."
-    }
-}
 
 /*
-
-task ctsttl(type: JavaExec, dependsOn: compileGroovy) {
-     description = "Generates TTL statements about text contents"
-
-    main = "org.homermultitext.citemanager.HocusPocusTurtleizer"
-    args = ["${ctsinventory}", "${ctsarchive}", "${buildDir}/ttl", "cts.ttl", "${prefix}"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-
-}
-
-
-task imgttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for configured NYSI"
-    main = "org.homermultitext.citemanager.NysiTurtleizer"
-    args = ["${imgcolldir}", "${imgdatadir}", "${buildDir}/ttl", "citeimgs.ttl", "${prefix}"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-    doFirst {
-        System.err.println "\nTTLize images with ${args}\n"
-    }
-}
 
 
 task ccttl (type: JavaExec, dependsOn: compileGroovy) {
