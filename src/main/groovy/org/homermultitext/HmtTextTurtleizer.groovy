@@ -92,7 +92,7 @@ class HmtTextTurtleizer {
     }
 
 
-    boolean prefix = true
+    boolean prefix = false
     t  = new HmtTextTurtleizer(inventory, archiveDir, outputDir, outFile, prefix)
     t.generateTtl()
     

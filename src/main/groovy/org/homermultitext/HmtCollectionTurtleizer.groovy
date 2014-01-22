@@ -70,7 +70,7 @@ class HmtCollectionTurtleizer {
 		  println "Couldn't make url from " + invSchema
 		}
 
-                boolean prefix = true
+                boolean prefix = false
                 HmtCollectionTurtleizer pcttl = new HmtCollectionTurtleizer(inv, invSchema, dataDir, outDir, prefix)
                 pcttl.generateTurtle()
 

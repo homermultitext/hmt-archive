@@ -36,7 +36,7 @@ repositories {
 }
 
 configurations {
-    hmtEditions
+    hmtPublications
 }
 
 dependencies {
@@ -537,65 +537,54 @@ task idxttl (type: JavaExec, dependsOn: compileGroovy) {
 }
 
 
+task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
+  doLast {
+    String charEnc = "UTF-8"
 
+        
+    File ctsttl = new File("${buildDir}/rdf/cts.ttl")
+    File collectionsttl = new File("${buildDir}/rdf/collections.ttl")
+    File idxttl = new File("${buildDir}/rdf/indices.ttl")
+    File citeimgttl = new File("${buildDir}/rdf/citeimgs.ttl")
 
+    File ttl = new File("${buildDir}/rdf/all.ttl")        
+    ttl.append(ttlPrefix)
 
-task rdf(type: Zip, dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
-    description = "Creates zip package of all HMT editions in TTL format."
-    classifier = 'rdf'
+    def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
+    srcFiles.each {  f ->
+      if (f.exists()) {
+	ttl.withWriterAppend(charEnc) {writer -> 
+	  f.newReader(charEnc).eachLine { String line -> 
+	    writer << "\n${line}"         
+	  } 
+	}
+      } 
+    }
+
+    System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
+  }
+}
+
+task rdf(type: Zip,dependsOn: allTtl) {
+    description = "Creates zip package of entire HMT archive in TTL format."
     from (file("${buildDir}/rdf"))
     include("**/*.ttl", "README.md")
-    baseName = "hmt-editions"
+    baseName = "hmt-rdf"
     doLast {
-        System.err.println "RDF (TTL) version of all XML editions compiled in zip file hmt-editions-rdf"
+        System.err.println "RDF (TTL) version of the entire HMT archive compiled in zip file hmt-rdf"
     }
 }
 
 ///////////////////////////////////////////////////////////////////////////
 
-
-
-
-/*
-task ttl (dependsOn: [ctsttl, imgttl, ccttl, idxttl]) {
-    doLast {
-        String charEnc = "UTF-8"
-	String prefix = "${prefixString}"
-//        String prefix = "@prefix cts:        <http://www.homermultitext.org/cts/rdf/> .\n@prefix cite:        <http://www.homermultitext.org/cite/rdf/> .\n@prefix hmt:        <http://www.homermultitext.org/hmt/rdf/> .\n@prefix citedata:        <http://www.homermultitext.org/hmt/citedata/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. \n@prefix  xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix olo:     <http://purl.org/ontology/olo/core#> .\n@prefix lex:        <http://data.perseus.org/rdfverbs/> .\n@prefix pal: <http://shot.holycrossedu/rdfverbs/pal/> .\n@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix latepig: <http://shot.holycross.edu/rdf/latepig/> .\n\n"
-        
-        File ctsttl = new File("${buildDir}/ttl/cts.ttl")
-        File collectionsttl = new File("${buildDir}/ttl/collections.ttl")
-        File idxttl = new File("${buildDir}/ttl/indices.ttl")
-        File citeimgttl = new File("${buildDir}/ttl/citeimgs.ttl")
-
-        def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
-
-        File ttl = new File("${buildDir}/ttl/all.ttl")        
-        ttl.append( prefix )
-
-        srcFiles.each {  f ->
-            if (f.exists()) {
-                ttl.withWriterAppend(charEnc) {writer -> 
-                    f.newReader(charEnc).eachLine {String line -> 
-                        writer << "\n${line}"         
-            } 
-            }
-        } }
-
-        System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
-    }
-}
-
-*/
-
 artifacts {
-    hmtEditions editions
-    hmtEditions tabulated
-    hmtEditions tokens
-    hmtEditions collections
-    hmtEditions indices
-    hmtEditions images
-    hmtEditions rdf
+    hmtPublications editions
+    hmtPublications tabulated
+    hmtPublications tokens
+    hmtPublications collections
+    hmtPublications indices
+    hmtPublications images
+    hmtPublications rdf
 }
 
 
@@ -608,14 +597,14 @@ uploadArchives {
 }
 
 
-uploadHmtEditions {
+uploadHmtPublications {
     repositories.mavenDeployer {
         repository(url: nexusRepo) {                   
             authentication (userName: nexusUser, password: nexusPassword)
         }
     }
     doLast {
-        System.err.println "All HMT editions uploaded."
+        System.err.println "All HMT publicatoins uploaded."
     }
 }
 

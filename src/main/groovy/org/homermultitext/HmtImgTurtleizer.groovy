@@ -58,7 +58,7 @@ class HmtImgTurtleizer {
       }
       File  outFile = new File(outDir, outFileName)
 
-      boolean prefix = true
+      boolean prefix = false
       HmtImgTurtleizer ttl = new HmtImgTurtleizer(collDir, imgDir, outFile, prefix)
       ttl.generateTurtle()
       

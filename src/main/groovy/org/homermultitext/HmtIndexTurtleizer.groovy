@@ -57,7 +57,7 @@ class HmtIndexTurtleizer {
                 }
                 File outFile = new File(outDir, args[3])
 
-                boolean prefix = true
+                boolean prefix = false
                 if ( (!inv.exists())  || (!dataDir.exists())) {
                     System.err.println "HmtIndexTurtelizer:  ${inv} and ${dataDir} must exist."
                 } else {
