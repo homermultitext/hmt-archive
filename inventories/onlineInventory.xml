@@ -275,7 +275,7 @@
           later hand, from the Venetus A manuscript, Marciana 454 (=822).</description>
      
         <online
-          docname="VenetusA/VenetusA-Scholia-msAimlater.xml">
+          docname="VenetusA/VenetusA-Scholia-msAimLater.xml">
           <validate
             schema="chstei.rng"/>
           <namespaceMapping
@@ -305,7 +305,7 @@
       <edition
         urn="urn:cts:greekLit:tlg5026.msAint.hmt">
         
-        <label xml:lang="eng">msAimlater</label>
+        <label xml:lang="eng">msAint</label>
         <description xml:lang="eng">Interior (gutter) scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
         <online
