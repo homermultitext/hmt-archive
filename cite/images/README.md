@@ -1,4 +1,4 @@
-# HMT Image Collections #
+# HMT Image Collections, version @versionid@ #
 
 This package contains the published documentary information HMT project's Image Collections.    Binary image data may for all the images documented here may be downloaded from [this URL](http://amphoreus.hpcc.uh.edu/hmt/hmt-image-archive/).
 

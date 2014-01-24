@@ -1,4 +1,4 @@
-# Homer Multitext project:  scholarly editions #
+# Homer Multitext project,  scholarly editions: version @versionid@ #
 
 This package contains the archival, TEI-compliant editions of texts developed by the Homer Multitext project.
 
