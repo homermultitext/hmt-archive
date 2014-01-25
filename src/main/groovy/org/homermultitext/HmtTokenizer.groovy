@@ -46,6 +46,13 @@ class HmtTokenizer {
         }
 	System.out.println "Beginning to tokenize entire repository:  please be patient."
         c.tokenizeRepository(this.outputDirectory)
+
+	// kludge and a half! cleanup all txt files except token.txt...
+	this.outputDirectory.eachFileMatch(~/.*.txt/) { tab ->  
+	  if ("tokens.txt" != tab.name) {
+	    tab.delete()
+	  }
+	}
     }
 
 
