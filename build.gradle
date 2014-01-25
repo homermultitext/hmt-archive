@@ -587,11 +587,11 @@ task rdf(type: Zip,dependsOn: allTtl) {
     }
 }
 
-task labelPublication(type: Copy) {
-    description = "Generates README to accompany package for distribution."
+
+task labelPublication(type: Copy, dependsOn: clean) {
+    description = "Cleans build area, and generates README to accompany packages for distribution."
     from (file("${rootDir}")) {
         include 'README-version-guide.md'
-	//        rename 'README-version-guide.md', 'README-${version}.md'
     }
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/distributions"
@@ -601,6 +601,7 @@ task labelPublication(type: Copy) {
 labelPublication.doFirst {
   println "Version is ${version}"
 }
+
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -644,7 +645,6 @@ buildArchives.dependsOn clean
 
 // HmtPublications are build from scratch, and get
 // a labelling text file to boot:
-buildHmtPublications.dependsOn clean
 buildHmtPublications.dependsOn labelPublication
 
 
