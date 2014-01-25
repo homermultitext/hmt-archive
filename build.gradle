@@ -588,8 +588,8 @@ task rdf(type: Zip,dependsOn: allTtl) {
 }
 
 
-task labelPublication(type: Copy, dependsOn: clean) {
-    description = "Cleans build area, and generates README to accompany packages for distribution."
+task labelPublication(type: Copy) {
+    description = "Generates README to accompany packages for distribution."
     from (file("${rootDir}")) {
         include 'README-version-guide.md'
     }
@@ -634,13 +634,13 @@ uploadHmtPublications {
         }
     }
     doLast {
-        System.err.println "All HMT publicatoins uploaded."
+        System.err.println "All HMT publications uploaded."
     }
 }
 
 
 // Always buildArchives from a completely clean state
-buildArchives.dependsOn clean
+//buildArchives.dependsOn clean
 
 
 // HmtPublications are build from scratch, and get
