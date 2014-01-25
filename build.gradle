@@ -403,7 +403,6 @@ task setUpEditions(type: Copy) {
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/editions/archive"
 }
-*/
 
 
 task setupTokens (type: Copy) {
