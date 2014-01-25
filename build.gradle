@@ -20,6 +20,28 @@ if (project.hasProperty("nightly")) {
 }
 
 
+if (project.hasProperty('pub')) {
+    System.err.print "Using configuration data from ${pub}"
+    File confFile = new File(pub)
+    if (! confFile.exists()) {
+        throw new Exception("No publication configuration file ${pub} found.")
+    } else {
+        apply from: pub
+    }
+
+} else {
+    File confFile = new File("pub.gradle")
+    if (! confFile.exists()) {
+        throw new Exception("No publication configuration file ${confFile} found.")
+    } else {
+        println "Using default configuration in 'pub.gradle'"
+        apply from: "pub.gradle"
+    }
+}
+
+
+
+
 repositories {
     mavenCentral()
     maven {
@@ -294,7 +316,7 @@ task furmanEditions (type: Copy) {
     into "${buildDir}/${archiveDir}/Furman"
 }
 
-//task venetusA(type: Zip, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
+
 
 task venetusA(dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
     doLast {
@@ -415,7 +437,7 @@ task setupTokens (type: Copy) {
     into "${buildDir}/tokens"
 }
 
-task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens]) {
+task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens, editions]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     main = "org.homermultitext.HmtTokenizer"
     args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tokens"]	
@@ -426,9 +448,8 @@ task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens]) {
 
 task tokens(type: Zip, dependsOn: tokensttl) {
     description = "Packages tokenization TTL"
-    classifier = 'tokens'
     from (file("${buildDir}/tokens"))
-    baseName = "hmt-editions"
+    baseName = "hmt-tokens"
     doLast {
         System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
     }
@@ -549,7 +570,7 @@ task idxttl (type: JavaExec, dependsOn: compileGroovy) {
 }
 
 
-task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle, tokensttl]) {
+task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
   doLast {
     String charEnc = "UTF-8"
 
@@ -606,15 +627,22 @@ labelPublication.doFirst {
 ///////////////////////////////////////////////////////////////////////////
 
 artifacts {
+
   hmtPublications collections
   hmtPublications images
+
   hmtPublications indices  
 
+
   hmtPublications editions
+
   hmtPublications tabulated
-  hmtPublications tokens
+
+
+  //hmtPublications tokens
 
   hmtPublications rdf
+  
 }
 
 

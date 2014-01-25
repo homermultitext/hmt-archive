@@ -21,11 +21,6 @@ hmt-editions-@versionid@-tabulated.zip
 :  Tabular representations of editions of texts developed by the Homer Multitext project
 
 
-hmt-editions-@versionid@-tokens.zip
-: RDF statements (in turtle format) documenting a complete tokenization of published archival editions of texts developed by the Homer Multitext project
-
-
-
 hmt-rdf-@versionid@.zip
 :  This package contains the RDF representation in TTL syntax of all published material in the Homer Multitext project.
 
