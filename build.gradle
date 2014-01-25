@@ -1,9 +1,6 @@
 import org.apache.tools.ant.filters.*
 
 /* hmtarchive project.
- *
- *  From old buildSrc tree, consider: OrderTokensTask ?
- *
  */
 apply plugin: "base"
 apply plugin:  "groovy"
@@ -274,7 +271,7 @@ task inv (type: Copy) {
     from ("inventories")
     into "${buildDir}/${archiveDir}"
     include ('onlineInventory.xml', 'README-HMT-archive.md', "*.rng")
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     rename { String fileName ->
         fileName.replace('-HMT-archive','')
     }
@@ -328,6 +325,7 @@ task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
 
 ///////////////////////////////////////////////////////////////////////////
 //// Tasks for secondary processing of composite editions
+//// TABULATION:
 
 
 task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
@@ -358,7 +356,7 @@ task setupTabs (type: Copy) {
         include 'README-tabulated.md'
         rename 'README-tabulated.md', '1-README.md'
     }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/tabulated"
 }
 
@@ -375,41 +373,59 @@ task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
 
 }
 
+///////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for secondary processing of composite editions
+//// TOKENIZATION:
+
 task setUpTurtle(type: Copy) {
     description = "Generates README to accompany RDF version of HMT editions."
     from (file('editions')) {
         include 'README-rdf.md'
         rename 'README-rdf.md', 'README.md'
     }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/rdf"
 }
 
 
+task setUpEditions(type: Copy) {
+    description = "Generates README to accompany XML version of HMT editions."
+    from (file('editions')) {
+        include 'README-editions.md'
+        rename 'README-editions.md', 'README.md'
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/editions/archive"
+}
+*/
 
-/* Corpus-wide tokenization */
+
 task setupTokens (type: Copy) {
     description = "Generates README to accompany tokenization data from HMT editions."
     from ('editions') {
         include 'README-tokens.md'
         rename 'README-tokens.md', 'README.md'
     }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/tokens"
 }
 
-task tokenize(type: JavaExec, dependsOn: [compileGroovy, setupTokens]) {
+task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     main = "org.homermultitext.HmtTokenizer"
     args = ["${buildDir}/${archiveDir}", "${buildDir}/${archiveDir}/inventory.xml",  "${buildDir}/tokens"]	
-
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
 
-
-task tokens(type: Zip, dependsOn: tokenize) {
+task tokens(type: Zip, dependsOn: tokensttl) {
     description = "Packages tokenization TTL"
     classifier = 'tokens'
     from (file("${buildDir}/tokens"))
@@ -432,7 +448,7 @@ task setUpCollections (type: Copy) {
     from ('cite/collections') {
         include ('README.md', 'hmtcollections.xml', '*.csv', '*.tsv')
     }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/collections"
 }
 
@@ -513,9 +529,6 @@ task imgttl (type: JavaExec, dependsOn: compileGroovy) {
     }
 }
 
-
-
-
 task ccttl (type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates RDF for Collections configured for prestochango"
     main = "org.homermultitext.HmtCollectionTurtleizer"
@@ -537,7 +550,7 @@ task idxttl (type: JavaExec, dependsOn: compileGroovy) {
 }
 
 
-task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
+task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle, tokensttl]) {
   doLast {
     String charEnc = "UTF-8"
 
@@ -575,16 +588,33 @@ task rdf(type: Zip,dependsOn: allTtl) {
     }
 }
 
+task labelPublication(type: Copy) {
+    description = "Generates README to accompany package for distribution."
+    from (file("${rootDir}")) {
+        include 'README-version-guide.md'
+	//        rename 'README-version-guide.md', 'README-${version}.md'
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/distributions"
+
+}
+
+labelPublication.doFirst {
+  println "Version is ${version}"
+}
+
 ///////////////////////////////////////////////////////////////////////////
 
 artifacts {
-    hmtPublications editions
-    hmtPublications tabulated
-    hmtPublications tokens
-    hmtPublications collections
-    hmtPublications indices
-    hmtPublications images
-    hmtPublications rdf
+  hmtPublications collections
+  hmtPublications images
+  hmtPublications indices  
+
+  hmtPublications editions
+  hmtPublications tabulated
+  hmtPublications tokens
+
+  hmtPublications rdf
 }
 
 
@@ -608,11 +638,17 @@ uploadHmtPublications {
     }
 }
 
-//test.dependsOn editions
 
-
-/* Always buildArchives from a completely clean state */
+// Always buildArchives from a completely clean state
 buildArchives.dependsOn clean
+
+
+// HmtPublications are build from scratch, and get
+// a labelling text file to boot:
+buildHmtPublications.dependsOn clean
+buildHmtPublications.dependsOn labelPublication
+
+
 
 
 
