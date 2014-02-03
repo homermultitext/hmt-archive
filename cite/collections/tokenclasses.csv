@@ -1,5 +1,5 @@
 ClassId,Meaning
-urn:cite:hmt:tokentypes.lexical,"A 'word', or single instance of a lexeme"
-urn:cite:hmt:tokentypes.numeric,"Token written using numeric notation in the Milesian system"
-urn:cite:hmt:tokentypes.waw,"'word as word', a token representing a literally quoted string of text"
-urn:cite:hmt:tokentypes.sic,"Token evaluated by HMT editors as an error in the writing of the text"
+urn:cite:hmt:tokentypes.lexical,"A 'word', or single instance of a lexeme."
+urn:cite:hmt:tokentypes.numeric,"A token written using numeric notation in the Milesian system."
+urn:cite:hmt:tokentypes.waw,"A quoted 'word as word', a token representing a literally quoted string of text."
+urn:cite:hmt:tokentypes.sic,"A token evaluated by HMT editors as an error in the writing of the text."
