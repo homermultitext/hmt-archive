@@ -1,443 +1,231 @@
 <?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TextInventory
-  tiid="hmt"
-  tiversion="4.0"
-  xmlns="http://chs.harvard.edu/xmlns/cts/ti"
+<TextInventory tiid="hmt" tiversion="5.0.rc.1" xmlns="http://chs.harvard.edu/xmlns/cts"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <ctsnamespace
-    abbr="greekLit"
-    ns="chs.harvard.edu/ctsns/greekLit">
-    <description
-      xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory of Greek
-      texts. </description>
+  <ctsnamespace abbr="greekLit" ns="chs.harvard.edu/ctsns/greekLit">
+    <description xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory
+      of Greek texts. </description>
   </ctsnamespace>
-  
-  <collection
-    id="mth"
-    isdefault="yes">
-    <dc:title
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1">Editions of texts created for the Homer Multitext
-      project.</dc:title>
-    <dc:creator
-      xmlns="http://purl.org/dc/elements/1.1"> Christopher W. Blackwell </dc:creator>
-    <dc:creator
-      xmlns="http://purl.org/dc/elements/1.1"> Neel Smith </dc:creator>
-    <dc:coverage
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1">All texts currently released through the HMT project's
-      Nexus repository, and only those texts. </dc:coverage>
-    <dc:description
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1">Diplomatic editions of texts from papyrus and
-      manuscript sources including texts of the Iliad. </dc:description>
-    <dc:rights
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1"> Licensed under the terms of the Creative Commons
-      Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0). </dc:rights>
-  </collection>
-  <collection
-    id="manuscripts"
-    isdefault="no">
-    <dc:title
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1"> Manuscripts </dc:title>
-    <dc:creator
-      xmlns="http://purl.org/dc/elements/1.1"> Neel Smith </dc:creator>
-    <dc:creator
-      xmlns="http://purl.org/dc/elements/1.1"> Christopher W. Blackwell </dc:creator>
-    <dc:coverage
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1"> Diplomatic editions of Byzantine and Medieval
-      manuscripts in the Homer Multitext project's published editions. </dc:coverage>
-    <dc:description
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1">Diplomatic editions of Byzantine and Medieval
-      manuscripts in the Homer Multitext project's published editions. </dc:description>
-    <dc:rights
-      xml:lang="eng"
-      xmlns="http://purl.org/dc/elements/1.1">Licensed under the terms of the Creative Commons
-      Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0). </dc:rights>
-  </collection>
-    
-  
-  <textgroup
-    urn="urn:cts:greekLit:tlg0012">
-    <groupname
-      xml:lang="eng"> Homeric epic</groupname>
-    <work
-      urn="urn:cts:greekLit:tlg0012.tlg001"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Iliad </title>
+
+
+
+
+  <textgroup urn="urn:cts:greekLit:tlg0012">
+    <groupname xml:lang="eng"> Homeric epic</groupname>
+    <work urn="urn:cts:greekLit:tlg0012.tlg001" xml:lang="grc">
+      <title xml:lang="eng"> Iliad </title>
       <translation urn="urn:cts:greekLit:tlg0012.tlg001.hmt01" xml:lang="eng">
         <label xml:lang="eng">English translation of Iliad 10 by Casey Dué and Mary Ebbott</label>
         <description xml:lang="eng">New line-by-line translation of Iliad 10</description>
-        <online
-          docname="translations/due-ebbott.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <online docname="translations/due-ebbott.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="line"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:l[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
       </translation>
-      <edition
-        urn="urn:cts:greekLit:tlg0012.tlg001.msA">
-        <label
-          xml:lang="eng"> A </label>
-        <description
-          xml:lang="eng"> Iliad text of the Venetus A manuscript, Marciana 454 (=822). </description>
-        <online
-          docname="VenetusA/VenetusA-Iliad.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+      <edition urn="urn:cts:greekLit:tlg0012.tlg001.msA">
+        <label xml:lang="eng"> A </label>
+        <description xml:lang="eng"> Iliad text of the Venetus A manuscript, Marciana 454 (=822). </description>
+        <online docname="VenetusA/VenetusA-Iliad.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="line"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:l[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
   </textgroup>
-  <textgroup
-    urn="urn:cts:greekLit:tlg5026">
-    <groupname
-      xml:lang="eng"> Scholia to the Iliad</groupname>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msA"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Main marginal scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msA.hmt">
+  <textgroup urn="urn:cts:greekLit:tlg5026">
+    <groupname xml:lang="eng"> Scholia to the Iliad</groupname>
+    <work urn="urn:cts:greekLit:tlg5026.msA" xml:lang="grc">
+      <title xml:lang="eng"> Main marginal scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msA.hmt">
         <label xml:lang="eng">msA</label>
         <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
-       
-        <online
-          docname="VenetusA/VenetusA-Scholia-msA.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <online docname="VenetusA/VenetusA-Scholia-msA.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:div[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAext"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Exterior scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAext.hmt">
+    <work urn="urn:cts:greekLit:tlg5026.msAext" xml:lang="grc">
+      <title xml:lang="eng"> Exterior scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msAext.hmt">
         <label xml:lang="eng">msAext</label>
         <description xml:lang="eng">Exterior scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
-   
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAext.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <online docname="VenetusA/VenetusA-Scholia-msAext.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:div[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAil"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Interlinear scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAil.hmt">
-        
+    <work urn="urn:cts:greekLit:tlg5026.msAil" xml:lang="grc">
+      <title xml:lang="eng"> Interlinear scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msAil.hmt">
         <label xml:lang="eng">msAil</label>
         <description xml:lang="eng">Interlinear scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAil.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <online docname="VenetusA/VenetusA-Scholia-msAil.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:div[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAim"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Intermarginal scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAim.hmt">
+    <work urn="urn:cts:greekLit:tlg5026.msAim" xml:lang="grc">
+      <title xml:lang="eng"> Intermarginal scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msAim.hmt">
         <label xml:lang="eng">msAim</label>
-        <description xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) of the Venetus A
-          manuscript, Marciana 454 (=822).</description>
-        
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAim.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <description xml:lang="eng">Intermarginal scholia (between main marginal scholia and text)
+          of the Venetus A manuscript, Marciana 454 (=822).</description>
+        <online docname="VenetusA/VenetusA-Scholia-msAim.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:div[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAimlater"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Later intermarginal scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAimlater.hmt">
+    <work urn="urn:cts:greekLit:tlg5026.msAimlater" xml:lang="grc">
+      <title xml:lang="eng"> Later intermarginal scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msAimlater.hmt">
         <label xml:lang="eng">msAimlater</label>
-        <description xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) in a second,
-          later hand, from the Venetus A manuscript, Marciana 454 (=822).</description>
-     
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAimLater.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <description xml:lang="eng">Intermarginal scholia (between main marginal scholia and text)
+          in a second, later hand, from the Venetus A manuscript, Marciana 454 (=822).</description>
+        <online docname="VenetusA/VenetusA-Scholia-msAimLater.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:div[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
-      </edition>
-    </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAint"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Interior scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAint.hmt">
         
-        <label xml:lang="eng">msAint</label>
-        <description xml:lang="eng">Interior (gutter) scholia of the Venetus A manuscript, Marciana 454
-          (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAint.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
-        <memberof
-          collection="manuscripts"/>
       </edition>
     </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAlater"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Later main scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAlater.hmt">
-        <label xml:lang="eng">msAlater</label>
-        <description xml:lang="eng">Scholia in a second later hand from the main marginal area of Venetus A
-          manuscript, Marciana 454 (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msALater.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+    <work urn="urn:cts:greekLit:tlg5026.msAint" xml:lang="grc">
+      <title xml:lang="eng"> Interior scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msAint.hmt">
+        <label xml:lang="eng">msAint</label>
+        <description xml:lang="eng">Interior (gutter) scholia of the Venetus A manuscript, Marciana
+          454 (=822).</description>
+        <online docname="VenetusA/VenetusA-Scholia-msAint.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:div[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
+      </edition>
+    </work>
+    <work urn="urn:cts:greekLit:tlg5026.msAlater" xml:lang="grc">
+      <title xml:lang="eng"> Later main scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msAlater.hmt">
+        <label xml:lang="eng">msAlater</label>
+        <description xml:lang="eng">Scholia in a second later hand from the main marginal area of
+          Venetus A manuscript, Marciana 454 (=822).</description>
+        <online docname="VenetusA/VenetusA-Scholia-msALater.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:div[@n = '?']"/>
+            </citation>
+          </citationMapping>
+        </online>
+        
       </edition>
     </work>
   </textgroup>
   <!-- Other texts in the Venetus A -->
- 
-  <textgroup
-    urn="urn:cts:greekLit:tlg4036">
-    <groupname
-      xml:lang="eng">Proclus</groupname>
-    <work
-      urn="urn:cts:greekLit:tlg4036.tlg023" xml:lang="grc">
-      <title
-        xml:lang="eng">Chrestomathy</title>
-      <edition
-        urn="urn:cts:greekLit:tlg4036.tlg023.msA">
+
+  <textgroup urn="urn:cts:greekLit:tlg4036">
+    <groupname xml:lang="eng">Proclus</groupname>
+    <work urn="urn:cts:greekLit:tlg4036.tlg023" xml:lang="grc">
+      <title xml:lang="eng">Chrestomathy</title>
+      <edition urn="urn:cts:greekLit:tlg4036.tlg023.msA">
         <label xml:lang="eng">Venetus A</label>
-        <description xml:lang="eng">Edition of Chrestomathy as it appears in later rebinding of the Venetus A
-          manuscript (Marciana 454 = 822)</description>
-        <online
-          docname="VenetusA/VenetusA-Proclus-Chrestomathy.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <description xml:lang="eng">Edition of Chrestomathy as it appears in later rebinding of the
+          Venetus A manuscript (Marciana 454 = 822)</description>
+        <online docname="VenetusA/VenetusA-Proclus-Chrestomathy.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
                 xpath="/tei:p[@n = '?']"/>
             </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
   </textgroup>
-  
-  <textgroup
-    urn="urn:cts:greekLit:tlg1194">
-    <groupname
-      xml:lang="eng">Aristonicus</groupname>
-    <work
-      urn="urn:cts:greekLit:tlg1194.tlg002" xml:lang="grc">
-      <title
-        xml:lang="eng">On Signs</title>
-      <edition
-        urn="urn:cts:greekLit:tlg1194.tlg002.msA">
+
+  <textgroup urn="urn:cts:greekLit:tlg1194">
+    <groupname xml:lang="eng">Aristonicus</groupname>
+    <work urn="urn:cts:greekLit:tlg1194.tlg002" xml:lang="grc">
+      <title xml:lang="eng">On Signs</title>
+      <edition urn="urn:cts:greekLit:tlg1194.tlg002.msA">
         <label xml:lang="eng">Venetus A</label>
-        <description xml:lang="eng">The sole remaining fragment of the work, preserved on folio 8 recto of the
-          Venetus A manuscript (Marciana 454 = 822)</description>
-        <online
-          docname="VenetusA/VenetusA-Aristonicus-Signs.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+        <description xml:lang="eng">The sole remaining fragment of the work, preserved on folio 8
+          recto of the Venetus A manuscript (Marciana 454 = 822)</description>
+        <online docname="VenetusA/VenetusA-Aristonicus-Signs.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:p[@n = '?']"> </citation>
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:p[@n = '?']"
+            > </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
   </textgroup>
-  
+
   <!--
   <textgroup
     urn="urn:cts:greekLit:tlg0658">
@@ -474,38 +262,23 @@
   </textgroup>
   
   -->
-  <textgroup
-    urn="urn:cts:greekLit:msannotations">
-    <groupname
-      xml:lang="eng">Annotations on manuscripts</groupname>
-    <work
-      urn="urn:cts:greekLit:msannotations.VAcaptions"
-      xml:lang="grc">
-      <title
-        xml:lang="eng">Captions to graphics in the Venetus A</title>
-      <edition
-        urn="urn:cts:greekLit:msannotations.VAcaptions.hmt">
-        <label
-          xml:lang="eng">Homer Multitext edition</label>
-        <description
-          xml:lang="eng">Captions to later, thirteenth-century graphics in the first eleven folios
-          of Marciana 454 (the Venetus A).</description>
-        <online
-          docname="VenetusA/VenetusA-Captions.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
+  <textgroup urn="urn:cts:greekLit:msannotations">
+    <groupname xml:lang="eng">Annotations on manuscripts</groupname>
+    <work urn="urn:cts:greekLit:msannotations.VAcaptions" xml:lang="grc">
+      <title xml:lang="eng">Captions to graphics in the Venetus A</title>
+      <edition urn="urn:cts:greekLit:msannotations.VAcaptions.hmt">
+        <label xml:lang="eng">Homer Multitext edition</label>
+        <description xml:lang="eng">Captions to later, thirteenth-century graphics in the first
+          eleven folios of Marciana 454 (the Venetus A).</description>
+        <online docname="VenetusA/VenetusA-Captions.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']"> </citation>
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']"
+            > </citation>
           </citationMapping>
         </online>
-        <memberof
-          collection="manuscripts"/>
+        
       </edition>
     </work>
     <!--
@@ -574,58 +347,55 @@
       <title>Book subscriptions</title>
       </work> 
       -->
-    </textgroup>
+  </textgroup>
 
-    <textgroup urn="urn:cts:greekLit:tlg0059">
-        <groupname xml:lang="eng">Plato</groupname>
-        <work urn="urn:cts:greekLit:tlg0059.tlg027" xml:lang="grc">
-            <title xml:lang="eng">Ion</title>
-            <edition urn="urn:cts:greekLit:tlg0059.tlg027.chs01">
-                <label xml:lang="eng">C. Blackwell, ed.</label>
-                <description xml:lang="eng">Plato, Ion, C. Blackwell, ed. New electronic edition
-                    with rationalized canonical citation, after the editon of J. Burnet, Oxford:
-                    Clarendon Press, 1903, with emendations and additional semantic
-                    markup.</description>
-                <online docname="Furman/plato_ion_uc.xml">
-                    <validate schema="chstei.rng"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" scope="/tei:TEI/tei:text/tei:body"
-                            xpath="/tei:sp[@n='?']"/>
-                    </citationMapping>
-                </online>
-            </edition>
-            <memberof collection="mth"/>
-            
-        </work>
-    </textgroup>
-    <textgroup urn="urn:cts:greekLit:tlg0026">
-        <groupname xml:lang="eng">Aeschines</groupname>
-        <work urn="urn:cts:greekLit:tlg0026.tlg001" xml:lang="grc">
-            <title xml:lang="eng">Against Timarchus</title>
-            <title xml:lang="lat">In Timarchum</title>
-            <edition urn="urn:cts:greekLit:tlg0026.tlg001.chs01">
-                <label xml:lang="eng">C. Blackwell, ed.</label>
-                <description xml:lang="eng">Aeschines Orat., In Timarchum ‚"Eschine. Discours, vol.
-                    1‚" Ed. C. Blackwell, after Martin, V., de Budé, G. Paris: Les Belles Lettres,
-                    1902 and additional semantic markup.</description>
-                <online docname="Furman/aesch_inTim_uc.xml">
-                    <validate schema="chstei.rng"/>
-                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-                    <citationMapping>
-                        <citation label="section" scope="/tei:TEI/tei:text/tei:body"
-                            xpath="/tei:div[@n='?']"/>
-                    </citationMapping>
-                </online>
-            </edition>
-            <memberof collection="mth"/>
-            
-        </work>
-    </textgroup>
-  
-  
+  <textgroup urn="urn:cts:greekLit:tlg0059">
+    <groupname xml:lang="eng">Plato</groupname>
+    <work urn="urn:cts:greekLit:tlg0059.tlg027" xml:lang="grc">
+      <title xml:lang="eng">Ion</title>
+      <edition urn="urn:cts:greekLit:tlg0059.tlg027.chs01">
+        <label xml:lang="eng">C. Blackwell, ed.</label>
+        <description xml:lang="eng">Plato, Ion, C. Blackwell, ed. New electronic edition with
+          rationalized canonical citation, after the editon of J. Burnet, Oxford: Clarendon Press,
+          1903, with emendations and additional semantic markup.</description>
+        <online docname="Furman/plato_ion_uc.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:sp[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      
+
+    </work>
+  </textgroup>
+  <textgroup urn="urn:cts:greekLit:tlg0026">
+    <groupname xml:lang="eng">Aeschines</groupname>
+    <work urn="urn:cts:greekLit:tlg0026.tlg001" xml:lang="grc">
+      <title xml:lang="eng">Against Timarchus</title>
+      <title xml:lang="lat">In Timarchum</title>
+      <edition urn="urn:cts:greekLit:tlg0026.tlg001.chs01">
+        <label xml:lang="eng">C. Blackwell, ed.</label>
+        <description xml:lang="eng">Aeschines Orat., In Timarchum ‚"Eschine. Discours, vol. 1‚" Ed.
+          C. Blackwell, after Martin, V., de Budé, G. Paris: Les Belles Lettres, 1902 and additional
+          semantic markup.</description>
+        <online docname="Furman/aesch_inTim_uc.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"/>
+          </citationMapping>
+        </online>
+      </edition>
+      
+
+    </work>
+  </textgroup>
+
+
   <!--  ***********************************************************************    -->
-<!--
+  <!--
   <textgroup urn="urn:cts:greekLit:tlg7000">
   <groupname xml:lang="eng">The Greek Anthology</groupname>
     <work xml:lang="grc" urn="urn:cts:greekLit:tlg001">

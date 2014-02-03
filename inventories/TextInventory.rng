@@ -4,40 +4,37 @@
 	xmlns="http://relaxng.org/ns/structure/1.0"
 	xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:ti="http://chs.harvard.edu/xmlns/cts/ti">
-	<!-- Schema for TextInventory :  part of the Classical Text Services protocol (CTS)
-        beginning with version 2.0.
-
-            Copyright 2006-2009 Neel Smith and licensed under the Creative Commons
-            Attribution-NonCommercial-ShareAlike License. To view a copy of this license, visit
-            http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons,
-            559 Nathan Abbott Way, Stanford, California 94305, USA.
-            
-            Originally prepared by Neel Smith, College of the Holy Cross:  nsmith@holycross.com
-            
-            Currently maintained by Neel Smith for the Center for Hellenic Studies.
-	-->
-	
+	xmlns:ti="http://chs.harvard.edu/xmlns/cts">
 	<!-- Dublin Core elements to provide for each Collection -->
 	<define
 		name="metadata">
 		<element
 			name="dc:title">
 			<attribute
-				name="xml:lang"/>
-			<text/>
+				name="xml:lang">
+				<data type="string">
+					<param name="pattern">...+</param>
+				</data>
+			</attribute>
+			<data type="string">
+				<param name="pattern">.+</param>
+			</data>
 		</element>
 		<oneOrMore>
 			<element
 				name="dc:creator">
-				<text/>
+				<data type="string">
+					<param name="pattern">.+</param>
+				</data>
 			</element>
 		</oneOrMore>
 		<element
 			name="dc:coverage">
 			<attribute
 				name="xml:lang"/>
-			<text/>
+			<data type="string">
+				<param name="pattern">.+</param>
+			</data>
 		</element>
 		<element
 			name="dc:description">
@@ -48,7 +45,11 @@
 		<element
 			name="dc:rights">
 			<attribute
-				name="xml:lang"/>
+				name="xml:lang">
+				<data type="string">
+					<param name="pattern">...+</param>
+				</data>
+			</attribute>
 			<text/>
 		</element>
 	</define>
@@ -58,60 +59,50 @@
 			<attribute
 				name="tiversion">
 				<choice>
-					<value>4.0</value>
+					<value>5.0.rc.1</value>
 				</choice>
 			</attribute>
 			<optional>
 				<attribute
-					name="tiid"/>
+					name="tiid">
+					<data
+						type="string">
+						<param
+							name="pattern">.+</param>
+					</data>
+				</attribute>
 			</optional>
-			
 			<zeroOrMore>
 				<element
 					name="ti:ctsnamespace">
 					<attribute
-						name="abbr"/>
+						name="abbr">
+						<data
+							type="string">
+							<param
+								name="pattern">.+</param>
+						</data>
+					</attribute>
 					<attribute
-						name="ns"/>
+						name="ns">
+						<data
+							type="anyURI">
+							<param
+								name="pattern">.+</param>
+						</data>
+					</attribute>
 					<optional>
 						<element
 							name="ti:description">
-							<attribute name="xml:lang"></attribute>
-							<text/>
+							<attribute
+								name="xml:lang">
+							<data type="string">
+							<param name="pattern">...+</param>
+							</data>
+							</attribute>
+						<text/>
 						</element>
 					</optional>
-				</element>
-			</zeroOrMore>
-			<!-- There must be one default Collection; 
-				others may optionally be defined -->
-			<element
-				name="ti:collection">
-				<attribute
-					name="id">
-					<!--<data type="ID"/> -->
-				</attribute>
-				<optional>
-					<attribute
-						name="isdefault">
-						<value>yes</value>
-					</attribute>
-				</optional>
-				<ref
-					name="metadata"/>
-			</element>
-			<zeroOrMore>
-				<element
-					name="ti:collection">
-					<attribute
-						name="id"> </attribute>
-					<optional>
-						<attribute
-							name="isdefault">
-							<value>no</value>
-						</attribute>
-					</optional>
-					<ref
-						name="metadata"/>
 				</element>
 			</zeroOrMore>
 			<oneOrMore>

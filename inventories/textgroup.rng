@@ -3,47 +3,54 @@
 	datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
 	xmlns="http://relaxng.org/ns/structure/1.0"
 	xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-	xmlns:ti="http://chs.harvard.edu/xmlns/cts/ti">
-	<!-- Modified May, 2013. -->
-	<!--     Relax NG schema for textgroup :  part of the Canonical Text Services protocol (CTS)
-            beginning with version 2.0.
-            Copyright 2006-2013 Neel Smith and licensed under the Creative Commons
-            Attribution-NonCommercial-ShareAlike License. To view a copy of this license, visit
-            http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons,
-            559 Nathan Abbott Way, Stanford, California 94305, USA.
-            
-            Originally prepared by Neel Smith, College of the Holy Cross:  nsmith@holycross.edu
-             Currently maintained by Neel Smith for the Center for Hellenic Studies.
-           -->
+	xmlns:ti="http://chs.harvard.edu/xmlns/cts">
 	<define
 		name="versionstruct">
-		
-			<attribute
-				name="urn"/>
-		
+		<attribute
+			name="urn">
+			<data
+				type="anyURI">
+				<param
+					name="pattern">urn:cts:.+:.+\..+\..+</param>
+			</data>
+		</attribute>
 		<mixed>
-			<element
-				name="ti:label">
-				<attribute
-					name="xml:lang"/>
-				<text/>
-			</element>
-			<optional>
+			<oneOrMore>
+				<element
+					name="ti:label">
+					<attribute
+						name="xml:lang">
+						<data
+							type="string">
+							<param
+								name="pattern">...+</param>
+						</data>
+					</attribute>
+					<data
+						type="string">
+						<param
+							name="pattern">.+</param>
+					</data>
+				</element>
+			</oneOrMore>
+			<zeroOrMore>
 				<element
 					name="ti:description">
 					<attribute
-						name="xml:lang"/>
-					<text/>
+						name="xml:lang">
+						<data
+							type="string">
+							<param
+								name="pattern">...+</param>
+						</data>
+					</attribute>
+					<text></text>
 				</element>
-			</optional>
+			</zeroOrMore>
 			<optional>
 				<ref
 					name="onlinestruct"/>
 			</optional>
-			<zeroOrMore>
-				<ref
-					name="memberofstruct"/>
-			</zeroOrMore>
 			<zeroOrMore>
 				<ref
 					name="exemplarstruct"/>
@@ -63,7 +70,13 @@
 		<element
 			name="ti:translation">
 			<attribute
-				name="xml:lang"/>
+				name="xml:lang">
+				<data
+					type="string">
+					<param
+						name="pattern">...+</param>
+				</data>
+			</attribute>
 			<ref
 				name="versionstruct"/>
 		</element>
@@ -71,19 +84,20 @@
 	<define
 		name="exemplarstruct">
 		<element
-			name="exemplar">
-			
-				<attribute
-					name="urn"/>
+			name="ti:exemplar">
+			<attribute
+				name="urn">
+				<data
+					type="anyURI">
+					<param
+						name="pattern">urn:cts:.+:.+\..+\..+</param>
+				</data>
+			</attribute>
 			<mixed>
 				<optional>
 					<ref
 						name="onlinestruct"/>
 				</optional>
-				<zeroOrMore>
-					<ref
-						name="memberofstruct"/>
-				</zeroOrMore>
 			</mixed>
 		</element>
 	</define>
@@ -91,27 +105,39 @@
 		name="onlinestruct">
 		<element
 			name="ti:online">
-			<attribute
-				name="docname"/>
-			<!-- Canonically cited texts are assumed to belong to a single namespace. 
-					The method of validating this document is defined using the syntax of
-				James Clark's Namespace Routing Language. 
-				See http://www.thaiopensource.com/relaxng/nrl.html
-				-->
-			<element
-				name="ti:validate">
+			<optional>
 				<attribute
-					name="schema"/>
-			</element>
-			<zeroOrMore>
-				<element
-					name="ti:namespaceMapping">
-					<attribute
-						name="abbreviation"/>
-					<attribute
-						name="nsURI"/>
-				</element>
-			</zeroOrMore>
+					name="docname">
+					<data
+						type="string">
+						<param
+							name="pattern">.+</param>
+					</data>
+				</attribute>
+			</optional>
+			<optional>
+				<oneOrMore>
+					<element
+						name="ti:namespaceMapping">
+						<attribute
+							name="abbreviation">
+							<data
+								type="string">
+								<param
+									name="pattern">.+</param>
+							</data>
+						</attribute>
+						<attribute
+							name="nsURI">
+							<data
+								type="anyURI">
+								<param
+									name="pattern">.+</param>
+							</data>
+						</attribute>
+					</element>
+				</oneOrMore>
+			</optional>
 			<element
 				name="ti:citationMapping">
 				<oneOrMore>
@@ -126,14 +152,40 @@
 		<element
 			name="ti:citation">
 			<attribute
-				name="label"/>
-			<attribute
-				name="xpath"/>
-			<attribute
-				name="scope"/>
+				name="label">
+				<data
+					type="string">
+					<param
+						name="pattern">.+</param>
+				</data>
+			</attribute>
 			<optional>
 				<attribute
-					name="leafxpath"/>
+					name="xpath">
+					<data
+						type="string">
+						<param
+							name="pattern">.+</param>
+					</data>
+				</attribute>
+				<attribute
+					name="scope">
+					<data
+						type="string">
+						<param
+							name="pattern">.+</param>
+					</data>
+				</attribute>
+				<optional>
+					<attribute
+						name="leafxpath">
+						<data
+							type="string">
+							<param
+								name="pattern">.+</param>
+						</data>
+					</attribute>
+				</optional>
 			</optional>
 			<optional>
 				<ref
@@ -141,58 +193,72 @@
 			</optional>
 		</element>
 	</define>
-	<define
-		name="memberofstruct">
-		<element
-			name="ti:memberof">
-			<attribute
-				name="collection"/>
-		</element>
-	</define>
 	<start>
-		<!--
-		
-		-->
 		<element
 			name="ti:textgroup">
 			<attribute
-				name="urn"/>
+				name="urn">
+				<data
+					type="anyURI">
+					<param
+						name="pattern">urn:cts:.+:.+</param>
+				</data>
+			</attribute>
 			<oneOrMore>
 				<element
 					name="ti:groupname">
 					<attribute
-						name="xml:lang"/>
-					<!-- All lang attributes should use 3-character codes from ISO 639-2.
-                Refer to the list at the Library of Congress:
-                http://lcweb.loc.gov/standards/iso639-2/englangn.html
-                -->
-					<text/>
+						name="xml:lang">
+						<data
+							type="string">
+							<param
+								name="pattern">...+</param>
+						</data>
+					</attribute>
+					<data
+						type="string">
+						<param
+							name="pattern">.+</param>
+					</data>
 				</element>
 			</oneOrMore>
 			<oneOrMore>
 				<element
 					name="ti:work">
-					
-						<attribute
-							name="urn"/>
-					
 					<attribute
-						name="xml:lang"/>
+						name="urn">
+						<data
+							type="anyURI">
+							<param
+								name="pattern">urn:cts:.+:.+\..+</param>
+						</data>
+					</attribute>
+					<attribute
+						name="xml:lang">
+						<data
+							type="string">
+							<param
+								name="pattern">...+</param>
+						</data>
+					</attribute>
 					<oneOrMore>
 						<element
 							name="ti:title">
 							<attribute
-								name="xml:lang"/>
-							<text/>
+								name="xml:lang">
+								<data
+									type="string">
+									<param
+										name="pattern">...+</param>
+								</data>
+							</attribute>
+							<data
+								type="string">
+								<param
+									name="pattern">.+</param>
+							</data>
 						</element>
 					</oneOrMore>
-					<optional>
-						<element
-							name="ti:citationScheme">
-							<attribute
-								name="schemaId"/>
-						</element>
-					</optional>
 					<interleave>
 						<zeroOrMore>
 							<ref
@@ -203,15 +269,6 @@
 								name="translationstructure"/>
 						</zeroOrMore>
 					</interleave>
-					<!-- Associate a work with a particular collection using the memberof
-                    element;  the collection attribute should be the id value for the collection.
-                    Note that it is also possible to associate lower levels of the hiearchy 
-                    	(editions, translations or exemplars) with specific text groups.
-                    -->
-					<zeroOrMore>
-						<ref
-							name="memberofstruct"/>
-					</zeroOrMore>
 				</element>
 				<!-- work -->
 			</oneOrMore>
