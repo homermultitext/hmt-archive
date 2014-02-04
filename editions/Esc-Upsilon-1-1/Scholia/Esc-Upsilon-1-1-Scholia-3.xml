@@ -22,7 +22,7 @@ style simple scholia" alternate="no"?>
       <group n="3">
 
 
-         <text n="1">
+         <text n="e3">
             <body>
                <div n="9" type="scholion">
                   <div type="marker">
@@ -42,10 +42,7 @@ style simple scholia" alternate="no"?>
                                  ><w>Ἀττικό<unclear>ν</unclear></w></rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="2">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -69,10 +66,7 @@ style simple scholia" alternate="no"?>
                         </cit>·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="3">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -89,10 +83,7 @@ style simple scholia" alternate="no"?>
                         πορεύονται κραυγῆς, ὅσης αἱ γέρανοι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="4">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -104,10 +95,7 @@ style simple scholia" alternate="no"?>
                      <p>ὃν οὐδεὶς. ὅσος ἐστὶν ἑρμηνεύσειε λόγος·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="5">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -121,10 +109,7 @@ style simple scholia" alternate="no"?>
                         ζώων· φωνητικώτερα μᾶλλον τῶν ἀνδρείων⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="6">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num>ΙΔ</num></p>
@@ -140,10 +125,7 @@ style simple scholia" alternate="no"?>
                         πόλεμον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="7">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -166,10 +148,7 @@ style simple scholia" alternate="no"?>
                         προστέθειται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="8">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -182,10 +161,7 @@ style simple scholia" alternate="no"?>
                         κακεῖνος τοῦτον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="9">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -197,10 +173,7 @@ style simple scholia" alternate="no"?>
                      <p>οὐ τοῖς βουκόλοις· ἐπεὶ μὴ νέμουσιν ἡμέρας. διὰ τοὺς οἴστρους⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="10">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -215,10 +188,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="11">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -235,10 +205,7 @@ style simple scholia" alternate="no"?>
                         κονιορτὸς ὁμόχροα καὶ ὁμοίως ἐπιπροσθοῦντα τοῖς ὄμμασιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="12">
-            <body>
+            
                <div n="20" type="scholion">
                   <div type="marker">
                      <p><num value="20">Κ</num></p>
@@ -261,10 +228,7 @@ style simple scholia" alternate="no"?>
                         <unclear>τὸ μῖσος</unclear> εἰ τοιοῦτος ὢν τὴν μορφὴν καταισχύνει⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="13">
-            <body>
+            
                <div n="21" type="scholion">
                   <div type="marker">
                      <p><num value="21">ΚΑ</num></p>
@@ -291,10 +255,7 @@ style simple scholia" alternate="no"?>
                         ἀποτύχῃ τοξεύων, προσπεσὼν μάχοιτο·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="14">
-            <body>
+            
                <div n="22" type="scholion">
                   <div type="marker">
                      <p><num value="22">ΚΒ</num></p>
@@ -320,10 +281,7 @@ style simple scholia" alternate="no"?>
                         πράξει· τὸ δὲ ἐπονείδιστον ἐν τέλει⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="15">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -336,10 +294,7 @@ style simple scholia" alternate="no"?>
                         ἐπτοημένος⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="16">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -356,10 +311,7 @@ style simple scholia" alternate="no"?>
                            >Πάρις</persName>·</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="17">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -375,10 +327,7 @@ style simple scholia" alternate="no"?>
                         εἰς ἀνεκλόγιστον ἀγῶνα προτρέπεται⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="18">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -390,10 +339,7 @@ style simple scholia" alternate="no"?>
                      <p>πρώην γὰρ ἀναπολῶν αὐτὸν τῆ διανοίᾳ, νῦν τῇ θέᾳ πρὸς ἐρεθισμὸν ἐδέξατο⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="19">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -409,10 +355,7 @@ style simple scholia" alternate="no"?>
                         </cit>·</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="20">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -430,10 +373,7 @@ style simple scholia" alternate="no"?>
                         </choice>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="21">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -448,10 +388,7 @@ style simple scholia" alternate="no"?>
                            >Ἀλεξάνδρῳ</persName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="22">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -466,10 +403,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="23">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -484,10 +418,7 @@ style simple scholia" alternate="no"?>
                         </cit> ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="24">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -500,10 +431,7 @@ style simple scholia" alternate="no"?>
                            type="waw">ἄοχρος</rs>· <rs type="waw">ὦχρος</rs>·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="25">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -519,10 +447,7 @@ style simple scholia" alternate="no"?>
                            type="waw">παρειά</rs> παρῆκται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="26">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -534,10 +459,7 @@ style simple scholia" alternate="no"?>
                      <p>λίαν γέρας ἐχόντων· ἄμεινον δὲ ἐνταῖ θατὸ μεγαλοφρόνων⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="27">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -554,10 +476,7 @@ style simple scholia" alternate="no"?>
                         ἐν σχήματι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="28">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -583,10 +502,7 @@ style simple scholia" alternate="no"?>
                         ὁ ἐπ' αὐταῖς μαινόμενος⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="29">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -602,10 +518,7 @@ style simple scholia" alternate="no"?>
                         </cit>· τῷ δὲ θυμῷ ἡττώμενος. ἐπὶ τὸ ἀδύνατον τῆς κατάρας ἐκπίπτει⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="30">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -618,10 +531,7 @@ style simple scholia" alternate="no"?>
                         ἐγεγόνει σοὶ δῆλον ὅτι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="31">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -641,10 +551,7 @@ style simple scholia" alternate="no"?>
                         ὄψεως⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="32">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -676,10 +583,7 @@ style simple scholia" alternate="no"?>
                         πάντας ἀρίστους⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="33">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -696,10 +600,7 @@ style simple scholia" alternate="no"?>
                         </cit>· ὅτι καλὸς μέν ἐστι· γύννις δέ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="34">
-            <body>
+            
                <div n="20" type="scholion">
                   <div type="marker">
                      <p><num value="20">Κ</num></p>
@@ -724,10 +625,7 @@ style simple scholia" alternate="no"?>
                         <note resp="Erbse">p. 166-7</note>. ὡς μᾶλλον τὴν δικαιολογίαν ἔχον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="35">
-            <body>
+            
                <div n="21" type="scholion">
                   <div type="marker">
                      <p><num value="21">ΚΑ</num></p>
@@ -740,10 +638,7 @@ style simple scholia" alternate="no"?>
                            <rs type="waw">ἁρμόζω</rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="36">
-            <body>
+            
                <div n="22" type="scholion">
                   <div type="marker">
                      <p><num value="22">ΚΒ</num></p>
@@ -757,10 +652,7 @@ style simple scholia" alternate="no"?>
                         γέγονε παράκοιτις <note resp="Erbse">cf. Γ 53</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="37">
-            <body>
+            
                <div n="23" type="scholion">
                   <div type="marker">
                      <p><num value="23">ΚΓ</num></p>
@@ -783,10 +675,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="38">
-            <body>
+            
                <div n="24" type="scholion">
                   <div type="marker">
                      <p><num value="24">ΚΔ</num></p>
@@ -801,10 +690,7 @@ style simple scholia" alternate="no"?>
                            αυτὸν</q>. ἀλλ' <persName n="pers17">Ὁμήρου</persName>⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="39">
-            <body>
+            
                <div n="25" type="scholion">
                   <div type="marker">
                      <p><num value="25">ΚΕ</num></p>
@@ -820,10 +706,7 @@ style simple scholia" alternate="no"?>
                            n="pers194">Ἀφροδίτης</persName> φησι·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="40">
-            <body>
+            
                <div n="26" type="scholion">
                   <div type="marker">
                      <p><num value="26">ΚϚ</num></p>
@@ -836,10 +719,7 @@ style simple scholia" alternate="no"?>
                         ἡττώμενον δὲ οὐ προδίδωσιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="41">
-            <body>
+            
                <div n="27" type="scholion">
                   <div type="marker">
                      <p><num value="27">ΚΖ</num></p>
@@ -852,10 +732,7 @@ style simple scholia" alternate="no"?>
                         ἤθει·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="42">
-            <body>
+            
                <div n="28" type="scholion">
                   <div type="marker">
                      <p><num value="28">ΚΗ</num></p>
@@ -870,10 +747,7 @@ style simple scholia" alternate="no"?>
                         αὐτῷ εἰκότα, οὐ μὴν ἀληθῆ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="43">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -886,10 +760,7 @@ style simple scholia" alternate="no"?>
                         εἰκόνα ἀπαθεστάτην εὗρε τὴν τοῦ σιδήρου· καὶ οὐκ ἀργοῦ. ἀλλὰ δρῶντος τί·</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="44">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -902,10 +773,7 @@ style simple scholia" alternate="no"?>
                         ἀμβλύς·⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="45">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -920,10 +788,7 @@ style simple scholia" alternate="no"?>
                            n="pers194">Ἀφροδίτην</persName> ἀπὸ τῆς στολῆς καλεῖ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="46">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -937,10 +802,7 @@ style simple scholia" alternate="no"?>
                         αἰτεῖ πολεμῆσαι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="47">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num n="5">Ε</num></p>
@@ -953,10 +815,7 @@ style simple scholia" alternate="no"?>
                            >Μενελάου</persName> ποιητικόν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="48">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -969,10 +828,7 @@ style simple scholia" alternate="no"?>
                         νικήσει καὶ εἰς τὸ γένηται. βραχὺ διασταλτέον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="49">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -984,10 +840,7 @@ style simple scholia" alternate="no"?>
                      <p>δι' ἐντόμων ποιησάμενοι τουτέστι θυσιῶν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="50">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -999,10 +852,7 @@ style simple scholia" alternate="no"?>
                      <p>διὰ τὸ νεμεσητὸν, οὐκ εἶπε <rs type="waw">ναίοιμεν</rs>·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="51">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -1016,10 +866,7 @@ style simple scholia" alternate="no"?>
                         ὑπολαμβάνει·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="52">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -1031,10 +878,7 @@ style simple scholia" alternate="no"?>
                      <p>εἰκότως ἥδεται· ἢ γὰρ νικήσει. ἢ ἀκλεοῦς ἀδελφοῦ ἀπαλλαγήσεται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="53">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -1047,10 +891,7 @@ style simple scholia" alternate="no"?>
                            >Ἀλεξάνδρου</persName> δὲ προϊόντος, οὐδὲ φροντίζουσιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="54">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -1063,10 +904,7 @@ style simple scholia" alternate="no"?>
                         ἐτόξαζον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="58">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -1079,10 +917,7 @@ style simple scholia" alternate="no"?>
                         ἰοῖς ἐτόξαζον·</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="59">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -1096,10 +931,7 @@ style simple scholia" alternate="no"?>
                         εἵνεκα⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="60">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -1111,10 +943,7 @@ style simple scholia" alternate="no"?>
                      <p>μετὰ γὰρ τὴν ἱερείων τομὴν. οἱ ὅρκοι συντελοῦνται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="61">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -1131,10 +960,7 @@ style simple scholia" alternate="no"?>
                         σιωπῶσιν· ἕνα γὰρ εἰς μάχην προεκαλοῦντο⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="62">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -1148,10 +974,7 @@ style simple scholia" alternate="no"?>
                         πόλεμον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="64">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -1164,10 +987,7 @@ style simple scholia" alternate="no"?>
                         τὴν τάξιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="65">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -1183,10 +1003,7 @@ style simple scholia" alternate="no"?>
                         ἀπαιτήσῃ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="66">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -1211,10 +1028,7 @@ style simple scholia" alternate="no"?>
                         μόνον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="67">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -1231,10 +1045,7 @@ style simple scholia" alternate="no"?>
                         πιστεύει·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="68">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -1247,10 +1058,7 @@ style simple scholia" alternate="no"?>
                         νέους τὸ ἔγκλημα⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="69">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -1266,10 +1074,7 @@ style simple scholia" alternate="no"?>
                         ἄριστα⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="70">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -1281,10 +1086,7 @@ style simple scholia" alternate="no"?>
                      <p>τὰς ἀσπίδας· αὐταὶ γὰρ τελαμῶνας εἶχον οὐκ ὄχανα⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="71">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -1312,10 +1114,7 @@ style simple scholia" alternate="no"?>
                            <persName n="pers550">Ἔρωτα</persName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="72">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -1334,10 +1133,7 @@ style simple scholia" alternate="no"?>
                            </choice></rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="73">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -1349,10 +1145,7 @@ style simple scholia" alternate="no"?>
                      <p>τοῦτο γὰρ ἐν διαίτημα γαμηθεισῶν· χηρῶν δὲ καὶ παρθένων ὑπερῷον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="74">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -1370,10 +1163,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="75">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -1387,10 +1177,7 @@ style simple scholia" alternate="no"?>
                         βίαν· καὶ τὴν <rs type="ethnic" n="place3">Ἑλλήνων</rs> δικαίαν ἰσχύν·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="76">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -1408,10 +1195,7 @@ style simple scholia" alternate="no"?>
                         </cit>, μόνα ὀρθοτονοῦνται παρ' αὐτῷ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="77">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -1426,10 +1210,7 @@ style simple scholia" alternate="no"?>
                            type="waw">δεῦρο</rs>. ἀντὶ τοῦ <rs type="waw">ἄγε</rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="78">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -1442,10 +1223,7 @@ style simple scholia" alternate="no"?>
                            resp="Erbse">sc. Γ 134</note>, ἀντωνυμικόν⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="79">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -1460,10 +1238,7 @@ style simple scholia" alternate="no"?>
                         >Ἀλέξανδρος</persName></q>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="80">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -1475,10 +1250,7 @@ style simple scholia" alternate="no"?>
                      <p>ὑπὸ τῆς ἀπορρίψεως τῶν ὅπλων ἐμποδιζόμενοι πολεμεῖν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="81">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -1491,10 +1263,7 @@ style simple scholia" alternate="no"?>
                         >Μενέλαον</persName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="82">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -1509,10 +1278,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="83">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -1530,10 +1296,7 @@ style simple scholia" alternate="no"?>
                            >Ἀχιλλέως</persName> ἐν ὀνείρῳ, ὧν αὐτὸς οὐ μέμνηται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="84">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -1549,10 +1312,7 @@ style simple scholia" alternate="no"?>
                         </cit> καλεῖ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="85">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -1565,10 +1325,7 @@ style simple scholia" alternate="no"?>
                         μνήμῃ αὐτοῦ μόνῃ συγχεῖται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="86">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -1580,10 +1337,7 @@ style simple scholia" alternate="no"?>
                      <p>στικτέον εἰς τὸ <rs type="waw">οἴη</rs>. καὶ τὸ ἑξῆς ἀσύνδετον·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="87">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -1597,10 +1351,7 @@ style simple scholia" alternate="no"?>
                         γὰρ ἂν τοσούτων οὖσα ἐτῶν. ἀμφιπολεῖν ἠδύνατο⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="88">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -1614,10 +1365,7 @@ style simple scholia" alternate="no"?>
                         μεταβαίνειν·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="89">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -1630,10 +1378,7 @@ style simple scholia" alternate="no"?>
                         δηλοῖ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="90">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -1648,10 +1393,7 @@ style simple scholia" alternate="no"?>
                         </cit>·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="91">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -1663,10 +1405,7 @@ style simple scholia" alternate="no"?>
                      <p>ἐντελῶς μὲν τῷ γήραϊ· γράφεται δὲ καὶ <q>γήρεϊ</q> ὡς <q>οὔδεϊ</q>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="92">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -1679,10 +1418,7 @@ style simple scholia" alternate="no"?>
                         τόπων. διὰ τὸ θέρεσθαι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="93">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -1695,10 +1431,7 @@ style simple scholia" alternate="no"?>
                         βοτάνην ἀνθοῦσαν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="94">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -1711,10 +1444,7 @@ style simple scholia" alternate="no"?>
                         ἄλλως φιλαλήθης ἡ μὴ κατὰ πρόσωπον μαρτυρία⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="95">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -1729,10 +1459,7 @@ style simple scholia" alternate="no"?>
                         </cit>, ἀντὶ τοῦ οὐχ’ ὅσιον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="96">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -1744,10 +1471,7 @@ style simple scholia" alternate="no"?>
                      <p>ὀρθονονητέον τὴν ἡμῖν· μόλις δὲ ἀνακαλοῦνται τοῦ πάθους τὸν λογισμόν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="97">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -1765,10 +1489,7 @@ style simple scholia" alternate="no"?>
                         </cit> συνάπτουσιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="98">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -1781,10 +1502,7 @@ style simple scholia" alternate="no"?>
                         ἐν αὐτοῖς δεινὸν. ἀποστραφῇ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="99">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -1796,10 +1514,7 @@ style simple scholia" alternate="no"?>
                      <p>πηοὶ. οὐχ’ οἱ κυρίως. ἀλλ' οἱ ἐπείσακτοι συγγενεῖς. καὶ ἐπίκτητοι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="100">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -1812,10 +1527,7 @@ style simple scholia" alternate="no"?>
                         γάρ·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="101">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -1828,10 +1540,7 @@ style simple scholia" alternate="no"?>
                            type="ethnic" n="place3">Ἕλληνας</rs> φησιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="102">
-            <body>
+            
                <div n="20" type="scholion">
                   <div type="marker">
                      <p><num value="20">Κ</num></p>
@@ -1860,10 +1569,7 @@ style simple scholia" alternate="no"?>
                            type="waw">ὀνομήναις</rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="103">
-            <body>
+            
                <div n="21" type="scholion">
                   <div type="marker">
                      <p><num value="21">ΚΑ</num></p>
@@ -1883,10 +1589,7 @@ style simple scholia" alternate="no"?>
                         φόβῳ κεῖται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="104">
-            <body>
+            
                <div n="22" type="scholion">
                   <div type="marker">
                      <p><num value="22">ΚΒ</num></p>
@@ -1900,10 +1603,7 @@ style simple scholia" alternate="no"?>
                         ἀπατηθεῖσα⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="105">
-            <body>
+            
                <div n="23" type="scholion">
                   <div type="marker">
                      <p><num value="23">ΚΓ</num></p>
@@ -1922,10 +1622,7 @@ style simple scholia" alternate="no"?>
                            53-65</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="106">
-            <body>
+            
                <div n="24" type="scholion">
                   <div type="marker">
                      <p><num value="24">ΚΔ</num></p>
@@ -1940,10 +1637,7 @@ style simple scholia" alternate="no"?>
                         ὀλοφύρεται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="107">
-            <body>
+            
                <div n="25" type="scholion">
                   <div type="marker">
                      <p><num value="25">ΚΕ</num></p>
@@ -1957,10 +1651,7 @@ style simple scholia" alternate="no"?>
                         κλιμακηδόν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="108">
-            <body>
+            
                <div n="26" type="scholion">
                   <div type="marker">
                      <p><num value="26">ΚϚ</num></p>
@@ -1973,10 +1664,7 @@ style simple scholia" alternate="no"?>
                         γὰρ μικρὰ παρὰ τῇ <placeName n="place6">Τροίᾳ</placeName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="109">
-            <body>
+            
                <div n="27" type="scholion">
                   <div type="marker">
                      <p><num value="27">ΚΖ</num></p>
@@ -1991,10 +1679,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="110">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -2008,10 +1693,7 @@ style simple scholia" alternate="no"?>
                            >Βιθυνίας</placeName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="111">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -2024,10 +1706,7 @@ style simple scholia" alternate="no"?>
                            >Ἑκάβης</persName> ἠξίωται·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="112">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -2052,10 +1731,7 @@ style simple scholia" alternate="no"?>
                         ἀνδράσιν·⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="113">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -2069,10 +1745,7 @@ style simple scholia" alternate="no"?>
                         ἡττᾶσθαι. οὐκ ἐπονείδιστον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="114">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -2085,10 +1758,7 @@ style simple scholia" alternate="no"?>
                         φαλαγγῶν· ὅ ἐστι <num value="240">σμ</num> ἀνδρῶν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="115">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -2104,10 +1774,7 @@ style simple scholia" alternate="no"?>
                         </choice>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="116">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -2123,10 +1790,7 @@ style simple scholia" alternate="no"?>
                         μὴ. μέτρον κωλύσει ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="117">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -2139,10 +1803,7 @@ style simple scholia" alternate="no"?>
                         προσπεπονθέναι τῷ <rs type="ethnic" n="place3">Ἑλληνικῷ</rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="118">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -2156,10 +1817,7 @@ style simple scholia" alternate="no"?>
                            >Ἰδομενέως</persName> ἐσήμανεν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="119">
-            <body>
+            
                <div n="unnumbered" type="scholion">
                   <div type="marker">
                      <p><num/></p>
@@ -2178,10 +1836,7 @@ style simple scholia" alternate="no"?>
                         αὐτοῦ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="120">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -2193,10 +1848,7 @@ style simple scholia" alternate="no"?>
                      <p>εἰσὶ γὰρ καὶ καλοὶ καὶ κακοί· ⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="121">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -2208,10 +1860,7 @@ style simple scholia" alternate="no"?>
                      <p>ὁ ἄρχων τὸν ἄρχοντα καὶ ὁ ῥήτωρ. τὸν ῥήτορα ἐπαινεῖ ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="122">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -2227,10 +1876,7 @@ style simple scholia" alternate="no"?>
                         μόνον συνετοὺς. ἀλλὰ καὶ δραστηρίους. πρεσβεύεσθαι δεῖ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="123">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">Γ</num></p>
@@ -2244,10 +1890,7 @@ style simple scholia" alternate="no"?>
                         διώκουσιν⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="124">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">Δ</num></p>
@@ -2261,10 +1904,7 @@ style simple scholia" alternate="no"?>
                         νεώτερος ἦν·⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="125">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -2276,10 +1916,7 @@ style simple scholia" alternate="no"?>
                      <p>τὸ πρόθυμον δηλοῖ τῆς ἐγέρσεως πρὸς κατάπληξιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="126">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">Ϛ</num></p>
@@ -2296,10 +1933,7 @@ style simple scholia" alternate="no"?>
                         τῇ εἰς ἑαυτὸν οὖν ἐπιστροφῇ. καταρτίζει τοὺς ὁρῶντας⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="127">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -2312,10 +1946,7 @@ style simple scholia" alternate="no"?>
                            type="waw">ι</rs> μετατίθεται⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="128">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -2327,10 +1958,7 @@ style simple scholia" alternate="no"?>
                      <p>διὰ τὸ ὑποδρὰξ ὁρᾶν· ἄφρονα δὲ διὰ τὸ ἀκίνητον τοῦ σκήπτρου ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="129">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -2348,10 +1976,7 @@ style simple scholia" alternate="no"?>
                         ἐπιλεγόμενον. ὃν <persName n="pers580">Ἰσοκράτης</persName>⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="130">
-            <body>
+            
                <div n="20" type="scholion">
                   <div type="marker">
                      <p><num value="20">Κ</num></p>
@@ -2364,10 +1989,7 @@ style simple scholia" alternate="no"?>
                         τὴν κατάπληξιν τῶν ἀδικιῶν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="131">
-            <body>
+            
                <div n="21" type="scholion">
                   <div type="marker">
                      <p><num value="21">ΚΑ</num></p>
@@ -2382,10 +2004,7 @@ style simple scholia" alternate="no"?>
                         τοὺς καρπούς⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="132">
-            <body>
+            
                <div n="22" type="scholion">
                   <div type="marker">
                      <p><num value="22">ΚΒ</num></p>
@@ -2397,10 +2016,7 @@ style simple scholia" alternate="no"?>
                      <p>οὐχ’ οὕτως ἐπὶ τῇ μορφῆ τότε ἐθαυμάσαμεν. ὅσον ἐπὶ τῷ λόγῳ ἐξεπλάγημεν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="133">
-            <body>
+            
                <div n="23" type="scholion">
                   <div type="marker">
                      <p><num value="23">ΚΓ</num></p>
@@ -2414,10 +2030,7 @@ style simple scholia" alternate="no"?>
                            >Αἴας</persName> δὲ ἀνδρειότερ<unclear>ος</unclear></p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="134">
-            <body>
+            
                <div n="24" type="scholion">
                   <div type="marker">
                      <p><num value="24">ΚΔ</num></p>
@@ -2439,10 +2052,7 @@ style simple scholia" alternate="no"?>
                         </cit> φησίν· ἐνταῦθα δὲ μόνον ἕρκος ἁπλῶς⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="135">
-            <body>
+            
                <div n="25" type="scholion">
                   <div type="marker">
                      <p><num value="25">ΚΕ</num></p>
@@ -2456,10 +2066,7 @@ style simple scholia" alternate="no"?>
                         συνεχεῖ ξενίᾳ ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="136">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -2471,10 +2078,7 @@ style simple scholia" alternate="no"?>
                      <p>ἀντὶ τοῦ <rs type="waw">γινώσκω</rs> καὶ <rs type="waw">μυθοῦμαι</rs>·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="137">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -2489,10 +2093,7 @@ style simple scholia" alternate="no"?>
                         μὴ συγχωρουμένη συντυγχάνειν τοῖς αἰχμαλώτοις⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="138">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -2506,10 +2107,7 @@ style simple scholia" alternate="no"?>
                            >Αἴαντα</persName> καὶ <persName n="pers243">Τεῦκρον</persName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="139">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -2524,10 +2122,7 @@ style simple scholia" alternate="no"?>
                         διαπορητικοὺς ἄμφω δεχόμενος⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="140">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -2542,10 +2137,7 @@ style simple scholia" alternate="no"?>
                         τῶ κυριωτέρῳ συντάττεσθαι· ὅμως ἀδιαφόρως συντέτακται⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="141">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -2560,10 +2152,7 @@ style simple scholia" alternate="no"?>
                      </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="142">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -2579,10 +2168,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="143">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num n="8">Η</num></p>
@@ -2597,10 +2183,7 @@ style simple scholia" alternate="no"?>
                         </cit>· ἢ παρὰ τὴν οἴησιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="144">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -2613,10 +2196,7 @@ style simple scholia" alternate="no"?>
                            <rs type="waw">ὄρσω</rs> ἐνεστῶτος ἐστίν·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="145">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -2630,10 +2210,7 @@ style simple scholia" alternate="no"?>
                         σιωπῶσιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="146">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -2650,10 +2227,7 @@ style simple scholia" alternate="no"?>
                            >Ἑλληνίδα</placeName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="147">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -2669,10 +2243,7 @@ style simple scholia" alternate="no"?>
                         </cit>, τέλος οἷον οὖν ἐπιζητῶν τοῦ πολέμου⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="148">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -2687,10 +2258,7 @@ style simple scholia" alternate="no"?>
                            <rs type="ethnic" n="place3">Ἑλλήνων</rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="149">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -2703,10 +2271,7 @@ style simple scholia" alternate="no"?>
                            >μίσγον</rs>⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="150">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -2719,10 +2284,7 @@ style simple scholia" alternate="no"?>
                            n="place6">Τρώων</rs>, τὸν ἐν θυσίαις νόμον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="151">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -2738,10 +2300,7 @@ style simple scholia" alternate="no"?>
                         πυρὶ, ὡς οὐδὲ τοῦ κάπρου <note resp="Erbse">cf. Τ 254-5</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="152">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -2755,10 +2314,7 @@ style simple scholia" alternate="no"?>
                         προαγόρευσιν διασταλτέον⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="153">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -2775,10 +2331,7 @@ style simple scholia" alternate="no"?>
                         μετὰ θάνατον ἀπαλλάσσεσθαι τοὺς ἁμαρτάνοντας λέγων⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="154">
-            <body>
+            
                <div n="unnumbered" type="scholion">
                   <div type="marker">
                      <p>grimace face</p>
@@ -2790,10 +2343,7 @@ style simple scholia" alternate="no"?>
                      <p>τελεία εἰς τὸ <rs type="waw">ὀμόσσῃ</rs>·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="155">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -2807,10 +2357,7 @@ style simple scholia" alternate="no"?>
                         τῆ πίστει γινόμενα ὅρκια·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="156">
-            <body>
+            
                <div n="20" type="scholion">
                   <div type="marker">
                      <p><num value="20">Κ</num></p>
@@ -2836,10 +2383,7 @@ style simple scholia" alternate="no"?>
                         ὅρκοις ὁριζόμενα⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="157">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -2855,10 +2399,7 @@ style simple scholia" alternate="no"?>
                         κεφαλαίου, ἐπιμένει τῷ λόγῳ ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="158">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -2871,10 +2412,7 @@ style simple scholia" alternate="no"?>
                         γε οὐ μεσεγγυᾶται ἡ <persName n="pers94">Ἑλένη</persName> ⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="159">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -2887,10 +2425,7 @@ style simple scholia" alternate="no"?>
                         τοῖς ἀΐδιον ἔχουσι τὴν γενεὰν. ἤτοι ἀεὶ οὖσιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="160">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -2905,10 +2440,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="161">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -2921,10 +2453,7 @@ style simple scholia" alternate="no"?>
                            type="waw">πω</rs>. ἐλπίδα πάλιν απολείπεται, τῷ φιλέλληνι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="162">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -2947,10 +2476,7 @@ style simple scholia" alternate="no"?>
                         </choice> τὸ φυσικὸν οὐ δύναται μὴ σώζειν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="163">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -2964,10 +2490,7 @@ style simple scholia" alternate="no"?>
                         δὲ τὸ τέλος οἶδε. καὶ τὴν τύχην· οὐκ ἀποκόπτει δὲ τοῦ υἱοῦ τὴν ἐλπίδα·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="164">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -2981,10 +2504,7 @@ style simple scholia" alternate="no"?>
                         ἀγνοοῦντας διδάξων⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="165">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -2996,10 +2516,7 @@ style simple scholia" alternate="no"?>
                      <p>ὑπηρετικὸν γὰρ τοῦτο· τὸ δὲ τῶν σπονδῶν. βασιλικόν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="166">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -3026,10 +2543,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="167">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -3046,10 +2560,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="168">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -3064,10 +2575,7 @@ style simple scholia" alternate="no"?>
                            >δε</rs> ἀντὶ τοῦ <rs type="waw">και</rs> φησιν. ἐγὼ δὲ ἰδέφημι·⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="169">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -3079,10 +2587,7 @@ style simple scholia" alternate="no"?>
                      <p>ἀπὸ <title>κοινοῦ</title> τὸ <q>δὸς</q> ἐπ' ἀμφοτέροις τέτακται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="170">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -3095,10 +2600,7 @@ style simple scholia" alternate="no"?>
                         ποιεῖ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="171">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -3112,10 +2614,7 @@ style simple scholia" alternate="no"?>
                         διὰ τούτων. ὡς κενὰ τὰ τῆς τύχης πρὸς τοὺς ἀνεπιτηδείους⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="172">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -3128,10 +2627,7 @@ style simple scholia" alternate="no"?>
                            >ἑκάστου</rs>·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="173">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -3148,10 +2644,7 @@ style simple scholia" alternate="no"?>
                         ἀντὶ τοῦ ἐπικεῖσθαι· ἢ καὶ ἐπὶ ἀργῶν τῶν ἵππων, τὸ ἔκειντο ἁρμόδιον ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="174">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -3165,10 +2658,7 @@ style simple scholia" alternate="no"?>
                         τε ως· ὡς πρῶτος δὲ λαχὼν, πρώτως ὁπλίζεται⁑ </p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="175">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -3181,10 +2671,7 @@ style simple scholia" alternate="no"?>
                         σφυρῶν σφαιρώματα⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="176">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -3199,10 +2686,7 @@ style simple scholia" alternate="no"?>
                         τὸν ἱδρῶτα <note resp="Erbse">cf. Φ 50-1</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="177">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -3216,10 +2700,7 @@ style simple scholia" alternate="no"?>
                         κοινόν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="178">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -3234,10 +2715,7 @@ style simple scholia" alternate="no"?>
                         τὴν ἔμφασιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="179">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -3257,10 +2735,7 @@ style simple scholia" alternate="no"?>
                            synonym we suspect it may be a multiform.</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="180">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -3273,10 +2748,7 @@ style simple scholia" alternate="no"?>
                            n="pers129">Ἀλέξανδρος</persName> εὐχῆς ἄδικος ὤν·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="181">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -3291,10 +2763,7 @@ style simple scholia" alternate="no"?>
                         ἀπώλεσεν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="182">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -3307,10 +2776,7 @@ style simple scholia" alternate="no"?>
                         ῥώμῃ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="183">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -3329,10 +2795,7 @@ style simple scholia" alternate="no"?>
                         γένος⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="184">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -3345,10 +2808,7 @@ style simple scholia" alternate="no"?>
                         πάσχει διὸ παροξύνεται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="185">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -3360,10 +2820,7 @@ style simple scholia" alternate="no"?>
                      <p>τὸ βίαιον τῆς πληγῆς παραδηλοῖ. τῷ τραχεῖ τοῦτῳ ῥήματι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="186">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -3375,10 +2832,7 @@ style simple scholia" alternate="no"?>
                      <p>τὰ γὰρ ὑπερβάλλουσαν ἀλκὴν ἔχοντα μᾶλλον εὔθρυπτα⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="187">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -3390,10 +2844,7 @@ style simple scholia" alternate="no"?>
                      <p>φιλεγκλήμονες γὰρ καὶ ἐλεγκτικοὶ. οἱ ατυχεῖς⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="188">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -3406,10 +2857,7 @@ style simple scholia" alternate="no"?>
                            >Ἀλεξάνδρου</persName> τὰ τῆς μάχης ἐλύετο⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="189">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -3423,10 +2871,7 @@ style simple scholia" alternate="no"?>
                            unknown.</note> παρα βραχὺ. εἰ μὴ ἐσφάλην⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="190">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -3439,10 +2884,7 @@ style simple scholia" alternate="no"?>
                         ὑποθέσει· τριχῇ φονεύσας αὐτόν· δόρατι· ξίφει. αἰχμαλωσίᾳ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="191">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -3458,10 +2900,7 @@ style simple scholia" alternate="no"?>
                         ὅπερ ἦν μεῖζον· οὕτω γὰρ ἂν ἀξίως ἐτιμωρήσατο αὐτὸν. ἢ συντόμως ἀνελών⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="192">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -3473,10 +2912,7 @@ style simple scholia" alternate="no"?>
                      <p>ὡς ἐπὶ γυναικὸς ἁπαλῆσ εἶπεν ὀνειδίζων· οὐκ εἰωθυίης κόρυθα φορεῖν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="193">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -3493,10 +2929,7 @@ style simple scholia" alternate="no"?>
                         κεστοῦ συναπάγει δε αὐτὸν. ὅπως μὴ ἀπαγχονισθείη⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="194">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">ΙΘ</num></p>
@@ -3509,10 +2942,7 @@ style simple scholia" alternate="no"?>
                         κάλλιστον τῶν λαφύρων. παρὰ τοῖς πολεμίοις καταλειφθείη⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="195">
-            <body>
+            
                <div n="20" type="scholion">
                   <div type="marker">
                      <p><num value="20">Κ</num></p>
@@ -3525,10 +2955,7 @@ style simple scholia" alternate="no"?>
                            >Ἀτρείδης</persName> κεῖσθαι·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="196">
-            <body>
+            
                <div n="21" type="scholion">
                   <div type="marker">
                      <p><num value="21">ΚΑ</num></p>
@@ -3541,10 +2968,7 @@ style simple scholia" alternate="no"?>
                            resp="Erbse">cf. Ν 204-5</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="197">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1">Α</num></p>
@@ -3560,10 +2984,7 @@ style simple scholia" alternate="no"?>
                         αὐτῶ διαχρησόμενος ἐπεδίωκεν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="198">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -3576,10 +2997,7 @@ style simple scholia" alternate="no"?>
                         θεῶν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="199">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -3592,10 +3010,7 @@ style simple scholia" alternate="no"?>
                            >Ἀλεξάνδρου</persName> τεκμήριον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="200">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -3613,10 +3028,7 @@ style simple scholia" alternate="no"?>
                         μή πως οἰόμενος αὐτὴν ἀποδεδόσθαι. διαχρήσηται ἑαυτόν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="201">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -3630,10 +3042,7 @@ style simple scholia" alternate="no"?>
                         φαντασίας δηλοῖ· ὑψῶν. τῷ κόμπῳ τῶν ἐπιθέτων⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="202">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -3648,10 +3057,7 @@ style simple scholia" alternate="no"?>
                         φθέγγεται· μή πως ἐκφήνῃ τὸ πάθος⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="203">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -3667,10 +3073,7 @@ style simple scholia" alternate="no"?>
                         ἀλλ' ἔστιν ἡ χρῆσις <rs type="ethnic" n="place79">Ἰώνων</rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="204">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -3683,10 +3086,7 @@ style simple scholia" alternate="no"?>
                         τόπου·⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="205">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -3702,10 +3102,7 @@ style simple scholia" alternate="no"?>
                         συνήθης ἐστὶν. ἐὰν τεθῆ πλεονάζειν δοκεῖ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="206">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -3717,10 +3114,7 @@ style simple scholia" alternate="no"?>
                      <p>ταῦτα φησιν ἵνα μὴ μυσαχθῆ αὐτὸν διὰ τὸ λύθρον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="207">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -3736,10 +3130,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="208">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -3754,10 +3145,7 @@ style simple scholia" alternate="no"?>
                         <note resp="Erbse">cf. Ν 70-2</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="209">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -3771,10 +3159,7 @@ style simple scholia" alternate="no"?>
                            type="ethnic" n="place6">Τρωάσιν</rs>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="210">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -3786,10 +3171,7 @@ style simple scholia" alternate="no"?>
                      <p>παρρησιάζεται ἡ <persName n="pers94">Ἑλένη</persName> ὡς πρὸς ἀδελφήν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="211">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">ΙΕ</num></p>
@@ -3803,10 +3185,7 @@ style simple scholia" alternate="no"?>
                            type="waw">πη</rs>. ἀλλ’ ἀόριστον⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="212">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">ΙϚ</num></p>
@@ -3818,10 +3197,7 @@ style simple scholia" alternate="no"?>
                      <p>δίχα τοῦ <rs type="waw">ι</rs> τὸ προτέρω· ἀπὸ τοῦ προσσωτέρω γάρ ἐστιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="213">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -3834,10 +3210,7 @@ style simple scholia" alternate="no"?>
                         λανθάνεις ἐφ ᾧ ἦλθες⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="214">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
@@ -3857,10 +3230,7 @@ style simple scholia" alternate="no"?>
                         τῷ νικήσαντι ἕπεσθαι⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="215">
-            <body>
+            
                <div n="19" type="scholion">
                   <div type="marker">
                      <p><num value="19">Θ</num></p>
@@ -3875,10 +3245,7 @@ style simple scholia" alternate="no"?>
                         <note resp="Erbse">trag. fr. ad. 448 n.2</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="216">
-            <body>
+            
                <div n="20" type="scholion">
                   <div type="marker">
                      <p><num value="20">Κ</num></p>
@@ -3892,10 +3259,7 @@ style simple scholia" alternate="no"?>
                         <note resp="Erbse">Β 599-600</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="217">
-            <body>
+            
                <div n="21" type="scholion">
                   <div type="marker">
                      <p><num value="21">ΚΑ</num></p>
@@ -3907,10 +3271,7 @@ style simple scholia" alternate="no"?>
                      <p>διδάσκει μὴ θρασείας ποιεῖσθαι πρὸς τοὺς ὑπερέχοντας τὰς ἀποκρίσεις⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="218">
-            <body>
+            
                <div n="22" type="scholion">
                   <div type="marker">
                      <p><num value="22">ΚΒ</num></p>
@@ -3922,10 +3283,7 @@ style simple scholia" alternate="no"?>
                      <p>ἔδει γὰρ αὐτὰς χωρίζεσθαι, ὡς ἀνδρὸς καὶ γυναικὸς τὰ συνήθη πρασσόντων⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="219">
-            <body>
+            
                <div n="23" type="scholion">
                   <div type="marker">
                      <p><num value="23">ΚΓ</num></p>
@@ -3938,10 +3296,7 @@ style simple scholia" alternate="no"?>
                         ἐπιτείνονται⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="220">
-            <body>
+            
                <div n="24" type="scholion">
                   <div type="marker">
                      <p><num value="24">ΚΔ</num></p>
@@ -3961,10 +3316,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="221">
-            <body>
+            
                <div n="25" type="scholion">
                   <div type="marker">
                      <p><num value="25">ΚΕ</num></p>
@@ -3980,10 +3332,7 @@ style simple scholia" alternate="no"?>
                         <note resp="Erbse">sthenel. fr. 1 vel agath. fr. 29 n.2</note>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="222">
-            <body>
+            
                <div n="26" type="scholion">
                   <div type="marker">
                      <p><num value="26">ΚϚ</num></p>
@@ -3996,10 +3345,7 @@ style simple scholia" alternate="no"?>
                         ἀντιτάσσεται τῇ <persName n="pers194">Ἀφροδίτῃ</persName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="223">
-            <body>
+            
                <div n="1" type="scholion">
                   <div type="marker">
                      <p><num value="1"/></p>
@@ -4014,10 +3360,7 @@ style simple scholia" alternate="no"?>
                         ἀπόλυτόν ἐᾷ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="224">
-            <body>
+            
                <div n="2" type="scholion">
                   <div type="marker">
                      <p><num value="2">Β</num></p>
@@ -4030,10 +3373,7 @@ style simple scholia" alternate="no"?>
                         ἀλαζονικὸν ἔσκωψεν· ἴδιον γὰρ τῶν ἐρώντων ἐπὶ ἀνδραγαθίαις αὐχεῖν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="225">
-            <body>
+            
                <div n="3" type="scholion">
                   <div type="marker">
                      <p><num value="3">Γ</num></p>
@@ -4053,10 +3393,7 @@ style simple scholia" alternate="no"?>
                         τὸ κέλομαι· καὶ τὰ ἑξῆς. ἀντὶ προστακτικῶν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="226">
-            <body>
+            
                <div n="4" type="scholion">
                   <div type="marker">
                      <p><num value="4">Δ</num></p>
@@ -4072,10 +3409,7 @@ style simple scholia" alternate="no"?>
                         ἧτταν τὴν ἀλαζονείαν ἀφείς⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="227">
-            <body>
+            
                <div n="5" type="scholion">
                   <div type="marker">
                      <p><num value="5">Ε</num></p>
@@ -4088,10 +3422,7 @@ style simple scholia" alternate="no"?>
                            >νικήσω</rs> ἐκδεκτέον· κοινὸν γὰρ ἄμφω τὸ ἐνίκησεν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="228">
-            <body>
+            
                <div n="6" type="scholion">
                   <div type="marker">
                      <p><num value="6">Ϛ</num></p>
@@ -4106,10 +3437,7 @@ style simple scholia" alternate="no"?>
                         πολεμίῳ ἔσπευσεν· ἢ ὅτι ὧν στεροίμεθα ἂν, τούτων ἐρῶμεν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="229">
-            <body>
+            
                <div n="7" type="scholion">
                   <div type="marker">
                      <p><num value="7">Ζ</num></p>
@@ -4122,10 +3450,7 @@ style simple scholia" alternate="no"?>
                         ἀξιοῖ⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="230">
-            <body>
+            
                <div n="8" type="scholion">
                   <div type="marker">
                      <p><num value="8">Η</num></p>
@@ -4138,10 +3463,7 @@ style simple scholia" alternate="no"?>
                         δικτύων⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="231">
-            <body>
+            
                <div n="9" type="scholion">
                   <div type="marker">
                      <p><num value="9">Θ</num></p>
@@ -4154,10 +3476,7 @@ style simple scholia" alternate="no"?>
                         δοκοῦσιν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="232">
-            <body>
+            
                <div n="10" type="scholion">
                   <div type="marker">
                      <p><num value="10">Ι</num></p>
@@ -4171,10 +3490,7 @@ style simple scholia" alternate="no"?>
                            >Ἀφροδίτης</persName> γὰρ ἱερά⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="233">
-            <body>
+            
                <div n="11" type="scholion">
                   <div type="marker">
                      <p><num value="11">ΙΑ</num></p>
@@ -4188,10 +3504,7 @@ style simple scholia" alternate="no"?>
                         σου⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="234">
-            <body>
+            
                <div n="12" type="scholion">
                   <div type="marker">
                      <p><num value="12">ΙΒ</num></p>
@@ -4204,10 +3517,7 @@ style simple scholia" alternate="no"?>
                            n="pers116">Ἥρας</persName> καὶ <persName n="pers8">Διός</persName>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="235">
-            <body>
+            
                <div n="13" type="scholion">
                   <div type="marker">
                      <p><num value="13">ΙΓ</num></p>
@@ -4223,10 +3533,7 @@ style simple scholia" alternate="no"?>
                         </cit>· ἐπὶ δὲ τῶν παρανόμων, μόνην μῖξιν καὶ κοίτην⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="236">
-            <body>
+            
                <div n="14" type="scholion">
                   <div type="marker">
                      <p><num value="14">ΙΔ</num></p>
@@ -4239,10 +3546,7 @@ style simple scholia" alternate="no"?>
                         ἐπιτυχόντι εἰκάζει⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="237">
-            <body>
+            
                <div n="15" type="scholion">
                   <div type="marker">
                      <p><num value="15">Ε</num></p>
@@ -4258,10 +3562,7 @@ style simple scholia" alternate="no"?>
                               <w>ἥ<unclear>ρπαστο</unclear></w>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="238">
-            <body>
+            
                <div n="16" type="scholion">
                   <div type="marker">
                      <p><num value="16">Ϛ</num></p>
@@ -4294,10 +3595,7 @@ style simple scholia" alternate="no"?>
                         <unclear>πολέμου</unclear>⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="239">
-            <body>
+            
                <div n="17" type="scholion">
                   <div type="marker">
                      <p><num value="17">ΙΖ</num></p>
@@ -4310,10 +3608,7 @@ style simple scholia" alternate="no"?>
                            type="ethnic" n="place114">Ἀργείοις</rs> προσήκουσαν⁑</p>
                   </div>
                </div>
-            </body>
-         </text>
-         <text n="240">
-            <body>
+            
                <div n="18" type="scholion">
                   <div type="marker">
                      <p><num value="18">ΙΗ</num></p>
