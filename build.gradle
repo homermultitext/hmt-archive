@@ -401,7 +401,7 @@ class VenetusATask extends DefaultTask {
 }
 
 /// Can add dependencies on other MSS when we have tasks for them.
-task editions(type: Zip, dependsOn: [venetusA, furmanEditions, e3]) {
+task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
     description="Builds zip file of all edited manuscripts."
     classifier = 'xml'
     baseName = "hmt-editions"
