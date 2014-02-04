@@ -102,6 +102,12 @@
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="scholiaToImgIndex.tsv"></source>
     </index>
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="scholiaToImgIndex-3.tsv"></source>
+    </index>
+
+
     
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textUrnToFolio.tsv"></source>
