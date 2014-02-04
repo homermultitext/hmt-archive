@@ -426,8 +426,13 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
     description="Generates tsv relating scholia to Iliad passage commented on."
     main = "org.homermultitext.ScholiaIndexer"
 
-    args = ["${editionsDir}/VenetusA/Scholia","${citeDir}/indices","scholiaToIliad.tsv",
-        "urn:cts:greekLit:tlg0012.tlg001.msA", "hmt" ]
+    args = [
+      "${editionsDir}/VenetusA/Scholia",
+      "${citeDir}/indices",
+      "scholiaToIliad.tsv",
+      "urn:cts:greekLit:tlg0012.tlg001.msA", 
+      "hmt" 
+    ]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -437,8 +442,13 @@ task indexE3Scholia (type: JavaExec, dependsOn : "compileGroovy") {
     description="Generates tsv relating scholia to Iliad passage commented on."
     main = "org.homermultitext.ScholiaIndexer"
 
-    args = ["${editionsDir}/Esc-Upsilon-1-1/Scholia","cite/indices","scholiaToIliad-e3.tsv",
-        "urn:cts:greekLit:tlg0012.tlg001.e3", "hmt" ]
+    args = [
+      "${editionsDir}/Esc-Upsilon-1-1/Scholia",
+      "cite/indices",
+      "scholiaToIliad-e3.tsv",
+      "urn:cts:greekLit:tlg0012.tlg001.e3", 
+      "hmt" 
+    ]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime

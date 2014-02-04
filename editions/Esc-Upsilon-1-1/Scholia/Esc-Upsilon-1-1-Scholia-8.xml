@@ -21,6 +21,7 @@ style simple scholia" alternate="no"?>
    <text>
 
       <group n="8">
+         <!--
          <text n="e3later">
             <body>
                <div n="95" type="scholion"/>
@@ -255,6 +256,7 @@ style simple scholia" alternate="no"?>
 
             </body>
          </text>
+        --> 
          <text n="e3">
             <body>
 
