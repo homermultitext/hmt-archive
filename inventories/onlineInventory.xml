@@ -65,6 +65,28 @@
   </textgroup>
   <textgroup urn="urn:cts:greekLit:tlg5026">
     <groupname xml:lang="eng"> Scholia to the Iliad</groupname>
+    
+    <work urn="urn:cts:greekLit:tlg5026.e3" xml:lang="grc">
+      <title xml:lang="eng"> Main scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.e3.hmt">
+        <label xml:lang="eng">Upsilon 1.1</label>
+        <description xml:lang="eng">Main scholia of the Escorial manuscript, Upsilon 1.1</description>
+        <online docname="VenetusA/VenetusA-Scholia-msA.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:div[@n = '?']"/>
+            </citation>
+          </citationMapping>
+        </online>
+        
+      </edition>
+    </work>
+    
+    
+    
     <work urn="urn:cts:greekLit:tlg5026.msA" xml:lang="grc">
       <title xml:lang="eng"> Main marginal scholia</title>
       <edition urn="urn:cts:greekLit:tlg5026.msA.hmt">
