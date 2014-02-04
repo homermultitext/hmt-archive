@@ -42,6 +42,25 @@
         </online>
         
       </edition>
+   
+    
+      <edition urn="urn:cts:greekLit:tlg0012.tlg001.e3">
+        <label xml:lang="eng"> Upsilon 1.1 </label>
+        <description xml:lang="eng"> Iliad text of Escorial manuscript Upsilon 1.1. </description>
+        <online docname="Esc-Upsilon-1-1/Esc-Upsilon-1-1-Iliad.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:l[@n = '?']"/>
+            </citation>
+          </citationMapping>
+        </online>
+        
+      </edition>
+      
+    
     </work>
   </textgroup>
   <textgroup urn="urn:cts:greekLit:tlg5026">

@@ -20,7 +20,7 @@ class HmtTabulator {
 
 
     /** Verbosity level 0-3 of debugging output */
-    Integer debug = 1
+    Integer debug = 3
 
 
     HmtTabulator(File srcDir, File textInventory, File outDir) {
@@ -37,6 +37,11 @@ class HmtTabulator {
     void tabulate()  
     throws Exception {
         Corpus c = new Corpus(textInventory, archiveDirectory)
+	if (debug > 1) {
+	  System.err.println "Files in archive: " + c.filesInArchive()
+	  System.err.println "Files in inventory: " + c.filesInInventory()
+	  
+	}
         try  {
             if (! outputDirectory.exists()) {
                 outputDirectory.mkdir()
@@ -75,6 +80,8 @@ class HmtTabulator {
             System.err.println "HmtTabulator main method: Bad param or params: ${args}"
             throw e
         }
+
+	System.err.println "Making tabularo with: ${src}, inv ${tiFile}, output ${outputDir}"
         HmtTabulator tab = new HmtTabulator(src, tiFile, outputDir)
         tab.tabulate()
 

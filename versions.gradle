@@ -1,10 +1,8 @@
 
 ext {
-
-    //groovyversion = "1.7.11"
     groovyversion = "2.0.6"
 
-    citeversion = "0.14.2"
+    citeversion = "0.16.0"
     greekutilsversion = "0.8.5"
 
 
@@ -12,7 +10,7 @@ ext {
     nysiversion = "0.1.12"
     abracadabraversion = "0.1.5"
     prestochangoversion = "0.2.11"
-    hocuspocusversion = "0.9.1"
+    hocuspocusversion = "0.10.1"
 
 
     //needed for hocuspocus:

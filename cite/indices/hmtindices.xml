@@ -81,6 +81,10 @@
         <source type="file" value="scholiaToIliad.tsv"></source>
     </index>
 
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="scholiaToIliad-e3.tsv"></source>
+    </index>
+
 
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="linesToImage-9.csv"></source>
