@@ -43,7 +43,7 @@
         
       </edition>
    
-    
+    <!--
       <edition urn="urn:cts:greekLit:tlg0012.tlg001.e3">
         <label xml:lang="eng"> Upsilon 1.1 </label>
         <description xml:lang="eng"> Iliad text of Escorial manuscript Upsilon 1.1. </description>
@@ -59,13 +59,14 @@
         </online>
         
       </edition>
-      
+      -->
     
     </work>
   </textgroup>
   <textgroup urn="urn:cts:greekLit:tlg5026">
     <groupname xml:lang="eng"> Scholia to the Iliad</groupname>
     
+    <!--
     <work urn="urn:cts:greekLit:tlg5026.e3" xml:lang="grc">
       <title xml:lang="eng"> Main scholia</title>
       <edition urn="urn:cts:greekLit:tlg5026.e3.hmt">
@@ -86,7 +87,7 @@
       </edition>
     </work>
     
-    
+    -->
     
     <work urn="urn:cts:greekLit:tlg5026.msA" xml:lang="grc">
       <title xml:lang="eng"> Main marginal scholia</title>
