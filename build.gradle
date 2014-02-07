@@ -93,10 +93,6 @@ dependencies {
 }
 
 
-///////////////////////////////////////////////////////////////////////////
-//// Tasks for assembling editions from source material
-
-
 task setUpEditions(type: Copy) {
     description = "Generates README to accompany XML version of HMT editions."
     from (file("${editionsDir}")) {
@@ -108,13 +104,9 @@ task setUpEditions(type: Copy) {
 }
 
 
-task venAReadme (type: Copy) {
-    description = "Add README file for Venetus A archive to build area."
-    from ("${editionsDir}/VenetusA") {
-        include 'README.md'
-    }
-    into "${buildDir}/${compositeDir}/VenetusA"
-}
+
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for assembling Upsilon 1.1 editions from source material
 
 task e3Readme (type: Copy) {
     description = ""
@@ -124,36 +116,6 @@ task e3Readme (type: Copy) {
     into "${buildDir}/${compositeDir}/Esc-Upsilon-1-1"
 }
 
-
-// Texts other than Iliad and scholia
-task venAOther (type: Copy, dependsOn: venAReadme) {
-    description = "Copies into build area all texts other than Iliad and scholia"
-    from ("${editionsDir}/VenetusA/OtherTexts")
-    into("${buildDir}/editions/archive/VenetusA")
-    include("*.xml")
-    doLast {
-        File srcDir = new File("${editionsDir}/VenetusA/OtherTexts")
-        def xmlList =  srcDir.list([accept:{d, f-> f ==~ /.*xml/ }] as FilenameFilter
-                    ).toList()
-        File outDir = new File("${buildDir}/editions/archive/VenetusA")
-        xmlList.each { fName ->
-            File f = new File(outDir, fName)
-            def root = new XmlParser().parse(f)
-            System.err.println "${fName} validates syntactically"
-        }
-    }
-}
-
-
-// Iliad
-task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
-    description = "Compiles single Iliad text from multiple source files."
-    main = "org.homermultitext.IliadCompiler"
-    args = ["${editionsDir}/VenetusA/Iliad", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA" ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
 
 task e3Iliad(type: JavaExec, dependsOn: [e3Readme, compileGroovy]) {
     description = "Compiles single Iliad text from multiple source files."
@@ -175,6 +137,68 @@ task e3Header(type: Copy) {
         fileName.replace('.xml','-e3.xml')
     }
 
+}
+
+task e3Scholia (type: JavaExec, dependsOn: [e3Header, e3Readme, compileGroovy]) {
+    description = "test e3"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${editionsDir}/Esc-Upsilon-1-1/Scholia","${buildDir}/headers/Esc-Upsilon-1-1/Esc-Upsilon-1-1-Scholia-e3.xml", "${buildDir}/${compositeDir}/Esc-Upsilon-1-1" , "e3"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+task e3(dependsOn: [e3Scholia, e3Iliad]) {
+    doLast {
+        System.err.println "All Upsilon 1.1 texts validate syntactically."
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for assembling Venetus A editions from source material
+
+task venAReadme (type: Copy) {
+    description = "Add README file for Venetus A archive to build area."
+    from ("${editionsDir}/VenetusA") {
+        include 'README.md'
+    }
+    into "${buildDir}/${compositeDir}/VenetusA"
+}
+
+// Texts other than Iliad and scholia
+task venAOther (type: Copy, dependsOn: venAReadme) {
+    description = "Copies into build area all texts other than Iliad and scholia"
+    from ("${editionsDir}/VenetusA/OtherTexts")
+    into("${buildDir}/editions/archive/VenetusA")
+    include("*.xml")
+    doLast {
+        File srcDir = new File("${editionsDir}/VenetusA/OtherTexts")
+        def xmlList =  srcDir.list([accept:{d, f-> f ==~ /.*xml/ }] as FilenameFilter
+                    ).toList()
+        File outDir = new File("${buildDir}/editions/archive/VenetusA")
+        xmlList.each { fName ->
+            File f = new File(outDir, fName)
+            def root = new XmlParser().parse(f)
+            System.err.println "${fName} validates syntactically"
+        }
+    }
+}
+
+// Iliad
+task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
+    description = "Compiles single Iliad text from multiple source files."
+    main = "org.homermultitext.IliadCompiler"
+    args = ["${editionsDir}/VenetusA/Iliad", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA" ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
 }
 
 // Venetus A, main scholia
@@ -210,7 +234,6 @@ task msAimHeader(type: Copy) {
     }
 
 }
-
 task msAimScholia(type: JavaExec, dependsOn: [msAimHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A main scholia"
     main = "org.homermultitext.ScholiaCompiler"
@@ -219,7 +242,6 @@ task msAimScholia(type: JavaExec, dependsOn: [msAimHeader, venAReadme, compileGr
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
-
 
 
 // Venetus A, interior scholia
@@ -233,7 +255,6 @@ task msAintHeader(type: Copy) {
         fileName.replace('.xml','-msAint.xml')
     }
 }
-
 task msAintScholia (type: JavaExec, dependsOn: [msAintHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A interior scholia"
     main = "org.homermultitext.ScholiaCompiler"
@@ -243,7 +264,6 @@ task msAintScholia (type: JavaExec, dependsOn: [msAintHeader, venAReadme, compil
     classpath configurations.runtime
 
 }
-
 
 
 // Venetus A, exterior scholia
@@ -257,7 +277,6 @@ task msAextHeader(type: Copy) {
         fileName.replace('.xml','-msAext.xml')
     }
 }
-
 task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A exterior scholia"
     main = "org.homermultitext.ScholiaCompiler"
@@ -266,7 +285,6 @@ task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compile
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
-
 
 
 // Venetus A, interlinear scholia
@@ -280,7 +298,6 @@ task msAilHeader(type: Copy) {
         fileName.replace('.xml','-msAil.xml')
     }
 }
-
 task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A interlinear scholia"
     main = "org.homermultitext.ScholiaCompiler"
@@ -289,9 +306,6 @@ task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileG
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
-
-
-
 
 
 // Venetus A, later scholia
@@ -304,7 +318,6 @@ task msALaterHeader(type: Copy) {
     rename { String fileName ->
         fileName.replace('.xml','-msALater.xml')
     }
-
 }
 task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A interlinear scholia"
@@ -314,8 +327,6 @@ task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, co
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
-
-    description = "Compiles and validates complete edition of Venetus A later scholia"
 
 
 // Venetus A, later intermarginal scholia
@@ -329,7 +340,6 @@ task msAimLaterHeader(type: Copy) {
         fileName.replace('.xml','-msAimLater.xml')
     }
 }
-
 task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A later scholia in intermarginal position"
     main = "org.homermultitext.ScholiaCompiler"
@@ -339,16 +349,11 @@ task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme
     classpath configurations.runtime
 }
 
+///////////////////////////////////////////////////////////////////////////
 
 
-task e3Scholia (type: JavaExec, dependsOn: [e3Header, e3Readme, compileGroovy]) {
-    description = "test e3"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/Esc-Upsilon-1-1/Scholia","${buildDir}/headers/Esc-Upsilon-1-1/Esc-Upsilon-1-1-Scholia-e3.xml", "${buildDir}/${compositeDir}/Esc-Upsilon-1-1" , "e3"]
 
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
+
 
 
 
@@ -380,11 +385,6 @@ task furmanEditions (type: Copy) {
     into "${buildDir}/${compositeDir}/Furman"
 }
 
-task e3(dependsOn: [e3Scholia, e3Iliad]) {
-    doLast {
-        System.err.println "All Upsilon 1.1 texts validate syntactically."
-    }
-}
 
 task venetusA(type: VenetusATask, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
     editionsArchive = file("${compositeDir}")
@@ -454,13 +454,6 @@ task indexE3Scholia (type: JavaExec, dependsOn : "compileGroovy") {
     classpath configurations.runtime
 }
 
-///////////////////////////////////////////////////////////////////////////
-
-
-///////////////////////////////////////////////////////////////////////////
-//// Tasks for secondary processing of composite editions
-//// TABULATION:
-
 
 task tabE3 (type: JavaExec, dependsOn : ["compileGroovy", "e3", "inv"]) {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
@@ -472,11 +465,18 @@ task tabE3 (type: JavaExec, dependsOn : ["compileGroovy", "e3", "inv"]) {
 }
 
 
+
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for secondary processing of composite editions
+//// TABULATION:
+
 task tabFiles (type: JavaExec, dependsOn : ["compileGroovy", "editions"]) {
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
     main = "org.homermultitext.HmtTabulator"
     args = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tabulated"]	
-
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -491,7 +491,6 @@ task setupTabs (type: Copy) {
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/tabulated"
 }
-
 
 task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
     description = "Creates zip package of all HMT editions in tabular format."
@@ -514,17 +513,6 @@ task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
 ///////////////////////////////////////////////////////////////////////////
 //// Tasks for secondary processing of composite editions
 //// TOKENIZATION:
-
-task setUpTurtle(type: Copy) {
-    description = "Generates README to accompany RDF version of HMT editions."
-    from (file("${editionsDir}")) {
-        include 'README-rdf.md'
-        rename 'README-rdf.md', 'README.md'
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    into "${buildDir}/rdf"
-}
-
 
 task setupTokens (type: Copy) {
     description = "Generates README to accompany tokenization data from HMT editions."
@@ -577,7 +565,6 @@ task collections(type: Zip, dependsOn: [setUpCollections]) {
     baseName = "hmt-collections"
 
 }
-
 
 task setUpImages (type: Copy) {
     description = "Prepares files for publishing HMT Image archive."
@@ -669,6 +656,16 @@ task idxttl (type: JavaExec, dependsOn: compileGroovy) {
 }
 
 
+task setUpTurtle(type: Copy) {
+    description = "Generates README to accompany RDF version of HMT editions."
+    from (file("${editionsDir}")) {
+        include 'README-rdf.md'
+        rename 'README-rdf.md', 'README.md'
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/rdf"
+}
+
 task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
   doLast {
     String charEnc = "UTF-8"
@@ -728,17 +725,16 @@ labelPublication.doFirst {
 artifacts {
 
   hmtPublications collections
+
   hmtPublications images
 
   hmtPublications indices  
-
 
   hmtPublications editions
 
   hmtPublications tabulated
 
-
-  //hmtPublications tokens
+  hmtPublications tokens
 
   hmtPublications rdf
   
