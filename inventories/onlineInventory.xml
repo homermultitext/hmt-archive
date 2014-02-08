@@ -1,7 +1,7 @@
 <?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TextInventory tiid="hmt" tiversion="5.0.rc.1" xmlns="http://chs.harvard.edu/xmlns/cts"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <ctsnamespace abbr="greekLit" ns="chs.harvard.edu/ctsns/greekLit">
+  <ctsnamespace abbr="greekLit" ns="http://chs.harvard.edu/ctsns/greekLit">
     <description xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory
       of Greek texts. </description>
   </ctsnamespace>
