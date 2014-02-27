@@ -13,14 +13,6 @@
     </index>
 
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="signsToProclus.tsv"></source>
-    </index>
-
-
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="proclusToImage.tsv"></source>
-    </index>
 
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
         <source type="file" value="comparetti-defaultImg.tsv"></source>
@@ -34,11 +26,23 @@
     <index verb="hmt:reuses" inverse="cite:isReusedBy">
         <source type="file" value="quotations.tsv"></source>
     </index>
-
+<!--
     <index verb="hmt:reuses" inverse="cite:isReusedBy">
         <source type="file" value="proclusToReuse.tsv"></source>
     </index>
 
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="signsToProclus.tsv"></source>
+    </index>
+
+
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="proclusToImage.tsv"></source>
+    </index>
+
+-->
 
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="compFolio-compImage.tsv"></source>
