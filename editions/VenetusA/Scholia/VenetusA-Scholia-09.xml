@@ -20,14 +20,15 @@ style simple scholia" alternate="no"?>
    </teiHeader>
    <text>
       <group n="9">
+         <!--
          <text n="msAimlater">
             <body>
                <div/>
             </body>
-         </text>
+         </text>-->
          <text n="msA">
             <body>
-               <div/>
+               
                <div n="1" type="scholion">
                   <div type="lemma">
                      <p/>
