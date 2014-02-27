@@ -233,6 +233,7 @@
         <label xml:lang="eng">Venetus A</label>
         <description xml:lang="eng">Edition of Chrestomathy as it appears in later rebinding of the
           Venetus A manuscript (Marciana 454 = 822)</description>
+        <!--
         <online docname="VenetusA/VenetusA-Proclus-Chrestomathy.xml">
           
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -243,7 +244,7 @@
             </citation>
           </citationMapping>
         </online>
-        
+        -->
       </edition>
     </work>
   </textgroup>
