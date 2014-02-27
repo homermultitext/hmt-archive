@@ -272,7 +272,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source
             type="file"
-            value="codices.tsv"/>
+            value="codices.csv"/>
         <citeProperty
             label="Codex URN"
             name="codex"
@@ -281,6 +281,11 @@
             label="Label"
             name="description"
             type="string"/>
+        <citeProperty
+            label="Page model"
+            name="pageMode"
+            type="citeurn"/>
+
     </citeCollection>
     <citeCollection
         canonicalId="URN"
