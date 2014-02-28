@@ -6,6 +6,38 @@
     <!-- Optional element:  none in this inventory yet.
         <extensionImplementation name="" baseUrl=""></extensionImplementation>
     -->
+    <citeCollection
+        canonicalId="urn"
+        label="normalizedlemma"
+        urn="urn:cite:perseus:grclexent">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/datans"/>
+        
+        
+        <dc:title>Lexical entitites</dc:title>
+        <dc:description>Fork of Perseus collection of Greek lexical entities</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        
+        <source
+            type="file"
+            value="lexentsrc.csv"/>
+        <citeProperty
+            label="URN"
+            name="urn"
+            type="ctsurn">
+        </citeProperty>
+        <citeProperty
+            label="normalizedlemma"
+            name="Lemma"
+            type="string"/>
+        <citeProperty
+            label="Short definition"
+            name="shortdef"
+            type="string"/>
+    </citeCollection>
     
     
     <citeCollection
