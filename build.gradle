@@ -72,6 +72,7 @@ repositories {
 
 configurations {
     hmtPublications
+    kludgePub
 }
 
 dependencies {
@@ -512,8 +513,9 @@ task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
 
 ///////////////////////////////////////////////////////////////////////////
 //// Tasks for secondary processing of composite editions
-//// TOKENIZATION:
-
+//// TOKENIZATION:  SHOULD BE MOVED TO citemgr AND CONVERTED TO GENERIC
+//// CITABLE ANALYSIS.
+/*
 task setupTokens (type: Copy) {
     description = "Generates README to accompany tokenization data from HMT editions."
     from ("${editionsDir}") {
@@ -522,8 +524,8 @@ task setupTokens (type: Copy) {
     }
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/tokens"
-}
-
+}*/
+/*
 task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens, editions]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     main = "org.homermultitext.HmtTokenizer"
@@ -531,8 +533,9 @@ task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens, editions]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
-}
+    }*/
 
+/*
 task tokens(type: Zip, dependsOn: tokensttl) {
     description = "Packages tokenization TTL"
     from (file("${buildDir}/tokens"))
@@ -540,7 +543,7 @@ task tokens(type: Zip, dependsOn: tokensttl) {
     doLast {
         System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
     }
-}
+    }*/
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -704,6 +707,11 @@ task rdf(type: Zip,dependsOn: allTtl) {
     }
 }
 
+task zipKludge(type: Zip) {
+    description = "Creates zip package of kludged manual set up"
+    from (file("kludge"))
+    baseName = "hmt-rdf"
+}
 
 task labelPublication(type: Copy) {
     description = "Generates README to accompany packages for distribution."
@@ -724,7 +732,10 @@ labelPublication.doFirst {
 
 artifacts {
 
+  kludgePub zipKludge
+
   hmtPublications collections
+
 
   hmtPublications images
 
@@ -734,14 +745,24 @@ artifacts {
 
   hmtPublications tabulated
 
-  hmtPublications tokens
+//  hmtPublications rdf
 
-  hmtPublications rdf
-  
+
+//  hmtPublications tokens
+
+
 }
 
 
 uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: nexusRepo) {                   
+            authentication (userName: nexusUser, password: nexusPassword)
+        }
+    }
+}
+
+uploadKludgePub {
     repositories.mavenDeployer {
         repository(url: nexusRepo) {                   
             authentication (userName: nexusUser, password: nexusPassword)
