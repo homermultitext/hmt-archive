@@ -13,7 +13,7 @@ group = "org.homermultitext"
 if (project.hasProperty("nightly")) {
     version = "${new Date().format('yyyy-MM-dd')}".toString()
 } else {
-    version = '2014.1'
+    version = '2014.2'
 }
 
 if (project.hasProperty('conf')) {
