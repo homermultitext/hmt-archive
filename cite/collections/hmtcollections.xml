@@ -6,6 +6,7 @@
     <!-- Optional element:  none in this inventory yet.
         <extensionImplementation name="" baseUrl=""></extensionImplementation>
     -->
+    <!--  
     <citeCollection
         canonicalId="urn"
         label="normalizedlemma"
@@ -13,7 +14,7 @@
         <namespaceMapping
             abbr="perseus"
             fullValue="http://data.perseus.org/datans"/>
-        
+      
         
         <dc:title>Lexical entitites</dc:title>
         <dc:description>Fork of Perseus collection of Greek lexical entities</dc:description>
@@ -38,7 +39,7 @@
             name="shortdef"
             type="string"/>
     </citeCollection>
-    
+-->    
     
     <citeCollection
         canonicalId="ClassId"
