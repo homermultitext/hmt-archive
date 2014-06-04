@@ -6,6 +6,47 @@
     <!-- Optional element:  none in this inventory yet.
         <extensionImplementation name="" baseUrl=""></extensionImplementation>
     -->
+    
+    
+    <citeCollection
+        canonicalId="record"
+        label="folio side"
+        urn="urn:cite:hmt:thermometer">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        
+        
+        <dc:title>Record of editorial status</dc:title>
+        <dc:description>Record of editorial status, organized by physical
+            artifact (folio side, or papyrus column)
+        </dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        
+        <source
+            type="file"
+            value="thermometer.csv"/>
+        <citeProperty name="record" label="Record" type="citeurn"></citeProperty>
+        <citeProperty
+            label="Class"
+            name="folioSide"
+            type="citeurn">
+        </citeProperty>
+        <citeProperty
+            label="Version"
+            name="version"
+            type="string">
+        
+        <valueList>
+            <value>0</value>
+            <value>0.1</value>
+        </valueList>
+        </citeProperty>
+        
+    </citeCollection>
+    
     <!--  
     <citeCollection
         canonicalId="urn"
@@ -217,7 +258,7 @@
             name="TextPassage"
             type="ctsurn"/>
     </citeCollection>
-    <citeCollection
+    <!--<citeCollection
         canonicalId="StatusUrn"
         label="Meaning"
         urn="urn:cite:hmt:edstatus">
@@ -241,7 +282,7 @@
             label="Definition"
             name="Meaning"
             type="string"/>
-    </citeCollection>
+    </citeCollection>-->
     <citeCollection
         canonicalId="SignURN"
         label="EnglishName"
