@@ -6,8 +6,8 @@
     <!-- Optional element:  none in this inventory yet.
         <extensionImplementation name="" baseUrl=""></extensionImplementation>
     -->
-    
-    
+
+    <!--
     <citeCollection
         canonicalId="record"
         label="folio side"
@@ -46,6 +46,7 @@
         </citeProperty>
         
     </citeCollection>
+    -->
     
     <!--  
     <citeCollection
@@ -258,7 +259,7 @@
             name="TextPassage"
             type="ctsurn"/>
     </citeCollection>
-    <!--<citeCollection
+    <citeCollection
         canonicalId="StatusUrn"
         label="Meaning"
         urn="urn:cite:hmt:edstatus">
@@ -282,7 +283,7 @@
             label="Definition"
             name="Meaning"
             type="string"/>
-    </citeCollection>-->
+    </citeCollection>
     <citeCollection
         canonicalId="SignURN"
         label="EnglishName"
