@@ -68,11 +68,20 @@
     <!-- ******* Fundamental DSE relations, 2:  TEXT-BEARING SURFACE -> DEFAULT IMAGE *********** -->
     
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
-        <source type="file" value="folioToOverviewImage.csv"></source>
+        <source type="file" value="tbsToDefaultImage/venA.csv"></source>
+    </index>
+    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/venB.csv"></source>
+    </index>
+    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/marciana458.csv"></source>
+    </index>
+    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/ups-1-1.csv"></source>
     </index>
     
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
-        <source type="file" value="comparetti-defaultImg.tsv"></source>
+        <source type="file" value="tbsToDefaultImage/comparetti-defaultImg.tsv"></source>
     </index>
     
     <!--** end TEXT-BEARING SURFACE  -> DEFAULT IMAGES********************************************* -->
