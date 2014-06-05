@@ -181,6 +181,12 @@
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="otherVenA/shipsToImage.csv"></source>
     </index>
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="otherVenA/criticalsignToFolio.tsv"></source>
+    </index>
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="otherVenA/criticalsignToText.tsv"></source>
+    </index>
     
     <!--** end OTHER DATA SETS:  Venetus A********************************************* -->
     
@@ -189,16 +195,7 @@
 
 
 
-    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
-        <source type="file" value="criticalsignToFolio.tsv"></source>
-    </index>
-    
-    
-
-
-    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
-        <source type="file" value="criticalsignToText.tsv"></source>
-    </index>
+   
 
 
 </indexInventory>
