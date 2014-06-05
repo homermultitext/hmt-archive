@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/data/repos/hmt-bitbucket/hmtxml/cite/indices/CiteIndexInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="CiteIndexInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
     <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
@@ -119,7 +119,7 @@
 
 
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
-        <source type="file" value="scholiaToFolio.tsv"></source>
+        <source type="file" value="textToSurface/venAScholiaToFolio.tsv"></source>
     </index>
 
 
