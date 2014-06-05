@@ -71,10 +71,8 @@
         <source type="file" value="folioToImage.tsv"></source>
     </index>
     
-
-    <index verb="cite:illustrates" inverse="cite:illustratedBy">
-        <source type="file" value="imageToE4.tsv"></source>
-    </index>
+    
+    
 
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
         <source type="file" value="folioToOverviewImage.csv"></source>
@@ -112,24 +110,57 @@
     </index>
 
 
+
+
+
+
+<!-- ******* Fundamental DSE relations:  TEXT -> TEXT-BEARING SURFACE *********** -->
     
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/venAIliad.tsv"></source>
     </index>
-
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/venBIliad.tsv"></source>
     </index>
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="textToSurface/ups1-1-Iliad.tsv"></source>
+    </index>
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="textToSurface/marciana458Iliad.tsv"></source>
+    </index>
     
-
+    
+    
+    
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/venAScholiaToFolio.tsv"></source>
     </index>
 
+    <!--** end TEXT -> TEXT-BEARING SURFACE ********************************************* -->
+
+
+
+
+
+
+
+
+
+    <!-- ******* Fundamental DSE relations:  TEXT-BEARING SURFACE -> IMAGE *********** -->
+    <index verb="cite:illustrates" inverse="cite:illustratedBy">
+        <source type="file" value="tbsToImage/imageToE4.tsv"></source>
+    </index>
+    <!--** end TEXT-BEARING SURFACE  -> IMAGE********************************************* -->
+    
+    
+    
+    
 
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="criticalsignToFolio.tsv"></source>
     </index>
+    
+    
 
 
     <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
