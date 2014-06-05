@@ -134,27 +134,6 @@
     
     
     
-    
-    <citeCollection canonicalId="OccurrrenceUrn" label="CriticalSign" urn="urn:cite:hmt:proclusSign">
-        <namespaceMapping abbr="perseusGreek" fullValue="http://data.perseus.org/ns/collections"></namespaceMapping>
-        <dc:title>Critical signs in the text of Proclus, Chrestomathy</dc:title>
-        <dc:description>Occurrences of Aristarchan critical signs in the text of Proclus, Chrestomathy, in the Venetus A manuscript</dc:description>
-        <dc:rights>All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
-        <orderedBy property="Sequence"/>
-        <source type="file" value="proclusSigns.tsv"/>
-        
-        <citeProperty name="OccurrrenceUrn" label="URN" type="citeurn"></citeProperty>
-        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
-        <citeProperty name="CriticalSign" label="Critical sign" type="citeurn"></citeProperty>
-        <citeProperty name="TextPassage" label="Attached to text" type="ctsurn"></citeProperty>
-        <citeProperty
-            label="Region of image"
-            name="ImageRoI"
-            type="citeimg"/>
-    </citeCollection>
-    
     <citeCollection canonicalId="LexURN" label="Lemma" urn="urn:cite:perseusGreek:lexentity">
 
         <namespaceMapping abbr="perseusGreek" fullValue="http://data.perseus.org/ns/collections"></namespaceMapping>
@@ -847,6 +826,29 @@
     </citeCollection>
     
     
+    
+    
+    <citeCollection canonicalId="OccurrrenceUrn" label="CriticalSign" urn="urn:cite:hmt:proclusSign">
+        <namespaceMapping abbr="perseusGreek" fullValue="http://data.perseus.org/ns/collections"></namespaceMapping>
+        <dc:title>Critical signs in the text of Proclus, Chrestomathy</dc:title>
+        <dc:description>Occurrences of Aristarchan critical signs in the text of Proclus, Chrestomathy, in the Venetus A manuscript</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="proclusSigns.tsv"/>
+        
+        <citeProperty name="OccurrrenceUrn" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="CriticalSign" label="Critical sign" type="citeurn"></citeProperty>
+        <citeProperty name="TextPassage" label="Attached to text" type="ctsurn"></citeProperty>
+        <citeProperty
+            label="Region of image"
+            name="ImageRoI"
+            type="citeimg"/>
+    </citeCollection>
+    
+    <!-- Add similes collection -->
     
     <!-- END FEATURES SPECIFIC TO VENETUS A ************************************************* ********************   -->
     
