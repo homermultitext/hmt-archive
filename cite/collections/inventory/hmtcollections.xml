@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService
     xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -323,6 +323,9 @@
             name="UnicodeNotes"
             type="string"/>
     </citeCollection>
+    
+    
+    
     <citeCollection
         canonicalId="codex"
         label="description"
@@ -407,227 +410,9 @@
             name="FolioUrn"
             type="citeurn"/>
     </citeCollection>
-    <citeCollection
-        canonicalId="URN"
-        label="Label"
-        urn="urn:cite:hmt:msA">
-        <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Venetus A manuscript</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Venetus A
-            manuscript</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Venetus A manuscript.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <orderedBy
-            property="Sequence"/>
-        <source
-            type="file"
-            value="venetusA.tsv"/>
-        <citeProperty
-            label="URN"
-            name="URN"
-            type="citeurn"/>
-        <citeProperty
-            label="Sequence"
-            name="Sequence"
-            type="number"/>
-        <citeProperty
-            label="Recto or verso"
-            name="RV"
-            type="string"/>
-        <citeProperty
-            label="description"
-            name="Label"
-            type="string"/>
-    </citeCollection>
-    <citeCollection
-        canonicalId="URN"
-        label="Label"
-        urn="urn:cite:hmt:e4">
-        <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Escorial manuscript Omega
-            1.12</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Escorial Omega 1.12
-            manuscript</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Escorial Omega 1.12 manuscript.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <orderedBy
-            property="Sequence"/>
-        <source
-            type="file"
-            value="e4.tsv"/>
-        <citeProperty
-            label="URN"
-            name="URN"
-            type="citeurn"/>
-        <citeProperty
-            label="Sequence"
-            name="Sequence"
-            type="number"/>
-        <citeProperty
-            label="Recto or verso"
-            name="RV"
-            type="string"/>
-        <citeProperty
-            label="description"
-            name="Label"
-            type="string"/>
-    </citeCollection>
-    <citeCollection
-        canonicalId="URN"
-        label="Label"
-        urn="urn:cite:hmt:e3">
-        <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Escorial manuscript Upsilon
-            1.1</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Escorial Upsilon 1.1
-            manuscript</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Escorial Upsilon 1.1 manuscript.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <orderedBy
-            property="Sequence"/>
-        <source
-            type="file"
-            value="e3.tsv"/>
-        <citeProperty
-            label="URN"
-            name="URN"
-            type="citeurn"/>
-        <citeProperty
-            label="Sequence"
-            name="Sequence"
-            type="number"/>
-        <citeProperty
-            label="Recto or verso"
-            name="RV"
-            type="string"/>
-        <citeProperty
-            label="description"
-            name="Label"
-            type="string"/>
-    </citeCollection>
-    <citeCollection
-        canonicalId="URN"
-        label="Label"
-        urn="urn:cite:hmt:u4">
-        <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Pages of the manuscript Marciana 841 </title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the manuscript Marciana
-            841</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the manuscript Marciana 841.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <orderedBy
-            property="Sequence"/>
-        <source
-            type="file"
-            value="u4.tsv"/>
-        <citeProperty
-            label="URN"
-            name="URN"
-            type="citeurn"/>
-        <citeProperty
-            label="Sequence"
-            name="Sequence"
-            type="number"/>
-        <citeProperty
-            label="Recto or verso"
-            name="RV"
-            type="string"/>
-        <citeProperty
-            label="description"
-            name="Label"
-            type="string"/>
-    </citeCollection>
-    <citeCollection
-        canonicalId="URN"
-        label="Label"
-        urn="urn:cite:hmt:msB">
-        <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Venetus B manuscript </title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Venetus B manuscript </coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Venetus B manuscript.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <orderedBy
-            property="Sequence"/>
-        <source
-            type="file"
-            value="venetusB.tsv"/>
-        <citeProperty
-            label="URN"
-            name="URN"
-            type="citeurn"/>
-        <citeProperty
-            label="Sequence"
-            name="Sequence"
-            type="number"/>
-        <citeProperty
-            label="Recto or verso"
-            name="RV"
-            type="string"/>
-        <citeProperty
-            label="description"
-            name="Label"
-            type="string"/>
-    </citeCollection>
+         
+    
+    
     <citeCollection
         canonicalId="PageZone"
         label="Label"
@@ -820,6 +605,234 @@
             type="string"/>
     </citeCollection>
     
+    
+    <!-- CODEX MODELS:  ORDERED COLLECTIONS OF TEXT-BEARING SURFACES ********************   -->
+    
+    <citeCollection
+        canonicalId="URN"
+        label="Label"
+        urn="urn:cite:hmt:msA">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Venetus A manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Venetus A
+            manuscript</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Venetus A manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="codexModels/venetusA.tsv"/>
+        <citeProperty
+            label="URN"
+            name="URN"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    
+    
+    <citeCollection
+        canonicalId="URN"
+        label="Label"
+        urn="urn:cite:hmt:e4">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Escorial manuscript Omega
+            1.12</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Escorial Omega 1.12
+            manuscript</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Escorial Omega 1.12 manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="e4.tsv"/>
+        <citeProperty
+            label="URN"
+            name="URN"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="URN"
+        label="Label"
+        urn="urn:cite:hmt:e3">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Escorial manuscript Upsilon
+            1.1</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Escorial Upsilon 1.1
+            manuscript</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Escorial Upsilon 1.1 manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="e3.tsv"/>
+        <citeProperty
+            label="URN"
+            name="URN"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="URN"
+        label="Label"
+        urn="urn:cite:hmt:u4">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the manuscript Marciana 841 </title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the manuscript Marciana
+            841</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the manuscript Marciana 841.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="u4.tsv"/>
+        <citeProperty
+            label="URN"
+            name="URN"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="URN"
+        label="Label"
+        urn="urn:cite:hmt:msB">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Venetus B manuscript </title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Venetus B manuscript </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Venetus B manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="venetusB.tsv"/>
+        <citeProperty
+            label="URN"
+            name="URN"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    
+    <!-- END CODEX MODELS ************************************************* ********************   -->
     
     
 </collectionService>
