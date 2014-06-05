@@ -23,13 +23,7 @@
 
     
     
-    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
-        <source type="file" value="scholiaToIliad.tsv"></source>
-    </index>
-
-    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
-        <source type="file" value="scholiaToIliad-e3.tsv"></source>
-    </index>
+    
 
 
 
@@ -158,6 +152,19 @@
     
     
 
+
+
+
+    <!--** OTHER DATA SETS:  generic HMT categories  ********************************************* -->
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="hmt/scholiaToIliad-venA.tsv"></source>
+    </index>
+    
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="hmt/scholiaToIliad-e3.tsv"></source>
+    </index>
+    <!--** end OTHER DATA SETS:  generic HMT categories********************************************* -->
+    
 
 
     <!--** OTHER DATA SETS:  Venetus A********************************************* -->
