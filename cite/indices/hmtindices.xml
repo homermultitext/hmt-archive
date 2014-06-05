@@ -114,9 +114,13 @@
 
     
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
-        <source type="file" value="textUrnToFolio.tsv"></source>
+        <source type="file" value="textToSurface/venAIliad.tsv"></source>
     </index>
 
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="textToSurface/venBIliad.tsv"></source>
+    </index>
+    
 
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/venAScholiaToFolio.tsv"></source>
