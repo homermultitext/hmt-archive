@@ -55,10 +55,6 @@
     </index>
 
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="captionsToImage.csv"></source>
-    </index>
-
 
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="pageToImage.csv"></source>
@@ -154,6 +150,13 @@
     </index>
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="textToImage/venA-Iliad-9.csv"></source>
+    </index>
+    
+    
+    
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="vaCaptionsToImage.csv"></source>
     </index>
     
     <!--** end TEXT  -> IMAGE********************************************* -->
