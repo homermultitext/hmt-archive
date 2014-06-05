@@ -19,9 +19,7 @@
     </index>
 
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="vaFolio-compImage.tsv"></source>
-    </index>
+
 <!--    
     <index verb="hmt:reuses" inverse="cite:isReusedBy">
         <source type="file" value="quotations.tsv"></source>
@@ -88,17 +86,7 @@
     </index>
 
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="linesToImage-9.csv"></source>
-    </index>
-
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="linesToImage-4.csv"></source>
-    </index>
-
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="linesToImage-7.csv"></source>
-    </index>
+   
     
     
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
@@ -150,10 +138,25 @@
     <index verb="cite:illustrates" inverse="cite:illustratedBy">
         <source type="file" value="tbsToImage/imageToE4.tsv"></source>
     </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+    <source type="file" value="tbsToImage/vaFolio-compImage.tsv"></source>
+    </index>
     <!--** end TEXT-BEARING SURFACE  -> IMAGE********************************************* -->
     
     
+    <!-- ******* Fundamental DSE relations:  TEXT -> IMAGE *********** -->
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-Iliad-4.csv"></source>
+    </index>
     
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-Iliad-7.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-Iliad-9.csv"></source>
+    </index>
+    
+    <!--** end TEXT  -> IMAGE********************************************* -->
     
 
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
