@@ -4,6 +4,16 @@
     <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
 
+
+
+    <index verb="hmt:editStatus" inverse="hmt:statusOf">
+        <source type="file" value="thermometer/venetusA.csv"/>
+    </index>
+    
+    
+    
+    
+    
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="compGraphics.csv"></source>
     </index>
@@ -42,9 +52,6 @@
         <source type="file" value="compFolio-compImage.tsv"></source>
     </index>
     
-    <index verb="hmt:editStatus" inverse="hmt:statusOf">
-    <source type="file" value="thermometer.csv"/>
-    </index>
 
  
 
@@ -76,13 +83,9 @@
    
     
     
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="scholiaToImgIndex.tsv"></source>
-    </index>
+  
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="scholiaToImgIndex-e3.tsv"></source>
-    </index>
+    
 
 
 
@@ -158,7 +161,12 @@
         <source type="file" value="textToImage/venA-Iliad-9.csv"></source>
     </index>
     
-    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/scholiaToImgIndex-e3.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-scholia.tsv"></source>
+    </index>
     
     
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
