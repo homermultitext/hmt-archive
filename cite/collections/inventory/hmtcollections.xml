@@ -133,20 +133,6 @@
     
     
     
-    
-    <citeCollection canonicalId="LexURN" label="Lemma" urn="urn:cite:perseusGreek:lexentity">
-
-        <namespaceMapping abbr="perseusGreek" fullValue="http://data.perseus.org/ns/collections"></namespaceMapping>
-        <dc:title>Glossary of Greek words</dc:title>
-        <dc:description>Automatically extracted lemma and short definition from Perseus lexicon</dc:description>
-        <dc:rights>All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
-        <source type="file" value="hmtgloss.tsv"/>
-        <citeProperty name="Lemma" label="Greek lemma" type="string"></citeProperty>
-        <citeProperty name="Gloss" label="English gloss" type="string"></citeProperty>
-        <citeProperty name="LexURN" label="URN" type="citeurn"></citeProperty>
-    </citeCollection>
   
     
     <citeCollection
@@ -188,51 +174,7 @@
             type="citeurn"/>
 
     </citeCollection>
-    <citeCollection
-        canonicalId="URN"
-        label="Comments"
-        urn="urn:cite:hmt:scholia">
-        <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Inventory of scholia edited</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All scholia identified to date.</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/"> Inventory with documentary visual evidence and physical location of scholia edited in the Homer Multitext project.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source
-            type="file"
-            value="scholiainventory.csv"/>
-        <citeProperty
-            label="Scholion URN"
-            name="URN"
-            type="citeurn"/>
-        <citeProperty
-            label="Text URN"
-            name="CtsUrn"
-            type="ctsurn"/>
-        <citeProperty
-            label="Comments"
-            name="Comments"
-            type="string"/>
-        <citeProperty
-            label="Visual evidence"
-            name="VisualEvidence"
-            type="citeimg"/>
-        <citeProperty
-            label="Folio URN"
-            name="FolioUrn"
-            type="citeurn"/>
-    </citeCollection>
+   
          
     
     
@@ -594,6 +536,87 @@
     
     
     
+    <!-- INVENTORY OF SCHOLIA: ************************************************* ********************   -->
+    
+    <citeCollection
+        canonicalId="URN"
+        label="Comments"
+        urn="urn:cite:hmt:scholia">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Inventory of scholia edited</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All scholia identified to date.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Inventory with documentary visual evidence and physical location of scholia edited in the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="scholiainventory.csv"/>
+        <citeProperty
+            label="Scholion URN"
+            name="URN"
+            type="citeurn"/>
+        <citeProperty
+            label="Text URN"
+            name="CtsUrn"
+            type="ctsurn"/>
+        <citeProperty
+            label="Comments"
+            name="Comments"
+            type="string"/>
+        <citeProperty
+            label="Visual evidence"
+            name="VisualEvidence"
+            type="citeimg"/>
+        <citeProperty
+            label="Folio URN"
+            name="FolioUrn"
+            type="citeurn"/>
+    </citeCollection>    
+    
+    <!-- INVENTORY OF SCHOLIA: ************************************************* ********************   -->
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ANALYTICAL COLLECTIONS ************************************************* ********************   -->
+    
+    
+    <citeCollection canonicalId="LexURN" label="Lemma" urn="urn:cite:perseusGreek:lexentity">
+        
+        <namespaceMapping abbr="perseusGreek" fullValue="http://data.perseus.org/ns/collections"></namespaceMapping>
+        <dc:title>Glossary of Greek words</dc:title>
+        <dc:description>Automatically extracted lemma and short definition from Perseus lexicon</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="hmtgloss.tsv"/>
+        <citeProperty name="Lemma" label="Greek lemma" type="string"></citeProperty>
+        <citeProperty name="Gloss" label="English gloss" type="string"></citeProperty>
+        <citeProperty name="LexURN" label="URN" type="citeurn"></citeProperty>
+    </citeCollection>
+    
+    <!-- END ANALYTICAL COLLECTIONS ************************************************* ********************   -->
+    
+    
+    
+    
+    
+    
     
     <!-- FEATURES SPECIFIC TO VENETUS A ************************************************* ********************   -->
     <citeCollection
@@ -853,4 +876,4 @@
     <!-- END FEATURES SPECIFIC TO VENETUS A ************************************************* ********************   -->
     
     
-</collectionService>
+    </collectionService>
