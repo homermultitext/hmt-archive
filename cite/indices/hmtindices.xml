@@ -8,9 +8,7 @@
         <source type="file" value="compGraphics.csv"></source>
     </index>
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="graphicsToImage.csv"></source>
-    </index>
+    
 
 
 
@@ -36,9 +34,7 @@
     </index>
 
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="proclusToImage.tsv"></source>
-    </index>
+    
 
 -->
 
@@ -50,9 +46,7 @@
     <source type="file" value="thermometer.csv"/>
     </index>
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="shipsToImage.csv"></source>
-    </index>
+ 
 
 
 
@@ -60,10 +54,7 @@
         <source type="file" value="pageToImage.csv"></source>
     </index>
 
-    
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="folioToImage.tsv"></source>
-    </index>
+   
     
     
     
@@ -131,12 +122,27 @@
 
 
     <!-- ******* Fundamental DSE relations:  TEXT-BEARING SURFACE -> IMAGE *********** -->
-    <index verb="cite:illustrates" inverse="cite:illustratedBy">
-        <source type="file" value="tbsToImage/imageToE4.tsv"></source>
-    </index>
+    
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
     <source type="file" value="tbsToImage/vaFolio-compImage.tsv"></source>
     </index>
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/marciana458.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/venA.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/venB.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/omega-1-12.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/ups-1-1.tsv"></source>
+    </index>
+    
     <!--** end TEXT-BEARING SURFACE  -> IMAGE********************************************* -->
     
     
@@ -156,11 +162,32 @@
     
     
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="vaCaptionsToImage.csv"></source>
+        <source type="file" value="textToImage/vaCaptionsToImage.csv"></source>
     </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-Proclus.tsv"></source>
+    </index>
+    
     
     <!--** end TEXT  -> IMAGE********************************************* -->
     
+
+
+
+    <!--** OTHER DATA SETS:  Venetus A********************************************* -->
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="otherVenA/graphicsToImage.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="otherVenA/shipsToImage.csv"></source>
+    </index>
+    
+    <!--** end OTHER DATA SETS:  Venetus A********************************************* -->
+    
+    
+
+
+
 
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="criticalsignToFolio.tsv"></source>
