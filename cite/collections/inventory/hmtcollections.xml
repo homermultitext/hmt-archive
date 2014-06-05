@@ -48,79 +48,6 @@
     </citeCollection>
     -->
     
-    <!--  
-    <citeCollection
-        canonicalId="urn"
-        label="normalizedlemma"
-        urn="urn:cite:perseus:grclexent">
-        <namespaceMapping
-            abbr="perseus"
-            fullValue="http://data.perseus.org/datans"/>
-      
-        
-        <dc:title>Lexical entitites</dc:title>
-        <dc:description>Fork of Perseus collection of Greek lexical entities</dc:description>
-        <dc:rights>All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
-        
-        <source
-            type="file"
-            value="lexentsrc.csv"/>
-        <citeProperty
-            label="URN"
-            name="urn"
-            type="ctsurn">
-        </citeProperty>
-        <citeProperty
-            label="normalizedlemma"
-            name="Lemma"
-            type="string"/>
-        <citeProperty
-            label="Short definition"
-            name="shortdef"
-            type="string"/>
-    </citeCollection>
--->    
-    
-    <citeCollection
-        canonicalId="ClassId"
-        label="Meaning"
-        urn="urn:cite:hmt:tokentypes">
-        <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
-        
-        
-        <dc:title>Token classes</dc:title>
-        <dc:description>Possible classifications of tokens other than named entities
-            analyzed by the HMT project's tokenization system for Greek text edited
-            according to project conventions.            
-        </dc:description>
-        <dc:rights>All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
-        
-        <source
-            type="file"
-            value="tokenclasses.csv"/>
-        <citeProperty
-            label="Class"
-            name="ClassId"
-            type="ctsurn">
-        <valueList>
-            <value>lexical</value>
-            <value>numeric</value>
-            <value>waw</value>
-            <value>sic</value>
-        </valueList>
-        </citeProperty>
-        <citeProperty
-            label="Meaning"
-            name="Meaning"
-            type="string"/>
-        
-    </citeCollection>
     
     
     
@@ -604,11 +531,89 @@
         <dc:rights>All data in this collection are available
             under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
-        <source type="file" value="hmtgloss.tsv"/>
+        <source type="file" value="analyses/hmtgloss.tsv"/>
         <citeProperty name="Lemma" label="Greek lemma" type="string"></citeProperty>
         <citeProperty name="Gloss" label="English gloss" type="string"></citeProperty>
         <citeProperty name="LexURN" label="URN" type="citeurn"></citeProperty>
     </citeCollection>
+    
+    
+    
+    <citeCollection
+        canonicalId="ClassId"
+        label="Meaning"
+        urn="urn:cite:hmt:tokentypes">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        
+        
+        <dc:title>Token classes</dc:title>
+        <dc:description>Possible classifications of tokens other than named entities
+            analyzed by the HMT project's tokenization system for Greek text edited
+            according to project conventions.            
+        </dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        
+        <source
+            type="file"
+            value="tokenclasses.csv"/>
+        <citeProperty
+            label="Class"
+            name="ClassId"
+            type="ctsurn">
+            <valueList>
+                <value>lexical</value>
+                <value>numeric</value>
+                <value>waw</value>
+                <value>sic</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Meaning"
+            name="Meaning"
+            type="string"/>
+        
+    </citeCollection>
+    
+    
+    <!--  
+    <citeCollection
+        canonicalId="urn"
+        label="normalizedlemma"
+        urn="urn:cite:perseus:grclexent">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/datans"/>
+      
+        
+        <dc:title>Lexical entitites</dc:title>
+        <dc:description>Fork of Perseus collection of Greek lexical entities</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        
+        <source
+            type="file"
+            value="lexentsrc.csv"/>
+        <citeProperty
+            label="URN"
+            name="urn"
+            type="ctsurn">
+        </citeProperty>
+        <citeProperty
+            label="normalizedlemma"
+            name="Lemma"
+            type="string"/>
+        <citeProperty
+            label="Short definition"
+            name="shortdef"
+            type="string"/>
+    </citeCollection>
+-->    
+    
     
     <!-- END ANALYTICAL COLLECTIONS ************************************************* ********************   -->
     
