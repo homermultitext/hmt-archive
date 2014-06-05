@@ -5,70 +5,22 @@
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
 
 
-
+    <!-- BEGIN: Tracking editorial status by MS-->
     <index verb="hmt:editStatus" inverse="hmt:statusOf">
         <source type="file" value="thermometer/venetusA.csv"/>
     </index>
+    <!-- END: Tracking editorial status -->
     
     
-    
-    
-    
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="compGraphics.csv"></source>
-    </index>
-
-    
 
 
-
-    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
-        <source type="file" value="comparetti-defaultImg.tsv"></source>
-    </index>
-
-
-
-<!--    
-    <index verb="hmt:reuses" inverse="cite:isReusedBy">
-        <source type="file" value="quotations.tsv"></source>
-    </index>
-
-    <index verb="hmt:reuses" inverse="cite:isReusedBy">
-        <source type="file" value="proclusToReuse.tsv"></source>
-    </index>
-
-
-
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="signsToProclus.tsv"></source>
-    </index>
-
-
-    
-
--->
-
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="compFolio-compImage.tsv"></source>
-    </index>
-    
-
- 
-
-
+   
 
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="pageToImage.csv"></source>
     </index>
 
-   
-    
-    
-    
 
-    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
-        <source type="file" value="folioToOverviewImage.csv"></source>
-    </index>
     
     
     <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
@@ -80,19 +32,10 @@
     </index>
 
 
-   
-    
-    
-  
-
-    
 
 
 
-
-
-
-<!-- ******* Fundamental DSE relations:  TEXT -> TEXT-BEARING SURFACE *********** -->
+<!-- ******* Fundamental DSE relations, 1:  TEXT -> TEXT-BEARING SURFACE *********** -->
     
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/venAIliad.tsv"></source>
@@ -106,9 +49,7 @@
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/marciana458Iliad.tsv"></source>
     </index>
-    
-    
-    
+
     
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/venAScholiaToFolio.tsv"></source>
@@ -124,32 +65,26 @@
 
 
 
-    <!-- ******* Fundamental DSE relations:  TEXT-BEARING SURFACE -> IMAGE *********** -->
+    <!-- ******* Fundamental DSE relations, 2:  TEXT-BEARING SURFACE -> DEFAULT IMAGE *********** -->
     
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-    <source type="file" value="tbsToImage/vaFolio-compImage.tsv"></source>
-    </index>
-    
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="tbsToImage/marciana458.tsv"></source>
-    </index>
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="tbsToImage/venA.tsv"></source>
-    </index>
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="tbsToImage/venB.tsv"></source>
-    </index>
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="tbsToImage/omega-1-12.tsv"></source>
-    </index>
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="tbsToImage/ups-1-1.tsv"></source>
+    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
+        <source type="file" value="folioToOverviewImage.csv"></source>
     </index>
     
-    <!--** end TEXT-BEARING SURFACE  -> IMAGE********************************************* -->
+    <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
+        <source type="file" value="comparetti-defaultImg.tsv"></source>
+    </index>
+    
+    <!--** end TEXT-BEARING SURFACE  -> DEFAULT IMAGES********************************************* -->
     
     
-    <!-- ******* Fundamental DSE relations:  TEXT -> IMAGE *********** -->
+    
+    
+    
+    
+    
+    
+    <!-- ******* Fundamental DSE relations, 3:  TEXT -> IMAGE *********** -->
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="textToImage/venA-Iliad-4.csv"></source>
     </index>
@@ -182,6 +117,40 @@
 
 
 
+
+
+    <!-- ******* Fundamental DSE relations, 4:  TEXT-BEARING SURFACE -> ALL IMAGES *********** -->
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/vaFolio-compImage.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/compFolio-compImage.tsv"></source>
+    </index>
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/marciana458.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/venA.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/venB.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/omega-1-12.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/ups-1-1.tsv"></source>
+    </index>
+    
+    <!--** end TEXT-BEARING SURFACE  -> ALL IMAGES********************************************* -->
+    
+    
+    
+
+
+
     <!--** OTHER DATA SETS:  Venetus A********************************************* -->
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="otherVenA/graphicsToImage.csv"></source>
@@ -195,7 +164,9 @@
     <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
         <source type="file" value="otherVenA/criticalsignToText.tsv"></source>
     </index>
-    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="otherVenA/compGraphics.csv"></source>
+    </index>
     <!--** end OTHER DATA SETS:  Venetus A********************************************* -->
     
     
@@ -206,4 +177,24 @@
    
 
 
+
+    <!--    
+    <index verb="hmt:reuses" inverse="cite:isReusedBy">
+        <source type="file" value="quotations.tsv"></source>
+    </index>
+    
+    <index verb="hmt:reuses" inverse="cite:isReusedBy">
+        <source type="file" value="proclusToReuse.tsv"></source>
+    </index>
+    
+    
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="signsToProclus.tsv"></source>
+    </index>
+    
+    
+    
+    
+-->
 </indexInventory>
