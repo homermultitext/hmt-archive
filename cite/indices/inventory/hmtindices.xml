@@ -16,10 +16,6 @@
 
    
 
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="pageToImage.csv"></source>
-    </index>
-
 
     
     
@@ -156,6 +152,12 @@
 
 
     <!--** OTHER DATA SETS:  generic HMT categories  ********************************************* -->
+    <index verb="hmt:expandsTo" inverse="hmt:comprisedBy">
+        <source type="file" value="hmt/codex-collection-index.csv"></source>
+    </index>
+    
+    
+    
     <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
         <source type="file" value="hmt/scholiaToIliad-venA.tsv"></source>
     </index>
@@ -163,6 +165,24 @@
     <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
         <source type="file" value="hmt/scholiaToIliad-e3.tsv"></source>
     </index>
+    
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="hmt/pageToImage-venA.csv"></source>
+    </index>
+    
+    <index verb="hmt:reuses" inverse="cite:isReusedBy">
+        <source type="file" value="hmt/quotations.tsv"></source>
+    </index>
+    
+    <index verb="hmt:reuses" inverse="cite:isReusedBy">
+        <source type="file" value="hmt/proclusToReuse.tsv"></source>
+    </index>
+    <!-- REVIEW THIS:
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="hmt/signsToProclus.tsv"></source>
+    </index> -->
+    
     <!--** end OTHER DATA SETS:  generic HMT categories********************************************* -->
     
 
@@ -188,29 +208,4 @@
     
 
 
-
-
-   
-
-
-
-    <!--    
-    <index verb="hmt:reuses" inverse="cite:isReusedBy">
-        <source type="file" value="quotations.tsv"></source>
-    </index>
-    
-    <index verb="hmt:reuses" inverse="cite:isReusedBy">
-        <source type="file" value="proclusToReuse.tsv"></source>
-    </index>
-    
-    
-    
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="signsToProclus.tsv"></source>
-    </index>
-    
-    
-    
-    
--->
 </indexInventory>
