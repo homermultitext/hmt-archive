@@ -513,8 +513,10 @@ task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
 
 ///////////////////////////////////////////////////////////////////////////
 //// Tasks for secondary processing of composite editions
-//// TOKENIZATION:  SHOULD BE MOVED TO citemgr AND CONVERTED TO GENERIC
-//// CITABLE ANALYSIS.
+
+
+// SHOULD BE PUT BACK IN HMTARCHIVE!  CITEMGR CAN ONLY DO GENERIC
+// THINGS AND ALL TOKENIZATIONS ARE SPECIFIC TO CLASSIFICATION SCHEME
 /*
 task setupTokens (type: Copy) {
     description = "Generates README to accompany tokenization data from HMT editions."
@@ -556,7 +558,7 @@ task tokens(type: Zip, dependsOn: tokensttl) {
 task setUpCollections (type: Copy) {
     description = "Prepares files for publishing collections archive."
     from ('cite/collections') {
-        include ('README.md', 'hmtcollections.xml', '*.csv', '*.tsv')
+      include ('README.md', 'inventory/hmtcollections.xml', '**/*.csv', '**/*.tsv')
     }
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/collections"
@@ -587,7 +589,7 @@ task images(type: Zip, dependsOn: [setUpImages]) {
 task setUpIndices (type: Copy) {
     description = "Prepares files for publishing CITE Index archive."
     from ('cite/indices') {
-        include ('README.md', 'hmtindices.xml', '*.csv', '*.tsv')
+      include ('README.md', 'inventory/hmtindices.xml', '**/*.csv', '**/*.tsv')
     }
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
     into "${buildDir}/indices"
