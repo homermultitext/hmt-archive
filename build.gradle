@@ -672,6 +672,7 @@ task setUpTurtle(type: Copy) {
 }
 
 task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
+  description = "Generates TTL for entire HMT archive."
   doLast {
     String charEnc = "UTF-8"
 
