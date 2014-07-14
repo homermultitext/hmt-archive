@@ -643,7 +643,7 @@ task imgttl (type: JavaExec, dependsOn: compileGroovy) {
 task ccttl (type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates RDF for Collections configured for prestochango"
     main = "org.homermultitext.HmtCollectionTurtleizer"
-    args = ["cite/collections/hmtcollections.xml", "http://www.homermultitext.org/hmtschemas/collections/CiteCollectionService.rng", "cite/collections", "${buildDir}/rdf"]
+    args = ["cite/collections/inventory/hmtcollections.xml", "http://www.homermultitext.org/hmtschemas/collections/CiteCollectionService.rng", "cite/collections", "${buildDir}/rdf"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
