@@ -92,7 +92,13 @@
         <source type="file" value="textToImage/venA-Iliad-7.csv"></source>
     </index>
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-Iliad-8.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="textToImage/venA-Iliad-9.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-Iliad-10.csv"></source>
     </index>
     
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
