@@ -78,8 +78,12 @@ class HmtIndexTurtleizer {
 
 
     void generateTurtle() {
-        CiteIndex idx = new CiteIndex(inventory, data)
-        idx.ttl(turtleOutput, includePrefix)
+      if (debug) {
+	println "generateTurtle with inventory: ${inventory}; data ${data}"
+	println "Output to ${turtleOutput}"
+      }
+      CiteIndex idx = new CiteIndex(inventory, data)
+      idx.ttl(turtleOutput, includePrefix)
     }
 
 }

@@ -2,15 +2,15 @@
 ext {
     groovyversion = "2.0.6"
 
-    citeversion = "0.16.0"
+    citeversion = "0.90.0"
     greekutilsversion = "0.8.5"
 
-
+    hmtutilsversion = "0.2.7"
 
     nysiversion = "0.1.12"
-    abracadabraversion = "0.1.5"
+    abracadabraversion = "0.2.0"
     prestochangoversion = "0.2.11"
-    hocuspocusversion = "0.10.4"
+    hocuspocusversion = "0.11.4"
 
 
     //needed for hocuspocus:

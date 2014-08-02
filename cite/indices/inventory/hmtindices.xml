@@ -6,7 +6,7 @@
 
 
     <!-- BEGIN: Tracking editorial status by MS-->
-    <index verb="hmt:editStatus" inverse="hmt:statusOf">
+   <index verb="hmt:editStatus" inverse="hmt:statusOf">
         <source type="file" value="thermometer/venetusA.csv"/>
     </index>
     <!-- END: Tracking editorial status -->
@@ -27,6 +27,7 @@
 
 <!-- ******* Fundamental DSE relations, 1:  TEXT -> TEXT-BEARING SURFACE *********** -->
     
+    
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/venAIliad.tsv"></source>
     </index>
@@ -37,7 +38,7 @@
         <source type="file" value="textToSurface/ups1-1-Iliad.tsv"></source>
     </index>
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
-        <source type="file" value="textToSurface/marciana458Iliad.tsv"></source>
+        <source type="file" value="textToSurface/marciana458-Iliad.csv"></source>
     </index>
 
     
@@ -73,7 +74,7 @@
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
         <source type="file" value="tbsToDefaultImage/comparetti-defaultImg.tsv"></source>
     </index>
-    
+
     <!--** end TEXT-BEARING SURFACE  -> DEFAULT IMAGES********************************************* -->
     
     
@@ -84,6 +85,7 @@
     
     
     <!-- ******* Fundamental DSE relations, 3:  TEXT -> IMAGE *********** -->
+    
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="textToImage/venA-Iliad-4.csv"></source>
     </index>
@@ -116,7 +118,6 @@
         <source type="file" value="textToImage/venA-Proclus.tsv"></source>
     </index>
     
-    
     <!--** end TEXT  -> IMAGE********************************************* -->
     
 
@@ -148,7 +149,7 @@
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="tbsToImage/ups-1-1.tsv"></source>
     </index>
-    
+   
     <!--** end TEXT-BEARING SURFACE  -> ALL IMAGES********************************************* -->
     
     
@@ -158,6 +159,7 @@
 
 
     <!--** OTHER DATA SETS:  generic HMT categories  ********************************************* -->
+    
     <index verb="hmt:expandsTo" inverse="hmt:comprisedBy">
         <source type="file" value="hmt/codex-collection-index.csv"></source>
     </index>
@@ -183,7 +185,7 @@
     
     <index verb="hmt:reuses" inverse="cite:isReusedBy">
         <source type="file" value="hmt/proclusToReuse.tsv"></source>
-    </index>
+    </index> 
     <!-- REVIEW THIS:
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="hmt/signsToProclus.tsv"></source>
@@ -194,6 +196,7 @@
 
 
     <!--** OTHER DATA SETS:  Venetus A********************************************* -->
+    
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="otherVenA/graphicsToImage.csv"></source>
     </index>

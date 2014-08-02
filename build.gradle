@@ -83,6 +83,9 @@ dependencies {
   compile group : 'edu.holycross.shot', name : 'abracadabra', version : abracadabraversion
   compile group: "edu.holycross.shot", name: "hocuspocus", version: hocuspocusversion
 
+
+  compile group: 'org.homermultitext', name : 'hmt-utils' , version: hmtutilsversion
+
   compile group: 'edu.harvard.chs', name : 'cite' , version: citeversion
   compile group: 'edu.harvard.chs', name : 'greekutils' , version: greekutilsversion
 
@@ -653,7 +656,7 @@ task ccttl (type: JavaExec, dependsOn: compileGroovy) {
 task idxttl (type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates RDF for indices configured for abracadabra"
     main = "org.homermultitext.HmtIndexTurtleizer"
-    args = ["cite/indices/hmtindices.xml", "cite/indices", "${buildDir}/rdf", "indices.ttl"]
+    args = ["cite/indices/inventory/hmtindices.xml", "cite/indices", "${buildDir}/rdf", "indices.ttl"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
