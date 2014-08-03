@@ -38,7 +38,7 @@
         <source type="file" value="textToSurface/ups1-1-Iliad.tsv"></source>
     </index>
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
-        <source type="file" value="textToSurface/marciana458-Iliad.csv"></source>
+        <source type="file" value="textToSurface/marciana841-Iliad.csv"></source>
     </index>
 
     
@@ -65,7 +65,7 @@
         <source type="file" value="tbsToDefaultImage/venB.csv"></source>
     </index>
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
-        <source type="file" value="tbsToDefaultImage/marciana458.csv"></source>
+        <source type="file" value="tbsToDefaultImage/marciana841.csv"></source>
     </index>
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
         <source type="file" value="tbsToDefaultImage/ups-1-1.csv"></source>
@@ -135,7 +135,7 @@
     </index>
     
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="tbsToImage/marciana458.tsv"></source>
+        <source type="file" value="tbsToImage/marciana841.tsv"></source>
     </index>
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="tbsToImage/venA.tsv"></source>
