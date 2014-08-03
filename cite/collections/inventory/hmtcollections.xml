@@ -320,10 +320,10 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/ups-1-1.tsv"/>
+            value="codexModels/upsilon-1-1.csv"/>
         <citeProperty
             label="URN"
-            name="URN"
+            name="PageUrn"
             type="citeurn"/>
         <citeProperty
             label="Sequence"
@@ -332,9 +332,14 @@
         <citeProperty
             label="Recto or verso"
             name="RV"
-            type="string"/>
+            type="string">
+        <valueList>
+            <value>recto</value>
+            <value>verso</value>
+        </valueList>
+        </citeProperty>
         <citeProperty
-            label="description"
+            label="label"
             name="Label"
             type="string"/>
     </citeCollection>
