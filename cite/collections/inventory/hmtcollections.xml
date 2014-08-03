@@ -97,7 +97,7 @@
             type="string"/>
         <citeProperty
             label="Page model"
-            name="pageMode"
+            name="pageModel"
             type="citeurn"/>
 
     </citeCollection>
