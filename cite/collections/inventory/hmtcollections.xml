@@ -86,7 +86,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source
             type="file"
-            value="codices.csv"/>
+            value="codexModels/codices.csv"/>
         <citeProperty
             label="Codex URN"
             name="codex"
@@ -274,7 +274,7 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/e4.tsv"/>
+            value="codexModels/omega-1-12.tsv"/>
         <citeProperty
             label="URN"
             name="URN"
@@ -319,7 +319,7 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/e3.tsv"/>
+            value="codexModels/ups-1-1.tsv"/>
         <citeProperty
             label="URN"
             name="URN"
@@ -363,7 +363,7 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/u4.tsv"/>
+            value="codexModels/marciana841.tsv"/>
         <citeProperty
             label="URN"
             name="URN"
