@@ -99,6 +99,7 @@
             label="Page model"
             name="pageModel"
             type="citeurn"/>
+        <citeProperty name="century" label="Century (approx.)" type="number"/>
 
     </citeCollection>
    
