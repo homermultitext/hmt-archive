@@ -294,7 +294,7 @@
             type="string"/>
     </citeCollection>
     <citeCollection
-        canonicalId="URN"
+        canonicalId="PageUrn"
         label="Label"
         urn="urn:cite:hmt:e3">
         <namespaceMapping
