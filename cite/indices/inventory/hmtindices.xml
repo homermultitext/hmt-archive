@@ -35,7 +35,7 @@
         <source type="file" value="textToSurface/venBIliad.tsv"></source>
     </index>
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
-        <source type="file" value="textToSurface/ups1-1-Iliad.tsv"></source>
+        <source type="file" value="textToSurface/ups1-1-Iliad.csv"></source>
     </index>
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface/marciana841-Iliad.csv"></source>
