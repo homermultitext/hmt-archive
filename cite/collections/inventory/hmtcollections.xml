@@ -432,7 +432,7 @@
     </citeCollection>
     
     <citeCollection
-        canonicalId="folio"
+        canonicalId="page"
         label="label"
         urn="urn:cite:hmt:comp">
         <namespaceMapping
@@ -453,7 +453,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy property="sequence"/>
         <source type="file" value="comparetti-codex.tsv"/>
-        <citeProperty name="folio" label="Folio" type="citeurn"></citeProperty>
+        <citeProperty name="page" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="rv" label="Recto/verso" type="string">
             <valueList>
                 <value>recto</value>
