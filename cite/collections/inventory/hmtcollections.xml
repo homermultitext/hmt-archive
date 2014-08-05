@@ -247,6 +247,8 @@
             type="string"/>
     </citeCollection>
     
+   
+    
     
     <citeCollection
         canonicalId="PageUrn"
@@ -293,6 +295,7 @@
             name="Label"
             type="string"/>
     </citeCollection>
+    
     <citeCollection
         canonicalId="PageUrn"
         label="Label"
@@ -343,6 +346,7 @@
             name="Label"
             type="string"/>
     </citeCollection>
+   
     <citeCollection
         canonicalId="PageUrn"
         label="Label"
@@ -848,7 +852,7 @@
         
         <source
             type="file"
-            value="editorialStatus.csv"/>
+            value="projectmeta/editorialStatus.csv"/>
         <citeProperty
             label="Status"
             name="StatusUrn"
@@ -857,6 +861,7 @@
             label="Definition"
             name="Meaning"
             type="string"/>
+        <citeProperty name="Tier" label="Tier" type="number"></citeProperty>
     </citeCollection>
     
     
