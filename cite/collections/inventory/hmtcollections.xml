@@ -203,7 +203,7 @@
     <!-- CODEX MODELS:  ORDERED COLLECTIONS OF TEXT-BEARING SURFACES ********************   -->
     
     <citeCollection
-        canonicalId="URN"
+        canonicalId="PageUrn"
         label="Label"
         urn="urn:cite:hmt:msA">
         <namespaceMapping
@@ -228,10 +228,10 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/venetusA.tsv"/>
+            value="codexModels/venetusA.csv"/>
         <citeProperty
             label="URN"
-            name="URN"
+            name="PageUrn"
             type="citeurn"/>
         <citeProperty
             label="Sequence"
@@ -249,7 +249,7 @@
     
     
     <citeCollection
-        canonicalId="URN"
+        canonicalId="PageUrn"
         label="Label"
         urn="urn:cite:hmt:e4">
         <namespaceMapping
@@ -344,7 +344,7 @@
             type="string"/>
     </citeCollection>
     <citeCollection
-        canonicalId="URN"
+        canonicalId="PageUrn"
         label="Label"
         urn="urn:cite:hmt:u4">
         <namespaceMapping
@@ -369,10 +369,10 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/marciana841.tsv"/>
+            value="codexModels/marciana841.csv"/>
         <citeProperty
             label="URN"
-            name="URN"
+            name="PageUrn"
             type="citeurn"/>
         <citeProperty
             label="Sequence"
@@ -388,7 +388,7 @@
             type="string"/>
     </citeCollection>
     <citeCollection
-        canonicalId="URN"
+        canonicalId="PageUrn"
         label="Label"
         urn="urn:cite:hmt:msB">
         <namespaceMapping
@@ -412,10 +412,10 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/venetusB.tsv"/>
+            value="codexModels/venetusB.csv"/>
         <citeProperty
             label="URN"
-            name="URN"
+            name="PageUrn"
             type="citeurn"/>
         <citeProperty
             label="Sequence"
