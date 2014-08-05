@@ -28,7 +28,7 @@
         </online>
       </translation>
       <edition urn="urn:cts:greekLit:tlg0012.tlg001.msA">
-        <label xml:lang="eng"> A </label>
+        <label xml:lang="eng"> Venetus A </label>
         <description xml:lang="eng"> Iliad text of the Venetus A manuscript, Marciana 454 (=822). </description>
         <online docname="VenetusA/VenetusA-Iliad.xml">
           
@@ -42,11 +42,28 @@
         </online>
         
       </edition>
+      
+      <!--
+      <edition urn="urn:cts:greekLit:tlg0012.tlg001.msB">
+        <label xml:lang="eng"> Venetus B </label>
+        <description xml:lang="eng"> Iliad text of the Venetus B manuscript (Marciana 453 = 821). </description>
+        <online docname="VenetusB/VenetusB-Iliad.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:l[@n = '?']"/>
+            </citation>
+          </citationMapping>
+        </online>
+        
+      </edition>-->
    
-    <!--
+    
       <edition urn="urn:cts:greekLit:tlg0012.tlg001.e3">
-        <label xml:lang="eng"> Upsilon 1.1 </label>
-        <description xml:lang="eng"> Iliad text of Escorial manuscript Upsilon 1.1. </description>
+        <label xml:lang="eng"> Escorial Y 1.1 </label>
+        <description xml:lang="eng"> Iliad text of Escorial manuscript Y 1.1 (294 = Allen E3). </description>
         <online docname="Esc-Upsilon-1-1/Esc-Upsilon-1-1-Iliad.xml">
           
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -59,8 +76,22 @@
         </online>
         
       </edition>
-      -->
-    
+      <!--
+      <edition urn="urn:cts:greekLit:tlg0012.tlg001.e4">
+        <label xml:lang="eng"> Escorial Ω 1.12 </label>
+        <description xml:lang="eng"> Iliad text of Escorial manuscript  Ω 1.12 (513 = Allen E4). </description>
+        <online docname="Esc-Omega-1-12/Esc-Omega-1-12-Iliad.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
+              <citation label="line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+                xpath="/tei:l[@n = '?']"/>
+            </citation>
+          </citationMapping>
+        </online>
+        
+      </edition>-->
     </work>
   </textgroup>
   <textgroup urn="urn:cts:greekLit:tlg5026">
