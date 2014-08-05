@@ -275,10 +275,10 @@
             property="Sequence"/>
         <source
             type="file"
-            value="codexModels/omega-1-12.tsv"/>
+            value="codexModels/omega-1-12.csv"/>
         <citeProperty
             label="URN"
-            name="URN"
+            name="PageUrn"
             type="citeurn"/>
         <citeProperty
             label="Sequence"
