@@ -1,3 +1,18 @@
+buildscript {
+
+  repositories {
+    mavenCentral()
+    maven {
+      url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+    }
+  }
+  dependencies {
+    classpath group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
+  }
+}
+import org.homermultitext.utils.HmtTokenizer
+
+
 import org.apache.tools.ant.filters.*
 
 /* hmtarchive project.
@@ -534,7 +549,7 @@ task setupTokens (type: Copy) {
 task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens, editions]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     main = "org.homermultitext.HmtTokenizer"
-    args = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tokens"]	
+    Argsgr = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tokens"]	
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -549,6 +564,20 @@ task tokens(type: Zip, dependsOn: tokensttl) {
         System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
     }
     }*/
+
+task tokenize(dependsOn: [tabFiles]) {
+  description = "Tokenizes previously tabulated texts."
+}
+
+tokenize.doLast{
+  File tabsDir = new File("${buildDir}/tabulated")
+  File outputFile = new File(buildDir,"tokens.txt")
+  String separatorStr = "#"
+  HmtTokenizer tokenizer = new HmtTokenizer(tabsDir, outputFile, separatorStr)
+  //tokenizer.debug = 5
+  tokenizer.tokenizeTabs()
+}
+
 
 ///////////////////////////////////////////////////////////////////////////
 
