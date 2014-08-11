@@ -168,6 +168,19 @@
                     name="fullValue"/>
                 <empty/>
             </element>
+            <optional>
+            <oneOrMore>
+            <element name="cite:extension">
+            <attribute name="name">
+                <data
+                    type="string">
+                    <param
+                        name="pattern">.+</param>
+                </data>
+            </attribute>
+            </element>
+            </oneOrMore>
+            </optional>
             <ref
                 name="metadata"/>
             <optional>
