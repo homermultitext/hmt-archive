@@ -9,13 +9,17 @@
         <element
             name="cite:collectionService">
             <zeroOrMore>
-            <element name="cite:extensionImplementation">
-                <attribute name="name"></attribute>
-                <attribute name="baseUrl"></attribute>
-            </element>
+                <element
+                    name="cite:extensionImplementation">
+                    <attribute
+                        name="abbr"/>
+                    <attribute
+                        name="fullValue"/>
+                </element>
             </zeroOrMore>
             <oneOrMore>
-                <externalRef href="CiteCollection.rng"></externalRef>
+                <externalRef
+                    href="CiteCollection.rng"/>
             </oneOrMore>
         </element>
     </start>

@@ -5,39 +5,119 @@
     xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
     xmlns:cite="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <!--DEFINE CTSURN and CITEURN types -->
+    <define
+        name="ctsProperty">
+        <element
+            name="cite:citeProperty">
+            <attribute
+                name="name"/>
+            <attribute
+                name="label"/>
+            <attribute
+                name="type"><value>ctsurn</value></attribute>
+            <optional>
+                <attribute
+                    name="join">
+                    <choice>
+                        <value>naturaljoin</value>
+                    </choice>
+                </attribute>
+            </optional>
+        </element>
+    </define>
     
-    <define name="citedatachoice">
+    <define
+        name="citeProperty">
+        <element
+            name="cite:citeProperty">
+            <attribute
+                name="name"/>
+            <attribute
+                name="label"/>
+            <attribute
+                name="type"><value>citeurn</value></attribute>
+            <optional>
+                <attribute
+                    name="join">
+                    <choice>
+                        <value>naturaljoin</value>
+                    </choice>
+                </attribute>
+            </optional>
+        </element>
+    </define>
+    <define
+        name="dataProperty">
+        <element
+            name="cite:citeProperty">
+            <attribute
+                name="name"/>
+            <attribute
+                name="label"/>
+            <attribute
+                name="type">
+                <ref
+                    name="citedatachoice"/>
+            </attribute>
+            <optional>
+                <element
+                    name="cite:valueList">
+                    <oneOrMore>
+                        <element
+                            name="cite:value">
+                            <data
+                                type="string">
+                                <param
+                                    name="pattern">.+</param>
+                            </data>
+                        </element>
+                    </oneOrMore>
+                </element>
+            </optional>
+            
+            <optional>
+                <element
+                    name="cite:indexRelation">
+                    <attribute
+                        name="rdfverb"/>
+                    <attribute
+                        name="inverseverb"/>
+                </element>
+            </optional>
+        </element>
+    </define>
+    <define
+        name="citedatachoice">
         <choice>
             <value>string</value>
             <value>number</value>
             <value>boolean</value>
-            <value>datetime</value>
-            <!-- The following will map to String or Text in many back-end systems -->
-            <value>citeurn</value>
-            <value>ctsurn</value>
-            <value>citeimg</value>
             <value>markdown</value>
-            
-            <!-- Special editorial metadata types -->
-            <value>authuser</value>
-            <!-- This should map to a date-time object of some sort -->
-           <value>timestamp</value>
-            
+            <!-- <value>citeurn</value>
+            <value>ctsurn</value> -->
         </choice>
     </define>
-    
     <define
         name="metadata">
         <optional>
             <element
                 name="dc:title">
-                <text/>
+                <data
+                    type="string">
+                    <param
+                        name="pattern">.+</param>
+                </data>
             </element>
         </optional>
         <zeroOrMore>
             <element
                 name="dc:creator">
-                <text/>
+                <data
+                    type="string">
+                    <param
+                        name="pattern">.+</param>
+                </data>
             </element>
         </zeroOrMore>
         <optional>
@@ -63,11 +143,23 @@
         <element
             name="cite:citeCollection">
             <attribute
-                name="canonicalId"/>
-            <attribute name="label"/>
-          
+                name="canonicalId">
+                <data
+                    type="string">
+                    <param
+                        name="pattern">.+</param>
+                </data>
+            </attribute>
             <attribute
-                name="urn"/>
+                name="label"/>
+            <attribute
+                name="urn">
+                <data
+                    type="string">
+                    <param
+                        name="pattern">urn:cite:.+:.+</param>
+                </data>
+            </attribute>
             <element
                 name="cite:namespaceMapping">
                 <attribute
@@ -86,33 +178,17 @@
                     <empty/>
                 </element>
             </optional>
-            
             <optional>
-            <externalRef href="src.rng"/>
+                <externalRef
+                    href="src.rng"/>
             </optional>
             <oneOrMore>
-                <element
-                    name="cite:citeProperty">
-                    <attribute
-                        name="name"/>
-                    <attribute
-                        name="label"/>
-                    <attribute
-                        name="type">
-                       <ref name="citedatachoice"></ref>
-                    </attribute>
-                    <optional>
-                        <element
-                            name="cite:valueList">
-                            <oneOrMore>
-                                <element
-                                    name="cite:value">
-                                    <text/>
-                                </element>
-                            </oneOrMore>
-                        </element>
-                    </optional>
-                </element>
+                <choice>
+                    <ref
+                        name="dataProperty"> </ref>
+                    <ref name="ctsProperty" />
+                    <ref name="citeProperty"/>
+                </choice>
             </oneOrMore>
             <zeroOrMore>
                 <element
@@ -138,8 +214,10 @@
                                     name="cite:parameter">
                                     <attribute
                                         name="name"/>
-                                    <attribute name="type">
-                                    <ref name="citedatachoice"></ref>
+                                    <attribute
+                                        name="type">
+                                        <ref
+                                            name="citedatachoice"/>
                                     </attribute>
                                 </element>
                             </zeroOrMore>
