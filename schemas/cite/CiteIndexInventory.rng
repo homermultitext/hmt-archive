@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    xmlns:cite="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <start>
+        <element
+            name="cite:indexInventory">
+            <oneOrMore>
+                <element
+                    name="cite:rdfNamespace">
+                    <attribute
+                        name="abbr"/>
+                    <attribute
+                        name="fullValue"/>
+                    <empty/>
+                </element>
+            </oneOrMore>
+            <oneOrMore>
+                <element
+                    name="cite:index">
+                    <attribute
+                        name="verb"/>
+                    <attribute
+                        name="inverse"/>
+                    <optional>
+                        <externalRef href="src.rng"></externalRef>
+                    </optional>
+                </element>
+            </oneOrMore>
+        </element>
+    </start>
+</grammar>

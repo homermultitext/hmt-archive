@@ -8,10 +8,13 @@ buildscript {
   }
   dependencies {
     classpath group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
+    classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
+    classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
   }
 }
 import org.homermultitext.utils.HmtTokenizer
-
+import edu.holycross.shot.hocuspocus.Corpus
+import edu.holycross.shot.prestochango.CollectionArchive
 
 import org.apache.tools.ant.filters.*
 
@@ -659,6 +662,13 @@ task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
 }
 
 
+/*
+task ccttl(dependsOn: [compileGroovy, tabFiles]) {
+  description = "Use hocuspocus to create a full rdf representation of the text archive suitable for import into a CTS"
+}
+ccttl.doLast {
+}
+*/
 task imgttl (type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates RDF for configured image repository"
     main = "org.homermultitext.HmtImgTurtleizer"
@@ -672,15 +682,29 @@ task imgttl (type: JavaExec, dependsOn: compileGroovy) {
     }
 }
 
-task ccttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for Collections configured for prestochango"
-    main = "org.homermultitext.HmtCollectionTurtleizer"
-    args = ["cite/collections/inventory/hmtcollections.xml", "http://www.homermultitext.org/hmtschemas/collections/CiteCollectionService.rng", "cite/collections", "${buildDir}/rdf"]
 
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
+task ccttl() {
+  description = "Generates RDF for Collections configured for prestochango"
 }
+ccttl.doLast {
+  boolean prefix = false
 
+  File schemaFile = new File("schemas/cite/CiteCollectionInventory.rng")
+
+  File invFile = new File("cite/collections/inventory/hmtcollections.xml")
+  File archiveDir = new File("cite/collections")
+  CollectionArchive cc = new CollectionArchive(invFile, schemaFile, archiveDir)
+
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  File ttlDir = new File(buildDir, "ttl")
+  if (! ttlDir.exists()) {
+    ttlDir.mkdir()
+  }
+  File testOut = new File(ttlDir, "collections.ttl")
+  cc.ttl(testOut, prefix)
+}
 
 task idxttl (type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates RDF for indices configured for abracadabra"

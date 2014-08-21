@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    xmlns:cite="http://chs.harvard.edu/xmlns/cite/object">
+    <start>
+        <element
+            name="cite:citeObject">
+            <attribute
+                name="urn"/>
+            <oneOrMore>
+                <element
+                    name="cite:citeProperty">
+                    <attribute
+                        name="name"/>
+                    <attribute
+                        name="label"/>
+                    <attribute
+                        name="type">
+                        <value>citeurn</value>
+                    </attribute>
+                </element>
+            </oneOrMore>
+        </element>
+    </start>
+</grammar>
