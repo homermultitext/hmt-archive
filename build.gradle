@@ -10,11 +10,15 @@ buildscript {
     classpath group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
     classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
     classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
+    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.1'
+    classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.1.12'
   }
 }
 import org.homermultitext.utils.HmtTokenizer
 import edu.holycross.shot.hocuspocus.Corpus
 import edu.holycross.shot.prestochango.CollectionArchive
+import edu.holycross.shot.abracadabra.CiteIndex
+import edu.holycross.shot.nysi.ImgTurtleizer
 
 import org.apache.tools.ant.filters.*
 
@@ -652,36 +656,46 @@ task cite (dependsOn : [editions, collections, indices, images]) {
 ///////////////////////////////////////////////////////////////////////////
 //// RDF TASKS 
 
-task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
-    description = "Use hocuspocus to create a full rdf representation of the text archive suitable for import into a CTS"
-    main = "org.homermultitext.HmtTextTurtleizer"
-    args = ["${buildDir}/${compositeDir}/inventory.xml", "${buildDir}/${compositeDir}", "${buildDir}/rdf", "cts.ttl" ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-/*
-task ccttl(dependsOn: [compileGroovy, tabFiles]) {
+task ctsttl(dependsOn: editions) {
   description = "Use hocuspocus to create a full rdf representation of the text archive suitable for import into a CTS"
 }
-ccttl.doLast {
-}
-*/
-task imgttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for configured image repository"
-    main = "org.homermultitext.HmtImgTurtleizer"
-    args = ["cite/images/collections", "cite/images/data", "${buildDir}/rdf", "citeimgs.ttl"]
+ctsttl.doLast {
+  File inv = new File("${buildDir}/${compositeDir}/inventory.xml")
+  File archiveDir = new File("${buildDir}/${compositeDir}")
+  Corpus c = new Corpus(inv,archiveDir)
 
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
 
-    doFirst {
-        System.err.println "\nTTLize images with ${args}\n"
-    }
+  File ttlDir = new File(buildDir, "rdf")
+  if (! ttlDir.exists()) {
+    ttlDir.mkdir()
+  }
+  File ttlFile = new File(ttlDir,"cts.ttl")
+  c.ttl(ttlFile, ttlDir)
 }
 
+
+task copyImgs (type: Copy) {
+  description = "Filter copies configurable image collection info."
+  from (file("cite/images/collections")) {
+    include '*.csv'
+  }
+  filter(ReplaceTokens, tokens : [pyramids : pyramids] )
+  into "${buildDir}/images"
+
+}
+
+task imgttl (dependsOn: [copyImgs]) {
+  description = "Generates RDF for configured image repository"
+}
+imgttl.doLast {
+  File rdfDir = new File("${buildDir}/rdf")
+  if (! rdfDir.exists()) {
+    rdfDir.mkdir()
+  }
+  File ttlFile = new File(rdfDir,"citeimgs.ttl")
+  ImgTurtleizer imgttl = new ImgTurtleizer("${buildDir}/images", "cite/images")
+  imgttl.ttl(ttlFile)
+}
 
 task ccttl() {
   description = "Generates RDF for Collections configured for prestochango"
@@ -706,14 +720,24 @@ ccttl.doLast {
   cc.ttl(testOut, prefix)
 }
 
-task idxttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for indices configured for abracadabra"
-    main = "org.homermultitext.HmtIndexTurtleizer"
-    args = ["cite/indices/inventory/hmtindices.xml", "cite/indices", "${buildDir}/rdf", "indices.ttl"]
 
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
+task idxttl() {
+  description = "Generates RDF for indices configured for abracadabra"
+}
+idxttl.doLast {
+  File inv = new File("cite/indices/inventory/hmtindices.xml")
+  File idxDir = new File("cite/indices")
+  CiteIndex idx = new CiteIndex(inv, idxDir)
 
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  File ttlDir = new File(buildDir, "rdf")
+  if (! ttlDir.exists()) {
+    ttlDir.mkdir()
+  }
+  File outFile = new  File (ttlDir,"indices.ttl")
+  idx.ttl(outFile, true)
 }
 
 
