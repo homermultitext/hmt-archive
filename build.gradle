@@ -698,7 +698,7 @@ ccttl.doLast {
   if (! buildDir.exists()) {
     buildDir.mkdir()
   }
-  File ttlDir = new File(buildDir, "ttl")
+  File ttlDir = new File(buildDir, "rdf")
   if (! ttlDir.exists()) {
     ttlDir.mkdir()
   }
