@@ -3,9 +3,8 @@
 <collectionService
     xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <extensionImplementation
-        fullValue="http://www.homermultitext.org/hmt-docs/specifications/citeimage"
-        abbr="image"/>
+    <extensionImplementation abbr="image" rdfType="cite:Image"/>
+    
     
     <!-- IMAGE DATA ********************   -->
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vaimg">
@@ -93,10 +92,7 @@
     </citeCollection>
     
     
-    
-    
-    
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:u4">
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:u4img">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -122,6 +118,151 @@
         <citeProperty name="Label" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vgf64img">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of manuscript Leiden VGF 64</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the manuscript Leiden VGF 64.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the manuscript Leiden VGF 64 by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/vgf64img.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    
+    
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:bmpap114">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Bankes papyrus</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Bankes papyrus, British Museum 114.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Bankes papyrus, British Museum 114.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/bankes.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:blpd">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Public-domain images of manuscrips in the British Library</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Public-domain images of Homeric manuscripts in the British Library.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Public-domain images of Homeric manuscripts in the British Library.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/blpd.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:codbod85">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the manuscript Codex Bodmer 85</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the manuscript Codex Bodmer 85.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Images of the manuscript Codex Bodmer 85 from the e-codices project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/codbod85.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:compimg">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Comparetti's facsimile of the Venetus A manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages of Comparetti's facsimile of the Venetus A manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Images of the manuscript Codex Bodmer 85 from the e-codices project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/comparetti-images.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
     <!-- CODEX MODELS:  CODICES AND PAGE ZONES ********************   -->
     <citeCollection
         canonicalId="codex"
