@@ -5,7 +5,7 @@
     xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
     xmlns:cite="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <!--DEFINE CTSURN and CITEURN types -->
+   
     <define
         name="ctsProperty">
         <element
@@ -23,6 +23,15 @@
                         <value>naturaljoin</value>
                     </choice>
                 </attribute>
+            </optional>
+            <optional>
+                <element
+                    name="cite:indexRelation">
+                    <attribute
+                        name="rdfverb"/>
+                    <attribute
+                        name="inverseverb"/>
+                </element>
             </optional>
         </element>
     </define>
@@ -44,6 +53,15 @@
                         <value>naturaljoin</value>
                     </choice>
                 </attribute>
+            </optional>
+            <optional>
+                <element
+                    name="cite:indexRelation">
+                    <attribute
+                        name="rdfverb"/>
+                    <attribute
+                        name="inverseverb"/>
+                </element>
             </optional>
         </element>
     </define>
@@ -81,8 +99,7 @@
                     name="cite:indexRelation">
                     <attribute
                         name="rdfverb"/>
-                    <attribute
-                        name="inverseverb"/>
+                    
                 </element>
             </optional>
         </element>

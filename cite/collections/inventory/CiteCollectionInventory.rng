@@ -14,7 +14,7 @@
                     <attribute
                         name="abbr"/>
                     <attribute
-                        name="fullValue"/>
+                        name="rdfType"/>
                 </element>
             </zeroOrMore>
             <oneOrMore>
