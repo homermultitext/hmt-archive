@@ -1,0 +1,83 @@
+@import "tei.css";
+@import "links.css";
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------
+----- Oxygen modifications to the TEI css available at  http://tei.svn.sourceforge.net/viewvc/tei/trunk/TEICSS/  ------
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+TEI {
+    display:block;
+}
+
+div > head,
+body > div > head,
+body > div > div > head,
+body > div > div > div > head,
+body > div > div > div > div > head{
+    padding-top:0.6em;
+    padding-bottom:0.2em;
+    padding-left:0.2em;
+    padding-right:0em;
+    background-color:inherit;
+    color:#004477;
+    border-bottom:1px solid #004477;
+}
+
+head {
+    display:block;
+}
+
+
+
+quote {
+  display: block;
+  margin-left: 1em;
+}
+
+text {
+  display: block;
+}
+
+div,
+body > div,
+body > div > div,
+body > div > div > div,
+body > div > div > div > div{
+    margin-bottom:0.2em;
+}
+
+cell[role='label'],
+row[role='label']{
+   color: inherit;
+   background-color: #CCEEFF;
+}
+
+table {
+  border: 1px solid #EEEFEE;
+}
+
+graphic{
+    content: attr(url, url);
+}
+
+/*
+ * Support for displaying unparsed entity images.
+*/
+figure[entity]{
+     content: url(unparsed-entity-uri(attr(entity))); 
+}
+
+
+/*
+    Foldable elements
+*/
+div {
+    foldable:true;
+    not-foldable-child: head;
+}
+
+
+/*Avoids displaying the empty element placeholder.*/
+lb:before{
+    content:"";
+}
+
