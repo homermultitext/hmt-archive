@@ -1,12 +1,12 @@
-"urn:cite:hmt:vbimg","Images of the Venetus B manuscript from the Homer Multitext project","@pyramids@/VenB"
-"urn:cite:hmt:vaimg","Images of the Venetus A manuscript from the Homer Multitext project","@pyramids@/VenA"
-"urn:cite:hmt:u4img","Images of manuscript Marciana 841 from the Homer Multitext project","@pyramids@/U4"
-"urn:cite:hmt:e3img","Images of manuscript Escorial Upsilon 1.1 from the Homer Multitext project","@pyramids@/E3"
-"urn:cite:hmt:e4img","Images of manuscript Escorial Omega 1.12 from the Homer Multitext project","@pyramids@/E4"
-"urn:cite:hmt:compimg","Images of Domenico Comparetti, Homeri Ilias cum Scholiis (1901 facsimile edition of Venetus A)","@pyramids@/Comparetti2013"
-urn:cite:ecod:gen44,"Images of manuscript Geneva 44 from the e-codices project","@pyramids@/Gen44"
-"urn:cite:hmt:e3bifolio","Images of bifolio spreads of the manuscript Escorial Upsilon 1.1 from the Homer Multitext project","@pyramids@/E3-bifolios"
-urn:cite:ecod:codbod85,"Images of Codex Bodmer 85 from the e-codices project","@pyramids@/CodBod85"
-urn:cite:hmt:vgf64img,"Images of Leiden MS VGF 64","@pyramids@/VGF64"
-urn:cite:hmt:bmpap114,"Images of the Bankes Papyrus (British Museum Papyrus 114)","@pyramids@/Bankes"
-urn:cite:hmt:blpd,"Images of illuminated manuscripts in the British Library","@pyramids@/BL-pd"
+"urn:cite:hmt:vbimg","Images of the Venetus B manuscript from the Homer Multitext project","@pyramids@/VenB",Label,Rights
+"urn:cite:hmt:vaimg","Images of the Venetus A manuscript from the Homer Multitext project","@pyramids@/VenA",Label,Rights
+"urn:cite:hmt:u4img","Images of manuscript Marciana 841 from the Homer Multitext project","@pyramids@/U4",Label,Rights
+"urn:cite:hmt:e3img","Images of manuscript Escorial Upsilon 1.1 from the Homer Multitext project","@pyramids@/E3",Label,Rights
+"urn:cite:hmt:e4img","Images of manuscript Escorial Omega 1.12 from the Homer Multitext project","@pyramids@/E4",Label,Rights
+"urn:cite:hmt:compimg","Images of Domenico Comparetti, Homeri Ilias cum Scholiis (1901 facsimile edition of Venetus A)","@pyramids@/Comparetti2013",Label,Rights
+urn:cite:ecod:gen44,"Images of manuscript Geneva 44 from the e-codices project","@pyramids@/Gen44",Label,Rights
+"urn:cite:hmt:e3bifolio","Images of bifolio spreads of the manuscript Escorial Upsilon 1.1 from the Homer Multitext project","@pyramids@/E3-bifolios",Label,Rights
+urn:cite:ecod:codbod85,"Images of Codex Bodmer 85 from the e-codices project","@pyramids@/CodBod85",Label,Rights
+urn:cite:hmt:vgf64img,"Images of Leiden MS VGF 64","@pyramids@/VGF64",Label,Rights
+urn:cite:hmt:bmpap114,"Images of the Bankes Papyrus (British Museum Papyrus 114)","@pyramids@/Bankes",Label,Rights
+urn:cite:hmt:blpd,"Images of illuminated manuscripts in the British Library","@pyramids@/BL-pd",Label,Rights

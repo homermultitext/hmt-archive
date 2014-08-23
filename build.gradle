@@ -6,11 +6,14 @@ buildscript {
       url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
     }
   }
+  /* Sadly, these values must all be duplicated below in the dependencies section
+     for the whole project:
+   */
   dependencies {
     classpath group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
     classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
     classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
-    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.1'
+    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.4'
     classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.1.12'
   }
 }
@@ -22,8 +25,8 @@ import edu.holycross.shot.nysi.ImgTurtleizer
 
 import org.apache.tools.ant.filters.*
 
-/* hmtarchive project.
- */
+
+// hmtarchive project
 apply plugin: "base"
 apply plugin:  "groovy"
 apply plugin:  "maven"
@@ -98,15 +101,14 @@ configurations {
 }
 
 dependencies {
+
+  compile group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
+  compile group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
+  compile group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.4'
+  compile group: 'edu.holycross.shot', name : 'nysi' , version: '0.1.12'
+  compile group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
+
   compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyversion
-
-  compile group: 'edu.holycross.shot', name: 'nysi', version: nysiversion
-  compile group : 'edu.holycross.shot', name : 'prestochango', version : prestochangoversion
-  compile group : 'edu.holycross.shot', name : 'abracadabra', version : abracadabraversion
-  compile group: "edu.holycross.shot", name: "hocuspocus", version: hocuspocusversion
-
-
-  compile group: 'org.homermultitext', name : 'hmt-utils' , version: hmtutilsversion
 
   compile group: 'edu.harvard.chs', name : 'cite' , version: citeversion
   compile group: 'edu.harvard.chs', name : 'greekutils' , version: greekutilsversion
@@ -117,6 +119,7 @@ dependencies {
   testCompile group: 'junit', name: 'junit', version: junitversion
   testCompile group :'xmlunit', name: 'xmlunit', version: xmlunitversion
 }
+
 
 
 task setUpEditions(type: Copy) {
@@ -660,6 +663,8 @@ task ctsttl(dependsOn: editions) {
   description = "Use hocuspocus to create a full rdf representation of the text archive suitable for import into a CTS"
 }
 ctsttl.doLast {
+  boolean prefix = project.hasProperty("prefix-all")
+
   File inv = new File("${buildDir}/${compositeDir}/inventory.xml")
   File archiveDir = new File("${buildDir}/${compositeDir}")
   Corpus c = new Corpus(inv,archiveDir)
@@ -670,7 +675,7 @@ ctsttl.doLast {
     ttlDir.mkdir()
   }
   File ttlFile = new File(ttlDir,"cts.ttl")
-  c.ttl(ttlFile, ttlDir)
+  c.ttl(ttlFile, prefix, ttlDir)
 }
 
 
@@ -681,27 +686,28 @@ task copyImgs (type: Copy) {
   }
   filter(ReplaceTokens, tokens : [pyramids : pyramids] )
   into "${buildDir}/images"
-
 }
 
 task imgttl (dependsOn: [copyImgs]) {
   description = "Generates RDF for configured image repository"
 }
 imgttl.doLast {
+  boolean prefix = project.hasProperty("prefix-all")
+
   File rdfDir = new File("${buildDir}/rdf")
   if (! rdfDir.exists()) {
     rdfDir.mkdir()
   }
   File ttlFile = new File(rdfDir,"citeimgs.ttl")
   ImgTurtleizer imgttl = new ImgTurtleizer("${buildDir}/images", "cite/images")
-  imgttl.ttl(ttlFile)
+  imgttl.ttl(ttlFile, prefix)
 }
 
 task ccttl() {
   description = "Generates RDF for Collections configured for prestochango"
 }
 ccttl.doLast {
-  boolean prefix = false
+  boolean prefix = project.hasProperty("prefix-all")
 
   File schemaFile = new File("schemas/cite/CiteCollectionInventory.rng")
 
@@ -725,6 +731,8 @@ task idxttl() {
   description = "Generates RDF for indices configured for abracadabra"
 }
 idxttl.doLast {
+  boolean prefix = project.hasProperty("prefix-all")
+
   File inv = new File("cite/indices/inventory/hmtindices.xml")
   File idxDir = new File("cite/indices")
   CiteIndex idx = new CiteIndex(inv, idxDir)
@@ -737,7 +745,7 @@ idxttl.doLast {
     ttlDir.mkdir()
   }
   File outFile = new  File (ttlDir,"indices.ttl")
-  idx.ttl(outFile, true)
+  idx.ttl(outFile, prefix)
 }
 
 

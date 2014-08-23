@@ -28,7 +28,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source
             type="file"
-            value="images/vbimgs.csv"/>
+            value="images/vaimgs.csv"/>
         <citeProperty name="Image" label="Image URN" type="citeurn"/>
         <citeProperty name="Label" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
@@ -722,6 +722,7 @@
     </citeCollection>
     <!-- INVENTORY OF SCHOLIA: ************************************************* ********************   -->
     <!-- ANALYTICAL COLLECTIONS ************************************************* ********************   -->
+    <!--
     <citeCollection
         canonicalId="LexURN"
         label="Lemma"
@@ -751,6 +752,8 @@
             name="LexURN"
             type="citeurn"/>
     </citeCollection>
+   -->
+    
     <citeCollection
         canonicalId="ClassId"
         label="Meaning"
