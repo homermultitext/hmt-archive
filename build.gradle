@@ -14,7 +14,7 @@ buildscript {
     classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
     classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
     classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.4'
-    classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.1.12'
+    classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
   }
 }
 import org.homermultitext.utils.HmtTokenizer
@@ -105,7 +105,7 @@ dependencies {
   compile group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
   compile group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
   compile group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.4'
-  compile group: 'edu.holycross.shot', name : 'nysi' , version: '0.1.12'
+  compile group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
   compile group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
 
   compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyversion
@@ -699,7 +699,7 @@ imgttl.doLast {
     rdfDir.mkdir()
   }
   File ttlFile = new File(rdfDir,"citeimgs.ttl")
-  ImgTurtleizer imgttl = new ImgTurtleizer("${buildDir}/images", "cite/images")
+  ImgTurtleizer imgttl = new ImgTurtleizer("${buildDir}/images")
   imgttl.ttl(ttlFile, prefix)
 }
 
