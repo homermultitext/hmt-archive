@@ -45,7 +45,7 @@ if (project.hasProperty('conf')) {
     System.err.print "Using configuration data from ${conf}"
     File confFile = new File(conf)
     if (! confFile.exists()) {
-        throw new Exception("No configuration file ${pub} found.")
+        throw new Exception("No configuration file ${conf} found.")
     } else {
         apply from: conf
     }
