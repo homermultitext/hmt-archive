@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei-scholia.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Venetus A Exterior Scholia</title>
+                <author>Stephanie Lindeborg</author>
+                <author>Becky Musgrave</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpublished</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Transcribed from Venetus A MS</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group n="8">
+            <text
+                n="msAext">
+                <body>
+                    <div
+                        n="1000"
+                        type="scholion">
+                        <div
+                            type="lemma">
+                            <p/>
+                        </div>
+                        <div
+                            type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.70</p>
+                        </div>
+                        <div
+                            type="comment">
+                            <p>ἐν δ'</p>
+                        </div>
+                    </div>
+                    <div
+                        n="95"
+                        type="scholion">
+                        <div
+                            type="lemma">
+                            <p/>
+                        </div>
+                        <div
+                            type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.114</p>
+                        </div>
+                        <div
+                            type="comment">
+                            <p>ἴφθιμοι </p>
+                        </div>
+                    </div>
+                    <div
+                        n="1001"
+                        type="scholion">
+                        <div
+                            type="lemma">
+                            <p/>
+                        </div>
+                        <div
+                            type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.217</p>
+                        </div>
+                        <div
+                            type="comment">
+                            <p><w><unclear>π</unclear>υρι</w> κηλέῳ</p>
+                        </div>
+                    </div>
+                    <div
+                        n="221"
+                        type="scholion">
+                        <div
+                            type="lemma">
+                            <p/>
+                        </div>
+                        <div
+                            type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.322</p>
+                        </div>
+                        <div
+                            type="comment">
+                            <p>ανωγει· ἄνωγεν· </p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div
+                        n="338"
+                        type="scholion">
+                        <div
+                            type="lemma">
+                            <p/>
+                        </div>
+                        <div
+                            type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.519</p>
+                        </div>
+                        <div
+                            type="comment">
+                            <p>περι ἄστυ </p>
+                        </div>
+                    </div>
+                    <div
+                        n="352"
+                        type="scholion">
+                        <div
+                            type="lemma">
+                            <p/>
+                        </div>
+                        <div
+                            type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.530</p>
+                        </div>
+                        <div
+                            type="comment">
+                            <p>ὑπηοῖοι </p>
+                        </div>
+                    </div>
+                    <div
+                        n="353"
+                        type="scholion">
+                        <div
+                            type="lemma">
+                            <p/>
+                        </div>
+                        <div
+                            type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.538</p>
+                        </div>
+                        <div
+                            type="comment">
+                            <p>αἲ γαρ εῖ </p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>
