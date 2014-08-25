@@ -23,29 +23,28 @@
                 <div
                     n="387"
                     type="poem">
-                    <head>‡<persName
-                            n="pers587">Ἀδριανοῦ</persName> Καίσαρος εἰς τον <persName
-                            n="pers172">Ἔκτορος</persName> ταφον·</head>
+                    <head>‡ <persName
+                            n="urn:cite:hmt:pers.pers814">Ἀδριανοῦ</persName> Καίσαρος εἰς τον <persName
+                            n="urn:cite:hmt:pers.pers172">Ἔκτορος</persName> ταφον·</head>
                     <l
                         n="1"><persName
-                            n="pers172">Ἕκτορ</persName>
-                        <w>Ἀρ<unclear>η</unclear>ύϊον</w> αἷμα· κατα χθονὸς εἴποῐ
-                                <w>ἀκούσ<unclear>ε</unclear></w>·</l>
+                            n="urn:cite:hmt:pers.pers172">Ἕκτορ</persName>
+                        <w>Ἀρ<unclear>η</unclear>ύϊον</w> αἷμα· κατα χθονὸς εἴποι
+                                <sic><w>ἀκούσ<unclear>ε</unclear></w></sic>·</l>
                     <l
                         n="2">στῆθι καὶ ἄμπνευσον βαιὸν ὑπερ πατρίδος·</l>
                     <l
                         n="3"><placeName
-                            n="place6">Ἴλιον</placeName> οἰκεῖται κλεινὴ πόλις· ἄνδρας ἔχουσα</l>
+                            n="urn:cite:hmt:place.place6">Ἴλιον</placeName> οἰκεῖται κλεινὴ πόλις· ἄνδρας ἔχουσα</l>
                     <l
-                        n="4">σοῦ μὲν ἀφαυροτέρους. ἀλλ᾽ ἔτ᾽ ἀρηϊφίλους·</l>
+                        n="4">σοῦ μὲν ἀφαυροτέρους. ἀλλ' ἔτ' ἀρηϊφίλους·</l>
                     <l
-                        n="5">Μυρμιδόνες δ᾽ ἀπόλοντο· παρίστασο καὶ λέγ᾽ <persName
-                            n="pers1">Ἀχιλλεῖ</persName></l>
+                        n="5">Μυρμιδόνες δ' ἀπόλοντο· παρίστασο καὶ λέγ' <persName
+                            n="urn:cite:hmt:pers.pers1">Ἀχιλλεῖ</persName></l>
                     <l
                         n="6"><placeName
-                            n="place2"><w>Θεσσαλί<unclear>η</unclear>ν</w></placeName> κεῖσθαι πᾶσαν
-                        ὑπ᾽ <persName
-                            n="pers588">Αἰνεάδαις</persName>⁑·</l>
+                            n="urn:cite:hmt:place.place2"><w>Θεσσαλί<unclear>η</unclear>ν</w></placeName> κεῖσθαι πᾶσαν
+                        ὑπ' Αἰνεάδαις ⁑·</l>
                 </div>
             </div>
         </body>
