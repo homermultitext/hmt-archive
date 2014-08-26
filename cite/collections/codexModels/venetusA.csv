@@ -1,4 +1,7 @@
 Sequence,PageUrn,RV,Label
+-3,urn:cite:hmt:msA.insidefrontcover,verso,"Venetus A (Marciana 454 = 822), inside front cover"
+-2,urn:cite:hmt:msA.ir,recto,"Venetus A (Marciana 454 = 822), folio i, recto"
+-1,urn:cite:hmt:msA.iv,verso,"Venetus A (Marciana 454 = 822), folio i, verso"
 1,urn:cite:hmt:msA.1r,recto,"Venetus A (Marciana 454 = 822), folio 1, recto"
 2,urn:cite:hmt:msA.1v,verso,"Venetus A (Marciana 454 = 822), folio 1, verso"
 3,urn:cite:hmt:msA.2r,recto,"Venetus A (Marciana 454 = 822), folio 2, recto"
@@ -653,3 +656,8 @@ Sequence,PageUrn,RV,Label
 652,urn:cite:hmt:msA.326v,verso,"Venetus A (Marciana 454 = 822), folio 326, verso"
 653,urn:cite:hmt:msA.327r,recto,"Venetus A (Marciana 454 = 822), folio 327, recto"
 654,urn:cite:hmt:msA.327v,verso,"Venetus A (Marciana 454 = 822), folio 327, verso"
+655,urn:cite:hmt:msA.backfly1,recto,"Venetus A (Marciana 454 = 822), back fly leaf 1, recto"
+656,urn:cite:hmt:msA.backfly1,verso,"Venetus A (Marciana 454 = 822), back fly leaf 1, verso"
+657,urn:cite:hmt:msA.backfly2,recto,"Venetus A (Marciana 454 = 822), back fly leaf 2, recto"
+658,urn:cite:hmt:msA.backfly2,verso,"Venetus A (Marciana 454 = 822), back fly leaf 2, verso"
+659,urn:cite:hmt:msA.insidebackcover,recto,"Venetus A (Marciana 454 = 822), inside back cover"
