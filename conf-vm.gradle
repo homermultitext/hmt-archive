@@ -6,7 +6,7 @@ ext {
 
     compositeDir = "editions/archive"
 
-    pyramids = "/vagrant/pyramids"
+    pyramids = "/pyramids"
 
     ttlPrefix = "@prefix cts:        <http://www.homermultitext.org/cts/rdf/> .\n@prefix cite:        <http://www.homermultitext.org/cite/rdf/> .\n@prefix hmt:        <http://www.homermultitext.org/hmt/rdf/> .\n@prefix citedata:        <http://www.homermultitext.org/hmt/citedata/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. \n@prefix  xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix olo:     <http://purl.org/ontology/olo/core#> .\n@prefix lex:        <http://data.perseus.org/rdfverbs/> .\n@prefix pal: <http://shot.holycrossedu/rdfverbs/pal/> .\n@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix latepig: <http://shot.holycross.edu/rdf/latepig/> .\n\n"
 

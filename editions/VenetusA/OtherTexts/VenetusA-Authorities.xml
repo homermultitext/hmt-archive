@@ -6,11 +6,11 @@
         <fileDesc>
             <titleStmt>
                 <title>List of authorities</title>
-                
+
             </titleStmt>
             <publicationStmt>
                 <p>New electronic edition created for the Homer Multitext Project.</p>
-           
+
             </publicationStmt>
             <sourceDesc>
                 <p>Readings from the Venetus A MS. </p>
@@ -19,53 +19,64 @@
     </teiHeader>
     <text xml:lang="grc-c">
         <body>
-          
+
 
             <milestone unit="page" n="9v"/>
             <div n="authorities" type="appendix">
 
                 <list>
 
-                    <item n="1">‡ <persName n="pers16">Ἀρίσταρχος</persName></item>
-                    <item n="2"><persName n="pers15">Ζηνόδοτος</persName></item>
-                    <item n="3"><persName n="pers691">Τασῖνος</persName></item>
-                    <item n="4"><persName n="pers51">Θεόπομπος</persName></item>
-                    <item n="5"><persName n="pers58">Πολέμων</persName></item>
-                    <item n="6"><persName n="pers69">Ἀπολλόδωρος</persName></item>
-                    <item n="7"><persName n="pers75">Ἡρῳδιανός</persName></item>
-                    <item n="8"><persName n="pers76">Νικάνωρ</persName></item>
-                    <item n="9"><persName n="pers77">Πορφύριος</persName></item>
-                    <item n="9"><persName n="pers88">Ἀπολλώνιος</persName></item>
-                    <item n="10"><persName n="pers112">Σωσιγένης</persName></item>
-                    <item n="11"><persName n="pers21">Ἀριστοφάνης</persName></item>
-                    <item n="12"><persName n="pers90">Δίκτυς</persName></item>
-                    <item n="13"><persName n="pers97">Εὐριπίδης</persName></item>
-                    <item n="14">ὁ τοῦ <choice><abbr><persName n="pers260">Ὀροανδ</persName></abbr><expan><persName n="pers260">Ὀροάνδου</persName></expan></choice> <persName n="pers98">Πτολεμαῖος</persName></item>
-                    <item n="15"><persName n="pers546">Τυραννίων</persName></item>
-                    <item n="16"><persName n="pers106">Ζωΐλος</persName></item>
-                    <item n="17"><persName n="pers107">Χρύσιππος</persName></item>
-                    <item n="18"><persName n="pers4">Ἡσίοδος</persName></item>
-                    <item n="19"><persName n="pers549">Σέλευκος</persName></item>
-                    <item n="20">ὁ λυρικὸς <persName n="pers689">Ἀλκμᾶν</persName></item>
-                    <item n="21"><persName n="pers141">Φιλόξενος</persName></item>
-                    <item n="22"><persName n="pers86">Καλλίμαχος</persName></item>
-                    <item n="23"><persName n="pers5">Πίνδαρος</persName></item>
-                    <item n="24"><persName n="pers163">Ἀριστόνικος</persName></item>
-                    <item n="25"><persName n="pers169">Πάμφιλος</persName></item>
-                    <item n="26"><persName n="pers207">Θεαγένης</persName></item>
-                    <item n="27"><persName n="pers175">Δίδυμος</persName></item>
-                    <item n="28"><persName n="pers178">Σοφοκλῆς</persName></item>
-                    <item n="29"><persName n="pers191">Καλλιστρατος</persName></item>
-                    <item n="30"><persName n="pers323">Σιδώνιος</persName></item>
-                    <item n="31"><persName n="pers250">Ἰξίων</persName></item>
-                    <item n="32"><persName n="pers183">Θεόφραστος</persName></item>
-                    <item n="33"><persName n="pers692">Ἀρος</persName></item>
-                    <item n="34"><persName n="pers690">Ριανός</persName> + </item>
+                    <item n="1">‡ <persName n="urn:cite:hmt:pers.pers16"
+                        >Ἀρίσταρχος</persName></item>
+                    <item n="2"><persName n="urn:cite:hmt:pers.pers15">Ζηνόδοτος</persName></item>
+                    <item n="3"><persName n="urn:cite:hmt:pers.pers20"
+                        ><sic>Τασῖνος</sic></persName></item>
+                    <item n="4"><persName n="urn:cite:hmt:pers.pers51">Θεόπομπος</persName></item>
+                    <item n="5"><persName n="urn:cite:hmt:pers.pers58">Πολέμων</persName></item>
+                    <item n="6"><persName n="urn:cite:hmt:pers.pers69">Ἀπολλόδωρος</persName></item>
+                    <item n="7"><persName n="urn:cite:hmt:pers.pers493">Ἡρῳδιανός</persName></item>
+                    <item n="8"><persName n="urn:cite:hmt:pers.pers76">Νικάνωρ</persName></item>
+                    <item n="9"><persName n="urn:cite:hmt:pers.pers77">Πορφύριος</persName></item>
+                    <item n="9"><persName n="urn:cite:hmt:pers.pers577">Ἀπολλώνιος</persName></item>
+                    <item n="10"><persName n="urn:cite:hmt:pers.pers112">Σωσιγένης</persName></item>
+                    <item n="11"><persName n="urn:cite:hmt:pers.pers21"
+                        >Ἀριστοφάνης</persName></item>
+                    <item n="12"><persName n="urn:cite:hmt:pers.pers90">Δίκτυς</persName></item>
+                    <item n="13"><persName n="urn:cite:hmt:pers.pers97">Εὐριπίδης</persName></item>
+                    <item n="14">ὁ τοῦ <persName n="urn:cite:hmt:pers.pers260"><choice>
+                            <abbr></abbr>
+                            <expan>Ὀροάνδου</expan>
+                        </choice></persName>
+                        <persName n="urn:cite:hmt:pers.pers98">Πτολεμαῖος</persName></item>
+                    <item n="15"><persName n="urn:cite:hmt:pers.pers105">Τυραννίων</persName></item>
+                    <item n="16"><persName n="urn:cite:hmt:pers.pers106">Ζωΐλος</persName></item>
+                    <item n="17"><persName n="urn:cite:hmt:pers.pers107">Χρύσιππος</persName></item>
+                    <item n="18"><persName n="urn:cite:hmt:pers.pers4">Ἡσίοδος</persName></item>
+                    <item n="19"><persName n="urn:cite:hmt:pers.pers136">Σέλευκος</persName></item>
+                    <item n="20">ὁ λυρικὸς <persName n="urn:cite:hmt:pers.pers592"
+                        >Ἀλκμᾶν</persName></item>
+                    <item n="21"><persName n="urn:cite:hmt:pers.pers141">Φιλόξενος</persName></item>
+                    <item n="22"><persName n="urn:cite:hmt:pers.pers86">Καλλίμαχος</persName></item>
+                    <item n="23"><persName n="urn:cite:hmt:pers.pers5">Πίνδαρος</persName></item>
+                    <item n="24"><persName n="urn:cite:hmt:pers.pers163"
+                        >Ἀριστόνικος</persName></item>
+                    <item n="25"><persName n="urn:cite:hmt:pers.pers169">Πάμφιλος</persName></item>
+                    <item n="26"><persName n="urn:cite:hmt:pers.pers207">Θεαγένης</persName></item>
+                    <item n="27"><persName n="urn:cite:hmt:pers.pers175">Δίδυμος</persName></item>
+                    <item n="28"><persName n="urn:cite:hmt:pers.pers178">Σοφοκλῆς</persName></item>
+                    <item n="29"><persName n="urn:cite:hmt:pers.pers191"
+                        >Καλλιστρατος</persName></item>
+                    <item n="30"><persName n="urn:cite:hmt:pers.pers323">Σιδώνιος</persName></item>
+                    <item n="31"><persName n="urn:cite:hmt:pers.pers250">Ἰξίων</persName></item>
+                    <item n="32"><persName n="urn:cite:hmt:pers.pers183"
+                        >Θεόφραστος</persName></item>
+                    <item n="33"><persName n="urn:cite:hmt:pers.pers815">Ἀρος</persName></item>
+                    <item n="34"><persName n="urn:cite:hmt:pers.pers85">Ριανός</persName> + </item>
 
                 </list>
             </div>
 
-           
+
         </body>
     </text>
 </TEI>
