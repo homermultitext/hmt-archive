@@ -92,6 +92,35 @@
     </citeCollection>
     
     
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:e3bifolio">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Escorial Υ 1.1 manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All bifolio spreads of the Escorial Υ 1.1 manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Composite images illustrating bifolio spreads of the Escorial Υ 1.1 manuscript by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/e3bifolios.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection> 
+    
+    
+    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:u4img">
         <namespaceMapping
             abbr="hmt"
