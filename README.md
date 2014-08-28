@@ -12,4 +12,6 @@ The master branch always has the most recent published release of the archive (c
 Work on the next publication is in a development branch named for the next release (e.g., `2014-2`).
 
 
+The project wiki has some notes on the development of the archive, including an [overview of currently planned projects](https://github.com/homermultitext/hmt-archive/wiki/Whiteboard).
+
 
