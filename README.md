@@ -1,4 +1,4 @@
-# hmt-archive 
+# hmt-archive #
 
 This is the central repository for archival data from the Homer Multitext project.
 
