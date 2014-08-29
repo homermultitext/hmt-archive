@@ -1,4 +1,6 @@
 /*
+MOVE THIS INTO BUILD SCRIPT!
+
 Groovy script to make composite scholia inventory from all csv files
 in byBook directory.
 Algorithmically generates scholion URN from CTS URN of edition as
