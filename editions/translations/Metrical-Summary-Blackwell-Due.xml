@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Metrical Summaries</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>New electronic edition.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>New edition edited from photography of Venetus A manuscript.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div
+                n="9"
+                type="book">
+                
+                <div n="385" type="poem">
+                    <l n="1">Alpha contains prayers of Chrysēs; plague among the army; enmity of the leaders</l>
+                    <l n="2">And Beta has a dream, an assembly, and enumerates the ships.</l>
+                    <l n="3">And then Gamma is from the point of view of Helen; the pitch of battle is only for husbands.</l>
+                    <l n="4">Delta contains an assembly of the gods, many oaths, the onslaught of Ares.</l>
+                    <l n="5">“E”: The son of Tydeus strikes Aphrodite and Ares.</l>
+                    <l n="6">And then Zeta is the fond discourse of both Andromache and Hektor.</l>
+                    <l n="7">And Eta: Aias fights one-on-one with radiant Hektor.</l>
+                    <l n="8">Theta is an assembly of the gods, the power of the Trojans, the boast of Hektor.</l>
+                    <l n="9">And an embassy to implacable Achilleus, is Iota.</l>
+                    <l n="10">And Kappa: men from both sides went forth to spy.</l>
+                    <l n="11">And Lambda. Men of Hektor strike the best of the Danaans.</l>
+                    <l n="12">Mu. By the hands of the Trojans, the Achaians’ wall is hurled down.</l>
+                    <l n="13">And Nu. Poseidon gives power to the Danaans in secret.</l>
+                    <l n="14">Xi. Hera beguiles the Son of Kronos by sleep and the pleasures of the couch.</l>
+                    <l n="15">“O”. The Son of Kronos is angered at Poseidon and Hera.</l>
+                    <l n="16">Pi. Hektor’s spear kills warlike Patroklos.</l>
+                    <l n="17">Rho. The Danaans and Trojans clash over the corpse.</l>
+                    <l n="18">Sigma. Thetis brings arms from Hephaestus for Achilleus.</l>
+                    <l n="19">And Tau. Radiant Achilleus sets aside anger and springs forth.</l>
+                    <l n="20">“U”. Strife arises among the gods and brings strength to the Achaeans.</l>
+                    <l n="21">Phi. By an even greater downpouring, Achilleus overcomes the Trojans.</l>
+                    <l n="22">Chi. And leading him around the walls three times, Achilleus kills Hektor.</l>
+                    <l n="23">Psi. Achilleus completes giving games for the Danaans.</l>
+                    <l n="24">“Ō”. Achilleus, having taken a ransom, gives Priam the corpse of his son.</l>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
