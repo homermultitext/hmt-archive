@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet  type="text/css" href="scholia-css/tei-scholia.css" title="TEI
+style simple scholia" alternate="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Venetus A Book Subscriptions</title>
+            <author>Stephanie Lindeborg</author>
+
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcribed directly from photography of Venetus A MS</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+      
+         <text n="msA">
+            <!--msA == end of book subscriptions -->
+            <body>
+               <div n="1" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:1</p>
+                  </div>
+                  <div type="comment">
+                     <p>‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ἀρισταρχείου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς προσωδίας</title> καὶ <persName n="urn:cite:hmt:pers.pers76"
+                           >Νικάνορος</persName>
+                        <title>περι στιγμῆς</title> ⁑ </p>
+                  </div>
+               </div>
+               <div n="2" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:2</p>
+                  </div>
+                  <div type="comment">
+                     <p>‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName><title> περι τῆς Ἀρισταρχείου διορθώσεως</title>·
+                        τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς προσωδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανου</persName> καὶ ἐκ τοῦ
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title>περὶ στιγμης</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:2"
+                           >β</ref></title></p>
+                  </div>
+               </div>
+               <div n="3" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:3</p>
+                  </div>
+                  <div type="comment">
+                     <p> ‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ἀρισταρχείου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς προσωδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ <persName
+                           n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ὁμηρικῆς στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg012.tlg001.msA:3"
+                           >γ</ref></title></p>
+                  </div>
+               </div>
+               <div n="4" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:4</p>
+                  </div>
+                  <div type="comment">
+                     <p>‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title>περι τῆς Ἀρισταρχεῖου διορθώσεως</title>· τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ τοῦ
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName><title> περι
+                              Ὁμηρικῆς
+                           στιγμῆς</title> ‡</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:4"
+                           >δ</ref></title></p>
+                  </div>
+               </div>
+               <div n="5" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:5</p>
+                  </div>
+                  <div type="comment">
+                     <p>‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονικου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title>περι τῆς Ἀρισταρχείου διορθώσεως</title>· τινὰ δὲ ἐκ <title>τῆς Ἰ̈λιακῆς
+                           προσωδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρῳδιανοῦ</persName> καὶ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title>περι στιγμῆς</title>⁑ </p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:5"
+                           >ε</ref></title></p>
+                  </div>
+               </div>
+               <div n="6" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:6</p>
+                  </div>
+                  <div type="comment">
+                     <p>‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ἀρισταρχειου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς προσωδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρῳδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:6"
+                           >ζ</ref></title></p>
+                  </div>
+               </div>
+               <div n="7" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:7</p>
+                  </div>
+                  <div type="comment">
+                     <p>‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title>περὶ τῆς <persName n="urn:cite:hmt:pers.pers16"
+                              >Ἀριστάρχου</persName> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title>περι στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:7"
+                           >η</ref></title></p>
+                  </div>
+               </div>
+               <div n="8" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:8</p>
+                  </div>
+                  <div type="comment">
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονικου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς <persName>Ἀρισταρχου</persName> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">ᾙρωδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑ </p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:8"
+                           >θ</ref></title></p>
+                  </div>
+               </div>
+               <div n="9" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:9</p>
+                  </div>
+                  <div type="comment">
+                     <p>‡ παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονικου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ἀρισταρχείου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς προσωδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title>περι στιγμῆς</title> ⁑ </p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:9"
+                           >ι</ref></title></p>
+                  </div>
+               </div>
+               <div n="10" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:10</p>
+                  </div>
+                  <div type="comment">
+                     <p>παράκειται τὰ <title>σημεῖα</title>
+                        <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName> καὶ τὰ
+                           <del>τοῦ</del>
+                        <persName n="urn:cite:hmt:pers.pers175">Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς <choice>
+                                 <abbr>Αρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:10"
+                           >κ</ref></title></p>
+                  </div>
+               </div>
+               <div n="11" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:11</p>
+                  </div>
+                  <div type="comment">
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:11"><choice>
+                                 <abbr>Ιλιαδ</abbr>
+                                 <expan>Ἰλιάδος</expan>
+                              </choice> λ</ref></title></p>
+                     <p>παρακειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονικου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ἀρισταρχειου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς προσωδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                  </div>
+               </div>
+               <div n="12" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:12</p>
+                  </div>
+                  <div type="comment">
+                     <p> παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"
+                           >Ἀριστονικου</persName>
+                        <title>σημεῖα</title> καὶ τα <persName n="urn:cite:hmt:pers.pers175"><choice>
+                              <sic>Δίδύμου</sic>
+                              <corr>Διδύμου</corr>
+                           </choice></persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς <choice>
+                                 <abbr>Αρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName><title>
+                           <choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:12"
+                           >μ</ref></title></p>
+                  </div>
+               </div>
+               <div n="13" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:13</p>
+                  </div>
+                  <div type="comment">
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς <choice>
+                                 <abbr>Αρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title>· τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="pesr75">Ἡρωδιανου</persName>· καὶ ἐκ τω <persName
+                           n="urn:cite:hmt:pers.pers76"><choice>
+                              <abbr>Νικανο</abbr>
+                              <expan>Νικάνορος </expan>
+                           </choice></persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:13"
+                           >ν</ref></title></p>
+                  </div>
+               </div>
+               <div n="14" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:14</p>
+                  </div>
+                  <div type="comment">
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:14"
+                           >ξ</ref></title></p>
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title>περι τῆς Ἀρισταρχείου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς προσῳδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρῳδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title>περι τῆς Ὁμηρικῆς στιγμης</title> ⁑</p>
+                  </div>
+               </div>
+               <div n="15" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:15</p>
+                  </div>
+                  <div type="comment">
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:15"
+                           >ο</ref></title></p>
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ἀρισταρχειου διορθώσεως</title>· τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                  </div>
+               </div>
+               <div n="16" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:16</p>
+                  </div>
+                  <div type="comment">
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName>
+                        <title>σημεῖα</title>, καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>, <title>περὶ τῆς <choice><abbr>Ἀρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title>· τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρῳδιανου</persName> καὶ εκ τω
+                           <persName n="urn:cite:hmt:pers.pers76"><choice>
+                              <abbr>Νικ</abbr>
+                              <expan> Νικάνορος</expan>
+                           </choice></persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:16"
+                           >π</ref></title></p>
+                  </div>
+               </div>
+               <div n="18" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:18</p>
+                  </div>
+                  <div type="comment">
+
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονικου</persName>
+                        <title>σημεια</title> μετα <title>ὑπομνηματίου</title> καὶ τὰ <persName
+                           n="urn:cite:hmt:pers.pers175">Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς <choice>
+                                 <abbr>Ἀρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακης <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ ἐκ των
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p>τελος <title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:18"
+                              >ς</ref></title>
+                        <persName n="urn:cite:hmt:pers.pers17"><choice>
+                              <abbr>Ὁμρ</abbr>
+                              <expan>Ὅμηρος</expan>
+                           </choice></persName>
+                     </p>
+
+                  </div>
+               </div>
+               <div n="19" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:19</p>
+                  </div>
+                  <div type="comment">
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title>περι τῆς Ἀρισταρχείου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς προσωδίας</title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ ἐκ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:19"
+                           >τ</ref></title></p>
+                  </div>
+               </div>
+               <div n="20" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:20</p>
+                  </div>
+                  <div type="comment">
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:20"
+                           >ϋ</ref></title></p>
+                     <p>παρακειται τὰ <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName>
+                        <title><choice>
+                              <abbr>σημ</abbr>
+                              <expan>σημεῖα</expan>
+                           </choice></title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς <choice>
+                                 <abbr>Ἀρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς
+                           προσωδίας</title>, <persName n="urn:cite:hmt:pers.pers493"
+                           >Ηρωδιανου</persName> καὶ τω <persName n="urn:cite:hmt:pers.pers76"><choice>
+                              <abbr>Νικα</abbr>
+                              <expan> Νικάνορος</expan>
+                           </choice></persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                  </div>
+               </div>
+               <div n="21" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:21</p>
+                  </div>
+                  <div type="comment">
+                     <p>τελος <title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:21"
+                              >φ</ref></title>
+                     </p>
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163">Αριστονίκου</persName>
+                        <title>σημεῖα</title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title>περὶ τῆς <choice>
+                                 <abbr>Ἀρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ τῶν
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title>περι στιγμῆς</title> ⁑</p>
+                  </div>
+               </div>
+               <div n="22" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:22</p>
+                  </div>
+                  <div type="comment">
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"><choice>
+                              <abbr>Ἀριστονικ</abbr>
+                              <expan>Ἀριστονίκου</expan>
+                           </choice></persName>
+                        <title><choice>
+                              <abbr>σημ</abbr>
+                              <expan>σημεῖα</expan>
+                           </choice></title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδυμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς Ἀρισταρχείου διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς
+                           Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ἡρωδιανοῦ</persName> καὶ εκ τω
+                           <persName n="urn:cite:hmt:pers.pers76"><choice>
+                              <abbr>Νικα</abbr>
+                              <expan> Νικάνορος</expan>
+                           </choice></persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ‡</p>
+                     <p><title><ref type="urn:cts:greekLit:tlg0012.tlg001.msA:22"
+                        >χ</ref></title></p>
+                  </div>
+               </div>
+               <div n="23" type="subscription">
+
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:23</p>
+                  </div>
+                  <div type="comment">
+                     <p>παράκειται τὰ <persName n="urn:cite:hmt:pers.pers163"><choice>
+                              <abbr>Ἀριστονικ</abbr>
+                              <expan>Ἀριστονίκου</expan>
+                           </choice></persName>
+                        <title><choice>
+                              <abbr>σημ</abbr>
+                              <expan>σημεῖα</expan>
+                           </choice></title> καὶ τὰ <persName n="urn:cite:hmt:pers.pers175"
+                           >Διδύμου</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> τῆς <choice>
+                                 <abbr>Ἀρισταρχ</abbr>
+                                 <expan>Ἀρισταρχείου</expan>
+                              </choice> διορθώσεως</title> τινὰ δὲ καὶ ἐκ <title>τῆς Ἰλιακῆς <choice>
+                              <abbr>προσωδ</abbr>
+                              <expan>προσῳδίας</expan>
+                           </choice></title>
+                        <persName n="urn:cite:hmt:pers.pers493">Ηρωδιανου</persName> καὶ εκ τοῦ
+                           <persName n="urn:cite:hmt:pers.pers76">Νικάνορος</persName>
+                        <title><choice>
+                              <abbr>πε</abbr>
+                              <expan>περὶ</expan>
+                           </choice> στιγμῆς</title> ⁑</p>
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:23"
+                           >ψ</ref></title></p>
+                  </div>
+               </div>
+               <div n="24" type="subscription">
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg5026:24</p>
+                  </div>
+                  <div type="comment">
+                     <p><title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001.msA:24">Ἰλιάδος
+                              ω</ref></title> ‡</p>
+                  </div>
+               </div>
+
+
+            </body>
+         </text>
+
+
+
+      
+   
+</TEI>
