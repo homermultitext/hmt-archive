@@ -34,8 +34,6 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    
-    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vbimg">
         <namespaceMapping
             abbr="hmt"
@@ -62,7 +60,6 @@
         <citeProperty name="Label" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
-    
     
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:e3img">
         <namespaceMapping
@@ -91,7 +88,6 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:e3bifolio">
         <namespaceMapping
             abbr="hmt"
@@ -118,8 +114,6 @@
         <citeProperty name="Label" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection> 
-    
-    
     
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:u4img">
         <namespaceMapping
@@ -175,10 +169,6 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    
-    
-    
-    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:bmpap114">
         <namespaceMapping
             abbr="hmt"
@@ -233,8 +223,6 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    
-    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:codbod85">
         <namespaceMapping
             abbr="hmt"
@@ -262,9 +250,6 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    
-    
-    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:compimg">
         <namespaceMapping
             abbr="hmt"
@@ -291,6 +276,9 @@
         <citeProperty name="Label" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
+    <!-- END IMAGE DATA ********************   -->
+    
+    
     
     <!-- CODEX MODELS:  CODICES AND PAGE ZONES ********************   -->
     <citeCollection
@@ -421,6 +409,8 @@
             name="Notes"
             type="string"/>
     </citeCollection>
+
+
     <!-- CODEX MODELS:  ORDERED COLLECTIONS OF TEXT-BEARING SURFACES ********************   -->
     <citeCollection
         canonicalId="PageUrn"
@@ -701,7 +691,65 @@
             name="label"
             type="string"/>
     </citeCollection>
+   
+    
+    
+    
+    <citeCollection
+        canonicalId="page"
+        label="label"
+        urn="urn:cite:hmt:comp">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Comparetti facsimile</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages, including front and back
+            matter</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Domenico Comparetti, Homeri Ilias cum
+            Scholiis (1901 facsimile edition of Venetus A)</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="sequence"/>
+        <source
+            type="file"
+            value="comparetti-codex.tsv"/>
+        <citeProperty
+            label="URN"
+            name="page"
+            type="citeurn"/>
+        <citeProperty
+            label="Recto/verso"
+            name="rv"
+            type="string">
+            <valueList>
+                <value>recto</value>
+                <value>verso</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Sequence"
+            name="sequence"
+            type="number"/>
+        <citeProperty
+            label="Description"
+            name="label"
+            type="string"/>
+    </citeCollection>
+    
     <!-- END CODEX MODELS ************************************************* ********************   -->
+
+
+
     <!-- INVENTORY OF SCHOLIA: ************************************************* ********************   -->
     <citeCollection
         canonicalId="URN"
@@ -743,11 +791,16 @@
         <citeProperty
             label="Visual evidence"
             name="VisualEvidence"
-            type="citeurn"/>
+            type="citeurn">
+            <indexRelation rdfverb="dse:illustratedBy" inverseverb="dse:illustrates"/>
+        </citeProperty>
         <citeProperty
             label="Folio URN"
             name="FolioUrn"
-            type="citeurn"/>
+            type="citeurn">
+            <indexRelation rdfverb="dse:appearsOn" inverseverb="dse:hasOnIt"/>
+        </citeProperty>
+
     </citeCollection>
     <!-- END INVENTORY OF SCHOLIA: ************************************************* ********************   -->
     <!-- ANALYTICAL COLLECTIONS ************************************************* ********************   -->

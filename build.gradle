@@ -18,6 +18,7 @@ buildscript {
   }
 }
 import org.homermultitext.utils.HmtTokenizer
+import edu.harvard.chs.cite.CtsUrn
 import edu.holycross.shot.hocuspocus.Corpus
 import edu.holycross.shot.prestochango.CollectionArchive
 import edu.holycross.shot.abracadabra.CiteIndex
@@ -606,7 +607,46 @@ task setUpCollections (type: Copy) {
     into "${buildDir}/collections"
 }
 
-task collections(type: Zip, dependsOn: [setUpCollections]) {
+task compileScholiaCollection() {
+  description = "Creates composite scholia collection form multiple source files"
+}
+
+compileScholiaCollection.doLast {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  File outputDir = new File(buildDir, "collections")
+  if (! outputDir.exists()) {
+    outputDir.mkdir()
+  }
+  File outFile = new File(outputDir, "scholiaInventory.csv")
+  outFile.setText("CtsUrn,Comments,VisualEvidence,FolioUrn\n")
+  
+  File srcDir = new File("cite/scholiaInventory")
+
+  srcDir.eachFileMatch(~/.*.csv/) { csv ->  
+    Integer lineCount = 0
+    csv.eachLine { ln ->
+      if (lineCount > 0) {
+	String cts = ln.replaceFirst(/,.+/, '')
+	String noCts = ln.replaceFirst(/^[^,]+,/,'') 
+	CtsUrn urn
+	try {
+	  urn = new CtsUrn(cts.replaceAll(/["]/,''))
+        } catch (Exception e) {
+          System.err.println "Exception in scholia inventory for line " + ln
+          throw e
+        }
+	String psg = urn.getRef().replaceAll(/[.]/,"_")
+	String citeStr = "urn:cite:hmt:scholia.${urn.getWork()}_${psg}"
+        outFile.append "${citeStr},${urn},${noCts}\n"
+      }
+      lineCount++;
+    }
+  }
+}
+
+task collections(type: Zip, dependsOn: [setUpCollections, compileScholiaCollection]) {
     description = "Creates zip package of all HMT collections archive."
     from (file("${buildDir}/collections"))
     baseName = "hmt-collections"
