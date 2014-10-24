@@ -169,6 +169,37 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:muncg88img">
+        <namespaceMapping
+            abbr="ecod"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Bayerische Staatsbibliothek Codex Graecus 88</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of all pages of Bayerische Staatsbibliothek Codex Graecus 88 .</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Freely licensed photography of Bayerische Staatsbibliothek Codex Graecus 88 from the Bayerische Staatsbibliothek.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US, and document images avaiable from the Bayerische Staatsbibliothek
+            under the Creative Commons 'Namensnennung - Keine kommerzielle Nutzung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland' 
+            license (CC-BY-NC-SA)</rights>
+        <source
+            type="file"
+            value="images/muncg88img.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Caption" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:bmpap114">
         <namespaceMapping
             abbr="hmt"
@@ -225,7 +256,7 @@
     
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:codbod85">
         <namespaceMapping
-            abbr="hmt"
+            abbr="ecod"
             fullValue="http://www.homermultitext.org/datans"/>
         <extension name="image"/>
         <title
