@@ -197,9 +197,7 @@
         <citeProperty name="Caption" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
-    
-    
-    
+
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:bmpap114">
         <namespaceMapping
             abbr="hmt"
@@ -723,6 +721,55 @@
             type="string"/>
     </citeCollection>
    
+    <citeCollection
+        canonicalId="Page"
+        label="Pabel"
+        urn="urn:cite:hmt:muncg8">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Bayerische Staatsbibliothek Codex Graecus 88</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages, including front and back
+            matter, and covers</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Bayerische Staatsbibliothek Codex Graecus 88</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="sequence"/>
+        <source
+            type="file"
+            value="codexModels/muncg88model.csv"/>
+        <citeProperty
+            label="Page"
+            name="Page"
+            type="citeurn"/>
+        <!--<citeProperty
+            label="Recto/verso"
+            name="rv"
+            type="string">
+            <valueList>
+                <value>recto</value>
+                <value>verso</value>
+            </valueList>
+        </citeProperty>
+     -->   <citeProperty
+            label="Sequence"
+            name="sequence"
+            type="number"/>
+        <citeProperty
+            label="Default image"
+            name="DefaultImage"
+             type="citeurn"/>
+    </citeCollection>
     
     
     
