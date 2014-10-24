@@ -172,7 +172,7 @@
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:muncg88img">
         <namespaceMapping
             abbr="ecod"
-            fullValue="http://www.homermultitext.org/datans"/>
+            fullValue="http://www.homermultitext.org/datans/ecod"/>
         <extension name="image"/>
         <title
             xmlns="http://purl.org/dc/elements/1.1/">Images of Bayerische Staatsbibliothek Codex Graecus 88</title>
