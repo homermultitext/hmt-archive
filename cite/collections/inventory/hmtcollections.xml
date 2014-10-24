@@ -724,7 +724,7 @@
     <citeCollection
         canonicalId="Page"
         label="Pabel"
-        urn="urn:cite:hmt:muncg8">
+        urn="urn:cite:hmt:muncg88">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -744,7 +744,7 @@
             under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy
-            property="sequence"/>
+            property="Sequence"/>
         <source
             type="file"
             value="codexModels/muncg88model.csv"/>
