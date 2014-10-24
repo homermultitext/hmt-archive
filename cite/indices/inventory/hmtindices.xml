@@ -118,10 +118,12 @@
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="textToImage/vaCaptionsToImage.csv"></source>
     </index>
+    
+    <!--
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="textToImage/venA-Proclus.tsv"></source>
     </index>
-    
+    -->
     <!--** end TEXT  -> IMAGE********************************************* -->
     
 
