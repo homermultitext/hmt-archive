@@ -2,7 +2,7 @@
 ext {
     groovyversion = "2.0.6"
 
-    citeversion = "0.90.0"
+    citeversion = "0.91.0"
     greekutilsversion = "0.8.5"
 
     //needed for hocuspocus:
