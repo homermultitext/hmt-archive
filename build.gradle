@@ -546,7 +546,7 @@ task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
 
 // SHOULD BE PUT BACK IN HMTARCHIVE!  CITEMGR CAN ONLY DO GENERIC
 // THINGS AND ALL TOKENIZATIONS ARE SPECIFIC TO CLASSIFICATION SCHEME
-/*
+
 task setupTokens (type: Copy) {
     description = "Generates README to accompany tokenization data from HMT editions."
     from ("${editionsDir}") {
@@ -555,18 +555,18 @@ task setupTokens (type: Copy) {
     }
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/tokens"
-}*/
-/*
+}
+
 task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens, editions]) {
     description = "Tokenizes tabular editions and generates RDF statements for each token"
     main = "org.homermultitext.HmtTokenizer"
-    Argsgr = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tokens"]	
+    args = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tokens"]	
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
-    }*/
+}
 
-/*
+
 task tokens(type: Zip, dependsOn: tokensttl) {
     description = "Packages tokenization TTL"
     from (file("${buildDir}/tokens"))
@@ -574,7 +574,7 @@ task tokens(type: Zip, dependsOn: tokensttl) {
     doLast {
         System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
     }
-    }*/
+}
 
 task tokenize(dependsOn: [tabFiles]) {
   description = "Tokenizes previously tabulated texts."
