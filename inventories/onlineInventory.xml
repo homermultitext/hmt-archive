@@ -437,6 +437,39 @@
     urn="urn:cts:greekLit:msannotations">
     <groupname
       xml:lang="eng">Annotations on manuscripts</groupname>
+  
+    <work
+      urn="urn:cts:greekLit:msannotations.venA_comments"
+      xml:lang="grc">
+      <title xml:lang="eng">Marginal comments</title>
+      <edition urn="urn:cts:greekLit:msannotations.venA_comments.msA">
+      <label xml:lang="eng">Venetus A</label>
+        <description xml:lang="eng">Marginal notes in the Venetus A manuscript
+        commenting on the manuscript or its production (not on the Iliad or other texts in
+        the manuscript)
+        </description>
+       
+       
+        <online
+          docname="VenetusA/VenetusA-Metacomments.xml">
+          
+          <namespaceMapping
+            abbreviation="tei"
+            nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            <citation
+              label="book"
+              scope="/tei:TEI/tei:text/tei:body"
+              xpath="/tei:div[@n = '?']"> </citation>
+          </citationMapping>
+        </online>
+       
+        
+      </edition>
+    </work>
+ 
+    
+    
     <work
       urn="urn:cts:greekLit:msannotations.VAcaptions"
       xml:lang="grc">
@@ -489,40 +522,7 @@
         </online>
       </edition>
     </work>
-    <!-- 
-    <work
-      urn="urn:cts:greekLit:hmt03"
-      xml:lang="grc">
-      <title xml:lang="eng">Marginal comments</title>
-      <edition urn="urn:cts:greekLit:msA">
-      <label xml:lang="eng">Venetus A</label>
-        <description xml:lang="eng">Marginal notes in the Venetus A manuscript
-        commenting on the manuscript or its production (not on the Iliad or other texts in
-        the manuscript)
-        </description>
-       
-       
-        <online
-          docname="VenetusA/VenetusA-Metacomments.xml">
-          <validate
-            schema="chstei.rng"/>
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']"> </citation>
-          </citationMapping>
-        </online>
-        <memberof
-          collection="manuscripts"/>
-        
-      </edition>
-    </work>
-    -->
-    <work
+   <work
       urn="urn:cts:greekLit:msannotations.venA_subscriptions"
       xml:lang="grc">
       <title
