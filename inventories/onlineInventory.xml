@@ -84,7 +84,7 @@
         </online>
         
       </edition>-->
-      <edition
+     <!-- <edition
         urn="urn:cts:greekLit:tlg0012.tlg001.e3">
         <label
           xml:lang="eng"> Escorial Y 1.1 </label>
@@ -108,7 +108,7 @@
           </citationMapping>
         </online>
       </edition>
-      <!--
+      --><!--
       <edition urn="urn:cts:greekLit:tlg0012.tlg001.e4">
         <label xml:lang="eng"> Escorial Ω 1.12 </label>
         <description xml:lang="eng"> Iliad text of Escorial manuscript  Ω 1.12 (513 = Allen E4). </description>
@@ -596,7 +596,7 @@
           xml:lang="eng">Metrical summaries of each book [= 9.385], and an epigram attributed to
           Hadrian [= 9.387], from the Venetus A manuscript (Marciana 454 = 822)</description>
         <online
-          docname="VenetusA/Other/VenetusA-Anthology.xml">
+          docname="VenetusA/VenetusA-Anthology.xml">
           <namespaceMapping
             abbreviation="tei"
             nsURI="http://www.tei-c.org/ns/1.0"/>
