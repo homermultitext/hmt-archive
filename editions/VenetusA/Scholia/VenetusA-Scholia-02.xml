@@ -7434,6 +7434,19 @@ style simple scholia" alternate="no"?>
             <!-- msAim
             -->
             <body>
+               <div n="147" type="scholion">
+                  <div type="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>2.86</p>
+                  </div>
+                  <div type="comment">
+                     <p>στικτέον κατα τὸ λαοὶ ἵνα ἁπ άλλης ἀρχῆς ἡ παραβολὴ γενομένη ὑποστίζηαι
+                        μέχρι τοῦ αἱ δὲ τε ἔνθα οὕτως γὰρ βέλτιον⁑</p>
+                  </div>
+               </div>
+               
                <div n="10" type="scholion">
                   <div type="lemma">
                      <p/>
@@ -9971,18 +9984,7 @@ style simple scholia" alternate="no"?>
                      <p>ορθοὶ έστησαν·</p>
                   </div>
                </div>
-               <div n="147" type="scholion">
-                  <div type="lemma">
-                     <p/>
-                  </div>
-                  <div type="ref">
-                     <p>2.86</p>
-                  </div>
-                  <div type="comment">
-                     <p>στικτέον κατα τὸ λαοὶ ἵνα ἁπ άλλης ἀρχῆς ἡ παραβολὴ γενομένη ὑποστίζηαι
-                        μέχρι τοῦ αἱ δὲ τε ἔνθα οὕτως γὰρ βέλτιον⁑</p>
-                  </div>
-               </div>
+               
                <div n="148" type="scholion">
                   <div type="lemma">
                      <p/>

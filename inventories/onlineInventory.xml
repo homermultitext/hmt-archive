@@ -10,6 +10,25 @@
     <description
       xml:lang="eng"> The CHS inventory of Greek texts. </description>
   </ctsnamespace>
+  <textgroup urn="urn:cts:greekLit:4036scholia">
+    <groupname xml:lang="eng">Scholia to works of Proclus</groupname>
+    <work urn="urn:cts:greekLit:4036scholia.chrest" xml:lang="grc">
+      <title xml:lang="eng">Scholia to Proclus, Chrestomathy</title>
+      <edition urn="urn:cts:greekLit:4036scholia.chrest.venA">
+        <label xml:lang="eng">Edition of the Venetus A manuscript</label>
+        <online docname="VenetusA/VenetusA-Proclus-Scholia.xml">
+          
+          <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+          <citationMapping>
+            
+              <citation label="scholion" scope="/tei:TEI/tei:text/tei:body"
+                xpath="/tei:div[@n = '?']"/>
+          </citationMapping>
+        </online>
+   
+      </edition>
+    </work>
+  </textgroup>
   <textgroup
     urn="urn:cts:greekLit:tlg0012">
     <groupname
@@ -387,7 +406,7 @@
         <description
           xml:lang="eng">Edition of Chrestomathy as it appears in later rebinding of the Venetus A
           manuscript (Marciana 454 = 822)</description>
-        <!--
+     
         <online docname="VenetusA/VenetusA-Proclus-Chrestomathy.xml">
           
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -398,7 +417,7 @@
             </citation>
           </citationMapping>
         </online>
-        -->
+    
       </edition>
     </work>
   </textgroup>

@@ -18,7 +18,80 @@ style simple scholia" alternate="no"?>
    </teiHeader>
    <text xml:lang="grc">
       <group n="1">
+         <text ana="msAextra">
+            <body>
+               <div n="25" type="scholion">
+                  <div type="lemma"/>
+                  <div type="ref">
+                     <p>1.1</p>
+                  </div>
+                  <div type="comment">
+                     <p>διὰ τί <supplied reason="lost">εὐθὺς</supplied>
+                        <seg type="word">ἀ<supplied reason="lost">πὸ</supplied></seg> τῶν <seg
+                           type="word">τε<supplied reason="lost">λευταίων</supplied></seg> τοῦ
+                        <supplied reason="lost">πολέμου ἤπξατο; καί φαμεν ὅτι ἅπας μὲν ὁ
+                           χρόνος ὁ πρὸ τοῦ δεκάτου ἔτους οὐκ ἔσχεν οὕτω συνεχεῖς τὰς μάχας, διὰ
+                           τὸ καὶ τοὺς Τρῶας αὐτοὺς</supplied> φόβῳ <supplied reason="lost"
+                              >τοῦ</supplied>
+                        <persName n="urn:cite:hmt:pers.pers1"><seg type="word"><supplied reason="lost"
+                           >Ἀχιλλέ</supplied>ως</seg></persName> ἐντὸς <seg type="word"
+                              >κατα<supplied reason="lost">κε</supplied>κλεῖσθαι</seg>
+                        <seg type="word"><supplied reason="lost"
+                           >τ<unclear>οῦ</unclear></supplied></seg> τείχους· τὸ δε δέκατον
+                        πλείονας ἔσχε <unclear>ηναι</unclear> πράξεις καὶ τοὺς <seg type="word"
+                           >πολέ<supplied reason="lost">μους</supplied></seg> ἰσσπάλου τοῦ
+                        <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλέυ</persName> ὀργιζομένου· ὁ δὲ ποιητὴς <seg
+                           type="word">οικο<supplied>νομικῶς</supplied></seg>
+                        <supplied reason="lost">κἀν</supplied> τούτῳ ἤρξατο μὲν ἀπὸ τῶν
+                        τελευταίων· δια δε τῶν σποράδην αὐτῷ λεχθεντων περιέλαβε καὶ τὰ προ
+                        τούτου πραχθέντα⁑ </p>
+                  </div>
+               </div>
+               <div ana="50b" n="44" type="scholion">
+                  <div type="lemma"/>
+                  <div type="ref">
+                     <p>1.50</p>
+                  </div>
+                  <div type="comment">
+                     <p>δια τι απο τῶν κυνῶν καὶ τῶν ἡμιόνων ὁ λοιμὸς, ήρξατο· ἀπὸ τῶν Ἑλληνων,
+                        δὲ οὖ οὐδε απ αλλου ζωου τινὸς καὶ οἱ μὲν <choice>
+                           <abbr>ρητορι</abbr>
+                           <expan>ρητορικῶς</expan>
+                        </choice> λύοντές φασιν ὅτι <choice>
+                           <abbr><seg type="word">φιλαν<unclear>θ</unclear></seg></abbr>
+                           <expan>φιλανθρωπον</expan>
+                        </choice> ὀν τὸ θεὶον εβουλετο <seg type="word"
+                           ><unclear>παι</unclear>δευσαι</seg> τοὺς Ελληνας· καὶ μη παντάπασιν
+                        απολέσαι καὶ δια τοῦτο προτερον ἀπο τοιουτων ζωων ήρξατο μετανοιαν <seg
+                           type="word"><unclear>τ</unclear>οῖς</seg> αμαρτησασι διδους· οἱ δὲ
+                        αληθέστερον καὶ φιλοσοφώτερον λέγοντες, φασιν ὅτι απας μὲν λοιμὸς ἀπο
+                        ἐκφλογώσεως γίνεται γῆθεν ἀναφερομενος ἐξ αναθυμιάσεως· διὸ καὶ τὸν
+                        <persName n="urn:cite:hmt:pers.pers40">Ἀπόλλωνὰ</persName> φασιν αἴτιον ειναι τῆς
+                        τοιαυτης ασθενείας· ἐπεὶ ὁ αυτὸς εἶναι λέγεται τῷ ἡλιω <seg type="word"
+                           >κα<unclear>τα</unclear> φλεγοντι</seg> τὴν γῆν ἐκ δὲ τῆς γῆς
+                        γιγνομενης τῆς νόσου ἀναγκαῖον τοὺς καίνας πρώτους εἰσθεῖσθαι τῆς βλαβης
+                        ὅτι τε καὶ υἰσθητικῶτερα ἐισὶ τὰ αλογα ζωα· φύσει τῶν ανθρωπων και ὅτι
+                        κατω νευουσι προς τῆ γῇ καὶ ἀνιχνεύουσι· τοὺς δε ημιονους οὐ δια τό, κατω
+                        νεύειν αλλα τὸ εκ διαφόρων σωματων ειληχέναι τὴν γένεσιν παντελῶς γὰρ
+                        εὐδιαφθαρτον τὸ τοιοῦτο τῆς δεκάτης δὲ ἡμέρας γεγενεῖσθαι φανερὸν εὐλόγως
+                        κατ αυτὸν δὲ τὸν ποιητὴν τὸ θεώρημα δεῖ λύειν τῆ δεκάτῃ φαίνεται τὸ
+                        νοσῶδες τοῦ αέρος ἐν ταύτη πάντως καθϊσταμενου, ὥσπερ καὶ αὐτὸς ὁ ποιητὴς
+                        δεδήλωκεν <persName n="urn:cite:hmt:pers.pers40">Αχιλλεὺς</persName> γὰρ <persName
+                           n="urn:cite:hmt:pers.pers115">Χειρωνος</persName> ὧν μαθητης καὶ τὴν ιατρικὴν τεχνην, <choice>
+                              <abbr>σοφο</abbr>
+                              <expan>σοφὸς</expan>
+                           </choice>· ἐκ τῆς καταστάσεως τοῦ αέρος μαθῶν τὸ γαρ τῆς· <persName
+                              n="urn:cite:hmt:pers.pers116">Ήρας</persName> ὄνομα. παρα τὸν αερα πεποίητας ἐπεὶ τινος
+                        ένεκα <persName n="urn:cite:hmt:pers.pers117">Νεστωρ</persName> ἢ <persName n="urn:cite:hmt:pers.pers118"
+                           >Ὀδυσσευς</persName> ἢ <persName n="urn:cite:hmt:pers.pers119">Μενελαος</persName>
+                        ουδενος ελαττον των Ελληνων φροντιζοντες ου ζητοῦσιν ἀλλὴ ὁ <persName
+                           n="urn:cite:hmt:pers.pers1">Ἀχιλλεῦς</persName>⁑</p>
+                  </div>
+               </div>
+            </body>
+         </text>
          <text n="msA">
+            
             <!-- msA == main scholia -->
             <body>
                <div ana="1a" n="1" type="scholion">
@@ -12019,33 +12092,7 @@ style simple scholia" alternate="no"?>
             <!-- exterior scholia -->
             <body>
               
-                  <div n="25" type="scholion">
-                     <div type="lemma"/>
-                     <div type="ref">
-                        <p>1.1</p>
-                     </div>
-                     <div type="comment">
-                        <p>διὰ τί <supplied reason="lost">εὐθὺς</supplied>
-                           <seg type="word">ἀ<supplied reason="lost">πὸ</supplied></seg> τῶν <seg
-                              type="word">τε<supplied reason="lost">λευταίων</supplied></seg> τοῦ
-                              <supplied reason="lost">πολέμου ἤπξατο; καί φαμεν ὅτι ἅπας μὲν ὁ
-                              χρόνος ὁ πρὸ τοῦ δεκάτου ἔτους οὐκ ἔσχεν οὕτω συνεχεῖς τὰς μάχας, διὰ
-                              τὸ καὶ τοὺς Τρῶας αὐτοὺς</supplied> φόβῳ <supplied reason="lost"
-                              >τοῦ</supplied>
-                           <persName n="urn:cite:hmt:pers.pers1"><seg type="word"><supplied reason="lost"
-                                    >Ἀχιλλέ</supplied>ως</seg></persName> ἐντὸς <seg type="word"
-                                 >κατα<supplied reason="lost">κε</supplied>κλεῖσθαι</seg>
-                           <seg type="word"><supplied reason="lost"
-                                 >τ<unclear>οῦ</unclear></supplied></seg> τείχους· τὸ δε δέκατον
-                           πλείονας ἔσχε <unclear>ηναι</unclear> πράξεις καὶ τοὺς <seg type="word"
-                                 >πολέ<supplied reason="lost">μους</supplied></seg> ἰσσπάλου τοῦ
-                              <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλέυ</persName> ὀργιζομένου· ὁ δὲ ποιητὴς <seg
-                              type="word">οικο<supplied>νομικῶς</supplied></seg>
-                           <supplied reason="lost">κἀν</supplied> τούτῳ ἤρξατο μὲν ἀπὸ τῶν
-                           τελευταίων· δια δε τῶν σποράδην αὐτῷ λεχθεντων περιέλαβε καὶ τὰ προ
-                           τούτου πραχθέντα⁑ </p>
-                     </div>
-                  </div>
+                  
                   <div ana="24b" n="26" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -12064,47 +12111,7 @@ style simple scholia" alternate="no"?>
                            <supplied reason="lost">ᾔτει παρὰ τῶν ἀρχομένων</supplied></p>
                      </div>
                   </div>
-                  <div ana="50b" n="44" type="scholion">
-                     <div type="lemma"/>
-                     <div type="ref">
-                        <p>1.50</p>
-                     </div>
-                     <div type="comment">
-                        <p>δια τι απο τῶν κυνῶν καὶ τῶν ἡμιόνων ὁ λοιμὸς, ήρξατο· ἀπὸ τῶν Ἑλληνων,
-                           δὲ οὖ οὐδε απ αλλου ζωου τινὸς καὶ οἱ μὲν <choice>
-                              <abbr>ρητορι</abbr>
-                              <expan>ρητορικῶς</expan>
-                           </choice> λύοντές φασιν ὅτι <choice>
-                              <abbr><seg type="word">φιλαν<unclear>θ</unclear></seg></abbr>
-                              <expan>φιλανθρωπον</expan>
-                           </choice> ὀν τὸ θεὶον εβουλετο <seg type="word"
-                              ><unclear>παι</unclear>δευσαι</seg> τοὺς Ελληνας· καὶ μη παντάπασιν
-                           απολέσαι καὶ δια τοῦτο προτερον ἀπο τοιουτων ζωων ήρξατο μετανοιαν <seg
-                              type="word"><unclear>τ</unclear>οῖς</seg> αμαρτησασι διδους· οἱ δὲ
-                           αληθέστερον καὶ φιλοσοφώτερον λέγοντες, φασιν ὅτι απας μὲν λοιμὸς ἀπο
-                           ἐκφλογώσεως γίνεται γῆθεν ἀναφερομενος ἐξ αναθυμιάσεως· διὸ καὶ τὸν
-                              <persName n="urn:cite:hmt:pers.pers40">Ἀπόλλωνὰ</persName> φασιν αἴτιον ειναι τῆς
-                           τοιαυτης ασθενείας· ἐπεὶ ὁ αυτὸς εἶναι λέγεται τῷ ἡλιω <seg type="word"
-                                 >κα<unclear>τα</unclear> φλεγοντι</seg> τὴν γῆν ἐκ δὲ τῆς γῆς
-                           γιγνομενης τῆς νόσου ἀναγκαῖον τοὺς καίνας πρώτους εἰσθεῖσθαι τῆς βλαβης
-                           ὅτι τε καὶ υἰσθητικῶτερα ἐισὶ τὰ αλογα ζωα· φύσει τῶν ανθρωπων και ὅτι
-                           κατω νευουσι προς τῆ γῇ καὶ ἀνιχνεύουσι· τοὺς δε ημιονους οὐ δια τό, κατω
-                           νεύειν αλλα τὸ εκ διαφόρων σωματων ειληχέναι τὴν γένεσιν παντελῶς γὰρ
-                           εὐδιαφθαρτον τὸ τοιοῦτο τῆς δεκάτης δὲ ἡμέρας γεγενεῖσθαι φανερὸν εὐλόγως
-                           κατ αυτὸν δὲ τὸν ποιητὴν τὸ θεώρημα δεῖ λύειν τῆ δεκάτῃ φαίνεται τὸ
-                           νοσῶδες τοῦ αέρος ἐν ταύτη πάντως καθϊσταμενου, ὥσπερ καὶ αὐτὸς ὁ ποιητὴς
-                           δεδήλωκεν <persName n="urn:cite:hmt:pers.pers40">Αχιλλεὺς</persName> γὰρ <persName
-                              n="urn:cite:hmt:pers.pers115">Χειρωνος</persName> ὧν μαθητης καὶ τὴν ιατρικὴν τεχνην, <choice>
-                              <abbr>σοφο</abbr>
-                              <expan>σοφὸς</expan>
-                           </choice>· ἐκ τῆς καταστάσεως τοῦ αέρος μαθῶν τὸ γαρ τῆς· <persName
-                              n="urn:cite:hmt:pers.pers116">Ήρας</persName> ὄνομα. παρα τὸν αερα πεποίητας ἐπεὶ τινος
-                           ένεκα <persName n="urn:cite:hmt:pers.pers117">Νεστωρ</persName> ἢ <persName n="urn:cite:hmt:pers.pers118"
-                              >Ὀδυσσευς</persName> ἢ <persName n="urn:cite:hmt:pers.pers119">Μενελαος</persName>
-                           ουδενος ελαττον των Ελληνων φροντιζοντες ου ζητοῦσιν ἀλλὴ ὁ <persName
-                              n="urn:cite:hmt:pers.pers1">Ἀχιλλεῦς</persName>⁑</p>
-                     </div>
-                  </div>
+                  
                   <div ana="106c" n="135" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">

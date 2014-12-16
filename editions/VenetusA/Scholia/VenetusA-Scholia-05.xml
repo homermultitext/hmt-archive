@@ -4054,6 +4054,15 @@
               <p>5.842</p>
             </div>
             <div type="comment">
+              <list type="ordered">
+              <item><num value="1">α</num></item>
+                <item><num value="6">ϛ</num></item>
+                <item><num value="2">β</num></item>
+                <item><num value="3">γ</num></item>
+                <item><num value="4">δ</num></item>
+                <item><num value="5">ε</num></item>
+                <item><num value="7">ζ</num></item>
+              </list>
               <p>εν αλλῷ ὁυτος <choice>
                   <sic>εστι</sic>
                   <corr resp="scribe2">ἐστι</corr>
@@ -4067,7 +4076,7 @@
             </div>
             <div type="comment">
               <p>ἐν αλλο ο στιχος <choice>
-                  <expan>ουτος</expan>
+                  <expan>οὗτος</expan>
                   <abbr>ουος</abbr>
                 </choice> ουχ ευρητα</p>
             </div>
