@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader
+        xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Scholia to Proclus, Chrestomathy</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>New electronic edition created for the Homer Multitext Project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Edited directly from photography of the Venetu A manuscript (Marciana 454 = 822).
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text
+        xml:lang="grc">
+        <body>
+            <div
+                n="1">
+                <p>οἱ δε λέγουσι <sic>τή</sic>
+                    <sic>γρητος</sic> τοῦ <rs
+                        n="urn:cite:hmt:place.place85"
+                        type="ethnic">Καρός</rs></p>
+            </div>
+        </body>
+    </text>
+</TEI>

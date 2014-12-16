@@ -25,7 +25,7 @@
                 διῃρημένων</head>
             <div n="Homer">
 
-                <head> τὸ <num value="1">Α</num>
+                <head n="title"> τὸ <num value="1">Α</num>
                     <persName n="urn:cite:hmt:pers.pers17">Ὁμήρου</persName>· χρόνοι· βίος·
                     χαρακτηρ· ἀναγραφὴ ποιημάτων ⁑</head>
                 <p n="1">Ἐπῶν ποιηταὶ γεγόνασι πολλοὶ τούτων δ' εἰσὶ κράτιστοι· <persName
@@ -315,7 +315,7 @@
                         <abbr>δεύτερον</abbr>
                     </choice></head>
 
-                <head>
+                <head n="title">
                     <title>Αιθιόπιδος</title>
                     <num value="5">ε</num>
                     <persName n="urn:cite:hmt:pers.pers809">Ἀρκτίνου</persName> ⁑</head>
