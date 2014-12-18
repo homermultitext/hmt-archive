@@ -279,6 +279,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
+    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:compimg">
         <namespaceMapping
             abbr="hmt"
@@ -305,6 +306,38 @@
         <citeProperty name="Label" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
+    
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:gen44">
+        <namespaceMapping
+            abbr="ecod"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Genève, Bibliothèque de Genève, Ms. gr. 44 ("Genavensis")</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the manuscript Genève, Bibliothèque de Genève, Ms. gr. 44.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Images of the manuscript Genève, Bibliothèque de Genève, Ms. gr. 44 from the e-codices project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/gen44.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    
+    
     <!-- END IMAGE DATA ********************   -->
     
     
@@ -378,7 +411,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source
             type="file"
-            value="pageRois.csv"/>
+            value="layout/pageRois.csv"/>
         <citeProperty
             label="Zone on image"
             name="PageZone"
@@ -420,7 +453,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source
             type="file"
-            value="iliad-text-blocks.csv"/>
+            value="layout/iliad-text-blocks.csv"/>
         <citeProperty
             label="Zone on image"
             name="IliadZone"
@@ -697,7 +730,7 @@
             property="sequence"/>
         <source
             type="file"
-            value="comparetti-codex.tsv"/>
+            value="codexModels/comparetti-codex.tsv"/>
         <citeProperty
             label="URN"
             name="page"
@@ -772,7 +805,7 @@
     </citeCollection>
     
     
-    
+    <!--
     <citeCollection
         canonicalId="page"
         label="label"
@@ -823,13 +856,13 @@
             name="label"
             type="string"/>
     </citeCollection>
-    
+    -->
     <!-- END CODEX MODELS ************************************************* ********************   -->
 
 
 
     <!-- INVENTORY OF SCHOLIA: ************************************************* ********************   -->
-    <citeCollection
+    <!--<citeCollection
         canonicalId="URN"
         label="Comments"
         urn="urn:cite:hmt:scholia">
@@ -880,7 +913,7 @@
         </citeProperty>
 
     </citeCollection>
-    <!-- END INVENTORY OF SCHOLIA: ************************************************* ********************   -->
+    --><!-- END INVENTORY OF SCHOLIA: ************************************************* ********************   -->
     <!-- ANALYTICAL COLLECTIONS ************************************************* ********************   -->
     <!--
     <citeCollection
@@ -930,7 +963,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="tokenclasses.csv"/>
+            value="analyses/tokenclasses.csv"/>
         <citeProperty
             label="Class"
             name="ClassId"
@@ -1109,7 +1142,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source
             type="file"
-            value="captions.csv"/>
+            value="venetusA/captions.csv"/>
         <citeProperty
             label="Caption"
             name="Caption"
@@ -1193,7 +1226,7 @@
             property="Sequence"/>
         <source
             type="file"
-            value="venAsigns.tsv"/>
+            value="venetusA/venAsigns.tsv"/>
         <citeProperty
             label="URN"
             name="OccurrrenceUrn"
@@ -1256,7 +1289,7 @@
             property="Sequence"/>
         <source
             type="file"
-            value="proclusSigns.tsv"/>
+            value="venetusA/proclusSigns.tsv"/>
         <citeProperty
             label="URN"
             name="OccurrrenceUrn"
