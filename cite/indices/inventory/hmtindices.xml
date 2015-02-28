@@ -193,7 +193,7 @@
     
     
     <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
-        <source type="file" value="hmt/scholiaToIliad-venA.tsv"></source>
+        <source type="file" value="hmt/scholiaToIliad-venA.csv"></source>
     </index>
     
     <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">

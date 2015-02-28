@@ -11,9 +11,9 @@ buildscript {
    */
   dependencies {
     classpath group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
-    classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
+    classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.12.0'
     classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.6'
-    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.e3.0'
+    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.3.0'
     classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
   }
 }
@@ -103,7 +103,7 @@ configurations {
 
 dependencies {
 
-  compile group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
+  compile group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.7'
   compile group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.6'
   compile group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.3.0'
   compile group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
@@ -205,11 +205,13 @@ task venAReadme (type: Copy) {
 // Texts other than Iliad and scholia
 task venAOther (type: Copy, dependsOn: venAReadme) {
     description = "Copies into build area all texts other than Iliad and scholia"
-    from ("${editionsDir}/VenetusA/OtherTexts")
+    //    from ("${editionsDir}/VenetusA/OtherTexts")
+    from ("${editionsDir}/${vaOther}")
     into("${buildDir}/editions/archive/VenetusA")
     include("*.xml")
     doLast {
-        File srcDir = new File("${editionsDir}/VenetusA/OtherTexts")
+      //        File srcDir = new File("${editionsDir}/VenetusA/OtherTexts")
+      File srcDir = new File("${editionsDir}/${vaOther}")
         def xmlList =  srcDir.list([accept:{d, f-> f ==~ /.*xml/ }] as FilenameFilter
                     ).toList()
         File outDir = new File("${buildDir}/editions/archive/VenetusA")
@@ -225,7 +227,9 @@ task venAOther (type: Copy, dependsOn: venAReadme) {
 task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
     description = "Compiles single Iliad text from multiple source files."
     main = "org.homermultitext.IliadCompiler"
-    args = ["${editionsDir}/VenetusA/Iliad", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA" ]
+    //    args = ["${editionsDir}/VenetusA/Iliad", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA" ]
+
+    args = ["${editionsDir}/${vaIliad}", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA" ]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -246,7 +250,8 @@ task msAHeader(type: Copy) {
 task msAScholia(type: JavaExec, dependsOn: [msAHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A main scholia"
     main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml", "${buildDir}/${compositeDir}/VenetusA" , "msA"]
+    //  args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml", "${buildDir}/${compositeDir}/VenetusA" , "msA"]
+    args = ["${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml", "${buildDir}/${compositeDir}/VenetusA" , "msA"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -267,7 +272,8 @@ task msAimHeader(type: Copy) {
 task msAimScholia(type: JavaExec, dependsOn: [msAimHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A main scholia"
     main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAim.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAim"]
+    //    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAim.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAim"]
+        args = ["${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAim.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAim"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -288,7 +294,8 @@ task msAintHeader(type: Copy) {
 task msAintScholia (type: JavaExec, dependsOn: [msAintHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A interior scholia"
     main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAint"]
+    //    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAint"]
+        args = ["${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAint"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -310,7 +317,8 @@ task msAextHeader(type: Copy) {
 task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A exterior scholia"
     main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAext.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAext"]
+    //    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAext.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAext"]
+    args = ["${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAext.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAext"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -331,7 +339,8 @@ task msAilHeader(type: Copy) {
 task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A interlinear scholia"
     main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAil.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAil"]
+    //    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAil.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAil"]
+    args = ["${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAil.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAil"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -352,7 +361,8 @@ task msALaterHeader(type: Copy) {
 task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A interlinear scholia"
     main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAlater"]
+    //    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAlater"]
+    args = ["${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAlater"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -373,7 +383,8 @@ task msAimLaterHeader(type: Copy) {
 task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A later scholia in intermarginal position"
     main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAimlater"]
+    //    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAimlater"]
+    args = ["${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAimlater"]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
@@ -391,7 +402,8 @@ task inv (type: Copy) {
     description = "Copies text inventory and README into build area."
     from ("${inventoriesDir}")
     into "${buildDir}/${compositeDir}"
-    include ('onlineInventory.xml', 'README-HMT-archive.md', "*.rng")
+    //    include ('onlineInventory.xml', 'README-HMT-archive.md', "*.rng")
+    include (textInventory, 'README-HMT-archive.md', "*.rng")
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     rename { String fileName ->
         fileName.replace('-HMT-archive','')
@@ -401,6 +413,9 @@ task inv (type: Copy) {
         fileName.replace('onlineI','i')
     }
 
+    rename { String fileName ->
+      fileName.replace('test','')
+    }
 }
 
 task translations (type: Copy) {
@@ -431,7 +446,8 @@ class VenetusATask extends DefaultTask {
 }
 
 /// Can add dependencies on other MSS when we have tasks for them.
-task editions(type: Zip, dependsOn: [venetusA, e3, furmanEditions]) {
+//task editions(type: Zip, dependsOn: [venetusA, e3, furmanEditions]) {
+task editions(type: Zip, dependsOn: [venetusA]) {
     description="Builds zip file of all edited manuscripts."
     classifier = 'xml'
     baseName = "hmt-editions"
@@ -457,7 +473,8 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
     main = "org.homermultitext.ScholiaIndexer"
 
     args = [
-      "${editionsDir}/VenetusA/Scholia",
+      //"${editionsDir}/VenetusA/Scholia",
+      "${editionsDir}/${vaScholia}",
       "${citeDir}/indices",
       "scholiaToIliad.tsv",
       "urn:cts:greekLit:tlg0012.tlg001.msA", 
@@ -466,6 +483,18 @@ task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
+}
+
+indexVenetusAScholia.doLast {
+  def argSet = [
+    //  "${editionsDir}/VenetusA/Scholia",
+      "${editionsDir}/${vaScholia}",
+      "${citeDir}/indices",
+      "scholiaToIliad.tsv",
+      "urn:cts:greekLit:tlg0012.tlg001.msA", 
+      "hmt"
+      ]
+  println "ARGS WERE: " + argSet
 }
 
 task indexE3Scholia (type: JavaExec, dependsOn : "compileGroovy") {
@@ -707,7 +736,11 @@ ctsttl.doLast {
 
   File inv = new File("${buildDir}/${compositeDir}/inventory.xml")
   File archiveDir = new File("${buildDir}/${compositeDir}")
-  Corpus c = new Corpus(inv,archiveDir)
+File schemaFile = new File("${buildDir}/${compositeDir}/TextInventory.rng")
+  Corpus c = new Corpus(inv,archiveDir, schemaFile)
+c.debug = 10
+
+
 
 
   File ttlDir = new File(buildDir, "rdf")
@@ -775,8 +808,10 @@ idxttl.doLast {
 
   File inv = new File("cite/indices/inventory/hmtindices.xml")
   File idxDir = new File("cite/indices")
-  CiteIndex idx = new CiteIndex(inv, idxDir)
 
+println "Make CiteIndex from ${inv} and ${idxDir}"
+  CiteIndex idx = new CiteIndex(inv, idxDir)
+idx.debug = 10
   if (! buildDir.exists()) {
     buildDir.mkdir()
   }
@@ -786,6 +821,10 @@ idxttl.doLast {
   }
   File outFile = new  File (ttlDir,"indices.ttl")
   idx.ttl(outFile, prefix)
+
+  // manually add indexing of scholia until this is added
+  // to CITE Collections...
+
 }
 
 
