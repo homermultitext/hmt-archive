@@ -19,9 +19,33 @@ ext {
 
     pyramids = "/project/homer/pyramidal"
 
-    ttlPrefix = "@prefix dse:        <http://www.homermultitext.org/dse/rdf/> .\n@prefix cts:        <http://www.homermultitext.org/cts/rdf/> .\n@prefix cite:        <http://www.homermultitext.org/cite/rdf/> .\n@prefix hmt:        <http://www.homermultitext.org/hmt/rdf/> .\n@prefix citedata:        <http://www.homermultitext.org/citedata/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. \n@prefix  xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix olo:     <http://purl.org/ontology/olo/core#> .\n@prefix lex:        <http://data.perseus.org/rdfverbs/> .\n@prefix pal: <http://shot.holycrossedu/rdfverbs/pal/> .\n@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .\n\n"
+    ttlPrefix = """
+@prefix dse:        <http://www.homermultitext.org/dse/rdf/> .
+@prefix cts:        <http://www.homermultitext.org/cts/rdf/> .
+@prefix cite:        <http://www.homermultitext.org/cite/rdf/> .
+@prefix orca:        <http://www.homermultitext.org/orca/rdf/> .
+@prefix hmt:        <http://www.homermultitext.org/hmt/rdf/> .
+@prefix citedata:        <http://www.homermultitext.org/citedata/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+@prefix  xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix olo:     <http://purl.org/ontology/olo/core#> .
+@prefix lex:        <http://data.perseus.org/rdfverbs/> .
+@prefix pal: <http://shot.holycrossedu/rdfverbs/pal/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+""".toString()
 
 
     
 
+   mdSrc = "specs/md"
+    
+    htmlPreface = """
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+    """
+    htmlEnd = "</body>\n</html>\n"
+    tokenMap = [    "openex": "<div class='example'>", "closeex" : "</div>"]
 }

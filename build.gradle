@@ -1,22 +1,31 @@
-buildscript {
+import com.github.rjeschke.txtmark.*
+import org.apache.tools.ant.filters.*
 
+buildscript {
+  apply from: "versions.gradle"
+  
   repositories {
     mavenCentral()
     maven {
       url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
     }
   }
-  /* Sadly, these values must all be duplicated below in the dependencies section
-     for the whole project:
-   */
   dependencies {
-    classpath group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
-    classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.12.0'
-    classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.6'
-    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.3.0'
-    classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
+
+    classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: hocuspocusVersion 
+    classpath group: 'edu.holycross.shot', name : 'prestochango' , version: prestochangoVersion
+    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: abracadabraVersion
+    classpath group: 'edu.holycross.shot', name : 'nysi' , version: nysiVersion
+    classpath group: 'org.homermultitext', name : 'hmt-utils' , version: hmtutilsVersion
+
+    classpath group: 'com.github.rjeschke', name: 'txtmark', version: '0.11'
+    
   }
 }
+
+
+
+
 import org.homermultitext.utils.HmtTokenizer
 import edu.harvard.chs.cite.CtsUrn
 import edu.holycross.shot.hocuspocus.Corpus
@@ -31,15 +40,15 @@ import org.apache.tools.ant.filters.*
 apply plugin: "base"
 apply plugin:  "groovy"
 apply plugin:  "maven"
-
 apply from: "versions.gradle"
+
 
 group = "org.homermultitext"
 
 if (project.hasProperty("nightly")) {
     version = "${new Date().format('yyyy-MM-dd')}".toString()
 } else {
-    version = '2014.2'
+    version = '2015.1'
 }
 
 if (project.hasProperty('conf')) {
@@ -103,22 +112,26 @@ configurations {
 
 dependencies {
 
-  compile group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.7'
-  compile group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.6'
-  compile group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.3.0'
-  compile group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
-  compile group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
+  compile group: 'edu.holycross.shot', name : 'hocuspocus' , version: hocuspocusVersion
+  compile group: 'edu.holycross.shot', name : 'prestochango' , version: prestochangoVersion
+  compile group: 'edu.holycross.shot', name : 'abracadabra' , version: abracadabraVersion
+  compile group: 'edu.holycross.shot', name : 'nysi' , version: nysiVersion
+  compile group: 'org.homermultitext', name : 'hmt-utils' , version: hmtutilsVersion
 
   compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyversion
 
-  compile group: 'edu.harvard.chs', name : 'cite' , version: citeversion
-  compile group: 'edu.harvard.chs', name : 'greekutils' , version: greekutilsversion
+  compile group: 'edu.harvard.chs', name : 'cite' , version: citeVersion
+  compile group: 'edu.harvard.chs', name : 'greekutils' , version: greekutilsVersion
 
   compile group: 'com.thaiopensource', name:'jing', version: jingversion    
   compile group: 'net.sf.saxon', name: 'saxon-dom', version: saxonversion
 
-  testCompile group: 'junit', name: 'junit', version: junitversion
+  //testCompile group: 'junit', name: 'junit', version: junitversion
   testCompile group :'xmlunit', name: 'xmlunit', version: xmlunitversion
+
+  // For concordion:
+  testCompile 'junit:junit:4.11'
+  testCompile 'org.concordion:concordion:1.4.4'
 }
 
 
@@ -576,6 +589,8 @@ task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
 // SHOULD BE PUT BACK IN HMTARCHIVE!  CITEMGR CAN ONLY DO GENERIC
 // THINGS AND ALL TOKENIZATIONS ARE SPECIFIC TO CLASSIFICATION SCHEME
 
+
+
 task setupTokens (type: Copy) {
     description = "Generates README to accompany tokenization data from HMT editions."
     from ("${editionsDir}") {
@@ -969,3 +984,91 @@ buildHmtPublications.dependsOn labelPublication
 
 
 
+
+
+
+// for specs with concordion:
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'src'
+        }
+    }
+    test {
+        java {
+	  srcDir "specs/java"
+        }
+        resources {
+	  srcDir "${buildDir}/specs"
+        }
+    }
+}
+
+task cpResources(type: Copy) {
+  from "specs/resources"
+  into "${buildDir}/specs"
+}
+
+task setUpResources(dependsOn: cpResources) {
+}
+setUpResources.doLast {
+  println "READING FILE TREE FROM " + mdSrc + " DIRECTORY"
+  FileTree tree = fileTree(mdSrc) {
+    include "**/*.md"
+  }
+  tree.visit { f ->
+    if (f.relativePath.isFile()) {
+      File inFile = new File("${mdSrc}/${f.relativePath}")
+      println "Need to work on " + inFile
+      def segs = f.relativePath.getSegments()
+      String treePath = "${buildDir}/specs"
+      Integer limit =  segs.size() - 1
+      segs.eachWithIndex { s, i ->
+	if (i < limit) {
+	  treePath = "${treePath}/${s}"
+	  File nxtDir = new File(treePath)
+	  if (! nxtDir.exists()) {
+	    nxtDir.mkdir()
+	  }
+	}
+      }
+      File outDir = new File(treePath)
+      String htmlFileName = f.relativePath.getLastName().replaceFirst(/.md$/,".html")
+      File htmlFile = new File(outDir, htmlFileName)
+      println "Created ${htmlFile}"
+
+      String body = Processor.process(inFile.getText("UTF-8"),Configuration.DEFAULT)
+      htmlFile.setText("${htmlPreface}${body}${htmlEnd}", "UTF-8")
+    }
+  }
+}
+
+
+test.dependsOn setUpResources
+test {
+    systemProperties 'concordion.output.dir': file("${buildDir}/concordion-results")
+}
+
+task addVersion(){
+}
+addVersion.doLast {
+  tokenMap["version"] = version
+  tokenMap["deps"] = """
+    <tr><td>cite</td><td>${citeVersion}</td></tr>
+    <tr><td>hocuspocus</td><td>${hocuspocusVersion}</td></tr>
+    <tr><td>prestochango</td><td>${prestochangoVersion}</td></tr>
+    <tr><td>abracadabra</td><td>${abracadabraVersion}</td></tr>
+    <tr><td>nysi</td><td>${nysiVersion}</td></tr>
+    <tr><td>hmt-utils</td><td>$hmtutilsVersion}</td></tr>
+    <tr><td>greekutils</td><td>${greekutilsVersion}</td></tr>""".toString() 
+}
+
+task conc(type: Copy, dependsOn: [test, addVersion]) {
+//task conc(type: Copy) {
+  from "${buildDir}/concordion-results"
+  into "${buildDir}/concordion-formatted"
+  filter(ReplaceTokens, tokens: tokenMap)
+}

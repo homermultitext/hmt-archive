@@ -2,8 +2,6 @@
 ext {
     groovyversion = "2.0.6"
 
-    citeversion = "0.92.0"
-    greekutilsversion = "0.8.5"
 
     //needed for hocuspocus:
     jingversion= "20091111"
@@ -14,5 +12,16 @@ ext {
 
 
 
-       
+    //Catalog these:
+    citeVersion = "0.92.1"
+
+    hocuspocusVersion =  '0.12.2'
+    prestochangoVersion = '0.3.6'
+    abracadabraVersion =  '0.3.0'
+    nysiVersion =  '0.2.2'
+    
+    hmtutilsVersion = '0.2.7'
+
+    greekutilsVersion = "0.8.5"
+    
 }
