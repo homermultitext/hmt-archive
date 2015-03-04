@@ -10,11 +10,11 @@
     <description
       xml:lang="eng"> The CHS inventory of Greek texts. </description>
   </ctsnamespace>
-  <textgroup urn="urn:cts:greekLit:4036scholia">
+  <textgroup urn="urn:cts:greekLit:4036scholia:">
     <groupname xml:lang="eng">Scholia to works of Proclus</groupname>
-    <work urn="urn:cts:greekLit:4036scholia.chrest" xml:lang="grc">
+    <work urn="urn:cts:greekLit:4036scholia.chrest:" xml:lang="grc">
       <title xml:lang="eng">Scholia to Proclus, Chrestomathy</title>
-      <edition urn="urn:cts:greekLit:4036scholia.chrest.venA">
+      <edition urn="urn:cts:greekLit:4036scholia.chrest.venA:">
         <label xml:lang="eng">Edition of the Venetus A manuscript</label>
         <online docname="VenetusA/VenetusA-Proclus-Scholia.xml">
           
@@ -30,16 +30,16 @@
     </work>
   </textgroup>
   <textgroup
-    urn="urn:cts:greekLit:tlg0012">
+    urn="urn:cts:greekLit:tlg0012:">
     <groupname
       xml:lang="eng"> Homeric epic</groupname>
     <work
-      urn="urn:cts:greekLit:tlg0012.tlg001"
+      urn="urn:cts:greekLit:tlg0012.tlg001:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Iliad </title>
       <translation
-        urn="urn:cts:greekLit:tlg0012.tlg001.hmt01"
+        urn="urn:cts:greekLit:tlg0012.tlg001.hmt01:"
         xml:lang="eng">
         <label
           xml:lang="eng">English translation of Iliad 10 by Casey Dué and Mary Ebbott</label>
@@ -64,7 +64,7 @@
         </online>
       </translation>
       <edition
-        urn="urn:cts:greekLit:tlg0012.tlg001.msA">
+        urn="urn:cts:greekLit:tlg0012.tlg001.msA:">
         <label
           xml:lang="eng"> Venetus A </label>
         <description
@@ -147,7 +147,7 @@
     </work>
   </textgroup>
   <textgroup
-    urn="urn:cts:greekLit:tlg5026">
+    urn="urn:cts:greekLit:tlg5026:">
     <groupname
       xml:lang="eng"> Scholia to the Iliad</groupname>
     <!--
@@ -173,12 +173,12 @@
     
     -->
     <work
-      urn="urn:cts:greekLit:tlg5026.msA"
+      urn="urn:cts:greekLit:tlg5026.msA:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Main marginal scholia</title>
       <edition
-        urn="urn:cts:greekLit:tlg5026.msA.hmt">
+        urn="urn:cts:greekLit:tlg5026.msA.hmt:">
         <label
           xml:lang="eng">msA</label>
         <description
@@ -204,12 +204,12 @@
       </edition>
     </work>
     <work
-      urn="urn:cts:greekLit:tlg5026.msAext"
+      urn="urn:cts:greekLit:tlg5026.msAext:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Exterior scholia</title>
       <edition
-        urn="urn:cts:greekLit:tlg5026.msAext.hmt">
+        urn="urn:cts:greekLit:tlg5026.msAext.hmt:">
         <label
           xml:lang="eng">msAext</label>
         <description
@@ -235,12 +235,12 @@
       </edition>
     </work>
     <work
-      urn="urn:cts:greekLit:tlg5026.msAil"
+      urn="urn:cts:greekLit:tlg5026.msAil:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Interlinear scholia</title>
       <edition
-        urn="urn:cts:greekLit:tlg5026.msAil.hmt">
+        urn="urn:cts:greekLit:tlg5026.msAil.hmt:">
         <label
           xml:lang="eng">msAil</label>
         <description
@@ -266,12 +266,12 @@
       </edition>
     </work>
     <work
-      urn="urn:cts:greekLit:tlg5026.msAim"
+      urn="urn:cts:greekLit:tlg5026.msAim:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Intermarginal scholia</title>
       <edition
-        urn="urn:cts:greekLit:tlg5026.msAim.hmt">
+        urn="urn:cts:greekLit:tlg5026.msAim.hmt:">
         <label
           xml:lang="eng">msAim</label>
         <description
@@ -297,12 +297,12 @@
       </edition>
     </work>
     <work
-      urn="urn:cts:greekLit:tlg5026.msAimlater"
+      urn="urn:cts:greekLit:tlg5026.msAimlater:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Later intermarginal scholia</title>
       <edition
-        urn="urn:cts:greekLit:tlg5026.msAimlater.hmt">
+        urn="urn:cts:greekLit:tlg5026.msAimlater.hmt:">
         <label
           xml:lang="eng">msAimlater</label>
         <description
@@ -328,12 +328,12 @@
       </edition>
     </work>
     <work
-      urn="urn:cts:greekLit:tlg5026.msAint"
+      urn="urn:cts:greekLit:tlg5026.msAint:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Interior scholia</title>
       <edition
-        urn="urn:cts:greekLit:tlg5026.msAint.hmt">
+        urn="urn:cts:greekLit:tlg5026.msAint.hmt:">
         <label
           xml:lang="eng">msAint</label>
         <description
@@ -359,12 +359,12 @@
       </edition>
     </work>
     <work
-      urn="urn:cts:greekLit:tlg5026.msAlater"
+      urn="urn:cts:greekLit:tlg5026.msAlater:"
       xml:lang="grc">
       <title
         xml:lang="eng"> Later main scholia</title>
       <edition
-        urn="urn:cts:greekLit:tlg5026.msAlater.hmt">
+        urn="urn:cts:greekLit:tlg5026.msAlater.hmt:">
         <label
           xml:lang="eng">msAlater</label>
         <description
@@ -392,16 +392,16 @@
   </textgroup>
   <!-- Other texts in the Venetus A -->
   <textgroup
-    urn="urn:cts:greekLit:tlg4036">
+    urn="urn:cts:greekLit:tlg4036:">
     <groupname
       xml:lang="eng">Proclus</groupname>
     <work
-      urn="urn:cts:greekLit:tlg4036.tlg023"
+      urn="urn:cts:greekLit:tlg4036.tlg023:"
       xml:lang="grc">
       <title
         xml:lang="eng">Chrestomathy</title>
       <edition
-        urn="urn:cts:greekLit:tlg4036.tlg023.msA">
+        urn="urn:cts:greekLit:tlg4036.tlg023.msA:">
         <label
           xml:lang="eng">Venetus A</label>
         <description
@@ -423,16 +423,16 @@
     </work>
   </textgroup>
   <textgroup
-    urn="urn:cts:greekLit:tlg1194">
+    urn="urn:cts:greekLit:tlg1194:">
     <groupname
       xml:lang="eng">Aristonicus</groupname>
     <work
-      urn="urn:cts:greekLit:tlg1194.tlg002"
+      urn="urn:cts:greekLit:tlg1194.tlg002:"
       xml:lang="grc">
       <title
         xml:lang="eng">On Signs</title>
       <edition
-        urn="urn:cts:greekLit:tlg1194.tlg002.msA">
+        urn="urn:cts:greekLit:tlg1194.tlg002.msA:">
         <label
           xml:lang="eng">Venetus A</label>
         <description
@@ -454,15 +454,15 @@
     </work>
   </textgroup>
   <textgroup
-    urn="urn:cts:greekLit:msannotations">
+    urn="urn:cts:greekLit:msannotations:">
     <groupname
       xml:lang="eng">Annotations on manuscripts</groupname>
   
     <work
-      urn="urn:cts:greekLit:msannotations.venA_comments"
+      urn="urn:cts:greekLit:msannotations.venA_comments:"
       xml:lang="grc">
       <title xml:lang="eng">Marginal comments</title>
-      <edition urn="urn:cts:greekLit:msannotations.venA_comments.msA">
+      <edition urn="urn:cts:greekLit:msannotations.venA_comments.msA:">
       <label xml:lang="eng">Venetus A</label>
         <description xml:lang="eng">Marginal notes in the Venetus A manuscript
         commenting on the manuscript or its production (not on the Iliad or other texts in
@@ -491,12 +491,12 @@
     
     
     <work
-      urn="urn:cts:greekLit:msannotations.VAcaptions"
+      urn="urn:cts:greekLit:msannotations.VAcaptions:"
       xml:lang="grc">
       <title
         xml:lang="eng">Captions to graphics in the Venetus A</title>
       <edition
-        urn="urn:cts:greekLit:msannotations.VAcaptions.hmt">
+        urn="urn:cts:greekLit:msannotations.VAcaptions.hmt:">
         <label
           xml:lang="eng">Homer Multitext edition</label>
         <description
@@ -517,12 +517,12 @@
       </edition>
     </work>
     <work
-      urn="urn:cts:greekLit:msannotations.venA_authorities"
+      urn="urn:cts:greekLit:msannotations.venA_authorities:"
       xml:lang="grc">
       <title
         xml:lang="eng">List of authorities</title>
       <edition
-        urn="urn:cts:greekLit:msannotations.venA_authorities.hmt">
+        urn="urn:cts:greekLit:msannotations.venA_authorities.hmt:">
         <label
           xml:lang="eng">Venetus A</label>
         <description
@@ -543,12 +543,12 @@
       </edition>
     </work>
    <work
-      urn="urn:cts:greekLit:msannotations.venA_subscriptions"
+      urn="urn:cts:greekLit:msannotations.venA_subscriptions:"
       xml:lang="grc">
       <title
         xml:lang="eng">Book subscriptions</title>
       <edition
-        urn="urn:cts:greekLit:msannotations.venA_subscriptions.hmt">
+        urn="urn:cts:greekLit:msannotations.venA_subscriptions.hmt:">
         <label
           xml:lang="eng">Venetus A</label>
         <description
@@ -569,16 +569,16 @@
     </work>
   </textgroup>
   <textgroup
-    urn="urn:cts:greekLit:tlg0658">
+    urn="urn:cts:greekLit:tlg0658:">
     <groupname
       xml:lang="eng">Heliodorus</groupname>
     <work
-      urn="urn:cts:greekLit:tlg0658.tlg001"
+      urn="urn:cts:greekLit:tlg0658.tlg001:"
       xml:lang="grc">
       <title
         xml:lang="eng">Aethiopica</title>
       <edition
-        urn="urn:cts:greekLit:tlg0658.tlg001.msA">
+        urn="urn:cts:greekLit:tlg0658.tlg001.msA:">
         <label
           xml:lang="eng">Venetus A</label>
         <description
@@ -600,16 +600,16 @@
     </work>
   </textgroup>
   <textgroup
-    urn="urn:cts:greekLit:tlg7000">
+    urn="urn:cts:greekLit:tlg7000:">
     <groupname
       xml:lang="eng">The Greek Anthology</groupname>
     <work
-      urn="urn:cts:greekLit:tlg7000.tlg001"
+      urn="urn:cts:greekLit:tlg7000.tlg001:"
       xml:lang="grc">
       <title
         xml:lang="eng">The Anthology</title>
       <edition
-        urn="urn:cts:greekLit:tlg7000.tlg001.msA">
+        urn="urn:cts:greekLit:tlg7000.tlg001.msA:">
         <label
           xml:lang="eng">VenetusA</label>
         <description

@@ -545,7 +545,20 @@ task tabE3 (type: JavaExec, dependsOn : ["compileGroovy", "e3", "inv"]) {
 //// Tasks for secondary processing of composite editions
 //// TABULATION:
 
-task tabFiles (type: JavaExec, dependsOn : ["compileGroovy", "editions"]) {
+//task tabFiles (dependsOn : ["compileGroovy", "editions"]) {
+task tabFiles() {
+  description = "Generates a tabular representation of all texts in configured text archive."
+}
+tabFiles.doLast() {
+    File inv = new File("${buildDir}/${compositeDir}/inventory.xml")
+  File archiveDir = new File("${buildDir}/${compositeDir}")
+File schemaFile = new File("${buildDir}/${compositeDir}/TextInventory.rng")
+
+  Corpus c = new Corpus(inv,archiveDir, schemaFile)
+  c.tabulateRepository(new File(buildDir, "tabulated"))
+}
+/*
+
     description = "Uses a hocuspocus tabulator to create tabular files for all editions"
     main = "org.homermultitext.HmtTabulator"
     args = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tabulated"]	
@@ -553,6 +566,7 @@ task tabFiles (type: JavaExec, dependsOn : ["compileGroovy", "editions"]) {
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
+*/
 
 task setupTabs (type: Copy) {
     description = "Generates README to accompany tabulated versions of HMT editions."
@@ -743,6 +757,7 @@ task cite (dependsOn : [editions, collections, indices, images]) {
 ///////////////////////////////////////////////////////////////////////////
 //// RDF TASKS 
 
+//task ctsttl(dependsOn: editions) {
 task ctsttl(dependsOn: editions) {
   description = "Use hocuspocus to create a full rdf representation of the text archive suitable for import into a CTS"
 }
