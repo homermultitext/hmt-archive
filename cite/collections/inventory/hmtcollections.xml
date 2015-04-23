@@ -7,6 +7,34 @@
     
     
     <!-- IMAGE DATA ********************   -->
+    <citeCollection canonicalId="URN" label="Caption" urn="urn:cite:hmt:capimgs">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Capitoline Tabula</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Brian Clark</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Capitoline Tabula photographed by Nik Churik.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Original and manipulated images covering the whole tabula.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/churikimgs.csv"/>
+        <citeProperty name="URN" label="Image URN" type="citeurn"/>
+        <citeProperty name="Caption" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vaimg">
         <namespaceMapping
             abbr="hmt"
