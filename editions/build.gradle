@@ -1,0 +1,39 @@
+
+import org.apache.tools.ant.filters.*
+
+apply plugin: "base"
+
+
+
+task v {
+}
+v.doLast {
+  println "In editions: project version is " + version
+  println "editions dir? " + editionsDir
+  println "Copy from " + file("${rootProject.projectDir}/${editionsDir}") + " into ${buildDir}/editions/archive ????"
+  println "Because editionsDir is " + editionsDir + " and projectDir is " + rootProject.projectDir
+}
+
+
+task setUpEditions(type: Copy) {
+    description = "Generates README to accompany XML version of HMT editions."
+    from (file("${rootProject.projectDir}/${editionsDir}")) {
+        include 'README-editions.md'
+        rename 'README-editions.md', 'README.md'
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/editions/archive"
+}
+
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for assembling Venetus A editions from source material
+
+task venAReadme (type: Copy) {
+    description = "Add README file for Venetus A archive to build area."
+    from ("${rootProject.projectDir}/${editionsDir}/VenetusA") {
+        include 'README.md'
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/${compositeDir}/VenetusA"
+}
+

@@ -13,9 +13,9 @@ ext {
 
 
     //Catalog these:
-    citeVersion = "0.92.1"
+    citeVersion = "0.93.0"
 
-    hocuspocusVersion =  '0.12.2'
+    hocuspocusVersion =  '0.12.3'
     prestochangoVersion = '0.3.6'
     abracadabraVersion =  '0.3.0'
     nysiVersion =  '0.2.2'
