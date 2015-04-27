@@ -5,7 +5,7 @@ ext {
 
 
 
-    editionsDir = "editions"
+    editionsDir = "archive/editions"
     // Within editionsDir, parameterize these to simplify testing        
     vaScholia = "VenetusA/Scholia"
     vaOther = "VenetusA/OtherTexts"

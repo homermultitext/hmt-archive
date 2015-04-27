@@ -1,0 +1,3 @@
+apply plugin: "maven"
+
+// Tasks to assemble zip packages and publish to nexus repository
