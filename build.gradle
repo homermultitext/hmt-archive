@@ -73,3 +73,12 @@ tab.doLast {
 }
 
 
+task hmt ( dependsOn: [tab, "citebldr:cite"]) {
+  description = "Assemble HMT publication."
+}
+
+hmt.doLast {
+  println "\n\nBuilt the HMT."
+}
+
+

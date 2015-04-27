@@ -24,6 +24,12 @@ task setUpBuild {
   if (! indexDir.exists()) {
     indexDir.mkdir()
   }
+
+
+  File imgDir = new File(archiveDir, "images")
+  if (! imgDir.exists()) {
+    imgDir.mkdir()
+  }
 }
 
 
@@ -78,9 +84,7 @@ task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
     classpath configurations.runtime
 }
 
-
-
-task copyIndices (type: Copy) {
+task copyIndices (type: Copy, dependsOn: [setUpBuild]) {
     description = "Filters manually prepared index files for publishing in CITE Index archive."
     from ("${rootProject.projectDir}/archive/indices") {
       include ('README.md', 'inventory/hmtindices.xml', '**/*.csv', '**/*.tsv')
@@ -89,12 +93,27 @@ task copyIndices (type: Copy) {
     into "${buildDir}/archive/indices"
 }
 
-
-
-task indexes(dependsOn: [copyIndices,indexVenetusAScholia]) {
+task indices(dependsOn: [copyIndices,indexVenetusAScholia]) {
   description = "Prepares CITE Index repository from HMT source"
 }
 
+//////////////////////////////////////////////////////
+
+
+
+
+
+//////////////////////////////////////////////////////
+/// Build CITE Image Extension repository from HMT source
+
+task images (type: Copy, dependsOn: [setUpBuild]) {
+    description = "Filters manually prepared index files for publishing in CITE Index archive."
+    from ("${rootProject.projectDir}/archive/images") {
+      include ('README.md', '**/*.csv', '**/*.tsv')
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    into "${buildDir}/archive/images"
+}
 
 //////////////////////////////////////////////////////
 
@@ -103,32 +122,6 @@ task indexes(dependsOn: [copyIndices,indexVenetusAScholia]) {
 
 
 
-
-/*
-
-
-
-
-task setUpImages (type: Copy) {
-    description = "Prepares files for publishing HMT Image archive."
-    from ('cite/images') {
-        include ('README.md', '** / *.csv', '** / *.tsv')
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
-    into "${buildDir}/images"
-}
-
-task images(type: Zip, dependsOn: [setUpImages]) {
-    description = "Creates zip package of HMT image archive."
-    from (file("${buildDir}/images"))
-    baseName = "hmt-images"
-}
-
-
-
-*/
-
-
-task cite(dependsOn: [collections, indexes]) {
+task cite(dependsOn: [collections, indices, images]) {
   description = "Compile all CITE repositories"
 }
