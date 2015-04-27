@@ -37,9 +37,6 @@ if (project.hasProperty("nightly")) {
 
 buildscript {
   apply from: "${projectDir}/confs/versions.gradle"
-  if (project.hasProperty('conf')) {
-    println "OVERRIDE conf setting"
-  }
   repositories {
     mavenCentral()
     maven  {
@@ -66,17 +63,13 @@ subprojects {
     }
 }
 
-/*
-allprojects {
-  task cp << {task -> runtimeClasspath.getFiles().each {println it} }
-}
-*/
-
 
 task tab {
-  description = "Tabulates text files"
+  description = "Tabulates all texts in automatically built CTS repository"
 }
 tab.dependsOn(":ctsbldr:cts")
 tab.doLast {
   println "\n\nInvoke h-p to tabulate"
 }
+
+

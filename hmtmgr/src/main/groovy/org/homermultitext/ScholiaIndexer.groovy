@@ -30,10 +30,10 @@ class ScholiaIndexer {
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
 
 
-    CtsUrn scholiaUrn = new CtsUrn("urn:cts:greekLit:tlg5026")
+    String scholiaUrnBase = "urn:cts:greekLit:tlg5026"
 
     /** Verbosity level 0-3 of debugging output */
-    Integer debug = 3
+    Integer debug = 0
 
 
 
@@ -57,7 +57,7 @@ class ScholiaIndexer {
 
 	  groupNode[tei.text].each { txt ->
 	    String workId = txt.'@n'
-	    String bookLevel = "${scholiaUrn}.${workId}.${version}:${bk}"
+	    String bookLevel = "${scholiaUrnBase}.${workId}.${version}:${bk}"
 	    if (debug > 0) {System.err.println "Indexing book ${bookLevel}"}
 	    
 	    txt[tei.body][tei.div].each { schol ->
@@ -138,6 +138,7 @@ class ScholiaIndexer {
             iliad = new CtsUrn(args[3])
         } catch (Exception e) {
             System.err.println "ScholiaIndexer main method: Bad param or params: ${args[3]}"
+	    System.err.println "All params were: " + args
             throw e
         }
         ScholiaIndexer indexer = new ScholiaIndexer(src,outputDir, args[2], iliad, args[4])

@@ -26,23 +26,10 @@ task setUpBuild {
   }
 }
 
-task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
-    description="Generates tsv file relating scholia to Iliad passage commented on."
-    
-    main = "org.homermultitext.ScholiaIndexer"
-    args = [
-      "${rootProject.projectDir}/${editionsDir}/${vaScholia}",
-      "${buildDir}/archive/indices",
-      "scholiaToIliad.tsv",
-      "urn:cts:greekLit:tlg0012.tlg001.msA", 
-      "hmt" 
-    ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
 
 
+//////////////////////////////////////////////////////
+/// Build CITE Collections reposistory from HMT source
 
 task copyCollections (type: Copy, dependsOn: setUpBuild) {
     description = "Prepares files for publishing collections archive."
@@ -52,13 +39,6 @@ task copyCollections (type: Copy, dependsOn: setUpBuild) {
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     into "${buildDir}/archive/collections"
 }
-
-
-  //   File outputDir = new File()
-  //File srcDir = new File()
-
-
-
 
 task compileScholiaCollection (type: JavaExec, dependsOn: setUpBuild) {
     description="Generates CITE Collection of all scholia as a .tsv file."
@@ -73,16 +53,82 @@ task compileScholiaCollection (type: JavaExec, dependsOn: setUpBuild) {
     classpath configurations.runtime
 }
 
+task collections (dependsOn: [copyCollections, compileScholiaCollection]){
+  description = "Compiles CITE Collection repository"
+}
+//////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////
+/// Build CITE Indices reposistory from HMT source
+
+task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
+    description="Generates tsv file relating scholia to Iliad passage commented on."
+    
+    main = "org.homermultitext.ScholiaIndexer"
+    args = [
+      "${rootProject.projectDir}/${editionsDir}/${vaScholia}",
+      "${buildDir}/archive/indices",
+      "scholiaToIliad.tsv",
+      "urn:cts:greekLit:tlg0012.tlg001.msA:", 
+      "hmt" 
+    ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+
+
+task copyIndices (type: Copy) {
+    description = "Filters manually prepared index files for publishing in CITE Index archive."
+    from ("${rootProject.projectDir}/archive/indices") {
+      include ('README.md', 'inventory/hmtindices.xml', '**/*.csv', '**/*.tsv')
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    into "${buildDir}/archive/indices"
+}
+
+
+
+task indexes(dependsOn: [copyIndices,indexVenetusAScholia]) {
+  description = "Prepares CITE Index repository from HMT source"
+}
+
+
+//////////////////////////////////////////////////////
+
+
+
+
+
+
 
 /*
-//
-// REWRITE THIS AS A CLASS IN hmtmgr WITH A MAIN METHOD
-//
-task compileScholiaCollection(dependsOn: copyCollections) {
-  description = "Creates composite scholia collection form multiple source files"
+
+
+
+
+task setUpImages (type: Copy) {
+    description = "Prepares files for publishing HMT Image archive."
+    from ('cite/images') {
+        include ('README.md', '** / *.csv', '** / *.tsv')
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    into "${buildDir}/images"
 }
+
+task images(type: Zip, dependsOn: [setUpImages]) {
+    description = "Creates zip package of HMT image archive."
+    from (file("${buildDir}/images"))
+    baseName = "hmt-images"
+}
+
 
 
 */
 
-// copyIndices ?
+
+task cite(dependsOn: [collections, indexes]) {
+  description = "Compile all CITE repositories"
+}
