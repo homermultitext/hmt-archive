@@ -1,3 +1,60 @@
 apply plugin: "maven"
 
 // Tasks to assemble zip packages and publish to nexus repository
+
+
+/*
+
+
+/// Can add dependencies on other MSS when we have tasks for them.
+//task editions(type: Zip, dependsOn: [venetusA, e3, furmanEditions]) {
+task editions(type: Zip, dependsOn: [venetusA]) {
+    description="Builds zip file of all edited manuscripts."
+    classifier = 'xml'
+    baseName = "hmt-editions"
+    from(file("${buildDir}/${compositeDir}"))
+    include("** / *.xml", "** / README.md")
+    doLast {
+        System.err.println "All Venetus A texts validate syntactically, and are compiled in zip file hmtarchive-VERSION-editions.zip."
+    }
+}
+
+
+
+task collections(type: Zip, dependsOn: [setUpCollections, compileScholiaCollection]) {
+    description = "Creates zip package of all HMT collections archive."
+    from (file("${buildDir}/collections"))
+    baseName = "hmt-collections"
+
+}
+
+task indices(type: Zip, dependsOn: [setUpIndices]) {
+    description = "Creates zip package of all HMT CITE Indices."
+    from (file("${buildDir}/indices"))
+    baseName = "hmt-indices"
+
+}
+
+task cite (dependsOn : [editions, collections, indices, images]) {
+description = "Builds zip file of all HMT CITE archives."
+    doLast {
+        println "Built zip files of all HMT CITE archives."
+    }
+}
+
+
+
+
+task rdf(type: Zip,dependsOn: allTtl) {
+    description = "Creates zip package of entire HMT archive in TTL format."
+    from (file("${buildDir}/rdf"))
+    include("* * / *.ttl", "README.md")
+    baseName = "hmt-rdf"
+    doLast {
+        System.err.println "RDF (TTL) version of the entire HMT archive compiled in zip file hmt-rdf"
+    }
+}
+
+
+*/
+
