@@ -12,8 +12,6 @@ dependencies {
      compile project(':hmtmgr')
 }
 
-
-
 task setUpBuild {
   if (! buildDir.exists()) {
     buildDir.mkdir()
@@ -43,3 +41,48 @@ task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }
+
+
+
+task copyCollections (type: Copy, dependsOn: setUpBuild) {
+    description = "Prepares files for publishing collections archive."
+    from ("${rootProject.projectDir}/archive/collections") {
+      include ('README.md', 'inventory/hmtcollections.xml', '**/*.csv', '**/*.tsv')
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/archive/collections"
+}
+
+
+  //   File outputDir = new File()
+  //File srcDir = new File()
+
+
+
+
+task compileScholiaCollection (type: JavaExec, dependsOn: setUpBuild) {
+    description="Generates CITE Collection of all scholia as a .tsv file."
+    
+    main = "org.homermultitext.ScholiaCollectionCompiler"
+    args = [
+      "${rootProject.projectDir}/archive/collections/scholiaInventory",
+      "${buildDir}/archive/collections"
+    ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+
+/*
+//
+// REWRITE THIS AS A CLASS IN hmtmgr WITH A MAIN METHOD
+//
+task compileScholiaCollection(dependsOn: copyCollections) {
+  description = "Creates composite scholia collection form multiple source files"
+}
+
+
+*/
+
+// copyIndices ?
