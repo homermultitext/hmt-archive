@@ -8,9 +8,10 @@ How the archive:
 
 - assembles <a concordion:run="concordion" href="texts/Texts.html">editions of texts</a>
 - assembles catalogs of digital images
-- assembles data sets in structured collections
+- assembles <a concordion:run="concordion" href="collections/Collections.html">data sets in structured collections</a>
 - assembles indexing and cross references
-- groups and packages data sets for publication
+- generates RDF representations of all the above
+- <a concordion:run="concordion"  href="packages/Packages.html">groups and packages of data sets for publication</a>
 
 
 
