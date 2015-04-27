@@ -17,9 +17,6 @@ ext {
     inventoriesDir = "inventories"
     textInventory="onlineInventory.xml"
 
-
-    citeDir = "cite"
-
     compositeDir = "editions/archive"
 
     pyramids = "/project/homer/pyramidal"

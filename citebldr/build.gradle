@@ -1,0 +1,45 @@
+import org.apache.tools.ant.filters.*
+
+// Subproject to assemble CITE repositories from the
+// source material in the HMT archive.
+
+
+apply plugin: "base"
+apply plugin: "java"
+apply plugin: "groovy"
+
+dependencies {
+     compile project(':hmtmgr')
+}
+
+
+
+task setUpBuild {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  File archiveDir = new File(buildDir, "archive")
+  if (! archiveDir.exists()) {
+    archiveDir.mkdir()
+  }
+  File indexDir = new File(archiveDir, "indices")
+  if (! indexDir.exists()) {
+    indexDir.mkdir()
+  }
+}
+
+task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
+    description="Generates tsv file relating scholia to Iliad passage commented on."
+    
+    main = "org.homermultitext.ScholiaIndexer"
+    args = [
+      "${rootProject.projectDir}/${editionsDir}/${vaScholia}",
+      "${buildDir}/archive/indices",
+      "scholiaToIliad.tsv",
+      "urn:cts:greekLit:tlg0012.tlg001.msA", 
+      "hmt" 
+    ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
