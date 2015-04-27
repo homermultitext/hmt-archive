@@ -66,7 +66,8 @@ subprojects {
     }
 }
 
-
+/*
 allprojects {
   task cp << {task -> runtimeClasspath.getFiles().each {println it} }
 }
+*/
