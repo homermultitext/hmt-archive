@@ -2,7 +2,10 @@
 import org.apache.tools.ant.filters.*
 
 apply plugin: "base"
+apply plugin: "java"
+apply plugin: "groovy"
 
+//import org.homermultitext.IliadCompiler
 
 
 task v {
@@ -10,8 +13,11 @@ task v {
 v.doLast {
   println "In editions: project version is " + version
   println "editions dir? " + editionsDir
-  println "Copy from " + file("${rootProject.projectDir}/${editionsDir}") + " into ${buildDir}/editions/archive ????"
-  println "Because editionsDir is " + editionsDir + " and projectDir is " + rootProject.projectDir
+  //println "Copy from " + file("${rootProject.projectDir}/${editionsDir}") + " into ${buildDir}/editions/archive ????"
+  //println "Because editionsDir is " + editionsDir + " and projectDir is " + rootProject.projectDir
+
+  println "sourceSets " + sourceSets
+  println "configuration.runtime" + configurations.runtime
 }
 
 
@@ -59,6 +65,13 @@ task venAOther (type: Copy, dependsOn: venAReadme) {
     }
 }
 
+task venAIliad(dependsOn: [venAReadme]) {
+  description = "Compiles single Iliad text from multiple source files."
+}
+venAIliad.doLast {
+  //IliadCompiler ic = new IliadCompile("${editionsDir}/${vaIliad}", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA")
+  println "Made an IliadCompiler."
+}
 
 /*
 
@@ -212,7 +225,7 @@ task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, co
 task msAimLaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand in intermarginal position"
     from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
+/    into "${buildDir}/headers/VenetusA"
     include ('VenetusA-Scholia.xml')
     filter(ReplaceTokens, tokens : [scholiatitle : 'Scholia in later hand in intermarginal position '] )
     rename { String fileName ->

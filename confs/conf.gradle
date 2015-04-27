@@ -1,5 +1,10 @@
 
 ext {
+
+    projectVersion = "2015.1"
+
+
+
     editionsDir = "editions"
     // Within editionsDir, parameterize these to simplify testing        
     vaScholia = "VenetusA/Scholia"
