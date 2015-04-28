@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+	datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+	xmlns="http://relaxng.org/ns/structure/1.0"
+	xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+	<!-- Dublin Core elements to provide for each Collection -->
+	<define
+		name="metadata">
+		<element
+			name="dc:title">
+			<attribute
+				name="xml:lang">
+				<data type="string">
+					<param name="pattern">...+</param>
+				</data>
+			</attribute>
+			<data type="string">
+				<param name="pattern">.+</param>
+			</data>
+		</element>
+		<oneOrMore>
+			<element
+				name="dc:creator">
+				<data type="string">
+					<param name="pattern">.+</param>
+				</data>
+			</element>
+		</oneOrMore>
+		<element
+			name="dc:coverage">
+			<attribute
+				name="xml:lang"/>
+			<data type="string">
+				<param name="pattern">.+</param>
+			</data>
+		</element>
+		<element
+			name="dc:description">
+			<attribute
+				name="xml:lang"/>
+			<text/>
+		</element>
+		<element
+			name="dc:rights">
+			<attribute
+				name="xml:lang">
+				<data type="string">
+					<param name="pattern">...+</param>
+				</data>
+			</attribute>
+			<text/>
+		</element>
+	</define>
+	<start>
+		<element
+			name="ti:TextInventory">
+			<attribute
+				name="tiversion">
+				<choice>
+					<value>5.0.rc.1</value>
+				</choice>
+			</attribute>
+			<optional>
+				<attribute
+					name="tiid">
+					<data
+						type="string">
+						<param
+							name="pattern">.+</param>
+					</data>
+				</attribute>
+			</optional>
+			<zeroOrMore>
+				<element
+					name="ti:ctsnamespace">
+					<attribute
+						name="abbr">
+						<data
+							type="string">
+							<param
+								name="pattern">.+</param>
+						</data>
+					</attribute>
+					<attribute
+						name="ns">
+						<data
+							type="anyURI">
+							<param
+								name="pattern">.+</param>
+						</data>
+					</attribute>
+					<optional>
+						<element
+							name="ti:description">
+							<attribute
+								name="xml:lang">
+							<data type="string">
+							<param name="pattern">...+</param>
+							</data>
+							</attribute>
+						<text/>
+						</element>
+					</optional>
+				</element>
+			</zeroOrMore>
+			<oneOrMore>
+				<externalRef
+					href="textgroup.rng"/>
+			</oneOrMore>
+		</element>
+	</start>
+</grammar>

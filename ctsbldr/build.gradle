@@ -23,13 +23,10 @@ task setUpEditions(type: Copy) {
 }
 
 
-
-
 task inv (type: Copy) {
     description = "Copies text inventory and README into build area."
-    from ("${inventoriesDir}")
+    from ("${rootProject.projectDir}/${editionsDir}/${inventoriesDir}")
     into "${buildDir}/${compositeDir}"
-    //    include ('onlineInventory.xml', 'README-HMT-archive.md', "*.rng")
     include (textInventory, 'README-HMT-archive.md', "*.rng")
     filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
     rename { String fileName ->
@@ -44,7 +41,9 @@ task inv (type: Copy) {
       fileName.replace('test','')
     }
 }
-
+inv.doFirst {
+  println "Copy from " + inventoriesDir
+}
 
 ///////////////////////////////////////////////////////////////////////////
 //// Tasks for assembling Venetus A editions from source material
@@ -282,6 +281,6 @@ class VenetusATask extends DefaultTask {
 
 
 
-task cts (dependsOn: [venetusA, furmanEditions, translations]){
+task cts (dependsOn: [venetusA, furmanEditions, translations, inv]){
   description = "Generates cts repository for all texts"
 }
