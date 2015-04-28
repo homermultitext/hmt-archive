@@ -64,16 +64,9 @@ subprojects {
 }
 
 
-task tab {
-  description = "Tabulates all texts in automatically built CTS repository"
-}
-tab.dependsOn(":ctsbldr:cts")
-tab.doLast {
-  println "\n\nInvoke h-p to tabulate"
-}
 
 
-task hmt ( dependsOn: [tab, "citebldr:cite"]) {
+task hmt ( dependsOn: ["textmgr:ctstab", "citebldr:cite"]) {
   description = "Assemble HMT publication."
 }
 
