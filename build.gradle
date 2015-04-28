@@ -88,3 +88,12 @@ vmap.doLast {
   }
   println ""
 }
+
+
+
+
+task checker (dependsOn: ":citebldr:cite") {
+  doLast {
+    println "Needed to run CITE task!"
+  }
+}

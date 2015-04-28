@@ -84,6 +84,15 @@ task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
     classpath configurations.runtime
 }
 
+
+
+
+task translations (type: Copy) {
+    description = "Copies translations of texts into build area."
+    from ("${rootProject.projectDir}/${editionsDir}/translations")
+    into "${buildDir}/${compositeDir}/translations"
+}
+
 task copyIndices (type: Copy, dependsOn: [setUpBuild]) {
     description = "Filters manually prepared index files for publishing in CITE Index archive."
     from ("${rootProject.projectDir}/archive/indices") {
@@ -96,6 +105,8 @@ task copyIndices (type: Copy, dependsOn: [setUpBuild]) {
 task indices(dependsOn: [copyIndices,indexVenetusAScholia]) {
   description = "Prepares CITE Index repository from HMT source"
 }
+
+
 
 //////////////////////////////////////////////////////
 
@@ -120,8 +131,17 @@ task images (type: Copy, dependsOn: [setUpBuild]) {
 
 
 
+class CiteTask extends DefaultTask {
+  @OutputDirectory
+  File citeArchive
 
+  @TaskAction
+  def msg() {
+    System.out.println "All CITE repositories compiled in build area."
+  }
+}
 
-task cite(dependsOn: [collections, indices, images]) {
+task cite(type: CiteTask, dependsOn: [collections, indices, images]) {
   description = "Compile all CITE repositories"
+  citeArchive = file("${buildDir}/archive")
 }

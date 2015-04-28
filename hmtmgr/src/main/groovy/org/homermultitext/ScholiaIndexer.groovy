@@ -62,7 +62,7 @@ class ScholiaIndexer {
 	    
 	    txt[tei.body][tei.div].each { schol ->
 	      String scholionId = schol.'@n'
-	      System.err.println "\tScholion id is " + scholionId
+	      //System.err.println "\tScholion id is " + scholionId
 	      schol[tei.div].each { d ->
 		switch (d.'@type') {
 		case "ref":
