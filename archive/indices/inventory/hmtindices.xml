@@ -6,14 +6,14 @@
     <rdfNamespace abbr="dse" fullValue="http://www.homermultitext.org/dse/rdf/"></rdfNamespace>
     
     
-   <!-- TEMPORARY:  until this is automated with upgraded CITE Collections-->
+   <!-- TEMPORARY:  until this is automated with upgraded CITE Collections
     <index verb="dse:appearsOn" inverse="dse:hasOnIt">
         <source type="file" value="temp/scholiaToTbs.csv"></source>
     </index>
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="temp/scholiaToImage.csv"></source>
     </index>
-
+-->
     <!-- BEGIN: Tracking editorial status by MS-->
    <index verb="hmt:editStatus" inverse="hmt:statusOf">
         <source type="file" value="thermometer/venetusA.csv"/>

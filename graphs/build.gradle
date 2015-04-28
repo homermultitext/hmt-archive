@@ -12,8 +12,6 @@ buildscript {
     classpath group: 'edu.holycross.shot', name : 'prestochango' , version: versionMap['prestochango']
     classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: versionMap['abracadabra']
     classpath group: 'edu.holycross.shot', name : 'nysi' , version: versionMap['nysi']
-
-    //classpath group:       'org.homermultitext', name : 'hmt-utils', version: versionMap['hmtutils']
   }
 }
 
@@ -52,8 +50,16 @@ ctsttl.doLast {
 task imgttl(dependsOn: [":citebldr:cite"]) {
   description = "Generates RDF for configured NYSI"
 }
+imgttl.doFirst {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+}
 imgttl.doLast {
-  ImgTurtleizer imgttl = new ImgTurtleizer("${rootProject.rootDir}/citebldr/build/archive/images")
+  File imageDir = new File("${buildDir}/images")
+  if (! imageDir.exists()) {
+    imageDir.mkdir()
+  }
     
   File rdfDir = new File("${buildDir}/ttl")
   if (! rdfDir.exists()) {
@@ -61,18 +67,10 @@ imgttl.doLast {
   }
   File ttlFile = new File(rdfDir,"citeimgs.ttl")  
 
-  File imageDir = new File("${buildDir}/images")
-  if (! buildDir.exists()) {
-    buildDir.mkdir()
-  }
-  if (! imageDir.exists()) {
-    imageDir.mkdir()
-  }
-
+  ImgTurtleizer imgttl = new ImgTurtleizer("${rootProject.rootDir}/citebldr/build/archive/images")
   boolean prefix = project.hasProperty("prefix-all")
   imgttl.ttl(ttlFile, prefix)
 }
-
 
 
 task ccttl(dependsOn: [":citebldr:cite"]) {
@@ -101,110 +99,61 @@ ccttl.doLast {
 
 
 
-/*
-task idxttl () {
+
+task idxttl (dependsOn: [":citebldr:cite"]) {
   description = "Generates RDF for indices configured for abracadabra"
 }
-idxttl.doLast {
-  boolean prefix = project.hasProperty("prefix-all")
-
-  File inv 
-  File idxDir
-
-  if ((idxinv != "") && (idxarchive != ""))   {
-    try {
-      inv = new File("${idxinv}")
-      idxDir = new File("${idxarchive}")
-    } catch (Exception e) {
-      System.err.println "idxttl: unable to make index inventory and archive."
-      throw e
-    }
-    CiteIndex idx = new CiteIndex(inv, idxDir)
-
-    if (! buildDir.exists()) {
-      buildDir.mkdir()
-    }
-    File ttlDir = new File(buildDir, "ttl")
-    if (! ttlDir.exists()) {
-      ttlDir.mkdir()
-    }
-    File outFile = new  File (ttlDir,"indices.ttl")
-    idx.ttl(outFile, prefix)
+idxttl.doFirst {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
   }
-}
 
+}
+idxttl.doLast {
+  File ttlDir = new File(buildDir, "ttl")
+  if (! ttlDir.exists()) {
+    ttlDir.mkdir()
+  }
+  File outFile = new  File (ttlDir,"indices.ttl")
+
+  
+  File inv = new File("${rootProject.rootDir}/citebldr/build/archive/indices/inventory/hmtindices.xml")
+  File idxDir = new File("${rootProject.rootDir}/citebldr/build/archive/indices")
+  CiteIndex idx = new CiteIndex(inv, idxDir)
+
+  boolean prefix = project.hasProperty("prefix-all")
+  idx.ttl(outFile, prefix)
+}
 
 task ttl (dependsOn: [ctsttl, imgttl, ccttl, idxttl]) {
   description = "Concatenates separate TTL files into a single graph."
-  doLast {
-    String charEnc = "UTF-8"
-    String prefix = "${prefixString}"
+}
+ttl.doLast {
+  String charEnc = "UTF-8"
+  String prefix = ttlPrefix
 
-    File ctsttl = new File("${buildDir}/ttl/cts.ttl")
-    File collectionsttl = new File("${buildDir}/ttl/collections.ttl")
-    File idxttl = new File("${buildDir}/ttl/indices.ttl")
-    File citeimgttl = new File("${buildDir}/ttl/citeimgs.ttl")
+  File ctsttl = new File("${buildDir}/ttl/cts.ttl")
+  File collectionsttl = new File("${buildDir}/ttl/collections.ttl")
+  File idxttl = new File("${buildDir}/ttl/indices.ttl")
+  File citeimgttl = new File("${buildDir}/ttl/citeimgs.ttl")
+  
+  def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
+  
+  File ttl = new File("${buildDir}/ttl/all.ttl")        
+  ttl.append( prefix )
 
-    def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
-
-    File ttl = new File("${buildDir}/ttl/all.ttl")        
-    ttl.append( prefix )
-
-    srcFiles.each {  f ->
-      if (f.exists()) {
-	ttl.withWriterAppend(charEnc) {writer -> 
-	  f.newReader(charEnc).eachLine {String line -> 
-	    writer << "\n${line}"         
-	  } 
-	}
-      } }
-*/
-// too slow to tolerate :-(
-/*
-        System.err.println "Adding data from cts ttl ..."
-        ctsttl.eachLine(charEnc) {
-            ttl.append("${it}\n")
-        }
-
-        System.err.println "Adding data from collections ttl ..."
-        collectionsttl.eachLine(charEnc) {
-            ttl.append("${it}\n")
-        }
-
-
-        System.err.println "Adding data from index ttl ..."
-        idxttl.eachLine(charEnc) {
-            ttl.append("${it}\n")
-        }
-
-
-
-        System.err.println "Adding data from image ttl ..."
-        citeimgttl.eachLine(charEnc) {
-            ttl.append("${it}\n")
-        }
-*/
-
-// Big project runs out of memory with this approach :-(
-//+ ctsttl.getText(charEnc) + collectionsttl.getText(charEnc) + idxttl.getText(charEnc) + citeimgttl.getText(charEnc), charEnc)
-/*
-
-        System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
+  srcFiles.each {  f ->
+    if (f.exists()) {
+      ttl.withWriterAppend(charEnc) {writer -> 
+	f.newReader(charEnc).eachLine {String line -> 
+	  writer << "\n${line}"         
+	} 
+      }
     }
+  }
+  System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
 }
 
 
 
-
-
-task zipTtl(type: Zip, dependsOn: [ttl]) {
-  description = "Builds a zip file of all TTL output"
-  from(file("${buildDir}/ttl"))
-  include("** / *.ttl")
-}
-
-artifacts {
-  rdf zipTtl
-}
-*/
 
