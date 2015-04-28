@@ -13,12 +13,12 @@ ext {
 
     //Catalog these:
     versionMap = [
-      "cite" : "0.93.0",
-      "hocuspocus" :  '0.12.3',
-      "prestochango" : '0.3.6',
       "abracadabra" :  '0.3.0',
-      "nysi" :  '0.2.2',
+      "cite" : "0.93.2",
+      "greekutils" : "0.8.5",
       "hmtutils" : '0.3.0',
-      "greekutils" : "0.8.5"
+      "hocuspocus" :  '0.12.5',
+      "nysi" :  '0.2.2',
+      "prestochango" : '0.3.6'
       ]    
 }
