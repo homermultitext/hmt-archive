@@ -4,8 +4,6 @@ apply plugin: "base"
 apply plugin:  "groovy"
 apply plugin:  "maven"
 
-
-
 apply from: "${projectDir}/confs/versions.gradle"
 
 
@@ -27,8 +25,6 @@ if (project.hasProperty('conf')) {
         apply from: "${projectDir}/confs/conf.gradle"
     }
 }
-
-
 
 if (project.hasProperty("nightly")) {
     projectVersion = "${new Date().format('yyyy-MM-dd')}".toString()
@@ -75,3 +71,20 @@ hmt.doLast {
 }
 
 
+task vmap {
+  description = "Prints out version info for key dependencies."
+}
+vmap.doLast {
+  println "\nDependencies in hmt-archive ${version}:"
+  versionMap.keySet().sort().each { k ->
+    print k
+    Integer spaces = 15 - k.size()
+    Integer idx = 0
+    while(idx < spaces) {
+      print " "
+      idx++
+    }
+    println versionMap[k]
+  }
+  println ""
+}

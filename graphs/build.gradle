@@ -1,0 +1,210 @@
+
+
+buildscript {
+  repositories {
+    mavenCentral()
+    maven {
+      url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+    }
+  }
+  dependencies {
+    classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: versionMap['hocuspocus']
+    classpath group: 'edu.holycross.shot', name : 'prestochango' , version: versionMap['prestochango']
+    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: versionMap['abracadabra']
+    classpath group: 'edu.holycross.shot', name : 'nysi' , version: versionMap['nysi']
+
+    //classpath group:       'org.homermultitext', name : 'hmt-utils', version: versionMap['hmtutils']
+  }
+}
+
+import edu.holycross.shot.hocuspocus.Corpus
+import edu.holycross.shot.prestochango.CollectionArchive
+import edu.holycross.shot.abracadabra.CiteIndex
+import edu.holycross.shot.nysi.ImgTurtleizer
+
+
+apply plugin: "base"
+
+
+task ctsttl(dependsOn : ":textmgr:ctstab") {
+  description = "Generates TTL statements about text contents"
+}
+ctsttl.doLast {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  File inv =  new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml")
+  File archiveDir = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive")
+  File schema = new File("${rootProject.rootDir}/schemas/cts/Textinventory.rng")
+  Corpus c = new Corpus(inv,archiveDir, schema)
+
+  File ttlDir = new File(buildDir, "ttl")
+  if (! ttlDir.exists()) {
+    ttlDir.mkdir()
+  }
+  File ttlFile = new File(ttlDir,"cts.ttl")
+  boolean prefix = project.hasProperty("prefix-all")
+  c.ttl(ttlFile, prefix, ttlDir)
+}
+
+
+
+task imgttl(dependsOn: [":citebldr:cite"]) {
+  description = "Generates RDF for configured NYSI"
+}
+imgttl.doLast {
+  ImgTurtleizer imgttl = new ImgTurtleizer("${rootProject.rootDir}/citebldr/build/archive/images")
+    
+  File rdfDir = new File("${buildDir}/ttl")
+  if (! rdfDir.exists()) {
+    rdfDir.mkdir()
+  }
+  File ttlFile = new File(rdfDir,"citeimgs.ttl")  
+
+  File imageDir = new File("${buildDir}/images")
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  if (! imageDir.exists()) {
+    imageDir.mkdir()
+  }
+
+  boolean prefix = project.hasProperty("prefix-all")
+  imgttl.ttl(ttlFile, prefix)
+}
+
+
+
+task ccttl(dependsOn: [":citebldr:cite"]) {
+  description = "Generates RDF for Collections configured for prestochango"
+}
+ccttl.doFirst {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+}
+ccttl.doLast {  
+  File schemaFile = new File("${rootProject.rootDir}/schemas/cite/CiteCollectionInventory.rng")
+  File invFile = new File("${rootProject.rootDir}/citebldr/build/archive/collections/inventory/hmtcollections.xml")
+  File archiveDir = new File("${rootProject.rootDir}/citebldr/build/archive/collections")
+  
+  File ttlDir = new File(buildDir, "ttl")
+  if (! ttlDir.exists()) {
+    ttlDir.mkdir()
+  }
+  File rdfFile = new File(ttlDir, "collections.ttl")
+  
+  CollectionArchive cc = new CollectionArchive(invFile, schemaFile, archiveDir)
+  boolean prefix = project.hasProperty("prefix-all")
+  cc.ttl(rdfFile, prefix)
+}
+
+
+
+/*
+task idxttl () {
+  description = "Generates RDF for indices configured for abracadabra"
+}
+idxttl.doLast {
+  boolean prefix = project.hasProperty("prefix-all")
+
+  File inv 
+  File idxDir
+
+  if ((idxinv != "") && (idxarchive != ""))   {
+    try {
+      inv = new File("${idxinv}")
+      idxDir = new File("${idxarchive}")
+    } catch (Exception e) {
+      System.err.println "idxttl: unable to make index inventory and archive."
+      throw e
+    }
+    CiteIndex idx = new CiteIndex(inv, idxDir)
+
+    if (! buildDir.exists()) {
+      buildDir.mkdir()
+    }
+    File ttlDir = new File(buildDir, "ttl")
+    if (! ttlDir.exists()) {
+      ttlDir.mkdir()
+    }
+    File outFile = new  File (ttlDir,"indices.ttl")
+    idx.ttl(outFile, prefix)
+  }
+}
+
+
+task ttl (dependsOn: [ctsttl, imgttl, ccttl, idxttl]) {
+  description = "Concatenates separate TTL files into a single graph."
+  doLast {
+    String charEnc = "UTF-8"
+    String prefix = "${prefixString}"
+
+    File ctsttl = new File("${buildDir}/ttl/cts.ttl")
+    File collectionsttl = new File("${buildDir}/ttl/collections.ttl")
+    File idxttl = new File("${buildDir}/ttl/indices.ttl")
+    File citeimgttl = new File("${buildDir}/ttl/citeimgs.ttl")
+
+    def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
+
+    File ttl = new File("${buildDir}/ttl/all.ttl")        
+    ttl.append( prefix )
+
+    srcFiles.each {  f ->
+      if (f.exists()) {
+	ttl.withWriterAppend(charEnc) {writer -> 
+	  f.newReader(charEnc).eachLine {String line -> 
+	    writer << "\n${line}"         
+	  } 
+	}
+      } }
+*/
+// too slow to tolerate :-(
+/*
+        System.err.println "Adding data from cts ttl ..."
+        ctsttl.eachLine(charEnc) {
+            ttl.append("${it}\n")
+        }
+
+        System.err.println "Adding data from collections ttl ..."
+        collectionsttl.eachLine(charEnc) {
+            ttl.append("${it}\n")
+        }
+
+
+        System.err.println "Adding data from index ttl ..."
+        idxttl.eachLine(charEnc) {
+            ttl.append("${it}\n")
+        }
+
+
+
+        System.err.println "Adding data from image ttl ..."
+        citeimgttl.eachLine(charEnc) {
+            ttl.append("${it}\n")
+        }
+*/
+
+// Big project runs out of memory with this approach :-(
+//+ ctsttl.getText(charEnc) + collectionsttl.getText(charEnc) + idxttl.getText(charEnc) + citeimgttl.getText(charEnc), charEnc)
+/*
+
+        System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
+    }
+}
+
+
+
+
+
+task zipTtl(type: Zip, dependsOn: [ttl]) {
+  description = "Builds a zip file of all TTL output"
+  from(file("${buildDir}/ttl"))
+  include("** / *.ttl")
+}
+
+artifacts {
+  rdf zipTtl
+}
+*/
+
