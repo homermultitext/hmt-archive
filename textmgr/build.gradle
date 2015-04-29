@@ -16,7 +16,23 @@ apply plugin: "base"
 
 task ctstab(dependsOn: ":ctsbldr:cts") {
   description = "Generates a tabular representation of all texts in configured text archive."
+
+  inputs.file "${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml"
+  inputs.file "${rootProject.rootDir}/ctsbldr/build/editions/archive"
+  inputs.file "${rootProject.rootDir}/schemas/cts/Textinventory.rng"
+
+  outputs.dir "${buildDir}/tabs"
+  
+  doLast {
+    File inv =  new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml")
+    File textArchive = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive")
+    File schema = new File("${rootProject.rootDir}/schemas/cts/Textinventory.rng")
+
+    Corpus c = new Corpus(inv, textArchive, schema)
+    c.tabulateRepository(new File(buildDir, "tabs"))
+  }
 }
+/*
 ctstab.doFirst() {
   if (! buildDir.exists()) {
     buildDir.mkdir()
@@ -27,13 +43,5 @@ ctstab.doFirst() {
   }
   println "Beginning to tabulate texts..."
 }
-ctstab.doLast() {
-  File inv =  new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml")
-  File textArchive = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive")
-  File schema = new File("${rootProject.rootDir}/schemas/cts/Textinventory.rng")
 
-  Corpus c = new Corpus(inv, textArchive, schema)
-  c.tabulateRepository(new File(buildDir, "tabs"))
-}
-
-
+*/
