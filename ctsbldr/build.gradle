@@ -337,28 +337,10 @@ task furmanEditions (type: Copy) {
 }
 
 
-
-
-//task venetusA(type: VenetusATask, dependsOn: [venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, venAOther])  {
-
 task venetusA(dependsOn: [venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, venAOther])  {
   description = "Assembles all Venetus A texts"
   outputs.dir "${buildDir}/${compositeDir}"
 }
-
-
-/*
-class VenetusATask extends DefaultTask {
-  @OutputDirectory
-  File editionsArchive
-
-  @TaskAction
-  def msg() {
-    System.err.println "All venetusA texts validated syntactically."
-  }
-}
-
-*/
 
 task cts (dependsOn: [venetusA, furmanEditions, translations, inv]){
   description = "Generates cts repository for all texts"
