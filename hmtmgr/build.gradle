@@ -1,11 +1,16 @@
+apply plugin: "base"
+
 apply plugin: "java"
 apply plugin: "groovy"
-
+repositories {
+  mavenCentral()
+  maven  {
+    url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+  }
+}
 dependencies {
   compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "2.0.6"
   compile group: "commons-io", name: "commons-io", version: "2.4"
   compile group: 'org.homermultitext', name : 'hmt-utils' , version: versionMap["hmtutils"]
-  compile group: 'edu.harvard.chs', name : 'cite' , version: versionMap["cite"]	
+  compile group: 'edu.harvard.chs', name : 'cite' , version: versionMap["cite"]
 }
-
-

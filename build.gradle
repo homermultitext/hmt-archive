@@ -48,15 +48,40 @@ buildscript {
 allprojects {
   group = "org.homermultitext"
   version = projectVersion
+
+  task vmap << { task ->
+    println "\nDependencies for ${version} in ${task.project.name}:"
+    versionMap.keySet().sort().each { k ->
+      print k
+      Integer spaces = 15 - k.size()
+      Integer idx = 0
+      while(idx < spaces) {
+	print " "
+	idx++
+	  }
+      println versionMap[k]
+    }
+    println ""
+  }
 }
 
 subprojects {
-    repositories {
-        mavenCentral()
-	maven  {
-	  url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
-	}
+  /*
+  apply plugin: "java"
+  apply plugin: "groovy"
+  repositories {
+    mavenCentral()
+    maven  {
+      url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
     }
+  }
+  dependencies {
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "2.0.6"
+    compile group: "commons-io", name: "commons-io", version: "2.4"
+    compile group: 'org.homermultitext', name : 'hmt-utils' , version: versionMap["hmtutils"]
+    compile group: 'edu.harvard.chs', name : 'cite' , version: versionMap["cite"]
+  }
+  */
 }
 
 
@@ -68,25 +93,6 @@ task hmt ( dependsOn: ["textmgr:ctstab", "citebldr:cite"]) {
 
 hmt.doLast {
   println "\n\nBuilt the HMT."
-}
-
-
-task vmap {
-  description = "Prints out version info for key dependencies."
-}
-vmap.doLast {
-  println "\nDependencies in hmt-archive ${version}:"
-  versionMap.keySet().sort().each { k ->
-    print k
-    Integer spaces = 15 - k.size()
-    Integer idx = 0
-    while(idx < spaces) {
-      print " "
-      idx++
-    }
-    println versionMap[k]
-  }
-  println ""
 }
 
 

@@ -20,10 +20,32 @@ import edu.holycross.shot.prestochango.CollectionArchive
 import edu.holycross.shot.abracadabra.CiteIndex
 import edu.holycross.shot.nysi.ImgTurtleizer
 
+import edu.holycross.shot.hocuspocus.CtsTtl
+import edu.harvard.chs.cite.*
 
 apply plugin: "base"
 
 
+task hpv {
+  File tiFile = new File( "/Users/nsmith/repos/hmt-git/hmt-archive/testarchive/inventory.xml")
+  TextInventory inv = new TextInventory(tiFile)
+  CtsTtl ttler = new CtsTtl(inv)
+  //println "CtsTtl has release version " + ttler.getRelease()
+}
+
+task invttl() {
+}
+invttl.doLast {
+    File tiFile = new File( "/Users/nsmith/repos/hmt-git/hmt-archive/testarchive/inventory.xml")
+    TextInventory inv = new TextInventory(tiFile)
+    CtsTtl ttler = new CtsTtl(inv)
+
+    File canOut = new File(buildDir, "can.txt")
+    StringBuilder sb = new StringBuilder()
+    sb.append( "From release version " + ttler.getRelease() + "\n")
+    sb.append( ttler.turtleizeInv())
+
+}
 task ctsttl(dependsOn : ":textmgr:ctstab") {
   description = "Generates TTL statements about text contents"
 }
@@ -31,11 +53,24 @@ ctsttl.doLast {
   if (! buildDir.exists()) {
     buildDir.mkdir()
   }
+  /*
   File inv =  new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml")
   File archiveDir = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive")
   File schema = new File("${rootProject.rootDir}/schemas/cts/Textinventory.rng")
+  
+  // 
+  
   Corpus c = new Corpus(inv,archiveDir, schema)
+  */
 
+  File tiFile = new File( "/Users/nsmith/repos/hmt-git/hmt-archive/ctsbldr/build/editions/archive/inventory.xml")
+  File archive = new File( "/Users/nsmith/repos/hmt-git/hmt-archive/ctsbldr/build/editions/archive")
+   File schema = new File("/Users/nsmith/repos/cite-architecture-github/hocuspocus/testdata/testcorpus2/TextInventory.rng")
+    
+  Corpus c = new Corpus (tiFile, archive, schema)
+  c.ttl(new File(buildDir,"hmtall.ttl"), buildDir)
+
+  /*
   File ttlDir = new File(buildDir, "ttl")
   if (! ttlDir.exists()) {
     ttlDir.mkdir()
@@ -43,6 +78,7 @@ ctsttl.doLast {
   File ttlFile = new File(ttlDir,"cts.ttl")
   boolean prefix = project.hasProperty("prefix-all")
   c.ttl(ttlFile, prefix, ttlDir)
+  */
 }
 
 
