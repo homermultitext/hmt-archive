@@ -1,3 +1,4 @@
+
 import org.apache.tools.ant.filters.*
 
 // Subproject to assemble CITE repositories from the
@@ -7,10 +8,22 @@ import org.apache.tools.ant.filters.*
 apply plugin: "base"
 apply plugin: "java"
 apply plugin: "groovy"
-
-dependencies {
-     compile project(':hmtmgr')
+repositories {
+  mavenCentral()
+  maven  {
+    url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+  }
 }
+dependencies {
+  compile project(':hmtmgr')
+  compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "2.0.6"
+  compile group: "commons-io", name: "commons-io", version: "2.4"
+  compile group: 'org.homermultitext', name : 'hmt-utils' , version: versionMap["hmtutils"]
+  compile group: 'edu.harvard.chs', name : 'cite' , version: versionMap["cite"]
+}
+
+
+
 
 task setUpBuild {
   if (! buildDir.exists()) {
@@ -57,6 +70,10 @@ task compileScholiaCollection (type: JavaExec, dependsOn: setUpBuild) {
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
+
+
+    inputs.dir "${rootProject.projectDir}/archive/collections/scholiaInventory"
+    outputs.dir "${buildDir}/archive/collections"
 }
 
 task collections (dependsOn: [copyCollections, compileScholiaCollection]){
@@ -82,6 +99,9 @@ task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    outputs.file "${buildDir}/archive/indices/scholiaToIliad.tsv"
 }
 
 
@@ -130,7 +150,7 @@ task images (type: Copy, dependsOn: [setUpBuild]) {
 
 
 
-
+/*
 class CiteTask extends DefaultTask {
   @OutputDirectory
   File citeArchive
@@ -140,8 +160,9 @@ class CiteTask extends DefaultTask {
     System.out.println "All CITE repositories compiled in build area."
   }
 }
-
-task cite(type: CiteTask, dependsOn: [collections, indices, images]) {
+*/
+//task cite(type: CiteTask, dependsOn: [collections, indices, images]) {
+task cite(dependsOn: [collections, indices, images]) {
   description = "Compile all CITE repositories"
-  citeArchive = file("${buildDir}/archive")
+  outputs.dir "${buildDir}/archive"
 }
