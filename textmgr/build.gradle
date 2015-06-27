@@ -32,7 +32,7 @@ task ctstab(dependsOn: ":ctsbldr:cts") {
     c.tabulateRepository(new File(buildDir, "tabs"))
   }
 }
-/*
+
 ctstab.doFirst() {
   if (! buildDir.exists()) {
     buildDir.mkdir()
@@ -44,4 +44,3 @@ ctstab.doFirst() {
   println "Beginning to tabulate texts..."
 }
 
-*/
