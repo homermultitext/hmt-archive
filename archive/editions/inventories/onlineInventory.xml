@@ -10,6 +10,7 @@
     <description
       xml:lang="eng"> The CHS inventory of Greek texts. </description>
   </ctsnamespace>
+  <!--
   <textgroup urn="urn:cts:greekLit:4036scholia:">
     <groupname xml:lang="eng">Scholia to works of Proclus</groupname>
     <work urn="urn:cts:greekLit:4036scholia.chrest:" xml:lang="grc">
@@ -29,6 +30,7 @@
       </edition>
     </work>
   </textgroup>
+  -->
   <textgroup
     urn="urn:cts:greekLit:tlg0012:">
     <groupname
@@ -146,13 +148,15 @@
       </edition>-->
     </work>
   </textgroup>
+  
+  <!--
   <textgroup
     urn="urn:cts:greekLit:tlg5026:">
     <groupname
       xml:lang="eng"> Scholia to the Iliad</groupname>
-    <!--
+   
     <work urn="urn:cts:greekLit:tlg5026.e3" xml:lang="grc">
-      <title xml:lang="eng"> Main scholia</title>
+      <title xml:lang="eng"> Main scholia</title> 
       <edition urn="urn:cts:greekLit:tlg5026.e3.hmt">
         <label xml:lang="eng">Upsilon 1.1</label>
         <description xml:lang="eng">Main scholia of the Escorial manuscript, Upsilon 1.1</description>
@@ -172,6 +176,8 @@
     </work>
     
     -->
+    
+    <!--
     <work
       urn="urn:cts:greekLit:tlg5026.msA:"
       xml:lang="grc">
@@ -387,10 +393,13 @@
             </citation>
           </citationMapping>
         </online>
-      </edition>
+      </edition>  
     </work>
+
   </textgroup>
+  -->
   <!-- Other texts in the Venetus A -->
+  
   <textgroup
     urn="urn:cts:greekLit:tlg4036:">
     <groupname
@@ -599,6 +608,7 @@
       </edition>
     </work>
   </textgroup>
+  
   <textgroup
     urn="urn:cts:greekLit:tlg7000:">
     <groupname
@@ -640,6 +650,10 @@
       </edition>
     </work>
   </textgroup>
+
+  
+  
+  
   <!--
     <textgroup urn="urn:cts:greekLit:tlg0059">
     <groupname xml:lang="eng">Plato</groupname>
@@ -662,8 +676,8 @@
 
     </work>
   </textgroup>
-  -->
-  <!--<textgroup urn="urn:cts:greekLit:tlg0026">
+  
+  <textgroup urn="urn:cts:greekLit:tlg0026">
     <groupname xml:lang="eng">Aeschines</groupname>
     <work urn="urn:cts:greekLit:tlg0026.tlg001" xml:lang="grc">
       <title xml:lang="eng">Against Timarchus</title>
