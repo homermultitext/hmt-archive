@@ -197,13 +197,14 @@ urn:cts:greekLit:tlg0012.tlg001.msA:2.180	urn:cite:hmt:critsigns.asteriskos
 urn:cts:greekLit:tlg0012.tlg001.msA:2.184	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:2.186	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:2.187	urn:cite:hmt:critsigns.diple
-urn:cts:greekLit:tlg0012.tlg001.msA:2.188	
+urn:cts:greekLit:tlg0012.tlg001.msA:2.188	urn:cite:hmt:critsigns.reversedottedantisgma
 urn:cts:greekLit:tlg0012.tlg001.msA:2.189	urn:cite:hmt:critsigns.diple
-urn:cts:greekLit:tlg0012.tlg001.msA:2.192	
+urn:cts:greekLit:tlg0012.tlg001.msA:2.192	urn:cite:hmt:critsigns.reversedottedantisgma
 urn:cts:greekLit:tlg0012.tlg001.msA:2.193	urn:cite:hmt:critsigns.obelos
 urn:cts:greekLit:tlg0012.tlg001.msA:2.194	urn:cite:hmt:critsigns.obelos
 urn:cts:greekLit:tlg0012.tlg001.msA:2.195	urn:cite:hmt:critsigns.obelos
-urn:cts:greekLit:tlg0012.tlg001.msA:2.196	
+urn:cts:greekLit:tlg0012.tlg001.msA:2.196	urn:cite:hmt:critsigns.dotteddiple
+urn:cts:greekLit:tlg0012.tlg001.msA:2.196	urn:cite:hmt:critsigns.obelos
 urn:cts:greekLit:tlg0012.tlg001.msA:2.197	urn:cite:hmt:critsigns.obelos
 urn:cts:greekLit:tlg0012.tlg001.msA:2.203	urn:cite:hmt:critsigns.dottedantisigma
 urn:cts:greekLit:tlg0012.tlg001.msA:2.204	urn:cite:hmt:critsigns.dottedantisigma
@@ -534,7 +535,8 @@ urn:cts:greekLit:tlg0012.tlg001.msA:4.295	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:4.302	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:4.307	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:4.315	urn:cite:hmt:critsigns.diple
-urn:cts:greekLit:tlg0012.tlg001.msA:4.320	urn:cite:hmt:critsigns.obelos※
+urn:cts:greekLit:tlg0012.tlg001.msA:4.320	urn:cite:hmt:critsigns.obelos
+urn:cts:greekLit:tlg0012.tlg001.msA:4.320	urn:cite:hmt:critsigns.asteriskos
 urn:cts:greekLit:tlg0012.tlg001.msA:4.325	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:4.331	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:4.339	urn:cite:hmt:critsigns.dotteddiple
@@ -874,7 +876,8 @@ urn:cts:greekLit:tlg0012.tlg001.msA:7.255	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:7.273	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:7.276	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:7.282	urn:cite:hmt:critsigns.asteriskos
-urn:cts:greekLit:tlg0012.tlg001.msA:7.293	urn:cite:hmt:critsigns.obelos※
+urn:cts:greekLit:tlg0012.tlg001.msA:7.293	urn:cite:hmt:critsigns.obelos
+urn:cts:greekLit:tlg0012.tlg001.msA:7.293	urn:cite:hmt:critsigns.asteriskos
 urn:cts:greekLit:tlg0012.tlg001.msA:7.295	urn:cite:hmt:critsigns.obelos
 urn:cts:greekLit:tlg0012.tlg001.msA:7.303	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:7.305	urn:cite:hmt:critsigns.diple
@@ -1562,8 +1565,10 @@ urn:cts:greekLit:tlg0012.tlg001.msA:11.785	urn:cite:hmt:critsigns.obelos
 urn:cts:greekLit:tlg0012.tlg001.msA:11.786	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:11.794	urn:cite:hmt:critsigns.dotteddiple
 urn:cts:greekLit:tlg0012.tlg001.msA:11.795	urn:cite:hmt:critsigns.dotteddiple
-urn:cts:greekLit:tlg0012.tlg001.msA:11.802	urn:cite:hmt:critsigns.obelos※
-urn:cts:greekLit:tlg0012.tlg001.msA:11.803	urn:cite:hmt:critsigns.obelos※
+urn:cts:greekLit:tlg0012.tlg001.msA:11.802	urn:cite:hmt:critsigns.obelos
+urn:cts:greekLit:tlg0012.tlg001.msA:11.802	urn:cite:hmt:critsigns.asteriskos
+urn:cts:greekLit:tlg0012.tlg001.msA:11.803	urn:cite:hmt:critsigns.obelos
+urn:cts:greekLit:tlg0012.tlg001.msA:11.803	urn:cite:hmt:critsigns.asteriskos
 urn:cts:greekLit:tlg0012.tlg001.msA:11.807	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:11.817	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:11.824	urn:cite:hmt:critsigns.diple
@@ -2090,7 +2095,8 @@ urn:cts:greekLit:tlg0012.tlg001.msA:16.203	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:16.222	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:16.234	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:16.236	urn:cite:hmt:critsigns.diple
-urn:cts:greekLit:tlg0012.tlg001.msA:16.237	urn:cite:hmt:critsigns.obelos※
+urn:cts:greekLit:tlg0012.tlg001.msA:16.237	urn:cite:hmt:critsigns.obelos
+urn:cts:greekLit:tlg0012.tlg001.msA:16.237	urn:cite:hmt:critsigns.asteriskos
 urn:cts:greekLit:tlg0012.tlg001.msA:16.239	urn:cite:hmt:critsigns.diple
 urn:cts:greekLit:tlg0012.tlg001.msA:16.243	urn:cite:hmt:critsigns.dotteddiple
 urn:cts:greekLit:tlg0012.tlg001.msA:16.260	urn:cite:hmt:critsigns.diple
