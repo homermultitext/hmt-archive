@@ -5012,8 +5012,8 @@ style simple scholia" alternate="no"?>
                      </div>
                      <div type="comment">
                         <p>ὅμοιόν ἐστι τὸ ἡνιοχῆας δισσοὶ δέ εισὶν οἱ Αἰθίοπες ὑπο <placeName
-                              type="place62">Νείλου</placeName> ὁριζόμενοι ὡς ἡ <placeName
-                              type="place63">Ϊθάκη</placeName> καὶ αἱ λοιπαὶ νῆσοι τινὲς δὲ
+                              type="urn:cite:hmt:place.place62">Νείλου</placeName> ὁριζόμενοι ὡς ἡ <placeName
+                                 type="urn:cite:hmt:place.place63">Ϊθάκη</placeName> καὶ αἱ λοιπαὶ νῆσοι τινὲς δὲ
                            γράφουσιν <q>μετα <persName n="urn:cite:hmt:pers.pers177">Μέμνονας</persName>
                            Αἰθιοπῆας</q>. ἔθνος δὲ οὗτοι⁑</p>
                      </div>
@@ -5049,7 +5049,7 @@ style simple scholia" alternate="no"?>
                            τῷ <rs type="waw">ς</rs>
                            <title>Προς τὰς ἐξηγήσεις</title>
                            <note>fr. 27</note>, καὶ τὸ θεοὶ δὲ πάντες <rs type="waw">ἔπονται</rs>
-                           δια τοῦ <rs type="waw">αι</rs>:</p>
+                           δια τοῦ <rs type="waw">αι</rs>·</p>
                      </div>
                   </div>
                   <div ana="425" n="1071" type="scholion">
@@ -5156,7 +5156,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.440</p>
                      </div>
                      <div type="comment">
-                        <p>τὰ ἐπίθετα <persName n="118">Ὀδυσσέως</persName>
+                        <p>τὰ ἐπίθετα <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσέως</persName>
                            <cit>
                               <q><persName n="urn:cite:hmt:pers.pers8"><seg type="word"
                                     >δ<unclear>ῖ</unclear>ος</seg></persName>
@@ -5645,7 +5645,7 @@ style simple scholia" alternate="no"?>
                      </div>
                      <div type="comment">
                         <p>ὅτι εἰ μη προϊστορήσαμεν τὰ περι τῶν δεσμῶν ἐφ ὦν ἡ <persName n="urn:cite:hmt:pers.pers19"
-                              >Θέτις</persName> ἐβοήθησεν αὐτῷ· ἐζητοῦμεν ἂν τί αὐτὸν ὤνησεν:</p>
+                           >Θέτις</persName> ἐβοήθησεν αὐτῷ· ἐζητοῦμεν ἂν τί αὐτὸν ὤνησεν·</p>
                      </div>
                   </div>
                   <div ana="508b" n="1279" type="scholion">
@@ -5724,7 +5724,7 @@ style simple scholia" alternate="no"?>
                         <p><persName n="urn:cite:hmt:pers.pers16">Ἀρίσταρχος</persName> τὸ <rs type="waw"><persName
                                  n="urn:cite:hmt:pers.pers116">Ἥρη</persName></rs> κατ ευθεῖαν φησὶν οὐ κατα δοτικήν
                            ἵ¨ν' ᾖ ὅταν με ἐρεθίσῃ <persName n="urn:cite:hmt:pers.pers116">Ἥρη</persName> ἐχθοδοπῆσαί
-                           με ἐφήσεις: τὸ δε ὅτ αν τρία μέρή λόγου⁑</p>
+                           με ἐφήσεις· τὸ δε ὅτ αν τρία μέρή λόγου⁑</p>
                      </div>
                   </div>
                   <div ana="519c" n="1284" type="scholion">
@@ -5849,7 +5849,7 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p>ὅτι περιώρικε τοὺς τρόπους· στικτέον δὲ ἐπι τὸ πάλινάγρετον τὰ δὲ ἄλλα
                            συναπτέον· εἰ δέ τις στίζοι ἐπὶ τὸ <rs type="waw">τέκμωρ</rs> ὑγιεστέρα
-                           μὲν ἡ σύνταξις ἔσται:</p>
+                           μὲν ἡ σύνταξις ἔσται:·</p>
                      </div>
                   </div>
                   <div ana="525-527" n="1290" type="scholion">
