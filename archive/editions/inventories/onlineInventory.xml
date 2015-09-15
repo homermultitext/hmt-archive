@@ -149,15 +149,15 @@
     </work>
   </textgroup>
   
-  <!--
+
   <textgroup
     urn="urn:cts:greekLit:tlg5026:">
     <groupname
       xml:lang="eng"> Scholia to the Iliad</groupname>
    
-    <work urn="urn:cts:greekLit:tlg5026.e3" xml:lang="grc">
+    <!--<work urn="urn:cts:greekLit:tlg5026.e3:" xml:lang="grc">
       <title xml:lang="eng"> Main scholia</title> 
-      <edition urn="urn:cts:greekLit:tlg5026.e3.hmt">
+      <edition urn="urn:cts:greekLit:tlg5026.e3.hmt:">
         <label xml:lang="eng">Upsilon 1.1</label>
         <description xml:lang="eng">Main scholia of the Escorial manuscript, Upsilon 1.1</description>
         <online docname="Esc-Upsilon-1-1/Esc-Upsilon-1-1-Scholia-e3.xml">
@@ -173,11 +173,9 @@
         </online>
         
       </edition>
-    </work>
+    </work> -->
     
-    -->
-    
-    <!--
+
     <work
       urn="urn:cts:greekLit:tlg5026.msA:"
       xml:lang="grc">
@@ -397,7 +395,7 @@
     </work>
 
   </textgroup>
-  -->
+ 
   <!-- Other texts in the Venetus A -->
   
   <textgroup
