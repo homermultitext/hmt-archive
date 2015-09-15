@@ -2242,16 +2242,18 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.153</p>
                      </div>
                      <div type="comment">
-                        <p>βελτιον ἐπι το <rs type="waw">δεῦρο</rs> διαστελλειν ἵν ᾖ ἤλυθον <rs
-                              type="waw">δεῦρο</rs> ἐπεὶ σόλοικον εσται τὴν εἰς τόπον σχέσιν
-                           δηλοῦντος τοῦ ἐπιῤῥήματος· δύναται δ ἴσως τίς λέγειν ὡς καὶ τὴν εν τόπω
-                           σχέσιν δηλοῖ, ἐν <title>Ὀδυσσείᾳ</title>
-                           <cit>
-                              <q>πωλεῖταί τις δεῦρο γέρων ἄλιος</q>
-                              <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:4.384</ref>
-                           </cit>· σημαίνει δὲ ἀντι τοῦ ἀναστρέφεται ἐν τούτω τῷ τόπω βελτιον δε
-                           ἐστι τὸ πρότερον ἐπεὶ καὶ εκεῖ τὴν εις τόπον σχέσιν μᾶλλον δηλοὶ ἀντι τοῦ
-                           παραγίνεται πολλάκις ἐνθάδε:</p>
+                        <p>βελτιον ἐπι το <rs
+                           type="waw">δεῦρο</rs> διαστελλειν ἵν ᾖ ἤλυθον <rs
+                           type="waw">δεῦρο</rs> ἐπεὶ σόλοικον εσται τὴν εἰς τόπον σχέσιν δηλοῦντος
+                        τοῦ ἐπιῤῥήματος· δύναται δ ἴσως τίς λέγειν ὡς καὶ τὴν εν τόπω σχέσιν δηλοῖ,
+                        ἐν <title>Ὀδυσσείᾳ</title>
+                        <cit>
+                           <q>πωλεῖταί τις δεῦρο γέρων ἄλιος</q>
+                           <ref
+                              type="urn">urn:cts:greekLit:tlg0012.tlg002:4.384</ref>
+                        </cit>· σημαίνει δὲ ἀντι τοῦ ἀναστρέφεται ἐν τούτω τῷ τόπω βελτιον δε ἐστι
+                        τὸ πρότερον ἐπεὶ καὶ εκεῖ τὴν εις τόπον σχέσιν μᾶλλον δηλοὶ ἀντι τοῦ
+                        παραγίνεται πολλάκις ἐνθάδε·</p>
                      </div>
                   </div>
                   <div ana="154" n="479" type="scholion">
@@ -2367,14 +2369,18 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.168</p>
                      </div>
                      <div type="comment">
-                        <p><persName n="urn:cite:hmt:pers.pers16">Αρίσταρχος</persName> γράφει <q>επεί κε κάμω</q> ἵνα
-                           μη ἢ διπλασιασμὸς ἐν τῷ ῥήματι καὶ οὕτως ἡ συνηθης ανάγνωσις: οὕτω δὲ καὶ <choice>
-                              <abbr>Ἡρωδ</abbr>
-                              <expan><persName n="urn:cite:hmt:pers.pers75">Ἡρωδιανὸς</persName></expan>
-                           </choice>
-                           <note resp="Erbse">2.24.24</note> φάσκων ὅτι τ<q>ὸ ἐπήν εχει τὸν <rs
-                                 type="waw">αν</rs>. καὶ τίς χρεία ἐν δευτέρω αὐτὸν κεῖσθαι οὐκ
-                              ἀγνοὼ δὲ ὅ τινὲς ἐπήν κε γράφουσι</q></p>
+                        <p><persName
+                           n="urn:cite:hmt:pers.pers16">Αρίσταρχος</persName> γράφει <q>επεί κε
+                           κάμω</q> ἵνα μη ἢ διπλασιασμὸς ἐν τῷ ῥήματι καὶ οὕτως ἡ συνηθης
+                        ανάγνωσις· οὕτω δὲ καὶ <choice>
+                           <abbr>Ἡρωδ</abbr>
+                           <expan><persName
+                                 n="urn:cite:hmt:pers.pers75">Ἡρωδιανὸς</persName></expan>
+                        </choice>
+                        <note
+                           resp="Erbse">2.24.24</note> φάσκων ὅτι τ<q>ὸ ἐπήν εχει τὸν <rs
+                              type="waw">αν</rs>. καὶ τίς χρεία ἐν δευτέρω αὐτὸν κεῖσθαι οὐκ ἀγνοὼ
+                           δὲ ὅ τινὲς ἐπήν κε γράφουσι</q></p>
                      </div>
                   </div>
                   <div ana="169-171" n="487" type="scholion">
@@ -2690,19 +2696,25 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.193-1.194</p>
                      </div>
                      <div type="comment">
-                        <p>ενταῦθα μὲν ὑποστικτέον ἐπι δὲ τὸ <rs type="waw">ξίφος</rs>
-                           <note resp="Erbse">Il 1.194</note> ἤτοι ὑποστικτέον ἠ στικτέον· ἐὰν μὲν
-                           οὖν ὑποστίζωμεν ὁ ἐπιφερόμενος σύνδεσμος περισσὸς ἔσται, ἦλθε δ' <rs
-                              type="waw"><persName n="urn:cite:hmt:pers.pers67">Ἀθήνη</persName></rs>
-                           <note>Il 1.194</note>· ἐὰν δὲ στήζωμεν, οὗτος μὲν καλῶς στίζεται ὁ δὲ
-                           πρότερος <choice>
-                              <abbr>πλεονα</abbr>
-                              <expan>πλεονάσει</expan>
-                           </choice> ἐν τῶ <seg type="word">ἔ<add place="supralinear"
-                              >λ</add>κετο</seg> δ' ἐκ <rs type="waw">κολεοῖο</rs>
-                           <note resp="Erbse">Il. 1.194</note>, βελτιον δὲ ὑποστίζειν ἀμφότερα ἐν
-                           ὅσω γὰρ λογιζεταί τε καὶ σπᾶται, ἦλθεν ἡ <persName n="urn:cite:hmt:pers.pers67"
-                              >Ἀθηνὰ</persName>:</p>
+                        <p>ενταῦθα μὲν ὑποστικτέον ἐπι δὲ τὸ <rs
+                           type="waw">ξίφος</rs>
+                        <note
+                           resp="Erbse">Il 1.194</note> ἤτοι ὑποστικτέον ἠ στικτέον· ἐὰν μὲν οὖν
+                        ὑποστίζωμεν ὁ ἐπιφερόμενος σύνδεσμος περισσὸς ἔσται, ἦλθε δ' <rs
+                           type="waw"><persName
+                              n="urn:cite:hmt:pers.pers67">Ἀθήνη</persName></rs>
+                        <note>Il 1.194</note>· ἐὰν δὲ στήζωμεν, οὗτος μὲν καλῶς στίζεται ὁ δὲ
+                        πρότερος <choice>
+                           <abbr>πλεονα</abbr>
+                           <expan>πλεονάσει</expan>
+                        </choice> ἐν τῶ <seg
+                           type="word">ἔ<add
+                              place="supralinear">λ</add>κετο</seg> δ' ἐκ <rs
+                           type="waw">κολεοῖο</rs>
+                        <note
+                           resp="Erbse">Il. 1.194</note>, βελτιον δὲ ὑποστίζειν ἀμφότερα ἐν ὅσω γὰρ
+                        λογιζεταί τε καὶ σπᾶται, ἦλθεν ἡ <persName
+                           n="urn:cite:hmt:pers.pers67">Ἀθηνὰ</persName>·</p>
                      </div>
                   </div>
                   <div ana="194-5" n="560" type="scholion">
@@ -2798,11 +2810,13 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.204</p>
                      </div>
                      <div type="comment">
-                        <p>ἤτοι στικτέον ἐπι τὸ <rs type="waw">ερέω</rs>, ἠ βραχὺ διασταλτεον ἐὰν
-                           μὲν οὖν στίζωμεν ἔσται τὸ λεγόμενον τοῦτο δὲ τετελέσθαι ὑπολαμβάνω ἐὰν δε
-                           διαστελλωμεν ἔσται ὁ <rs type="waw">δε</rs> κείμενος ἀντι τοῦ <rs
-                              type="waw">δη</rs> καὶ τὸ <rs type="waw">το</rs> ἀντι ὑποτακτικοῦ τοῦ
-                              <rs type="waw">ο</rs>:</p>
+                        <p>ἤτοι στικτέον ἐπι τὸ <rs
+                           type="waw">ερέω</rs>, ἠ βραχὺ διασταλτεον ἐὰν μὲν οὖν στίζωμεν ἔσται τὸ
+                        λεγόμενον τοῦτο δὲ τετελέσθαι ὑπολαμβάνω ἐὰν δε διαστελλωμεν ἔσται ὁ <rs
+                           type="waw">δε</rs> κείμενος ἀντι τοῦ <rs
+                           type="waw">δη</rs> καὶ τὸ <rs
+                           type="waw">το</rs> ἀντι ὑποτακτικοῦ τοῦ <rs
+                           type="waw">ο</rs>·</p>
                      </div>
                   </div>
                   <div ana="204b" n="596" type="scholion">
@@ -2971,7 +2985,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.219</p>
                      </div>
                      <div type="comment">
-                        <p>παρὰ τὸ κοπτικὸν τοῦ ξίφους:</p>
+                        <p>παρὰ τὸ κοπτικὸν τοῦ ξίφους·</p>
                      </div>
                   </div>
                   <div ana="220" n="606" type="scholion">
@@ -3180,12 +3194,14 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.231</p>
                      </div>
                      <div type="comment">
-                        <p>καθ εαυτὸ τοῦτο ἀναγνωστέον ὡς καὶ <persName n="urn:cite:hmt:pers.pers141"
-                              >Φιλοξένῳ</persName> ἐν τῷ <title>Περι προσῳδιῷν</title> δοκεῖ ἵνα τὸ κομματικον τῆς
-                           προφορᾶς τὴν οργὴν μᾶλλον ἐμφαίνῃ, δύναται δὲ καὶ τὸ <seg type="waw"><rs
-                                 type="waw">ε<unclear>ι</unclear></rs></seg> ῥῆμα λείπειν ὑφ ἓν ἡμῶν
-                           όλον προφερομένων τὸν στίχον ἵν ᾖ δημοβόρος εἶ βασιλευς ἐπεὶ οὐτιδανοῖσιν
-                           ἀνάσσεις ἀλλ οὐκ επείγει:</p>
+                        <p>καθ εαυτὸ τοῦτο ἀναγνωστέον ὡς καὶ <persName
+                           n="urn:cite:hmt:pers.pers141">Φιλοξένῳ</persName> ἐν τῷ <title>Περι
+                           προσῳδιῷν</title> δοκεῖ ἵνα τὸ κομματικον τῆς προφορᾶς τὴν οργὴν μᾶλλον
+                        ἐμφαίνῃ, δύναται δὲ καὶ τὸ <seg
+                           type="waw"><rs
+                              type="waw">ε<unclear>ι</unclear></rs></seg> ῥῆμα λείπειν ὑφ ἓν ἡμῶν
+                        όλον προφερομένων τὸν στίχον ἵν ᾖ δημοβόρος εἶ βασιλευς ἐπεὶ οὐτιδανοῖσιν
+                        ἀνάσσεις ἀλλ οὐκ επείγει·</p>
                      </div>
                   </div>
                   <div ana="232" n="657" type="scholion">
