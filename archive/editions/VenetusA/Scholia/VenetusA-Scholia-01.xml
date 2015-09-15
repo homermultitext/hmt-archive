@@ -2510,7 +2510,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div ana="175d" n="495" type="scholion">
                      <div type="lemma">
-                        <p>οἵ κε με τιμήσουσι μάλιστα δὲ μητίετα <persName n="8">Ζευς</persName></p>
+                        <p>οἵ κε με τιμήσουσι μάλιστα δὲ μητίετα <persName n="urn:cite:hmt:pers.pers8">Ζευς</persName></p>
                      </div>
                      <div type="ref">
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.175</p>
@@ -2681,7 +2681,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div ana="190-2" n="558" type="scholion">
                      <div type="lemma">
-                        <p>ἡ ὅγε φάσγανον: ηὲ χόλον</p>
+                        <p>ἡ ὅγε φάσγανον· ηὲ χόλον</p>
                      </div>
                      <div type="ref">
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.190-1.192</p>
@@ -2873,7 +2873,7 @@ style simple scholia" alternate="no"?>
                            στίχου ἵν ᾖ τὸ λεγόμενον· ὥσπερ γὰρ <q>ἔσται οὕτω καὶ ερῶ</q>·
                            ἐναντιοῦται δὲ αὐτοῖς τὸ τῷ ὑπερβατῷ τοῦ <rs type="waw">περ</rs>
                            συνδεσμου καὶ τὸ διλογεῖσθαι τὰ ἡμιστίχια ταῦτα <q>ὡς ἔσσεταί περ</q> καὶ
-                              <q>ὡς τετελεσμένον ἔσται</q>: μήποτε οὖν ἄμεινον στίζειν ἐπι τὸ τέλος
+                           <q>ὡς τετελεσμένον ἔσται</q>· μήποτε οὖν ἄμεινον στίζειν ἐπι τὸ τέλος
                            τοῦ στίχου ἵνα μὴ μόνον συμβουλεύῃ ἄλλα καὶ μαντεύηται ὧ θεοῖς μάλιστα
                            πρέπει⁑</p>
                      </div>
