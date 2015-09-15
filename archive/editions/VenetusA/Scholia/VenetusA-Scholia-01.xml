@@ -6049,7 +6049,7 @@ style simple scholia" alternate="no"?>
                               <q>σχέτλιε ποικιλομητα</q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:13.293</ref>
                            </cit> καὶ καθόλου τὰ εἰς <rs type="waw">της</rs> λήγοντα βαρύτονα ὅτε
-                           ἐπι κλητικῆς εἰς <rs type="waw">α</rs> λήγει προπερισπᾶται ἀλῆτα πλανῖτα:
+                           ἐπι κλητικῆς εἰς <rs type="waw">α</rs> λήγει προπερισπᾶται ἀλῆτα πλανῖτα·
                            νικῆτα· παιδῖτα· σαμνῖτα· ἔνθεν οῦν σημειωτεον τὸ <cit>
                               <q>ἀκάκητα</q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:19.185</ref>
@@ -6209,7 +6209,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.554</p>
                      </div>
                      <div type="comment">
-                        <p>ὁ μὲν <persName n="98">Πτολεμαῖος</persName>
+                        <p>ὁ μὲν <persName n="urn:cite:hmt:pers.pers98">Πτολεμαῖος</persName>
                            <note>p. 41</note> δασύνει· τρία λέγων σημαίνειν τὸ <rs type="waw"
                               >ἄσσα</rs>· τό τε <rs type="waw">ἅτινα</rs> καὶ <rs type="waw"
                               >ὅσα</rs> καὶ <rs type="waw">τινά</rs>· καὶ ὅτε μὲν ἰσοδυναμεῖ τῷ <rs
@@ -6255,7 +6255,7 @@ style simple scholia" alternate="no"?>
                            προὑποσχεσθαι τὴν <choice>
                               <abbr>Ἀχιλ</abbr>
                               <expan><persName n="urn:cite:hmt:pers.pers1">Ἀχιλλέως</persName></expan>
-                           </choice> τιμήν:</p>
+                           </choice> τιμήν·</p>
                      </div>
                   </div>
                   <div ana="565a" n="1395" type="scholion">
@@ -6576,7 +6576,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.591</p>
                      </div>
                      <div type="comment">
-                        <p>δύο ῥίψεις <persName n="urn:cite:hmt:pers.pers192">Ἡφαίστου</persName>: προτέρα μὲν ἡ ὑπο
+                        <p>δύο ῥίψεις <persName n="urn:cite:hmt:pers.pers192">Ἡφαίστου</persName>· προτέρα μὲν ἡ ὑπο
                            τὴν γένεσιν τῆς <persName n="urn:cite:hmt:pers.pers116">Ἥρας</persName>
                            <note resp="Erbse">cf. Σ 395-7</note>· δευτέρα δὲ ἡ ὑπο <persName
                               n="urn:cite:hmt:pers.pers8">Διὸς</persName> δια τοὺς τῆς <persName n="urn:cite:hmt:pers.pers8"
@@ -6774,7 +6774,7 @@ style simple scholia" alternate="no"?>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:14.296</ref>
                            </cit>· μετα δὲ τὴν τῶν <persName n="urn:cite:hmt:pers.pers37">Τιτάνων</persName> ὑπο
                               <persName n="urn:cite:hmt:pers.pers8">Διὸς</persName> καθαίρεσιν καταταρταρωθεντος
-                              <persName n="139">Κρόνου</persName>· <persName n="urn:cite:hmt:pers.pers8"
+                              <persName n="urn:cite:hmt:pers.pers139">Κρόνου</persName>· <persName n="urn:cite:hmt:pers.pers8"
                               >Ζεὺς</persName> καὶ <persName n="urn:cite:hmt:pers.pers116">Ἥρα</persName> διαδεξαμενοι
                            τὴν ἐν οὐρανῶ βασιλείαν μέχρι τοῦ νῦν θεῶν τε καὶ <choice>
                               <abbr>ἀνων</abbr>
