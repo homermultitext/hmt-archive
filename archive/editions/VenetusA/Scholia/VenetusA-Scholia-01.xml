@@ -1624,7 +1624,7 @@ style simple scholia" alternate="no"?>
                               >Κάλχαντος</persName> καὶ ἀεὶ τοιοῦτον λοιδοροῦντος τοῦ <persName
                               n="urn:cite:hmt:pers.pers22">Ἀγαμέμνονος</persName>, ἢ τὸ παρακολουθοῦν ἀεὶ τοῖς
                            μάντεσιν ὡς ἴδιον ἁμάρτημα τῷ <persName n="urn:cite:hmt:pers.pers74">Κάλχαντι</persName>
-                           προστριβομένου· μάντεως γὰρ τότε χρεῖα ὅταν ἐν συμφορα τινὲς ῶσιν:</p>
+                           προστριβομένου· μάντεως γὰρ τότε χρεῖα ὅταν ἐν συμφορα τινὲς ῶσιν·</p>
                      </div>
                   </div>
                   <div ana="110a1" n="124" type="scholion">
@@ -1920,8 +1920,9 @@ style simple scholia" alternate="no"?>
                      </div>
                      <div type="comment">
                         <p>οὐ δίκαιόν ἐστιν εἰς τὸ αὐτὸ πάλιν συναγαγεῖν τοὺς Ἕλληνας τὰ ἅπαξ
-                           φθάσαντα αὐτοῖς διαμερισθῆναι χρήματα παρα τὸ λέγω ὅθεν καὶ τὸ συλλέγω·
-                           τὸ δὲ ταυτα <persName n="urn:cite:hmt:pers.pers105">Τυραννίων</persName> ὀξύνει:</p>
+                        φθάσαντα αὐτοῖς διαμερισθῆναι χρήματα παρα τὸ λέγω ὅθεν καὶ τὸ συλλέγω· τὸ
+                        δὲ ταυτα <persName
+                           n="urn:cite:hmt:pers.pers105">Τυραννίων</persName> ὀξύνει·</p>
                      </div>
                   </div>
                   <div ana="127-8" n="414" type="scholion">
@@ -2192,7 +2193,7 @@ style simple scholia" alternate="no"?>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:5.277</ref>
                            </cit>· τὰ δὲ <rs type="waw">ἄλλ</rs> επι κλητικῆς ἀναδίδωσι τὸν τόνον
                            ὁπότε ἐστι σύνθετα εἰς <rs type="waw">ον</rs> βαρύτονα <cit>
-                              <q><persName n="22">Ἀγάμεμνον</persName></q>
+                              <q><persName n="urn:cite:hmt:pers.pers22">Ἀγάμεμνον</persName></q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.362</ref>
                            </cit> „<cit>
                               <q>ὀλβιόδαιμον</q>
