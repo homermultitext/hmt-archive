@@ -2491,18 +2491,21 @@ style simple scholia" alternate="no"?>
                      </div>
                      <div type="comment">
                         <p>τὴν παρὰ <choice>
-                              <abbr>προθ</abbr>
-                              <expan>προθεσιν</expan>
-                           </choice>, κατα τὴν ἄρχουσαν ὀξυτονητέον καὶ καθόλου ὁπότε σημαντικαί
-                           εἰσὶ ῥημάτων αἱ προθέσεις: τοῦτον τὸν τόνον ἀναδέχονται, <cit>
-                              <q>ἐπεὶ οῦ τοι ἐπι δεος</q>
-                              <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:1.515</ref>
-                           </cit>
-                           <cit>
-                              <q>οὐ γὰρ ἐπ ανὴρ οῖος <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσεύς</persName></q>
-                              <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:2.58-2.59</ref>
-                           </cit> τὴν δε έμοιγε προπαροξυτονητέον ἔστι γὰρ <placeName n="urn:cite:hmt:place.place76"
-                              >Ἀττικὴ</placeName> ὡς καὶ ἡ ἔγωγε⁑</p>
+                           <abbr>προθ</abbr>
+                           <expan>προθεσιν</expan>
+                        </choice>, κατα τὴν ἄρχουσαν ὀξυτονητέον καὶ καθόλου ὁπότε σημαντικαί εἰσὶ
+                        ῥημάτων αἱ προθέσεις· τοῦτον τὸν τόνον ἀναδέχονται, <cit>
+                           <q>ἐπεὶ οῦ τοι ἐπι δεος</q>
+                           <ref
+                              type="urn">urn:cts:greekLit:tlg0012.tlg001:1.515</ref>
+                        </cit>
+                        <cit>
+                           <q>οὐ γὰρ ἐπ ανὴρ οῖος <persName
+                                 n="urn:cite:hmt:pers.pers118">Ὀδυσσεύς</persName></q>
+                           <ref
+                              type="urn">urn:cts:greekLit:tlg0012.tlg002:2.58-2.59</ref>
+                        </cit> τὴν δε έμοιγε προπαροξυτονητέον ἔστι γὰρ <placeName
+                           n="urn:cite:hmt:place.place76">Ἀττικὴ</placeName> ὡς καὶ ἡ ἔγωγε⁑</p>
                      </div>
                   </div>
                   <div ana="175d" n="495" type="scholion">
