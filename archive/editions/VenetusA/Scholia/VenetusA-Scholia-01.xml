@@ -3034,7 +3034,7 @@ style simple scholia" alternate="no"?>
                                     <abbr>ανων</abbr>
                                     <expan>ανθρώπων</expan>
                                  </choice>
-                                 <persName>Ἀτρεῖδαι</persName>
+                                 <persName n="urn:cite:hmt:pers.HELP">Ἀτρεῖδαι</persName>
                               </q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:9.339-9.341</ref>
                            </cit>· δηλοῖ δὲ καὶ τὸ εφη <cit>
@@ -3579,7 +3579,7 @@ style simple scholia" alternate="no"?>
                            δόλῳ καταπρήσας μανεὶς καὶ ὑπο <choice>
                               <abbr>θν</abbr>
                               <expan>θεῶν</expan>
-                           </choice> καθαρθεὶς τὸν φόνον, <persName n="116">Ἥρας</persName> ὕστερον
+                           </choice> καθαρθεὶς τὸν φόνον, <persName n="urn:cite:hmt:pers.pers116">Ἥρας</persName> ὕστερον
                            ἠράσθη <persName n="urn:cite:hmt:pers.pers8">Ζεὺς</persName> δὲ βουλόμενος αὐτὸν δοκιμάσαι
                            εἰ τῷ ὄντι τολμᾷ ποιῆσαι τοῦτο νεφέλην ἀπεικάσας <persName n="urn:cite:hmt:pers.pers116"
                               >Ἥρᾳ</persName> παρέκλινεν αὐτῷ ὁ δὲ μιγεὶς τῇ νεφέλη ὡσανεὶ τῇ
@@ -3695,7 +3695,7 @@ style simple scholia" alternate="no"?>
                            <cit>
                               <q>ἀλλ' οδ' <rs type="waw">ἀνηρ</rs> εθελει</q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:1.287</ref>
-                           </cit>: <cit>
+                           </cit>· <cit>
                               <q>ἤθελε <persName n="urn:cite:hmt:pers.pers212">Μηριόνης</persName></q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:10.229</ref>
                            </cit> καὶ ἐνθάδε οὖν ἄμεινον τῇ συνηθεστέρᾳ ἀναγνώσει προσέχοντας ἐπι
@@ -3739,7 +3739,7 @@ style simple scholia" alternate="no"?>
                               <q>ἔν δ' <persName n="urn:cite:hmt:pers.pers156">Έρις</persName> ἐν δε <persName
                                     n="urn:cite:hmt:pers.pers157">Κυδοιμὸς</persName></q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:18.535</ref>
-                           </cit>:</p>
+                           </cit>·</p>
                      </div>
                   </div>
                   <div ana="280b" n="796" type="scholion">
@@ -3794,7 +3794,7 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p>το τοῦ δευτέρου οὖν στίχου πευστικῶς ἀναγινωσκόμενου γίνεται ὁ λόγος
                            τοιοῦτος· εἰ δε πολεμικὸν αὐτὸν ἐποίησαν οἱ θεοὶ ἄρα ὀφειλει δια τοῦτο
-                           ἄλλοις ὀνειδίζειν:</p>
+                           ἄλλοις ὀνειδίζειν·</p>
                      </div>
                   </div>
                   <div ana="293b" n="799" type="scholion">
@@ -4364,7 +4364,7 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p>ὁ <placeName n="urn:cite:hmt:place.place45">Ὄλυμπος</placeName> ὄρος τῆς <placeName
                               n="urn:cite:hmt:place.place33">Μακεδονίας</placeName> ὑψηλότατον ἱερον καὶ οι κητηριον
-                           τῶν θεῶν· ἀλληγορικῶς δὲ ὁ οὐρανός:</p>
+                           τῶν θεῶν· ἀλληγορικῶς δὲ ὁ οὐρανός·</p>
                      </div>
                   </div>
                   <div ana="354b" n="989" type="scholion">
@@ -4617,7 +4617,7 @@ style simple scholia" alternate="no"?>
                         <p><persName n="urn:cite:hmt:pers.pers136">Σέλευκος</persName>
                            <note resp="Erbse">fr. 8 m. = 10 d.</note> φησὶν ἐν τῇ
                               <title>Κυπρίᾳ</title> καὶ <title>Κρητικῇ</title>
-                           <q>ἐπεί ρά νύ οἱ φίλος ῆεν</q>· καὶ <persName n="207">Θεαγένης</persName>
+                           <q>ἐπεί ρά νύ οἱ φίλος ῆεν</q>· καὶ <persName n="urn:cite:hmt:pers.pers207">Θεαγένης</persName>
                            <note resp="Erbse">vors.6 8, 3</note> δὲ οὕτως προφέρεται ἀπίθανον γὰρ τὸ
                               <rs type="waw">ο δέ νυ</rs> λίαν φίλος ἦν⁑</p>
                      </div>
