@@ -830,9 +830,11 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.51</p>
                      </div>
                      <div type="comment">
-                        <p>διαφέρει ὁ <rs type="waw">αὐτὰρ</rs> τοῦ <rs type="waw">δὲ</rs> ὅτι ὁ μὲν
-                           προτάσσεται· ὁ δὲ ὑποτάσσεται· ὁ μὲν <rs type="waw">αὐτὰρ</rs>
-                           προτάσσεται· ὁ δὲ <rs type="waw">δὲ</rs> ὑποτασσεται:</p>
+                        <p>διαφέρει ὁ <rs
+                           type="waw">αὐτὰρ</rs> τοῦ <rs
+                           type="waw">δὲ</rs> ὅτι ὁ μὲν προτάσσεται· ὁ δὲ ὑποτάσσεται· ὁ μὲν <rs
+                           type="waw">αὐτὰρ</rs> προτάσσεται· ὁ δὲ <rs
+                           type="waw">δὲ</rs> ὑποτασσεται·</p>
                      </div>
                   </div>
                   <div ana="51c" n="62" type="scholion">
@@ -1542,8 +1544,8 @@ style simple scholia" alternate="no"?>
                      </div>
                      <div type="comment">
                         <p>συντείνει τοῦτο εἰς τὸ δεκα ἔτη μαντεύσασθαι αὐτὸν ἐν <placeName
-                              n="urn:cite:hmt:place.place29">Αὐλίδι</placeName> τὸν πόλεμον ὅσον ἀπο τοῦ συμβολου τῶν
-                           στρουθῶν:</p>
+                           n="urn:cite:hmt:place.place29">Αὐλίδι</placeName> τὸν πόλεμον ὅσον ἀπο
+                        τοῦ συμβολου τῶν στρουθῶν·</p>
                      </div>
                   </div>
                   <div ana="108-9a2, 108-9b" n="120" type="scholion">
