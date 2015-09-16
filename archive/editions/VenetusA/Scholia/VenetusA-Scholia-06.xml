@@ -4186,7 +4186,8 @@
                     </div>
                     <div ana="438-9a.2" type="scholion" n="126">
                         <div type="lemma">
-                            <p>ἤ που τίς σφιν - ἤν υ καὶ αὐτῶν</p>
+                            <p>ἤ που τίς σφιν  ἤν υ καὶ αὐτῶν</p>
+                        <note>This is unintelligible</note>
                         </div>
                         <div type="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.438-439</p>
@@ -4478,12 +4479,12 @@
                         </div>
                         <div type="comment">
                             <p>τέσσαρσι στίχοις ἑξῆς ἀστερίσκοι παράκεινται. οτι νῦν μὲν ορθῶς
-                                κεῖνται καὶ προτῆς μνηστηροφονιας. ἐν δὲ τῇ <rs type = "waw">Α</rs> <choice>
+                                κεῖνται καὶ προ τῆς μνηστηροφονιας. ἐν δὲ τῇ <rs type = "waw">Α</rs> <choice>
                                     <abbr>ῥαψωδι</abbr>
                                     <expan>ῥαψωδιᾳ</expan>
                                 </choice> τῆς <choice>
                                     <abbr>Οδ</abbr>
-                                    <expan>Οδυσσείας</expan>
+                                    <expan>Ὀδυσσείας</expan>
                                 </choice> οὐκέτι ⁑</p>
                             
                         </div>
