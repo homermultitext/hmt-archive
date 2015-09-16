@@ -5526,7 +5526,7 @@ style simple scholia" alternate="no"?>
                               <expan>πόλις</expan>
                            </choice> αἰπεῖα κολώνη</q> ὃ νῦν εἴρηκεν <placeName n="urn:cite:hmt:place.place177"
                            >Αἰπύ</placeName> καὶ ὡς ἴδιον γενόμενον βούλονται βαρυτονεῖν·
-                           <persName>Πτολεμαῖος</persName> δὲ <note resp="Erbse">p. 42 b.</note>
+                           <persName n="urn:cite:hmt:pers.HELP">Πτολεμαῖος</persName> δὲ <note resp="Erbse">p. 42 b.</note>
                         φησὶ μὲν κύριον εἶναι τὸ <placeName n="urn:cite:hmt:place.place177"><choice>
                               <sic>Αἰπύ</sic>
                               <corr>Αἰπὺ</corr>
@@ -6151,7 +6151,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>ἐνταῦθα τρὶς ὀνομασας τὸν <persName n="urn:cite:hmt:pers.pers487">Νιρέα</persName> οὐκέτι
-                        αὐτοῦ ἐμνήσθη· καὶ τούτου αὐτὸς τὴν αἰτίαν παραδίδωσι λέγων: <cit>
+                        αὐτοῦ ἐμνήσθη· καὶ τούτου αὐτὸς τὴν αἰτίαν παραδίδωσι λέγων· <cit>
                            <q>ἀλαπαδνὸς ἔην παῦρος δέ οι εἵπετο λαος</q>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:2.675</ref>
                         </cit>⁑</p>
@@ -6764,7 +6764,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.765 </p>
                   </div>
                   <div type="comment">
-                     <p>οὕτως <rs type="waw">σταφύλη</rs> ὡς κό΄τυλη: έστι δὲ ἄμφω ἴσας τὸν νῶτον ὡς
+                     <p>οὕτως <rs type="waw">σταφύλη</rs> ὡς κό΄τυλη· έστι δὲ ἄμφω ἴσας τὸν νῶτον ὡς
                            <rs type="waw">σταφύλη</rs> μετρεῖσθαι ὅ ἐστι λαοξικῷ δικη ὃς ἅμα πλᾶτος
                         καὶ ὕψος μετρεῖ ὁ δὲ διαβήτης μόνον πλάτος⁑</p>
                   </div>
@@ -6858,7 +6858,7 @@ style simple scholia" alternate="no"?>
                         ἐπιτεταμένοι καὶ ἐπιπληκτικοί· καὶ τὸ <cit>
                            <q><persName n="urn:cite:hmt:pers.pers172">Ἕκτορ</persName> σὺ δὲ μάλιστ' ἐπιτελλόμενοι</q>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:2.802</ref>
-                        </cit>. <persName n="per448">Πολίτῃ</persName> ἀνοίκειον, μᾶλλον δὲ
+                        </cit>. <persName n="urn:cite:hmt:pers.pers448">Πολίτῃ</persName> ἀνοίκειον, μᾶλλον δὲ
                            <persName n="urn:cite:hmt:pers.pers282">Ἴ¨ριδι</persName> ἁρμόζει ἐπιτάσσειν⁑</p>
                   </div>
                </div>
