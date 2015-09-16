@@ -1723,7 +1723,7 @@ style simple scholia" alternate="no"?>
                                  >ἐσται<add type="supralinear">ϊ</add></seg> τοῦ ποτὲ ζῶντος· οἶον <cit>
                               <q>σῶμα οἴκαδε</q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:7.79</ref>
-                           </cit>· καὶ ἐπὶ τοῦ <persName n="urn:cite:hmt:pers.pers95">Ἐλπήνορος</persName> πᾶλιν “<cit>
+                           </cit>· καὶ ἐπὶ τοῦ <persName n="urn:cite:hmt:pers.pers95">Ἐλπήνορος</persName> πᾶλιν <cit>
                               <q>σῶμα γὰρ ἐν <persName n="urn:cite:hmt:pers.pers96">Κίρκης</persName> κατελείπομεν
                                  αὖθις ἡμεῖς ἄκλαυτον καὶ ἄθαπτον</q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:11.53-11.54</ref>
@@ -2195,7 +2195,7 @@ style simple scholia" alternate="no"?>
                            ὁπότε ἐστι σύνθετα εἰς <rs type="waw">ον</rs> βαρύτονα <cit>
                               <q><persName n="urn:cite:hmt:pers.pers22">Ἀγάμεμνον</persName></q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.362</ref>
-                           </cit> „<cit>
+                           </cit> <cit>
                               <q>ὀλβιόδαιμον</q>
                               <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:3.182</ref>
                            </cit>
@@ -5012,8 +5012,8 @@ style simple scholia" alternate="no"?>
                      </div>
                      <div type="comment">
                         <p>ὅμοιόν ἐστι τὸ ἡνιοχῆας δισσοὶ δέ εισὶν οἱ Αἰθίοπες ὑπο <placeName
-                              type="urn:cite:hmt:place.place62">Νείλου</placeName> ὁριζόμενοι ὡς ἡ <placeName
-                                 type="urn:cite:hmt:place.place63">Ϊθάκη</placeName> καὶ αἱ λοιπαὶ νῆσοι τινὲς δὲ
+                              n="urn:cite:hmt:place.place62">Νείλου</placeName> ὁριζόμενοι ὡς ἡ <placeName
+                                 n="urn:cite:hmt:place.place63">Ϊθάκη</placeName> καὶ αἱ λοιπαὶ νῆσοι τινὲς δὲ
                            γράφουσιν <q>μετα <persName n="urn:cite:hmt:pers.pers177">Μέμνονας</persName>
                            Αἰθιοπῆας</q>. ἔθνος δὲ οὗτοι⁑</p>
                      </div>
