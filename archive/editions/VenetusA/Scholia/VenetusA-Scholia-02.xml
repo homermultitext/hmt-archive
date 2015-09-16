@@ -2680,7 +2680,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>κατα <persName n="urn:cite:hmt:pers.pers16">Ἀρίσταρχον</persName>· οὐδεποτε τοπικῶς ἀλλ αντι
-                        τοῦ ούτως τάσσει <q>ὦδε δε τίς εἴπεσκεν ἰδών</q>. ἐπι δὲ τοῦ „<cit>
+                        τοῦ ούτως τάσσει <q>ὦδε δε τίς εἴπεσκεν ἰδών</q>. ἐπι δὲ τοῦ <cit>
                            <q><persName n="urn:cite:hmt:pers.pers192">Ἤφαιστε</persName> πρόμολ' ὦδε</q>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:18.392</ref>
                         </cit> οὕτως ἀκούει πρόελθε οὕτως ὡς ἔχεις ἐκ προχείρου⁑ </p>
@@ -4328,7 +4328,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.488-2.492</p>
                   </div>
                   <div type="comment">
-                     <p>ἤτοι ὅτι περισσὸς, εἰ μυθήσομαι εἴρηκεν ἀντι τοῦ μυθησαίμην: πάλιν δὲ δια
+                     <p>ἤτοι ὅτι περισσὸς, εἰ μυθήσομαι εἴρηκεν ἀντι τοῦ μυθησαίμην· πάλιν δὲ δια
                         μέσου τὸ διστίχιον <note resp="Erbse">sc. 489-90</note>· τὸ γὰρ ἑξῆς πληθὺν
                         δ' οὐκ ὰν εγὼ μυθήσομαι <q>εἰ μὴ Ολυμπιάδες</q>· τὰ δὲ λοιπὰ δια μέσου ὡς
                         ἔθος. διὃ <w>στ<unclear>ί</unclear>ζομεν</w> ἀνυποκρίτως ἐπι τὸ <persName
@@ -4617,7 +4617,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.502</p>
                   </div>
                   <div type="comment">
-                     <p>ὅτι <persName n="urn:cite:hmt:pers.pers15">Ζηνοδοτος</persName> γράφει „πολυτρήρωνά τε
+                     <p>ὅτι <persName n="urn:cite:hmt:pers.pers15">Ζηνοδοτος</persName> γράφει πολυτρήρωνά τε
                            <placeName n="urn:cite:hmt:place.place185">Μέσην</placeName>. ἐστι δὲ ἡ <placeName
                            n="urn:cite:hmt:place.place185">Μέση</placeName> τῆς <placeName n="urn:cite:hmt:place.place53" type="ethnic"
                            >Λακωνικῆς</placeName> ἣν ἐν ἄλλοις <note resp="Erbse">sc. φ 15</note>
@@ -4879,7 +4879,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>αὕτη μεταξὺ κειται <placeName n="urn:cite:hmt:place.place128">Φωκίδος</placeName> καὶ
-                           <placeName n="urn:cite:hmt:place.place173">Δελφῶν</placeName>: ἐφ ὑψηλοῦ τόπου ὅθεν καὶ
+                        <placeName n="urn:cite:hmt:place.place173">Δελφῶν</placeName>· ἐφ ὑψηλοῦ τόπου ὅθεν καὶ
                         οὕτως ὠνόμασται παρα τὸ καταπνεῖσθαι αὐτὴν σφοδρῶς⁑</p>
                   </div>
                </div>
@@ -4928,7 +4928,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.523</p>
                   </div>
                   <div type="comment">
-                     <p><persName>Πτολεμαῖος</persName><note resp="Erbse">p. 42 b.</note> ἀναστρέφει
+                     <p><persName n="urn:cite:hmt:pers.HELP">Πτολεμαῖος</persName><note resp="Erbse">p. 42 b.</note> ἀναστρέφει
                         καὶ <persName n="urn:cite:hmt:pers.pers169">Πάμφιλος Ἀλεξιῶν</persName>
                         <note resp="Erbse">fr. 28 b.</note> συντάσσει τῇ γενικῇ τὴν πρόθεσιν καὶ οὐκ
                         αναστρέφει. <persName n="urn:cite:hmt:pers.pers16">Ἀρίσταρχος</persName> δὲ τοῖς κυριωτέροις
@@ -5472,7 +5472,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>ὅτι γὰρ ὑπὸ <placeName type="ethnic" n="urn:cite:hmt:place.place27">Λακεδαιμονίους</placeName>
-                        αὐτὴν οἶδεν δῆλον ἑξ ὧν φησὶ „<cit>
+                        αὐτὴν οἶδεν δῆλον ἑξ ὧν φησὶ <cit>
                            <q>δωρα τά οι ξεῖνος <placeName n="urn:cite:hmt:place.place27">Λακεδαίμονι</placeName>
                               δῶκε</q>
                            <ref>urn:cts:greekLit:tlg0012.tlg002:21.13</ref>
@@ -7181,7 +7181,7 @@ style simple scholia" alternate="no"?>
                         <note resp="Erbse">p. 43 b.</note> ἀναστρέφει πρὸς τὰ προσηγορικώτερα
                         ποιούμενος τὰς συντάξεις· ὁμοίως καὶ <persName n="urn:cite:hmt:pers.pers247">Νικίας</persName>
                         <note resp="Erbse">fr. 2 b.</note>, οὐκέτι μέντοι ἐπὶ τοῦ <cit>
-                           <q>„<placeName n="urn:cite:hmt:place.place93">Ξάνθῳ</placeName> ἐπι δινήεντι</q>
+                           <q><placeName n="urn:cite:hmt:place.place93">Ξάνθῳ</placeName> ἐπι δινήεντι</q>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:5.479</ref>
                         </cit>
                         <cit>
