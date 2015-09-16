@@ -2080,7 +2080,7 @@
                                         <placeName n="urn:cite:hmt:place.HELP">Σκαμάνδρου</placeName>. καὶ στόμαλίμνης</q>· διὸ
                                 καὶ ἐν τοῖς ὑπομνήμασι φέρεται· καὶ ὕστερον δὲ περιπεσων ἐγραψε<q>·
                                     μεσσηγὺς <placeName n="urn:cite:hmt:place.HELP">Σιμόεντος</placeName> καὶ οὐρανοῦ
-                                    ἀστερόεντος ἱδὲ <placeName n="urn:cite:hmt:place.HELP">Ξάντοιο</placeName> ῥοαων</q>: τοῖς
+                                    ἀστερόεντος ἱδὲ <placeName n="urn:cite:hmt:place.HELP">Ξάντοιο</placeName> ῥοαων</q>· τοῖς
                                 γὰρ του ναυσταθμοῦ τόποις ἡ γραφὴ συμφέρει πρὸς οὓς μάχονται ⁑</p>
                             
                         </div>
@@ -2556,7 +2556,7 @@
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.119</p>
                         </div>
                         <div type="comment">
-                            <p><persName n="urn:cite:hmt:pers.HELP">Γλαυκος</persName> δε’ ἱππολόχοιο πάϊς: ὅτι μετατιθεάσι
+                            <p><persName n="urn:cite:hmt:pers.HELP">Γλαυκος</persName> δε’ ἱππολόχοιο πάϊς· ὅτι μετατιθεάσι
                                 τινὲς ἀλλαχῶσε ταύτην τὴν σύστασιν ⁑</p>
                             
                         </div>
@@ -3051,8 +3051,8 @@
                     </div>
                     <div ana="160a" type="scholion" n="56">
                         <div type="lemma">
-                            <p>(see above: There is a clear ending mark, yet the prior scholion
-                                seems to be this one's lemma)</p>
+                            <note>(see above: There is a clear ending mark, yet the prior scholion
+                                seems to be this one's lemma)</note>
                         </div>
                         <div type="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.160</p>
@@ -3060,7 +3060,7 @@
                         <div type="comment">
                             <p>ἡ διπλῆ οτι <choice>
                                     <abbr>Ὅμρ</abbr>
-                                    <expan>Ὅμερος</expan>
+                                    <expan>Ὅμηρος</expan>
                                 </choice>
                                 <persName n="urn:cite:hmt:pers.HELP">Ἄντειαν</persName>· οἱ δὲ νεώτεροι
                                     <persName n="urn:cite:hmt:pers.HELP">Σθενέβοιαν</persName>, καὶ οι ἀκαίρως τὸ δῖα μάχεται
@@ -3204,7 +3204,7 @@
                         <div type="comment">
                             <p>οτι ἐκ των <choice>
                                     <abbr>πραττομε</abbr>
-                                    <expan>πραττομενων</expan>
+                                    <expan>πραττομένων</expan>
                                 </choice> τοῦτο σύνεβαλεν. εἰς δὲ προσέκειτο καὶ ὁ
                                     <persName n="urn:cite:hmt:pers.HELP">Πήγασος</persName> πολὺ πλέον αυτου τὴν δόξαν
                                 επιστωσατο ⁑</p>
