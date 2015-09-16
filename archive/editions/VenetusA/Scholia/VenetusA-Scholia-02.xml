@@ -3819,7 +3819,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.427</p>
                   </div>
                   <div type="comment">
-                     <p><persName>Πτολεμαῖος</persName>
+                     <p><persName n="urn:cite:hmt:pers.HELP">Πτολεμαῖος</persName>
                         <note resp="Erbse">p. 42 b.</note> ἀπο τοῦ <rs type="waw">κ</rs> τὴν ἀρχὴν
                         ποιεῖται <rs type="waw">μῆρε</rs> παραλαμβάνων εἶτα <rs type="waw">κάη</rs>
                         ἵνα φησὶν <placeName type="ethnic" n="urn:cite:hmt:place.place79">Ϊωνικώτερον</placeName>
@@ -4054,7 +4054,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p><placeName type="ethnic" n="urn:cite:hmt:place.place79">Ἰωνικὴ</placeName> γενικὴ παθοῦσα τὸ
-                        γὰρ ὑγιές ἐστιν <rs type="waw">Ἀσίεω</rs> ὡς <rs type="waw">Ἀτρείδεω</rs>“
+                        γὰρ ὑγιές ἐστιν <rs type="waw">Ἀσίεω</rs> ὡς <rs type="waw">Ἀτρείδεω</rs>
                            <note resp="Erbse">Β 185 al.</note> δι'ὃ χωρὶς τοῦ <rs type="waw"
                         >ϊ</rs>⁑</p>
                   </div>
@@ -7181,7 +7181,7 @@ style simple scholia" alternate="no"?>
                         <note resp="Erbse">p. 43 b.</note> ἀναστρέφει πρὸς τὰ προσηγορικώτερα
                         ποιούμενος τὰς συντάξεις· ὁμοίως καὶ <persName n="urn:cite:hmt:pers.pers247">Νικίας</persName>
                         <note resp="Erbse">fr. 2 b.</note>, οὐκέτι μέντοι ἐπὶ τοῦ <cit>
-                           <q>„<placeName n="urn:cite:hmt:place.place93">Ξάνθῳ</placeName> ἐπι δινήεντι“</q>
+                           <q>„<placeName n="urn:cite:hmt:place.place93">Ξάνθῳ</placeName> ἐπι δινήεντι</q>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:5.479</ref>
                         </cit>
                         <cit>
