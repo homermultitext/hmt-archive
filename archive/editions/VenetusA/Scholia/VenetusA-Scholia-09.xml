@@ -1145,7 +1145,7 @@ style simple scholia" alternate="no"?>
                      <p><persName n="urn:cite:hmt:pers.pers15">Ἀρίσταρχος</persName> ἓν μερος λόγου παρέλαβεν ὡς
                         ἐπιφέρνια· <persName n="urn:cite:hmt:pers.pers69">Ἀπολλόδωρος</persName>
                         <note resp="Erbse">FGrHist. 244, 248</note> δὲ διαλύει <rs type="waw"
-                           >ἐπί</rs> εῖτα <rs type="waw">μείλια</rs> οὕτως δὲ καὶ <persName n="341"
+                           >ἐπί</rs> εῖτα <rs type="waw">μείλια</rs> οὕτως δὲ καὶ <persName n="urn:cite:hmt:pers.pers341"
                            >Ἀλεξίων</persName>
                         <note resp="Erbse">fr. 36 B.</note> καὶ ἐστι τὸ ἑξῆς ἐπιδώσω μείλια·
                            <persName n="urn:cite:hmt:pers.pers503">Τρύφων</persName>
@@ -1223,7 +1223,7 @@ style simple scholia" alternate="no"?>
                         </cit>
                         <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001.msA:18.42</ref>
-                           <q><placeName>Ἀγυή</placeName></q>
+                           <q><placeName n="urn:cite:hmt:place.HELP">Ἀγυή</placeName></q>
                         </cit> οὕτως καὶ <placeName n="urn:cite:hmt:place.place182">Ϊρή</placeName>⁑</p>
                   </div>
                </div>
@@ -1341,7 +1341,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.167</p>
                   </div>
                   <div type="comment">
-                     <p>βαρυτονητέον: δύο γὰρ μέρη λόγου ἀντι τοῦ <rs type="waw">οὗτοι</rs> δὲ. εἰσὶ δε οἳ
+                     <p>βαρυτονητέον· δύο γὰρ μέρη λόγου ἀντι τοῦ <rs type="waw">οὗτοι</rs> δὲ. εἰσὶ δε οἳ
                         προπεριέσπασαν οὐκ εὖ χρεία γάρ ἐστι τοῦ δὲ συνδέσμου, ἐζήτηται δὲ πῶς
                         μᾶλλον οὐ πρεσβεύει ὡς συνετώτερος· ἔστιν δὲ λέγειν ὅτι κατ οικονομιαν
                         ὑπελείφθην ἵνα ἂν ἀπο τύχωσιν οἱ <choice>
@@ -1919,7 +1919,7 @@ style simple scholia" alternate="no"?>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001.msA:9.226</ref>
                            <q>ῆμεν ἐν κλισίῃ</q>
                         </cit> ἵν' ᾗ ῆμεν ἐτυγχάνομεν· <choice>
-                           <abbr><persName><persName n="urn:cite:hmt:pers.pers16"
+                           <abbr><persName n="urn:cite:hmt:pers.HELP"><persName n="urn:cite:hmt:pers.pers16"
                               >Ἀρίσταρχ</persName></persName></abbr>
                            <expan><persName n="urn:cite:hmt:pers.pers16">Ἀρίσταρχος</persName></expan>
                         </choice>δὲ <choice>
@@ -3235,7 +3235,7 @@ style simple scholia" alternate="no"?>
                         </choice> ἢν δια τὴν σπουδήν. ὁδὲ <choice>
                            <abbr>πηρ</abbr>
                            <expan>πατήρ</expan>
-                        </choice> ἢν ὀργιζόμενος δια τὸν ἔρωτα ἀνεψιὸς δὲ <persName type="pers563"
+                        </choice> ἢν ὀργιζόμενος δια τὸν ἔρωτα ἀνεψιὸς δὲ <persName n="urn:cite:hmt.pers.pers563"
                            >Φοίνικος</persName>
                         <persName n="urn:cite:hmt:pers.pers643">Εὐρύπυλος</persName>⁑ </p>
                   </div>
@@ -4255,7 +4255,7 @@ style simple scholia" alternate="no"?>
                </div>
                <div n="576" type="scholion">
                   <div type="lemma">
-                     <p>‡καὶ τότε δὴ <persName n="312">Μελέαγρον </persName>,</p>
+                     <p>‡καὶ τότε δὴ <persName n="urn:cite:hmt:pers.pers312">Μελέαγρον </persName>,</p>
                   </div>
                   <div type="ref">
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.590</p>

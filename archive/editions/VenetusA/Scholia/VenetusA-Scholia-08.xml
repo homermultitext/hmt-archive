@@ -4209,7 +4209,7 @@
                      <p>παροξύνεται τὸ τώδε παραλόγως ἀληθὲς γὰρ ὡς ὅτι τὰ δια τοῦ <rs type="waw"
                            >δε</rs> ἐπεκτεταμένα εἰ ἔχοι προ τέλους φύσει μακρὰν προπερισπᾶται, ὅπερ
                         ὤφειλε κἀπὶ τοῦ <q>τώδε δὲ νῶϊ</q> εἶναι, ἀλλ ὅμως πάλιν κατ' ἐπικρατεῖ καὶ
-                        ἐπὶ τούτου πρὸ τέλους ἡ οξεῖα· ταῦτα ὁ <persName>Ἡρωδιανὸς</persName>
+                        ἐπὶ τούτου πρὸ τέλους ἡ οξεῖα· ταῦτα ὁ <persName n="urn:cite:hmt:pers.HELP">Ἡρωδιανὸς</persName>
                         <note resp="Erbse">2,57,22; cf. 2,60,3</note> ἐν τῇ <num value="7">Ζ</num>
                         <note resp="Erbse">sc. ad 422</note> ὅπου περὶ τοῦ ιῷ διαλαμβάνει·</p>
                   </div>
@@ -4465,7 +4465,7 @@
                         </choice>. ἡ μέντοι παράδοσις ὀξύνει τὸ <q>ἀβληχρὰ</q> καὶ <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:5.337</ref>
                            <q>ἀβληχρὴν</q>
-                        </cit> πεισθεῖσα πρῶτον τῷ παρασχηματισμῷ ὡς ἁπλῶ, οὕτως γὰρ  
+                        </cit> πεισθεῖσα πρῶτον τῷ παρασχηματισμῷ ὡς ἁπλῶ, οὕτως γὰρ 
                         παρεσχηματίσθη ὡς <q><w>π<add place="supralinear">ε</add>νιχρά</w></q>
                         <q>ψυχρά</q> λέγω δὲ θηλυκῶς οὕτως <q>ἀβληχρά</q> οὐ κοινωνοῦντός ποτὲ τοῦ
                         γένους· λέγω δὲ <q>ὁ ἀβληχρὸς</q> καὶ <q>ἡ ἀβληχρος</q>· ἄλλως τε ήδη αὐτὸ
@@ -4608,13 +4608,13 @@
                </div>
                <div n="148" type="scholion">
                   <div type="lemma">
-                     <p>οἳ δέ τοι εἰς <placeName>Ἑλίκην</placeName> τε καὶ αἱγάς· </p>
+                     <p>οἳ δέ τοι εἰς <placeName n="urn:cite:hmt:place.HELP">Ἑλίκην</placeName> τε καὶ αἱγάς· </p>
                   </div>
                   <div type="ref">
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:8.203</p>
                   </div>
                   <div type="comment">
-                     <p><placeName>Ἑλίκη</placeName>
+                     <p><placeName n="urn:cite:hmt:place.HELP">Ἑλίκη</placeName>
                         <choice>
                            <abbr>πο</abbr>
                            <expan>πόλις</expan>
@@ -4635,7 +4635,7 @@
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:urn:cts:greekLit:tlg0012.tlg001.msA:8.205-8.206</p>
                   </div>
                   <div type="comment">
-                     <p><persName n="urn:cite:hmt:pers.pers8">Ζῆν</persName> αὐτοῦ κ' ἔνθ' ἀκαχοιτο:
+                     <p><persName n="urn:cite:hmt:pers.pers8">Ζῆν</persName> αὐτοῦ κ' ἔνθ' ἀκαχοιτο·
                         εἰ δια τὸν <rs type="waw">ει</rs> σύνδεσμον ἀποτελουμένη ὑποστιγμὴ πίπτει
                         μετα τὸ <persName n="urn:cite:hmt:pers.pers8"><rs type="waw"
                            >Ζῆν</rs></persName> ὄνομα ⁑ </p>
@@ -4658,7 +4658,7 @@
                         </cit>· <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.166</ref>
                            <q>ὡς εφαθ' οὐδ' ἀπίθησεν</q>
-                        </cit>: ἕτερον δὲ ὅτι συμβήσεται κατ αρχὰς τοῦ στίχου <note resp="Erbse">sc.
+                        </cit>· ἕτερον δὲ ὅτι συμβήσεται κατ αρχὰς τοῦ στίχου <note resp="Erbse">sc.
                            207</note> μετὰ τὸ <rs type="waw">ν</rs> μόνον στοιχεῖον διάστημα εἶναι
                         τῆς ὑποστιγμῆς ⁑</p>
                   </div>
@@ -5525,7 +5525,7 @@
                <div n="239" type="scholion">
                   <div type="lemma">
                      <p>ἐξ <placeName n="urn:cite:hmt:place.place286">Ἐρέβευς</placeName> ἄξοντα
-                        κύνα στυγεροῦ <placeName n="urn:cite:hmt:place.place67">Αϊδαο</placeName>:
+                        κύνα στυγεροῦ <placeName n="urn:cite:hmt:place.place67">Αϊδαο</placeName>·
                      </p>
                   </div>
                   <div type="ref">
@@ -5556,7 +5556,7 @@
                      <p>τὸν <persName n="urn:cite:hmt:pers.pers616">Κέρβερον</persName> τελεσθέντων
                            <persName n="urn:cite:hmt:pers.pers71">Ἡρακλέους</persName> ἄθλων ἐν μηνὶ
                         καὶ ἐτησίων ὀκτὼ μὴ προσδεχόμενος <persName n="urn:cite:hmt:pers.pers391"
-                           >Εὐρυσθεὺς</persName> τόν τε τὸν <persName>Αὐγαίου</persName> βοσκημάτων
+                           >Εὐρυσθεὺς</persName> τόν τε τὸν <persName n="urn:cite:hmt:pers.HELP">Αὐγαίου</persName> βοσκημάτων
                         ἆθλου καὶ τὸν τῆς Ὕδρας ἐνδέκατον. ἐπέταξεν ἆθλον αὐτῶ τὸν <persName
                            n="urn:cite:hmt:pers.pers616">Κέρβερον</persName> ἑξ <placeName
                            n="urn:cite:hmt:place.place67">Άιδου</placeName> κομίζειν· εἶχεν δὲ οὗτως
@@ -6316,7 +6316,7 @@
                            >Ἀριστοφάνους</persName>
                         <q>πέσσοι</q>· <persName n="urn:cite:hmt:pers.pers221"
                            >Παρμενίσκος</persName> δὲ ἐν τῷ <num value="1">α</num>
-                        <title>Πρὸς Κράτητα</title>  <note resp="Erbse">fr. 2 Br.</note> ὡς
+                        <title>Πρὸς Κράτητα</title> <note resp="Erbse">fr. 2 Br.</note> ὡς
                            <persName n="urn:cite:hmt:pers.pers16">Ἀριστάρχειον</persName> γραφὴν
                         προφέρεται, <q>ἀλλ ὥς τις κείνων γε</q> ⁑</p>
                   </div>
@@ -6403,7 +6403,7 @@
                         </cit>, οὐχὶ παρα τὴν πάντεσσι ἡ σύνθεσις <q>Ναυσικάα</q>
                         <q>Ναυσίθοος</q>, <q>ἐγχεσίμοροι</q>
                         <q>τειχεσιπλήτης</q>. κατ αρχὴν δὲ προσέθηκα, διὰ τὸ παρ'
-                           <persName>Ἐπιχάρμῳ</persName>
+                           <persName n="urn:cite:hmt:pers.HELP">Ἐπιχάρμῳ</persName>
                         <note resp="Erbse">fr. 218 K.</note> κατα τέλος συντεθειμένον <q>γυναικ'
                            ἄνδρεσσι ποθεινοί</q>· εἴπερ οὖν τοῦτο ἀληθὲς. δηλονότι παράλογον, τὸ <rs
                            type="waw">κηρεσσιφορήτους</rs> κατα σύνθεσιν ἀναγνωστέον, ἀλλ ὅμως
