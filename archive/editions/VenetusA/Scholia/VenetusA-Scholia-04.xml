@@ -4973,7 +4973,7 @@
                                                 λειτουργιας δύο ἐπέμποντο κατάσκοποι πρέσβεις· ἡ <choice>
                                                   <abbr>διαφο</abbr>
                                                   <expan>διαφορά</expan>
-                                                </choice> δὲ ὅτι οὐ δε ὁ <persName n="563"
+                                                </choice> δὲ ὅτι οὐ δε ὁ <persName n="urn:cite:hmt:pers.pers563"
                                                   >Φοῖνιξ</persName> εν ταῖς <title>Λιταῖς</title>
                                                 πρεσβεύει ⁑</p>
                                     </div>
@@ -5061,7 +5061,7 @@
                               </div>
                               <div ana="4.405b" n="858" type="scholion">
                                     <div type="lemma">
-                                          <p><sic>ἀγορῄ</sic> δέ τ᾽ ἀμείνω:</p>
+                                          <p><sic>ἀγορῄ</sic> δέ τ᾽ ἀμείνω·</p>
                                     </div>
                                     <div type="ref">
                                           <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.400</p>
@@ -5141,7 +5141,7 @@
                               </div>
                               <div ana="4.407c" n="621" type="scholion">
                                     <div type="lemma">
-                                          <p>ὑπὸ τεῖχος <persName n="urn:cite:hmt:pers.pers83">Ἄρειον</persName>:·</p>
+                                          <p>ὑπὸ τεῖχος <persName n="urn:cite:hmt:pers.pers83">Ἄρειον</persName>·</p>
                                     </div>
                                     <div type="ref">
                                           <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.407</p>
@@ -5167,7 +5167,7 @@
                                                   <q>μη ψεῦσον ὦ <persName n="urn:cite:hmt:pers.pers8"
                                                   >Ζεῦ</persName></q>, <persName n="urn:cite:hmt:pers.pers88"
                                                   >Ἀπολλώνιος</persName> δὲ διατέλλει τὸ <rs
-                                                  type="waw">εν</rs> ἵνα γένηται ἐν ὁμοία :</p>
+                                                        type="waw">εν</rs> ἵνα γένηται ἐν ὁμοία ·</p>
                                     </div>
                               </div>
 
@@ -5239,7 +5239,7 @@
                                     </div>
                                     <div type="comment">
                                           <p>
-                                                <persName n="545">Πτολεμαῖος</persName> ὁ του
+                                                <persName n="urn:cite:hmt:pers.pers545">Πτολεμαῖος</persName> ὁ του
                                                   <persName n="urn:cite:hmt:pers.pers163">Ἀριστονίκου</persName> καὶ
                                                   <persName n="urn:cite:hmt:pers.pers247">Νικιας</persName> καὶ
                                                   <persName n="urn:cite:hmt:pers.pers105">Τυραννίων</persName>
