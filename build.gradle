@@ -30,9 +30,10 @@ if (project.hasProperty("nightly")) {
     projectVersion = "${new Date().format('yyyy-MM-dd')}".toString()
 }
 
+/*
 
 buildscript {
-  apply from: "${projectDir}/confs/versions.gradle"
+  //apply from: "${projectDir}/confs/versions.gradle"
   repositories {
     mavenCentral()
     maven  {
@@ -43,9 +44,10 @@ buildscript {
     classpath project(":hmtmgr")
   }
 }
-
+*/
 
 allprojects {
+  apply from: "${rootProject.rootDir}/confs/versions.gradle"
   group = "org.homermultitext"
   version = projectVersion
 
