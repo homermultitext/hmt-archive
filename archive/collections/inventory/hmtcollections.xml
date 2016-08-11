@@ -6,7 +6,7 @@
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
     
-    <!-- IMAGE DATA ********************   -->
+    <!-- IMAGE DATA ********************   --> <!--
     <citeCollection canonicalId="URN" label="Caption" urn="urn:cite:hmt:capimgs">
         <namespaceMapping
             abbr="hmt"
@@ -363,7 +363,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    
+    -->
     
     
     <!-- END IMAGE DATA ********************   -->
