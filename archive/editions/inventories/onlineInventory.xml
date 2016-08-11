@@ -300,7 +300,7 @@
         </online>
       </edition>
     </work>
-    <work
+   <work
       urn="urn:cts:greekLit:tlg5026.msAimlater:"
       xml:lang="grc">
       <title
@@ -331,7 +331,7 @@
         </online>
       </edition>
     </work>
-    <work
+ <work
       urn="urn:cts:greekLit:tlg5026.msAint:"
       xml:lang="grc">
       <title
@@ -393,7 +393,6 @@
         </online>
       </edition>  
     </work>
-
   </textgroup>
  
   <!-- Other texts in the Venetus A -->

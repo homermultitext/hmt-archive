@@ -25,7 +25,7 @@ dependencies {
 task setUpEditions {
   description = "Generates README to accompany XML version of HMT editions."
   inputs.file "${rootProject.projectDir}/${editionsDir}/README-editions.md"
-  outputs.file "${buildDir}/editions/archive/README.md"
+  outputs.files "${buildDir}/editions/archive/README.md"
 
   doLast {
     copy {
@@ -39,10 +39,10 @@ task setUpEditions {
     }
   }
 }
-  
+
 task inv {
     description = "Copies text inventory and README into build area."
-    
+
     inputs.dir  "${rootProject.projectDir}/${editionsDir}/${inventoriesDir}"
     outputs.dir  "${buildDir}/${compositeDir}"
 
@@ -73,7 +73,7 @@ task venAReadme (dependsOn: [setUpEditions, inv]) {
   description = "Add README file for Venetus A archive to build area."
   inputs.dir "${rootProject.projectDir}/${editionsDir}/VenetusA"
   outputs.dir "${buildDir}/${compositeDir}/VenetusA"
-  
+
   doLast {
     copy {
       from ("${rootProject.projectDir}/${editionsDir}/VenetusA") {
@@ -118,16 +118,16 @@ task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
     inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaIliad}"
     inputs.file "${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA/VenetusA-Iliad.xml"
     outputs.dir "${buildDir}/${compositeDir}/VenetusA"
-    
+
 }
 
 // Venetus A, main scholia
 task msAHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Venetus A main scholia"
 
-    inputs.dir "${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA"
-    outputs.dir "${buildDir}/headers/VenetusA"
-
+    //inputs.files = "${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA/VenetusA-Scholia.xml"
+    //outputs.dir "${buildDir}/headers/VenetusA"
+    outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml"
     copy {
       from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
       into "${buildDir}/headers/VenetusA"
@@ -138,7 +138,9 @@ task msAHeader(type: Copy) {
       }
     }
 }
-
+task msAHeader.doLast {
+  println "YOu ran msAHeader"
+}
 
 task msAScholia(type: JavaExec, dependsOn: [msAHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A main scholia"
@@ -159,6 +161,8 @@ task msAScholia(type: JavaExec, dependsOn: [msAHeader, venAReadme, compileGroovy
 // Venetus A, intermarginal scholia
 task msAimHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A intermarginal scholia"
+    outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAim.xml"
+
     from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
     into "${buildDir}/headers/VenetusA"
     include ('VenetusA-Scholia.xml')
@@ -188,6 +192,8 @@ task msAimScholia(type: JavaExec, dependsOn: [msAimHeader, venAReadme]) {
 task msAintHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A interior scholia"
 
+    outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml"
+
     from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
     into "${buildDir}/headers/VenetusA"
     include ('VenetusA-Scholia.xml')
@@ -208,13 +214,14 @@ task msAintScholia (type: JavaExec, dependsOn: [msAintHeader, venAReadme, compil
     inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml"
     outputs.dir "${buildDir}/${compositeDir}/VenetusA"
 
-    
+
 }
 
 
-// Venetus A, exterior scholia
 task msAextHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A exterior scholia"
+
+    outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAext.xml"
 
     from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
     into "${buildDir}/headers/VenetusA"
@@ -224,6 +231,12 @@ task msAextHeader(type: Copy) {
         fileName.replace('.xml','-msAext.xml')
     }
 }
+
+msAextHeader.doLast {
+  println "Yo, that was msAextHeader you just ran."
+}
+
+// Venetus A, exterior scholia
 task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A exterior scholia"
     main = "org.homermultitext.ScholiaCompiler"
@@ -242,6 +255,7 @@ task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compile
 // Venetus A, interlinear scholia
 task msAilHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A interlinear scholia"
+    outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAil.xml"
 
     from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
     into "${buildDir}/headers/VenetusA"
@@ -267,8 +281,10 @@ task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileG
 
 
 // Venetus A, later scholia
+
 task msALaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand"
+    outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml"
 
     from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
     into "${buildDir}/headers/VenetusA"
@@ -296,6 +312,7 @@ task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, co
 // Venetus A, later intermarginal scholia
 task msAimLaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand in intermarginal position"
+    outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater.xml"
 
     from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
     into "${buildDir}/headers/VenetusA"
