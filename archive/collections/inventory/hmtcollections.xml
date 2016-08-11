@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<collectionService
+    xmlns="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <extensionImplementation abbr="image" rdfType="cite:Image"/>
+    
+    
+    <!-- IMAGE DATA ********************   -->
+    <citeCollection canonicalId="URN" label="Caption" urn="urn:cite:hmt:capimgs">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Capitoline Tabula</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Brian Clark</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Capitoline Tabula photographed by Nik Churik.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Original and manipulated images covering the whole tabula.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/churikimgs.csv"/>
+        <citeProperty name="URN" label="Image URN" type="citeurn"/>
+        <citeProperty name="Caption" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vaimg">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Venetus A MS</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/vaimgs.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vbimg">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Venetus B MS</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus B manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus B manuscript by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/vbimgs.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:e3img">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Escorial Υ 1.1 manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Escorial Υ 1.1 manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Escorial Υ 1.1 manuscript by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/upsilon-1-1.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:e3bifolio">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Escorial Υ 1.1 manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All bifolio spreads of the Escorial Υ 1.1 manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Composite images illustrating bifolio spreads of the Escorial Υ 1.1 manuscript by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/e3bifolios.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection> 
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:u4img">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Marciana 841 manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Marciana 841 manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Marciana 841 manuscript by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/marciana-841.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vgf64img">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of manuscript Leiden VGF 64</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the manuscript Leiden VGF 64.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the manuscript Leiden VGF 64 by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/vgf64img.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:muncg88img">
+        <namespaceMapping
+            abbr="ecod"
+            fullValue="http://www.homermultitext.org/datans/ecod"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Bayerische Staatsbibliothek Codex Graecus 88</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of all pages of Bayerische Staatsbibliothek Codex Graecus 88 .</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Freely licensed photography of Bayerische Staatsbibliothek Codex Graecus 88 from the Bayerische Staatsbibliothek.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US, and document images avaiable from the Bayerische Staatsbibliothek
+            under the Creative Commons 'Namensnennung - Keine kommerzielle Nutzung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland' 
+            license (CC-BY-NC-SA)</rights>
+        <source
+            type="file"
+            value="images/muncg88img.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Caption" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:bmpap114">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Bankes papyrus</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Bankes papyrus, British Museum 114.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Bankes papyrus, British Museum 114.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/bankes.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:blpd">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Public-domain images of manuscrips in the British Library</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Public-domain images of Homeric manuscripts in the British Library.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Public-domain images of Homeric manuscripts in the British Library.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/blpd.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:codbod85">
+        <namespaceMapping
+            abbr="ecod"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the manuscript Codex Bodmer 85</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the manuscript Codex Bodmer 85.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Images of the manuscript Codex Bodmer 85 from the e-codices project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/codbod85.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:compimg">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of Comparetti's facsimile of the Venetus A manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages of Comparetti's facsimile of the Venetus A manuscript.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Images of Comparetti's facsimile of the Venetus A manuscript .</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/comparetti-images.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:gen44">
+        <namespaceMapping
+            abbr="ecod"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <extension name="image"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the Genève, Bibliothèque de Genève, Ms. gr. 44 ("Genavensis")</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Images of the manuscript Genève, Bibliothèque de Genève, Ms. gr. 44.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Images of the manuscript Genève, Bibliothèque de Genève, Ms. gr. 44 from the e-codices project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="images/gen44.csv"/>
+        <citeProperty name="Image" label="Image URN" type="citeurn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"/>
+    </citeCollection>
+    
+    
+    
+    
+    <!-- END IMAGE DATA ********************   -->
+    
+    
+    
+    <!-- CODEX MODELS:  CODICES AND PAGE ZONES ********************   -->
+    <citeCollection
+        canonicalId="codex"
+        label="description"
+        urn="urn:cite:hmt:codices">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Codices</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Codices (manuscript or print) photographed and
+            edited by the Homer Multitext project.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Digital models of codices (manuscript or
+            print) photographed and edited by the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="codexModels/codices.csv"/>
+        <citeProperty
+            label="Codex URN"
+            name="codex"
+            type="citeurn"/>
+        <citeProperty
+            label="Label"
+            name="description"
+            type="string"/>
+        <citeProperty
+            label="Page model"
+            name="pageModel"
+            type="citeurn"
+            join="naturaljoin"/>
+        <citeProperty
+            label="Century (approx.)"
+            name="century"
+            type="number"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="PageZone"
+        label="Label"
+        urn="urn:cite:hmt:pageroi">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Zones of images showing pages of the Venetus A manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Nikolas Churik</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">First six books of Venetus A</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Zones of default image of a page approximating
+            its rectangular area</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="layout/pageRois.csv"/>
+        <citeProperty
+            label="Zone on image"
+            name="PageZone"
+            type="citeurn"/>
+        <citeProperty
+            label="Folio"
+            name="Folio"
+            type="citeurn"/>
+        <citeProperty
+            label="Region of image"
+            name="ImageRoI"
+            type="citeurn"/>
+        <citeProperty
+            label="Label"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="IliadZone"
+        label="IliadZone"
+        urn="urn:cite:hmt:textblock">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Zones of images showing Iliad text in the Venetus A manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Nikolas Churik</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">First six books of Venetus A</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Zones of default image approximating
+            rectangular area of Iliad text</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="layout/iliad-text-blocks.csv"/>
+        <citeProperty
+            label="Zone on image"
+            name="IliadZone"
+            type="citeurn"/>
+        <citeProperty
+            label="Folio"
+            name="Folio"
+            type="citeurn"/>
+        <citeProperty
+            label="Region of image"
+            name="ImageRoI"
+            type="citeurn"/>
+        <citeProperty
+            label="Notes"
+            name="Notes"
+            type="string"/>
+    </citeCollection>
+
+
+    <!-- CODEX MODELS:  ORDERED COLLECTIONS OF TEXT-BEARING SURFACES ********************   -->
+    <citeCollection
+        canonicalId="PageUrn"
+        label="Label"
+        urn="urn:cite:hmt:msA">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Venetus A manuscript</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Venetus A
+            manuscript</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Venetus A
+            manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="codexModels/venetusA.csv"/>
+        <citeProperty
+            label="URN"
+            name="PageUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="PageUrn"
+        label="Label"
+        urn="urn:cite:hmt:e4">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Escorial manuscript Ω 1.12</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Escorial Ω 1.12
+            manuscript</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Escorial Ω 1.12
+            manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="codexModels/omega-1-12.csv"/>
+        <citeProperty
+            label="URN"
+            name="PageUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="PageUrn"
+        label="Label"
+        urn="urn:cite:hmt:e3">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Escorial manuscript Υ 1.1</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Escorial Υ 1.1
+            manuscript</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Escorial Υ 1.1
+            manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="codexModels/upsilon-1-1.csv"/>
+        <citeProperty
+            label="URN"
+            name="PageUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string">
+            <valueList>
+                <value>recto</value>
+                <value>verso</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="label"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="PageUrn"
+        label="Label"
+        urn="urn:cite:hmt:u4">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the manuscript Marciana 841 </title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the manuscript Marciana
+            841</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the manuscript Marciana
+            841.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="codexModels/marciana841.csv"/>
+        <citeProperty
+            label="URN"
+            name="PageUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="PageUrn"
+        label="Label"
+        urn="urn:cite:hmt:msB">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the Venetus B manuscript </title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All folio sides of the Venetus B manuscript </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Folio sides of the Venetus B
+            manuscript.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="codexModels/venetusB.csv"/>
+        <citeProperty
+            label="URN"
+            name="PageUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Recto or verso"
+            name="RV"
+            type="string"/>
+        <citeProperty
+            label="description"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="page"
+        label="label"
+        urn="urn:cite:hmt:comp">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Comparetti facsimile</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages, including front and back
+            matter</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Domenico Comparetti, Homeri Ilias cum
+            Scholiis (1901 facsimile edition of Venetus A)</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="sequence"/>
+        <source
+            type="file"
+            value="codexModels/comparetti-codex.tsv"/>
+        <citeProperty
+            label="URN"
+            name="page"
+            type="citeurn"/>
+        <citeProperty
+            label="Recto/verso"
+            name="rv"
+            type="string">
+            <valueList>
+                <value>recto</value>
+                <value>verso</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Sequence"
+            name="sequence"
+            type="number"/>
+        <citeProperty
+            label="Description"
+            name="label"
+            type="string"/>
+    </citeCollection>
+   
+    <citeCollection
+        canonicalId="Page"
+        label="Pabel"
+        urn="urn:cite:hmt:muncg88">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Bayerische Staatsbibliothek Codex Graecus 88</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages, including front and back
+            matter, and covers</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Bayerische Staatsbibliothek Codex Graecus 88</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="codexModels/muncg88model.csv"/>
+        <citeProperty
+            label="Page"
+            name="Page"
+            type="citeurn"/>
+        <!--<citeProperty
+            label="Recto/verso"
+            name="rv"
+            type="string">
+            <valueList>
+                <value>recto</value>
+                <value>verso</value>
+            </valueList>
+        </citeProperty>
+     -->   <citeProperty
+            label="Sequence"
+            name="sequence"
+            type="number"/>
+        <citeProperty
+            label="Default image"
+            name="DefaultImage"
+             type="citeurn"/>
+    </citeCollection>
+    
+    
+    <!--
+    <citeCollection
+        canonicalId="page"
+        label="label"
+        urn="urn:cite:hmt:comp">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Comparetti facsimile</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages, including front and back
+            matter</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of Domenico Comparetti, Homeri Ilias cum
+            Scholiis (1901 facsimile edition of Venetus A)</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="sequence"/>
+        <source
+            type="file"
+            value="comparetti-codex.tsv"/>
+        <citeProperty
+            label="URN"
+            name="page"
+            type="citeurn"/>
+        <citeProperty
+            label="Recto/verso"
+            name="rv"
+            type="string">
+            <valueList>
+                <value>recto</value>
+                <value>verso</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Sequence"
+            name="sequence"
+            type="number"/>
+        <citeProperty
+            label="Description"
+            name="label"
+            type="string"/>
+    </citeCollection>
+    -->
+    <!-- END CODEX MODELS ************************************************* ********************   -->
+
+
+
+    <!-- INVENTORY OF SCHOLIA: ************************************************* ********************   -->
+    <!--<citeCollection
+        canonicalId="URN"
+        label="Comments"
+        urn="urn:cite:hmt:scholia">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Inventory of scholia edited</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All scholia identified to date.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Inventory with documentary visual evidence and
+            physical location of scholia edited in the Homer Multitext project.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="scholiainventory.csv"/>
+        <citeProperty
+            label="Scholion URN"
+            name="URN"
+            type="citeurn"/>
+        <citeProperty
+            label="Text URN"
+            name="CtsUrn"
+            type="ctsurn"/>
+        <citeProperty
+            label="Comments"
+            name="Comments"
+            type="string"/>
+        <citeProperty
+            label="Visual evidence"
+            name="VisualEvidence"
+            type="citeurn">
+            <indexRelation rdfverb="dse:illustratedBy" inverseverb="dse:illustrates"/>
+        </citeProperty>
+        <citeProperty
+            label="Folio URN"
+            name="FolioUrn"
+            type="citeurn">
+            <indexRelation rdfverb="dse:appearsOn" inverseverb="dse:hasOnIt"/>
+        </citeProperty>
+
+    </citeCollection>
+    --><!-- END INVENTORY OF SCHOLIA: ************************************************* ********************   -->
+    <!-- ANALYTICAL COLLECTIONS ************************************************* ********************   -->
+    <!--
+    <citeCollection
+        canonicalId="LexURN"
+        label="Lemma"
+        urn="urn:cite:perseusGreek:lexentity">
+        <namespaceMapping
+            abbr="perseusGreek"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <dc:title>Glossary of Greek words</dc:title>
+        <dc:description>Automatically extracted lemma and short definition from Perseus
+            lexicon</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="analyses/hmtgloss.tsv"/>
+        <citeProperty
+            label="Greek lemma"
+            name="Lemma"
+            type="string"/>
+        <citeProperty
+            label="English gloss"
+            name="Gloss"
+            type="string"/>
+        <citeProperty
+            label="URN"
+            name="LexURN"
+            type="citeurn"/>
+    </citeCollection>
+   -->
+    
+    <citeCollection
+        canonicalId="ClassId"
+        label="Meaning"
+        urn="urn:cite:hmt:tokentypes">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <dc:title>Token classes</dc:title>
+        <dc:description>Possible classifications of tokens other than named entities analyzed by the
+            HMT project's tokenization system for Greek text edited according to project
+            conventions. </dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="analyses/tokenclasses.csv"/>
+        <citeProperty
+            label="Class"
+            name="ClassId"
+            type="string">
+            <valueList>
+                <value>lexical</value>
+                <value>numeric</value>
+                <value>waw</value>
+                <value>sic</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Meaning"
+            name="Meaning"
+            type="string"/>
+    </citeCollection>
+    <!--  
+    <citeCollection
+        canonicalId="urn"
+        label="normalizedlemma"
+        urn="urn:cite:perseus:grclexent">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/datans"/>
+      
+        
+        <dc:title>Lexical entitites</dc:title>
+        <dc:description>Fork of Perseus collection of Greek lexical entities</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        
+        <source
+            type="file"
+            value="lexentsrc.csv"/>
+        <citeProperty
+            label="URN"
+            name="urn"
+            type="ctsurn">
+        </citeProperty>
+        <citeProperty
+            label="normalizedlemma"
+            name="Lemma"
+            type="string"/>
+        <citeProperty
+            label="Short definition"
+            name="shortdef"
+            type="string"/>
+    </citeCollection>
+-->
+    <!-- END ANALYTICAL COLLECTIONS ************************************************* ********************   -->
+    <!-- FEATURES SPECIFIC TO VENETUS A ************************************************* ********************   -->
+    <citeCollection
+        canonicalId="Graphic"
+        label="Caption"
+        urn="urn:cite:hmt:vagraphics">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <dc:title>Graphics in Comparetti</dc:title>
+        <dc:description>Graphic features in Comparetti's printed facsimile of the Venetus A that are
+            not in the original manuscript </dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="venetusA/comparettigraphics.csv"/>
+        <citeProperty
+            label="URN"
+            name="Graphic"
+            type="citeurn"/>
+        <citeProperty
+            label="Caption"
+            name="Caption"
+            type="string"/>
+        <citeProperty
+            label="Image"
+            name="ImageRoi"
+            type="citeurn"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="Graphic"
+        label="Caption"
+        urn="urn:cite:hmt:vagraphics">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <dc:title>Graphics in the Venetus A manuscript</dc:title>
+        <dc:description>Graphics in the Venetus A manuscript </dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="venetusA/venAgraphics.csv"/>
+        <citeProperty
+            label="URN"
+            name="Graphic"
+            type="citeurn"/>
+        <citeProperty
+            label="Caption"
+            name="Caption"
+            type="string"/>
+        <citeProperty
+            label="Folio"
+            name="Folio"
+            type="citeurn"/>
+        <citeProperty
+            label="Image"
+            name="VisualEvidence"
+            type="citeurn"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="SignURN"
+        label="EnglishName"
+        urn="urn:cite:hmt:critsigns">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <dc:title>Classes of Aristarchan critical signs</dc:title>
+        <dc:description>Names and character encoding information for Aristarchan critical
+            signs</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="venetusA/criticalsigns.tsv"/>
+        <citeProperty
+            label="URN"
+            name="SignURN"
+            type="citeurn"/>
+        <citeProperty
+            label="English name"
+            name="EnglishName"
+            type="string"/>
+        <citeProperty
+            label="Greek name"
+            name="GreekName"
+            type="string"/>
+        <citeProperty
+            label="Unicode codepoint (hex value)"
+            name="UnicodeHex"
+            type="string"/>
+        <citeProperty
+            label="Notes on Unicode representation"
+            name="UnicodeNotes"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="Caption"
+        label="Label"
+        urn="urn:cite:hmt:captions">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Captions</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Matthew Angiolillo</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Thomas Arralde</creator>
+        <dc:creator>Megan Whitacre</dc:creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All captions accompanying figures in the
+            Venetus A</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Captions accompanying figures in the Venetus
+            A</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="venetusA/captions.csv"/>
+        <citeProperty
+            label="Caption"
+            name="Caption"
+            type="citeurn"/>
+        <citeProperty
+            label="Text"
+            name="Text"
+            type="ctsurn"/>
+        <citeProperty
+            label="Visual evidence"
+            name="VisualEvidence"
+            type="citeurn"/>
+        <citeProperty
+            label="Folio"
+            name="Folio"
+            type="citeurn"/>
+        <citeProperty
+            label="Label"
+            name="Label"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="Entry"
+        label="Label"
+        urn="urn:cite:hmt:catships">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Catalog of ships</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Matthew Angiolillo</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Thomas Arralde</creator>
+        <dc:creator>Megan Whitacre</dc:creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Entries in the Venetus A</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Entries in the Catalog of Ships in the Venetus
+            A</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="venetusA/catships.csv"/>
+        <citeProperty
+            label="Entry"
+            name="Entry"
+            type="citeurn"/>
+        <citeProperty
+            label="Label"
+            name="Label"
+            type="string"/>
+        <citeProperty
+            label="Attached to line"
+            name="AttachedTo"
+            type="ctsurn"/>
+        <citeProperty
+            label="Visual evidence"
+            name="VisualEvidence"
+            type="citeurn"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="OccurrrenceUrn"
+        label="OccurrrenceUrn"
+        urn="urn:cite:hmt:venAsign">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <dc:title>Aristarchan critical signs in the Venetus A</dc:title>
+        <dc:description>Occurrences of Aristarchan critical signs in the Venetus A
+            manuscipt</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="venetusA/venAsigns.tsv"/>
+        <citeProperty
+            label="URN"
+            name="OccurrrenceUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Critical sign"
+            name="CriticalSign"
+            type="citeurn"/>
+        <citeProperty
+            label="Attached to line"
+            name="TextPassage"
+            type="ctsurn"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="StatusUrn"
+        label="Meaning"
+        urn="urn:cite:hmt:edstatus">
+        <namespaceMapping
+            abbr="hmt"
+            fullValue="http://www.homermultitext.org/datans"/>
+        <dc:title>Status of editorial review by folio page</dc:title>
+        <dc:description>Status value for each folio worked on by HMT editors</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="projectmeta/editorialStatus.csv"/>
+        <citeProperty
+            label="Status"
+            name="StatusUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Definition"
+            name="Meaning"
+            type="string"/>
+        <citeProperty
+            label="Tier"
+            name="Tier"
+            type="number"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="OccurrrenceUrn"
+        label="CriticalSign"
+        urn="urn:cite:hmt:proclusSign">
+        <namespaceMapping
+            abbr="perseusGreek"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <dc:title>Critical signs in the text of Proclus, Chrestomathy</dc:title>
+        <dc:description>Occurrences of Aristarchan critical signs in the text of Proclus,
+            Chrestomathy, in the Venetus A manuscript</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <orderedBy
+            property="Sequence"/>
+        <source
+            type="file"
+            value="venetusA/proclusSigns.tsv"/>
+        <citeProperty
+            label="URN"
+            name="OccurrrenceUrn"
+            type="citeurn"/>
+        <citeProperty
+            label="Sequence"
+            name="Sequence"
+            type="number"/>
+        <citeProperty
+            label="Critical sign"
+            name="CriticalSign"
+            type="citeurn"/>
+        <citeProperty
+            label="Attached to text"
+            name="TextPassage"
+            type="ctsurn"/>
+        <citeProperty
+            label="Region of image"
+            name="ImageRoI"
+            type="citeurn"/>
+    </citeCollection>
+    <!-- Add similes collection -->
+    <!-- END FEATURES SPECIFIC TO VENETUS A ************************************************* ********************   -->
+</collectionService>

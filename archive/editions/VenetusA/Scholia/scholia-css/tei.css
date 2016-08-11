@@ -1,0 +1,797 @@
+/* =============================================================
+Trimmed down and modified from default CSS for TEI distributed 
+with oXygen.
+
+============================================================= */
+
+@namespace xml url(http://www.w3.org/2002/xml);
+
+/* Use Times New Roman for default font */
+TEI {
+}
+abbr {
+  display: inline;
+}
+add {
+  display: inline;
+  color: green;
+  background-color: inherit;
+  text-decoration: underline;
+}
+address {
+  display: block;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+addrLine {
+  display: block;
+  white-space: nowrap;
+}
+anchor {
+  display: none;
+}
+argument {
+  display: block;
+  margin-bottom: 0.5em;
+}
+att {
+  display: inline;
+  font-family: sans-serif;
+  color: blue;
+  background-color: inherit;
+}
+att:before {
+  content: "@";
+}
+author {
+  display: inline;
+}
+
+bibl {
+  display: inline;
+}
+    
+    
+biblFull {
+  display: inline;
+}
+
+biblScope {
+  display: inline;
+}
+    
+imprint > biblScope {
+  display: block;
+}
+    
+body {
+  margin: 4em;
+  display: block;
+  counter-reset: div1;
+  
+  font-size : large;
+  line-height : 1.6em;
+
+}
+
+cell {
+  display: table-cell;
+  border: 1px solid #EEEFEE;
+  padding: 3px;
+  color: inherit;
+  background-color:inherit;
+}
+cell[role='label'] {
+   color: inherit;
+   background-color: #BBBBBB;
+}
+change {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+cit {
+  display: inline;
+}
+    
+    
+    
+corr {
+  display: inline;
+  color: green;
+  background-color: inherit;
+}
+
+date {
+  display: inline;
+}
+
+
+del {
+  display: inline;
+  color: red;
+  background-color: inherit;
+  text-decoration: line-through;
+}
+
+body > div {
+  display: block;
+  margin-bottom: 1em;
+  counter-increment: div1;
+  counter-reset: div2;
+}
+body > div > div {
+  display: block;
+  margin-bottom: 1em;
+  counter-increment: div2;
+  counter-reset: div3;
+}
+body > div > div > div {
+  display: block;
+  margin-bottom: 1em;
+  counter-increment: div3;
+}
+
+
+
+
+emph {
+  display: inline;
+  font-style: italic;
+}
+epigraph {
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+foreign {
+  display: inline;
+  font-style: italic;
+}
+
+
+gap {
+  display: none;
+}
+    
+gap:after {
+  content: "[...]";
+  font-style: italic;
+}
+
+group:before {
+      content : "Book  " attr(n);
+    
+}
+group > text:before {
+    color : blue;
+    font-size : 200%;
+    font-weight : bold;
+    content : "Document  " attr(n);
+    
+}
+
+group > text {
+    border-bottom : solid blue 2px;
+}
+
+body > div:before {
+    content: "Book "   attr(xml|id);
+    font-weight: bold;
+    font-size: large;
+}
+
+div[type="scholion"]:before {
+    content: "Identifier: " attr(n) " (= Erbse " attr(ana) ")";
+    color : blue;
+    background-color : #bbb;
+    padding: 0.2em;
+   border-bottom: blue solid 2px;
+   }
+   
+div[type="scholion"] {
+        border: solid black 1pt;
+}
+div[type="lemma"]:before {
+    content: "Lemma: ";
+    display : inline;
+    
+    color : gray;
+}
+div[type="lemma"] {
+    color: maroon;
+    font-weight: bold;
+}
+div[type="lemma"] > p {
+    
+display : inline;
+}
+
+
+
+div[type="ref"]:before {
+    content: "Comments on: ";
+    display : inline;
+    
+    color : gray;
+}
+div[type="ref"] {
+    color: navy;
+    font-weight: bold;
+}
+
+div[type="ref"] > p {
+    
+display : inline;
+}
+
+rs[type='waw']:before {
+    content: "‘";
+    font-style : plain;
+}
+rs[type='waw']:after {
+    content: "’";
+    font-style : plain;
+}
+
+rs[type='waw'] {
+    font-style : italic;
+    font-weight : bold;
+}
+
+persName {
+    color : maroon;
+}
+
+
+placeName {
+    color : rgb(230,140,0);
+}
+
+
+choice > abbr {
+    color : #b4b;
+}
+
+choice > expan:before {
+    content : " (= ";
+    color : black;
+}
+choice > expan:after {
+    content : ") ";
+    color : black;
+}
+choice > expan {
+    color : green;
+}
+
+body > div > head {
+  display: block;
+  font-size: larger;
+  padding-top: 14px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: inherit;
+  background-color: #BBBBBB;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+body > div > div > head {
+  display: block;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: inherit;
+  background-color: #BBBBBB;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+body > div > div > div > head {
+  display: block;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: inherit;
+  background-color: #BBBBBB;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+
+body > div > head:before {
+  /*content: counter(div1) ". ";*/
+  color: black;
+  background-color: inherit;
+}
+
+
+body > div > div > head:before {
+  /*content: counter(div1) "." counter(div2) ". ";*/
+  color: black;
+  background-color: inherit;
+}
+body > div > div > div > head:before {
+  /*content: counter(div1) "." counter(div2) "." counter(div3) ". ";*/
+  color: black;
+  background-color: inherit;
+}
+
+
+
+
+
+
+
+
+
+list[type = "gloss"] item {
+  display: block;
+  margin-left: 1em;
+}
+list item {
+  display: list-item;
+  margin-left: 12pt;
+}
+    
+    
+item {
+  display: list-item;
+  margin-left: 12pt;
+}
+    
+item[n]:before {
+  content: attr(n) ". " ;
+  list-style: none;
+} /* should there be space after the content?
+     And should default marker be suppressed
+     when there is an @n attribute? --DRS */
+    
+change item {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+keywords {
+  display: block;
+  margin-bottom: 0.5em;
+}
+kw {
+  display: inline;
+  font-style: italic;
+}
+l {
+  display: block;
+  white-space: nowrap;
+}
+label {
+  display: inline;
+  font-weight: bold;
+}
+Label {
+	display: inline;
+	font-weight : bold;
+	color : #2F4F4F;
+           background-color: inherit;
+}
+
+
+lb {
+  display: block;
+}
+lg {
+  display: block;
+  margin-bottom: 0.5em;
+}
+list {
+  display: block;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+    
+list[rend="runon"] {
+  display: inline;
+}
+    
+list[type="bulleted"] {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+list[type="unordered"] {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+list[type="ordered"] {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+    
+list[type="numbered"] {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+list[type="none"] {
+  list-style-type: none;
+}
+    
+listBibl {
+  display: block;
+  margin-bottom: 0.5em;
+}
+mentioned {
+  display: inline;
+  font-style: italic;
+}
+milestone {
+  display: none;
+}
+name {
+  display: inline;
+}
+note {
+  display: block;
+  font-size: smaller;
+}
+    
+note[n]:before {
+  content: attr(n);
+  vertical-align: super;
+}
+
+num {
+  display: inline;
+}
+
+p {
+  display: block;
+  margin-bottom: 0.5em;
+}
+pb {
+  display: none;
+}
+    
+pb:after {
+  content: attr(n);
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+
+
+publicationStmt {
+  display: block;
+  margin-bottom: 1em;
+}
+publisher {
+  display: inline;
+}
+    
+imprint > publisher, publicationStmt > publisher {
+  display: block;
+  margin-bottom: 0.5em;
+}
+pubPlace {
+  display: inline;
+}
+    
+imprint > pubPlace, publicationStmt > pubPlace {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+
+
+q {
+  display: block;
+  quotes: '"' '"' "'" "'";
+  margin-left: 1.5em;
+  margin-right : 1.5em;
+ 
+}
+    
+q:before {
+  content: open-quote;
+}
+    
+q:after {
+  content: close-quote;
+}
+    
+ref {
+  display: inline;
+  color: blue;
+  background-color: inherit;
+}
+ref:before{
+    color: gray;
+    background-color: inherit;
+    text-decoration: underline;
+    content:'{' attr(target) '}';
+}
+
+
+    
+    
+row {
+  display: table-row;
+}
+row[role='label'] {
+   color: inherit;
+   background-color: #BBBBBB;
+}
+
+rs {
+  display: inline;
+}
+
+seg[type="section"]:before {
+content: "[" attr('n') "] ";
+
+
+color : #004477;
+}
+
+seg[type="section"] {
+display : inline;
+}
+/*
+seg {
+  display: inline;
+}
+*/
+seriesStmt {
+  display: block;
+  margin-bottom: 1em;
+}
+sic {
+  display: inline;
+  color: red;
+  background-color: inherit;
+}
+    
+sic:after {
+  content: " [sic]";
+}
+signed {
+  display: block;
+  text-align: right;
+}
+soCalled {
+  display: inline;
+  font-style: italic;
+  quotes: "'" "'";
+}
+    
+soCalled:before {
+  content: open-quote;
+}
+    
+soCalled:after {
+  content: close-quote;
+}
+    
+sp {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+}
+speaker {
+  display: inline;
+  font-weight: bold;
+}
+sponsor {
+  display: block;
+  margin-bottom: 0.5em;
+}
+stage {
+  display: inline;
+  font-style: italic;
+}
+table {
+  text-align: center;
+  display: table;
+  margin: 1em
+}
+table > head{
+    display:table-caption;
+    font-style: italic;
+    margin-bottom: 6pt;
+}
+
+
+term {
+  font-family: sans-serif;
+  color: blue;
+  background-color: inherit;
+  display: inline;
+}
+
+title {
+  display: inline;
+}
+    
+supplied:before {
+content: " ["
+}
+  
+supplied:after {
+content: "] "
+}
+    
+supplied {
+color : red;
+}
+
+
+unclear {
+  display: inline;
+  color: silver;
+  background-color: inherit;
+  font-style: italic;
+}
+/* header-related material */
+teiHeader {
+
+  display: block;
+ 
+  background-color: rgb(251, 242, 234);
+  border: solid black 1pt;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  
+}
+titleStmt > author {
+  display: block;
+  margin-bottom: 1em;
+}
+authority {
+  display: block;
+  margin-bottom: 0.5em;
+}
+availability {
+  display: block;
+  margin-bottom: 0.5em;
+}
+fileDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+sourceDesc {
+  display: block;
+  border: thin silver solid;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+revisionDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+catDesc {
+  display: block;
+  margin-bottom: 0.5em;
+}
+encodingDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+profileDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+projectDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+        
+docDate {
+  display: block;
+  margin-bottom: 0.5em;
+}
+    
+docImprint docDate {
+  display: inline;
+}
+    
+docEdition {
+  display: block;
+  margin-bottom: 0.5em;
+}
+docImprint {
+  display: block;
+  margin-bottom: 0.5em;
+}
+docTitle {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* OUCS additions */
+Button {
+	  font-family: monospace;
+	  color: red;
+	  font-weight: bold;
+	  background-color: rgb(75%,75%,75%)
+	  }
+Value {
+	  font-family: monospace;
+	  color: rgb(255, 102, 0);
+	  background-color: inherit;
+	  }
+Code {
+	  font-family: monospace;
+	  color: red;
+	  background-color: inherit;
+	  }
+Field {
+	   font-family: monospace;
+	   color: red;
+	   background-color: inherit;
+	   }
+Filespec {
+	      font-family: monospace;
+	      color: red;
+	      background-color: inherit;
+	      }
+Input {
+	   font-family: monospace;
+	   color: green;
+	   background-color: inherit;
+	   }
+Key {
+	 font-family: monospace;
+         text-decoration: underline;
+	 color: green;
+	 background-color: inherit;
+	 }
+Link {
+	  font-family: monospace;
+	  color: green;
+	  background-color: inherit;
+	  text-decoration: underline;
+	  }
+Menu {
+	  font-family: monospace;
+	  color: red;
+	  background-color: inherit;
+	  }
+Output {
+	    font-family: monospace;
+	    color: red;
+	    background-color: inherit;
+	    }
+Icon {
+	color: inherit;
+	background-color : #B0E0E6;
+	font-weight : bold;
+}
+Screen {
+  font-family: monospace;
+  padding-top: 3mm;
+  padding-left: 4pt;
+  padding-bottom: 2pt;
+  display: block;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+  white-space: pre;
+  color: inherit;
+  background-color: #FFCC99;
+   }

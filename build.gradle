@@ -1,780 +1,107 @@
-import org.apache.tools.ant.filters.*
+// hmtarchive project
 
-/* hmtarchive project.
- */
 apply plugin: "base"
 apply plugin:  "groovy"
 apply plugin:  "maven"
 
-apply from: "versions.gradle"
+apply from: "${projectDir}/confs/versions.gradle"
 
-group = "org.homermultitext"
-
-if (project.hasProperty("nightly")) {
-    version = "${new Date().format('yyyy-MM-dd')}".toString()
-} else {
-    version = '2014.1'
-}
 
 if (project.hasProperty('conf')) {
     System.err.print "Using configuration data from ${conf}"
     File confFile = new File(conf)
     if (! confFile.exists()) {
-        throw new Exception("No configuration file ${pub} found.")
+        throw new Exception("No configuration file ${conf} found.")
     } else {
         apply from: conf
     }
 
 } else {
-    File confFile = new File("conf.gradle")
+    File confFile = new File("${projectDir}/confs/conf.gradle")
     if (! confFile.exists()) {
         throw new Exception("No configuration file ${confFile} found.")
     } else {
-        println "Using default configuration in 'conf.gradle'"
-        apply from: "conf.gradle"
+        println "Using default configuration in 'confs/conf.gradle'"
+        apply from: "${projectDir}/confs/conf.gradle"
     }
 }
 
-
-if (project.hasProperty('pub')) {
-    System.err.print "Using configuration data from ${pub}"
-    File confFile = new File(pub)
-    if (! confFile.exists()) {
-        throw new Exception("No publication configuration file ${pub} found.")
-    } else {
-        apply from: pub
-    }
-
-} else {
-    File confFile = new File("pub.gradle")
-    if (! confFile.exists()) {
-        throw new Exception("No publication configuration file ${confFile} found.")
-    } else {
-        println "Using default configuration in 'pub.gradle'"
-        apply from: "pub.gradle"
-    }
+if (project.hasProperty("nightly")) {
+    projectVersion = "${new Date().format('yyyy-MM-dd')}".toString()
 }
 
+/*
 
-
-
-repositories {
+buildscript {
+  //apply from: "${projectDir}/confs/versions.gradle"
+  repositories {
     mavenCentral()
-    maven {
-        url "http://beta.hpcc.uh.edu/nexus/content/groups/public/"
+    maven  {
+      url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
     }
-    // useful while waiting for new releases of HMT dependencies to 
-    // percolate through to public:
-    maven {
-        url "http://beta.hpcc.uh.edu/nexus/content/repositories/releases/"
+  }
+  dependencies {
+    classpath project(":hmtmgr")
+  }
+}
+*/
+
+allprojects {
+  apply from: "${rootProject.rootDir}/confs/versions.gradle"
+  group = "org.homermultitext"
+  version = projectVersion
+
+  task vmap << { task ->
+    println "\nDependencies for ${version} in ${task.project.name}:"
+    versionMap.keySet().sort().each { k ->
+      print k
+      Integer spaces = 15 - k.size()
+      Integer idx = 0
+      while(idx < spaces) {
+	print " "
+	idx++
+	  }
+      println versionMap[k]
     }
-}
-
-configurations {
-    hmtPublications
-}
-
-dependencies {
-  compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyversion
-
-  compile group: 'edu.holycross.shot', name: 'nysi', version: nysiversion
-  compile group : 'edu.holycross.shot', name : 'prestochango', version : prestochangoversion
-  compile group : 'edu.holycross.shot', name : 'abracadabra', version : abracadabraversion
-  compile group: "edu.holycross.shot", name: "hocuspocus", version: hocuspocusversion
-
-  compile group: 'edu.harvard.chs', name : 'cite' , version: citeversion
-  compile group: 'edu.harvard.chs', name : 'greekutils' , version: greekutilsversion
-
-  compile group: 'com.thaiopensource', name:'jing', version: jingversion    
-  compile group: 'net.sf.saxon', name: 'saxon-dom', version: saxonversion
-
-  testCompile group: 'junit', name: 'junit', version: junitversion
-  testCompile group :'xmlunit', name: 'xmlunit', version: xmlunitversion
-}
-
-
-task setUpEditions(type: Copy) {
-    description = "Generates README to accompany XML version of HMT editions."
-    from (file("${editionsDir}")) {
-        include 'README-editions.md'
-        rename 'README-editions.md', 'README.md'
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    into "${buildDir}/editions/archive"
-}
-
-
-
-///////////////////////////////////////////////////////////////////////////
-//// Tasks for assembling Upsilon 1.1 editions from source material
-
-task e3Readme (type: Copy) {
-    description = ""
-    from ("${editionsDir}/Esc-Upsilon-1-1") {
-        include 'README.md'
-    }
-    into "${buildDir}/${compositeDir}/Esc-Upsilon-1-1"
-}
-
-
-task e3Iliad(type: JavaExec, dependsOn: [e3Readme, compileGroovy]) {
-    description = "Compiles single Iliad text from multiple source files."
-    main = "org.homermultitext.IliadCompiler"
-    args = ["${editionsDir}/Esc-Upsilon-1-1/Iliad", "teiHeaders/Esc-Upsilon-1-1/Esc-Upsilon-1-1-Iliad.xml", "${buildDir}/${compositeDir}/Esc-Upsilon-1-1" ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-task e3Header(type: Copy) {
-
-    from ('teiHeaders/Esc-Upsilon-1-1')
-    into "${buildDir}/headers/Esc-Upsilon-1-1"
-    include ('Esc-Upsilon-1-1-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Main scholia'] )
-    rename { String fileName ->
-        fileName.replace('.xml','-e3.xml')
-    }
-
-}
-
-task e3Scholia (type: JavaExec, dependsOn: [e3Header, e3Readme, compileGroovy]) {
-    description = "test e3"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/Esc-Upsilon-1-1/Scholia","${buildDir}/headers/Esc-Upsilon-1-1/Esc-Upsilon-1-1-Scholia-e3.xml", "${buildDir}/${compositeDir}/Esc-Upsilon-1-1" , "e3"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-task e3(dependsOn: [e3Scholia, e3Iliad]) {
-    doLast {
-        System.err.println "All Upsilon 1.1 texts validate syntactically."
-    }
-}
-
-///////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////
-//// Tasks for assembling Venetus A editions from source material
-
-task venAReadme (type: Copy) {
-    description = "Add README file for Venetus A archive to build area."
-    from ("${editionsDir}/VenetusA") {
-        include 'README.md'
-    }
-    into "${buildDir}/${compositeDir}/VenetusA"
-}
-
-// Texts other than Iliad and scholia
-task venAOther (type: Copy, dependsOn: venAReadme) {
-    description = "Copies into build area all texts other than Iliad and scholia"
-    from ("${editionsDir}/VenetusA/OtherTexts")
-    into("${buildDir}/editions/archive/VenetusA")
-    include("*.xml")
-    doLast {
-        File srcDir = new File("${editionsDir}/VenetusA/OtherTexts")
-        def xmlList =  srcDir.list([accept:{d, f-> f ==~ /.*xml/ }] as FilenameFilter
-                    ).toList()
-        File outDir = new File("${buildDir}/editions/archive/VenetusA")
-        xmlList.each { fName ->
-            File f = new File(outDir, fName)
-            def root = new XmlParser().parse(f)
-            System.err.println "${fName} validates syntactically"
-        }
-    }
-}
-
-// Iliad
-task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
-    description = "Compiles single Iliad text from multiple source files."
-    main = "org.homermultitext.IliadCompiler"
-    args = ["${editionsDir}/VenetusA/Iliad", "teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA" ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-// Venetus A, main scholia
-task msAHeader(type: Copy) {
-    description = "Compiles TEI header to reuse in composite edition of Ven A main scholia"
-    from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
-    include ('VenetusA-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Main scholia'] )
-    rename { String fileName ->
-        fileName.replace('.xml','-msA.xml')
-    }
-}
-
-task msAScholia(type: JavaExec, dependsOn: [msAHeader, venAReadme, compileGroovy]) {
-    description = "Compiles and validates complete edition of Venetus A main scholia"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml", "${buildDir}/${compositeDir}/VenetusA" , "msA"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-// Venetus A, intermarginal scholia
-task msAimHeader(type: Copy) {
-    description = "Compiles TEI header to reuse in composite edition of Ven A intermarginal scholia"
-    from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
-    include ('VenetusA-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Intermarginal scholia'] )
-    rename { String fileName ->
-        fileName.replace('.xml','-msAim.xml')
-    }
-
-}
-task msAimScholia(type: JavaExec, dependsOn: [msAimHeader, venAReadme, compileGroovy]) {
-    description = "Compiles and validates complete edition of Venetus A main scholia"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAim.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAim"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-// Venetus A, interior scholia
-task msAintHeader(type: Copy) {
-    description = "Compiles TEI header to reuse in composite edition of Ven A interior scholia"
-    from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
-    include ('VenetusA-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Interior scholia'] )
-    rename { String fileName ->
-        fileName.replace('.xml','-msAint.xml')
-    }
-}
-task msAintScholia (type: JavaExec, dependsOn: [msAintHeader, venAReadme, compileGroovy]) {
-    description = "Compiles and validates complete edition of Venetus A interior scholia"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAint"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-
-}
-
-
-// Venetus A, exterior scholia
-task msAextHeader(type: Copy) {
-    description = "Compiles TEI header to reuse in composite edition of Ven A exterior scholia"
-    from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
-    include ('VenetusA-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Exterior scholia'] )
-    rename { String fileName ->
-        fileName.replace('.xml','-msAext.xml')
-    }
-}
-task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compileGroovy]) {
-    description = "Compiles and validates complete edition of Venetus A exterior scholia"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAext.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAext"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-// Venetus A, interlinear scholia
-task msAilHeader(type: Copy) {
-    description = "Compiles TEI header to reuse in composite edition of Ven A interlinear scholia"
-    from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
-    include ('VenetusA-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Interlinear scholia'] )
-    rename { String fileName ->
-        fileName.replace('.xml','-msAil.xml')
-    }
-}
-task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileGroovy]) {
-    description = "Compiles and validates complete edition of Venetus A interlinear scholia"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAil.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAil"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-// Venetus A, later scholia
-task msALaterHeader(type: Copy) {
-    description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand"
-    from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
-    include ('VenetusA-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Scholia in later hand in main scholia block '] )
-    rename { String fileName ->
-        fileName.replace('.xml','-msALater.xml')
-    }
-}
-task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, compileGroovy]) {
-    description = "Compiles and validates complete edition of Venetus A interlinear scholia"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAlater"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-// Venetus A, later intermarginal scholia
-task msAimLaterHeader(type: Copy) {
-    description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand in intermarginal position"
-    from ('teiHeaders/VenetusA')
-    into "${buildDir}/headers/VenetusA"
-    include ('VenetusA-Scholia.xml')
-    filter(ReplaceTokens, tokens : [scholiatitle : 'Scholia in later hand in intermarginal position '] )
-    rename { String fileName ->
-        fileName.replace('.xml','-msAimLater.xml')
-    }
-}
-task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme, compileGroovy]) {
-    description = "Compiles and validates complete edition of Venetus A later scholia in intermarginal position"
-    main = "org.homermultitext.ScholiaCompiler"
-    args = ["${editionsDir}/VenetusA/Scholia","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAimlater"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-///////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-task inv (type: Copy) {
-    description = "Copies text inventory and README into build area."
-    from ("${inventoriesDir}")
-    into "${buildDir}/${compositeDir}"
-    include ('onlineInventory.xml', 'README-HMT-archive.md', "*.rng")
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    rename { String fileName ->
-        fileName.replace('-HMT-archive','')
-    }
-
-    rename { String fileName ->
-        fileName.replace('onlineI','i')
-    }
-
-}
-
-task translations (type: Copy) {
-    description = "Copies translations of texts into build area."
-    from ("${editionsDir}/translations")
-    into "${buildDir}/${compositeDir}/translations"
-}
-
-task furmanEditions (type: Copy) {
-    description = "Copies Furman-generated  editions of texts into build area."
-    from ("${editionsDir}/Furman")
-    into "${buildDir}/${compositeDir}/Furman"
-}
-
-
-task venetusA(type: VenetusATask, dependsOn: [inv, venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, translations, venAOther])  {
-    editionsArchive = file("${compositeDir}")
-}
-
-class VenetusATask extends DefaultTask {
-  @OutputDirectory
-  File editionsArchive
-
-  @TaskAction
-  def msg() {
-    System.err.println "All venetusA texts validated syntactically."
+    println ""
   }
 }
 
-/// Can add dependencies on other MSS when we have tasks for them.
-task editions(type: Zip, dependsOn: [venetusA, furmanEditions]) {
-    description="Builds zip file of all edited manuscripts."
-    classifier = 'xml'
-    baseName = "hmt-editions"
-    from(file("${buildDir}/${compositeDir}"))
-    include("**/*.xml", "**/README.md")
-    doLast {
-        System.err.println "All Venetus A texts validate syntactically, and are compiled in zip file hmtarchive-VERSION-editions.zip."
+subprojects {
+  /*
+  apply plugin: "java"
+  apply plugin: "groovy"
+  repositories {
+    mavenCentral()
+    maven  {
+      url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
     }
+  }
+  dependencies {
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "2.0.6"
+    compile group: "commons-io", name: "commons-io", version: "2.4"
+    compile group: 'org.homermultitext', name : 'hmt-utils' , version: versionMap["hmtutils"]
+    compile group: 'edu.harvard.chs', name : 'cite' , version: versionMap["cite"]
+  }
+  */
 }
 
 
 
-///////////////////////////////////////////////////////////////////////////
 
-
-///////////////////////////////////////////////////////////////////////////
-//// Tasks for secondary processing of composite editions
-//// INDEXING SCHOLIA TO TEXT:
-
-
-task indexVenetusAScholia (type: JavaExec, dependsOn : "compileGroovy") {
-    description="Generates tsv relating scholia to Iliad passage commented on."
-    main = "org.homermultitext.ScholiaIndexer"
-
-    args = [
-      "${editionsDir}/VenetusA/Scholia",
-      "${citeDir}/indices",
-      "scholiaToIliad.tsv",
-      "urn:cts:greekLit:tlg0012.tlg001.msA", 
-      "hmt" 
-    ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
+task hmt ( dependsOn: ["textmgr:ctstab", "citebldr:cite"]) {
+  description = "Assemble HMT publication."
 }
 
-task indexE3Scholia (type: JavaExec, dependsOn : "compileGroovy") {
-    description="Generates tsv relating scholia to Iliad passage commented on."
-    main = "org.homermultitext.ScholiaIndexer"
-
-    args = [
-      "${editionsDir}/Esc-Upsilon-1-1/Scholia",
-      "cite/indices",
-      "scholiaToIliad-e3.tsv",
-      "urn:cts:greekLit:tlg0012.tlg001.e3", 
-      "hmt" 
-    ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-task tabE3 (type: JavaExec, dependsOn : ["compileGroovy", "e3", "inv"]) {
-    description = "Uses a hocuspocus tabulator to create tabular files for all editions"
-    main = "org.homermultitext.HmtTabulator"
-    args = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tabulated"]	
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
+hmt.doLast {
+  println "\n\nBuilt the HMT."
 }
 
 
 
-///////////////////////////////////////////////////////////////////////////
 
-
-///////////////////////////////////////////////////////////////////////////
-//// Tasks for secondary processing of composite editions
-//// TABULATION:
-
-task tabFiles (type: JavaExec, dependsOn : ["compileGroovy", "editions"]) {
-    description = "Uses a hocuspocus tabulator to create tabular files for all editions"
-    main = "org.homermultitext.HmtTabulator"
-    args = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tabulated"]	
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-task setupTabs (type: Copy) {
-    description = "Generates README to accompany tabulated versions of HMT editions."
-    from ("${editionsDir}") {
-        include 'README-tabulated.md'
-        rename 'README-tabulated.md', '1-README.md'
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    into "${buildDir}/tabulated"
-}
-
-task tabulated(type: Zip, dependsOn: [tabFiles, setupTabs]) {
-    description = "Creates zip package of all HMT editions in tabular format."
-    classifier = 'tabulated'
-    from (file("${buildDir}/tabulated"))
-    include("**/*.txt", "**/*.md")
-    baseName = "hmt-editions"
-    doLast {
-        System.err.println "Tabulated version of all XML editions compiled in zip file hmt-editions-tabulated"
-    }
-
-}
-
-///////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////
-//// Tasks for secondary processing of composite editions
-//// TOKENIZATION:
-
-task setupTokens (type: Copy) {
-    description = "Generates README to accompany tokenization data from HMT editions."
-    from ("${editionsDir}") {
-        include 'README-tokens.md'
-        rename 'README-tokens.md', 'README.md'
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    into "${buildDir}/tokens"
-}
-
-task tokensttl(type: JavaExec, dependsOn: [compileGroovy, setupTokens, editions]) {
-    description = "Tokenizes tabular editions and generates RDF statements for each token"
-    main = "org.homermultitext.HmtTokenizer"
-    args = ["${buildDir}/${compositeDir}", "${buildDir}/${compositeDir}/inventory.xml",  "${buildDir}/tokens"]	
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-task tokens(type: Zip, dependsOn: tokensttl) {
-    description = "Packages tokenization TTL"
-    from (file("${buildDir}/tokens"))
-    baseName = "hmt-tokens"
-    doLast {
-        System.err.println "Full text of all editions tokenized, described in RDF TTL, and compiled in zip file hmt-editions-tokens"
-    }
-}
-
-///////////////////////////////////////////////////////////////////////////
-
-
-
-
-///////////////////////////////////////////////////////////////////////////
-//// TASKS PUBLISHING CITE ARCHIVES
-
-task setUpCollections (type: Copy) {
-    description = "Prepares files for publishing collections archive."
-    from ('cite/collections') {
-        include ('README.md', 'hmtcollections.xml', '*.csv', '*.tsv')
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    into "${buildDir}/collections"
-}
-
-task collections(type: Zip, dependsOn: [setUpCollections]) {
-    description = "Creates zip package of all HMT collections archive."
-    from (file("${buildDir}/collections"))
-    baseName = "hmt-collections"
-
-}
-
-task setUpImages (type: Copy) {
-    description = "Prepares files for publishing HMT Image archive."
-    from ('cite/images') {
-        include ('README.md', '**/*.csv', '**/*.tsv')
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
-    into "${buildDir}/images"
-}
-
-task images(type: Zip, dependsOn: [setUpImages]) {
-    description = "Creates zip package of HMT image archive."
-    from (file("${buildDir}/images"))
-    baseName = "hmt-images"
-}
-
-task setUpIndices (type: Copy) {
-    description = "Prepares files for publishing CITE Index archive."
-    from ('cite/indices') {
-        include ('README.md', 'hmtindices.xml', '*.csv', '*.tsv')
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
-    into "${buildDir}/indices"
-}
-
-task indices(type: Zip, dependsOn: [setUpIndices]) {
-    description = "Creates zip package of all HMT CITE Indices."
-    from (file("${buildDir}/indices"))
-    baseName = "hmt-indices"
-
-}
-
-task cite (dependsOn : [editions, collections, indices, images]) {
-    doLast {
-        println "Built zip files of all HMT CITE archives."
-    }
-}
-
-///////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////
-//// RDF TASKS 
-
-task ctsttl(type: JavaExec, dependsOn: [compileGroovy, tabFiles]) {
-    description = "Use hocuspocus to create a full rdf representation of the text archive suitable for import into a CTS"
-    main = "org.homermultitext.HmtTextTurtleizer"
-    args = ["${buildDir}/${compositeDir}/inventory.xml", "${buildDir}/${compositeDir}", "${buildDir}/rdf", "cts.ttl" ]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-task imgttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for configured image repository"
-    main = "org.homermultitext.HmtImgTurtleizer"
-    args = ["cite/images/collections", "cite/images/data", "${buildDir}/rdf", "citeimgs.ttl"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-
-    doFirst {
-        System.err.println "\nTTLize images with ${args}\n"
-    }
-}
-
-task ccttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for Collections configured for prestochango"
-    main = "org.homermultitext.HmtCollectionTurtleizer"
-    args = ["cite/collections/hmtcollections.xml", "http://www.homermultitext.org/hmtschemas/collections/CiteCollectionService.rng", "cite/collections", "${buildDir}/rdf"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-}
-
-
-task idxttl (type: JavaExec, dependsOn: compileGroovy) {
-    description = "Generates RDF for indices configured for abracadabra"
-    main = "org.homermultitext.HmtIndexTurtleizer"
-    args = ["cite/indices/hmtindices.xml", "cite/indices", "${buildDir}/rdf", "indices.ttl"]
-
-    classpath sourceSets.main.output.classesDir
-    classpath configurations.runtime
-
-}
-
-
-task setUpTurtle(type: Copy) {
-    description = "Generates README to accompany RDF version of HMT editions."
-    from (file("${editionsDir}")) {
-        include 'README-rdf.md'
-        rename 'README-rdf.md', 'README.md'
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    into "${buildDir}/rdf"
-}
-
-task allTtl( dependsOn: [ctsttl, imgttl, ccttl, idxttl, setUpTurtle]) {
+task checker (dependsOn: ":citebldr:cite") {
   doLast {
-    String charEnc = "UTF-8"
-
-        
-    File ctsttl = new File("${buildDir}/rdf/cts.ttl")
-    File collectionsttl = new File("${buildDir}/rdf/collections.ttl")
-    File idxttl = new File("${buildDir}/rdf/indices.ttl")
-    File citeimgttl = new File("${buildDir}/rdf/citeimgs.ttl")
-
-    File ttl = new File("${buildDir}/rdf/all.ttl")        
-    ttl.append(ttlPrefix)
-
-    def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
-    srcFiles.each {  f ->
-      if (f.exists()) {
-	ttl.withWriterAppend(charEnc) {writer -> 
-	  f.newReader(charEnc).eachLine { String line -> 
-	    writer << "\n${line}"         
-	  } 
-	}
-      } 
-    }
-
-    System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
+    println "Needed to run CITE task!"
   }
 }
-
-task rdf(type: Zip,dependsOn: allTtl) {
-    description = "Creates zip package of entire HMT archive in TTL format."
-    from (file("${buildDir}/rdf"))
-    include("**/*.ttl", "README.md")
-    baseName = "hmt-rdf"
-    doLast {
-        System.err.println "RDF (TTL) version of the entire HMT archive compiled in zip file hmt-rdf"
-    }
-}
-
-
-task labelPublication(type: Copy) {
-    description = "Generates README to accompany packages for distribution."
-    from (file("${rootDir}")) {
-        include 'README-version-guide.md'
-    }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
-    into "${buildDir}/distributions"
-
-}
-
-labelPublication.doFirst {
-  println "Version is ${version}"
-}
-
-
-///////////////////////////////////////////////////////////////////////////
-
-artifacts {
-
-  hmtPublications collections
-
-  hmtPublications images
-
-  hmtPublications indices  
-
-  hmtPublications editions
-
-  hmtPublications tabulated
-
-  hmtPublications tokens
-
-  hmtPublications rdf
-  
-}
-
-
-uploadArchives {
-    repositories.mavenDeployer {
-        repository(url: nexusRepo) {                   
-            authentication (userName: nexusUser, password: nexusPassword)
-        }
-    }
-}
-
-
-uploadHmtPublications {
-    repositories.mavenDeployer {
-        repository(url: nexusRepo) {                   
-            authentication (userName: nexusUser, password: nexusPassword)
-        }
-    }
-    doLast {
-        System.err.println "All HMT publications uploaded."
-    }
-}
-
-
-// Always buildArchives from a completely clean state
-//buildArchives.dependsOn clean
-
-
-// HmtPublications are build from scratch, and get
-// a labelling text file to boot:
-buildHmtPublications.dependsOn labelPublication
-
-
-
-
-
-
-
-
-

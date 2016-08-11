@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CiteIndexInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
+    <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
+    <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
+    <rdfNamespace abbr="dse" fullValue="http://www.homermultitext.org/dse/rdf/"></rdfNamespace>
+    
+    
+   <!-- TEMPORARY:  until this is automated with upgraded CITE Collections
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="temp/scholiaToTbs.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="temp/scholiaToImage.csv"></source>
+    </index>
+-->
+    <!-- BEGIN: Tracking editorial status by MS-->
+   <index verb="hmt:editStatus" inverse="hmt:statusOf">
+        <source type="file" value="thermometer/venetusA.csv"/>
+    </index>
+    <index verb="hmt:editStatus" inverse="hmt:statusOf">
+        <source type="file" value="thermometer/ups-1-1.csv"/>
+    </index>
+    <!-- END: Tracking editorial status -->
+    
+
+<!-- ******* Fundamental DSE relations, 1:  TEXT -> TEXT-BEARING SURFACE *********** -->
+    
+    
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="textToSurface/venetusA/venA-Iliad.csv"></source>
+    </index>
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="textToSurface/venetusA/venA-captions.csv"></source>
+    </index>
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="textToSurface/venetusA/venA-extraIliadic.csv"></source>
+    </index>
+    
+    
+    
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="textToSurface/venB-Iliad.csv"></source>
+    </index>
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="textToSurface/ups1-1-Iliad.csv"></source>
+    </index>
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="textToSurface/marciana841-Iliad.csv"></source>
+    </index>
+
+
+
+    <!--** end TEXT -> TEXT-BEARING SURFACE ********************************************* -->
+
+
+
+
+
+
+
+
+
+    <!-- ******* Fundamental DSE relations, 2:  TEXT-BEARING SURFACE -> DEFAULT IMAGE *********** -->
+    
+    <index verb="dse:hasDefaultImage" inverse="dse:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/venA.csv"></source>
+    </index>
+    <index verb="dse:hasDefaultImage" inverse="dse:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/venB.csv"></source>
+    </index>
+    <index verb="dse:hasDefaultImage" inverse="dse:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/marciana841.csv"></source>
+    </index>
+    <index verb="dse:hasDefaultImage" inverse="dse:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/ups-1-1.csv"></source>
+    </index>
+    
+    <index verb="dse:hasDefaultImage" inverse="dse:isDefaultImage">
+        <source type="file" value="tbsToDefaultImage/comparetti.csv"></source>
+    </index>
+
+    <!--** end TEXT-BEARING SURFACE  -> DEFAULT IMAGES********************************************* -->
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ******* Fundamental DSE relations, 3:  TEXT -> IMAGE *********** -->
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-1.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-2.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-3.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-4.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-5.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-6.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-7.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-8.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-9.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-Iliad-10.csv"></source>
+    </index>
+   
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-captions.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venetusA/venA-extraIliadic.csv"></source>
+    </index>
+
+    
+    
+   
+    
+    <!--
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/venA-Proclus.tsv"></source>
+    </index>
+    -->
+    
+    
+    <!--
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="textToImage/scholiaToImgIndex-e3.tsv"></source>
+    </index>-->
+    
+    <!--** end TEXT  -> IMAGE********************************************* -->
+    
+
+
+
+
+
+    <!-- ******* Fundamental DSE relations, 4:  TEXT-BEARING SURFACE -> ALL IMAGES *********** -->
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/vaFolio-compImage.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/compFolio-compImage.tsv"></source>
+    </index>
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/marciana841.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/venA.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/venB.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/omega-1-12.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="tbsToImage/ups-1-1.tsv"></source>
+    </index>
+   
+    <!--** end TEXT-BEARING SURFACE  -> ALL IMAGES********************************************* -->
+    
+    
+    
+
+
+
+
+    <!--** OTHER DATA SETS:  generic HMT categories  ********************************************* -->
+    
+    <index verb="hmt:expandsTo" inverse="hmt:comprisedBy">
+        <source type="file" value="hmt/codex-collection-index.csv"></source>
+    </index>
+    
+    
+    
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="hmt/scholiaToIliad-venA.csv"></source>
+    </index>
+    
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="hmt/scholiaToIliad-e3.tsv"></source>
+    </index>
+    
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="hmt/pageToImage-venA.csv"></source>
+    </index>
+    
+    <index verb="hmt:reuses" inverse="hmt:isReusedBy">
+        <source type="file" value="hmt/quotations.tsv"></source>
+    </index>
+    
+    <index verb="hmt:reuses" inverse="hmt:isReusedBy">
+        <source type="file" value="hmt/proclusToReuse.tsv"></source>
+    </index> 
+    <!-- REVIEW THIS:
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="hmt/signsToProclus.tsv"></source>
+    </index> -->
+    
+    <!--** end OTHER DATA SETS:  generic HMT categories********************************************* -->
+    
+
+
+    <!--** OTHER DATA SETS:  Venetus A********************************************* -->
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="otherVenA/graphicsToImage.csv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="otherVenA/shipsToImage.csv"></source>
+    </index>
+    <index verb="dse:appearsOn" inverse="dse:hasOnIt">
+        <source type="file" value="otherVenA/criticalsignToFolio.tsv"></source>
+    </index>
+    <index verb="hmt:commentsOn" inverse="hmt:commentedOnBy">
+        <source type="file" value="otherVenA/criticalsignToText.tsv"></source>
+    </index>
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="otherVenA/compGraphics.csv"></source>
+    </index>
+    <!--** end OTHER DATA SETS:  Venetus A********************************************* -->
+    
+    
+
+
+</indexInventory>

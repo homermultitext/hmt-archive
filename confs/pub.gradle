@@ -1,0 +1,11 @@
+
+ext {
+    // These need to be declared for build.gradle to compile.
+    // Supply values in order to publish to a nexus repository
+ nexusRepo = ""
+ nexusUser = ""
+ nexusPassword = ""
+}
+
+
+

@@ -1,0 +1,32 @@
+
+project.ext {
+  //groovyversion = "2.0.6"
+
+    //needed for hocuspocus:
+    jingversion= "20091111"
+    saxonversion = "8.7"
+
+    junitversion = "4.10"
+    xmlunitversion = "1.3"
+
+
+
+    //Catalog these:
+
+
+    versionMap = [
+      "abracadabra" :  '0.3.0',
+      "cite" :  "+" ,//"0.94.1",
+      "greekutils" : "0.8.5",
+      "hmtutils" : '0.3.2',
+      "hocuspocus" :  '0.13.5',
+      "nysi" :  '0.2.2',
+      "prestochango" : '0.3.6',
+      "groovy" : '[2.0,)',
+      //      "groovy" : "2.0.6",
+      "commonsio" : "2.4"
+
+
+
+      ]
+}

@@ -1,0 +1,168 @@
+
+import org.apache.tools.ant.filters.*
+
+// Subproject to assemble CITE repositories from the
+// source material in the HMT archive.
+
+
+apply plugin: "base"
+apply plugin: "java"
+apply plugin: "groovy"
+repositories {
+  mavenCentral()
+  maven  {
+    url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+  }
+}
+dependencies {
+  compile project(':hmtmgr')
+  compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "2.0.6"
+  compile group: "commons-io", name: "commons-io", version: "2.4"
+  compile group: 'org.homermultitext', name : 'hmt-utils' , version: versionMap["hmtutils"]
+  compile group: 'edu.harvard.chs', name : 'cite' , version: versionMap["cite"]
+}
+
+
+
+
+task setUpBuild {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  File archiveDir = new File(buildDir, "archive")
+  if (! archiveDir.exists()) {
+    archiveDir.mkdir()
+  }
+  File indexDir = new File(archiveDir, "indices")
+  if (! indexDir.exists()) {
+    indexDir.mkdir()
+  }
+
+
+  File imgDir = new File(archiveDir, "images")
+  if (! imgDir.exists()) {
+    imgDir.mkdir()
+  }
+}
+
+
+
+//////////////////////////////////////////////////////
+/// Build CITE Collections reposistory from HMT source
+
+task copyCollections (type: Copy, dependsOn: setUpBuild) {
+    description = "Prepares files for publishing collections archive."
+    from ("${rootProject.projectDir}/archive/collections") {
+      include ('README.md', 'inventory/hmtcollections.xml', '**/*.csv', '**/*.tsv')
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/archive/collections"
+}
+
+task compileScholiaCollection (type: JavaExec, dependsOn: setUpBuild) {
+    description="Generates CITE Collection of all scholia as a .tsv file."
+    
+    main = "org.homermultitext.ScholiaCollectionCompiler"
+    args = [
+      "${rootProject.projectDir}/archive/collections/scholiaInventory",
+      "${buildDir}/archive/collections"
+    ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+
+    inputs.dir "${rootProject.projectDir}/archive/collections/scholiaInventory"
+    outputs.dir "${buildDir}/archive/collections"
+}
+
+task collections (dependsOn: [copyCollections, compileScholiaCollection]){
+  description = "Compiles CITE Collection repository"
+}
+//////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////
+/// Build CITE Indices reposistory from HMT source
+
+task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
+    description="Generates tsv file relating scholia to Iliad passage commented on."
+    
+    main = "org.homermultitext.ScholiaIndexer"
+    args = [
+      "${rootProject.projectDir}/${editionsDir}/${vaScholia}",
+      "${buildDir}/archive/indices",
+      "scholiaToIliad.tsv",
+      "urn:cts:greekLit:tlg0012.tlg001.msA:", 
+      "hmt" 
+    ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    outputs.file "${buildDir}/archive/indices/scholiaToIliad.tsv"
+}
+
+
+
+
+task translations (type: Copy) {
+    description = "Copies translations of texts into build area."
+    from ("${rootProject.projectDir}/${editionsDir}/translations")
+    into "${buildDir}/${compositeDir}/translations"
+}
+
+task copyIndices (type: Copy, dependsOn: [setUpBuild]) {
+    description = "Filters manually prepared index files for publishing in CITE Index archive."
+    from ("${rootProject.projectDir}/archive/indices") {
+      include ('README.md', 'inventory/hmtindices.xml', '**/*.csv', '**/*.tsv')
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    into "${buildDir}/archive/indices"
+}
+
+task indices(dependsOn: [copyIndices,indexVenetusAScholia]) {
+  description = "Prepares CITE Index repository from HMT source"
+}
+
+
+
+//////////////////////////////////////////////////////
+
+
+
+
+
+//////////////////////////////////////////////////////
+/// Build CITE Image Extension repository from HMT source
+
+task images (type: Copy, dependsOn: [setUpBuild]) {
+    description = "Filters manually prepared index files for publishing in CITE Index archive."
+    from ("${rootProject.projectDir}/archive/images") {
+      include ('README.md', '**/*.csv', '**/*.tsv')
+    }
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    into "${buildDir}/archive/images"
+}
+
+//////////////////////////////////////////////////////
+
+
+
+/*
+class CiteTask extends DefaultTask {
+  @OutputDirectory
+  File citeArchive
+
+  @TaskAction
+  def msg() {
+    System.out.println "All CITE repositories compiled in build area."
+  }
+}
+*/
+//task cite(type: CiteTask, dependsOn: [collections, indices, images]) {
+task cite(dependsOn: [collections, indices, images]) {
+  description = "Compile all CITE repositories"
+  outputs.dir "${buildDir}/archive"
+}

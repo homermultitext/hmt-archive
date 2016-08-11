@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On Signs</title>
+                <author>Aristonicus</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>New electronic edition.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>The sole directly preserved fragment of Aristonicus' work on the critical signs
+                    used by Aristarcus in his edition of the Iliad is found on folio 8 recto of the
+                    Venetus A manuscript.</p>
+                <p>This text is read from MS photographs, compared against the transcription
+                    published by Dindorf in vol. 1 of his Scholia Graeca in Homeri Iliadem, p. 1 </p>
+                <p>Citation is by "paragraph", where paragraphs are defined by extra spacing in the
+                    MS.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p n="1"><gap/> ἦ τὸ ἔφη. ὁ δὲ τοῦτο μὴ νοήσας ἀλλα λαβὼν πάλιν τὸ <rs type="waw"
+                    >φη</rs> ἀντὶ τοῦ <rs type="waw">ως</rs> ὑπέταξεν ἐκ περισσοῦ· <cit>
+                    <q>πέφραδέ τε <rs type="ethnic" n="urn:cite:hmt:place.place6">Τρώεσσι</rs> καὶ
+                        εὐχόμενος ἔπος ηύδα·</q>
+                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:14.500</ref>
+                </cit>
+            </p>
+            <p n="2">σημειοῦται δὲ πρὸς τὸν αὐτὸν ἀπεριστίκτῳ διπλῇ τὰς ὁμωνυμίας ἁπάσας. ὅτι οὐ
+                νοησας τὸ τοιοῦτον ἔγραψεν ὁτὲ μὲν <persName n="urn:cite:hmt:pers.pers161"
+                    >Πυλαιμένεα</persName> ὁτὲ δὲ <persName n="urn:cite:hmt:pers.pers161"
+                    >Κυλαιμένεα</persName>· </p>
+            <p n="3">πρὸς μὲν δὴ <persName n="urn:cite:hmt:pers.pers15">Ζηνόδοτον</persName> αὐτῷ ἡ
+                παράθεσις τῆς περιεστιγμένης διπλῆς προς εκάστην γραφὴν ἀκριβέστερον θεωρεῖται· τὸν
+                δὲ ὀβελὸν ἔλαβεν, ἐκ τῆς <persName n="urn:cite:hmt:pers.pers15">Ζηνοδότου</persName>
+                διορθώσεως·</p>
+            <p n="4">παρετίθει δὲ αὐτὸν τοῖς ἐκβαλλομένοις ἐκ τῆς ποιήσεως στίχοις ὡς τοῖς νεκροῖς
+                τῶν <choice>
+                    <abbr>ἀνων</abbr>
+                    <expan>ἀνθρώπων</expan>
+                </choice>· τῆς δὲ ἀθετήσεως αὐτῷ διττὸς ὁ λόγος· ὁ μὲν γάρ εστι σημαίνων ὅτι οὐχ
+                    <persName n="urn:cite:hmt:pers.pers17">Ὁήρου</persName> τὸ ἔπος, ὡς ἐλέγετο ἐπι
+                τοῦ <cit>
+                    <q>τέρπεται ἐν θαλίῃ καὶ ἔχει καλλίσφυρον <persName
+                            n="urn:cite:hmt:pers.pers181">Ἥβην</persName>·</q>
+                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:11.603</ref>
+                </cit> ἀδύνατον γὰρ τὴν διηνεκῶς παρθένον παραδεδομένην γεγαμῆσθαι· ὁ δὲ αἰτίαν
+                ἐπιφέρει ὡς τῶν ποιημάτων ἐν τῇ τάξει διημαρτημένων· ὅταν δ' ὁ <persName
+                    n="urn:cite:hmt:pers.pers22">Ἀγαμέμνων</persName> λέγῃ προς τὸν <persName
+                    n="urn:cite:hmt:pers.pers1">Ἀχιλλέα</persName>
+                <cit>
+                    <q>αἰεὶ γάρ τοι έρις τε φίλη πόλεμοί τε μάχαι τε </q>
+                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:1.177</ref>
+                </cit>· ἐνταῦθα ἠθετῆσθαί φησὶ χάριν τοῦ βασιλέως ὀφείλοντος εἰ τοιοῦτος ἐστιν ἐν
+                πολέμῳ ὁ κατ' ἐπικουρίαν ἥκων. διόπερ ἐπὶ μὲν τοῦ λεγομένου ὑπο <persName
+                    n="urn:cite:hmt:pers.pers22">Αγαμέμνονος</persName>
+                <sic>ὁβελὸς</sic> παρακείσεται, καὶ προς τοῦτο ἀστερίσκος· δηλοῖ δὲ τοῦτο ὅπου ἂν <choice>
+                    <sic>ᾖ</sic>
+                    <corr><sic>ᾐ</sic></corr>
+                </choice> κείμενος σὺν τῷ ὀβελῷ ὅτι <persName n="urn:cite:hmt:pers.pers17"
+                    >Ὁμήρου</persName> μέν ἐστι φαύλως δ' ἐνταῦθα κεῖται· ἔστι δὲ καὶ έτερος τρόπος
+                τῆς ἀθετήσεως· ὅτ' ἂν τοῖς αὐτοῖς στίχοις πολλάκις χρῆται ὁτε μὲν οἰκείοις
+                περιτιθεὶς προσώποις τὰ λεγόμενα ὁτε δὲ οὕ, ὡς ἔχει τὰ τοῦ Κύκλωπος τοῦ ἀνημερωτάτου
+                ῥήματα ὑπο τοῦ συνετωτάτου <persName n="urn:cite:hmt:pers.pers117"
+                    >Νέστορος</persName> λεγόμενα προς <persName n="urn:cite:hmt:pers.pers271"
+                    >Τηλέμαχον</persName>·<cit>
+                    <q>
+                        <l>ὦ ξεῖνοι τίνες ἐστὲ πόθεν πλεῖθ' ὑγρὰ κέλευθα</l>
+                        <l>ή τι κατα πρηξιν ἢ μαψιδίως ἀλάλησθε</l>
+                        <l><sic>οῖά</sic> τε ληϊστῆρες ὑπειρ άλα τοι τ' αλοωνται</l>
+                        <l>ψυχὰς παρθένοι.</l>
+                    </q>
+                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:3.73</ref>
+                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:9.253</ref>
+                </cit> ταῦτα γὰρ ἥρμοζεν ὑπὸ τοῦ Κύκλωπος <persName n="urn:cite:hmt:pers.pers118"
+                    >Ὀδυσσεῖ</persName> εἰρῆσθαι οὐχ' ὑπὸ <persName n="urn:cite:hmt:pers.pers117"
+                    >Νέστορος</persName>
+                <persName n="urn:cite:hmt:pers.pers271">Τηλεμάχῳ</persName>⁑ <gap/></p>
+        </body>
+    </text>
+</TEI>

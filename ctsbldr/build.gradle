@@ -1,0 +1,347 @@
+import org.apache.tools.ant.filters.*
+
+// Subproject to assemble a single CTS repository from the
+// various edited texts in the HMT archive.
+
+
+apply plugin: "base"
+apply plugin: "java"
+apply plugin: "groovy"
+
+repositories {
+  mavenCentral()
+  maven  {
+    url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+  }
+}
+dependencies {
+  compile project(':hmtmgr')
+  compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "2.0.6"
+  compile group: "commons-io", name: "commons-io", version: "2.4"
+  compile group: 'org.homermultitext', name : 'hmt-utils' , version: versionMap["hmtutils"]
+  compile group: 'edu.harvard.chs', name : 'cite' , version: versionMap["cite"]
+}
+
+task setUpEditions {
+  description = "Generates README to accompany XML version of HMT editions."
+  inputs.file "${rootProject.projectDir}/${editionsDir}/README-editions.md"
+  outputs.file "${buildDir}/editions/archive/README.md"
+
+  doLast {
+    copy {
+
+      from (file("${rootProject.projectDir}/${editionsDir}")) {
+        include 'README-editions.md'
+        rename 'README-editions.md', 'README.md'
+      }
+      filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+      into "${buildDir}/editions/archive"
+    }
+  }
+}
+  
+task inv {
+    description = "Copies text inventory and README into build area."
+    
+    inputs.dir  "${rootProject.projectDir}/${editionsDir}/${inventoriesDir}"
+    outputs.dir  "${buildDir}/${compositeDir}"
+
+    doLast {
+      copy {
+	from ("${rootProject.projectDir}/${editionsDir}/${inventoriesDir}")
+	into "${buildDir}/${compositeDir}"
+	include (textInventory, 'README-HMT-archive.md', "*.rng")
+	filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+	rename { String fileName ->
+	  fileName.replace('-HMT-archive','')
+	}
+	rename { String fileName ->
+	  fileName.replace('onlineI','i')
+	}
+	rename { String fileName ->
+	  fileName.replace('test','')
+	}
+      }
+    }
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+//// Tasks for assembling Venetus A editions from source material
+
+task venAReadme (dependsOn: [setUpEditions, inv]) {
+  description = "Add README file for Venetus A archive to build area."
+  inputs.dir "${rootProject.projectDir}/${editionsDir}/VenetusA"
+  outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+  
+  doLast {
+    copy {
+      from ("${rootProject.projectDir}/${editionsDir}/VenetusA") {
+        include 'README.md'
+      }
+      filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+      into "${buildDir}/${compositeDir}/VenetusA"
+    }
+  }
+}
+
+
+// Texts other than Iliad and scholia
+task venAOther (type: Copy, dependsOn: venAReadme) {
+    description = "Copies into build area all texts other than Iliad and scholia"
+    from ("${rootProject.projectDir}/${editionsDir}/${vaOther}")
+    into("${buildDir}/editions/archive/VenetusA")
+    include("*.xml")
+    doLast {
+      File srcDir = new File("${rootProject.projectDir}/${editionsDir}/${vaOther}")
+        def xmlList =  srcDir.list([accept:{d, f-> f ==~ /.*xml/ }] as FilenameFilter
+                    ).toList()
+        File outDir = new File("${buildDir}/editions/archive/VenetusA")
+        xmlList.each { fName ->
+            File f = new File(outDir, fName)
+            def root = new XmlParser().parse(f)
+            System.err.println "${fName} validates syntactically"
+        }
+    }
+}
+
+// Iliad
+task venAIliad(type: JavaExec, dependsOn: [venAReadme, compileGroovy]) {
+    description = "Compiles single Iliad text from multiple source files."
+    main = "org.homermultitext.IliadCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaIliad}", "${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA/VenetusA-Iliad.xml", "${buildDir}/${compositeDir}/VenetusA" ]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaIliad}"
+    inputs.file "${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA/VenetusA-Iliad.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+    
+}
+
+// Venetus A, main scholia
+task msAHeader(type: Copy) {
+    description = "Compiles TEI header to reuse in composite edition of Venetus A main scholia"
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA"
+    outputs.dir "${buildDir}/headers/VenetusA"
+
+    copy {
+      from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
+      into "${buildDir}/headers/VenetusA"
+      include ('VenetusA-Scholia.xml')
+      filter(ReplaceTokens, tokens : [scholiatitle : 'Main scholia'] )
+      rename { String fileName ->
+        fileName.replace('.xml','-msA.xml')
+      }
+    }
+}
+
+
+task msAScholia(type: JavaExec, dependsOn: [msAHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A main scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml", "${buildDir}/${compositeDir}/VenetusA" , "msA"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msA.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+}
+
+
+
+// ADD inputs and outputs
+// Venetus A, intermarginal scholia
+task msAimHeader(type: Copy) {
+    description = "Compiles TEI header to reuse in composite edition of Ven A intermarginal scholia"
+    from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
+    into "${buildDir}/headers/VenetusA"
+    include ('VenetusA-Scholia.xml')
+    filter(ReplaceTokens, tokens : [scholiatitle : 'Intermarginal scholia'] )
+    rename { String fileName ->
+        fileName.replace('.xml','-msAim.xml')
+    }
+
+}
+
+
+task msAimScholia(type: JavaExec, dependsOn: [msAimHeader, venAReadme]) {
+    description = "Compiles and validates complete edition of Venetus A intermarginal scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAim.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAim"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAim.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+}
+
+
+// Venetus A, interior scholia
+task msAintHeader(type: Copy) {
+    description = "Compiles TEI header to reuse in composite edition of Ven A interior scholia"
+
+    from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
+    into "${buildDir}/headers/VenetusA"
+    include ('VenetusA-Scholia.xml')
+    filter(ReplaceTokens, tokens : [scholiatitle : 'Interior scholia'] )
+    rename { String fileName ->
+        fileName.replace('.xml','-msAint.xml')
+    }
+}
+task msAintScholia (type: JavaExec, dependsOn: [msAintHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A interior scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAint"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAint.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+
+    
+}
+
+
+// Venetus A, exterior scholia
+task msAextHeader(type: Copy) {
+    description = "Compiles TEI header to reuse in composite edition of Ven A exterior scholia"
+
+    from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
+    into "${buildDir}/headers/VenetusA"
+    include ('VenetusA-Scholia.xml')
+    filter(ReplaceTokens, tokens : [scholiatitle : 'Exterior scholia'] )
+    rename { String fileName ->
+        fileName.replace('.xml','-msAext.xml')
+    }
+}
+task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A exterior scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAext.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAext"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAext.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+}
+
+
+// Venetus A, interlinear scholia
+task msAilHeader(type: Copy) {
+    description = "Compiles TEI header to reuse in composite edition of Ven A interlinear scholia"
+
+    from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
+    into "${buildDir}/headers/VenetusA"
+    include ('VenetusA-Scholia.xml')
+    filter(ReplaceTokens, tokens : [scholiatitle : 'Interlinear scholia'] )
+    rename { String fileName ->
+        fileName.replace('.xml','-msAil.xml')
+    }
+}
+task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A interlinear scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAil.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAil"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAil.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+}
+
+
+// Venetus A, later scholia
+task msALaterHeader(type: Copy) {
+    description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand"
+
+    from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
+    into "${buildDir}/headers/VenetusA"
+    include ('VenetusA-Scholia.xml')
+    filter(ReplaceTokens, tokens : [scholiatitle : 'Scholia in later hand in main scholia block '] )
+    rename { String fileName ->
+        fileName.replace('.xml','-msALater.xml')
+    }
+}
+task msALaterScholia (type: JavaExec, dependsOn: [msALaterHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A interlinear scholia"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAlater"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+}
+
+
+// Venetus A, later intermarginal scholia
+task msAimLaterHeader(type: Copy) {
+    description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand in intermarginal position"
+
+    from ("${rootProject.projectDir}/${editionsDir}/teiHeaders/VenetusA")
+    into "${buildDir}/headers/VenetusA"
+    include ('VenetusA-Scholia.xml')
+    filter(ReplaceTokens, tokens : [scholiatitle : 'Scholia in later hand in intermarginal position '] )
+    rename { String fileName ->
+        fileName.replace('.xml','-msAimLater.xml')
+    }
+}
+task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme, compileGroovy]) {
+    description = "Compiles and validates complete edition of Venetus A later scholia in intermarginal position"
+    main = "org.homermultitext.ScholiaCompiler"
+    args = ["${rootProject.projectDir}/${editionsDir}/${vaScholia}","${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater.xml", "${buildDir}/${compositeDir}/VenetusA" , "msAimlater"]
+
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+
+    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater`.xml"
+    outputs.dir "${buildDir}/${compositeDir}/VenetusA"
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+
+
+task translations (type: Copy) {
+    description = "Copies translations of texts into build area."
+    from ("${rootProject.projectDir}/${editionsDir}/translations")
+    into "${buildDir}/${compositeDir}/translations"
+}
+
+task furmanEditions (type: Copy) {
+    description = "Copies Furman-generated  editions of texts into build area."
+    from ("${rootProject.projectDir}/${editionsDir}/Furman")
+    into "${buildDir}/${compositeDir}/Furman"
+}
+
+
+task venetusA(dependsOn: [venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, venAOther])  {
+  description = "Assembles all Venetus A texts"
+  outputs.dir "${buildDir}/${compositeDir}"
+}
+
+task cts (dependsOn: [venetusA, furmanEditions, translations, inv]){
+  description = "Generates cts repository for all texts"
+}

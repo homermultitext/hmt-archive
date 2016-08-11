@@ -2,7 +2,8 @@ package org.homermultitext
 
 import edu.harvard.chs.cite.TextInventory
 import edu.holycross.shot.hocuspocus.Corpus
-import edu.holycross.shot.hocuspocus.HmtGreekTokenization
+//import edu.holycross.shot.hutils.HmtGreekTokenization
+import org.homermultitext.utils.HmtGreekTokenization
 
 import org.apache.commons.io.FilenameUtils
 

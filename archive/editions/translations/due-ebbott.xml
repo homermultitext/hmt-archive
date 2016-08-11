@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI
+xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:math="http://www.w3.org/1998/Math/MathML"
+xmlns:svg="http://www.w3.org/2000/svg"
+xmlns:xi="http://www.w3.org/2001/XInclude">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Iliad</title>
+<editor
+role="translator">Casey Dué</editor>
+<editor
+role="translator">Mary Ebbott</editor>
+</titleStmt>
+<publicationStmt>
+<p>Original English translation</p>
+</publicationStmt>
+<sourceDesc>
+<p>Original English translation</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div
+n="10">
+<l
+n="1"> Alongside the ships the other best <note>aristos</note> men of the Panachaeans</l>
+<l
+n="2"> slept all night long, subdued by gentle sleep,</l>
+<l
+n="3"> but not the son of Atreus, Agamemnon, the shepherd of the warriors—</l>
+<l
+n="4"> sweet sleep did not hold him, as he pondered many things in his mind <note>phrên</note>.</l>
+<l
+n="5"> As when the husband of Hera with her beautiful hair hurls lightning, </l>
+<l
+n="6"> creating an indescribable amount of rain or hail</l>
+<l
+n="7"> or falling snow, when snow sprinkles the fields,</l>
+<l
+n="8"> or the great jaws of crowded battle,</l>
+<l
+n="9"> so did the groans in the breast of Agamemnon come thick and fast <note>pukinos</note></l>
+<l
+n="10"> from the bottom of his heart, and his insides <note>phrên</note> were trembling. </l>
+<l
+n="11"> Whenever he gazed out at the Trojan plain,</l>
+<l
+n="12"> he was amazed at the many fires that burned before Ilium,</l>
+<l
+n="13"> and at the shout of flutes and of pipes and the clamor of men.</l>
+<l
+n="14"> And then when he looked at the ships and the Achaean warriors,</l>
+<l
+n="15"> over and over he tore hair from his head by the roots </l>
+<l
+n="16"> to Zeus on high, and he groaned greatly in his glorious <note>kudos</note> heart.</l>
+<l
+n="17"> This is the plan that seemed best <note>aristos</note> to his liking
+<note>thumos</note>,</l>
+<l
+n="18"> to go first to Nestor first among the men, the descendant of Neleus,</l>
+<l
+n="19"> to find out if he could construct a faultless scheme <note>mêtis</note></l>
+<l
+n="20"> which might ward off evil for all the Danaans. </l>
+<l
+n="21"> Standing up he put on a khiton around his chest,</l>
+<l
+n="22"> and under his shining feet he fastened fine sandals,</l>
+<l
+n="23"> and then around himself he put on the red-gold skin of a lion</l>
+<l
+n="24"> that was big and tawny—the skin reached all the way to his feet—and he took a spear.</l>
+<l
+n="25"> In much the same way trembling held Menelaos—not for him either </l>
+<l
+n="26"> did sleep sit on the eyelids—for fear that something would happen to </l>
+<l
+n="27"> the Argives, those who for his sake over much water </l>
+<l
+n="28"> had come to Troy, pondering bold war.</l>
+<l
+n="29"> First he wrapped his broad back in a leopard skin</l>
+<l
+n="30"> that was intricately patterned <note>poikilos</note>, and then he took up a helmet and on
+his head </l>
+<l
+n="31"> he placed it, it was bronze, and then he took a spear in his mighty hand.</l>
+<l
+n="32"> He set out to go and get his brother up, who greatly over all</l>
+<l
+n="33"> the Argives was lord, and who was honored like a god by his people <note>dêmos</note>.</l>
+<l
+n="34"> He found him putting the fine war gear around his shoulders</l>
+<l
+n="35"> next to the stern of the ship, and his coming was welcome to him.</l>
+<l
+n="36"> Menelaos well-known for <note>agathos</note> his battle-cry addressed him first,</l>
+<l
+n="37"> “Why ever, dear brother, are you arming yourself like this? Is there some one of our
+comrades</l>
+<l
+n="38"> that you will urge on to spy against the Trojans? But I am terribly</l>
+<l
+n="39"> afraid that no one will undertake this task,</l>
+<l
+n="40"> to spy on enemy men, going out alone </l>
+<l
+n="41"> through the ambrosial night. He is going to have to be especially bold-hearted.”</l>
+<l
+n="42"> The ruler Agamemnon answered him and said,</l>
+<l
+n="43"> “We have need of a plan, you and I, Menelaos nurtured by the gods,</l>
+<l
+n="44"> a wily plan that will protect and save <note>sôzô</note></l>
+<l
+n="45"> the Argives and the ships, since the intentions <note>phrên</note> of Zeus have turned. </l>
+<l
+n="46"> I see that he paid more attention <note>phrên</note> to the sacrifices of Hektor.</l>
+<l
+n="47"> For I have not ever seen myself or ever heard anyone tell about</l>
+<l
+n="48"> a single man devising so many astounding deeds in one day</l>
+<l
+n="49"> as many as Hektor who is dear <note>philos</note> to Zeus has done to the sons of the
+Achaeans,</l>
+<l
+n="50"> just as he is, neither the beloved <note>philos</note> son of a goddess nor of a god. </l>
+<l
+n="51"> How many deeds he has accomplished I say will be on the mind of the Argives</l>
+<l
+n="52"> for a long time into the future. For he has masterminded <note>mêtis</note> so many evils
+against the Achaeans.</l>
+<l
+n="53"> But go now and call Ajax and Idomeneus,</l>
+<l
+n="54"> running swiftly alongside the ships. And I to radiant Nestor</l>
+<l
+n="55"> will go, and I will stir him to get up, if he is willing </l>
+<l
+n="56"> to go to the sacred post <note>telos</note> of the watchmen and give commands.</l>
+<l
+n="57"> Him they would especially heed. For his son</l>
+<l
+n="58"> gives the signals <note>sêma</note> to the watchmen, together with the attendant
+<note>therapôn</note> of Idomeneus,</l>
+<l
+n="59"> Meriones. We have turned to them most of all.” </l>
+<l
+n="60"> Menelaos well-known for <note>agathos</note> his battle-cry then answered him,</l>
+<l
+n="61"> “What do you command with your words <note>muthos</note> and what are you telling me to
+do?</l>
+<l
+n="62"> Should I stay out there among the watchmen and wait until you come,</l>
+<l
+n="63"> or should I run back after you, once I have duly commanded them?”</l>
+<l
+n="64"> Then in turn the lord of men Agamemnon addressed him,</l>
+<l
+n="65"> “Wait there, so that we don’t somehow miss each other </l>
+<l
+n="66"> coming and going. For there are many paths throughout the encamped mass of warriors.</l>
+<l
+n="67"> Call out wherever you go, and command them to wake up,</l>
+<l
+n="68"> naming each man together with the names of his ancestry and family,</l>
+<l
+n="69"> conferring radiant glory <note>kudos</note> on all of them. Don’t be too proud in your heart
+<note>thumos</note>,</l>
+<l
+n="70"> but let’s even us perform this labor <note>ponos</note>. For surely on us </l>
+<l
+n="71"> Zeus sent this heavy evil when we were born.”</l>
+<l
+n="72"> So he spoke and he sent away his brother having duly commanded him.</l>
+<l
+n="73"> He set out to go after Nestor, the shepherd of the warriors. </l>
+<l
+n="74"> He found him next to his shelter and the black ship</l>
+<l
+n="75"> on a soft bed. His intricately patterned <note>poikilos</note> war gear lay beside him, </l>
+<l
+n="76"> a shield and two spears and a shining helmet.</l>
+<l
+n="77"> Also next to him lay a belt that gleamed all over, which the old man</l>
+<l
+n="78"> used to wear, whenever he armed himself for battle that brings death to men,</l>
+<l
+n="79"> leading the warriors, since he did not yield before woeful old age. </l>
+<l
+n="80"> Raising himself up on his elbow and lifting his head </l>
+<l
+n="81"> he addressed the son of Atreus and questioned him with his words <note>muthos</note>.</l>
+<l
+n="82"> “Who are you, coming along the ships among the encamped mass of warriors all alone</l>
+<l
+n="83"> through the dark night, when other mortals are sleeping?</l>
+<l
+n="84"> Are you looking for one of your mules or one of your comrades?</l>
+<l
+n="85"> Call out—don’t come up on me in silence. What need has come upon you?” </l>
+<l
+n="86"> The lord of men Agamemnon then answered him <note>n:v.l. addressed him in turn</note>,</l>
+<l
+n="87"> “Nestor, descendent of Neleus, great glory <note>kudos</note> of the Achaeans,</l>
+<l
+n="88"> you will recognize me, the son of Atreus, Agamemnon, on whom above all</l>
+<l
+n="89"> Zeus has sent continuous labors <note>ponos</note>, as long as the breath</l>
+<l
+n="90"> remains in my chest and my <note>philos</note> knees continue to rise. </l>
+<l
+n="91"> I am wandering like this, since not on my eyes does sweet sleep </l>
+<l
+n="92"> sit, but war and worry <note>kêdos</note> for the Achaeans are on my mind.</l>
+<l
+n="93"> I am terribly afraid for the Danaans, nor is my heart </l>
+<l
+n="94"> steady, but I am distraught, and my heart</l>
+<l
+n="95"> leaps from my chest, and my shining limbs tremble beneath me. </l>
+<l
+n="96"> But if you want to take action, since sleep does not come to you either,</l>
+<l
+n="97"> let’s go to the watchmen, so that we can see</l>
+<l
+n="98"> if they, overcome by exhaustion and sleep,</l>
+<l
+n="99"> have gone to bed, and have altogether forgotten their watch.</l>
+<l
+n="100"> Hostile men sit near, nor do we know that </l>
+<l
+n="101"> they are not plotting to somehow fight even during the night.</l>
+<l
+n="102"> The Gerenian horseman Nestor answered him,</l>
+<l
+n="103"> “Son of Atreus most glorious <note>kudos</note>, lord of men Agamemnon,</l>
+<l
+n="104"> surely Zeus the deviser <note>mêtis</note> will not bring all of Hektor’s intentions
+<note>noos</note></l>
+<l
+n="105"> to fulfillment, as many as he is now hoping for. But I think that he will </l>
+<l
+n="106"> be burdened with even more cares <note>kêdos</note>, if Achilles</l>
+<l
+n="107"> turns his dear <note>philos</note> heart away from painful fury <note>kholos</note>.</l>
+<l
+n="108"> But yes I will follow you. Also, let’s once again wake the others,</l>
+<l
+n="109"> the son of Tydeus famed for his spear and Odysseus</l>
+<l
+n="110"> and swift Ajax and the resolute son of Phyles. </l>
+<l
+n="111"> But if someone else could go after and call these men,</l>
+<l
+n="112"> Ajax who is a match for a god and lord Idomeneus—</l>
+<l
+n="113"> for their ships are the furthest, not at all near.</l>
+<l
+n="114"> But although he is dear <note>philos</note> and I respect <note>aidôs</note> him,
+Menelaos</l>
+<l
+n="115"> I must quarrel <note>neikos</note> with, even if you resent me for it. I can’t conceal
+it,</l>
+<l
+n="116"> since he is sleeping, and he has turned the labor <note>ponos</note> over to you alone.</l>
+<l
+n="117"> Right now among all the best <note>aristos</note> men he ought to be laboring
+<note>ponos</note></l>
+<l
+n="118"> to beseech them. For a need has come upon us that can’t be endured any longer.” </l>
+<l
+n="119"> Then in turn the lord of men Agamemnon addressed him,</l>
+<l
+n="120"> “Old man, I urge you to find fault with him at other times,</l>
+<l
+n="121"> for often he slacks off, and is not willing to labor <note>ponos</note>,</l>
+<l
+n="122"> not because he is yielding to caution or a thoughtless mind <note>noos</note>,</l>
+<l
+n="123"> but looking to me and waiting for my initiative.</l>
+<l
+n="124"> But this time he has woken up <note>n:augment</note> long before me and stood over
+<note>n:augment</note> me.</l>
+<l
+n="125"> Him I have sent <note>n:augment</note> to call the ones you are asking about. </l>
+<l
+n="126"> But let’s go. We will find those men before the gates</l>
+<l
+n="127"> among the watchmen, where I have told <note>n:augment</note> them to gather.”</l>
+<l
+n="128"> Then the Gerenian horseman Nestor answered him,</l>
+<l
+n="129"> “No one will feel indignation <note>nemesis</note> or disobey,</l>
+<l
+n="130"> no one of the Argives that is, whenever you summon and command anyone.”</l>
+<l
+n="131"> So he spoke and he put a khiton around his chest</l>
+<l
+n="132"> and under his shining feet he fastened fine sandals.</l>
+<l
+n="133"> Around himself he fastened a crimson cloak,</l>
+<l
+n="134"> folded double and intricate <note>n:need discussion of hapax in a footnote</note>, and
+there was a bloom of thick curly wool upon it.</l>
+<l
+n="135"> He took an unyielding spear, sharpened with a bronze point,</l>
+<l
+n="136"> and he set out to go through the ships of the of the bronze-wearing Achaeans.</l>
+<l
+n="137"> First then Odysseus, the equivalent of Zeus in intelligence <note>mêtis</note>,</l>
+<l
+n="138"> the Gerenian horseman Nestor roused from sleep,</l>
+<l
+n="139"> calling out. The sound of his voice instantly surrounded his <note>Odysseus’</note> mind
+<note>phrên</note>,</l>
+<l
+n="140"> and he came from the shelter and spoke words to them. </l>
+<l
+n="141"> “Why ever do you wander this way along the ships among the encamped mass of warriors</l>
+<l
+n="142"> through the ambrosial night? What need so great has come upon us?”</l>
+<l
+n="143"> The Gerenian horseman Nestor then answered him,</l>
+<l
+n="144"> “Son of Laertes, descended from the gods, Odysseus of many devices,</l>
+<l
+n="145"> don’t feel indignation <note>nemesis</note>. Such sorrow <note>akhos</note> has overwhelmed
+the Achaeans. </l>
+<l
+n="146"> But follow us, so that we may rouse another as well, with whom it is fitting</l>
+<l
+n="147"> to make a plan whether we should flee or fight.”</l>
+<l
+n="148"> So he spoke. Going into his shelter Odysseus who is crafty <note>mêtis</note> in many ways </l>
+<l
+n="149"> put an intricately patterned <note>poikilos</note> shield around his shoulders and went
+with them.</l>
+<l
+n="150"> They went to the son of Tydeus, Diomedes. They found him </l>
+<l
+n="151"> outside of his shelter together with his armor, and around him his companions</l>
+<l
+n="152"> slept, and they had their shields under their heads. Their spears </l>
+<l
+n="153"> were planted with the spearheads up, and far and wide the bronze </l>
+<l
+n="154"> was shining, like the lightning of father Zeus. But the hero </l>
+<l
+n="155"> slept, and under him was spread the skin of a wild ox, </l>
+<l
+n="156"> and under his head was spread a shining tapestry.</l>
+<l
+n="157"> Standing next to him the Gerenian horseman Nestor roused him,</l>
+<l
+n="158"> moving him with his foot, and he stirred him up and insulted <note>neikos</note> him to his
+face.</l>
+<l
+n="159"> “Wake up, son of Tydeus. Why do you slumber the whole night through?</l>
+<l
+n="160"> Don’t you perceive that the Trojans on the rise of the plain </l>
+<l
+n="161"> are sitting near our ships, and only a small space keeps them back?”</l>
+<l
+n="162"> So he spoke and Diomedes leapt up especially quickly from sleep.</l>
+<l
+n="163"> He spoke out and addressed to him winged words.</l>
+<l
+n="164"> “You are intractable, old man. You at least never cease from labor <note>ponos</note>. </l>
+<l
+n="165"> Aren’t there other sons of the Achaeans, younger men, </l>
+<l
+n="166"> who could then rouse each of the kings</l>
+<l
+n="167"> going back and forth everywhere? You are impossible, old man.”</l>
+<l
+n="168"> Then in turn the Gerenian horseman Nestor addressed him.</l>
+<l
+n="169"> “All these things, friend <note>philos</note>, you have spoken in good measure
+<note>moira</note>,</l>
+<l
+n="170"> I have faultless children, and I have warriors </l>
+<l
+n="171"> and cities from which some one could go back and forth and call them.</l>
+<l
+n="172"> But an especially great need has overwhelmed the Achaeans. </l>
+<l
+n="173"> Since now for everyone it stands on a razor’s edge </l>
+<l
+n="174"> whether it will be woeful destruction for the Achaeans or life.</l>
+<l
+n="175"> But come now, go make the swift Ajax and the son of Phyleus </l>
+<l
+n="176"> get up—since you are younger—if you pity me.” </l>
+<l
+n="177"> So he spoke, and around his shoulders Diomedes put the skin of a lion</l>
+<l
+n="178"> that was big and tawny—the skin reached all the way to his feet—and he took a spear.</l>
+<l
+n="179"> He set out to go, and after getting them up the hero led them from their places.</l>
+<l
+n="180"> When they were mixed among the gathered watchmen, </l>
+<l
+n="181"> they found the leaders of the watch not sleeping, </l>
+<l
+n="182"> but all sat awake with their weapons. </l>
+<l
+n="183"> As when dogs keep a hard watch around flocks in an enclosure</l>
+<l
+n="184"> after hearing the sound of a beast with a powerful heart <note>phrên</note> in the
+woods</l>
+<l
+n="185"> coming through the mountains, and there is a great commotion over it </l>
+<l
+n="186"> of men and dogs, and for them sleep is lost,</l>
+<l
+n="187"> just so sweet sleep was lost from the eyelids</l>
+<l
+n="188"> of those keeping watch that evil night. For always toward the plain</l>
+<l
+n="189"> they were turned, whenever they perceived the Trojans coming and going. </l>
+<l
+n="190"> The old man rejoiced when he saw them and encouraged them with words
+<note>muthos</note>.</l>
+<l
+n="191"> He spoke out and addressed to them winged words,</l>
+<l
+n="192"> “Now this is the way to keep watch, dear <note>philos</note> children. Don’t let sleep </l>
+<l
+n="193"> take hold of anyone, so that we don’t we become a source of joy to our enemies.” </l>
+<l
+n="194"> So he spoke and he hurried across the ditch. They followed together with him, </l>
+<l
+n="195"> the kings of the Argives, as many as had been called to council.</l>
+<l
+n="196"> Together with these Meriones and the glorious son of Nestor </l>
+<l
+n="197"> went. For the kings themselves had called them to brainstorm <note>mêtis</note> with
+them.</l>
+<l
+n="198"> Crossing the ditch that had been dug out they sat</l>
+<l
+n="199"> in a clearing, where a space showed through amid the corpses</l>
+<l
+n="200"> that had fallen, the place where mighty Hektor had been turned back again </l>
+<l
+n="201"> from destroying Argives, when night covered them over.</l>
+<l
+n="202"> Sitting there they signaled with their words to one another.</l>
+<l
+n="203"> The Gerenian horseman Nestor began the words <note>muthos</note> among them,</l>
+<l
+n="204"> “Friends <note>philos</note>, could not some man be persuaded to obey his own</l>
+<l
+n="205"> daring heart <note>thumos</note> and go among the great-hearted <note>thumos</note>
+Trojans, </l>
+<l
+n="206"> go and see if he could capture someone somewhere at the edge of the enemy,</l>
+<l
+n="207"> or somehow find out what they are saying among the Trojans,</l>
+<l
+n="208"> whatever they are devising <note>mêtis</note> among themselves, whether they are eager</l>
+<l
+n="209"> to stay all the way out here near the ships or back to the city</l>
+<l
+n="210"> retreat, since they have overcome the Achaeans. </l>
+<l
+n="211"> He could find out about all these things and then come back to us</l>
+<l
+n="212"> unscathed. Great fame <note>kleos</note> that reaches the heavens would be his</l>
+<l
+n="213"> over all men, and his reward would be a good <note>esthlos</note> one.</l>
+<l
+n="214"> For as many best <note>aristos</note> men as have power <note>kratos</note> among the
+ships,</l>
+<l
+n="215"> all of these each one will give a black sheep,</l>
+<l
+n="216"> a ewe with a lamb under her. There is no possession like it,</l>
+<l
+n="217"> and he will always be present at feasts and banquets.”</l>
+<l
+n="218"> So he spoke, and they all were silenced, speechless.</l>
+<l
+n="219"> Among them Diomedes well-known for <note>agathos</note> his battle-cry spoke,</l>
+<l
+n="220"> “Nestor, my heart and audacious spirit <note>thumos</note> rouse me</l>
+<l
+n="221"> to enter the encamped mass of enemy warriors who are nearby,</l>
+<l
+n="222"> the Trojans. But if some other man as well could accompany me at the same time,</l>
+<l
+n="223"> there would be more comfort and confidence. </l>
+<l
+n="224"> When two men go together, one perceives <note>noos</note> even before the other</l>
+<l
+n="225"> what is the best strategy. The man going solo may perceive <note>noos</note> it,</l>
+<l
+n="226"> but his perception <note>noos</note> is slower, and the intelligence <note>mêtis</note> is
+lacking.”</l>
+<l
+n="227"> So he spoke and many wanted to accompany Diomedes. </l>
+<l
+n="228"> The two Ajaxes wanted to, the attendants <note>therapôn</note> of Ares,</l>
+<l
+n="229"> Meriones wanted to, and the son of Nestor especially wanted to, </l>
+<l
+n="230"> and the son of Atreus, Menelaos famed for his spear, wanted to,</l>
+<l
+n="231"> and the enduring Odysseus wanted to enter the crowd </l>
+<l
+n="232"> of the Trojans. For the spirit <note>thumos</note> in his heart <note>phrên</note> was
+always daring.</l>
+<l
+n="233"> Among them lord of men Agamemnon spoke,</l>
+<l
+n="234"> “Son of Tydeus, Diomedes, joy <note>kharis</note> of my heart <note>thumos</note>,</l>
+<l
+n="235"> you will choose the companion whom you want, </l>
+<l
+n="236"> the best <note>aristos</note> one of those showing themselves before you, since many are
+eager.</l>
+<l
+n="237"> Don’t out of reverence <note>aidos</note> in your heart <note>phrên</note> let the better
+man</l>
+<l
+n="238"> get left behind, while you, yielding to your respect for rank <note>aidos</note>, accompany
+the inferior man,</l>
+<l
+n="239"> looking to birth, not even if he is kinglier.”</l>
+<l
+n="240"> So he spoke, and he was afraid for golden-haired Menelaos. </l>
+<l
+n="241"> Among them in turn Diomedes well-known for <note>agathos</note> his battle-cry spoke,</l>
+<l
+n="242"> “If you are ordering me to choose a companion myself,</l>
+<l
+n="243"> how could I overlook god-like Odysseus,</l>
+<l
+n="244"> whose heart and audacious spirit <note>thumos</note> are especially ready</l>
+<l
+n="245"> for every kind of labor <note>ponos</note>, and Pallas Athena loves him? </l>
+<l
+n="246"> With him accompanying me even from burning fire</l>
+<l
+n="247"> we could return home <note>nostos</note>, since he is the best at knowing what to notice
+<note>noos</note>.</l>
+<l
+n="248"> Then in turn much-enduring radiant Odysseus addressed him,</l>
+<l
+n="249"> “Son of Tydeus, neither praise me too much nor insult <note>neikos</note> me in any
+way.</l>
+<l
+n="250"> For you are speaking to an assembly of Argives who know these things. </l>
+<l
+n="251"> But let’s go. For night is passing, and dawn is near.</l>
+<l
+n="252"> The stars have gone forward and most of the night has gone by—</l>
+<l
+n="253"> two portions <note>moira</note> of it, and the third portion is still left.”</l>
+<l
+n="254"> So the two spoke and they put on the terrible implements of war.</l>
+<l
+n="255"> To the son of Tydeus Thrasymedes who stands his ground in war gave</l>
+<l
+n="256"> a two-edged sword—for he had left his own at the ship—</l>
+<l
+n="257"> and a shield. And on his head he <note>Diomedes</note> placed a leather cap</l>
+<l
+n="258"> of bull’s hide, without a plume or a boss, a skull-cap</l>
+<l
+n="259"> is what it is called, and it protects the head of flourishing, vigorous young men.</l>
+<l
+n="260"> Meriones gave to Odysseus a bow and a quiver </l>
+<l
+n="261"> and a sword, and Odysseus placed on his head a leather cap</l>
+<l
+n="262"> made of hide. On the inside many leather straps</l>
+<l
+n="263"> were stretched tight, and on the outside white tusks</l>
+<l
+n="264"> from a white-tusked boar were arrayed one after another,</l>
+<l
+n="265"> well and skillfully. And in the middle there was a layer of felt fastened to it. </l>
+<l
+n="266"> This helmet from Amyntor of Eleon, the descendant of Ormenos,</l>
+<l
+n="267"> Autolykos took, breaking into his closely fitted <note>pukinos</note> house,</l>
+<l
+n="268"> and he <note>Autolykos</note> gave it to Amphidamas of Kythera to take to Skandeia.</l>
+<l
+n="269"> Amphidamas gave it to Molos as a guest gift,</l>
+<l
+n="270"> and he gave it to his son Meriones to carry. </l>
+<l
+n="271"> At this time it surrounded and closely covered the head of Odysseus. </l>
+<l
+n="272"> So when the two had put on the terrible implements of war,</l>
+<l
+n="273"> they set out to go, and the two of them left there in that place the other best
+<note>aristos</note> men.</l>
+<l
+n="274"> To them on the right near the road a night heron was sent</l>
+<l
+n="275"> by Pallas Athena. They did not see it with their eyes</l>
+<l
+n="276"> in the dark night, but they heard it cry out.</l>
+<l
+n="277"> Odysseus rejoiced at the bird, and prayed to Athena,</l>
+<l
+n="278"> “Hear me, child of aegis-shaking Zeus, you who always</l>
+<l
+n="279"> stand by me in every kind of labor <note>ponos</note>, nor do I escape your notice</l>
+<l
+n="280"> when I move. Now especially love <note>philos</note> me, Athena,</l>
+<l
+n="281"> and grant that we arrive back at the ships with good fame <note>kleos</note></l>
+<l
+n="282"> after accomplishing a great deed, which will be on the minds of the Trojans.”</l>
+<l
+n="283"> Second, in turn, Diomedes, well-known for <note>agathos</note> his battle-cry, prayed,</l>
+<l
+n="284"> “Hear now also me, child of Zeus, Atrutonē,</l>
+<l
+n="285"> accompany me, as when you accompanied my father, radiant Tydeus,</l>
+<l
+n="286"> to Thebes, when he went as a mediator on behalf of the Achaeans.</l>
+<l
+n="287"> Those men he left at the river Asōpos, the Achaeans with their bronze khitons,</l>
+<l
+n="288"> and then he brought gracious words <note>muthos</note> to the Kadmeians</l>
+<l
+n="289"> there. But going back again he masterminded <note>cf. I-10-52</note> exceedingly astounding
+deeds</l>
+<l
+n="290"> together with you, radiant goddess, when you stood by him readily. </l>
+<l
+n="291"> Just that way now for me, be willing to stand by and watch over me.</l>
+<l
+n="292"> For you in return I will make a sacrifice of a one-year-old cow that is broad-browed</l>
+<l
+n="293"> and not broken, which a man has not yet driven under a yoke.</l>
+<l
+n="294"> This cow I will make a sacrifice to you, after I have poured gold over its horns.”</l>
+<l
+n="295"> So he spoke praying, and Pallas Athena heard them. <note>cf. I-1.43</note></l>
+<l
+n="296"> When they had prayed to the daughter of great Zeus,</l>
+<l
+n="297"> they set out to go like two lions through the black night</l>
+<l
+n="298"> throughout the slaughter, throughout the corpses, and through the war gear and black
+blood.</l>
+<l
+n="299"> So, too, Hektor did not allow the audacious Trojans </l>
+<l
+n="300"> to sleep, but he summoned all the best <note>aristos</note> men together,</l>
+<l
+n="301"> however many were leaders and rulers of the Trojans.</l>
+<l
+n="302"> Once he called them together, he put together a solid <note>pukinos</note> plan <note>n:
+=I.2-55; need to make them the same: “[55</note> Upon calling these men together he put together a
+solid plan”]</l>
+<l
+n="303"> “Who would undertake and see to fulfillment <note>telos</note> this deed for me,</l>
+<l
+n="304"> in return for a great gift? His reward will be more than enough. </l>
+<l
+n="305"> For I will give a chariot and two horses with strong necks,</l>
+<l
+n="306"> whichever are best <note>aristos</note> at the swift ships of the Achaeans.</l>
+<l
+n="306"> v.l. the very ones <note>v.l. the fine ones, Aristophanes</note> which carry the faultless
+son of Peleus <note> Zenodotus cf. I-10.323</note></l>
+<l
+n="307"> to him, whoever should dare—and he would win radiant glory <note>kudos</note> for
+himself—</l>
+<l
+n="308"> to go near the swift-traversing ships and to find out <note>=I-10.320</note></l>
+<l
+n="309"> whether the swift ships are being watched as before,</l>
+<l
+n="310"> or whether already subdued under our hands</l>
+<l
+n="311"> they are making plans among themselves for escape, and are not willing </l>
+<l
+n="312"> to keep the night watch, overcome by terrible exhaustion.” <note>=10.399</note></l>
+<l
+n="313"> So he spoke, and they all were silenced, speechless. <note>I-3.95, I-7.92, 7.398, 8.28,
+9.29, 9.430, 9.693, 10.218, 23.676</note></l>
+<l
+n="314"> There was among the Trojans someone named Dolon, son of Eumēdes.</l>
+<l
+n="315"> Eumēdes was a divine herald, and Dolon had much gold and much bronze.</l>
+<l
+n="316"> He was not good-looking, but he was swift-footed.</l>
+<l
+n="317"> And he was the only son among five sisters.</l>
+<l
+n="318"> It was he who at that point spoke words <note>muthos</note> to the Trojans and Hektor.
+<note>v.l. instead of “spoke words”: “spoke, standing next to him”</note></l>
+<l
+n="319"> “Hektor, my heart and audacious spirit <note>thumos</note> rouse me</l>
+<l
+n="320"> to go near the swift-traversing ships and to find this out <note>=I-10.308</note>.</l>
+<l
+n="321"> But come, hold up the scepter and swear to me</l>
+<l
+n="322"> that hereby <note>cf. I-1.77</note> the horses and the chariot with its intricate patterns
+<note>poikilos</note> in bronze</l>
+<l
+n="323"> you will give me, those which carry the faultless son of Peleus,</l>
+<l
+n="324"> and for you I will not fail as a spy nor will I fall short of expectation.</l>
+<l
+n="325"> For I will go straight through the mass of warriors, all the way until I reach</l>
+<l
+n="326"> the ship of Agamemnon, where, I imagine, the best <note>aristos</note> men must be</l>
+<l
+n="327"> making their plans whether to flee or to fight.”</l>
+<l
+n="328"> So he spoke, and Hektor took the scepter in his hands and swore to him:</l>
+<l
+n="329"> “Let Zeus the loud-thundering husband of Hera know</l>
+<l
+n="330"> that no other man will drive those horses,</l>
+<l
+n="331"> no other Trojan, but I say that they will make you shine through and through.”</l>
+<l
+n="332"> So he spoke, and swore a false oath and urged him on.</l>
+<l
+n="333"> Immediately Dolon threw a curved bow around his shoulders.</l>
+<l
+n="334"> He put around himself the skin of a gray wolf </l>
+<l
+n="335"> and on his head a helmet made from the hide of a marten, and he grabbed a sharp
+javelin.</l>
+<l
+n="336"> He set out to go from the mass of warriors toward the ships. But he was not going to</l>
+<l
+n="337"> come back from the ships and bring back words <note>muthos</note> for Hektor.</l>
+<l
+n="338"> But when he left the crowd of horses and men <note>v.l. Hektor and the crowd of men</note>, </l>
+<l
+n="339"> he went up the road eagerly. And as he went, he was observed </l>
+<l
+n="340"> by Odysseus, descended from the gods, who said to Diomedes:</l>
+<l
+n="341"> “Who is this man, Diomedes, coming from the mass of warriors?</l>
+<l
+n="342"> I don’t know whether he is here to spy on our ships</l>
+<l
+n="343"> or to strip some one of the dead corpses.</l>
+<l
+n="344"> So let us allow him to slip by on the plain</l>
+<l
+n="345"> a little ways. Then rushing at him we might seize him</l>
+<l
+n="346"> quickly. And if he outruns us on foot,</l>
+<l
+n="347"> keep forcing him toward the ships, away from the <note>Trojan</note> mass of warriors,</l>
+<l
+n="348"> rushing at him with a spear, so that he does not somehow escape toward the city.”</l>
+<l
+n="349"> After those two spoke this way, off the road and amid the corpses</l>
+<l
+n="350"> they turned. Dolon swiftly ran past—a reckless thing to do. <note>v.l. 349, 349a, 350
+(attributed to Aristophanes and others in A and T scholia)</note></l>
+<l>So he spoke, and Diomedes well-known <note>agathos</note> for his war–cry did not disobey.</l>
+<l>Going on either side off the road and amid the corpses they turned.</l>
+<l
+n="351"> But when he was as far away as the furrow-length <note>cf. O-8.124</note></l>
+<l
+n="352"> of mules (for they are better than cattle</l>
+<l
+n="353"> for dragging an assembled plow through deep new ground),</l>
+<l
+n="354"> the two ran after him, and he came to a stop when he heard the noise.</l>
+<l
+n="355"> For he thought in his heart <note>thumos</note> that it was his comrades coming to turn him
+back,</l>
+<l
+n="356"> his comrades from the Trojans, with Hektor summoning him to come back.</l>
+<l
+n="357"> But when they were a spear’s throw away or even less,</l>
+<l
+n="358"> he recognized that they were enemy men, and he moved his nimble knees</l>
+<l
+n="359"> to flee. But they immediately started to pursue.</l>
+<l
+n="360"> As when two dogs with sharp teeth who are skilled in hunting</l>
+<l
+n="361"> race after either a young deer or a hare ceaselessly</l>
+<l
+n="362"> through a wooded space, and it runs ahead shrieking,</l>
+<l
+n="363"> him too in the same way the son of Tydeus and Odysseus, sacker of cities,</l>
+<l
+n="364"> pursued ceaselessly, cutting him off from the warriors.</l>
+<l
+n="365"> But when he was soon just about to come within range of the watchmen</l>
+<l
+n="366"> as he was fleeing toward the ships, at that point Athena put power <note>menos</note>
+<note>[cf. Il. 3.139 for “put in”</note>] </l>
+<l
+n="367"> in the son of Tydeus, so that no one of the Achaeans with their bronze khitons</l>
+<l
+n="368"> could be the first to boast that he hit him, and Diomedes would come in second.</l>
+<l
+n="369"> Rushing at him with a spear powerful Diomedes said:</l>
+<l
+n="370"> “Either halt or my spear will find you, and I say that you won’t</l>
+<l
+n="371"> for long escape sheer destruction by my hands.”</l>
+<l
+n="372"> He spoke and let his spear fly, and by his own will he missed the man.</l>
+<l
+n="373"> Over his right shoulder the point of the well-smoothed spear</l>
+<l
+n="374"> stuck in the earth. Dolon came to a stop and was afraid,</l>
+<l
+n="375"> stammering. There was a rattling of his teeth in his mouth;</l>
+<l
+n="376"> he was pale with fright. The two were breathing hard when they came to him,</l>
+<l
+n="377"> but they grabbed him by the hands. He was weeping and spoke a word <note>epos</note>:</l>
+<l
+n="378"> “Take me alive, and I will ransom myself. For in my house there is</l>
+<l
+n="379"> bronze and gold and well-wrought iron <note>n:=I-6.48, I-11.133, and O-21.10</note></l>
+<l
+n="380"> from which my father would gratify you with boundless ransom <note>apoina</note>
+<note>n:cf. I-6.49 and I-11.134</note></l>
+<l
+n="381"> if he should find out that I am alive at the ships of the Achaeans.”</l>
+<l
+n="382"> Odysseus who is crafty in many ways answered him and said, <note>=I-10.423</note></l>
+<l
+n="383"> “Get a hold of yourself: don’t let death be a weight on your heart <note>thumos</note>
+<note>n: cf. I-17.201, O-22.392</note>. </l>
+<l
+n="384"> Come on, tell me this and give your account without veering. <note>n:=I-10.405</note></l>
+<l
+n="385"> Where are you going like this from the mass of warriors toward the ships <note>cf.
+I-10.336</note>, all alone </l>
+<l
+n="386"> through the dark night, when other mortals are sleeping? <note>=I-10.83</note></l>
+<l
+n="387"> To strip some one of the dead corpses <note>=I-10.343</note>?</l>
+<l
+n="388"> Or did Hektor send you forth to spy on every single thing,</l>
+<l
+n="389"> sending you to the hollow ships? And did your own heart <note>thumos</note> let you?”</l>
+<l
+n="390"> Then Dolon answered him, and his limbs trembled beneath:</l>
+<l
+n="391"> “In such derangement <note>atē</note> Hektor led my mind <note>noos</note> astray.</l>
+<l
+n="392"> He was the one who nodded to me about the solid-hoofed horses of the honorable son of
+Peleus,</l>
+<l
+n="393"> nodded in assent that he would give me them and the chariot with its intricate patterns
+<note>poikilos</note> in bronze <note>cf. I-10.322</note>,</l>
+<l
+n="394"> and he ordered me, making my way through the swift, black night </l>
+<l
+n="395"> to go near the enemy men and to find out <note>cf I-10.308</note></l>
+<l
+n="396"> whether the swift ships are bring watched as before, <note>n:=I-10.309</note></l>
+<l
+n="397"> or whether already subdued under our hands <note>n:=I-10.310</note></l>
+<l
+n="398"> you <note>v.l. they</note> are making plans among yourselves <note>v.l. themselves</note>
+for escape, and are not willing <note>n:cf. I-10.311</note></l>
+<l
+n="399"> to keep the night watch, overcome by terrible exhaustion.” <note>n:=I-10.312</note></l>
+<l
+n="400"> Smiling, Odysseus who is crafty in many ways said to him:</l>
+<l
+n="401"> “My my, your heart <note>thumos</note> reaches for great gifts</l>
+<l
+n="402"> in the horses and chariot of Aiakos’ grandson. They are troublesome
+<note>n:=I-17.76</note></l>
+<l
+n="403"> for mortal men, at least, to subdue and to be carried by <note>n:=I-17.77</note>—</l>
+<l
+n="404"> for anyone other than Achilles, to whom an immortal mother gave birth <note>n:= I-17.78;
+cf. I-1.36</note>.</l>
+<l
+n="405"> Come on, tell me this and give your account without veering. <note>n:=I-10.384</note></l>
+<l
+n="406"> When you came here now where did you leave Hektor, the shepherd of the warriors? </l>
+<l
+n="407"> Where is the war gear placed, dear to Ares, and where are the horses?</l>
+<l
+n="408"> How about the watch details and the sleeping places of the other Trojans? </l>
+<l
+n="409"> What kind of things are they devising <note>mētis</note> among themselves, whether they are
+eager <note>n:=I-10.208</note></l>
+<l
+n="410"> to stay all the way out here near the ships, or back to the city
+<note>n:=I-10.209</note></l>
+<l
+n="411"> retreat, at least when they have subdued the Achaeans?” <note>n:=I-10.210</note></l>
+<l
+n="412"> In turn Dolon the son of Eumēdes said to him:</l>
+<l
+n="413"> “Yes, I will give you an account without veering.</l>
+<l
+n="414"> Hektor, with those men, however many can call a council,</l>
+<l
+n="415"> is planning plans next to the grave-mound <note>sêma</note> of divine Ilos</l>
+<l
+n="416"> apart from the din. The watch detail you, hero, ask about—</l>
+<l
+n="417"> not one has been chosen to protect the mass of warriors or watch over them.</l>
+<l
+n="418"> Each group of the Trojans has its own home-fire and its their obligation</l>
+<l
+n="419"> to stay awake, and to keep watch they call on</l>
+<l
+n="420"> each other. But as for the allies who were called from many places,</l>
+<l
+n="421"> they sleep. For they turn over to the Trojans the task of watching over them</l>
+<l
+n="422"> since their children do not reside nearby, nor their wives.”</l>
+<l
+n="423"> Odysseus who is crafty in many ways answered him and said, <note>=I-10.382</note></l>
+<l
+n="424"> “So have they been mixed with the Trojans, tamers of horses,</l>
+<l
+n="425"> or do they sleep apart from them? Tell me in full so that I can learn.”</l>
+<l
+n="426"> Then Dolon the son of Eumedes answered him:</l>
+<l
+n="427"> “Yes, I will also give you this account without veering. <note>cf. I-10.413</note></l>
+<l
+n="428"> Toward the sea are the Karians and the Paionians with their curved bows</l>
+<l
+n="429"> and the Leleges and Kaukones and radiant Pelasgians.</l>
+<l
+n="430"> Toward Thymbres the Lykians were allotted space and the proud Mysians</l>
+<l
+n="431"> and the Phrygians, tamers of horses <note>v.l. who fight from chariots</note> and the
+Meonians whose helmets have horse-hair plumes.</l>
+<l
+n="432"> But why do you question me so precisely about each of these things?</l>
+<l
+n="433"> For if you two are eager to enter into the crowd of Trojans,</l>
+<l
+n="434"> here are the Thracians who have newly arrived, farthest apart from the others,</l>
+<l
+n="435"> and among them is the king, Rhesos the son of Eioneus. </l>
+<l
+n="436"> I saw his horses—they are the finest and largest,</l>
+<l
+n="437"> whiter than snow and they run like winds.</l>
+<l
+n="438"> His chariot has been well fashioned in gold and silver.</l>
+<l
+n="439"> And his armor is golden, huge, amazing to behold.</l>
+<l
+n="440"> He had it on when he came, and it did not at all look like mortal</l>
+<l
+n="441"> men should wear it, but rather the immortal gods.</l>
+<l
+n="442"> But bring me now to the swift-traversing ships</l>
+<l
+n="443"> or bind me with a pitiless bond and leave me here,</l>
+<l
+n="444"> while you two go and test what I said,</l>
+<l
+n="445"> whether I spoke to you in good measure or not.”</l>
+<l
+n="446"> Powerful Diomedes gave him a fierce look and said:</l>
+<l
+n="447"> Don’t put thoughts of escape in your heart <note>thumos</note>, Dolon, <note>v.l. being
+tricky</note></l>
+<l
+n="448"> although you gave good <note>esthlos</note> information after you fell into our hands.</l>
+<l
+n="449"> But if we release you for ransom or let you go now,</l>
+<l
+n="450"> you will surely come at a later time to the ships of the Achaeans</l>
+<l
+n="451"> either to spy or to make war with matching might.</l>
+<l
+n="452"> But if you are subdued <note>v.l. struck</note> by my hand and you lose your life
+<note>thumos</note>,</l>
+<l
+n="453"> then you will never again be a cause of pain to the Argives.”</l>
+<l
+n="454"> He spoke, and Dolon with his strong hand toward Diomedes’ chin was about to</l>
+<l
+n="455"> grasp it and supplicate him, but Diomedes drove toward the middle of his neck <note>cf.
+I-5.80</note></l>
+<l
+n="456"> flashing out with his sword <note>cf. I-5.81</note>, and he cut right through the
+tendons.</l>
+<l
+n="457"> The head of Dolon still talking was mixed with the dust.</l>
+<l
+n="458"> From his head they took the helmet made from the hide of a marten <note>cf.
+I-10.335</note></l>
+<l
+n="459"> and his wolf’s skin and bent-back bow and long spear <note>cf. 10.333-335</note>.</l>
+<l
+n="460"> These things radiant Odysseus to Athena, dispenser of spoils,</l>
+<l
+n="461"> lifted high with his hand and praying, said a word <note>epos</note>:</l>
+<l
+n="462"> “Take pleasure <note>kharis</note>, goddess, in these things. You first on Olympus</l>
+<l
+n="463"> of all the immortals we invoke <note>v.l. present these in reciprocity</note>. And once
+again</l>
+<l
+n="464"> escort us to the horses and sleeping places of the Thracian men.”</l>
+<note>stopped here</note>
+<l
+n="465"> So he spoke, and raising them high away from himself </l>
+<l
+n="466"> he placed them up in a tamarisk. And he placed on it conspicuously a mark
+<note>sêma</note></l>
+<l
+n="467"> by bunching together reeds and the blossoming branches of the tamarisk,</l>
+<l
+n="468"> so that he would not miss it as they came back through the swift, black night. <note>cf.
+I-10.394</note></l>
+<l
+n="469"> The two went forward through the war gear and black blood.</l>
+<l
+n="470"> Right away as they were going they came to the post <note>telos</note> of the Thracian
+men.</l>
+<l
+n="471"> They were sleeping, overwhelmed with exhaustion from toil <note>cf. I-10.312=10.399</note>,
+and their war gear,</l>
+<l
+n="472"> which was fine, lay on the ground next to them, in good order <note>kosmos</note></l>
+<l
+n="473"> in three rows. Alongside them were horses yoked in a pair for each.</l>
+<l
+n="474"> Rhesos slept in the middle, and next to him were swift horses</l>
+<l
+n="475"> tied up with their reins from the end/edge of the chariot rail.</l>
+<l
+n="476"> Odysseus, seeing him first/in front of him, pointed him out to Diomedes:</l>
+<l
+n="477"> “This, Diomedes, is the man, and these are the horses,</l>
+<l
+n="478"> whom Dolon (the man we killed) signaled to us two.</l>
+<l
+n="479"> Come on, bring on overpowering violence <note>menos</note>. You must not </l>
+<l
+n="480"> just stand there in your armor, but release the horses.</l>
+<l
+n="481"> Or else you kill the men, and I’ll take care of the horses.”</l>
+<l
+n="482"> So he spoke. Owl-radiant Athena breathed violence <note>menos</note> into Diomedes
+<note>cf. I-15.60, 15.262=20.110, 17.456 (into horses!)</note></l>
+<l
+n="483"> and he killed one after another. A hideous groaning rose from them <note>cf.
+I-21.20</note></l>
+<l
+n="484"> as they were hit by his sword. The earth became red with blood. <note>cf.
+I-21.21</note></l>
+<l
+n="485"> Like a lion, attacking shepherdless <note>sêma</note> flocks,</l>
+<l
+n="486"> goats or sheep, intending evil he springs on them,</l>
+<l
+n="487"> just so the son of Tydeus went after the Thracian men</l>
+<l
+n="488"> until he killed twelve. And Odysseus, who is crafty in many ways,</l>
+<l
+n="489"> stood by whomever Tydeus’s son struck with his sword, </l>
+<l
+n="490"> and each one Odysseus took by the foot and dragged him back,</l>
+<l
+n="491"> contemplating in his heart <note>thumos, cf. I-2.36</note> how the fine-maned horses </l>
+<l
+n="492"> might go easily through and not tremble in their hearts <note>thumos</note></l>
+<l
+n="493"> walking over corpses. For they were still unaccustomed to them.</l>
+<l
+n="494"> But when the son of Tydeus reached the king,</l>
+<l
+n="495"> from him the thirteenth he took away the honey-sweet life <note>thumos</note></l>
+<l
+n="496"> as he gasped for breath. For a bad dream stood at his head </l>
+<l
+n="497"> that night, the descendent of Oineus <note>Diomedes</note>, through the scheme
+<note>mêtis</note> of Athena.</l>
+<l
+n="498"> Meanwhile enduring Odysseus was freeing the solid-hoofed horses,</l>
+<l
+n="499"> and he strung them together with the reins and drove them away from the crowd</l>
+<l
+n="500"> by striking them with his bow, since the shining whip he hadn’t </l>
+<l
+n="501"> noticed <note>noos</note> to take in his hands from the intricately patterned
+<note>poikilos</note> chariot.</l>
+<l
+n="502"> He whistled, signaling to radiant Diomedes.</l>
+<l
+n="503"> Meanwhile Diomedes stood there and was divided as to what most bitch-like thing he could
+do.</l>
+<l
+n="504"> Either seize the chariot, in which the intricately patterned <note>poikilos</note> armor
+lay,</l>
+<l
+n="505"> if he could find the pole or if he could carry it off by raising it high,</l>
+<l
+n="506"> or take life <note>thumos</note> away from still more Thracians.</l>
+<l
+n="507"> He was pondering this in his mind <note>phrên</note> until Athena,</l>
+<l
+n="508"> standing nearby, addressed radiant Diomedes.</l>
+<l
+n="509"> “Be mindful of your homecoming <note>nostos</note>, son of great-hearted Tydeus,</l>
+<l
+n="510"> to the hollow ships, so that you don’t have to go while being chased,</l>
+<l
+n="511"> in case some other god awakens the Trojans.”</l>
+<l
+n="512"> So she spoke, and he heard the voice of the goddess as she spoke.</l>
+<l
+n="513"> Quickly he mounted the horses <note>chariot?</note>. Odysseus struck them</l>
+<l
+n="514"> with the bow. And they flew toward the swift ships of the Achaeans.</l>
+<l
+n="515"> Apollo with the silver bow did not hold a negligent watch</l>
+<l
+n="516"> since he saw Athena accompanying the son of Tydeus.</l>
+<l
+n="517"> Holding a grudge <note>kotos</note> against her he sank into the large crowd of Trojans</l>
+<l
+n="518"> and stirred Hippokoon, a man who could call a council among the Thracians,</l>
+<l
+n="519"> a noble <note>esthlos</note> cousin of Rhesos. He sprang up from sleep</l>
+<l
+n="520"> as he saw the empty space where the swift horses had stood,</l>
+<l
+n="521"> and the men gasping as they died in the painful slaughter.</l>
+<l
+n="522"> He then cried “oimoi” and called the name of his dear <note>philos</note> comrade.</l>
+<l
+n="523"> Noise and indescribable panic rose up among the Trojans </l>
+<l
+n="524"> as they surged together. They stared at the astounding deeds <note>cf. I-10.289</note>,</l>
+<l
+n="525"> so much had the men done before they went to the hollow ships.</l>
+<l
+n="526"> But they, when they came to the place where they had killed Hektor’s spy, </l>
+<l
+n="527"> there Odysseus dear <note>philos</note> to Zeus reined in <note>cf. I-3.113</note> the
+swift horses,</l>
+<l
+n="528"> and the son of Tydeus leapt to the ground and taking the blood-stained spoils</l>
+<l
+n="529"> placed them in Odysseus’s hands, and he mounted the chariot. <note>v.l. A int. “He gave
+them to Odysseus in his hands”</note></l>
+<l
+n="530"> He whipped the horses, and not unwillingly the team flew <note>n:=I-11.519</note></l>
+<l
+n="531"> toward the hollow ships; for this way was dear <note>philos</note> to them in their hearts
+<note>thumos</note>. <note>n:=I-11.520</note>; this line is not present in A</l>
+<l
+n="532"> Nestor was the first to hear the clatter and he spoke:</l>
+<l
+n="533"> “Friends, leaders and rulers of the Argives,</l>
+<l
+n="534"> will I be proven wrong, or will I speak the truth? Well, my heart <note>thumos</note> urges
+me on. <note>n:=O-4.140</note></l>
+<l
+n="535"> The clatter of swift-footed horses strikes my ears.</l>
+<l
+n="536"> How I hope that Odysseus and powerful Diomedes</l>
+<l
+n="537"> at once might be driving solid-hoofed horses from the Trojans this way!</l>
+<l
+n="538"> Yet I am terribly afraid in my mind <note>phrên</note> that they have suffered
+something—</l>
+<l
+n="539"> they who are best <note>aristos</note> of the Argives—at the hands of the Trojans in a
+commotion.”</l>
+<l
+n="540"> He had not yet spoken every word <note>epos</note> when, look!, they came.</l>
+<l
+n="541"> And they dismounted onto the ground, while the others, taking pleasure
+<note>kharis</note>,</l>
+<l
+n="542"> welcomed them with right hands and gracious words <note>epos</note>. <note>cf.
+I-10.288</note></l>
+<l
+n="543"> The Gerenian horseman Nestor was the first to question them:</l>
+<l
+n="544"> “Come, tell me, much-praised Odysseus, great glory <note>kudos</note> of the Achaeans
+<note>n:=I-9.673</note></l>
+<l
+n="545"> how you two took these horses after you entered the crowd</l>
+<l
+n="546"> of Trojans, or which god you encountered who gave them.</l>
+<l
+n="547"> Terribly they look like the rays of the sun.</l>
+<l
+n="548"> I always mix it up with the Trojans, and I say that in no way</l>
+<l
+n="549"> am I a warrior who hangs back near the ships, even though I am an old man.</l>
+<l
+n="550"> But I have not yet seen or noticed <note>noos</note> horses like these.</l>
+<l
+n="551"> So I think that some god came to you and gave them to you.</l>
+<l
+n="552"> For Zeus the cloud-gatherer loves <note>philos</note> both you two,</l>
+<l
+n="553"> and so does the daughter of aegis-shaking Zeus, owl-radiant Athena.”</l>
+<l
+n="554"> Odysseus who is crafty in many ways answered him and said,</l>
+<l
+n="555"> “Nestor, son of Neleus, great glory <note>kudos</note> of the Achaeans,
+<note>n:=I-11.511</note>,</l>
+<l
+n="556"> easily a god who wants to could give even better than these here,</l>
+<l
+n="557"> should the gods give horses, since they are really much superior. <note>cf.
+I-1.169</note></l>
+<l
+n="558"> But these newly arrived horses here, old man, that you ask about,</l>
+<l
+n="559"> these are Thracian. Their lord— valiant <note>agathos</note> Diomedes</l>
+<l
+n="560"> killed him, and along with him twelve companions, all the best <note>aristos</note>
+men.</l>
+<l
+n="561"> As the thirteenth, we slew a spy near the ships—</l>
+<l
+n="562"> he was spying on our encamped mass of warriors,</l>
+<l
+n="563"> Hektor and the other illustrious Trojans sent him forth to do it.”</l>
+<l
+n="564"> So he spoke, and he drove the solid-hoofed horses across the ditch,</l>
+<l
+n="565"> laughing. The other Achaeans went together with him exulting <note>kharis</note>.</l>
+<l
+n="566"> When they reached the well-made tent of the son of Tydeus,</l>
+<l
+n="567"> they tied up the horses with the well-cut reins</l>
+<l
+n="568"> at the horses’ manger, where the horses of Diomedes</l>
+<l
+n="569"> stood, swift-footed, eating the honey-sweet <note>cf. 10.495</note> wheat.</l>
+<l
+n="570"> Into the ship’s stern went the blood-stained spoils from Dolon,</l>
+<l
+n="571"> Odysseus placed them there, until he could prepare the sacred dedication to Athena.</l>
+<l
+n="572"> They washed off the heavy sweat from themselves in the sea:</l>
+<l
+n="573"> going in, they washed around their shins, necks, and thighs.</l>
+<l
+n="574"> And when the waves of the sea washed the heavy sweat,</l>
+<l
+n="575"> washed it from their skin and cooled their own hearts <note>cf. I-13.84</note>,</l>
+<l
+n="576"> they entered the well-fashioned baths and bathed.</l>
+<l
+n="577"> Once the two had bathed and anointed themselves richly with olive oil,</l>
+<l
+n="578"> they sat down to a meal, and to Athena from the mixing-bowl</l>
+<l
+n="579"> that was full, drawing off the honey-sweet wine, they poured libations.</l>
+</div>
+</body>
+</text>
+</TEI>

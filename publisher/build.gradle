@@ -1,0 +1,75 @@
+
+apply plugin: "base"
+apply plugin: "maven"
+
+
+
+// depends on graphs:ttl
+task rdf(type: Zip) {
+  description = "Creates zip package of entire HMT archive in TTL format."
+  from (file("${rootProject.rootDir}/graphs/build/ttl"))
+  include("**/*.ttl", "README.md")
+  baseName = "hmt-rdf"
+  doLast {
+    System.err.println "RDF (TTL) version of the entire HMT archive compiled in zip file hmt-rdf"
+  }
+}
+
+// depends on ctsbldr:cts
+task editions(type: Zip) {
+    description="Builds zip file of all edited manuscripts."
+    classifier = 'xml'
+    baseName = "hmt-editions"
+    from(file("${rootProject.rootDir}/ctsbldr/build/editions/archive"))
+    include("**/*.xml", "**/README.md")
+    doLast {
+        System.err.println "All texts validate syntactically, and are compiled in zip file hmtarchive-VERSION-editions.zip."
+    }
+}
+
+// depends on textmgr:
+task tabulated(type: Zip) {
+    description="Builds zip file of tabulated form of all edited manuscripts."
+    classifier = 'tabulated'
+    baseName = "hmt-editions"
+    from(file("${rootProject.rootDir}/textmgr/build/tabs"))
+    include("**/*.txt", "**/README.md")
+    doLast {
+        System.err.println "All texts tabulated, and are compiled in zip file hmtarchive-VERSION-tabulated.zip."
+    }
+}
+
+
+
+
+// the following three depend on citebldr:cite
+task collections(type: Zip) {
+  description = "Creates zip package of all HMT collections archive."
+  from (file("${rootProject.rootDir}/citebldr/build/archive/collections"))
+  baseName = "hmt-collections"
+}
+
+
+task indices(type: Zip) {
+    description = "Creates zip package of all HMT CITE Indices."
+    from (file("${rootProject.rootDir}/citebldr/build/archive/indices"))
+    baseName = "hmt-indices"
+}
+
+task images(type: Zip) {
+    description = "Creates zip package of all HMT Image Collections."
+    from (file("${rootProject.rootDir}/citebldr/build/archive/images"))
+    baseName = "hmt-images"
+}
+
+
+task cite (dependsOn : [editions, collections, indices, images]) {
+description = "Builds zip file of all HMT CITE archives."
+    doLast {
+        println "Built zip files of all HMT CITE archives."
+    }
+}
+
+
+
+
