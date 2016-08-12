@@ -2662,7 +2662,7 @@ style simple scholia" alternate="no"?>
                      <p><rs type="waw">αελπτεόντες</rs> οὐκ <rs type="waw">ελπίζοντες</rs>, αλλ'
                         επεγνωκῶτες </p>
                   </div>
-               </div>
+               </div><!--
                <div n="2051" type="scholion">
                   <div type="lemma"/>
                   <div type="ref">
@@ -2675,7 +2675,7 @@ style simple scholia" alternate="no"?>
                         </choice> ἀντι τοῦ <q>πρὸς <persName n="urn:cite:hmt:pers.pers22"
                         >Αγαμέμνονα</persName></q>· </p>
                   </div>
-               </div>
+               </div> -->
                <div n="2034" type="scholion">
                   <div type="lemma"/>
                   <div type="ref">
@@ -2726,7 +2726,7 @@ style simple scholia" alternate="no"?>
                <div n="2047" type="scholion">
                   <div type="lemma"/>
                   <div type="ref">
-                     <p>353</p>
+                  	<p>urn:cts:greekLit:tlg0012.tlg001.msA:7.353</p>
                   </div>
                   <div type="comment">
                      <p><persName n="urn:cite:hmt:pers.pers16"><choice>
