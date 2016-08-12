@@ -128,7 +128,7 @@
                             <p><persName n="urn:cite:hmt:pers.HELP">Ἀρισταρχος</persName> <q>ὥς κεν <persName n="urn:cite:hmt:pers.HELP">Τυδέος</persName></q>
                             </p>
                         </div>
-                    </div>
+                    </div><!--
                     <div ana="unknown" type="scholion" n="170">
                         <div type="lemma">
                             <p></p>
@@ -139,7 +139,7 @@
                         <div type="comment">
                             <p>(mostly illegible) ὁ σύκαθολος το νάχαὺν αφηρθ ε προς της θ ⁑</p>
                         </div>
-                    </div>
+                    </div>-->
                     <div ana="158-9" type="scholion" n="171">
                         <div type="lemma">
                             <p></p>
@@ -177,12 +177,12 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p></p>
+                        	<p>urn:cts:greekLit:tlg0012.tlg001.msA:6.174</p>
                         </div>
                         <div type="comment">
                             <p>τὸ ἐπιφερόμενον οτι προς τον εννεα αριθμόν ⁑ </p>
                         </div>
-                    </div>
+                    </div> 
                     <div ana="181a" type="scholion" n="174">
                         <div type="lemma">
                             <p></p>
@@ -379,6 +379,7 @@
                                 </choice> καὶ σχολάσαι τῇ μαχη ⁑</p>
                         </div>
                     </div>
+                	<!--
                     <div ana="unknown" type="scholion" n="189">
                         <div type="lemma">
                             <p></p>
@@ -389,7 +390,7 @@
                         <div type="comment">
                             <p>οι</p>
                         </div>
-                    </div>
+                    </div> 
                     <div ana="unknown" type="scholion" n="190">
                         <div type="lemma">
                             <p></p>
@@ -400,7 +401,7 @@
                         <div type="comment">
                             <p>ορμῆσαι</p>
                         </div>
-                    </div>
+                    </div>-->
                     <div ana="343" type="scholion" n="191">
                         <div type="lemma">
                             <p></p>
@@ -411,7 +412,7 @@
                         <div type="comment">
                             <p>ἐν ἄλλω προσηυδα δια γυναικῶν ⁑</p>
                         </div>
-                    </div>
+                    </div><!--
                     <div ana="unknown" type="scholion" n="192">
                         <div type="lemma">
                             <p></p>
@@ -422,7 +423,7 @@
                         <div type="comment">
                             <p>ἀπέπνηξε</p>
                         </div>
-                    </div>
+                    </div> -->
                     <div ana="353a" type="scholion" n="193">
                         <div type="lemma">
                             <p></p>
@@ -863,6 +864,7 @@
                             </choice> καὶ ξείνισσε καὶ <q>ξείνιζε</q>⁑ </p>
                         </div>
                     </div>
+                	<!--
                     <div ana="unknown" type="scholion" n="229">
                         <div type="lemma">
                             <p></p>
@@ -873,7 +875,7 @@
                         <div type="comment">
                             <p>αἵξ</p>
                         </div>
-                    </div>
+                    </div>  -->
                     <div ana="195" type="scholion" n="230">
                         <div type="lemma">
                             <p></p>
@@ -1134,7 +1136,7 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p>3.319</p>
+                        	<p>urn:cts:greekLit:tlg0012.tlg001.msA:6.319</p>
                         </div>
                         <div type="comment">
                             <p>οτι ὑφ ἓν ἐνδεκάπηχυ ἀναγνωστέον το γὰρ διπληάσιον δύο καὶ εἰκοσίπηχυ
@@ -1152,6 +1154,7 @@
                             <p><persName n="urn:cite:hmt:pers.HELP">Ἀρισταρχος</persName> <q>ὅν τινά που</q>⁑</p>
                         </div>
                     </div>
+                	<!--
                     <div ana="unknown" type="scholion" n="253">
                         <div type="lemma">
                             <p></p>
@@ -1162,7 +1165,7 @@
                         <div type="comment">
                             <p>τῆς ἰδίας ἀνοιας δηλον ὅτι ⁑</p>
                         </div>
-                    </div>
+                    </div> -->
                     <div ana="360b" type="scholion" n="254">
                         <div type="lemma">
                             <p></p>
@@ -1930,8 +1933,8 @@
                         </div>
                     </div>
                 </body>
-            </text>
-            <text n="msAext">
+            </text><!--
+        	<text n="msAext">
                 <body>
                     <div ana="unknown" type="scholion" n="294">
                         <div type="lemma">
@@ -1943,7 +1946,7 @@
                         <div type="comment">
                             <p>ἀμφατέρων</p>
                         </div>
-                    </div>
+                    </div> 
                     <div ana="unknown" type="scholion" n="295">
                         <div type="lemma">
                             <p></p>
@@ -1955,6 +1958,7 @@
                             <p>δόλον</p>
                         </div>
                     </div>
+              
                     <div ana="unknown" type="scholion" n="296">
                         <div type="lemma">
                             <p></p>
@@ -1987,7 +1991,7 @@
                         <div type="comment">
                             <p>οὐδεσμε</p>
                         </div>
-                    </div>
+                    </div> 
                     <div ana="unknown" type="scholion" n="299">
                         <div type="lemma">
                             <p></p>
@@ -1998,7 +2002,7 @@
                         <div type="comment">
                             <p>εβίην θόντε</p>
                         </div>
-                    </div>
+                    </div>  
                     <div ana="506-11a.2" type="scholion" n="300">
                         <div type="lemma">
                             <p></p>
@@ -2009,9 +2013,9 @@
                         <div type="comment">
                             <p>οτι εις ὁ κειται</p>
                         </div>
-                    </div>
-                </body>
-            </text>
+                    </div>   
+               </body>
+            </text>  -->
             <text n="msA">
                 <body>
                     <div ana="1a" type="scholion" n="1">
