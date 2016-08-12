@@ -117,12 +117,12 @@
     </work>
   </textgroup>
   
-	<!--
+
   <textgroup
     urn="urn:cts:greekLit:tlg5026:">
     <groupname
       xml:lang="eng"> Scholia to the Iliad</groupname>
-   
+  	<!--
     <work urn="urn:cts:greekLit:tlg5026.e3:" xml:lang="grc">
       <title xml:lang="eng"> Main scholia</title> 
       <edition urn="urn:cts:greekLit:tlg5026.e3.hmt:">
@@ -141,7 +141,7 @@
         </online>
         
       </edition>
-    </work>
+    </work> -->
     
 
     <work
@@ -156,23 +156,7 @@
         <description
           xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msA.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+        <online/>
       </edition>
     </work>
     <work
@@ -187,23 +171,7 @@
         <description
           xml:lang="eng">Exterior scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAext.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+        <online/>
       </edition>
     </work>
     <work
@@ -218,23 +186,7 @@
         <description
           xml:lang="eng">Interlinear scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAil.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+        
       </edition>
     </work>
     <work
@@ -249,23 +201,7 @@
         <description
           xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) of the
           Venetus A manuscript, Marciana 454 (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAim.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+        <online/>
       </edition>
     </work>
    <work
@@ -280,23 +216,7 @@
         <description
           xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) in a second,
           later hand, from the Venetus A manuscript, Marciana 454 (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAimLater.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+        <online/>
       </edition>
     </work>
  <work
@@ -311,23 +231,7 @@
         <description
           xml:lang="eng">Interior (gutter) scholia of the Venetus A manuscript, Marciana 454
           (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msAint.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+       <online/>
       </edition>
     </work>
     <work
@@ -342,26 +246,10 @@
         <description
           xml:lang="eng">Scholia in a second later hand from the main marginal area of Venetus A
           manuscript, Marciana 454 (=822).</description>
-        <online
-          docname="VenetusA/VenetusA-Scholia-msALater.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="scholion"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:div[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+       <online/>
       </edition>  
     </work>
-  </textgroup> -->
+  </textgroup>
  
   <!-- Other texts in the Venetus A -->
   <!--
