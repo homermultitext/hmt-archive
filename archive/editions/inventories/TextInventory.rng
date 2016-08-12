@@ -59,7 +59,7 @@
 			<attribute
 				name="tiversion">
 				<choice>
-					<value>5.0.rc.1</value>
+					<value>6.0.0</value>
 				</choice>
 			</attribute>
 			<optional>

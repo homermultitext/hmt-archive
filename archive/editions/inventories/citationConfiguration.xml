@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/repos/hmt-git/hmt-archive/archive/editions/inventories/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus" tiversion="6.0.0">
+	<online type="xml" urn="urn:cts:greekLit:tlg0012.tlg001.hmt01:"
+		docname="translations/due-ebbott.xml">
+		<namespaceMapping
+			abbreviation="tei"
+			nsURI="http://www.tei-c.org/ns/1.0"/>
+		<citationMapping>
+			<citation
+				label="book"
+				scope="/tei:TEI/tei:text/tei:body"
+				xpath="/tei:div[@n = '?']">
+				<citation
+					label="line"
+					scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+					xpath="/tei:l[@n = '?']"/>
+			</citation>
+		</citationMapping>
+	</online>
+	
+	<online urn="urn:cts:greekLit:tlg0012.tlg001.msA:" type="xml"
+		docname="VenetusA/VenetusA-Iliad.xml">
+		<namespaceMapping
+			abbreviation="tei"
+			nsURI="http://www.tei-c.org/ns/1.0"/>
+		<citationMapping>
+			<citation
+				label="book"
+				scope="/tei:TEI/tei:text/tei:body"
+				xpath="/tei:div[@n = '?']">
+				<citation
+					label="line"
+					scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
+					xpath="/tei:l[@n = '?']"/>
+			</citation>
+		</citationMapping>
+	</online>
+	
+</CitationConfiguration>

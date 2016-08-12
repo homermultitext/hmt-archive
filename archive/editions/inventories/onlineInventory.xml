@@ -1,7 +1,7 @@
 <?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TextInventory
   tiid="hmt"
-  tiversion="5.0.rc.1"
+  tiversion="6.0.0"
   xmlns="http://chs.harvard.edu/xmlns/cts"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <ctsnamespace
@@ -47,23 +47,7 @@
           xml:lang="eng">English translation of Iliad 10 by Casey Dué and Mary Ebbott</label>
         <description
           xml:lang="eng">New line-by-line translation of Iliad 10</description>
-        <online
-          docname="translations/due-ebbott.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="line"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:l[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+        <online/>
       </translation>
       <edition
         urn="urn:cts:greekLit:tlg0012.tlg001.msA:">
@@ -71,23 +55,7 @@
           xml:lang="eng"> Venetus A </label>
         <description
           xml:lang="eng"> Iliad text of the Venetus A manuscript, Marciana 454 (=822). </description>
-        <online
-          docname="VenetusA/VenetusA-Iliad.xml">
-          <namespaceMapping
-            abbreviation="tei"
-            nsURI="http://www.tei-c.org/ns/1.0"/>
-          <citationMapping>
-            <citation
-              label="book"
-              scope="/tei:TEI/tei:text/tei:body"
-              xpath="/tei:div[@n = '?']">
-              <citation
-                label="line"
-                scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"
-                xpath="/tei:l[@n = '?']"/>
-            </citation>
-          </citationMapping>
-        </online>
+      <online/>
       </edition>
       <!--
       <edition urn="urn:cts:greekLit:tlg0012.tlg001.msB">
@@ -149,13 +117,13 @@
     </work>
   </textgroup>
   
-
+	<!--
   <textgroup
     urn="urn:cts:greekLit:tlg5026:">
     <groupname
       xml:lang="eng"> Scholia to the Iliad</groupname>
    
-    <!--<work urn="urn:cts:greekLit:tlg5026.e3:" xml:lang="grc">
+    <work urn="urn:cts:greekLit:tlg5026.e3:" xml:lang="grc">
       <title xml:lang="eng"> Main scholia</title> 
       <edition urn="urn:cts:greekLit:tlg5026.e3.hmt:">
         <label xml:lang="eng">Upsilon 1.1</label>
@@ -173,7 +141,7 @@
         </online>
         
       </edition>
-    </work> -->
+    </work>
     
 
     <work
@@ -393,10 +361,10 @@
         </online>
       </edition>  
     </work>
-  </textgroup>
+  </textgroup> -->
  
   <!-- Other texts in the Venetus A -->
-  
+  <!--
   <textgroup
     urn="urn:cts:greekLit:tlg4036:">
     <groupname
@@ -648,7 +616,7 @@
     </work>
   </textgroup>
 
-  
+  -->
   
   
   <!--

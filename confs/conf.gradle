@@ -16,7 +16,7 @@ ext {
     // to simplify testing:
     inventoriesDir = "inventories"
     textInventory="onlineInventory.xml"
-
+    citationConfig ="citationConfiguration.xml"
     compositeDir = "editions/archive"
 
     pyramids = "/project/homer/pyramidal"
