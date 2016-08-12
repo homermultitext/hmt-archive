@@ -4,6 +4,49 @@
 	xmlns="http://relaxng.org/ns/structure/1.0"
 	xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
 	xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+	<define name="any_content">
+		<interleave>
+			<zeroOrMore>
+				<ref name="any_element"/>
+			</zeroOrMore>
+			<text/>
+		</interleave>
+	</define>
+	
+	<define name="any_element">
+		<element>
+			<anyName/>
+			<zeroOrMore>
+				<ref name="any_attribute"/>
+			</zeroOrMore>
+			<zeroOrMore>
+				<ref name="any_content"/>
+			</zeroOrMore>
+		</element>
+	</define>
+	
+	<define name="any_attribute">
+		<attribute>
+			<anyName/>
+		</attribute>
+	</define>
+	<define
+		name="onlinestruct">
+		<element name="ti:online">
+			
+			
+			<oneOrMore>
+				<attribute>
+					<anyName></anyName>
+				</attribute>
+			</oneOrMore>
+			<!--
+			<ref name="any_element"/>-->
+			<empty></empty>
+		</element>
+		
+	</define>
+	
 	<define
 		name="versionstruct">
 		<attribute
@@ -44,12 +87,13 @@
 								name="pattern">...+</param>
 						</data>
 					</attribute>
-					<text/>
+					<text></text>
 				</element>
 			</zeroOrMore>
 			<optional>
-				<ref
-					name="onlinestruct"/>
+				<element name="ti:online">
+					<empty></empty>
+				</element>
 			</optional>
 			<zeroOrMore>
 				<ref
@@ -123,62 +167,20 @@
 									name="pattern">...+</param>
 							</data>
 						</attribute>
-						<text/>
+						<text></text>
 					</element>
 				</zeroOrMore>
+				
 				<optional>
-					<ref
-						name="onlinestruct"/>
+					<element name="ti:online">
+						<empty></empty>
+					</element>
 				</optional>
 			</mixed>
+			
 		</element>
 	</define>
-	<define
-		name="onlinestruct">
-		<element
-			name="ti:online">
-			<optional>
-				<attribute
-					name="docname">
-					<data
-						type="string">
-						<param
-							name="pattern">.+</param>
-					</data>
-				</attribute>
-			</optional>
-			<optional>
-				<oneOrMore>
-					<element
-						name="ti:namespaceMapping">
-						<attribute
-							name="abbreviation">
-							<data
-								type="string">
-								<param
-									name="pattern">.+</param>
-							</data>
-						</attribute>
-						<attribute
-							name="nsURI">
-							<data
-								type="anyURI">
-								<param
-									name="pattern">.+</param>
-							</data>
-						</attribute>
-					</element>
-				</oneOrMore>
-			</optional>
-			<element
-				name="ti:citationMapping">
-				<oneOrMore>
-					<ref
-						name="citationstruct"/>
-				</oneOrMore>
-			</element>
-		</element>
-	</define>
+	
 	<define
 		name="citationstruct">
 		<element
