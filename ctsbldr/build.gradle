@@ -50,7 +50,7 @@ task inv {
       copy {
 	from ("${rootProject.projectDir}/${editionsDir}/${inventoriesDir}")
 	into "${buildDir}/${compositeDir}"
-	include (textInventory, 'README-HMT-archive.md', "*.rng")
+	include (textInventory, citationConfig, 'README-HMT-archive.md', "*.rng")
 	filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
 	rename { String fileName ->
 	  fileName.replace('-HMT-archive','')

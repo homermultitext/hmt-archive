@@ -25,10 +25,11 @@ task ctstab(dependsOn: ":ctsbldr:cts") {
   
   doLast {
     File inv =  new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml")
+    File citeConf = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/citationConfiguration.xml")
     File textArchive = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive")
     File schema = new File("${rootProject.rootDir}/schemas/cts/Textinventory.rng")
 
-    Corpus c = new Corpus(inv, textArchive, schema)
+    Corpus c = new Corpus(inv, citeConf, textArchive, schema)
     c.tabulateRepository(new File(buildDir, "tabs"))
   }
 }

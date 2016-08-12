@@ -43,13 +43,15 @@ task ctsttl(dependsOn : ":textmgr:ctstab") {
     }
     
     File inv =  new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml")
+    File citeConf = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/citationConfiguration.xml")
     File archiveDir = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive")
     File schema = new File("${rootProject.rootDir}/schemas/cts/Textinventory.rng")
-    Corpus c = new Corpus(inv,archiveDir, schema)
+    Corpus c = new Corpus(inv, citeConf, archiveDir, schema)
 
     File ttlFile = new File(ttlDir,"cts.ttl")
-    boolean prefix = project.hasProperty("prefix-all")
-    c.ttl(ttlFile, prefix, ttlDir)
+    //boolean prefix = project.hasProperty("prefix-all")
+    //    c.ttl(ttlFile, prefix, ttlDir)
+    c.turtleizeRepository(ttlDir)
   }
 }
 
