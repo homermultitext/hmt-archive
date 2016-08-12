@@ -15,13 +15,20 @@ project.ext {
 
 
     versionMap = [
-      "abracadabra" :  '0.3.0',
-      "cite" :  "+" ,//"0.94.1",
+      "cite" :  "3.+" ,
+      "hmtutils" : '0.9.+',
       "greekutils" : "0.8.5",
-      "hmtutils" : '0.3.2',
-      "hocuspocus" :  '0.13.5',
-      "nysi" :  '0.2.2',
-      "prestochango" : '0.3.6',
+
+
+      "abracadabra" :  '0.3.0',
+      "hocuspocus" :  '2.+',
+      "nysi" :  '0.2.+',
+      "prestochango" : '1.+',
+
+
+
+
+
       "groovy" : '[2.0,)',
       //      "groovy" : "2.0.6",
       "commonsio" : "2.4"

@@ -37,6 +37,14 @@ class ScholiaIndexer {
 
 
 
+    /** Constructs an indexer for mapping scholia to Iliadic lines they comment
+     * on.
+     * @param inputDir Directory with TEI editions of scholia.
+     * @param outDir Writable directory for output.
+     * @param outFileName Name of resulting delimited text file.
+     * @param iliad URN for Iliad version
+     * @param versionStr Value for version part of scholia URNs.
+     */
     ScholiaIndexer(File inputDir, File outDir, String outFileName, CtsUrn iliad, String versionStr) {
         this.xmlSourceDirectory = inputDir        
         this.outputDirectory = outDir
@@ -46,6 +54,9 @@ class ScholiaIndexer {
     }
 
 
+
+    /** Writes a 
+     */
     void writeIndex() {
       File scholiaIndex = new File(outputDirectory, indexFileName)
       xmlSourceDirectory.eachFileMatch(~/.*\.xml/) { srcFile ->
@@ -83,6 +94,7 @@ class ScholiaIndexer {
 		  psgUrn = new CtsUrn(d.p[0].text())
 		} catch (Exception e) {
 		System.err.println "Bad URN value for Iliad passage ${psgUrn}:" + d.p[0].text() + " (reference in scholion ${scholUrn})"
+		System.exit(-1)
 		}
 
                         
@@ -110,6 +122,10 @@ class ScholiaIndexer {
 
 
     /** Creates a ScholiaIndexer object and indexes scholia to Iliad passages.
+     * Expects five arguments: (1) source directory for TEI XML editions of
+     * scholia, (2) writable directory for output, (3) name of output file for
+     * index, (4) Iliad URN and (5) a version identifier for scholia URNs.
+     * Yeah, it's a kludgy mess.
     */
     public static void main(String[] args) 
     throws Exception {
@@ -141,6 +157,8 @@ class ScholiaIndexer {
 	    System.err.println "All params were: " + args
             throw e
         }
+
+	
         ScholiaIndexer indexer = new ScholiaIndexer(src,outputDir, args[2], iliad, args[4])
         indexer.writeIndex()
     }
