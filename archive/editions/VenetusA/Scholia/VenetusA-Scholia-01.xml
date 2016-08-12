@@ -7164,7 +7164,7 @@ style simple scholia" alternate="no"?>
                   <div ana="124a" n="140" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p/>
+                     	<p>urn:cts:greekLit:tlg0012.tlg001.msA:1.140</p>
                      </div>
                      <div type="comment">
                         <p>δια τοῦ <rs type="waw">ο</rs> καὶ <rs type="waw">υ</rs> ουτως καὶ ἥ
@@ -7898,7 +7898,7 @@ style simple scholia" alternate="no"?>
                   <div n="152" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p>152</p>
+                     	<p>urn:cts:greekLit:tlg0012.tlg001.msA:1.152</p>
                      </div>
                      <div type="comment">
                         <p>ἐπιβαλεῖ</p>
@@ -9204,7 +9204,7 @@ style simple scholia" alternate="no"?>
                   <div n="620" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p>2.202</p>
+                     	<p>urn:cts:greekLit:tlg0012.tlg001.msA:2.202</p>
                      </div>
                      <div type="comment">
                         <p>συγκοπῆ</p>
@@ -9213,7 +9213,7 @@ style simple scholia" alternate="no"?>
                   <div n="621" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p>2.202</p>
+                     	<p>urn:cts:greekLit:tlg0012.tlg001.msA:2.202</p>
                      </div>
                      <div type="comment">
                         <p><placeName n="urn:cite:hmt:place.place79">Ιώνων</placeName></p>
@@ -10226,7 +10226,7 @@ style simple scholia" alternate="no"?>
                   <div n="889" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p/>
+                     	<p>urn:cts:greekLit:tlg0012.tlg001.msA:311</p>
                      </div>
                      <div type="comment">
                         <p><choice>
@@ -10438,7 +10438,7 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p>προπέμπει</p>
                      </div>
-                  </div>
+                  </div><!--
                   <div n="955" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -10447,7 +10447,7 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p/>
                      </div>
-                  </div>
+                  </div>-->
                   <div n="956" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -11344,7 +11344,7 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p>φόρος ἄνεμος</p>
                      </div>
-                  </div>
+                  </div><!--
                   <div n="1244" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -11353,7 +11353,7 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p>τὴν οθόνην:</p>
                      </div>
-                  </div>
+                  </div> -->
                   <div n="1245" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -12298,7 +12298,7 @@ style simple scholia" alternate="no"?>
                   <div ana="8c" n="27" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p/>
+                     	<p>urn:cts:greekLit:tlg0012.tlg001.msA:1.8</p>
                      </div>
                      <div type="comment">
                         <p>δασύνεται τὸ ξυνἕηκε⁑</p>
@@ -12307,7 +12307,7 @@ style simple scholia" alternate="no"?>
                   <div ana="13-16" n="28" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-16</p>
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-1.16</p>
                      </div>
                      <div type="comment">
                         <p>οὐ καλῶς γὰρ ἐν τοῖς εξῆς μετετέθησαν⁑</p>
@@ -12316,7 +12316,7 @@ style simple scholia" alternate="no"?>
                   <div ana="13-14b" n="29" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-14</p>
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-1.14</p>
                      </div>
                      <div type="comment">
                         <p>εἰ μὲν εἶεν θεοσεβεῖς τὸ στέμμα⁑</p>
@@ -12325,7 +12325,7 @@ style simple scholia" alternate="no"?>
                   <div ana="13-14b" n="30" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-14</p>
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-1.14</p>
                      </div>
                      <div type="comment">
                         <p>εἰ δὲ φιλοχρήματοι τὰ ἄποινα⁑</p>
@@ -12760,6 +12760,7 @@ style simple scholia" alternate="no"?>
                            <q>τότε δ' ούτι</q>⁑</p>
                      </div>
                   </div>
+            	<!--
                   <div n="739" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -12769,6 +12770,7 @@ style simple scholia" alternate="no"?>
                         <p><abbr>ωδ</abbr><note resp="HMT">?</note></p>
                      </div>
                   </div>
+            	-->
                   <div ana="269a" n="740" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -16010,6 +16012,7 @@ style simple scholia" alternate="no"?>
                         <p/>
                      </div>
                   </div>
+            	<!--
                   <div n="919" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
@@ -16019,6 +16022,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.321</p>
                      </div>
                   </div>
+            	-->
                   <div n="920" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
