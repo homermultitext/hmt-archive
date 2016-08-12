@@ -284,6 +284,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑ </p>
                   </div>
                </div>
+            	<!--
                <div n="21" type="scholion">
                   <div type="lemma">
                      <p>ἀμφὶς φράζονται·</p>
@@ -297,7 +298,7 @@ style simple scholia" alternate="no"?>
                         θεοὶ διάφορα φρονοῦσιν οἱ μὲν τὰ ὑπερ <rs type="ethnic" n="urn:cite:hmt:place.place6"
                            >Τρώων</rs> οἱ δὲ τὰ ὑπερ <rs type="ethnic" n="urn:cite:hmt:place.place3">Ἑλλήνων</rs>⁑</p>
                   </div>
-               </div>
+               </div>-->
                <div n="22" type="scholion">
                   <div type="lemma">
                      <p>εὔδεις <persName n="urn:cite:hmt:pers.pers23">Ἀτρέως</persName> υἱὲ·</p>
@@ -338,6 +339,7 @@ style simple scholia" alternate="no"?>
                         αὐτὸν μέλλει·</p>
                   </div>
                </div>
+            	<!--
                <div n="25" type="scholion">
                   <div type="lemma">
                      <p>ὁς σεῦ·</p>
@@ -350,7 +352,7 @@ style simple scholia" alternate="no"?>
                            <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλέα</persName> ὅτι πρόκειται τοῦ ῥήματος ἡ
                         ἀντωνυμία⁑ </p>
                   </div>
-               </div>
+               </div>-->
                <div n="54" type="scholion">
                   <div type="lemma">
                      <p>Τὰ φρονέοντ' ἀναθυμον·</p>
@@ -1488,7 +1490,7 @@ style simple scholia" alternate="no"?>
                      <p>δασυντέον τὸ <rs type="waw">ᾕρεον</rs> ἀπο γὰρ τοῦ ερῶ περισπωμένου καὶ
                         δασυνομένου γέγονεν⁑</p>
                   </div>
-               </div>
+               </div><!--
                <div n="234" type="scholion">
                   <div type="lemma">
                      <p>ὑπέρμορα·</p>
@@ -1511,7 +1513,7 @@ style simple scholia" alternate="no"?>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:18.318</ref>
                         </cit>, οὕτως καὶ <rs type="waw">ὑπέρμορα</rs> νοστος ἐτύχθη⁑</p>
                   </div>
-               </div>
+               </div>-->
                <div n="235" type="scholion">
                   <div type="lemma">
                      <p>ἔνθα κεν Ἀργείοισι</p>
@@ -4032,7 +4034,7 @@ style simple scholia" alternate="no"?>
                         μεγεθύνεται δὲ τῇ ἀσπέτῳ ὕλῃ καὶ τῷ όρει ἔνθα καταιγίδες εἰσὶ καὶ τῆς
                         κορυφῆς δι'ὃ θαρρῶν ἐπάγει <q>ἔκαθεν δέ τε φαίνεται αὐγή</q>⁑</p>
                   </div>
-               </div>
+               </div><!--
                <div n="554" type="scholion">
                   <div type="lemma">
                      <p>αἴγλη παμφανόωσα·</p>
@@ -4044,7 +4046,7 @@ style simple scholia" alternate="no"?>
                      <p>ὅτι καθ <persName n="urn:cite:hmt:pers.pers17">Ὅμηρον</persName> πρῶτος ἀπο γῆς ἐστιν ὁ ἀηρ
                         εῖτα μετὰ τὰ νέφη αἰθηρ ὃν καὶ ὁμονύμως τῷ στερεμνίῳ οὐρανὸν καλεὶ⁑</p>
                   </div>
-               </div>
+               </div> -->
                <div n="555" type="scholion">
                   <div type="lemma">
                      <p>Ἀσίω ἐν λειμῶνι·</p>
@@ -9117,6 +9119,7 @@ style simple scholia" alternate="no"?>
                            n="urn:cite:hmt:place.place77">Αἰολικόν</placeName>·</p>
                   </div>
                </div>
+            	<!--
                <div n="341" type="scholion">
                   <div type="lemma">
                      <p/>
@@ -9128,6 +9131,7 @@ style simple scholia" alternate="no"?>
                      <p>ὁν κακῶς λεγει·</p>
                   </div>
                </div>
+            	-->
                <div n="394" type="scholion">
                   <div type="lemma">
                      <p>φολκὸς·</p>
@@ -11807,7 +11811,7 @@ style simple scholia" alternate="no"?>
                         </choice> εἱατ' ἐνι μεγαροις <w>ποτιδέγ<unclear reason="lost"
                               >μεναι</unclear></w></p>
                   </div>
-               </div>
+               </div><!--
                <div n="373" type="scholion">
                   <div type="lemma">
                      <p/>
@@ -11834,7 +11838,7 @@ style simple scholia" alternate="no"?>
                         </choice>
                      </p>
                   </div>
-               </div>
+               </div>-->
                <div n="466" type="scholion">
                   <div type="lemma">
                      <p/>
