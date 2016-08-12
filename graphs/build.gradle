@@ -24,23 +24,6 @@ import edu.harvard.chs.cite.*
 
 apply plugin: "base"
 
-/*
-task invttl() {
-  description = "Generates TTL statements about "
-  
-  doLast {
-    File tiFile = new File( "/Users/nsmith/repos/hmt-git/hmt-archive/testarchive/inventory.xml")
-    TextInventory inv = new TextInventory(tiFile)
-    CtsTtl ttler = new CtsTtl(inv)
-
-    File canOut = new File(buildDir, "can.txt")
-    StringBuilder sb = new StringBuilder()
-    sb.append( "From release version " + ttler.getRelease() + "\n")
-    sb.append( ttler.turtleizeInv())
-  }
-}
-*/
-
 task ctsttl(dependsOn : ":textmgr:ctstab") {
   description = "Generates TTL statements about text contents"
 
@@ -77,11 +60,6 @@ task imgttl(dependsOn: [":citebldr:cite"]) {
   outputs.file "${buildDir}/ttl/citeimgs.ttl"
   
   doLast {
-    File imageDir = new File("${buildDir}/images")
-    if (! imageDir.exists()) {
-      imageDir.mkdir()
-    }
-    
     File rdfDir = new File("${buildDir}/ttl")
     if (! rdfDir.exists()) {
       rdfDir.mkdir()
@@ -94,6 +72,8 @@ task imgttl(dependsOn: [":citebldr:cite"]) {
   }
 }
 imgttl.doFirst {
+  System.err.println "Turtleizing images from data in ${rootProject.rootDir}/citebldr/build/archive/images"
+  System.err.println "Results will be in ${buildDir}/ttl/citeimgs.ttl"
   if (! buildDir.exists()) {
     buildDir.mkdir()
   }

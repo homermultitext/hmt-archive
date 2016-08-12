@@ -55,7 +55,7 @@ task copyCollections (type: Copy, dependsOn: setUpBuild) {
     from ("${rootProject.projectDir}/archive/collections") {
       include ('README.md', 'inventory/hmtcollections.xml', '**/*.csv', '**/*.tsv')
     }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version, pyramids: pyramids] )
     into "${buildDir}/archive/collections"
 }
 
@@ -78,6 +78,9 @@ task compileScholiaCollection (type: JavaExec, dependsOn: setUpBuild) {
 
 task collections (dependsOn: [copyCollections, compileScholiaCollection]){
   description = "Compiles CITE Collection repository"
+}
+collections.doLast {
+  System.err.println "Collections archive built in ${buildDir}/archive/collections"
 }
 //////////////////////////////////////////////////////
 
@@ -103,7 +106,9 @@ task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
     inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
     outputs.file "${buildDir}/archive/indices/scholiaToIliad.tsv"
 }
-
+indexVenetusAScholia.doFirst {
+  System.err.println "Indexing Venetus A scholia from ${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+}
 
 
 
@@ -142,26 +147,17 @@ task images (type: Copy, dependsOn: [setUpBuild]) {
     from ("${rootProject.projectDir}/archive/images") {
       include ('README.md', '**/*.csv', '**/*.tsv')
     }
-    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString()] )
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), pyramids: pyramids] )
     into "${buildDir}/archive/images"
+}
+images.doFirst {
+  System.err.println "Creating image archive in ${buildDir}/archive/images"
 }
 
 //////////////////////////////////////////////////////
 
 
 
-/*
-class CiteTask extends DefaultTask {
-  @OutputDirectory
-  File citeArchive
-
-  @TaskAction
-  def msg() {
-    System.out.println "All CITE repositories compiled in build area."
-  }
-}
-*/
-//task cite(type: CiteTask, dependsOn: [collections, indices, images]) {
 task cite(dependsOn: [collections, indices, images]) {
   description = "Compile all CITE repositories"
   outputs.dir "${buildDir}/archive"

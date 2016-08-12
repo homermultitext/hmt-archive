@@ -374,7 +374,7 @@
     <citeCollection
         canonicalId="codex"
         label="description"
-        urn="urn:cite:hmt:codices">
+        urn="urn:cite:hmt:codices:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -418,7 +418,7 @@
     <citeCollection
         canonicalId="PageZone"
         label="Label"
-        urn="urn:cite:hmt:pageroi">
+        urn="urn:cite:hmt:pageroi:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -460,7 +460,7 @@
     <citeCollection
         canonicalId="IliadZone"
         label="IliadZone"
-        urn="urn:cite:hmt:textblock">
+        urn="urn:cite:hmt:textblock:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -505,7 +505,7 @@
     <citeCollection
         canonicalId="PageUrn"
         label="Label"
-        urn="urn:cite:hmt:msA">
+        urn="urn:cite:hmt:msA:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -550,7 +550,7 @@
     <citeCollection
         canonicalId="PageUrn"
         label="Label"
-        urn="urn:cite:hmt:e4">
+        urn="urn:cite:hmt:e4:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -595,7 +595,7 @@
     <citeCollection
         canonicalId="PageUrn"
         label="Label"
-        urn="urn:cite:hmt:e3">
+        urn="urn:cite:hmt:e3:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -645,7 +645,7 @@
     <citeCollection
         canonicalId="PageUrn"
         label="Label"
-        urn="urn:cite:hmt:u4">
+        urn="urn:cite:hmt:u4:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -690,7 +690,7 @@
     <citeCollection
         canonicalId="PageUrn"
         label="Label"
-        urn="urn:cite:hmt:msB">
+        urn="urn:cite:hmt:msB:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -734,7 +734,7 @@
     <citeCollection
         canonicalId="page"
         label="label"
-        urn="urn:cite:hmt:comp">
+        urn="urn:cite:hmt:comp:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -785,7 +785,7 @@
     <citeCollection
         canonicalId="Page"
         label="Pabel"
-        urn="urn:cite:hmt:muncg88">
+        urn="urn:cite:hmt:muncg88:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1047,7 +1047,7 @@
     <citeCollection
         canonicalId="Graphic"
         label="Caption"
-        urn="urn:cite:hmt:vagraphics">
+        urn="urn:cite:hmt:vagraphics:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1076,7 +1076,7 @@
     <citeCollection
         canonicalId="Graphic"
         label="Caption"
-        urn="urn:cite:hmt:vagraphics">
+        urn="urn:cite:hmt:vagraphics:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1108,7 +1108,7 @@
     <citeCollection
         canonicalId="SignURN"
         label="EnglishName"
-        urn="urn:cite:hmt:critsigns">
+        urn="urn:cite:hmt:critsigns:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1145,7 +1145,7 @@
     <citeCollection
         canonicalId="Caption"
         label="Label"
-        urn="urn:cite:hmt:captions">
+        urn="urn:cite:hmt:captions:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1195,7 +1195,7 @@
     <citeCollection
         canonicalId="Entry"
         label="Label"
-        urn="urn:cite:hmt:catships">
+        urn="urn:cite:hmt:catships:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1240,7 +1240,7 @@
     <citeCollection
         canonicalId="OccurrrenceUrn"
         label="OccurrrenceUrn"
-        urn="urn:cite:hmt:venAsign">
+        urn="urn:cite:hmt:venAsign:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1275,7 +1275,7 @@
     <citeCollection
         canonicalId="StatusUrn"
         label="Meaning"
-        urn="urn:cite:hmt:edstatus">
+        urn="urn:cite:hmt:edstatus:">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
@@ -1303,7 +1303,7 @@
     <citeCollection
         canonicalId="OccurrrenceUrn"
         label="CriticalSign"
-        urn="urn:cite:hmt:proclusSign">
+        urn="urn:cite:hmt:proclusSign:">
         <namespaceMapping
             abbr="perseusGreek"
             fullValue="http://data.perseus.org/ns/collections"/>
