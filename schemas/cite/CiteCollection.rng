@@ -17,14 +17,9 @@
             <attribute
                 name="type"><value>ctsurn</value></attribute>
             <optional>
-                <attribute
-                    name="join">
-                    <choice>
-                        <value>naturaljoin</value>
-                    </choice>
-                </attribute>
+                <attribute name="universalValue"></attribute>
             </optional>
-            <optional>
+        <optional>
                 <element
                     name="cite:indexRelation">
                     <attribute
@@ -47,12 +42,7 @@
             <attribute
                 name="type"><value>citeurn</value></attribute>
             <optional>
-                <attribute
-                    name="join">
-                    <choice>
-                        <value>naturaljoin</value>
-                    </choice>
-                </attribute>
+                <attribute name="universalValue"></attribute>
             </optional>
             <optional>
                 <element
@@ -78,6 +68,9 @@
                 <ref
                     name="citedatachoice"/>
             </attribute>
+            <optional>
+                <attribute name="universalValue"></attribute>
+            </optional>
             <optional>
                 <element
                     name="cite:valueList">
@@ -111,8 +104,8 @@
             <value>number</value>
             <value>boolean</value>
             <value>markdown</value>
-            <!-- <value>citeurn</value>
-            <value>ctsurn</value> -->
+            <value>citeimg</value>
+            
         </choice>
     </define>
     <define
@@ -182,22 +175,18 @@
                 <attribute
                     name="abbr"/>
                 <attribute
-                    name="fullValue"/>
+                    name="uri"/>
                 <empty/>
             </element>
-            <optional>
-            <oneOrMore>
-            <element name="cite:extension">
-            <attribute name="name">
-                <data
-                    type="string">
-                    <param
-                        name="pattern">.+</param>
-                </data>
-            </attribute>
-            </element>
-            </oneOrMore>
-            </optional>
+            
+            <zeroOrMore>
+                <element
+                    name="cite:extendedBy">
+                    <attribute
+                        name="extension"/>
+                </element>
+            </zeroOrMore>
+            
             <ref
                 name="metadata"/>
             <optional>
@@ -209,9 +198,12 @@
                 </element>
             </optional>
             <optional>
+                <oneOrMore>
                 <externalRef
                     href="src.rng"/>
+                </oneOrMore>
             </optional>
+            <ref name="citeProperty"/>
             <oneOrMore>
                 <choice>
                     <ref
@@ -220,41 +212,7 @@
                     <ref name="citeProperty"/>
                 </choice>
             </oneOrMore>
-            <zeroOrMore>
-                <element
-                    name="cite:extendedBy">
-                    <attribute
-                        name="abbr"/>
-                    <attribute
-                        name="uri"/>
-                    <attribute
-                        name="extendedCitation">
-                        <choice>
-                            <value>true</value>
-                            <value>false</value>
-                        </choice>
-                    </attribute>
-                    <oneOrMore>
-                        <element
-                            name="cite:request">
-                            <attribute
-                                name="name"/>
-                            <zeroOrMore>
-                                <element
-                                    name="cite:parameter">
-                                    <attribute
-                                        name="name"/>
-                                    <attribute
-                                        name="type">
-                                        <ref
-                                            name="citedatachoice"/>
-                                    </attribute>
-                                </element>
-                            </zeroOrMore>
-                        </element>
-                    </oneOrMore>
-                </element>
-            </zeroOrMore>
+            
         </element>
     </start>
 </grammar>

@@ -8,15 +8,29 @@
     <start>
         <element
             name="cite:collectionService">
-            <zeroOrMore>
+            <attribute name="version">
+                <choice>
+                    <value>1.0</value>
+                </choice>
+            </attribute>
+            <optional>
                 <element
-                    name="cite:extensionImplementation">
-                    <attribute
-                        name="abbr"/>
-                    <attribute
-                        name="rdfType"/>
+                    name="cite:extensions">
+                   <oneOrMore>
+                        <element
+                            name="cite:extension">
+                        
+                            
+                            <attribute
+                                name="abbr"/>
+                            <attribute name="uri"/>
+                            
+                           
+                          
+                        </element>
+                    </oneOrMore>
                 </element>
-            </zeroOrMore>
+            </optional>
             <oneOrMore>
                 <externalRef
                     href="CiteCollection.rng"/>
