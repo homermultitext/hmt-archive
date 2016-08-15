@@ -86,9 +86,9 @@ imgttl.doFirst {
 task ccttl(dependsOn: [":citebldr:cite"]) {
   description = "Generates RDF for Collections configured for prestochango"
 
-  inputs.file "${rootProject.rootDir}/schemas/cite/CiteCollectionInventory.rng"
+  //inputs.file "${rootProject.rootDir}/schemas/cite/CiteCollectionInventory.rng"
   inputs.file "${rootProject.rootDir}/citebldr/build/archive/collections/inventory/hmtcollections.xml"
-  inputs.dir "${rootProject.rootDir}/citebldr/build/archive/collections"  
+  //inputs.dir "${rootProject.rootDir}/citebldr/build/archive/collections"  
   outputs.dir "${buildDir}/ttl/collections"
   
   doLast {  
