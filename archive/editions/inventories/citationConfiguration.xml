@@ -113,6 +113,7 @@
 		</citationMapping>
 	</online>
 
+<!--
 	<online type="xml" urn="urn:cts:greekLit:tlg5026.msAimlater.hmt:"
 		docname="VenetusA/VenetusA-Scholia-msAimLater.xml">
 		<namespaceMapping
@@ -130,7 +131,7 @@
 			</citation>
 		</citationMapping>
 	</online>
-
+-->
 	<online urn="urn:cts:greekLit:tlg5026.msAint.hmt:" type="xml"
 		docname="VenetusA/VenetusA-Scholia-msAint.xml">
 		<namespaceMapping
@@ -149,6 +150,7 @@
 		</citationMapping>
 	</online>
 
+<!--
 	<online type="xml" urn="urn:cts:greekLit:tlg5026.msALater.hmt:"
 		docname="VenetusA/VenetusA-Scholia-msALater.xml">
 		<namespaceMapping
@@ -166,4 +168,6 @@
 			</citation>
 		</citationMapping>
 	</online>
+-->
+
 </CitationConfiguration>
