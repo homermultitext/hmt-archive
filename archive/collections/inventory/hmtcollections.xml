@@ -724,6 +724,7 @@
 			name="Label"
 			type="string"/>
 	</citeCollection>
+
 	<citeCollection
 		canonicalId="page"
 		label="label"
@@ -1033,8 +1034,12 @@
     </citeCollection>
 -->
 	<!-- END ANALYTICAL COLLECTIONS ************************************************* ********************   -->
-	<!-- FEATURES SPECIFIC TO VENETUS A ************************************************* ********************   -->
+	<!-- FEATURES SPECIFIC TO VENETUS A
+	     *************************************************
+	     ********************   -->
+
 	<citeCollection
+
 		canonicalId="Graphic"
 		label="Caption"
 		urn="urn:cite:hmt:vagraphics">
@@ -1049,7 +1054,7 @@
 			http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
 		<source
 			type="file"
-			value="venetusA/comparettigraphics.csv"/>
+			value="venetusA/venAgraphics.csv"/>
 		<citeProperty
 			label="URN"
 			name="Graphic"
@@ -1228,8 +1233,8 @@
 			type="citeurn"/>
 	</citeCollection>
 	<citeCollection
-		canonicalId="OccurrrenceUrn"
-		label="OccurrrenceUrn"
+		canonicalId="OccurrenceUrn"
+		label="OccurrenceUrn"
 		urn="urn:cite:hmt:venAsign">
 		<namespaceMapping
 			abbr="hmt"
@@ -1247,7 +1252,7 @@
 			value="venetusA/venAsigns.tsv"/>
 		<citeProperty
 			label="URN"
-			name="OccurrrenceUrn"
+			name="OccurrenceUrn"
 			type="citeurn"/>
 		<citeProperty
 			label="Sequence"
@@ -1290,8 +1295,9 @@
 			name="Tier"
 			type="number"/>
 	</citeCollection>
+
 	<citeCollection
-		canonicalId="OccurrrenceUrn"
+		canonicalId="OccurrenceUrn"
 		label="CriticalSign"
 		urn="urn:cite:hmt:proclusSign">
 		<namespaceMapping
@@ -1310,7 +1316,7 @@
 			value="venetusA/proclusSigns.tsv"/>
 		<citeProperty
 			label="URN"
-			name="OccurrrenceUrn"
+			name="OccurrenceUrn"
 			type="citeurn"/>
 		<citeProperty
 			label="Sequence"
@@ -1328,7 +1334,8 @@
 			label="Region of image"
 			name="ImageRoI"
 			type="citeurn"/>
-	</citeCollection>
+			</citeCollection>
+
 	<!-- Add similes collection -->
 	<!-- END FEATURES SPECIFIC TO VENETUS A ************************************************* ********************   -->
 </collectionService>
