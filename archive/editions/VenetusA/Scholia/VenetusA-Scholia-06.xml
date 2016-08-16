@@ -1991,7 +1991,7 @@
                     </div>
                 </body>
             </text>
-            <!--
+            
         	<text n="msAext">
                 <body>
                     <div ana="unknown" type="scholion" n="294">
@@ -1999,7 +1999,7 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p>82v</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.120</p>
                         </div>
                         <div type="comment">
                             <p>ἀμφατέρων</p>
@@ -2010,7 +2010,7 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p>84r</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.187</p>
                         </div>
                         <div type="comment">
                             <p>δόλον</p>
@@ -2022,7 +2022,7 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p>85r</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.246</p>
                         </div>
                         <div type="comment">
                             <p>σίοι</p>
@@ -2033,7 +2033,7 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p>86r</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.285</p>
                         </div>
                         <div type="comment">
                             <p>ἄτερπου</p>
@@ -2044,7 +2044,7 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p>89r</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.445</p>
                         </div>
                         <div type="comment">
                             <p>οὐδεσμε</p>
@@ -2055,7 +2055,7 @@
                             <p></p>
                         </div>
                         <div type="ref">
-                            <p>89v</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.479</p>
                         </div>
                         <div type="comment">
                             <p>εβίην θόντε</p>
@@ -2073,7 +2073,7 @@
                         </div>
                     </div>   
                </body>
-            </text>  -->
+            </text>  
             <text n="msA">
                 <body>
                     <div ana="1a" type="scholion" n="1">
