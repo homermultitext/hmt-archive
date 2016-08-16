@@ -282,6 +282,7 @@ task msAilScholia (type: JavaExec, dependsOn: [msAilHeader, venAReadme, compileG
 
 // Venetus A, later scholia
 
+/*
 task msALaterHeader(type: Copy) {
     description = "Compiles TEI header to reuse in composite edition of Ven A scholia in later hand"
     outputs.files "${buildDir}/headers/VenetusA/VenetusA-Scholia-msALater.xml"
@@ -334,7 +335,7 @@ task msAimLaterScholia (type: JavaExec, dependsOn: [msAimLaterHeader, venAReadme
     inputs.file "${buildDir}/headers/VenetusA/VenetusA-Scholia-msAimLater`.xml"
     outputs.dir "${buildDir}/${compositeDir}/VenetusA"
 }
-
+*/
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -354,7 +355,8 @@ task furmanEditions (type: Copy) {
 }
 
 
-task venetusA(dependsOn: [venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, venAOther])  {
+//task venetusA(dependsOn: [venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimLaterScholia, msAimScholia, msAintScholia, msALaterScholia, venAOther])  {
+task venetusA(dependsOn: [venAIliad, venAReadme, msAScholia, msAextScholia, msAilScholia, msAimScholia, msAintScholia, venAOther])  {
   description = "Assembles all Venetus A texts"
   outputs.dir "${buildDir}/${compositeDir}"
 }

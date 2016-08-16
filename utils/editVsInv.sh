@@ -4,7 +4,7 @@ cut -f2 -d, citebldr/build/archive/collections/scholiaInventory.csv | sort > inv
 
 echo "Extracting list of edited scholia..."
 
-cut -f1 -d" " graphs/build/ttl/cts.ttl | grep 5026 | grep -v ater | perl -pe 's/[<>]//g' - | sort > edited.txt
+cut -f1 -d" " graphs/build/ttl/cts.ttl | grep 5026 | grep -v ater | perl -pe 's/[<>]//g' - | sort | uniq > edited.txt
 
 echo "Diffing..."
 
