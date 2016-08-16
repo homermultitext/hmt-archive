@@ -42,6 +42,7 @@ ctstab.doFirst() {
   if (! tabs.exists()) {
     tabs.mkdir()
   }
-  println "Beginning to tabulate texts..."
+  println "Beginning to tabulate texts."
+  println "(This can take a while.)"
 }
 
