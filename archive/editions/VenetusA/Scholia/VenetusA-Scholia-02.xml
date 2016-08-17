@@ -290,7 +290,7 @@ style simple scholia" alternate="no"?>
                      <p>ἀμφὶς φράζονται·</p>
                   </div>
                   <div type="ref">
-                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-1.14</p>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.13-2.14</p>
                   </div>
                   <div type="comment">
                      <p>διχογνωμοῦσι περι τῆς <placeName n="urn:cite:hmt:place.place6">Ἰλίου</placeName> τοῦτέστιν
@@ -339,20 +339,20 @@ style simple scholia" alternate="no"?>
                         αὐτὸν μέλλει·</p>
                   </div>
                </div>
-            	<!--
+            	
                <div n="25" type="scholion">
                   <div type="lemma">
                      <p>ὁς σεῦ·</p>
                   </div>
                   <div type="ref">
-                     <p/>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.36</p>
                   </div>
                   <div type="comment">
                      <p>ορθοτονητέον τὴν <rs type="waw">σεῦ</rs> ἀντιδιέσταλται γὰρ πρὸς τὸν
                            <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλέα</persName> ὅτι πρόκειται τοῦ ῥήματος ἡ
                         ἀντωνυμία⁑ </p>
                   </div>
-               </div>-->
+               </div>
                <div n="54" type="scholion">
                   <div type="lemma">
                      <p>Τὰ φρονέοντ' ἀναθυμον·</p>
