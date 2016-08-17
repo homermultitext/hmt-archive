@@ -232,10 +232,6 @@ task msAextHeader(type: Copy) {
     }
 }
 
-msAextHeader.doLast {
-  println "Yo, that was msAextHeader you just ran."
-}
-
 // Venetus A, exterior scholia
 task msAextScholia(type: JavaExec, dependsOn: [msAextHeader, venAReadme, compileGroovy]) {
     description = "Compiles and validates complete edition of Venetus A exterior scholia"

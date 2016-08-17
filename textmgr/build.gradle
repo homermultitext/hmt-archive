@@ -7,10 +7,12 @@ buildscript {
   }
   dependencies {
     classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: versionMap['hocuspocus']
+    classpath group: 'org.homermultitext', name : 'hmt-utils' , version: versionMap['hmtutils']
   }
 }
 
 import edu.holycross.shot.hocuspocus.Corpus
+import org.homermultitext.utils.HmtEditorialTokenization
 
 apply plugin: "base"
 
@@ -46,3 +48,40 @@ ctstab.doFirst() {
   println "(This can take a while.)"
 }
 
+task editorialTokens(dependsOn: ctstab) {
+   outputs.dir "${buildDir}/tokens"
+   inputs.dir "${buildDir}/tabs"
+}
+
+editorialTokens.doFirst() {
+  if (! buildDir.exists()) {
+    buildDir.mkdir()
+  }
+  File tokens = new File(buildDir, "tokens")
+  if (! tokens.exists()) {
+    tokens.mkdir()
+  }
+
+}
+editorialTokens.doLast {
+  println "Editorial tokenization is in ${buildDir}/tokens/editorialtokens.txt"
+  println "Beginning to tokenize texts."
+  println "(This can take a while.)"
+  HmtEditorialTokenization toker = new HmtEditorialTokenization()
+  File tokensDir = new File(buildDir,"tokens")
+  File edTokens = new File(tokensDir,"editorial.tsv")
+  //  tokenize each file in tabulation directory:
+  File tabsDir = new File(buildDir,"tabs")
+  tabsDir.eachFileMatch(~/.*.txt/) { f ->
+    println "Tokenizing " + f + "..."
+    def allTokens = toker.tokenizeTabFile(f,"#")
+    allTokens.each { pair ->
+      edTokens.append(pair[0] + "\t" + pair[1] + "\n")
+    }
+   }
+  
+}
+
+task tokenize(dependsOn: [editorialTokens]) {
+  description "Generate multiple tokenizations of all HMT editions"
+}
