@@ -3569,32 +3569,32 @@
               <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.121</p>
             </div>
             <div type="comment">
-              <p>ὅτι κατὰ τὴν ἡμετέραν χρῆσιν νῦν το <rs type="waw">ευχόμενος</rs>⁑</p>
+              <p>ὅτι κατὰ τὴν ἡμετέραν χρῆσιν νῦν το <q>ευχόμενος</q>⁑</p>
             </div>
-          </div><!--
+          </div>
           <div ana="132a1" n="6038" type="scholion">
             <div type="lemma"/>
             <div type="ref">
-              <p/>
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.132</p>
             </div>
             <div type="comment">
-              <p><choice>
+              <p><persName n="urn:cite:hmt:pers.pers15"><choice>
                   <abbr>Ζηνοδ</abbr>
-                  <expan><persName n="urn:cite:hmt:pers.pers15">Ζηνοδοτος</persName></expan>
-                </choice>
+                  <expan>Ζηνοδοτος</expan>
+                </choice></persName>
                 <q>τὴν οὔτασαι</q>⁑</p>
             </div>
-          </div> -->
+          </div> 
           <div ana="132a2" n="6039" type="scholion">
             <div type="lemma"/>
             <div type="ref">
               <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.132</p>
             </div>
             <div type="comment">
-              <p>διχῶς <choice>
+              <p>διχῶς <persName n="urn:cite:hmt:pers.pers16"><choice>
                   <abbr>Ἀριστ</abbr>
-                  <expan><persName n="urn:cite:hmt:pers.pers16">Ἀρισταρχος</persName></expan>
-                </choice> καὶ οὕτως καὶ <choice>
+                  <expan>Ἀρισταρχος</expan>
+              </choice></persName> καὶ οὕτως καὶ <choice>
                   <abbr>χω</abbr>
                   <expan>χωρὶς</expan>
                 </choice> τοῦ γε <q>τὴν οὐταμεν</q>⁑</p>
