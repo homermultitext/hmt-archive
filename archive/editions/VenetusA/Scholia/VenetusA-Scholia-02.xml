@@ -284,21 +284,21 @@ style simple scholia" alternate="no"?>
                         </cit>⁑ </p>
                   </div>
                </div>
-            	<!--
+            	
                <div n="21" type="scholion">
                   <div type="lemma">
                      <p>ἀμφὶς φράζονται·</p>
                   </div>
                   <div type="ref">
-                     <p/>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.13-1.14</p>
                   </div>
                   <div type="comment">
-                     <p>διχογνωμοῦσι περι τῆσ <placeName n="urn:cite:hmt:place.place6">Ἰλίου</placeName> τοῦτέστιν
+                     <p>διχογνωμοῦσι περι τῆς <placeName n="urn:cite:hmt:place.place6">Ἰλίου</placeName> τοῦτέστιν
                         οὐκέτ γὰρ οἱ τὸν <placeName n="urn:cite:hmt:place.place45">Ὅλυμπον</placeName> κατοικοῦντες
                         θεοὶ διάφορα φρονοῦσιν οἱ μὲν τὰ ὑπερ <rs type="ethnic" n="urn:cite:hmt:place.place6"
                            >Τρώων</rs> οἱ δὲ τὰ ὑπερ <rs type="ethnic" n="urn:cite:hmt:place.place3">Ἑλλήνων</rs>⁑</p>
                   </div>
-               </div>-->
+               </div>
                <div n="22" type="scholion">
                   <div type="lemma">
                      <p>εὔδεις <persName n="urn:cite:hmt:pers.pers23">Ἀτρέως</persName> υἱὲ·</p>
