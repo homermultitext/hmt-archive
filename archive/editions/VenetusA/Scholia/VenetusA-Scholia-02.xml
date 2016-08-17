@@ -1490,13 +1490,13 @@ style simple scholia" alternate="no"?>
                      <p>δασυντέον τὸ <rs type="waw">ᾕρεον</rs> ἀπο γὰρ τοῦ ερῶ περισπωμένου καὶ
                         δασυνομένου γέγονεν⁑</p>
                   </div>
-               </div><!--
+               </div>
                <div n="234" type="scholion">
                   <div type="lemma">
                      <p>ὑπέρμορα·</p>
                   </div>
                   <div type="ref">
-                     <p/>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.155</p>
                   </div>
                   <div type="comment">
                      <p>οὕτως ὑφ' ἓν τὸ <rs type="waw">ὑπέρμορα</rs> οὐ γὰρ ὥς τινες κατα διάστασιν
@@ -1513,7 +1513,7 @@ style simple scholia" alternate="no"?>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:18.318</ref>
                         </cit>, οὕτως καὶ <rs type="waw">ὑπέρμορα</rs> νοστος ἐτύχθη⁑</p>
                   </div>
-               </div>-->
+               </div>
                <div n="235" type="scholion">
                   <div type="lemma">
                      <p>ἔνθα κεν Ἀργείοισι</p>
