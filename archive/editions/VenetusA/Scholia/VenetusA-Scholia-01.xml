@@ -10438,16 +10438,16 @@ style simple scholia" alternate="no"?>
                      <div type="comment">
                         <p>προπέμπει</p>
                      </div>
-                  </div><!--
+                  </div>
                   <div n="955" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
-                        <p><persName n="urn:cite:hmt:pers.pers158">Πατροκλε</persName></p>
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.337</p>
                      </div>
                      <div type="comment">
-                        <p/>
+                        <p><persName n="urn:cite:hmt:pers.pers158">Πατροκλε</persName></p>
                      </div>
-                  </div>-->
+                  </div>
                   <div n="956" type="scholion">
                      <div type="lemma"/>
                      <div type="ref">
