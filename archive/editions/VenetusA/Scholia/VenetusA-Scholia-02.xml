@@ -284,21 +284,21 @@ style simple scholia" alternate="no"?>
                         </cit>⁑ </p>
                   </div>
                </div>
-            	<!--
+            	
                <div n="21" type="scholion">
                   <div type="lemma">
                      <p>ἀμφὶς φράζονται·</p>
                   </div>
                   <div type="ref">
-                     <p/>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.13-2.14</p>
                   </div>
                   <div type="comment">
-                     <p>διχογνωμοῦσι περι τῆσ <placeName n="urn:cite:hmt:place.place6">Ἰλίου</placeName> τοῦτέστιν
+                     <p>διχογνωμοῦσι περι τῆς <placeName n="urn:cite:hmt:place.place6">Ἰλίου</placeName> τοῦτέστιν
                         οὐκέτ γὰρ οἱ τὸν <placeName n="urn:cite:hmt:place.place45">Ὅλυμπον</placeName> κατοικοῦντες
                         θεοὶ διάφορα φρονοῦσιν οἱ μὲν τὰ ὑπερ <rs type="ethnic" n="urn:cite:hmt:place.place6"
                            >Τρώων</rs> οἱ δὲ τὰ ὑπερ <rs type="ethnic" n="urn:cite:hmt:place.place3">Ἑλλήνων</rs>⁑</p>
                   </div>
-               </div>-->
+               </div>
                <div n="22" type="scholion">
                   <div type="lemma">
                      <p>εὔδεις <persName n="urn:cite:hmt:pers.pers23">Ἀτρέως</persName> υἱὲ·</p>
@@ -339,20 +339,20 @@ style simple scholia" alternate="no"?>
                         αὐτὸν μέλλει·</p>
                   </div>
                </div>
-            	<!--
+            	
                <div n="25" type="scholion">
                   <div type="lemma">
                      <p>ὁς σεῦ·</p>
                   </div>
                   <div type="ref">
-                     <p/>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.36</p>
                   </div>
                   <div type="comment">
                      <p>ορθοτονητέον τὴν <rs type="waw">σεῦ</rs> ἀντιδιέσταλται γὰρ πρὸς τὸν
                            <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλέα</persName> ὅτι πρόκειται τοῦ ῥήματος ἡ
                         ἀντωνυμία⁑ </p>
                   </div>
-               </div>-->
+               </div>
                <div n="54" type="scholion">
                   <div type="lemma">
                      <p>Τὰ φρονέοντ' ἀναθυμον·</p>
@@ -1490,13 +1490,13 @@ style simple scholia" alternate="no"?>
                      <p>δασυντέον τὸ <rs type="waw">ᾕρεον</rs> ἀπο γὰρ τοῦ ερῶ περισπωμένου καὶ
                         δασυνομένου γέγονεν⁑</p>
                   </div>
-               </div><!--
+               </div>
                <div n="234" type="scholion">
                   <div type="lemma">
                      <p>ὑπέρμορα·</p>
                   </div>
                   <div type="ref">
-                     <p/>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.155</p>
                   </div>
                   <div type="comment">
                      <p>οὕτως ὑφ' ἓν τὸ <rs type="waw">ὑπέρμορα</rs> οὐ γὰρ ὥς τινες κατα διάστασιν
@@ -1513,7 +1513,7 @@ style simple scholia" alternate="no"?>
                            <ref>urn:cts:greekLit:tlg0012.tlg001:18.318</ref>
                         </cit>, οὕτως καὶ <rs type="waw">ὑπέρμορα</rs> νοστος ἐτύχθη⁑</p>
                   </div>
-               </div>-->
+               </div>
                <div n="235" type="scholion">
                   <div type="lemma">
                      <p>ἔνθα κεν Ἀργείοισι</p>
@@ -4034,19 +4034,19 @@ style simple scholia" alternate="no"?>
                         μεγεθύνεται δὲ τῇ ἀσπέτῳ ὕλῃ καὶ τῷ όρει ἔνθα καταιγίδες εἰσὶ καὶ τῆς
                         κορυφῆς δι'ὃ θαρρῶν ἐπάγει <q>ἔκαθεν δέ τε φαίνεται αὐγή</q>⁑</p>
                   </div>
-               </div><!--
+               </div>
                <div n="554" type="scholion">
                   <div type="lemma">
                      <p>αἴγλη παμφανόωσα·</p>
                   </div>
                   <div type="ref">
-                     <p>4.458</p>
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.458</p>
                   </div>
                   <div type="comment">
                      <p>ὅτι καθ <persName n="urn:cite:hmt:pers.pers17">Ὅμηρον</persName> πρῶτος ἀπο γῆς ἐστιν ὁ ἀηρ
                         εῖτα μετὰ τὰ νέφη αἰθηρ ὃν καὶ ὁμονύμως τῷ στερεμνίῳ οὐρανὸν καλεὶ⁑</p>
                   </div>
-               </div> -->
+               </div> 
                <div n="555" type="scholion">
                   <div type="lemma">
                      <p>Ἀσίω ἐν λειμῶνι·</p>

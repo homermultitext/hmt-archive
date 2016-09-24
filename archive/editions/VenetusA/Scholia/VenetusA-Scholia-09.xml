@@ -7482,6 +7482,17 @@ style simple scholia" alternate="no"?>
                      <p>γράφεται <q>διήκει</q></p>
                   </div>
                </div>
+               <div n="681" type="scholion">
+                  <div type="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.13</p>
+                  </div>
+                  <div type="comment">
+                     <p>δάκ</p>
+                  </div>
+               </div>
                <div n="694" type="scholion">
                   <div type="lemma">
                      <p/>
@@ -9910,17 +9921,7 @@ style simple scholia" alternate="no"?>
                      <p>τὴν ἀνάπαυσιν ⁑</p>
                   </div>
                </div>
-               <div n="681" type="scholion">
-                  <div type="lemma">
-                     <p/>
-                  </div>
-                  <div type="ref">
-                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.13</p>
-                  </div>
-                  <div type="comment">
-                     <p>δάκ</p>
-                  </div>
-               </div>
+               
                <div n="684" type="scholion">
                   <div type="lemma">
                      <p/>

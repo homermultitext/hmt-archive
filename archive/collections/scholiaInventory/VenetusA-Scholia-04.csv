@@ -191,8 +191,6 @@ urn:cts:greekLit:tlg5026.msA.hmt:4.783,Main Scholion 2,"urn:cite:hmt:vaimg.VA062
 urn:cts:greekLit:tlg5026.msAint.hmt:4.791,51v.Aint 1,"urn:cite:hmt:vaimg.VA051VN_0553.v1@0.86366986,0.26569848,0.03260870,0.01479945",urn:cite:hmt:msA.51v
 urn:cts:greekLit:tlg5026.msAint.hmt:4.68,52r.Aint 1,"urn:cite:hmt:vaimg.VA052RN_0053.v1@0.09229919,0.39239281,0.05471629,0.04674965",urn:cite:hmt:msA.52r
 urn:cts:greekLit:tlg5026.msAint.hmt:4.165,53r.Aint 1,"urn:cite:hmt:vaimg.VA053RN_0054.v1@0.09966839,0.52531120,0.05987472,0.04177040",urn:cite:hmt:msA.53r
-urn:cts:greekLit:tlg5026.msAext.hmt:4.187,53r.Aextt 1,"urn:cite:hmt:vaimg.VA053RN_0054.v1@0.86864407,0.23236515,0.02210759,0.02157676",urn:cite:hmt:msA.53r
-urn:cts:greekLit:tlg5026.msAext.hmt:4.805,53r.Aint 2,"urn:cite:hmt:vaimg.VA053RN_0054.v1@0.84322034,0.65560166,0.03224024,0.01023513",urn:cite:hmt:msA.53r
 urn:cts:greekLit:tlg5026.msAint.hmt:4.235,54r.Aint 1,"urn:cite:hmt:vaimg.VA054RN_0055.v1@0.12030214,0.31023513,0.06540162,0.03084371",urn:cite:hmt:msA.54r
 urn:cts:greekLit:tlg5026.msAint.hmt:4.242,54r.Aint 2,"urn:cite:hmt:vaimg.VA054RN_0055.v1@0.11845984,0.35020747,0.06558585,0.05836791",urn:cite:hmt:msA.54r
 urn:cts:greekLit:tlg5026.msAint.hmt:4.260,54r.Aint 3,"urn:cite:hmt:vaimg.VA054RN_0055.v1@0.11201179,0.43305671,0.06853353,0.04052559",urn:cite:hmt:msA.54r
@@ -288,7 +286,7 @@ urn:cts:greekLit:tlg5026.msAil.hmt:4.823,55v.Ail 2,"urn:cite:hmt:vaimg.VA055VN_0
 urn:cts:greekLit:tlg5026.msAil.hmt:4.828,56r.Ail 1,"urn:cite:hmt:vaimg.VA056RN_0057.v1@0.29476787,0.36030429,0.13633014,0.01051176",urn:cite:hmt:msA.56r
 urn:cts:greekLit:tlg5026.msAil.hmt:4.829,56r.Ail 2,"urn:cite:hmt:vaimg.VA056RN_0057.v1@0.50000000,0.36473029,0.05195284,0.00663900",urn:cite:hmt:msA.56r
 urn:cts:greekLit:tlg5026.msAil.hmt:4.834,56v.Ail 1,"urn:cite:hmt:vaimg.VA056VN_0558.v1@0.71757553,0.50000000,0.03666175,0.00871369",urn:cite:hmt:msA.56v
-urn:cts:greekLit:tlg5026.msAil.hmt:4.835,56v. Ail 2,"urn:cite:hmt:vaimg.VA056VN_0558.v1@0.81245394,0.65062241,0.05913780,0.00746888",urn:cite:hmt:msA.56v
+urn:cts:greekLit:tlg5026.msAil.hmt:4.835,56v.Ail 2,"urn:cite:hmt:vaimg.VA056VN_0558.v1@0.81245394,0.65062241,0.05913780,0.00746888",urn:cite:hmt:msA.56v
 urn:cts:greekLit:tlg5026.msAil.hmt:4.837,57r.Ail 1,"urn:cite:hmt:vaimg.VA057RN_0058.v1@0.32792926,0.31078838,0.02560796,0.00788382",urn:cite:hmt:msA.57r
 urn:cts:greekLit:tlg5026.msAil.hmt:4.838,57r.Ail 2,"urn:cite:hmt:vaimg.VA057RN_0058.v1@0.50534267,0.53955740,0.01639646,0.00912863",urn:cite:hmt:msA.57r
 urn:cts:greekLit:tlg5026.msAil.hmt:4.839,57r.Ail 3,"urn:cite:hmt:vaimg.VA057RN_0058.v1@0.28684598,0.67012448,0.02726603,0.00774550",urn:cite:hmt:msA.57r
@@ -306,3 +304,9 @@ urn:cts:greekLit:tlg5026.msAext.hmt:4.865,59r.Aext 1,"urn:cite:hmt:vaimg.VA059RN
 urn:cts:greekLit:tlg5026.msAext.hmt:4.870,59v.Aext 1,"urn:cite:hmt:vaimg.VA059VN_0561.v1@0.10980103,0.28049793,0.06448047,0.01715076",urn:cite:hmt:msA.59v
 urn:cts:greekLit:tlg5026.msAext.hmt:4.871,59v.Aext 2,"urn:cite:hmt:vaimg.VA059VN_0561.v1@0.12748710,0.49446750,0.08179808,0.01645920",urn:cite:hmt:msA.59v
 urn:cts:greekLit:tlg5026.msAext.hmt:4.886,61v.Aext 1,"urn:cite:hmt:vaimg.VA061VN_0563.v1@0.14240973,0.32406639,0.04753132,0.01341632",urn:cite:hmt:msA.61v
+urn:cts:greekLit:tlg5026.msAint.hmt:4.805,interior scholion,"urn:cite:hmt:vaimg.VA053VN_0555.v1@0.841,0.6562,0.042,0.0143",urn:cite:hmt:msA.53v
+urn:cts:greekLit:tlg5026.msAint.hmt:4.187,interior scholion,"urn:cite:hmt:vaimg.VA053VN_0555.v1@0.864,0.232,0.032,0.0263",urn:cite:hmt:msA.53v
+urn:cts:greekLit:tlg5026.msAint.hmt:4.1001,interior scholion,"urn:cite:hmt:vaimg.VA056RN_0057.v1@0.159,0.2327,0.035,0.0218",urn:cite:hmt:msA.56r
+urn:cts:greekLit:tlg5026.msAil.hmt:4.1003,interlinear scholion,"urn:cite:hmt:vaimg.VA058RN_0059.v1@0.545,0.3138,0.023,0.0135",urn:cite:hmt:msA.58r
+urn:cts:greekLit:tlg5026.msAext.hmt:4.1002,exterior scholion,"urn:cite:hmt:vaimg.VA056VN_0558.v1@0.089,0.2335,0.075,0.0263",urn:cite:hmt:msA.56v
+urn:cts:greekLit:tlg5026.msA.hmt:4.1000,main scholion,"urn:cite:hmt:vaimg.VA055RN_0056.v1@0.147,0.7515,0.455,0.0285",urn:cite:hmt:msA.55r
