@@ -32,7 +32,7 @@ task ctsttl(dependsOn : ":textmgr:ctstab") {
   inputs.file "${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml"
   inputs.file "${rootProject.rootDir}/schemas/cts/Textinventory.rng"
   inputs.dir "${rootProject.rootDir}/ctsbldr/build/editions/archive"
-  
+
   doLast {
      if (! buildDir.exists()) {
        buildDir.mkdir()
@@ -41,7 +41,7 @@ task ctsttl(dependsOn : ":textmgr:ctstab") {
     if (! ttlDir.exists()) {
       ttlDir.mkdir()
     }
-    
+
     File inv =  new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/inventory.xml")
     File citeConf = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive/citationConfiguration.xml")
     File archiveDir = new File("${rootProject.rootDir}/ctsbldr/build/editions/archive")
@@ -60,13 +60,13 @@ task imgttl(dependsOn: [":citebldr:cite"]) {
   description = "Generates RDF for configured NYSI"
   inputs.dir "${rootProject.rootDir}/citebldr/build/archive/images}"
   outputs.file "${buildDir}/ttl/citeimgs.ttl"
-  
+
   doLast {
     File rdfDir = new File("${buildDir}/ttl")
     if (! rdfDir.exists()) {
       rdfDir.mkdir()
     }
-    File ttlFile = new File(rdfDir,"citeimgs.ttl")  
+    File ttlFile = new File(rdfDir,"citeimgs.ttl")
 
     ImgTurtleizer imgttl = new ImgTurtleizer("${rootProject.rootDir}/citebldr/build/archive/images")
     boolean prefix = project.hasProperty("prefix-all")
@@ -87,24 +87,27 @@ task ccttl(dependsOn: [":citebldr:cite"]) {
   description = "Generates RDF for Collections configured for prestochango"
 
   //inputs.file "${rootProject.rootDir}/schemas/cite/CiteCollectionInventory.rng"
-  inputs.file "${rootProject.rootDir}/citebldr/build/archive/collections/inventory/hmtcollections.xml"
-  //inputs.dir "${rootProject.rootDir}/citebldr/build/archive/collections"  
+  //inputs.file "${rootProject.rootDir}/citebldr/build/archive/collections/inventory/hmtcollections.xml"
+  //inputs.dir "${rootProject.rootDir}/citebldr/build/archive/collections"
   outputs.dir "${buildDir}/ttl/collections"
-  
-  doLast {  
+
+  doLast {
   File schemaFile = new File("${rootProject.rootDir}/schemas/cite/CiteCollectionInventory.rng")
   File invFile = new File("${rootProject.rootDir}/citebldr/build/archive/collections/inventory/hmtcollections.xml")
   File archiveDir = new File("${rootProject.rootDir}/citebldr/build/archive/collections")
-  
+
   File ttlDir = new File(buildDir, "ttl")
   if (! ttlDir.exists()) {
     ttlDir.mkdir()
   }
   File rdfFile = new File(ttlDir, "collections.ttl")
-  
+
   CollectionArchive cc = new CollectionArchive(invFile, schemaFile, archiveDir)
   boolean prefix = project.hasProperty("prefix-all")
-  cc.ttl(rdfFile, prefix)
+
+  //cc.ttl(rdfFile, prefix)
+  rdfFile.setText(cc.turtleizeArchive(), "UTF-8")
+
   }
 }
 
@@ -132,7 +135,7 @@ idxttl.doLast {
   }
   File outFile = new  File (ttlDir,"indices.ttl")
 
-  
+
   File inv = new File("${rootProject.rootDir}/citebldr/build/archive/indices/inventory/hmtindices.xml")
   File idxDir = new File("${rootProject.rootDir}/citebldr/build/archive/indices")
   CiteIndex idx = new CiteIndex(inv, idxDir)
@@ -152,24 +155,20 @@ ttl.doLast {
   File collectionsttl = new File("${buildDir}/ttl/collections.ttl")
   File idxttl = new File("${buildDir}/ttl/indices.ttl")
   File citeimgttl = new File("${buildDir}/ttl/citeimgs.ttl")
-  
+
   def srcFiles =  [ctsttl, collectionsttl, idxttl, citeimgttl]
-  
-  File ttl = new File("${buildDir}/ttl/all.ttl")        
+
+  File ttl = new File("${buildDir}/ttl/all.ttl")
   ttl.append( prefix )
 
   srcFiles.each {  f ->
     if (f.exists()) {
-      ttl.withWriterAppend(charEnc) {writer -> 
-	f.newReader(charEnc).eachLine {String line -> 
-	  writer << "\n${line}"         
-	} 
+      ttl.withWriterAppend(charEnc) {writer ->
+	f.newReader(charEnc).eachLine {String line ->
+	  writer << "\n${line}"
+	}
       }
     }
   }
   System.out.println "\nCompleted generating all TTL in ${buildDir}/ttl.\n"
 }
-
-
-
-

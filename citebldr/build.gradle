@@ -61,7 +61,7 @@ task copyCollections (type: Copy, dependsOn: setUpBuild) {
 
 task compileScholiaCollection (type: JavaExec, dependsOn: setUpBuild) {
     description="Generates CITE Collection of all scholia as a .tsv file."
-    
+
     main = "org.homermultitext.ScholiaCollectionCompiler"
     args = [
       "${rootProject.projectDir}/archive/collections/scholiaInventory",
@@ -90,21 +90,21 @@ collections.doLast {
 
 task indexVenetusAScholia (type: JavaExec, dependsOn: setUpBuild) {
     description="Generates tsv file relating scholia to Iliad passage commented on."
-    
+
     main = "org.homermultitext.ScholiaIndexer"
     args = [
       "${rootProject.projectDir}/${editionsDir}/${vaScholia}",
-      "${buildDir}/archive/indices",
-      "scholiaToIliad.tsv",
-      "urn:cts:greekLit:tlg0012.tlg001.msA:", 
-      "hmt" 
+      "${buildDir}/archive/indices/hmt",
+      "scholiaToIliad-venA.tsv",
+      "urn:cts:greekLit:tlg0012.tlg001.msA:",
+      "hmt"
     ]
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 
-    inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
-    outputs.file "${buildDir}/archive/indices/scholiaToIliad.tsv"
+    //inputs.dir "${rootProject.projectDir}/${editionsDir}/${vaScholia}"
+    //outputs.file "${buildDir}/archive/indices/hmt/scholiaToIliad-venA.tsv"
 }
 indexVenetusAScholia.doFirst {
   System.err.println "Indexing Venetus A scholia from ${rootProject.projectDir}/${editionsDir}/${vaScholia}"
