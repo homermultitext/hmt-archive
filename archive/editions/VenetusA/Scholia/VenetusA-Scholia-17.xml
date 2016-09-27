@@ -3437,7 +3437,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p/>
                         </div>
                         <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.25@ὅτε μ' ὤνατο</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.25@ὅτε-ὤνατο</p>
                         </div>
                         <div type="comment">
                             <p>ότε με ὕβρισεν:</p>
@@ -3459,7 +3459,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p/>
                         </div>
                         <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.55@πνοιαὶ δονέουσι</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.55@πνοιαὶ-δονέουσι</p>
                         </div>
                         <div type="comment">
                             <p>τοῦτο ἢν το ἀνεμοστρεφες</p>
@@ -3549,7 +3549,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p/>
                         </div>
                         <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.161@ἔλθοι τεθνῃὼς</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.161@ἔλθοι-τεθνῃὼς</p>
                         </div>
                         <div type="comment">
                             <p><choice>
@@ -3607,7 +3607,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p/>
                         </div>
                         <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.213@ἰ̈νδάλλετο δέ σφισι
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.213@ἰ̈νδάλλετο-σφισι
                                 πᾶσι</p>
                         </div>
                         <div type="comment">
@@ -3752,7 +3752,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p/>
                         </div>
                         <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.696@ἔσχετο φωνή</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.696@ἔσχετο-φωνή</p>
                         </div>
                         <div type="comment">
                             <p>επεσχέθη</p>
