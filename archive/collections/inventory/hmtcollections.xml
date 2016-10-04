@@ -34,7 +34,7 @@
     </citeCollection>
     
 
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vaimg">
+    <citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vaimg">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -61,7 +61,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vbimg">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vbimg">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -88,7 +88,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:e3img">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:e3img">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -115,7 +115,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:e3bifolio">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:e3bifolio">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -142,7 +142,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection> 
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:u4img">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:u4img">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -169,7 +169,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:vgf64img">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vgf64img">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -225,7 +225,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
 
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:bmpap114">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:bmpap114">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -252,7 +252,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:blpd">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:blpd">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -278,8 +278,8 @@
         <citeProperty name="Label" label="Caption" type="string"/>
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
-    
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:codbod85">
+    <!--
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:ecod:codbod85">
         <namespaceMapping
             abbr="ecod"
             uri="http://www.homermultitext.org/datans"/>
@@ -306,8 +306,8 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:hmt:compimg">
+    -->
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:compimg">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -335,7 +335,7 @@
     </citeCollection>
     
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:gen44">
+	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:ecod:gen44">
         <namespaceMapping
             abbr="ecod"
             uri="http://www.homermultitext.org/datans"/>
@@ -365,7 +365,7 @@
 	<!-- END IMAGE DATA ********************   -->
 	<!-- CODEX MODELS:  CODICES AND PAGE ZONES ********************   -->
 	
-	 
+	<!-- 
 	<citeCollection
 		canonicalId="codex"
 		label="description"
@@ -407,7 +407,7 @@
 			label="Century (approx.)"
 			name="century"
 			type="number"/>
-	</citeCollection>
+	</citeCollection> -->
 	
 	<citeCollection
 		canonicalId="PageZone"

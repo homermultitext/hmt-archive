@@ -14,13 +14,15 @@
         <source type="file" value="temp/scholiaToImage.csv"></source>
     </index>
 -->
-    <!-- BEGIN: Tracking editorial status by MS-->
+    <!-- BEGIN: Tracking editorial status by MS
    <index verb="hmt:editStatus" inverse="hmt:statusOf">
         <source type="file" value="thermometer/venetusA.csv"/>
     </index>
     <index verb="hmt:editStatus" inverse="hmt:statusOf">
         <source type="file" value="thermometer/ups-1-1.csv"/>
     </index>
+    -->
+	
     <!-- END: Tracking editorial status -->
     
 

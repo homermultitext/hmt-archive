@@ -89,7 +89,7 @@ task ccttl(dependsOn: [":citebldr:cite"]) {
   //inputs.file "${rootProject.rootDir}/schemas/cite/CiteCollectionInventory.rng"
   //inputs.file "${rootProject.rootDir}/citebldr/build/archive/collections/inventory/hmtcollections.xml"
   //inputs.dir "${rootProject.rootDir}/citebldr/build/archive/collections"
-  outputs.dir "${buildDir}/ttl/collections"
+  //outputs.dir "${buildDir}/ttl/collections"
 
   doLast {
   File schemaFile = new File("${rootProject.rootDir}/schemas/cite/CiteCollectionInventory.rng")
