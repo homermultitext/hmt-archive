@@ -10,7 +10,7 @@
 
     <citeCollection canonicalId="URN" label="Caption" urn="urn:cite:hmt:capimgs">
     	<namespaceMapping abbr="hmt" uri="http://www.homermultitext.org/datans"/>
-        <extendedBy extension="image"/>
+    	<extendedBy extension="cite:CiteImage"/>
         <title
             xmlns="http://purl.org/dc/elements/1.1/">Images of Capitoline Tabula</title>
         <creator
