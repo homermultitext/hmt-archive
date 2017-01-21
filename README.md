@@ -12,4 +12,4 @@ To build a complete RDF graph of the archive:
 2. `gradle graph:ccttl` (builds `graphs/build/ttl/collections.ttl`)
 3. `gradle graph:imgttl` (builds `graphs/build/ttl/citeimgs.ttl`)
 4. `gradle graph:idxttl` (builds `graphs/build/ttl/indices.ttl`)
-5. `gradle graph:graphttl` (builds `graphs/build/ttl/all.ttl`)
+5. `gradle graph:ttl` (builds `graphs/build/ttl/all.ttl`)
