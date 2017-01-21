@@ -18,15 +18,15 @@
       <edition urn="urn:cts:greekLit:4036scholia.chrest.venA:">
         <label xml:lang="eng">Edition of the Venetus A manuscript</label>
         <online docname="VenetusA/VenetusA-Proclus-Scholia.xml">
-          
+
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
-            
+
               <citation label="scholion" scope="/tei:TEI/tei:text/tei:body"
                 xpath="/tei:div[@n = '?']"/>
           </citationMapping>
         </online>
-   
+
       </edition>
     </work>
   </textgroup>
@@ -62,7 +62,7 @@
         <label xml:lang="eng"> Venetus B </label>
         <description xml:lang="eng"> Iliad text of the Venetus B manuscript (Marciana 453 = 821). </description>
         <online docname="VenetusB/VenetusB-Iliad.xml">
-          
+
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
             <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
@@ -71,7 +71,7 @@
             </citation>
           </citationMapping>
         </online>
-        
+
       </edition>-->
      <!-- <edition
         urn="urn:cts:greekLit:tlg0012.tlg001.e3">
@@ -103,7 +103,7 @@
         <label xml:lang="eng"> Escorial Ω 1.12 </label>
         <description xml:lang="eng"> Iliad text of Escorial manuscript  Ω 1.12 (513 = Allen E4). </description>
         <online docname="Esc-Omega-1-12/Esc-Omega-1-12-Iliad.xml">
-          
+
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
             <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
@@ -112,24 +112,70 @@
             </citation>
           </citationMapping>
         </online>
-        
+
       </edition>-->
     </work>
   </textgroup>
-  
 
-  <textgroup
-    urn="urn:cts:greekLit:tlg5026:">
-    <groupname
-      xml:lang="eng"> Scholia to the Iliad</groupname>
+  <textgroup    urn="urn:cts:greekLit:tlg5026:">
+    <groupname      xml:lang="eng"> Scholia to the Iliad</groupname>
+    <work      urn="urn:cts:greekLit:tlg5026.msA:"      xml:lang="grc">
+      <title        xml:lang="eng"> Main marginal scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msA.hmt:">
+        <label          xml:lang="eng">msA</label>
+        <description          xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAext:"      xml:lang="grc">
+      <title        xml:lang="eng"> Exterior scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAext.hmt:">
+        <label          xml:lang="eng">msAext</label>
+        <description          xml:lang="eng">Exterior scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAil:"      xml:lang="grc">
+      <title        xml:lang="eng"> Interlinear scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAil.hmt:">
+        <label          xml:lang="eng">msAil</label>
+        <description          xml:lang="eng">Interlinear scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAim:"      xml:lang="grc">
+      <title        xml:lang="eng"> Intermarginal scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAim.hmt:">
+        <label          xml:lang="eng">msAim</label>
+        <description          xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) of the          Venetus A manuscript, Marciana 454 (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAint:"      xml:lang="grc">
+      <title        xml:lang="eng"> Interior scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAint.hmt:">
+        <label          xml:lang="eng">msAint</label>
+        <description          xml:lang="eng">Interior (gutter) scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAlater:"      xml:lang="grc">
+      <title        xml:lang="eng"> Later main scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAlater.hmt:">
+        <label          xml:lang="eng">msAlater</label>
+        <description          xml:lang="eng">Scholia in a second later hand from the main marginal area of Venetus A          manuscript, Marciana 454 (=822).</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+
   	<!--
     <work urn="urn:cts:greekLit:tlg5026.e3:" xml:lang="grc">
-      <title xml:lang="eng"> Main scholia</title> 
+      <title xml:lang="eng"> Main scholia</title>
       <edition urn="urn:cts:greekLit:tlg5026.e3.hmt:">
         <label xml:lang="eng">Upsilon 1.1</label>
         <description xml:lang="eng">Main scholia of the Escorial manuscript, Upsilon 1.1</description>
         <online docname="Esc-Upsilon-1-1/Esc-Upsilon-1-1-Scholia-e3.xml">
-          
+
 
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
@@ -139,118 +185,12 @@
             </citation>
           </citationMapping>
         </online>
-        
+
       </edition>
     </work> -->
-    
 
-    <work
-      urn="urn:cts:greekLit:tlg5026.msA:"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Main marginal scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msA.hmt:">
-        <label
-          xml:lang="eng">msA</label>
-        <description
-          xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454
-          (=822).</description>
-        <online/>
-      </edition>
-    </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAext:"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Exterior scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAext.hmt:">
-        <label
-          xml:lang="eng">msAext</label>
-        <description
-          xml:lang="eng">Exterior scholia of the Venetus A manuscript, Marciana 454
-          (=822).</description>
-        <online/>
-      </edition>
-    </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAil:"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Interlinear scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAil.hmt:">
-        <label
-          xml:lang="eng">msAil</label>
-        <description
-          xml:lang="eng">Interlinear scholia of the Venetus A manuscript, Marciana 454
-          (=822).</description>
-        
-      </edition>
-    </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAim:"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Intermarginal scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAim.hmt:">
-        <label
-          xml:lang="eng">msAim</label>
-        <description
-          xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) of the
-          Venetus A manuscript, Marciana 454 (=822).</description>
-        <online/>
-      </edition>
-    </work>
-	  	<work
-      urn="urn:cts:greekLit:tlg5026.msAimlater:"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Later intermarginal scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAimlater.hmt:">
-        <label
-          xml:lang="eng">msAimlater</label>
-        <description
-          xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) in a second,
-          later hand, from the Venetus A manuscript, Marciana 454 (=822).</description>
-        <online/>
-      </edition>
-    </work>
- <work
-      urn="urn:cts:greekLit:tlg5026.msAint:"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Interior scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAint.hmt:">
-        <label
-          xml:lang="eng">msAint</label>
-        <description
-          xml:lang="eng">Interior (gutter) scholia of the Venetus A manuscript, Marciana 454
-          (=822).</description>
-       <online/>
-      </edition>
-    </work>
-    <work
-      urn="urn:cts:greekLit:tlg5026.msAlater:"
-      xml:lang="grc">
-      <title
-        xml:lang="eng"> Later main scholia</title>
-      <edition
-        urn="urn:cts:greekLit:tlg5026.msAlater.hmt:">
-        <label
-          xml:lang="eng">msAlater</label>
-        <description
-          xml:lang="eng">Scholia in a second later hand from the main marginal area of Venetus A
-          manuscript, Marciana 454 (=822).</description>
-       <online/>
-      </edition>  
-    </work>
-  </textgroup>
- 
+
+
   <!-- Other texts in the Venetus A -->
   <!--
   <textgroup
@@ -269,9 +209,9 @@
         <description
           xml:lang="eng">Edition of Chrestomathy as it appears in later rebinding of the Venetus A
           manuscript (Marciana 454 = 822)</description>
-     
+
         <online docname="VenetusA/VenetusA-Proclus-Chrestomathy.xml">
-          
+
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
             <citation label="book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']">
@@ -280,7 +220,7 @@
             </citation>
           </citationMapping>
         </online>
-    
+
       </edition>
     </work>
   </textgroup>
@@ -319,7 +259,7 @@
     urn="urn:cts:greekLit:msannotations:">
     <groupname
       xml:lang="eng">Annotations on manuscripts</groupname>
-  
+
     <work
       urn="urn:cts:greekLit:msannotations.venA_comments:"
       xml:lang="grc">
@@ -330,11 +270,11 @@
         commenting on the manuscript or its production (not on the Iliad or other texts in
         the manuscript)
         </description>
-       
-       
+
+
         <online
           docname="VenetusA/VenetusA-Metacomments.xml">
-          
+
           <namespaceMapping
             abbreviation="tei"
             nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -345,13 +285,13 @@
               xpath="/tei:div[@n = '?']"> </citation>
           </citationMapping>
         </online>
-       
-        
+
+
       </edition>
     </work>
- 
-    
-    
+
+
+
     <work
       urn="urn:cts:greekLit:msannotations.VAcaptions:"
       xml:lang="grc">
@@ -461,7 +401,7 @@
       </edition>
     </work>
   </textgroup>
-  
+
   <textgroup
     urn="urn:cts:greekLit:tlg7000:">
     <groupname
@@ -505,8 +445,8 @@
   </textgroup>
 
   -->
-  
-  
+
+
   <!--
     <textgroup urn="urn:cts:greekLit:tlg0059">
     <groupname xml:lang="eng">Plato</groupname>
@@ -518,18 +458,18 @@
           rationalized canonical citation, after the editon of J. Burnet, Oxford: Clarendon Press,
           1903, with emendations and additional semantic markup.</description>
         <online docname="Furman/plato_ion_uc.xml">
-          
+
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
             <citation label="section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:sp[@n='?']"/>
           </citationMapping>
         </online>
       </edition>
-      
+
 
     </work>
   </textgroup>
-  
+
   <textgroup urn="urn:cts:greekLit:tlg0026">
     <groupname xml:lang="eng">Aeschines</groupname>
     <work urn="urn:cts:greekLit:tlg0026.tlg001" xml:lang="grc">
@@ -541,14 +481,14 @@
           C. Blackwell, after Martin, V., de Budé, G. Paris: Les Belles Lettres, 1902 and additional
           semantic markup.</description>
         <online docname="Furman/aesch_inTim_uc.xml">
-          
+
           <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
           <citationMapping>
             <citation label="section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"/>
           </citationMapping>
         </online>
       </edition>
-      
+
 
     </work>
   </textgroup>
