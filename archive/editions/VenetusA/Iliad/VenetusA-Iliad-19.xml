@@ -190,7 +190,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="112">ὡς ἔφατο. <persName n="urn:cite2:hmt:pers.r1:pers8">Ζεὺς</persName> δ' οὔ τι
           δολοφροσύνην ἐνόησεν.</l>
         <l n="113">ἀλλ' όμοσεν μέγαν ὅρκον. ἔπειτα δὲ πολλὸν ἀάσθη·</l>
-        <l n="114"><persName n="urn:cite:hmt:eprs.pers116">Ἥρη</persName> δ' ἀΐξασα λίπεν ῥίον
+        <l n="114"><persName n="urn:cite2:hmt:pers.r1:pers116">Ἥρη</persName> δ' ἀΐξασα λίπεν ῥίον
             <persName n="urn:cite2:hmt:pers.r1:pers45">Οὐλύμποιο</persName>.</l>
         <l n="115">καρπαλίμως δ' ΐκετ' <placeName n="urn:cite2:hmt:place.r1:place114"
             >Ἄργος</placeName><rs type="ethnic" n="urn:cite2:hmt:place.r1:place96">Ἀχαιϊκόν</rs>. ἔνθ'
@@ -375,7 +375,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="238"> ἦ καὶ <persName n="urn:cite2:hmt:pers.r1:pers117">Νέστορος</persName> υἷας ὀπάσσατο
           κυδαλίμοιο </l>
         <l n="239"><persName n="urn:cite2:hmt:pers.r1:pers497">Φυλείδην</persName> τε <persName
-            n="urn:cite2:hmt:pers.r1:pers497">Μέγητα</persName>· <persName n="urn:cite:hmt:pers.pers735"
+            n="urn:cite2:hmt:pers.r1:pers497">Μέγητα</persName>· <persName n="urn:cite2:hmt:pers.r1:pers735"
             >Θόαντά</persName> τε <persName n="urn:cite2:hmt:pers.r1:pers212">Μηριόνην</persName>
           τε·</l>
         <l n="240">καὶ <persName n="urn:cite2:hmt:pers.r1:pers1046">Κρειοντιάδην Λυκομήδεα</persName>
@@ -501,7 +501,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="316">αὐτὸς ἐν κλισίῃ λαρὸν παρὰ δεῖπνον ἔθηκας·</l>
         <l n="317">αἶψα καὶ ὀτραλέως· ὁπότε σπερχοίατ' <rs type="ethnic"
             n="urn:cite2:hmt:place.r1:place96">Ἀχαιοὶ</rs></l>
-        <l n="318"><rs type="ethnic" n="urn:cite:hmt:pelace.place6">Τρωσὶν</rs> ἐφ' ἱπποδάμοισι
+        <l n="318"><rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρωσὶν</rs> ἐφ' ἱπποδάμοισι
           φέρειν πολύδακρυν <persName n="urn:cite2:hmt:pers.r1:pers83">Ἄρηα</persName></l>
         <l n="319">νῦν δὲ σὺ μὲν κεῖσαι δεδαϊγμένος· αὐτὰρ ἐμὸν κῆρ</l>
         <l n="320">ἄκμηνον πόσιος καὶ ἐδητύος· ἔνδον ἐόντων,</l>

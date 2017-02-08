@@ -181,7 +181,7 @@
             <persName n="urn:cite2:hmt:pers.r1:pers503">Ἄσιος</persName> ἥρως.</l>
         <l n="96"><persName n="urn:cite2:hmt:pers.r1:pers503">Ἄσιος Ὑρτακίδης</persName>. ὃν, <placeName
             n="urn:cite2:hmt:place.r1:place124">Ἀρίσβηθεν</placeName> φέρον ἵπποι.</l>
-        <l n="97">αἴθωνες, μεγάλοι, ποταμοῦ ἄπο <placeName n="urn:cite:htm:place.place257"
+        <l n="97">αἴθωνες, μεγάλοι, ποταμοῦ ἄπο <placeName n="urn:cite2:hmt:place.r1:place257"
             >Σελλήεντος</placeName>.</l>
         <l n="98">τῶν δὲ τετάρτων ἦρχεν ἐῢς πάϊς <persName n="urn:cite2:hmt:pers.r1:pers273"
             >Ἀγχίσαο</persName></l>
@@ -251,7 +251,7 @@
             n="urn:cite2:hmt:pers.r1:pers551">Ἀδάμαντα</persName>. <persName
             n="urn:cite2:hmt:pers.r1:pers552">Θόωνά</persName>, τε <persName
             n="urn:cite2:hmt:pers.r1:pers553">Οἰνόμαόν</persName> τε·</l>
-        <l n="141">οἳ δ' ἤτοι εἷος μὲν ἐϋκνήμιδας <rs type="ethnic" n="urn:cite:hmt.place.place96"
+        <l n="141">οἳ δ' ἤτοι εἷος μὲν ἐϋκνήμιδας <rs type="ethnic" n="urn:cite2:hmt:place.r1:place96"
             >Ἀχαιοὺς</rs></l>
         <l n="142">ὄρνυον ἔνδον ἐόντες ἀμύνεσθαι περὶ νηῶν·</l>
         <l n="143">αὐτὰρ ἐπειδὴ τεῖχος ἐπεσσυμένους ἐνόησαν</l>
@@ -542,7 +542,7 @@
         <l n="341"> ἱ̈στάμενοι. πειρῶντο βίῃ ῥήξαντες ἐσελθεῖν·</l>
         <l n="342">αἶψα δ' ἐπ' <persName n="urn:cite2:hmt:pers.r1:pers127">Αἴαντα</persName> προΐει
           κήρυκα <persName n="urn:cite2:hmt:pers.r1:pers296">Θοώτην</persName>·</l>
-        <l n="343">ἔρχεο δῖε <persName n="urn:cite2:hmt:pers.r1:pers296">Θοῶτα</persName>· θέων <persName n="urn:cite:hmt:pers.pers127">Αἴαντα</persName>
+        <l n="343">ἔρχεο δῖε <persName n="urn:cite2:hmt:pers.r1:pers296">Θοῶτα</persName>· θέων <persName n="urn:cite2:hmt:pers.r1:pers127">Αἴαντα</persName>
           κάλεσσον·</l>
         <l n="344">ἀμφοτέρω μὲν μᾶλλον. ὃ γάρ κ' όχ' ἄριστον ἁπάντων</l>
         <l n="345">εἴη. ἐπεὶ τάχα τῇδε τετεύξεται αἰπὺς ὄλεθρος·</l>
@@ -589,7 +589,8 @@
           <persName n="urn:cite2:hmt:pers.r1:pers127">Αἴας</persName>·</l>
         <l n="371">καί οἱ <persName n="urn:cite2:hmt:pers.r1:pers243">Τεῦκρος</persName> ἅμ' ἤϊε
           κασίγνητος καὶ όπατρος·</l>
-        <l n="372">τοῖς δ' ἅμα <persName n="urn:cite:hmt:">Πανδίων</persName>. <persName
+        <l n="372">τοῖς δ' ἅμα <persName n="urn:cite2:hmt:pers.r1:pers652"
+>Πανδίων</persName>. <persName
             n="urn:cite2:hmt:pers.r1:pers243">Τεύκρου</persName> φέρε καμπύλα τόξα·</l>
         <l n="373">εὖτε <persName n="urn:cite2:hmt:pers.r1:pers515">Μενεσθῆος</persName> μεγαθύμου
           πύργον ΐκοντο</l>

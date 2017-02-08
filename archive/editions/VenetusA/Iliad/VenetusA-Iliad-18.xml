@@ -786,15 +786,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <l n="483">ἐν μὲν γαῖαν ἔτευξ', ἐν δ' οὐρανὸν. ἒν δὲ θάλασσαν·</l>
                 <l n="484">ἠέλιόν τ' ἀκάμαντα· σελήνην τε πλήθουσαν·</l>
                 <l n="485">ὲν δὲ τὰ τείρεα πάντα. τά τ' οὐρανὸς ἐστεφάνωται·</l>
-                <l n="486"><rs type="astro" n="urn:cite:hmt:astro.3">Πληϊάδας</rs> θ'. <rs
-                        type="astro" n="urn:cite:hmt:astro.4">Ὑάδας</rs> τε. τό τε σθένος <rs
-                        type="astro" n="urn:cite:hmt:astro.1">Ὠρίωνος</rs>·</l>
-                <l n="487"><rs type="astro" n="urn:cite:hmt:astro.5">Άρκτόν</rs> θ'. ἣν καὶ <rs
-                        type="astro" n="urn:cite:hmt:astro.5"><choice>
+                <l n="486"><rs type="astro" n="urn:cite2:hmt:astro.r1:3">Πληϊάδας</rs> θ'. <rs
+                        type="astro" n="urn:cite2:hmt:astro.r1:4">Ὑάδας</rs> τε. τό τε σθένος <rs
+                        type="astro" n="urn:cite2:hmt:astro.r1:1">Ὠρίωνος</rs>·</l>
+                <l n="487"><rs type="astro" n="urn:cite2:hmt:astro.r1:5">Άρκτόν</rs> θ'. ἣν καὶ <rs
+                        type="astro" n="urn:cite2:hmt:astro.r1:5"><choice>
                             <orig>Ἄμαξαν</orig>
                             <reg>Ἅμαξαν</reg>
                         </choice></rs> ἐπίκλησιν καλέουσιν·</l>
-                <l n="488">ἥ τ' αὐτοῦ στρέφεται· καί τ' <rs type="astro" n="urn:cite:hmt:astro.1"
+                <l n="488">ἥ τ' αὐτοῦ στρέφεται· καί τ' <rs type="astro" n="urn:cite2:hmt:astro.r1:1"
                         >Ὠρίωνα</rs> δοκεύει·</l>
                 <l n="489">οἴη δ' ἄμμορός ἐστι λοετρῶν <persName n="urn:cite2:hmt:pers.r1:pers123"
                         >Ὠκεανοῖο</persName>·</l>

@@ -131,14 +131,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="75">
           <persName n="urn:cite2:hmt:pers.r1:pers172">Ἕκτορ</persName>. νῦν σὺ μὲν ὧδε θέεις. ἀκίχητα
           διώκων</l>
-        <l n="76">ἵππους <persName n="urn:cite:hmt:per.pers184">Αἰακίδαο</persName> δαί̈φρονος· οἳ
+        <l n="76">ἵππους <persName n="urn:cite2:hmt:per2.r1:pers184">Αἰακίδαο</persName> δαί̈φρονος· οἳ
           δ̀' ἀλεγεινοὶ</l>
         <l n="77">ἀνδράσι γε θνητοῖσι δαμήμεναι ἠδ' ὀχέεσθαι</l>
         <l n="78"> ἄλλῳ γ'. ἢ <persName n="urn:pers.pers1">Ἀχιλῆϊ</persName>. τὸν ἀθανάτη τέκε
           μήτηρ·</l>
-        <l n="79">τόφρα δέ τοι <persName n="urn:cite:pers.pers119">Μενέλαος</persName> ἀρήϊος.
+        <l n="79">τόφρα δέ τοι <persName n="urn:cite2:hmt:pers.r1:pers119">Μενέλαος</persName> ἀρήϊος.
               <w>Ἀ<add place="supralinear">τ</add>ρέος</w> υἱὸς.</l>
-        <l n="80"><persName n="urn:cite:hmt:per.pers158">Πατρόκλῳ</persName> περιβὰς. <rs
+        <l n="80"><persName n="urn:cite2:hmt:pers.r1:pers158">Πατρόκλῳ</persName> περιβὰς. <rs
             type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρώων</rs> τὸν ἄριστον ἔπεφνε.</l>
         <l n="81"><persName n="urn:cite2:hmt:pers.r1:pers464">Πανθοίδην Εὔφορβον</persName>. ἔπαυσε δὲ
           θούριδος ἀλκῆς·</l>
@@ -422,7 +422,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="264">βέβρυχεν μέγα κῦμα ποτι ῥόον. ἀμφὶ δέ τ' ἄκραι</l>
         <l n="265">ἠϊόνες βοόωσιν ἐρευγομένης ἁλὸς ἔξω.</l>
         <l n="266">τόσσῃ ἄρα <rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρῶες</rs> ἰ̈αχῇ ΐσαν·
-          αὐτὰρ <rs type="ethnic" n="urn:cite:hmt:plcae.place96">Ἀχαιοὶ</rs></l>
+          αὐτὰρ <rs type="ethnic" n="urn:cite2:hmt:place.r1:place96">Ἀχαιοὶ</rs></l>
         <l n="267">έστασαν ἀμφὶ <persName n="urn:cite2:hmt:pers.r1:pers158">Μενοιτιάδῃ</persName> ἕνα
           θυμὸν ἔχοντες.</l>
         <l n="268">φραχθέντες σάκεσιν χαλκήρεσιν. ἀμφὶ δ' άρα σφι</l>
@@ -617,7 +617,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="380">ζωὸν ἐνὶ πρώτῳ ὁμάδῳ <rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρώεσσι</rs>
           μάχεσθαι·</l>
         <l n="381">τὼ δ' ἐπιοσσομένω θάνατον καὶ φύζαν ἑταίρων</l>
-        <l n="382">νόσφιν ἐμαρνάσθην· ἐπεὶ ὣς ἐπετέλλετο <persName n="urn:cite:hmt:per.pers117"
+        <l n="382">νόσφιν ἐμαρνάσθην· ἐπεὶ ὣς ἐπετέλλετο <persName n="urn:cite2:hmt:pers.r1:pers117"
             >Νέστωρ</persName>·</l>
         <l n="383">ὀτρύνων πόλεμόν δε μελαινάων ἀπὸ νηῶν</l>
         <l n="384"> τοῖς δὲ πανημερίου ἔριδος μέγα νεῖκος ὀρώρει</l>
@@ -740,7 +740,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="473">αὐτὸς ἔχων ὤμοισιν ἀγάλλεται <persName n="urn:cite2:hmt:pers.r1:pers158"
             >Αἰακίδαο</persName>·</l>
         <l n="474">τόνδ' <persName n="urn:cite2:hmt:pers.r1:pers217">Αὐτομέδων</persName> προσέφη
-            <persName n="urn:cite:hmtpers.pers732">Διώρεος</persName> υἱός·</l>
+            <persName n="urn:cite2:hmt:pers.r1:pers732">Διώρεος</persName> υἱός·</l>
         <l n="475"><persName n="urn:cite2:hmt:pers.r1:pers218">Ἀλκίμεδον</persName> τὶς γάρ τοι <rs
             type="ethnic" n="urn:cite2:hmt:place.r1:place96">Ἀχαιῶν</rs> ἄλλος ὁμοῖος </l>
         <l n="476">ἵππων ἀθανάτων ἐχέμεν δμῆσιν τε μένος τε·</l>
@@ -798,7 +798,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="507">ὣς εἰπὼν <persName n="urn:cite2:hmt:pers.r1:pers127"><persName
               n="urn:cite2:hmt:pers.r1:pers281">Αἴαντε</persName></persName> καλέσσατο καὶ <persName
             n="urn:cite2:hmt:pers.r1:pers119">Μενέλαον</persName>·</l>
-        <l n="508"><persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite:hmt:pers.pers281"
+        <l n="508"><persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite2:hmt:pers.r1:pers281"
               >Αἴαντ'</persName></persName>
           <rs type="ethnic" n="urn:cite2:hmt:place.r1:place114">Ἀργείων</rs> ἡγήτορε καὶ <persName
             n="urn:cite2:hmt:pers.r1:pers119">Μενέλαε</persName>·</l>
@@ -1051,9 +1051,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             n="urn:cite2:hmt:place.r1:place96">Ἀχαιοὶ</rs></l>
         <l n="667">ἀργαλέου προ φόβοιο ἕλωρ δηΐοισι λίποιεν·</l>
         <l n="668">πολλὰ δὲ <persName n="urn:cite2:hmt:pers.r1:pers212">Μηριόνῃ</persName> τε καὶ
-            <persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite:hmt:pers.pers281"
+            <persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite2:hmt:pers.r1:pers281"
               >Αἰάντεσσ'</persName></persName> ἐπέτελλεν·</l>
-        <l n="669"><persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite:hmt:pers.pers281"
+        <l n="669"><persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite2:hmt:pers.r1:pers281"
               >Αἴαντ'</persName></persName>, <rs type="ethnic" n="urn:cite2:hmt:place.r1:place114"
             >Ἀργείων</rs> ἡγήτορε <persName n="urn:cite2:hmt:pers.r1:pers212">Μηριόνη </persName>τε·</l>
         <l n="670">νῦν τις ἐνηείης <persName n="urn:cite2:hmt:pers.r1:pers158">Πατροκλῆος</persName>
@@ -1150,7 +1150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="729">ἂψ ἀνεχώρησαν· διά τ' ἔτρεσαν ἄλλϋδις <w>ἄλλ<add place="surpalinear">ος</add></w>.</l>
         <l n="730">ὣς <rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρῶες</rs> εἵως μὲν ὁμιλαδόν αῖὲν ἕποντο</l>
         <l n="731">νύσσοντες ξίφεσίν τε καὶ ἔγχεσιν ἀμφὶ γύοισιν·</l>
-        <l n="732">ἀλλ' ὅτε δή ῥ' <persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite:hmt:pers.pers281">Αἴαντε</persName></persName> μεταστρεφθέντε κατ' αὐτούς</l>
+        <l n="732">ἀλλ' ὅτε δή ῥ' <persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite2:hmt:pers.r1:pers281">Αἴαντε</persName></persName> μεταστρεφθέντε κατ' αὐτούς</l>
         <l n="733">σταίησαν· τῶν δὲ τράπετο χρώς· οὐδέ τις ἔτλη·</l>
         <l n="734">πρόσσω ἀΐξας περὶ νεκροῦ δηριάασθαι·</l>
         <l n="735">ὣς οἵ γε μεμαῶτε νέκυν φέρον ἐκ πολέμοιο</l>
@@ -1165,18 +1165,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="744">ἤ δοκόν· ἠέ δόρυ μέγα νῄον· ἐν δέ τε θυμός</l>
         <l n="745">τείρεθ' ὁμοῦ καμάτῳ τε καὶ ἱδρῶ σπευδόντεσσιν·</l>
         <l n="746">ὣς οἵ γε μεμαῶτε νέκυν φέρον· αὐτὰρ ὄπισθεν</l>
-        <l n="747"><persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite:hmt:pers.pers281">Αἴαντ'</persName></persName> ἰσχανέτην ὥς τε πρὼν ἰσχάνει ὕδωρ</l>
+        <l n="747"><persName n="urn:cite2:hmt:pers.r1:pers127"><persName n="urn:cite2:hmt:pers.r1:pers281">Αἴαντ'</persName></persName> ἰσχανέτην ὥς τε πρὼν ἰσχάνει ὕδωρ</l>
         <l n="748">ὑλήεις πεδίοιο διαπρύσιον τετυχηκώς·</l>
         <l n="749">ὅς τε καὶ ἰφθίμων ποταμῶν ἀλεγεινά <w>ῥέεθρ<add place="spuralinear">α</add></w></l>
         <l n="750">ἴσχει· ἄφαρ δέ τε πασί ροον πεδίον δε τίθησι</l>
         <l n="751">πλάζων· οὐδὲ τι μιν σθένεϊ ῥηγνῦσι ῥέοντες·</l>
-        <l n="752">ὣς αἰεὶ <persName n="urn:cite2:hmt:pers.r1:pers281"><persName n="urn:cite:hmt:pers.pers127">Αἴαντε</persName></persName> μάχην ἀνέεργον ὀπίσσω·</l>
+        <l n="752">ὣς αἰεὶ <persName n="urn:cite2:hmt:pers.r1:pers281"><persName n="urn:cite2:hmt:pers.r1:pers127">Αἴαντε</persName></persName> μάχην ἀνέεργον ὀπίσσω·</l>
         <l n="753"><rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρώων</rs>· οἵ δ' ἅμ' ἕποντο· δύω δ' ἐν τοῖσι <w>μάλιστ<add place="supralinear">α</add></w></l>
-        <l n="754"><persName n="urn:cite2:hmt:pers.r1:pers142">Αἰνείας</persName> τ' <persName n="urn:cite:hmt:pers.pers142">Ἀγχισιάδης</persName> καὶ <w>φαίδιμ<add place="supralinear">ος</add></w> <persName n="urn:cite:hmt:pers.pers172">Ἕκτωρ</persName></l>
+        <l n="754"><persName n="urn:cite2:hmt:pers.r1:pers142">Αἰνείας</persName> τ' <persName n="urn:cite2:hmt:pers.r1:pers142">Ἀγχισιάδης</persName> καὶ <w>φαίδιμ<add place="supralinear">ος</add></w> <persName n="urn:cite2:hmt:pers.r1:pers172">Ἕκτωρ</persName></l>
         <l n="755">τῶν δ' ὥς τε ψαρῶν νέφος ἔρχεται ἠέ κολοιῶν</l>
         <l n="756">οὖλον <w>κεκλήγο<add place="supralinear">ν</add>τες</w>· ὅτε προίδωσιν ἰόντα</l>
         <l n="757">κίρκον· ὅ τε σμικρῇσι φόνον φέρει ὀρνίθεσσιν.</l>
-        <l n="758">ὣς ἂρ ὑπ' <persName n="urn:cite2:hmt:pers.r1:pers142">Αἰνείᾳ</persName> τε καί <persName n="urn:cite:hmt:pers.pers172">Ἕκτορι</persName> κοῦροι <rs type="ethnic" n="urn:cite2:hmt:place.r1:place96">Ἀχαιῶν</rs></l>
+        <l n="758">ὣς ἂρ ὑπ' <persName n="urn:cite2:hmt:pers.r1:pers142">Αἰνείᾳ</persName> τε καί <persName n="urn:cite2:hmt:pers.r1:pers172">Ἕκτορι</persName> κοῦροι <rs type="ethnic" n="urn:cite2:hmt:place.r1:place96">Ἀχαιῶν</rs></l>
         <l n="759">οὖλον κεκλήγοντες ἴσαν· λήθοντο δέ χάρμ<add place="supralinear">ης</add>·</l>
         <l n="760">πολλὰ δὲ τεύχεα καλὰ πέσον περί τ' ἀμφί τε τάφρον·</l>
         <l n="761">φευγόντων <rs type="ethnic" n="urn:cite2:hmt:pers.r1:pers66">Δαναῶν</rs>· πολέμου δ' οὐ γίνετ' ἐρωή ⁑</l>
