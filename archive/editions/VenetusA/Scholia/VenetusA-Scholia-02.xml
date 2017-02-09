@@ -47,8 +47,8 @@ style simple scholia" alternate="no"?>
                      </choice> ἔχει καὶ τὸ πρέπον τῆς ἐγκελεύσεως δια τοῦ ἀσυνδέτου φαίνεται ⁑</p>
                </div>
             </div>
-            
-            
+
+
          </body>
          </text>
          <text n="msA">
@@ -199,8 +199,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.6</p>
                   </div>
                   <div n="comment">
-                     <p>δηλοὶ ἡ λεξις καὶ τὸν προσηνῆ καὶ τὸν <seg type="word"
-                           ><unclear>ὁ</unclear>λόκληρον</seg> ὡς ἐν <title>ὀδυσσείᾳ</title> φησὶν <cit>
+                     <p>δηλοὶ ἡ λεξις καὶ τὸν προσηνῆ καὶ τὸν <w><unclear>ὁ</unclear>λόκληρον</w> ὡς ἐν <title>ὀδυσσείᾳ</title> φησὶν <cit>
                            <q>οὗλον ἄρτον ἑλών·</q>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:17.343</ref>
                         </cit> δηλοὶ δὲ καὶ τὴν τῶν τριχῶν διαστροφήν· οὖλον δὲ ὄνειρον οὐκ αυτὸν
@@ -284,7 +283,7 @@ style simple scholia" alternate="no"?>
                         </cit>⁑ </p>
                   </div>
                </div>
-            	
+
                <div n="21" type="scholion">
                   <div n="lemma">
                      <p>ἀμφὶς φράζονται·</p>
@@ -339,7 +338,7 @@ style simple scholia" alternate="no"?>
                         αὐτὸν μέλλει·</p>
                   </div>
                </div>
-            	
+
                <div n="25" type="scholion">
                   <div n="lemma">
                      <p>ὁς σεῦ·</p>
@@ -3734,8 +3733,8 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.412</p>
                   </div>
                   <div n="comment">
-                     <p>ὅτι ἔν τισι γέγραπται 
-                        
+                     <p>ὅτι ἔν τισι γέγραπται
+
                         <q><persName n="urn:cite2:hmt:pers.r1:pers8">Ζεῦ</persName>
                         <choice>
                            <abbr>περ</abbr>
@@ -4046,7 +4045,7 @@ style simple scholia" alternate="no"?>
                      <p>ὅτι καθ <persName n="urn:cite2:hmt:pers.r1:pers17">Ὅμηρον</persName> πρῶτος ἀπο γῆς ἐστιν ὁ ἀηρ
                         εῖτα μετὰ τὰ νέφη αἰθηρ ὃν καὶ ὁμονύμως τῷ στερεμνίῳ οὐρανὸν καλεὶ⁑</p>
                   </div>
-               </div> 
+               </div>
                <div n="555" type="scholion">
                   <div n="lemma">
                      <p>Ἀσίω ἐν λειμῶνι·</p>
@@ -7480,7 +7479,7 @@ style simple scholia" alternate="no"?>
                         μέχρι τοῦ αἱ δὲ τε ἔνθα οὕτως γὰρ βέλτιον⁑</p>
                   </div>
                </div>
-               
+
                <div n="10" type="scholion">
                   <div n="lemma">
                      <p/>
@@ -8573,7 +8572,7 @@ style simple scholia" alternate="no"?>
          </text>
 
          <text n="msAint">
-            <!-- msAint 
+            <!-- msAint
             -->
             <body>
                <div n="13" type="scholion">
@@ -9607,7 +9606,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.34</p>
                   </div>
                   <div n="comment">
-                     <p>καταλίπῃ <seg type="word"><unclear>ἐ</unclear>άσῃ</seg></p>
+                     <p>καταλίπῃ <w><unclear>ἐ</unclear>άσῃ</w></p>
                   </div>
                </div>
                <div n="75" type="scholion">
@@ -10020,7 +10019,7 @@ style simple scholia" alternate="no"?>
                      <p>ορθοὶ έστησαν·</p>
                   </div>
                </div>
-               
+
                <div n="148" type="scholion">
                   <div n="lemma">
                      <p/>
@@ -12077,7 +12076,7 @@ style simple scholia" alternate="no"?>
                </div>
             </body>
          </text>
- 
+
       </group>
    </text>
 </TEI>
