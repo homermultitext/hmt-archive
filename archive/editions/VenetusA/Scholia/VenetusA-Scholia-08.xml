@@ -814,7 +814,7 @@ style simple scholia" alternate="no"?>
                               </cit></item>
                            <item n="9">
                               <num value="9">Θ</num> μουσικος <cit>
-                                 <ref type="urn">urn:cts:greekLit:tlg0012:tlg002:11.368</ref>
+                                 <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:11.368</ref>
                                  <q>μῦθον ὥς τ' αοιδός</q>
                               </cit></item>
                            <item n="10">
@@ -3466,7 +3466,7 @@ style simple scholia" alternate="no"?>
                   </div>
                </div>
             </body>
-       
+
          </text>
          <text n="msAim">
          	       <body>
@@ -4685,7 +4685,7 @@ style simple scholia" alternate="no"?>
                   </div>
                </div>
             </body>
-     
+
              </text>
          <text n="msAint">
          	        <body>
@@ -5411,7 +5411,7 @@ style simple scholia" alternate="no"?>
                   </div>
                </div>
             </body>
-    
+
         </text>
          <text n="msAil">
          	       <body>
@@ -6016,7 +6016,7 @@ style simple scholia" alternate="no"?>
                   </div>
                </div>
             </body>
-     
+
         </text>
          <text n="msAext">
          	<body>
@@ -6084,8 +6084,8 @@ style simple scholia" alternate="no"?>
          				<p><q>ανωγει</q>· <q>ἄνωγεν</q>· </p>
          			</div>
          		</div>
-         		
-         		
+
+
          		<div
          			n="338"
          			type="scholion">
@@ -6135,7 +6135,7 @@ style simple scholia" alternate="no"?>
          			</div>
          		</div>
          	</body>
-         	
+
         </text>
       </group>
    </text>
