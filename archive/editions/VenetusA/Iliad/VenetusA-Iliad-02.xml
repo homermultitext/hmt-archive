@@ -61,7 +61,7 @@
 				</l>
 				<l n="12">πανσυδίῃ· νῦν γάρ κεν ἕλοις πόλιν εὐρυάγυιαν </l>
 				<l n="13"><rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρώων</rs>· οὐ γὰρ ἔτ'
-					ἀμφὶς <rs type="geographic" n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</rs> δώματ'
+					ἀμφὶς  <placeName n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</placeName> δώματ'
 					ἔχοντες </l>
 				<l n="14">ἀθάνατοι φράζονται· ἐπέγναμψεν γὰρ ἅπαντας </l>
 				<l n="15"><persName n="urn:cite2:hmt:pers.r1:pers116">Ἥρη</persName> λισσομένη· <rs
@@ -88,8 +88,7 @@
 						n="urn:cite2:hmt:place.r1:place96">Ἀχαιοὺς</rs>
 				</l>
 				<l n="29">πανσυδίῃ· νῦν γάρ κεν ἕλοις πόλιν εὐρυάγυιαν </l>
-				<l n="30"><rs type="urn:cite2:hmt:place.r1:place6">Τρώων</rs>· οὐ γὰρ ἔτ' ἀμφὶς <rs
-						type="geographic" n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</rs> δώματ'
+				<l n="30"><rs type="urn:cite2:hmt:place.r1:place6">Τρώων</rs>· οὐ γὰρ ἔτ' ἀμφὶς <placeName n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</placeName> δώματ'
 					ἔχοντες· </l>
 				<l n="31">ἀθάνατοι φράζονται· ἐπέγναμψεν γὰρ ἅπαντας </l>
 				<l n="32"><persName n="urn:cite2:hmt:pers.r1:pers116">Ἥρη</persName> λισσομένη· <rs
@@ -145,7 +144,7 @@
 				</l>
 				<l n="66">πανσυδίῃ· νῦν γάρ κεν ἕλοις πόλιν εὐρυάγυιαν </l>
 				<l n="67"><rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρώων</rs>· οὐ γὰρ ἔτ'
-					ἀμφὶς <rs type="geographic" n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</rs> δώματ'
+					ἀμφὶς <placeName n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</placeName> δώματ'
 					ἔχοντες. </l>
 				<l n="68">ἀθάνατοι φράζονται, ἐπέγναμψεν γὰρ ἅπαντας </l>
 				<l n="69"><persName n="urn:cite2:hmt:pers.r1:pers116">Ἥρη</persName> λισσομένη· <rs
@@ -764,7 +763,7 @@
 				<l n="458">αἴγλη παμφανόωσα, δι' αἰθέρος οὐρανὸν ἷ̈κεν· </l>
 				<l n="459">Τῶν δ`' ὥς τ' ὀρνίθων πετεηνῶν ἔθνεα πολλὰ. </l>
 				<l n="460">χηνῶν ἢ γεράνων ἢ κύκνων δουλιχοδείρων </l>
-				<l n="461"><rs type="geographic" n="urn:cite2:hmt:place.r1:place226">Ἀσίω</rs> ἐν
+				<l n="461"><placeName n="urn:cite2:hmt:place.r1:place226">Ἀσίω</placeName> ἐν
 					λειμῶνι <choice>
 						<orig>καϋστρίου</orig>
 						<reg>καϋστρίω̈</reg>
@@ -772,11 +771,11 @@
 				<l n="462">ἔνθα καὶ ἔνθα ποτῶνται· ἀγαλλόμενα πτερύγεσσιν· </l>
 				<l n="463">κλαγγηδὸν προκαθιζόντων, σμαραγεῖ δέ τε λειμών, </l>
 				<l n="464">ὡς τῶν ἔθνεα πολλὰ νεῶν ἄπο καὶ κλισιάων </l>
-				<l n="465">ἐς πεδίον προχέοντο <rs type="geographic" n="urn:cite2:hmt:place.r1:place93"
-						>Σκαμάνδριον</rs>· αὐτὰρ ὑπο χθὼν </l>
+				<l n="465">ἐς πεδίον προχέοντο <placeName n="urn:cite2:hmt:place.r1:place93"
+						>Σκαμάνδριον</placeName>· αὐτὰρ ὑπο χθὼν </l>
 				<l n="466">σμερδαλέον κονάβιζε ποδῶν. αὐτῶν τὲ καὶ ἵ̈ππων. </l>
-				<l n="467">ἔσταν δ' ἐν λειμῶνι <rs type="geographic" n="urn:cite2:hmt:place.r1:place93"
-						>Σκαμανδρίω</rs> ἀνθεμόεντι </l>
+				<l n="467">ἔσταν δ' ἐν λειμῶνι <placeName n="urn:cite2:hmt:place.r1:place93"
+						>Σκαμανδρίω</placeName> ἀνθεμόεντι </l>
 				<l n="468">μυρίοι, ὅσσα τε φύλλα καὶ ἄνθεα γίνεται ὥρῃ· </l>
 				<l n="469">ἠΰτε μυιάων ἁδινάων ἔθνεα πολλὰ. </l>
 				<l n="470">αἵ τε κατα σταθμὸν ποιμνήϊον ἠλάσκουσιν </l>
@@ -800,8 +799,8 @@
 				<l n="482">τοῖον ἂρ <persName n="urn:cite2:hmt:pers.r1:pers22">Ἀτρείδην</persName> θῆκε
 						<persName n="urn:cite2:hmt:pers.r1:pers8">Ζεὺς</persName> ἤματι κείνῳ </l>
 				<l n="483">ἐκπρεπέ' ἐν πολλοῖσι καὶ ἔξοχον ἡρώεσσιν· </l>
-				<l n="484">ἔσπετε νῦν μοι Μοῦσαι <rs type="geographic"
-						n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</rs> δώματ' ἔχουσαι· </l>
+				<l n="484">ἔσπετε νῦν μοι Μοῦσαι <placeName
+						n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</placeName> δώματ' ἔχουσαι· </l>
 				<l n="485">ὑμεῖς γὰρ θεαί ἐστε πάρεστέ τε ἴστε τε πάντα· </l>
 				<l n="486">ἡμεῖς δὲ κλέος οἶον ἀκούομεν οὐδέ τι ἴδμεν· </l>
 				<l n="487">οἵ τινες ἡγεμόνες <rs type="ethnic" n="urn:cite2:hmt:pers.r1:pers66"
@@ -1089,8 +1088,8 @@
 						>Ἤλιδα</placeName> δῖαν ἔναιον </l>
 				<l n="616">όσσον ἐφ' <placeName n="urn:cite2:hmt:place.r1:place237">Ὑρμίνη</placeName>
 					καὶ <placeName n="urn:cite2:hmt:place.r1:place236">Μύρσινος</placeName> ἐσχατόωσα </l>
-				<l n="617">πέτρη τ' <rs type="geographic" n="urn:cite2:hmt:place.r1:place294"
-						>Ὠλενίη</rs> καὶ <placeName n="urn:cite2:hmt:place.r1:place239"
+				<l n="617">πέτρη τ' <placeName n="urn:cite2:hmt:place.r1:place294"
+						>Ὠλενίη</placeName> καὶ <placeName n="urn:cite2:hmt:place.r1:place239"
 						>Ἀλείσιον</placeName> ἐντὸς ἐέργει. </l>
 				<l n="618">τῶν αὖ, τέσσαρες ἀρχοὶ έσαν· δέκα δ' ἀνδρὶ ἑκάστῳ </l>
 				<l n="619">νῆες ἕποντο θοαὶ· πολέες δ' ἔμβαινον <rs type="ethnic"
@@ -1220,8 +1219,7 @@
 					τ' εἶχον <placeName n="urn:cite2:hmt:place.r1:place371">Κράπαθόν</placeName> τε
 						<placeName n="urn:cite2:hmt:place.r1:place372">Κάσον</placeName> τε </l>
 				<l n="677">καὶ <placeName n="urn:cite2:hmt:place.r1:place68">Κῶν</placeName>, <persName
-						n="urn:cite2:hmt:pers.r1:pers741">Εὐρυπύλοιο</persName> πόλιν· νήσους τε <rs
-						type="geographic" n="urn:cite2:hmt:place.r1:place373">Καλύδνας</rs>· </l>
+						n="urn:cite2:hmt:pers.r1:pers741">Εὐρυπύλοιο</persName> πόλιν· νήσους τε <placeName n="urn:cite2:hmt:place.r1:place373">Καλύδνας</placeName>· </l>
 				<l n="678">τῶν αὖ, <persName n="urn:cite2:hmt:pers.r1:pers742">Φείδιππός</persName> τε
 					καὶ <persName n="urn:cite2:hmt:pers.r1:pers743">Ἄντιφος</persName> ἡγησάσθην </l>
 				<l n="679"><persName n="urn:cite2:hmt:pers.r1:pers431">Θεσσαλοῦ</persName> υἷε δύω
