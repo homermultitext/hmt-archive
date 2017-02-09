@@ -1622,7 +1622,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     >Όμηρον</persName> ἐναντίως τῷ οὐρανῷ φέρεται ὁ ήλιος· τῇ δε
                                 δίνῃ αὐτοῦ συνέλκεται <persName n="urn:cite2:hmt:pers.r1:pers116"
                                     >Ἥραν</persName> γὰρ εἶναι τὴν τοῦ παντὸς φύσιν ἐκ τοῦ <cit>
-                                    <ref type="urn">urn:cts:greekLit:tlg0012:tlg001:15.18</ref>
+                                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:15.18</ref>
                                     <q>ἡ οὐ μέμνῃ ὅτε τ' <sic>ἐκρέμνῳ</sic> ὑψόθεν·</q>
                                 </cit> ἕλκεσθαι δὲ ἅκοντα τὸν ήλιον ὑπο τῆς δίνης ὑπο τὰς <choice>
                                     <sic>δυσμάς</sic>
@@ -1751,7 +1751,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <div n="comment">
                             <p>τοῦτο σημειωτέον πρὸς τὸ <cit>
                                     <ref type="urn"
-                                        >urn:cts:greekLit:tlg0012:tlg001:14.499-14.500</ref>
+                                        >urn:cts:greekLit:tlg0012.tlg001:14.499-14.500</ref>
                                     <q>ὁ δὲ φῆ κώδειαν ἀνασχών πέφραδέ τε <rs
                                             n="urn:cite2:hmt:place.r1:place6" type="ethnic">Τρώεσσι</rs>
                                         καὶ εὐχόμενος ἔπος ηύδα</q>
@@ -2064,7 +2064,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </div>
                         <div n="comment">
                             <p>πολλὰ ἦν τὰ συναναγκάζοντα πείθεσθαι τοὺς <rs
-                                    n="urn:cite2:hmt:place.r1:place6" type="urn">Τρῶας</rs>, πρῶτον μὲν
+                                    n="urn:cite2:hmt:place.r1:place6" type="ethnic">Τρῶας</rs>, πρῶτον μὲν
                                 ἡ ἄνοια ἡ βαρβαρικῇ. δεύτερον δὲ τὰ χρήματα ἃ προέτεινεν αὐτοῖς·
                                 τρίτον ὅτι τὴν μὲν ἀπόλαυσιν ἐκείνοις ἐχαρίσατο τὸν δὲ κίνδυνον
                                 αὐτὸς ἐπανεῖλεν παννύχιοι <persName n="urn:cite2:hmt:pers.r1:pers158"
@@ -2425,7 +2425,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 πεποιηται ἐκ μνηστείας· ἢ παρα τὸ <sic>ευφορὰν</sic> τὰ κατα τὴν
                                 γυναῖκα ὡς τὸ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg:002:18.254</ref>
-                                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg:002:19.127</ref>
+                                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:19.127</ref>
                                     <q><sic>ἐκείνος</sic> γ' <sic>ἔχθων</sic> τὸν εμὸν βίον
                                         ἀμφιπολεύει</q>
                                 </cit> ⁑</p>
@@ -4608,7 +4608,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                 </body>
             </text>
-        
+
               <text n="msAint">
                 <body>
                     <div n="1" type="scholion">
@@ -7035,7 +7035,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                 </body>
             </text>
-      
+
         	<text n="msAext">
         		<body>
         			<div n="1" type="scholion">
@@ -7188,12 +7188,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         					<p>ἄλλοτε δ'</p>
         				</div>
         			</div>
-        			
+
         		</body>
         	</text>
-        	
-        
-        
+
+
+
         </group>
     </text>
 </TEI>

@@ -1020,8 +1020,8 @@ style simple scholia" alternate="no"?>
                      <p>παροξύνεται τὸ τώδε παραλόγως ἀληθὲς γὰρ ὡς ὅτι τὰ δια τοῦ <rs type="waw"
                            >δε</rs> ἐπεκτεταμένα εἰ ἔχοι προ τέλους φύσει μακρὰν προπερισπᾶται, ὅπερ
                         ὤφειλε κἀπὶ τοῦ <q>τώδε δὲ νῶϊ</q> εἶναι, ἀλλ ὅμως πάλιν κατ' ἐπικρατεῖ καὶ
-                        ἐπὶ τούτου πρὸ τέλους ἡ οξεῖα· ταῦτα ὁ <persName>Ἡρωδιανὸς</persName> ἐν τῇ
-                           <num value="7">Ζ</num> ὅπου περὶ τοῦ ιῷ διαλαμβάνει·</p>
+                        ἐπὶ τούτου πρὸ τέλους ἡ οξεῖα· ταῦτα ὁ <persName n="urn:cite2:hmt:pers.r1:pers493">Ἡρωδιανὸς</persName> ἐν τῇ
+                           <title><num value="7">Ζ</num></title> ὅπου περὶ τοῦ ιῷ διαλαμβάνει·</p>
                   </div>
                </div>
                <div n="101" type="scholion">
@@ -1417,7 +1417,7 @@ style simple scholia" alternate="no"?>
                </div>
                <div n="148" type="scholion">
                   <div n="lemma">
-                     <p>οἳ δέ τοι εἰς <placeName>Ἑλίκην</placeName> τε καὶ <placeName
+                     <p>οἳ δέ τοι εἰς <placeName n="urn:cite2:hmt:place.r1:place277">Ἑλίκην</placeName> τε καὶ <placeName
                            n="urn:cite2:hmt:place.r1:place278"><sic>Αἱγάς</sic></placeName>⁚</p>
                   </div>
                   <div type="ref">
@@ -2080,7 +2080,7 @@ style simple scholia" alternate="no"?>
                         συμβέβηκε προς τὸν <q>ὦμον</q> καὶ τὸ <w>β<add place="supralinear"
                            >λ</add>ηθῆναι</w> αὐτόν καὶ τὸ ἐρύσαι ὁ μέντοι <persName
                            n="urn:cite2:hmt:pers.r1:pers627">Νεοτέλης <rs n="urn:cite2:hmt:place.r1:place32"
-                              type="ethinc">Σκυθικὴν</rs></persName> εἶναι τὴν τοξείαν ἔφασκεν τοῦ
+                              type="ethnic">Σκυθικὴν</rs></persName> εἶναι τὴν τοξείαν ἔφασκεν τοῦ
                         τόξου πρὸς τὸν ὦμον ἑλκομένου ⁑</p>
                   </div>
                </div>
@@ -2148,7 +2148,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div n="comment">
                      <p>αἱ <persName n="urn:cite2:hmt:pers.r1:pers16">Ἀριστάρχου</persName> χωρὶς τοῦ
-                           <rs>ν</rs>
+                           <rs type="waw">ν</rs>
                         <q><persName n="urn:cite2:hmt:pers.r1:pers172">Ἕκτωρ</persName> δὲ πρώτοισι</q>·
                         καὶ ἔστιν ὁ δὲ <persName n="urn:cite2:hmt:pers.r1:pers172">Ἕκτωρ</persName> ἐπι
                         τοὺς πρώτους ὥρμα ⁑</p>
