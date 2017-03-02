@@ -134,7 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="76">ἵππους <persName n="urn:cite2:hmt:per2.r1:pers184">Αἰακίδαο</persName> δαί̈φρονος· οἳ
           δ̀' ἀλεγεινοὶ</l>
         <l n="77">ἀνδράσι γε θνητοῖσι δαμήμεναι ἠδ' ὀχέεσθαι</l>
-        <l n="78"> ἄλλῳ γ'. ἢ <persName n="urn:pers.pers1">Ἀχιλῆϊ</persName>. τὸν ἀθανάτη τέκε
+        <l n="78"> ἄλλῳ γ'. ἢ <persName n="urn:cite2:hmt:pers.r1:pers1">Ἀχιλῆϊ</persName>. τὸν ἀθανάτη τέκε
           μήτηρ·</l>
         <l n="79">τόφρα δέ τοι <persName n="urn:cite2:hmt:pers.r1:pers119">Μενέλαος</persName> ἀρήϊος.
               <w>Ἀ<add place="supralinear">τ</add>ρέος</w> υἱὸς.</l>
@@ -613,7 +613,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <l n="377">ὅσσοι ἄριστοι ἔσαν· δύω δ' οὔ πω φῶτε πεπύσθην·</l>
         <l n="378">ἀνέρε κυδαλίμῳ· <persName n="urn:cite2:hmt:pers.r1:pers880">θρασυμήδης</persName>
           <persName n="urn:cite2:hmt:pers.r1:pers712">Ἀντίλοχός</persName> τε·</l>
-        <l n="379"><persName n="158">Πατρόκλοιο</persName> θανόντος ἀμύμονος· ἀλλ' ἔτ' ἔφαντο</l>
+        <l n="379"><persName n="urn:cite2:hmt:pers.r1:pers158">Πατρόκλοιο</persName> θανόντος ἀμύμονος· ἀλλ' ἔτ' ἔφαντο</l>
         <l n="380">ζωὸν ἐνὶ πρώτῳ ὁμάδῳ <rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρώεσσι</rs>
           μάχεσθαι·</l>
         <l n="381">τὼ δ' ἐπιοσσομένω θάνατον καὶ φύζαν ἑταίρων</l>
