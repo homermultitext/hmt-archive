@@ -9505,7 +9505,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.601</p>
                   </div>
                   <div n="comment">
-                     <p><placeName n="ethnic" type="place76">Ἀττικως</placeName> φίλος</p>
+                     <p><placeName type="ethnic" n="urn:cite2:hmt:place.r1:place76">Ἀττικως</placeName> φίλος</p>
                   </div>
                </div>
                <div n="595" type="scholion">
