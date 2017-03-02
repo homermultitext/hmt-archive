@@ -7665,7 +7665,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.513</p>
                      </div>
                      <div n="comment">
-                        <p>Δημήτριος ὁ <persName n="151">Ϊξίων</persName>
+                     	<p>Δημήτριος ὁ <persName n="urn:cite2:hmt:pers.r1:pers151">Ϊξίων</persName>
                            <note>fr. 1</note> προπερισπᾶ παραλαμβανον τὸ <rs type="waw">το</rs>
                            <choice>
                               <abbr>αρθ</abbr>

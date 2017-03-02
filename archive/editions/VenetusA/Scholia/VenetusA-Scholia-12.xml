@@ -195,7 +195,7 @@
                                 τὸ <q><placeName n="urn:cite2:hmt:place.r1:place255"
                                         >Κάρησσος</placeName></q> ὡς <q><placeName
                                         n="urn:cite2:hmt:place.r1:place37">Παρνασσός</placeName></q>,
-                                οὕτως γὰρ ὑπο <placeName n="urn:cite:place.place259"
+                                οὕτως γὰρ ὑπο <placeName n="urn:cite2:hmt:place:place259"
                                     >Κυζικηνῶν</placeName> ὀνομάζεσθαι τὸν ποταμόν· ὁ δὲ <persName
                                     n="urn:cite2:hmt:pers.r1:pers16">Ἀρίσταρχος</persName> βαρύνει ὡς
                                         <q><placeName n="urn:cite2:hmt:place.r1:place289"
@@ -967,8 +967,8 @@
                     </div>
                     <div n="G5" type="scholion">
                         <div n="lemma">
-                            <p>᾿<persName n="cite:urn:hmt:pers.pers371">̣Ασιον</persName> ἀμφὶ
-                                ἄνακτα καὶ <persName n="cite:urn:hmt:pers.pers549">Ϊαμὲν</persName>
+                            <p>᾿<persName n="urn:cite2:hmt:pers.r1:pers371">̣Ασιον</persName> ἀμφὶ
+                                ἄνακτα καὶ <persName n="urn:cite2:hmt:pers.r1:pers549">Ϊαμὲν</persName>
                                 καὶ <persName n="urn:cite2:hmt:pers.r1:pers550"><choice>
                                         <expan>ὀρεστην</expan>
                                         <abbr>ὀρεστ</abbr>
@@ -980,7 +980,7 @@
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:12.139</p>
                         </div>
                         <div n="comment">
-                            <p>ὅτι τῷ <persName n="cite:urn:hmt:pers.pers22">ἀγαμέμνονος</persName>
+                            <p>ὅτι τῷ <persName n="urn:cite2:hmt:pers.r1:pers22">ἀγαμέμνονος</persName>
                                 υἱῷ, ὁμώνυμος εἶ τῶν βαρβαρων ⁑ </p>
 
                         </div>
@@ -1295,7 +1295,7 @@
                                 </cit> οὐδέπω γὰρ πυρὶ κέχρηνται ἀλλ' ὕστερον λέγει ὁ <persName
                                     n="urn:cite2:hmt:pers.r1:pers172">Ἕκτωρ</persName>
                                 <cit>
-                                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg001.15.718</ref>
+                                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:15.718</ref>
                                     <q><sic>οἵσετε</sic> πῦρ</q>
                                 </cit>, εὔηθες δὲ καὶ τὸ λέγειν ὅτι ἠνιῶντο οἱ βοηθοῦντες τοῖς <rs
                                     type="ethnic" n="urn:cite2:hmt:place.r1:place3">Ἕλλησι</rs> θεοὶ ἐπι
@@ -2742,7 +2742,7 @@
                                 <q>ἀφρός</q>
                                 <q>ὄφρα</q>· ὑπεσταλμένου τοῦ ἄθρους προς διάφορον σημαινόμενον
                                 προδηλον δὲ κακ τῆς συναλιφῆς ὅτι ψιλοῦται <cit>
-                                    <ref type="urn">urn:cite:greekLit:tlg0012.tlg002:19.478</ref>
+                                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:19.478</ref>
                                     <q>η δ' ουτ' ἀθρῆσαι δύνατο</q>
                                 </cit> ⁑</p>
 

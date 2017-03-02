@@ -1331,7 +1331,7 @@
   </choice>
   ἐν τῶ ὑπομνήματι τοῦ
   <ref type="urn"
-      n="urn:cts:greekLit:tlg0087.tlg009">
+      n="urn:cts:greekLit:tlg0087.tlg009:">
       <title>Περι παθῶν</title>
   </ref>
   <persName n="urn:cite2:hmt:pers.r1:pers175">Διδύμου</persName>
@@ -1828,7 +1828,7 @@
                         </div>
                         <div n="comment">
                             <p>ὡς νέος καὶ νεωτέρων πραγμάτων ἐρῶν. φιλοπόλεμοι γὰρ οἱ νέοι. ὡς καὶ
-                                    <persName n="urn:cite:htm:pers.pers5">Πίνδαρος</persName>: <cit>
+                                    <persName n="urn:cite2:hmt:pers.r1:pers5">Πίνδαρος</persName>: <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg2037.tlg001:4.9.3</ref>
                                     <q>γλυκὺς ἀπείρῳ πόλεμος. ἐμπείρων δέ τις ταρβεῖ προσϊόντα</q>
                                 </cit> ⁑</p>
@@ -2718,7 +2718,7 @@
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:11.136</ref>
                                     <q>γήρᾳ ὑπο λιπαρῷ</q>
                                 </cit> οὕτως δὲ καὶ δοκεῖ ἐπικρατεῖν <del>η</del> ἡ παράδοσις ὡς καὶ
-                                    <persName n="urn:citeLhmt:pers.pers341">Ἀλεξίων</persName>
+                                    <persName n="urn:cite:hmt:pers.pers341">Ἀλεξίων</persName>
                                 ἀξιοῖ. οἱ δὲ συνέστειλαν πληθυντικὸν ἐκδεχόμενοι, οὐδέτερον, ὁμοίως
                                 τῷ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:4.345</ref>
@@ -3177,7 +3177,7 @@
                         </div>
                         <div n="comment">
                             <p>πρόδηλον κακ τούτου ὅτι γραπτέον <cit>
-                                    <ref type="urn">>urn:cts:greekLit:tlg0012.tlg001:11.439</ref>
+                                    <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:11.439</ref>
                                     <q>τέλος κατακαίριον</q>
                                 </cit>: <persName n="urn:cite2:hmt:pers.r1:pers15">Ζηνόδοτος</persName>
                                 δὲ γράφει πάλιν <q>φθῆ σε βέλος θανάτοιο</q></p>
