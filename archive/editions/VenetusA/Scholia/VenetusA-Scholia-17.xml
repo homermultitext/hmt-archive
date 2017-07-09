@@ -3327,7 +3327,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>-->
                 </body>
             </text>
-      
+
                <text n="msAil">
                 <body>
                     <div n="1" type="scholion">
@@ -3769,8 +3769,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p>ανέπεισε καὶ παρώτρυνεν ⁑</p>
                         </div>
                     </div>
-                    
-                    
+
+
                 </body>
             </text>
             <text n="msAim">
@@ -4585,7 +4585,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </choice> τοῦ <q>τέως</q> διόπερ οὐδε ὑποστιγμὴν ποιεῖ: ⁑</p>
                         </div>
                     </div>
-                    <!-- 
+                    <!--
                         <div n="" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -4611,12 +4611,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     -->
                 </body>
             </text>
-      
+
         	<text n="msAext">
         		<body>
-        			
-        			
-        			
+
+
+
         			<div n="1" type="scholion">
         				<div n="lemma">
         					<p/>
@@ -4628,7 +4628,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         					<p><del>ἢ δ’αλκῆς ἠ δὲ <choice><abbr>φόβ</abbr><expan>φόβοιο</expan></choice></del></p>
         				</div>
         			</div>
-        			
+
         			<div n="2" type="scholion">
         				<div n="lemma">
         					<p/>
@@ -4662,7 +4662,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         					<p><q>αφείλετο</q></p>
         				</div>
         			</div>
-        			<div n="3" type="scholion">
+        			<div n="3bis" type="scholion">
         				<div n="lemma">
         					<p/>
         				</div>
@@ -4673,7 +4673,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         					<p><del><q>αἴροντας</q></del></p>
         				</div>
         			</div>
-        			<!-- 
+        			<!--
                     <div n="4" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -4685,7 +4685,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p></p>
                         </div>
                     </div>
-                    
+
                     <div n="5" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -4697,13 +4697,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <p></p>
                         </div>
                     </div>
-                   
+
                    -->
         		</body>
         	</text>
-        	
-        
-        
+
+
+
         </group>
     </text>
 </TEI>

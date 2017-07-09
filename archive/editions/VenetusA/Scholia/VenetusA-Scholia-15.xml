@@ -3972,7 +3972,7 @@
 
                 </body>
             </text>
-        
+
               <text n="msAint">
                 <body>
                     <!-- folio 191r -->
@@ -6667,7 +6667,7 @@
                                     </choice></persName></p>
                         </div>
                     </div>
-                
+
                     <div n="2a" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -6682,7 +6682,7 @@
                                 </choice></p>
                         </div>
                     </div>
-                
+
                     <div n="3" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -6973,17 +6973,7 @@
                         </div>
                     </div>
                     <!-- 205v -->
-                    <div n="24" type="scholion">
-                        <div n="lemma">
-                            <p/>
-                        </div>
-                        <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.744</p>
-                        </div>
-                        <div n="comment">
-                            <p/>
-                        </div>
-                    </div>
+                    
                     <div n="24" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -7008,8 +6998,8 @@
                     </div>
                 </body>
             </text>
-      
-        
+
+
         </group>
     </text>
 </TEI>
