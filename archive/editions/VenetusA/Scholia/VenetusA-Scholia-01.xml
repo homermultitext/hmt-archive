@@ -18,7 +18,7 @@ style simple scholia" alternate="no"?>
    </teiHeader>
    <text xml:lang="grc">
       <group n="1">
-         <text ana="msAextra">
+         <text n="msAextra">
             <body>
                <div n="25" type="scholion">
                   <div n="lemma"/>
