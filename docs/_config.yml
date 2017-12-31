@@ -1,0 +1,35 @@
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            The Homer Multitext project archive
+tagline:          'Integrating contributions from more than 100 scholars'
+description:      ''
+baseurl: '/hmt-archive/'
+
+
+
+author:
+  name:           'Neel Smith'
+
+paginate:         5
+
+links:
+  - title: Specifications
+    url: specs/hmt/Hmt.html
+  - title: HMT on github
+    url: http://homermultitext.github.io/
+    external: true
+  - title: HMT editors' group
+    url: http://hmteditors.github.io/
+    external: true
+  - title: HMT home page
+    url: http://www.homermultitext.org/
+    external: true
+  - title: HMT blog
+    url: http://homermultitext.blogspot.com/
+    external: true
+  - title: Github source for this site
+    url: https://github.com/homermultitext/hmt-archive
+    external: true

@@ -1,0 +1,37 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+<div class="sidebar-item">
+  <p>{{ site.description }}</p>
+</div>
+
+
+
+{% comment %}
+Navigable side bar.
+The for-loop below dynamically generates a sidebar nav of pages with
+`layout: page` in the front-matter. See readme for usage.
+{% endcomment %}
+
+<nav class="sidebar-nav">
+
+  <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+
+{% for link in site.links %}
+<a class="sidebar-nav-item"
+href="{% if link.external %}{{ link.url }}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a>
+{% endfor %}
+</nav>
+
+<div class="sidebar-item">
+  <p>
+  Site last updated:
+  {{ site.time | date:  '%B %-d, %Y'  }}
+  </p>
+</div>
+
+</div>
