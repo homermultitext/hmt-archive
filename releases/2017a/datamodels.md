@@ -9,7 +9,7 @@ Collections in this release follow one of the data models listed here.
 ### Citable Image model
 
 
--  URN: `urn:cite2:cite:imagemodel.v1`
+-  URN: `urn:cite2:cite:datamodels.v1:imagemodel`
 -  Documentation:  <https://cite-architecture.github.io/imagemodel>
 
 Applies to the following files.  (File names in `code` format have been pushed to hmt-archive for publication.)
@@ -34,8 +34,8 @@ Applies to the following files.  (File names in `code` format have been pushed t
 ### TBS model
 
 
--   URN: `urn:cite2:hmt:tbsmodel.v1`
--   Documentation:  <https://homermultitext.github.io/tbsmodel>
+-   URN: `urn:cite2:cite:datamodels.v1:tbsmodel`
+-   Documentation:  <https://cite-architecture.github.io/tbsmodel>
 
 Applies to the following files:
 
@@ -53,7 +53,7 @@ Applies to the following files:
 
 ### Diplomatic Scholarly Edition (DSE) model
 
--  URN: `urn:cite2:dse:datamodel.v1`
+-  URN: `urn:cite2:cite:datamodels.v1:dsemodel`
 -  Documentation:  <https://cite-architecture.github.io/dse/>
 
 
