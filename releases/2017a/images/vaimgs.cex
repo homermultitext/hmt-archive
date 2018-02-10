@@ -1,10 +1,12 @@
+#!datamodels
+Collection#Model#Label#Description
+urn:cite2:hmt:vaimg.2017a:#urn:cite2:cite:datamodels.v1:imagemodel#Citable image model#CITE model of a citable image
+
 #!citecollections
-// Documentary images:
 URN#Description#Labelling property#Ordering property#License
 urn:cite2:hmt:vaimg.2017a:#Images of the Venetus A manuscriptscript#urn:cite2:hmt:vaimg.2017a.caption:##CC-attribution-share-alike
 
 #!citeproperties
-// Documentary images:
 Property#Label#Type#Authority list
 urn:cite2:hmt:vaimg.2017a.urn:#URN#Cite2Urn#
 urn:cite2:hmt:vaimg.2017a.caption:#Caption#String#
