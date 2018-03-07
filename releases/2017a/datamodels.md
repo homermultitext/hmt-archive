@@ -66,7 +66,7 @@ Applies to the following files:
 
 All texts follow the OHCO2 model.
 
-Documentation:  link TBA
+Documentation:  <https://cite-architecture.github.io/ohco2/>
 
 
 Applies to the following files:
