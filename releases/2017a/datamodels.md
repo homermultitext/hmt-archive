@@ -59,7 +59,8 @@ Applies to the following files:
 
 Applies to the following files:
 
--  dsemodel.cex. Coverage:  Venetus A *Iliad* and scholia.
+-  `dse/venA-iliad-dse.cex` Coverage:  Venetus A *Iliad*
+-  scholia
 
 
 ## HMT texts
