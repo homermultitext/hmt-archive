@@ -1,0 +1,10 @@
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:relations.v1.urn:#URN#Cite2Urn#
+urn:cite2:hmt:relations.v1.label:#Label#String#
+
+
+#!citedata
+urn#label
+urn:cite2:hmt:relations.v1.urn:commentsOn#A passage of text comments on another passage of text.  Subject of statement (a CTS URN) comments on object of statement  (a CTS URN).
+urn:cite2:hmt:relations.v1.urn:annotates#A graphic object annotates a passage of text. Subject of statement (a CITE2 URN) annotates object of statement (a CTS URN).
