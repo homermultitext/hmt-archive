@@ -1,18 +1,14 @@
 
 # Data models of published modules
 
+Mapping of CEX files to data models.   File names in `code` format have been released in `2018a`.
 
-## HMT collections
-
-Collections in this release follow one of the data models listed here.
-
-### Citable Image model
-
+### Citable image model
 
 -  URN: `urn:cite2:cite:datamodels.v1:imagemodel`
 -  Documentation:  <https://cite-architecture.github.io/imagemodel>
 
-Applies to the following files.  (File names in `code` format have been pushed to hmt-archive for publication.)
+Applies to:
 
 -   `images/vaimgs.cex`
 -   `images/vbimgs.cex`
@@ -29,15 +25,17 @@ Applies to the following files.  (File names in `code` format have been pushed t
 -   upsilon-1-1.cex
 -   vgf64img.cex
 
+### Binary image model
 
+TBD
 
-### TBS model
+### Text-bearing surface model
 
 
 -   URN: `urn:cite2:cite:datamodels.v1:tbsmodel`
 -   Documentation:  <https://cite-architecture.github.io/tbsmodel>
 
-Applies to the following files:
+Applies to:
 
 
 -   `codex/vapages.cex`
@@ -49,18 +47,29 @@ Applies to the following files:
 -   upsilon-1-1.cex
 
 
-
-
 ### Diplomatic Scholarly Edition (DSE) model
 
 -  URN: `urn:cite2:cite:datamodels.v1:dsemodel`
 -  Documentation:  <https://cite-architecture.github.io/dse/>
 
 
-Applies to the following files:
+Applies to:
 
--  `dse/venA-iliad-dse.cex` Coverage:  Venetus A *Iliad*
--  scholia
+-  `dse/venA-iliad-dse.cex`
+-  `dse/venA-scholia-dse.cex`
+
+
+
+### Text commentary model
+
+TBD
+
+
+### Text annotation model
+
+TBD
+
+
 
 
 ## HMT texts
@@ -70,9 +79,13 @@ All texts follow the OHCO2 model.
 Documentation:  <https://cite-architecture.github.io/ohco2/>
 
 
-Applies to the following files:
+Applies to:
 
-Coverage: Venetus A *Iliad* and scholia in pure diplomatic and scribally corrected editions.
+
+- editions/....
+
+
+
 
 ## HMT indices
 
@@ -80,4 +93,6 @@ Indexed relations follows the CITE data exchange model relating two citable obje
 
 -   Documentation:  <https://cite-architecture.github.io/citedx/CEX-spec-3.0.1/#relations>
 
-Applies to the following files:
+Applies to:
+
+NONE IN 2018a
