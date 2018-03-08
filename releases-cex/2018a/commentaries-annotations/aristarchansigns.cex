@@ -13,7 +13,7 @@ urn:cite2:hmt:critsigns.v1.notes:#Notes on Unicode value#String#
 
 
 #!citedata
-urn#englishName#GreekName#UnicodeHex#UnicodeNotes
+urn#englishName#greekName#ucodeHex#notes
 urn:cite2:hmt:critsigns.v1.urn:diple#diple#διπλῆ ἀπερίστικτος#003E#No distinct character:  substitute greater-than sign for display.
 urn:cite2:hmt:critsigns.v1.urn:dotteddiple#dotted diple#διπλῆ περιεστιγμένη#2E16#Dotted right-pointing angle
 urn:cite2:hmt:critsigns.v1.urn:obelos#obelos#ὀβελός#2014#No distinct character:  substitute en dash for display.

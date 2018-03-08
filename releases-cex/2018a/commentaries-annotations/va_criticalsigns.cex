@@ -4,9 +4,10 @@ urn:cite2:hmt:va_signs.v1:#Occurrences of Aristarchan critical signs in the Veen
 
 #!citeproperties
 Property#Label#Type#Authority list
-urn:cite2:hmt:va_signs.v1.urn:#Critical sign#Cite2Urn#
+urn:cite2:hmt:va_signs.v1.urn:#URN#Cite2Urn#
 urn:cite2:hmt:va_signs.v1.label:#Name#Cite2Urn#
 urn:cite2:hmt:va_signs.v1.passage:#Iliad line#CtsUrn#
+urn:cite2:hmt:va_signs.v1.critsign:#Critical sign#Cite2Urn#
 urn:cite2:hmt:va_signs.v1.sequence:#Sequence#Number#
 
 #!citedata

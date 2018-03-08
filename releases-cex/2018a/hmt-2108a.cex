@@ -700,7 +700,7 @@ urn:cite2:hmt:critsigns.v1.notes:#Notes on Unicode value#String#
 
 
 #!citedata
-urn#englishName#GreekName#UnicodeHex#UnicodeNotes
+urn#englishName#greekName#ucodeHex#notes
 urn:cite2:hmt:critsigns.v1.urn:diple#diple#διπλῆ ἀπερίστικτος#003E#No distinct character:  substitute greater-than sign for display.
 urn:cite2:hmt:critsigns.v1.urn:dotteddiple#dotted diple#διπλῆ περιεστιγμένη#2E16#Dotted right-pointing angle
 urn:cite2:hmt:critsigns.v1.urn:obelos#obelos#ὀβελός#2014#No distinct character:  substitute en dash for display.
@@ -713,9 +713,10 @@ urn:cite2:hmt:va_signs.v1:#Occurrences of Aristarchan critical signs in the Veen
 
 #!citeproperties
 Property#Label#Type#Authority list
-urn:cite2:hmt:va_signs.v1.urn:#Critical sign#Cite2Urn#
+urn:cite2:hmt:va_signs.v1.urn:#URN#Cite2Urn#
 urn:cite2:hmt:va_signs.v1.label:#Name#Cite2Urn#
 urn:cite2:hmt:va_signs.v1.passage:#Iliad line#CtsUrn#
+urn:cite2:hmt:va_signs.v1.critsign:#Critical sign#Cite2Urn#
 urn:cite2:hmt:va_signs.v1.sequence:#Sequence#Number#
 
 #!citedata
