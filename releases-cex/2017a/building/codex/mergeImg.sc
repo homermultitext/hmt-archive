@@ -1,7 +1,7 @@
 import scala.io.Source
 
 val cex1 = "vapages.cex"
-val index = "index.tsv"
+val index = "vaimglist.txt"
 
 val cex = Source.fromFile(cex1).getLines.toVector
 
