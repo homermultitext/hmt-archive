@@ -1,8 +1,8 @@
 import scala.io.Source
 import edu.holycross.shot.cite._
 
-val imgReff = "venA-Iliad-1-image.cex"
-val surfaceReff = "venA-Iliad-surface.cex"
+val imgReff = "iliad-source/venA-Iliad-1-image.cex"
+val surfaceReff = "iliad-source/venA-Iliad-surface.cex"
 
 val imgLines = Source.fromFile(imgReff).getLines.toVector
 
