@@ -1,37 +1,24 @@
 
 # Data models of published modules
 
-
 ## HMT collections
 
 Collections in this release follow one of the data models listed here.
 
-### Citable Image model
+### Citable image model
 
 
 -  URN: `urn:cite2:cite:datamodels.v1:imagemodel`
 -  Documentation:  <https://cite-architecture.github.io/imagemodel>
 
-Applies to the following files.  (File names in `code` format have been pushed to hmt-archive for publication.)
+Applies to the following files.
 
 -   `images/vaimgs.cex`
 -   `images/vbimgs.cex`
--   bankes.cex
--   chicago.cex
--   churikimgs.cex
--   codbod85.cex
--   comparetti-images.cex
--   e3bifolios.cex
--   e4.cex
--   gen44.cex
--   marciana-841.cex
--   muncg88img.cex
--   upsilon-1-1.cex
--   vgf64img.cex
 
 
 
-### TBS model
+### Text-bearing surface model
 
 
 -   URN: `urn:cite2:cite:datamodels.v1:tbsmodel`
@@ -39,16 +26,7 @@ Applies to the following files.  (File names in `code` format have been pushed t
 
 Applies to the following files:
 
-
 -   `codex/vapages.cex`
--   venetusB.cex
--   comparetti-codex.cex
--   marciana841.cex
--   muncg88model.cex
--   omega-1-12.cex
--   upsilon-1-1.cex
-
-
 
 
 ### Diplomatic Scholarly Edition (DSE) model
@@ -59,8 +37,31 @@ Applies to the following files:
 
 Applies to the following files:
 
--  `dse/venA-iliad-dse.cex` Coverage:  Venetus A *Iliad*
--  scholia
+-  `dse/venA-iliad-dse.cex`
+-  `dse/venA-scholia-dse.cex`
+
+
+
+
+
+### Text commentary model
+
+
+-   URN: `urn:cite2:cite:datamodels.v1:textcommentary`
+-   Documentation:  TBA
+
+Applies to the following files:
+
+
+
+### Text annotation model
+
+
+-   URN: `urn:cite2:cite:datamodels.v1:textannotation`
+-   Documentation:  TBA
+
+Applies to the following files:
+
 
 
 ## HMT texts
@@ -72,11 +73,13 @@ Documentation:  <https://cite-architecture.github.io/ohco2/>
 
 Applies to the following files:
 
+TBA
+
 Coverage: Venetus A *Iliad* and scholia in pure diplomatic and scribally corrected editions.
 
 ## HMT indices
 
-Indexing follows the CITE data exchange model relating two citable objects in a S-V-O statement.
+Indexed relations follows the CITE data exchange model relating two citable objects in a S-V-O statement.
 
 -   Documentation:  <https://cite-architecture.github.io/citedx/CEX-spec-3.0.1/#relations>
 
