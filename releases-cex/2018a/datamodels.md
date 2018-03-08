@@ -1,6 +1,8 @@
 
 # Data models of published modules
 
+This release includes publication in CEX of canonically citable objects in collections, and of canonically citable texts.
+
 ## HMT collections
 
 Collections in this release follow one of the data models listed here.
@@ -83,4 +85,5 @@ Indexed relations follows the CITE data exchange model relating two citable obje
 
 -   Documentation:  <https://cite-architecture.github.io/citedx/CEX-spec-3.0.1/#relations>
 
-Applies to the following files:
+
+No citable indices are included in this release.
