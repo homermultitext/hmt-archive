@@ -82,9 +82,12 @@ Documentation:  <https://cite-architecture.github.io/ohco2/>
 Applies to:
 
 
-- editions/....
-
-
+- `editions/va_iliad_xml.cex`
+-  editions/va_iliad_dipl.cex
+-  editions/va_iliad_n1.cex
+-  editions/va_scholia_xml.cex
+-  editions/va_scholia_dipl.cex
+-  editions/va_scholia_n1.cex
 
 
 ## HMT indices
