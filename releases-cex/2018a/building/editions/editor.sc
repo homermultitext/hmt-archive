@@ -11,11 +11,11 @@ val repo = TextRepositorySource.fromFiles(catalog,citation,"src")
 
 new PrintWriter("va_iliad_xml.cex") { write(repo.cex("#"));close }
 
-/*
+
 val tokens = TeiReader.fromCorpus(repo.corpus)
 
 val diplIliad = DiplomaticEditionFactory.corpusFromTokens(tokens)
-*/
+
 
 
 // MOVE THESE TWO TO OHCO2
@@ -42,3 +42,10 @@ def exemplarToVersion(c: Corpus, newVersionId: String) = {
     flattenIt(_, newVersionId)).sortBy(_._1).map( _._2)
     )
 }
+
+
+val diplIliadByLine = exemplarToVersion(diplIliad, "msA")
+
+val diplHeader = "#!ctscatalog\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+
+new PrintWriter("va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
