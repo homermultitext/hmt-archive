@@ -6,7 +6,4 @@ val catalog = "src/ctscatalog.cex"
 val citation = "src/citationconfig.cex"
 
 // Publish Iliad in one line:
-new PrintWriter("va_iliad_xml.cex") { write(TextRepositorySource.fromFiles(catalog,citation,"src").cex());close }
-
-
-
+new PrintWriter("va_iliad_xml.cex") { write(TextRepositorySource.fromFiles(catalog,citation,"src").cex("#"));close }
