@@ -46,6 +46,6 @@ def exemplarToVersion(c: Corpus, newVersionId: String) = {
 
 val diplIliadByLine = exemplarToVersion(diplIliad, "msA")
 
-val diplHeader = "#!ctscatalog\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
 
 new PrintWriter("va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
