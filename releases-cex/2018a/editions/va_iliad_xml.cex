@@ -1,6 +1,10 @@
+
+
 #!ctscatalog
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
 urn:cts:greekLit:tlg0012.tlg001.va_xml:#book,line#Homeric epic#Iliad#HMT project archival XML edition##true#grc
+
+
 #!ctsdata
 urn:cts:greekLit:tlg0012.tlg001.va_xml:1.5#<l n="5" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">οἰωνοῖσί τε πᾶσι· <persName n="urn:cite2:hmt:pers.r1:pers8">Διὸς</persName> δ' ἐτελείετο βουλή· </l>
 urn:cts:greekLit:tlg0012.tlg001.va_xml:1.6#<l n="6" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε </l>
@@ -7929,3 +7933,5 @@ urn:cts:greekLit:tlg0012.tlg001.va_xml:12.845#<l n="845" xmlns:tei="http://www.t
 urn:cts:greekLit:tlg0012.tlg001.va_xml:12.846#<l n="846" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">νίζ' ὕδατι λιαρῷ· ἐπι δὲ ῥίζαν βάλε πικρὴν</l>
 urn:cts:greekLit:tlg0012.tlg001.va_xml:12.847#<l n="847" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">χερσὶ διατρίψας ὀδυνήφατον. ἥ οἱ ἁπάσας</l>
 urn:cts:greekLit:tlg0012.tlg001.va_xml:12.848#<l n="848" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"> ἔσχ' ὀδύνας· τὸ μὲν ἕλκος ἐτέρσετο. παύσατο δ' αἷμα·</l>
+
+
