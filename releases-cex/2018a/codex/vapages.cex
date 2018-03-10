@@ -1,5 +1,13 @@
+
+
+
 #!datamodels
 urn:cite2:hmt:msA.v1:#urn:cite2:cite:datamodels.v1:tbsmodel#Codex model#CITE model of a sequence of text-bearing surfaces
+
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:msA.v1:#Venetus A manuscripts#urn:cite2:hmt:msA.v1.label:#urn:cite2:hmt:msA.v1.sequence:#CC-attribution-share-alike
 
 #!citeproperties
 Property#Label#Type#Authority list
@@ -673,3 +681,5 @@ sequence#urn#rv#label#defaultimg
 657#urn:cite2:hmt:msA.v1:backfly2r#recto#Venetus A (Marciana 454 = 822), back fly leaf 2, recto#urn:cite2:hmt:vaimg.2017a:VAMSFlyleaf_rectoN_0498
 658#urn:cite2:hmt:msA.v1:backfly2v#verso#Venetus A (Marciana 454 = 822), back fly leaf 2, verso#urn:cite2:hmt:vaimg.2017a:VAMSFlyleaf_versoN_0830
 659#urn:cite2:hmt:msA.v1:insidebackcover#recto#Venetus A (Marciana 454 = 822), inside back cover#urn:cite2:hmt:vaimg.2017a:VAMSInside_back_cover_rectoN_0499
+
+
