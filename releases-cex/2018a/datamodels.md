@@ -39,8 +39,8 @@ Applies to the following files:
 
 Applies to the following files:
 
--  `dse/venA-iliad-dse.cex`
--  `dse/venA-scholia-dse.cex`
+-  `dse/va-dse.cex`
+
 
 
 
@@ -55,6 +55,7 @@ Applies to the following files:
 Applies to the following files:
 
 
+-    commentaries-annotations/scholia-on-iliad.cex
 
 ### Text annotation model
 
@@ -64,6 +65,8 @@ Applies to the following files:
 
 Applies to the following files:
 
+-    `commentaries-annotations/aristarchansigns.cex`
+-    `commentaries-annotations/va_criticalsigns.cex`
 
 
 ## HMT texts
@@ -75,9 +78,12 @@ Documentation:  <https://cite-architecture.github.io/ohco2/>
 
 Applies to the following files:
 
-TBA
+-   `va_iliad_xml.cex`
+-   `va_iliad_diplomatic.cex`
+-   va_scholia_xml.cex
+-   va_scholia_diplomatic.cex
 
-Coverage: Venetus A *Iliad* and scholia in pure diplomatic and scribally corrected editions.
+
 
 ## HMT indices
 
