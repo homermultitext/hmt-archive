@@ -8,7 +8,6 @@ def scholiaSet(dir: String = "./"): Set[String] = {
   val fileVector = libraryDir.listFiles.filter(_.isFile).toVector
   val xmlFiles = fileVector.filter(_.getName.endsWith("xml"))
   val allGroups = for (f <- xmlFiles) yield {
-    //println("Parse " + f + "...")
     val root = XML.loadFile(f)
     val groups = root \ "text" \ "group" \ "text"
     groups
@@ -24,7 +23,7 @@ def composite(document : String, files: Vector[File]): String = {
     val teiGroup = root \ "text" \ "group"
     val bkNode = teiGroup(0)
     val book = bkNode.attribute("n").get
-    val bookOpen = s"""<div n="${book}">"""
+    val bookOpen = s"""<div n="${book}" type="book">"""
 
     val allDocs = bkNode \ "text"
     val relevant = allDocs.filter(_.attribute("n").get.text == document)
