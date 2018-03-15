@@ -7,7 +7,7 @@ def scholiaSet(dir: String = "./"): Set[String] = {
   val fileVector = libraryDir.listFiles.filter(_.isFile).toVector
   val xmlFiles = fileVector.filter(_.getName.endsWith("xml"))
   val allGroups = for (f <- xmlFiles) yield {
-    println("Parse " + f + "...")
+    //println("Parse " + f + "...")
     val root = XML.loadFile(f)
     val groups = root \ "text" \ "group" \ "text"
     println("Found " + groups.size + " scholia groups")
@@ -23,11 +23,19 @@ def composite(dir: String = "./") = {
   val fileVector = libraryDir.listFiles.filter(_.isFile).toVector
   val xmlFiles = fileVector.filter(_.getName.endsWith("xml"))
   for (f <- xmlFiles) {
-    println("Parse " + f + "...")
+    
     val root = XML.loadFile(f)
-    val grp = root \ "text" \ "group"
-    val bookOpen = s"""<div n="${grp(0).attribute("n").get}">"""
-    println ("OPEN: " + bookOpen)
+    val teiGroup = root \ "text" \ "group"
+    val bkNode = teiGroup(0)
+    val book = bkNode.attribute("n").get
+    val bookOpen = s"""<div n="${book}">"""
+
+    val scholiaDocs = bkNode \ "text"
+    for (doc <- scholiaDocs) {
+      println(s"Book ${book}, shcolia " +  doc.attribute("n").get.text)
+      val scholia = doc \ "body" \ "div"
+      println("\t" + scholia.size + " scholia.")
+    }
   }
 
 }
