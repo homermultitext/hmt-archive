@@ -1,0 +1,2775 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title>Composite text of HMT XML edition of scholia</title>
+           </titleStmt>
+           <publicationStmt>
+              <p>Unpublished</p>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Transcribed from Venetus A MS</p>
+           </sourceDesc>
+        </fileDesc>
+     </teiHeader>
+     <text xml:lang="grc"><body>
+
+<div n="1" type="book"><div type="scholion" n="26" ana="24b" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                     <div n="lemma"/>
+                     <div type="ref">
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.24</p>
+                     </div>
+                     <div n="comment">
+                        <p>ἀλλ' οὐκ <persName n="urn:cite2:hmt:pers.r1:pers22">Ἀτρειδη</persName>
+                           <persName n="urn:cite2:hmt:pers.r1:pers22"><w>Ἀγαμέμνο<supplied reason="lost">νι</supplied></w></persName>
+                           <supplied reason="lost">ἥνδανε</supplied> ἀρχικὸν τὸ μὴ ἐπιτρεπειν τοῖς
+                           ἀρχομένοις <supplied reason="lost">τὰς</supplied> κρίσεις ἄλλως τε
+                              <supplied reason="lost">καὶ οὐκ</supplied>
+                           <supplied reason="lost">ἐ</supplied> πεκηρυκεύσατο <supplied reason="lost">ἀλλὰ τὸ</supplied> τοῦ βασιλέως <w>γέ<supplied reason="lost">ρας</supplied></w>
+                           <supplied reason="lost">ᾔτει παρὰ τῶν ἀρχομένων</supplied></p>
+                     </div>
+                  </div>
+<div type="scholion" n="135" ana="106c" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                     <div n="lemma"/>
+                     <div type="ref">
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.106</p>
+                     </div>
+                     <div n="comment">
+                        <p><choice>
+                              <abbr>ση</abbr>
+                              <expan>σημειωτέον</expan>
+                           </choice> ὅτι τὸ <rs type="waw">κρήγυον</rs> απαξ:</p>
+                     </div>
+                  </div>
+<div type="scholion" n="564" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                     <div n="lemma"/>
+                     <div type="ref">
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.184</p>
+                     </div>
+                     <div n="comment">
+                        <p><persName n="urn:cite2:hmt:pers.r1:pers113">Βρισηῒς</persName> απο τοῦ <rs type="waw">βρι</rs>
+                           ἡ βαροῦσα πάντας ἡ πάντα τῷ κάλλει⁑</p>
+                     </div>
+                  </div>
+<div type="scholion" n="1502" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                     <div n="lemma"/>
+                     <div type="ref">
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.608</p>
+                     </div>
+                     <div n="comment">
+                        <p>γράφεται ποίησ' εἰδυίῃσι πρα<supplied reason="lost">πίδεσσι</supplied></p>
+                     </div>
+                  </div></div>
+<div n="2" type="book"><div type="scholion" n="122" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.65</p>
+                  </div>
+                  <div n="comment">
+                     <p>γράφεται θωρῆξάισ' ἐκέλευε·</p>
+                  </div>
+               </div>
+<div type="scholion" n="271" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.137</p>
+                  </div>
+                  <div n="comment">
+                     <p><choice>
+                           <abbr>γρ</abbr>
+                           <expan>γράφεται</expan>
+                        </choice> εἱατ' ἐνι μεγαροις <w>ποτιδέγ<unclear reason="lost">μεναι</unclear></w></p>
+                  </div>
+               </div>
+<div type="scholion" n="466" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.294</p>
+                  </div>
+                  <div n="comment">
+                     <p>ειλέωσιν</p>
+                  </div>
+               </div>
+<div type="scholion" n="467" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.300</p>
+                  </div>
+                  <div n="comment">
+                     <p>εἰ ἐτεὸν</p>
+                  </div>
+               </div>
+<div type="scholion" n="482" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.324</p>
+                  </div>
+                  <div n="comment">
+                     <p>μὲν</p>
+                  </div>
+               </div>
+<div type="scholion" n="503" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.351</p>
+                  </div>
+                  <div n="comment">
+                     <p>ἐπωκυποροισιν</p>
+                  </div>
+               </div>
+<div type="scholion" n="516" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.387</p>
+                  </div>
+                  <div n="comment">
+                     <p>διακρινέει</p>
+                  </div>
+               </div>
+<div type="scholion" n="567" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.462</p>
+                  </div>
+                  <div n="comment">
+                     <p>μεναι</p>
+                  </div>
+               </div>
+<div type="scholion" n="583" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.468</p>
+                  </div>
+                  <div n="comment">
+                     <p>γεινεται ὤρη</p>
+                  </div>
+               </div>
+<div type="scholion" n="584" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.481</p>
+                  </div>
+                  <div n="comment">
+                     <p>ρομένησι</p>
+                  </div>
+               </div>
+<div type="scholion" n="511x" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma"><p/></div>
+                  <div type="ref">
+                  <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.511</p>
+                  </div>
+                     <div n="comment">
+                        <p>ἀσπληδον' ἔναιον</p>
+                     </div>
+               </div>
+<div type="scholion" n="623" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.537</p>
+                  </div>
+                  <div n="comment">
+                     <p>πολυσταί φυλον θ' ἱστίαιαν</p>
+                  </div>
+               </div>
+<div type="scholion" n="685" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.646</p>
+                  </div>
+                  <div n="comment">
+                     <p><placeName n="urn:cite2:hmt:place.r1:place251">Γόρτυνά</placeName> τε</p>
+                  </div>
+               </div>
+<div type="scholion" n="686" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.655</p>
+                  </div>
+                  <div n="comment">
+                     <p>ἱη</p>
+                  </div>
+               </div>
+<div type="scholion" n="687" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.663</p>
+                  </div>
+                  <div n="comment">
+                     <p>ὄζος</p>
+                  </div>
+               </div>
+<div type="scholion" n="714" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.716</p>
+                  </div>
+                  <div n="comment">
+                     <p>μηθάνην</p>
+                  </div>
+               </div>
+<div type="scholion" n="734" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.723</p>
+                  </div>
+                  <div n="comment">
+                     <p>μαχθιζοντα</p>
+                  </div>
+               </div>
+<div type="scholion" n="751" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.761</p>
+                  </div>
+                  <div n="comment">
+                     <p>τις γὰρ</p>
+                  </div>
+               </div>
+<div type="scholion" n="752" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.766</p>
+                  </div>
+                  <div n="comment">
+                     <p>πιερίη</p>
+                  </div>
+               </div>
+<div type="scholion" n="789" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.819</p>
+                  </div>
+                  <div n="comment">
+                     <p>πάεϊς</p>
+                  </div>
+               </div></div>
+<div n="3" type="book"><div type="scholion" n="684" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.63</p>
+                  </div>
+                  <div n="comment">
+                     <p>ὡς τοι</p>
+                  </div>
+               </div>
+<div type="scholion" n="718" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.219</p>
+                  </div>
+                  <div n="comment">
+                     <p> ἀΐδρει</p>
+                  </div>
+               </div>
+<div type="scholion" n="729" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.63</p>
+                  </div>
+                  <div n="comment">
+                     <p>έστηκ'·</p>
+                  </div>
+               </div>
+<div type="scholion" n="731" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.259</p>
+                  </div>
+                  <div n="comment">
+                     <p>ἑταίρους</p>
+                  </div>
+               </div>
+<div type="scholion" n="735" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.280</p>
+                  </div>
+                  <div n="comment">
+                     <p>μάρτυροί εστε</p>
+                  </div>
+               </div>
+<div type="scholion" n="736" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.281</p>
+                  </div>
+                  <div n="comment">
+                     <p>εἰ μεν κεν</p>
+                  </div>
+               </div>
+<div type="scholion" n="742" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.325</p>
+                  </div>
+                  <div n="comment">
+                     <p>ὅτι σαφῶς ἐνταῦθα βραχείαν <choice>
+                     </choice> τῆν ὑπο στιγμην εἵρηκεν  ⁑</p>
+                  </div>
+               </div>
+<div type="scholion" n="743" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p>ορωῶν</p>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.325</p>
+                  </div>
+                  <div n="comment">
+                     <p>παρὰ τὸ <quote>ῥῶ</quote> τὸ <quote>ὁρμῶ</quote> τελέαν ασαμοῦ· τοῦ <rs type="waw">ο</rs> </p>
+                  </div>
+               </div>
+<div type="scholion" n="752" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.328</p>
+                  </div>
+                  <div n="comment">
+                     <p>ἐαν τατο </p>
+                  </div>
+               </div></div>
+<div n="4" type="book"><div type="scholion" n="830" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.245</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>γίνεται</p>
+                                    </div>
+                              </div>
+<div type="scholion" n="1002" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.259</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>δαὶθ' ὅτε</p>
+                                    </div>
+                              </div>
+<div type="scholion" n="840" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.307</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>κρατῆσας ἐπιβη μαχεται <w>μ<unclear>ῆ</unclear></w>
+                                                <w>εξελαῦ<unclear>ν</unclear>ειν</w> σπουδαζειν οἱ
+                                                δὲ <choice>
+                                                  <abbr>ουτ</abbr>
+                                                  <expan>οὕτως</expan>
+                                                </choice> ὅς τις δ' αν φησὶ
+                                                  <w>ἀπο<unclear>π</unclear>εσῃ</w> τοῦ ἰδιου <choice>
+                                                  <abbr>αρματ</abbr>
+                                                  <expan>ἅρματος</expan>
+                                                </choice></p>
+                                    </div>
+                              </div>
+<div type="scholion" n="841" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.308</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>πόλιας</p>
+                                    </div>
+                              </div>
+<div type="scholion" n="865" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.400</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>ἀμείνω·</p>
+                                    </div>
+                              </div>
+<div type="scholion" n="870" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.413</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>νεμεσῶ. <choice>
+                                                  <abbr>δοτ</abbr>
+                                                  <expan>δοτικός</expan>
+                                                </choice></p>
+                                    </div>
+                              </div>
+<div type="scholion" n="871" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.424</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>πόντῳ μὲν τὰ <choice>
+                                                  <abbr>πρωτ</abbr>
+                                                  <expan>πρῶτα</expan>
+                                                </choice>:</p>
+                                    </div>
+                              </div>
+<div type="scholion" n="886" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                                    <div n="lemma">
+                                          <p/>
+                                    </div>
+                                    <div type="ref">
+                                          <p>urn:cts:greekLit:tlg0012.tlg001.msA:4.516</p>
+                                    </div>
+                                    <div n="comment">
+                                          <p>μεθιέντας</p>
+                                    </div>
+                              </div></div>
+<div n="5" type="book"><div type="scholion" n="2044" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.314</p>
+            </div>
+            <div n="comment">
+              <p>ἀμφι δ‘ εὸν</p>
+            </div>
+          </div>
+<div type="scholion" n="4077" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.686</p>
+            </div>
+            <div n="comment">
+              <p><note>read from Comparetti's Venetus A facsimile</note>
+                <unclear>οὐκ άρ' </unclear>
+                <gap unit="chars" reason="damaged" extent="1 or more"/>
+              </p>
+            </div>
+          </div>
+<div type="scholion" n="4078" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.697</p>
+            </div>
+            <div n="comment">
+              <p>γράφεται ἀμπνύνθη</p>
+            </div>
+          </div>
+<div type="scholion" n="4079" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.698</p>
+            </div>
+            <div n="comment">
+              <p><gap unit="chars" reason="illegible" extent="2"/></p>
+            </div>
+          </div>
+<div type="scholion" n="4080" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.703</p>
+            </div>
+            <div n="comment">
+              <p><w>ξ<unclear>ει</unclear>ν</w></p>
+            </div>
+          </div>
+<div type="scholion" n="4081" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.709</p>
+            </div>
+            <div n="comment">
+              <p>κεικλοι</p>
+            </div>
+          </div>
+<div type="scholion" n="4082" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.768</p>
+            </div>
+            <div n="comment">
+              <p>ουκ άκοντε</p>
+            </div>
+          </div>
+<div type="scholion" n="4083" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.808</p>
+            </div>
+            <div n="comment">
+              <p>τοί η</p>
+            </div>
+          </div>
+<div type="scholion" n="4084" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.811</p>
+            </div>
+            <div n="comment">
+              <p>αλλὰσεῦ</p>
+            </div>
+          </div>
+<div type="scholion" n="4085" ana="813" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma">
+              <p/>
+            </div>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.813</p>
+            </div>
+            <div n="comment">
+              <p>ἐκγονος ὁ υἱος· ἐγγονος ὁ υἱωνός</p>
+            </div>
+          </div>
+<div type="scholion" n="5034" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.847</p>
+            </div>
+            <div n="comment">
+              <p><unclear>ὀλ</unclear><note>read from Comparetti</note></p>
+            </div>
+          </div>
+<div type="scholion" n="5009" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.852</p>
+            </div>
+            <div n="comment">
+              <p><unclear>ολέιται</unclear></p>
+            </div>
+          </div>
+<div type="scholion" n="5010" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.854</p>
+            </div>
+            <div n="comment">
+              <p><w>ὑπ<unclear>ε</unclear>κδιφρ<unclear>ο</unclear></w><gap/></p>
+            </div>
+          </div>
+<div type="scholion" n="6031" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.96</p>
+            </div>
+            <div n="comment">
+              <p><abbr>ἀμπεδ</abbr></p>
+            </div>
+          </div>
+<div type="scholion" n="6032" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.104</p>
+            </div>
+            <div n="comment">
+              <p><abbr>δηθ</abbr><note resp="HMT">The rest is cut off.</note></p>
+            </div>
+          </div>
+<div type="scholion" n="6055" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.178</p>
+            </div>
+            <div n="comment">
+              <p><unclear>η</unclear></p>
+            </div>
+          </div>
+<div type="scholion" n="6065" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.198</p>
+            </div>
+            <div n="comment">
+              <p>ἐνῖ <abbr>ποιητ</abbr></p>
+            </div>
+          </div>
+<div type="scholion" n="6066" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.198</p>
+            </div>
+            <div n="comment">
+              <p><unclear>ἰ</unclear><note resp="HMT">Cut off at the edge of the page.</note></p>
+            </div>
+          </div>
+<div type="scholion" n="6080" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.213</p>
+            </div>
+            <div n="comment">
+              <p>ψερὲφ’</p>
+            </div>
+          </div>
+<div type="scholion" n="6101" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.252</p>
+            </div>
+            <div n="comment">
+              <p>ὀΐα</p>
+            </div>
+          </div>
+<div type="scholion" n="6120" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.279</p>
+            </div>
+            <div n="comment">
+              <p>τύχοιμι</p>
+            </div>
+          </div>
+<div type="scholion" n="6131" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.288</p>
+            </div>
+            <div n="comment">
+              <p>πάνσεσθαι</p>
+            </div>
+          </div>
+<div type="scholion" n="6132" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+            <div n="lemma"/>
+            <div type="ref">
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:5.894</p>
+            </div>
+            <div n="comment">
+              <p>ὀΐω</p>
+            </div>
+          </div></div>
+<div n="6" type="book"><div n="294" type="scholion" ana="unknown" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.120</p>
+                        </div>
+                        <div n="comment">
+                            <p>ἀμφατέρων</p>
+                        </div>
+                    </div>
+<div n="295" type="scholion" ana="unknown" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.187</p>
+                        </div>
+                        <div n="comment">
+                            <p>δόλον</p>
+                        </div>
+                    </div>
+<div n="296" type="scholion" ana="unknown" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.246</p>
+                        </div>
+                        <div n="comment">
+                            <p>σίοι</p>
+                        </div>
+                    </div>
+<div n="297" type="scholion" ana="unknown" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.285</p>
+                        </div>
+                        <div n="comment">
+                            <p>ἄτερπου</p>
+                        </div>
+                    </div>
+<div n="298" type="scholion" ana="unknown" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.445</p>
+                        </div>
+                        <div n="comment">
+                            <p>οὐδεσμε</p>
+                        </div>
+                    </div>
+<div n="299" type="scholion" ana="unknown" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.479</p>
+                        </div>
+                        <div n="comment">
+                            <p>εβίην θόντε</p>
+                        </div>
+                    </div>
+<div n="300" type="scholion" ana="506-11a.2" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.506-6.511</p>
+                        </div>
+                        <div n="comment">
+                            <p>οτι εις ὁ κειται</p>
+                        </div>
+                    </div></div>
+<div n="7" type="book"><div type="scholion" n="23" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.5</p>
+                  </div>
+                  <div n="comment">
+                     <p> εχην <sic><unclear>ι</unclear></sic><gap/>
+                     </p>
+                  </div>
+               </div>
+<div type="scholion" n="22" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.6</p>
+                  </div>
+                  <div n="comment">
+                     <p>γράφεται <q>ἐρέσσοντες</q></p>
+                  </div>
+               </div>
+<div type="scholion" n="318" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.93</p>
+                  </div>
+                  <div n="comment">
+                     <p>ἀνήνασθαι</p>
+                  </div>
+               </div>
+<div type="scholion" n="319" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.95</p>
+                  </div>
+                  <div n="comment">
+                     <p><q><gap/><sic>ε</sic> στεναχιζετο</q></p>
+                  </div>
+               </div>
+<div type="scholion" n="1066" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.133</p>
+                  </div>
+                  <div n="comment">
+                     <p><del>ἡβώμ'</del></p>
+                  </div>
+               </div>
+<div type="scholion" n="1046" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.185</p>
+                  </div>
+                  <div n="comment">
+                     <p><w>ἀπηνήνα<unclear>ν</unclear>το</w></p>
+                  </div>
+               </div>
+<div type="scholion" n="1047" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.186</p>
+                  </div>
+                  <div n="comment">
+                     <p><q>αλλ' ὁτε δὴ τὸν ἵ̈κανεν</q></p>
+                  </div>
+               </div>
+<div type="scholion" n="1048" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.198</p>
+                  </div>
+                  <div n="comment">
+                     <p>γράφεται <q>οὐδε τε, ϊδρείη</q>
+                     </p>
+                  </div>
+               </div>
+<div type="scholion" n="1056" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.220</p>
+                  </div>
+                  <div n="comment">
+                     <p><del><sic><w>τύχι<unclear>ο</unclear></w></sic></del><gap/></p>
+                  </div>
+               </div>
+<div type="scholion" n="1065" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.250</p>
+                  </div>
+                  <div n="comment">
+                     <p><gap/><sic>οσ'</sic> ἐίσην</p>
+                  </div>
+               </div>
+<div type="scholion" n="2008" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma"/>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.269</p>
+                  </div>
+                  <div n="comment">
+                     <p><q>ἐπέρεισε δὲ</q></p>
+                  </div>
+               </div>
+<div type="scholion" n="2018" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma"/>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.280</p>
+                  </div>
+                  <div n="comment">
+                     <p><rs type="waw">γὰρ σφῶϊ</rs></p>
+                  </div>
+               </div>
+<div type="scholion" n="2017" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma"/>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.301</p>
+                  </div>
+                  <div n="comment">
+                     <p><q>πέρι <choice>
+                              <abbr>θμοβ</abbr>
+                              <expan>θυμοβόροιο</expan>
+                           </choice></q></p>
+                  </div>
+               </div>
+<div type="scholion" n="2025" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma"/>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.326</p>
+                  </div>
+                  <div n="comment">
+                     <p><q>ἐϋφρονεων</q></p>
+                  </div>
+               </div>
+<div type="scholion" n="2049" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma"/>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.367</p>
+                  </div>
+                  <div n="comment">
+                     <p><sic>εϋφ</sic>
+                        <gap reason="lost"/></p>
+                  </div>
+               </div>
+<div type="scholion" n="3036" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.422</p>
+                  </div>
+                  <div n="comment">
+                     <p>ἐξ</p>
+                  </div>
+               </div>
+<div type="scholion" n="3032" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.428</p>
+                  </div>
+                  <div n="comment">
+                     <p><q>πυρκαϊῆς</q></p>
+                  </div>
+               </div></div>
+<div n="8" type="book"><div type="scholion" n="1000" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+         			<div n="lemma">
+         				<p/>
+         			</div>
+         			<div type="ref">
+         				<p>urn:cts:greekLit:tlg0012.tlg001.msA:8.70</p>
+         			</div>
+         			<div n="comment">
+         				<p><q>ἐν δ'</q></p>
+         			</div>
+         		</div>
+<div type="scholion" n="95" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+         			<div n="lemma">
+         				<p/>
+         			</div>
+         			<div type="ref">
+         				<p>urn:cts:greekLit:tlg0012.tlg001.msA:8.114</p>
+         			</div>
+         			<div n="comment">
+         				<p><q>ἴφθιμοι</q> </p>
+         			</div>
+         		</div>
+<div type="scholion" n="1001" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+         			<div n="lemma">
+         				<p/>
+         			</div>
+         			<div type="ref">
+         				<p>urn:cts:greekLit:tlg0012.tlg001.msA:8.217</p>
+         			</div>
+         			<div n="comment">
+         				<p><q><w><unclear>π</unclear>υρι</w> κηλέῳ</q></p>
+         			</div>
+         		</div>
+<div type="scholion" n="221" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+         			<div n="lemma">
+         				<p/>
+         			</div>
+         			<div type="ref">
+         				<p>urn:cts:greekLit:tlg0012.tlg001.msA:8.322</p>
+         			</div>
+         			<div n="comment">
+         				<p><q>ανωγει</q>· <q>ἄνωγεν</q>· </p>
+         			</div>
+         		</div>
+<div type="scholion" n="338" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+         			<div n="lemma">
+         				<p/>
+         			</div>
+         			<div type="ref">
+         				<p>urn:cts:greekLit:tlg0012.tlg001.msA:8.519</p>
+         			</div>
+         			<div n="comment">
+         				<p><q>περι ἄστυ</q> </p>
+         			</div>
+         		</div>
+<div type="scholion" n="352" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+         			<div n="lemma">
+         				<p/>
+         			</div>
+         			<div type="ref">
+         				<p>urn:cts:greekLit:tlg0012.tlg001.msA:8.530</p>
+         			</div>
+         			<div n="comment">
+         				<p><q>ὑπηοῖοι</q> </p>
+         			</div>
+         		</div>
+<div type="scholion" n="353" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+         			<div n="lemma">
+         				<p/>
+         			</div>
+         			<div type="ref">
+         				<p>urn:cts:greekLit:tlg0012.tlg001.msA:8.538</p>
+         			</div>
+         			<div n="comment">
+         				<p><q>αἲ γαρ εῖ</q> </p>
+         			</div>
+         		</div></div>
+<div n="9" type="book"><div type="scholion" n="13" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.9</p>
+                  </div>
+                  <div n="comment">
+                     <p>γράφεται <q>διήκει</q></p>
+                  </div>
+               </div>
+<div type="scholion" n="681" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.13</p>
+                  </div>
+                  <div n="comment">
+                     <p>δάκ</p>
+                  </div>
+               </div>
+<div type="scholion" n="694" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.14</p>
+                  </div>
+                  <div n="comment">
+                     <p><w>δάκ<gap/></w></p>
+                  </div>
+               </div>
+<div type="scholion" n="97" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.73</p>
+                  </div>
+                  <div n="comment">
+                     <p>ὑποδεξίη</p>
+                  </div>
+               </div>
+<div type="scholion" n="146" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.112</p>
+                  </div>
+                  <div n="comment">
+                     <p><sic>ἀρεσάμενοι</sic>
+                        <w>πεπι<unclear>σθ</unclear>οιμεν</w></p>
+                  </div>
+               </div>
+<div type="scholion" n="176" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p>πολύρρηνες</p>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.154</p>
+                  </div>
+                  <div n="comment">
+                     <p/>
+                  </div>
+               </div>
+<div type="scholion" n="200" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.167</p>
+                  </div>
+                  <div n="comment">
+                     <p>οἴ δε</p>
+                  </div>
+               </div>
+<div type="scholion" n="201" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.177</p>
+                  </div>
+                  <div n="comment">
+                     <p>σπεῖσαν τε. πιον <choice>
+                           <orig>θ'</orig>
+                           <reg>τε</reg>
+                        </choice></p>
+                  </div>
+               </div>
+<div type="scholion" n="229" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.198</p>
+                  </div>
+                  <div n="comment">
+                     <p>φίλτατοί ἐστον</p>
+                  </div>
+               </div>
+<div type="scholion" n="230" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.200</p>
+                  </div>
+                  <div n="comment">
+                     <p>κλισμοῖσι</p>
+                  </div>
+               </div>
+<div type="scholion" n="262" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.225</p>
+                  </div>
+                  <div n="comment">
+                     <p>δευεῖς: </p>
+                  </div>
+               </div>
+<div type="scholion" n="288" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.246</p>
+                  </div>
+                  <div n="comment">
+                     <p>φθεῖσθαι</p>
+                  </div>
+               </div>
+<div type="scholion" n="298" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.283</p>
+                  </div>
+                  <div n="comment">
+                     <p>εἰδε</p>
+                  </div>
+               </div>
+<div type="scholion" n="299" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.284</p>
+                  </div>
+                  <div n="comment">
+                     <p>γαμβρόν</p>
+                  </div>
+               </div>
+<div type="scholion" n="310" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.297</p>
+                  </div>
+                  <div n="comment">
+                     <p>τιμήσουσι·</p>
+                  </div>
+               </div>
+<div type="scholion" n="330" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.317</p>
+                  </div>
+                  <div n="comment">
+                     <p>δηΐοι</p>
+                  </div>
+               </div>
+<div type="scholion" n="331" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.318</p>
+                  </div>
+                  <div n="comment">
+                     <p>ζει</p>
+                  </div>
+               </div>
+<div type="scholion" n="332" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.321</p>
+                  </div>
+                  <div n="comment">
+                     <p>περικεῖται</p>
+                  </div>
+               </div>
+<div type="scholion" n="369" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.381</p>
+                  </div>
+                  <div n="comment">
+                     <p>η οὑδ' ὁς ἐσ <choice>
+                           <abbr><placeName n="urn:cite2:hmt:place.r1:place148">Ορχαμε</placeName></abbr>
+                           <expan><placeName n="urn:cite2:hmt:place.r1:place148">Ορχαμεον</placeName></expan>
+                        </choice>
+                        <w><unclear>πο</unclear>νείσιται</w> η ουδ ος <w><unclear>λ</unclear></w>
+                     </p>
+                  </div>
+               </div>
+<div type="scholion" n="370" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.383</p>
+                  </div>
+                  <div n="comment">
+                     <p>ἀν εκάτην</p>
+                  </div>
+               </div>
+<div type="scholion" n="396" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.399</p>
+                  </div>
+                  <div n="comment">
+                     <p><del>γήμαντα</del></p>
+                  </div>
+               </div>
+<div type="scholion" n="406" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.424</p>
+                  </div>
+                  <div n="comment">
+                     <p>σόῃ</p>
+                  </div>
+               </div>
+<div type="scholion" n="427" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.444</p>
+                  </div>
+                  <div n="comment">
+                     <p>ὁς ἂν</p>
+                  </div>
+               </div>
+<div type="scholion" n="534" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.545</p>
+                  </div>
+                  <div n="comment">
+                     <p>γὰρ κ' ἐδα <add place="supralinear">μ</add></p>
+                  </div>
+               </div>
+<div type="scholion" n="589" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.602</p>
+                  </div>
+                  <div n="comment">
+                     <p><del>αλλι επι <w><unclear>δ</unclear>ώρων</w></del></p>
+                  </div>
+               </div>
+<div type="scholion" n="695" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:9.</p>
+                  </div>
+                  <div n="comment">
+                     <p>σλῴν</p>
+                  </div>
+               </div></div>
+<div n="10" type="book"><div type="scholion" n="1010" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.106</p>
+                        </div>
+                        <div n="comment">
+                            <p>μοχθίσσειν</p>
+                        </div>
+                    </div>
+<div type="scholion" n="1011" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.118</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>κτῶς</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="1513" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.118</p>
+                        </div>
+                        <div n="comment">
+                            <p><del><choice>
+                                        <abbr>κατ</abbr>
+                                        <expan>κατὰ</expan>
+                                    </choice> νηας</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="1556" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.183</p>
+                        </div>
+                        <div n="comment">
+                            <p><gap extent="2" unit="chars"/><choice>
+                                    <orig>ρωρήσωνται</orig>
+                                    <reg>ρωρήσoνται</reg>
+                                </choice></p>
+                        </div>
+                    </div>
+<div type="scholion" n="1557" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.194</p>
+                        </div>
+                        <div n="comment">
+                            <p>γράφεται <q>τῶν</q>, </p>
+                        </div>
+                    </div>
+<div type="scholion" n="2000" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.207</p>
+                        </div>
+                        <div n="comment">
+                            <p>εἴ τινά που καὶ φῆμιν </p>
+                        </div>
+                    </div>
+<div type="scholion" n="2547" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.291</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>παρίσταο</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="3524" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.330</p>
+                        </div>
+                        <div n="comment">
+                            <p>μή</p>
+                        </div>
+                    </div>
+<div type="scholion" n="3525" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.332</p>
+                        </div>
+                        <div n="comment">
+                            <p>πώμοσεν</p>
+                        </div>
+                    </div>
+<div type="scholion" n="3526" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.336</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>προτι νῆας</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="3527" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.339</p>
+                        </div>
+                        <div n="comment">
+                            <p>τὸν δ' ἐφρασατο</p>
+                        </div>
+                    </div>
+<div type="scholion" n="3528" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.348</p>
+                        </div>
+                        <div n="comment">
+                            <p>ἔγχει ἐ</p>
+                        </div>
+                    </div>
+<div type="scholion" n="3529" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.349</p>
+                        </div>
+                        <div n="comment">
+                            <p>παρὲξ</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4559" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.464</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>επιδωσόμεθ'</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="4560" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.476</p>
+                        </div>
+                        <div n="comment">
+                            <p><persName n="urn:cite2:hmt:pers.r1:pers215">διομήδεϊ</persName></p>
+                        </div>
+                    </div>
+<div type="scholion" n="4591" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.478</p>
+                        </div>
+                        <div n="comment">
+                            <p>πίφαυσκε</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4592" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.495</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>τὸν <w>τρεισκαιδε<unclear>καται</unclear></w></del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="4593" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.499</p>
+                        </div>
+                        <div n="comment">
+                            <p>ήειρυεν</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4615" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.503</p>
+                        </div>
+                        <div n="comment">
+                            <p>ριζε</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4616" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.515</p>
+                        </div>
+                        <div n="comment">
+                            <p>ουδ' αλαοσκοπιην</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4646" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.534</p>
+                        </div>
+                        <div n="comment">
+                            <p>ἢ ἕτυμον ερέω</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4647" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.552</p>
+                        </div>
+                        <div n="comment">
+                            <p>γὰρ σφῶϊ</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4669" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:10.572</p>
+                        </div>
+                        <div n="comment">
+                            <p><choice>
+                                    <abbr>απενιζοντ</abbr>
+                                    <expan>απενιζοντο</expan>
+                                </choice></p>
+                        </div>
+                    </div></div>
+<div n="11" type="book"><div type="scholion" n="1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.40</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>ἐπιστεφέες</del>. </p>
+        				</div>
+        			</div>
+<div type="scholion" n="2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.48</p>
+        				</div>
+        				<div n="comment">
+        					<p>αῦθ' ἐπι τάφρου</p>
+        				</div>
+        			</div>
+<div type="scholion" n="3" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.63</p>
+        				</div>
+        				<div n="comment">
+        					<p>τό πλ'</p>
+        				</div>
+        			</div>
+<div type="scholion" n="4" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.76</p>
+        				</div>
+        				<div n="comment">
+        					<p>οῖσιν</p>
+        				</div>
+        			</div>
+<div type="scholion" n="5" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.85</p>
+        				</div>
+        				<div n="comment">
+        					<p>πῖπτε</p>
+        				</div>
+        			</div>
+<div type="scholion" n="6" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.300</p>
+        				</div>
+        				<div n="comment">
+        					<p>ὅ τε οἱ <persName n="urn:cite2:hmt:pers.r1:pers8">Ζεὺς</persName> κῦδος
+        						ἔδωκεν</p>
+        				</div>
+        			</div>
+<div type="scholion" n="7" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.304</p>
+        				</div>
+        				<div n="comment">
+        					<p>τοὺς</p>
+        				</div>
+        			</div>
+<div type="scholion" n="8" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.418</p>
+        				</div>
+        				<div n="comment">
+        					<p><gap/><sic>ρ</sic> <w>εo<unclear>ν</unclear>τα</w>
+        					</p>
+        				</div>
+        			</div>
+<div type="scholion" n="9" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.421</p>
+        				</div>
+        				<div n="comment">
+        					<p>μετάλμενος</p>
+        				</div>
+        			</div>
+<div type="scholion" n="10" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.439</p>
+        				</div>
+        				<div n="comment">
+        					<p>βέλος</p>
+        				</div>
+        			</div>
+<div type="scholion" n="11" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.455</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>αὐτὰρ ἔμ' εἴ κε</del></p>
+        				</div>
+        			</div>
+<div type="scholion" n="12" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.459</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>ἐπεὶ ί̈δον</del></p>
+        				</div>
+        			</div>
+<div type="scholion" n="13" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.484</p>
+        				</div>
+        				<div n="comment">
+        					<p>έγχει</p>
+        				</div>
+        			</div>
+<div type="scholion" n="14" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.532</p>
+        				</div>
+        				<div n="comment">
+        					<p>λιγυρῇ</p>
+        				</div>
+        			</div>
+<div type="scholion" n="15" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.686</p>
+        				</div>
+        				<div n="comment">
+        					<p><q>χρέως</q></p>
+        				</div>
+        			</div>
+<div type="scholion" n="16" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.727</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>ὑπερμενέϊ</del></p>
+        				</div>
+        			</div>
+<div type="scholion" n="17" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.728</p>
+        				</div>
+        				<div n="comment">
+        					<p><persName n="urn:cite2:hmt:pers.r1:pers47">Ποσειδάωνι</persName></p>
+        				</div>
+        			</div>
+<div type="scholion" n="18" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:11.797</p>
+        				</div>
+        				<div n="comment">
+        					<p>ἤν πού <choice>
+        						<sic>τί</sic>
+        						<corr>τι</corr>
+        					</choice> φόως</p>
+        				</div>
+        			</div></div>
+<div n="12" type="book"><div type="scholion" n="A1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p>ὀφρα μεν <persName n="urn:cite2:hmt:pers.r1:pers172">Ἑκτωρ</persName>
+        						ζωὸς</p>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.10-12.12</p>
+        				</div>
+        				<div n="comment">
+        					<p>ἀπορίαν εἰκότως παρεχει τὰ έπη ταῦτα ἃ περι τοῦ τείχους τῶν <rs n="urn:cite2:hmt:place.r1:place96" type="ethnic">Ἀχαιῶν</rs>. ὁ
+        						<persName n="urn:cite2:hmt:pers.r1:pers17">Ὁμηρος</persName>
+        						ἀναπεφωνηκε· <q>ὄφρα μὲν <persName n="urn:cite2:hmt:pers.r1:pers172">Ἑκτωρ</persName> ζωὸς έην. καὶ μηνι' <persName n="urn:cite2:hmt:pers.r1:pers1">Ἀχιλλευς</persName> καὶ
+        							<persName n="urn:cite2:hmt:pers.r1:pers145">Πριάμοιο</persName>
+        							άνακτος ἀπόρθητος πόλις ἐπλε τόφρα δὲ καὶ μέγα τεῖχος <rs n="urn:cite2:hmt:place.r1:place96" type="ethnic">Ἀχαιῶν</rs>
+        							ἔμπεδον</q> ἐφ όσον ὁ μὲν <persName n="urn:cite2:hmt:pers.r1:pers172">Ἑκτωρ</persName> έζη <persName n="urn:cite2:hmt:pers.r1:pers1">Ἀχιλλεὺς</persName> δὲ ἐμήνιεν ἡ δε
+        						τοῦ <persName n="urn:cite2:hmt:pers.r1:pers145">Πριάμου</persName>
+        						<choice>
+        							<abbr>πο</abbr>
+        							<expan>πόλις</expan>
+        						</choice> ἀνάλωτος ἔμενεν· μετα δὲ τὴν ἁλωσιν <placeName n="urn:cite2:hmt:place.r1:place6">Ἰλίου</placeName> καὶ τον ἀπόπλουν
+        						τῶν <rs n="urn:cite2:hmt:place.r1:place96" type="ethnic">Ἀχαιῶν</rs>
+        						τοτε κατερίφθη, ὅτι γράφεται τοῦ πολὲμου συνεστῶτος. καὶ <persName n="urn:cite2:hmt:pers.r1:pers1">Ἀχιλλέυς</persName> μὲν μηνίοντος
+        						<persName n="urn:cite2:hmt:pers.r1:pers172">Ἑκτωρος</persName> δὲ
+        						περιόντος καὶ ἀριστεύοντος, ὑπο τῶν <rs n="urn:cite2:hmt:place.r1:place6" type="ethnic">Τρωων</rs> τὸ τεῖχος τῶν <rs n="urn:cite2:hmt:place.r1:place96" type="ethnic">Αχαιῶν</rs>
+        						κατερίφθη καὶ διοδευσιμον γέγονε τοῖς πολεμίοις· ὁ μὲν γὰρ <persName n="urn:cite2:hmt:pers.r1:pers195">Σαρπηδων</persName> τὰς ἐπάλξεις
+        						αὐτοῦ καὶ μέρος τί καταβέβληκεν· ο δε <persName n="urn:cite2:hmt:pers.r1:pers172">Ἑκτωρ</persName> καὶ τὰς πύλας
+        						διέρρηξεν· ὁ δὲ <persName n="urn:cite2:hmt:pers.r1:pers40">Ἀπόλλων</persName> σχεδὸν ὅλον αὐτὸ διέλυσε τὸ καταριφθὲν οῦν
+        						τεῖχος οὐχ ὑπ <choice>
+        							<abbr>ανων</abbr>
+        							<expan>ἀνθρώπων</expan>
+        						</choice> μόνον ἀλλα καὶ θεῶν ἐν τῶ τῆς μήνιδος χρόνω τοῦτο λέγειν
+        						ἀσφαλὲς καὶ ἀρηρὸς ἐν τῷ τοῦ πολέμου καιρῷ διαμεμενηκέναι μεχρι
+        						πορθήσεως <placeName n="urn:cite2:hmt:place.r1:place6">Ἰλίου</placeName>
+        						ἀπορον εἰς λύσιν· οἱ μὲν οὖν γραμματικοὶ ἀπο τοῦ πλείστου μέρους
+        						αξιοῦσι λέγειν ἔμπεδον. ὀλίγον γὰρ εἶναι τὸ σαλευθὲν ὑπο τῶν <rs n="urn:cite2:hmt:place.r1:place6" type="ethnic">Τρώων</rs>· ἀγνοοῦσι
+        						δὲ οῦτοι ότι τινα κὰν ἐκ μέρους πάθη οὐτε ἐστιν ἔμπεδα οὔτε ἀρηροτα,
+        						καὶ ἁμφορεὺς διατρηθεὶς κὰν σχεδὸν όλον τὸ κυτος άθραυστον, ἠ οὐκέτ'
+        						ἐστιν ἔμπεδος ἀμφορευς, ἀλλ' όστρακον καὶ τεῖχοσ οὐκεθ οἷον τε
+        						κρύπτειν τοὺς τειχίσαντας οὐκέτ' ἂν εἴη ἔμπεδον τεῖχος ἀλλα σορὸς
+        						λίθων μήποτ' οὖν, ἡ ἔμπεδον λέξις οὐκ είληπται. νῦν μεταφορικῶς ἐν
+        						ΐσω τῷ ἀσφαλες καὶ ἀραρὸς οὐδε ἐστιν ὅμοιον τὸ <cit>
+        							<q>οὐδε μοι ῆτορ ἔμπεδον ἀλλ <sic>ἀλύκτημαι</sic></q>
+        							<ref type="urn">urn:cts:greekLit:tlg0012.tlg001:10.93-10.94</ref>
+        						</cit>
+        						<cit>
+        							<q>ὁ μὲν ἔμπεδον ἡνιόχευεν</q>
+        							<ref type="urn">urn:cts:greekLit:tlg0012.tlg001:23.641</ref>
+        						</cit> ἀλλα κυρίως νῦν ἐξενήνεκται, τὸ πέδον ἐχούσης ἐντεταγμένον
+        						τῆς λέξεως, ὥστε σημαινοι ἄν ὅτι ἐν τῷ πεδίῳ κείμενον καὶ μὴ
+        						ἁλίπλοον ἀντέθηκε γὰρ τὸ <q><sic>ἑμπεδον</sic></q> τῷ <cit>
+        							<q>ἁλιπλόω</q>
+        							<ref type="urn">urn:cts:greekLit:tlg0012.001:12.26</ref>
+        						</cit> τὸ ἐν τῶ πεδίῳ προς τὸ αῦθις ἁλίπλουν <sic>γιγνομένον</sic>
+        						γὰρ ἔφη τόφρα δὲ καὶ μέγα τεῖχος απόρθητον ἦν καὶ ἄθραυστον καὶ
+        						<q>ἔμπεδον</q> καὶ πάλιν <cit>
+        							<q>ούτι πολὺν χρόνον ἔμπεδον ῆεν</q>
+        							<ref type="urn">urn:cts:greekLit:tlg0012.001:12.9</ref>
+        						</cit>· τί οὖν πάσχει ὕστερον τῶν ποταμῶν πάντων φησὶν <cit>
+        							<q>ὁμόσε στόματ' έτραπε <persName n="urn:cite2:hmt:pers.r1:pers40">Φοῖβος Ἀπόλλων</persName>· ἐννῆμαρ δ' ἐς τεῖχος ΐει
+        								ῥόον υἱε δ' ἄρα <persName n="urn:cite2:hmt:pers.r1:pers8">Ζεὺς</persName>
+        								<sic>συννεχες</sic> ὄφρα κε θᾶσσον ἁλίπλοα τείχεα θείη αὐτὸς
+        								δ' ἐννοσίγαιος ἔχων χείρεσσι τρίαιναν ἡγεῖτ' ἐκ δ' ἄρα πάντα
+        								θεμείλια κύμασι πέμπε φιτρῶν καὶ λάων τὰ θέσαν μογέοντες <rs n="urn:cite2:hmt:place.r1:place96" type="ethnic">Ἀχαιοὶ</rs>
+        								λεια δ' ἐποίησεν παρ αγάρροον <placeName n="urn:cite2:hmt:place.r1:place22">Ἑλλησποντον</placeName></q>
+        							<ref type="urn">urn:cts:greekLit:tlg0012.001:12.24-12.30</ref>
+        						</cit> ὥστ' εἰ καὶ πεπτωκὸς ἦν τὸ τεῖχος, ἀλλ επι τῶ ἐμπέδω ῆν τὰ
+        						πτώματα καὶ τὰ θεμέλια, ὕστερον δὲ πάντα δι ύδατος εἰς θάλασσαν
+        						φησὶν ἐξενεχθῆναι, συνεστώσης δὲ τῆς πόλεως οὐδὲν τοῦ τείχους
+        						ἁλίπλουν γέγονεν. οὐδ ότε <persName n="urn:cite2:hmt:pers.r1:pers111">Ξάνθος</persName> ἐπλήμυρεν κάτ' <persName n="urn:cite2:hmt:pers.r1:pers1">Αχιλλέως</persName>, καὶ τὸ κατα
+        						μεταφορὰν δ' ἔμπεδον τὸ σημαῖνον τὸ ἀκίνητον ἀπο τῶν ἐν τῶ πεδίω
+        						μενόντων ἀκινήτων λέγεται, τὸ δὲ τεῖχος κατ αυτο μὲν ἐκινήθη ἐκ
+        						μέντοι τοῦ πεδίου κατηνέχθη ἐπι θάλασσαν ὅπερ φησὶν αὐτὸς ὕστερον
+        						παθεῖν</p>
+        				</div>
+        			</div>
+<div type="scholion" n="A2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.17</p>
+        				</div>
+        				<div n="comment">
+        					<p><persName n="urn:cite2:hmt:pers.r1:pers47"><w><supplied resp="HMT">Πο</supplied>σειδαων</w></persName></p>
+        				</div>
+        			</div>
+<div type="scholion" n="B1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.34</p>
+        				</div>
+        				<div n="comment">
+        					<p>αειδαον</p>
+        				</div>
+        			</div>
+<div type="scholion" n="G1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.131</p>
+        				</div>
+        				<div n="comment">
+        					<p>πυλάων</p>
+        				</div>
+        			</div>
+<div type="scholion" n="E2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.162</p>
+        				</div>
+        				<div n="comment">
+        					<p>ὢ</p>
+        				</div>
+        				
+        			</div>
+<div type="scholion" n="H1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.258</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>ἔρειπον</del> </p>
+        				</div>
+        			</div>
+<div type="scholion" n="G2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.286</p>
+        				</div>
+        				<div n="comment">
+        					<p>εἰλύαται </p>
+        				</div>
+        			</div>
+<div type="scholion" n="H2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.340</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>πάσας γὰρ <q><choice>
+        						<abbr>επῴχατ</abbr>
+        						<expan>ἐπῴχατο</expan>
+        					</choice></q></del>
+        					</p>
+        				</div>
+        			</div>
+<div type="scholion" n="G3" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.382</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>χείρεσ' αμφοτερῃσι</del></p>
+        				</div>
+        			</div>
+<div type="scholion" n="F1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:12.446</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>εστη και</del></p>
+        				</div>
+        			</div></div>
+<div n="14" type="book"><div type="scholion" n="B1" ana="xx" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.43</p>
+						</div>
+						<div n="comment">
+							<p>φθισήνορα δεῦρ' ἀφικάν'</p>
+						</div>
+					</div>
+<div type="scholion" n="E1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.95</p>
+						</div>
+						<div n="comment">
+							<p><q>δέ σευ</q></p>
+						</div>
+					</div>
+<div type="scholion" n="E2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.110</p>
+						</div>
+						<div n="comment">
+							<p> οὐ δηθὰ ματεύσομεν </p>
+						</div>
+					</div>
+<div type="scholion" n="G1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma"/>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.135</p>
+						</div>
+						<div n="comment">
+							<p>ἀλαοσκοπιὴν</p>
+						</div>
+					</div>
+<div type="scholion" n="C1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p/>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.199</p>
+						</div>
+						<div n="comment">
+							<p><q>δαμναῖ</q></p>
+						</div>
+					</div>
+<div type="scholion" n="C2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p/>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.202</p>
+						</div>
+						<div n="comment">
+							<p><q>ὅι μ' ἐν σφοῖσι</q></p>
+						</div>
+					</div>
+<div type="scholion" n="C3" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.223</p>
+						</div>
+						<div n="comment">
+							<p>ἑῷ</p>
+						</div>
+					</div>
+<div type="scholion" n="H1" ana="303" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p/>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.303</p>
+						</div>
+						<div n="comment">
+							<p><q>οἵ μ' εν σφοῖσι</q></p>
+						</div>
+					</div>
+<div type="scholion" n="H2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p/>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.307</p>
+						</div>
+						<div n="comment">
+							<p><del>πολυπίδακος</del></p>
+						</div>
+					</div>
+<div type="scholion" n="A1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma"/>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.348</p>
+						</div>
+						<div n="comment">
+							<p>λεξάσθην ἕἐρσα</p>
+						</div>
+					</div>
+<div type="scholion" n="A2" ana="357-8" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.357</p>
+						</div>
+						<div n="comment">
+							<p><persName n="urn:cite2:hmt:pers.r1:pers47">Ποσείδαον</persName></p>
+						</div>
+					</div>
+<div type="scholion" n="A3" ana="364" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.364</p>
+						</div>
+						<div n="comment">
+							<p> μεθίεμεν</p>
+						</div>
+					</div>
+<div type="scholion" n="D1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.384</p>
+						</div>
+						<div n="comment">
+							<p><persName n="urn:cite2:hmt:pers.r1:pers47">Ποσειδ</persName></p>
+						</div>
+					</div>
+<div type="scholion" n="D2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.386</p>
+						</div>
+						<div n="comment">
+							<p><del>ί̈κελον</del></p>
+						</div>
+					</div>
+<div type="scholion" n="D3" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.390</p>
+						</div>
+						<div n="comment">
+							<p><persName n="urn:cite2:hmt:pers.r1:pers47">Ποσειδα</persName></p>
+						</div>
+					</div>
+<div type="scholion" n="D4" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.398</p>
+						</div>
+						<div n="comment">
+							<p><del>ποτι δρυσὶν</del></p>
+						</div>
+					</div>
+<div type="scholion" n="D5" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.X</p>
+						</div>
+						<div n="comment">
+							<p/>
+						</div>
+					</div>
+<div type="scholion" n="D6" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.X</p>
+						</div>
+						<div n="comment">
+							<p/>
+						</div>
+					</div>
+<div type="scholion" n="D7" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+						<div n="lemma">
+							<p> </p>
+						</div>
+						<div type="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:14.X</p>
+						</div>
+						<div n="comment">
+							<p/>
+						</div>
+					</div></div>
+<div n="15" type="book"><div type="scholion" n="1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.8</p>
+                        </div>
+                        <div n="comment">
+                            <p><persName n="urn:cite2:hmt:pers.r1:pers47"><choice>
+                                        <abbr>Ποσει</abbr>
+                                        <expan>Ποσειδάωνα</expan>
+                                    </choice></persName></p>
+                        </div>
+                    </div>
+<div type="scholion" n="2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.41</p>
+                        </div>
+                        <div n="comment">
+                            <p><persName n="urn:cite2:hmt:pers.r1:pers47"><choice>
+                                        <abbr>Ποσειδ</abbr>
+                                        <expan>Ποσειδῶνα</expan>
+                                    </choice></persName></p>
+                        </div>
+                    </div>
+<div type="scholion" n="2a" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.45</p>
+                        </div>
+                        <div n="comment">
+                            <p><choice>
+                                    <abbr><w>&gt;<unclear> κειν</unclear>τ</w></abbr>
+                                    <expan>κεῖντο</expan>
+                                </choice></p>
+                        </div>
+                    </div>
+<div type="scholion" n="3" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.49</p>
+                        </div>
+                        <div n="comment">
+                            <p>βοῶπις</p>
+                        </div>
+                    </div>
+<div type="scholion" n="4" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.51</p>
+                        </div>
+                        <div n="comment">
+                            <p><persName n="urn:cite2:hmt:pers.r1:pers47"><choice>
+                                        <abbr>Ποσειδα</abbr>
+                                        <expan>Ποσειδάων</expan>
+                                    </choice></persName>
+                            </p>
+                        </div>
+                    </div>
+<div type="scholion" n="5" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.57</p>
+                        </div>
+                        <div n="comment">
+                            <p><persName n="urn:cite2:hmt:pers.r1:pers47"><choice>
+                                        <abbr>Ποσειδα</abbr>
+                                        <expan>Ποσειδάων</expan>
+                                    </choice></persName></p>
+                        </div>
+                    </div>
+<div type="scholion" n="6" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.66</p>
+                        </div>
+                        <div n="comment">
+                            <p>ὀλέσαντ'</p>
+                        </div>
+                    </div>
+<div type="scholion" n="7" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.71</p>
+                        </div>
+                        <div n="comment">
+                            <p>το <q><placeName n="urn:cite2:hmt:place.r1:place6">Ϊλιον</placeName></q>
+                                <choice>
+                                    <abbr>ουδτ</abbr>
+                                    <expan>οὐδετέρως</expan>
+                                </choice></p>
+                        </div>
+                    </div>
+<div type="scholion" n="8" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.82</p>
+                        </div>
+                        <div n="comment">
+                            <p><w><supplied>ἔν</supplied>θ'</w> εἴη</p>
+                        </div>
+                    </div>
+<div type="scholion" n="9" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.158</p>
+                        </div>
+                        <div n="comment">
+                            <q><p><persName n="urn:cite2:hmt:pers.r1:pers47">Ποσειδά</persName></p></q>
+                        </div>
+                    </div>
+<div type="scholion" n="10" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.205</p>
+                        </div>
+                        <div n="comment">
+                            <p><persName n="urn:cite2:hmt:pers.r1:pers47"><choice>
+                                        <abbr>Ποσειδά</abbr>
+                                        <expan>Ποσειδάων</expan>
+                                    </choice></persName></p>
+                        </div>
+                    </div>
+<div type="scholion" n="11" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.225</p>
+                        </div>
+                        <div n="comment">
+                            <p>ενερτεροι</p>
+                        </div>
+                    </div>
+<div type="scholion" n="12" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.297</p>
+                        </div>
+                        <div n="comment">
+                            <p>εἴ κεν</p>
+                        </div>
+                    </div>
+<div type="scholion" n="13" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.307</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>βιβῶν</del>
+                            </p>
+                        </div>
+                    </div>
+<div type="scholion" n="14" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.308</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>είμενος</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="15" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.339@Μηκιστῆ-δ</p>
+                        </div>
+                        <div n="comment">
+                            <p><del><persName n="urn:cite2:hmt:pers.r1:pers640">Μηκιστὴν</persName>
+                                    δ'</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="16" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.436</p>
+                        </div>
+                        <div n="comment">
+                            <p><del><persName n="urn:cite2:hmt:pers.r1:pers127">Αἴας</persName> δὲ
+                                    ρίγησε</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="17" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.469</p>
+                        </div>
+                        <div n="comment">
+                            <p><abbr>ἐνέδη</abbr></p>
+                        </div>
+                    </div>
+<div type="scholion" n="18" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.494</p>
+                        </div>
+                        <div n="comment">
+                            <p><q><sic>ύμεων</sic></q></p>
+                        </div>
+                    </div>
+<div type="scholion" n="19" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.567</p>
+                        </div>
+                        <div n="comment">
+                            <p>έρκεϊ χαλ<unclear>κ</unclear>· έρκει χαλκειῳ</p>
+                        </div>
+                    </div>
+<div type="scholion" n="20" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.639</p>
+                        </div>
+                        <div n="comment">
+                            <p>ἀέθλων</p>
+                        </div>
+                    </div>
+<div type="scholion" n="21" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.694</p>
+                        </div>
+                        <div n="comment">
+                            <p>αϊξας</p>
+                        </div>
+                    </div>
+<div type="scholion" n="22" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.694</p>
+                        </div>
+                        <div n="comment">
+                            <p>ῶσεν <choice>
+                                    <abbr>ὄπισθ</abbr>
+                                    <expan>ὄπισθε</expan>
+                                </choice></p>
+                        </div>
+                    </div>
+<div type="scholion" n="23" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.705</p>
+                        </div>
+                        <div n="comment">
+                            <p><choice>
+                                    <abbr>τοιουτ</abbr>
+                                    <expan>τοιοῦτον</expan>
+                                </choice>
+                                <w>καλ<unclear>ου</unclear>το</w>
+                                <w>ταλαυρινο<unclear>ν</unclear></w> ⁑</p>
+                        </div>
+                    </div>
+<div type="scholion" n="24" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.737</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>ου μὲν τι,</del></p>
+                        </div>
+                    </div>
+<div type="scholion" n="25" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+                        <div n="lemma">
+                            <p/>
+                        </div>
+                        <div type="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:15.744</p>
+                        </div>
+                        <div n="comment">
+                            <p><del>οτρυνοντος</del></p>
+                        </div>
+                    </div></div>
+<div n="17" type="book"><div type="scholion" n="1" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:17.42</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>ἢ δ’αλκῆς ἠ δὲ <choice><abbr>φόβ</abbr><expan>φόβοιο</expan></choice></del></p>
+        				</div>
+        			</div>
+<div type="scholion" n="2" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:17.44</p>
+        				</div>
+        				<div n="comment">
+        					<p><q><choice><orig>χαλκὸς</orig><reg>χαλκὸν</reg></choice></q></p>
+        				</div>
+        			</div>
+<div type="scholion" n="3" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:17.105</p>
+        				</div>
+        				<div n="comment">
+        					<p>φερτερον</p>
+        				</div>
+        			</div>
+<div type="scholion" n="4" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:17.105</p>
+        				</div>
+        				<div n="comment">
+        					<p><q>αφείλετο</q></p>
+        				</div>
+        			</div>
+<div type="scholion" n="3bis" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:17.724</p>
+        				</div>
+        				<div n="comment">
+        					<p><del><q>αἴροντας</q></del></p>
+        				</div>
+        			</div></div>
+<div n="18" type="book"><div type="scholion" n="1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.86</p>
+        				</div>
+        				<div n="comment">
+        					<p>ὡς ὄφελες</p>
+        				</div>
+        			</div>
+<div type="scholion" n="2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.93</p>
+        				</div>
+        				<div n="comment">
+        					<p><persName n="urn:cite2:hmt:pers.r1:pers158">Μενοιτιάδεα</persName><choice>
+        						<abbr>απ</abbr>
+        						<expan>ἀπὸ</expan>
+        					</choice></p>
+        				</div>
+        			</div>
+<div type="scholion" n="3" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.227</p>
+        				</div>
+        				<div n="comment">
+        					<p>τὸ δ' ἔδαιε</p>
+        				</div>
+        			</div>
+<div type="scholion" n="4" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.377</p>
+        				</div>
+        				<div n="comment">
+        					<p>τα <rs type="waw">β</rs>
+        						<num value="2">β</num> δασειαν ειχον εις το <rs type="waw">η</rs></p>
+        				</div>
+        			</div>
+<div type="scholion" n="5" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.398</p>
+        				</div>
+        				<div n="comment">
+        					<p>θ'</p>
+        				</div>
+        			</div>
+<div type="scholion" n="6" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.448</p>
+        				</div>
+        				<div n="comment">
+        					<p><sic>ἐλίσοντο</sic></p>
+        				</div>
+        			</div>
+<div type="scholion" n="11" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.490</p>
+        				</div>
+        				<div n="comment">
+        					<p>πολις διὰ <choice>
+        						<abbr>τ</abbr>
+        						<expan>τοῦ</expan>
+        					</choice>
+        						<sic><unclear>ιει</unclear></sic>
+        						<choice>
+        							<abbr>παντ</abbr>
+        							<expan>πάντα</expan>
+        						</choice>
+        						<sic><unclear>βο</unclear></sic>
+        					</p>
+        				</div>
+        			</div>
+<div type="scholion" n="12" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.531</p>
+        				</div>
+        				<div n="comment">
+        					<p>ϊράων</p>
+        				</div>
+        			</div>
+<div type="scholion" n="7" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.550</p>
+        				</div>
+        				<div n="comment">
+        					<p>βαθυλήϊον</p>
+        				</div>
+        			</div>
+<div type="scholion" n="8" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.560</p>
+        				</div>
+        				<div n="comment">
+        					<p><del>πὸλλ' <choice>
+        						<abbr>ἐπαλ</abbr>
+        						<expan>ἐπάλυνον</expan>
+        					</choice></del></p>
+        				</div>
+        			</div>
+<div type="scholion" n="9" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.571</p>
+        				</div>
+        				<div n="comment">
+        					<p>ὁμαρτῃ</p>
+        				</div>
+        			</div>
+<div type="scholion" n="10" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:18.602</p>
+        				</div>
+        				<div n="comment">
+        					<p>ἄλλοτε δ'</p>
+        				</div>
+        			</div></div>
+<div n="19" type="book"><div type="scholion" n="2015office10_1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:19.117</p>
+        				</div>
+        				<div n="comment">
+        					<p>η δ' ἐκύει εἱστήκει</p>
+        				</div>
+        			</div>
+<div type="scholion" n="hc_1" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:19.386</p>
+        				</div>
+        				<div n="comment">
+        					<p>εῦτε</p>
+        				</div>
+        			</div>
+<div type="scholion" n="hc_2" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:19.401</p>
+        				</div>
+        				<div n="comment">
+        					<p>ἡνιοχῆας</p>
+        				</div>
+        			</div>
+<div type="scholion" n="hc_3" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:19.402</p>
+        				</div>
+        				<div n="comment">
+        					<p>ἕωμεν</p>
+        				</div>
+        			</div>
+<div type="scholion" n="hc_4" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns="http://www.tei-c.org/ns/1.0">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div type="ref">
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:19.403</p>
+        				</div>
+        				<div n="comment">
+        					<p>αὐτόθι</p>
+        				</div>
+        			</div></div></body></text></TEI>
