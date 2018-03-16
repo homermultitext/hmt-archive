@@ -39,6 +39,27 @@ def composite(document : String, files: Vector[File]): String = {
 }
 
 def compositeAll(dir: String = "./") = {
+
+  val docOpen = """<?xml version="1.0" encoding="utf-8"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title>Composite text of HMT XML edition of scholia</title>
+           </titleStmt>
+           <publicationStmt>
+              <p>Unpublished</p>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Transcribed from Venetus A MS</p>
+           </sourceDesc>
+        </fileDesc>
+     </teiHeader>
+     <text xml:lang="grc"><body>
+
+"""
+
+  val docClose = "</body></text></TEI>"
   val scholiaGroups = scholiaSet(dir)
   val libraryDir = new File(dir)
   val fileVector = libraryDir.listFiles.filter(_.isFile).toVector
@@ -46,9 +67,6 @@ def compositeAll(dir: String = "./") = {
 
   println(s"Creating composites for ${scholiaGroups.size} texts ")
   for (s <- scholiaGroups) {
-    println(s + "...")
-    val docOpen = "<fakeRoot>"
-    val docClose = "</fakeRoot>"
     val content = composite(s, xmlFiles)
     new PrintWriter(s"va_composite_scholia_${s}.xml") {write(docOpen + content + docClose); close}
   }
