@@ -1,24 +1,35 @@
 
 # Data models of published modules
 
-This release includes publication in CEX of canonically citable objects in collections, and of canonically citable texts.
+This document summarizes what data models apply to CEX files in the archive.
 
-## HMT collections
-
-Collections in this release follow one of the data models listed here.
+File names in `code` format are planned for inclusion in the `2018a` release.
 
 ### Citable image model
-
 
 -  URN: `urn:cite2:cite:datamodels.v1:imagemodel`
 -  Documentation:  <https://cite-architecture.github.io/imagemodel>
 
-Applies to the following files.
+Applies to:
 
 -   `images/vaimgs.cex`
 -   `images/vbimgs.cex`
+-   bankes.cex
+-   chicago.cex
+-   churikimgs.cex
+-   codbod85.cex
+-   comparetti-images.cex
+-   e3bifolios.cex
+-   e4.cex
+-   gen44.cex
+-   marciana-841.cex
+-   muncg88img.cex
+-   upsilon-1-1.cex
+-   vgf64img.cex
 
+### Binary image model
 
+TBD
 
 ### Text-bearing surface model
 
@@ -26,9 +37,16 @@ Applies to the following files.
 -   URN: `urn:cite2:cite:datamodels.v1:tbsmodel`
 -   Documentation:  <https://cite-architecture.github.io/tbsmodel>
 
-Applies to the following files:
+Applies to:
+
 
 -   `codex/vapages.cex`
+-   venetusB.cex
+-   comparetti-codex.cex
+-   marciana841.cex
+-   muncg88model.cex
+-   omega-1-12.cex
+-   upsilon-1-1.cex
 
 
 ### Diplomatic Scholarly Edition (DSE) model
@@ -37,36 +55,23 @@ Applies to the following files:
 -  Documentation:  <https://cite-architecture.github.io/dse/>
 
 
-Applies to the following files:
+Applies to:
 
--  `dse/va-dse.cex`
-
-
-
+-  `dse/venA-iliad-dse.cex`
+-  `dse/venA-scholia-dse.cex`
 
 
 
 ### Text commentary model
 
+TBD
 
--   URN: `urn:cite2:cite:datamodels.v1:textcommentary`
--   Documentation:  TBA
-
-Applies to the following files:
-
-
--    commentaries-annotations/scholia-on-iliad.cex
 
 ### Text annotation model
 
+TBD
 
--   URN: `urn:cite2:cite:datamodels.v1:textannotation`
--   Documentation:  TBA
 
-Applies to the following files:
-
--    `commentaries-annotations/aristarchansigns.cex`
--    `commentaries-annotations/va_criticalsigns.cex`
 
 
 ## HMT texts
@@ -76,13 +81,15 @@ All texts follow the OHCO2 model.
 Documentation:  <https://cite-architecture.github.io/ohco2/>
 
 
-Applies to the following files:
+Applies to:
 
--   `va_iliad_xml.cex`
--   `va_iliad_diplomatic.cex`
--   va_scholia_xml.cex
--   va_scholia_diplomatic.cex
 
+- `editions/va_iliad_xml.cex`
+-  editions/va_iliad_dipl.cex
+-  editions/va_iliad_n1.cex
+-  editions/va_scholia_xml.cex
+-  editions/va_scholia_dipl.cex
+-  editions/va_scholia_n1.cex
 
 
 ## HMT indices
@@ -91,5 +98,6 @@ Indexed relations follows the CITE data exchange model relating two citable obje
 
 -   Documentation:  <https://cite-architecture.github.io/citedx/CEX-spec-3.0.1/#relations>
 
+Applies to:
 
-No citable indices are included in this release.
+NONE IN 2018a

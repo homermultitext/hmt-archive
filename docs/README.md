@@ -1,7 +1,3 @@
-# `homermultitext` web site #
+# `hmt-archive` web site #
 
-Source for jekyll web site at <http://homermultitext.github.io/>.
-
-
-
-
+Source for jekyll web site at <http://homermultitext.github.io/hmt-archive>.
