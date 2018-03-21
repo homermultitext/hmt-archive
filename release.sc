@@ -46,6 +46,16 @@ def iliad = {
 
   val repo = TextRepositorySource.fromFiles(catalog,citation,iliadComposites)
   new PrintWriter(s"${cexEditions}/va_iliad_xml.cex") { write(repo.cex("#"));close }
+
+
+  val tokens = TeiReader.fromCorpus(repo.corpus)
+  val diplIliad = DiplomaticEditionFactory.corpusFromTokens(tokens)
+  val diplIliadByLine = diplIliad.exemplarToVersion("msA")
+
+  val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+
+  new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
+
 }
 
 
@@ -55,6 +65,10 @@ def catAll: String = {
   val codices =  Source.fromFile("archive/codices/vapages.cex").getLines.toVector
 
   val iliad =  Source.fromFile("archive/editions/va_iliad_xml.cex").getLines.toVector
+
+
+  val iliadDipl =  Source.fromFile("archive/editions/va_iliad_diplomatic.cex").getLines.toVector
+
 
   val scholia =  Source.fromFile("archive/editions/scholia_xml.cex").getLines.toVector
 
@@ -68,7 +82,7 @@ def catAll: String = {
 
   val dse =  Source.fromFile("archive/dse/va-dse.cex").getLines.toVector
 
-  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n")
+  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n")
 }
 
 
@@ -89,16 +103,18 @@ def tidy = {
 
 
 def release(releaseId: String) =  {
+  // Generate intermediate files:
   scholia
   iliad
-
+  // build single composite and write it:
   val allCex = catAll
   new PrintWriter(s"releases-cex/hmt-${releaseId}.cex") { write(allCex); close}
-  println(s"\nRelease ${releaseId} should be published in releases-cex/hmt-${releaseId}.cex\n")
+  // clean up all intermediate files:
+  tidy
+
+  println(s"\nRelease ${releaseId} is available in releases-cex/hmt-${releaseId}.cex\n")
 }
 
 
-println("\n\nClean out all intermediate files built from archive:")
-println("\n\ttidy")
 println("\nBuild a release of the HMT archive:")
 println("\n\trelease(RELEASE_ID)")
