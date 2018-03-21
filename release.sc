@@ -39,15 +39,16 @@ def catAll: String = {
 
   val scholia =  Source.fromFile("archive/scholia-cex/scholia_xml.cex").getLines.toVector
 
-  val vaimg =   val scholia =  Source.fromFile("archive/images/vaimgs.cex").getLines.toVector
-  val vbimg =   val scholia =  Source.fromFile("archive/images/vbimgs.cex").getLines.toVector
+  val vaimg =  Source.fromFile("archive/images/vaimgs.cex").getLines.toVector
+  val vbimg =  Source.fromFile("archive/images/vbimgs.cex").getLines.toVector
 
   libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + scholia.mkString("\n")
 }
 
 
 def tidy = {
-  //rm:  scholia-composites/*xml
+  //rm:  scholia-composites/*xml.  NB: *cex cataloing files stay here!
+  //rm:  editions/*cex.
 }
 
 
