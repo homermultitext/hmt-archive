@@ -7,10 +7,15 @@ import org.homermultitext.edmodel._
 import java.io.PrintWriter
 import scala.io._
 
-val scholiaXml = "archive/scholia"
-val scholiaComposites = "archive/scholia-composites"
-val cexEditions = "archive/editions"
 
+
+val scholiaXml = "archive/scholia"
+val iliadXml = "archive/iliad"
+
+val scholiaComposites = "archive/scholia-composites"
+val iliadComposites = "archive/iliad-composites"
+
+val cexEditions = "archive/editions"
 
 /**  Write CEX editions of scholia.
 */
@@ -31,7 +36,16 @@ def scholia = {
 }
 
 def iliad = {
-  println("\n\nNEED TO BUILD ILIAD XML AUTOMATICALLY\n\n")
+  // revisit this for making multiple Iliads...
+  val fileBase = "va_iliad_"
+  println("Creating CEX editions of Iliad...")
+  IliadComposite.composite(iliadXml, iliadComposites)
+
+  val catalog = s"${iliadComposites}/ctscatalog.cex"
+  val citation = s"${iliadComposites}/citationconfig.cex"
+
+  val repo = TextRepositorySource.fromFiles(catalog,citation,iliadComposites)
+  new PrintWriter(s"${cexEditions}/va_iliad_xml.cex") { write(repo.cex("#"));close }
 }
 
 
@@ -39,6 +53,8 @@ def catAll: String = {
   val libLines = Source.fromFile("archive/library.cex").getLines.toVector
 
   val codices =  Source.fromFile("archive/codices/vapages.cex").getLines.toVector
+
+  val iliad =  Source.fromFile("archive/editions/va_iliad_xml.cex").getLines.toVector
 
   val scholia =  Source.fromFile("archive/editions/scholia_xml.cex").getLines.toVector
 
@@ -49,13 +65,26 @@ def catAll: String = {
 
   val critsigns =  Source.fromFile("archive/commentaries-annotations/va_criticalsigns.cex").getLines.toVector
 
-  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n")
+
+  val dse =  Source.fromFile("archive/dse/va-dse.cex").getLines.toVector
+
+  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n")
 }
 
 
 def tidy = {
-  //rm:  scholia-composites/*xml.  NB: *cex cataloing files stay here!
-  //rm:  editions/*cex.
+  val scholiaCompositeFiles  = FileCollector.filesInDir(scholiaComposites, "xml")
+  for (f <- scholiaCompositeFiles.toSeq) {
+    f.delete()
+  }
+  val iliadCompositeFiles  = FileCollector.filesInDir(iliadComposites, "xml")
+  for (f <- iliadCompositeFiles.toSeq) {
+    f.delete()
+  }
+  val cexEditionFiles = FileCollector.filesInDir(cexEditions, "cex")
+  for (f <- cexEditionFiles.toSeq) {
+    f.delete()
+  }
 }
 
 
