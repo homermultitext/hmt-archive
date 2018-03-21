@@ -9,7 +9,7 @@ import scala.io._
 
 val scholiaXml = "archive/scholia"
 val scholiaComposites = "archive/scholia-composites"
-val scholiaCex = "archive/scholia-cex"
+val cexEditions = "archive/editions"
 
 
 /**  Write CEX editions of scholia.
@@ -22,7 +22,10 @@ def scholia = {
 
   val repo = TextRepositorySource.fromFiles(catalog,citation,scholiaComposites)
   val scholiaNodes = repo.corpus.nodes.filterNot(_.urn.passageComponent.endsWith("ref"))
-  new PrintWriter(s"${scholiaCex}/scholia_xml.cex") { write(repo.cex("#"));close }
+
+  val scholiaRepo = TextRepository( Corpus(scholiaNodes), repo.catalog)
+
+  new PrintWriter(s"${cexEditions}/scholia_xml.cex") { write(scholiaRepo.cex("#"));close }
 
   val xrefNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
 }
@@ -37,12 +40,16 @@ def catAll: String = {
 
   val codices =  Source.fromFile("archive/codices/vapages.cex").getLines.toVector
 
-  val scholia =  Source.fromFile("archive/scholia-cex/scholia_xml.cex").getLines.toVector
+  val scholia =  Source.fromFile("archive/editions/scholia_xml.cex").getLines.toVector
 
   val vaimg =  Source.fromFile("archive/images/vaimgs.cex").getLines.toVector
   val vbimg =  Source.fromFile("archive/images/vbimgs.cex").getLines.toVector
 
-  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + scholia.mkString("\n")
+  val arist =  Source.fromFile("archive/commentaries-annotations/aristarchansigns.cex").getLines.toVector
+
+  val critsigns =  Source.fromFile("archive/commentaries-annotations/va_criticalsigns.cex").getLines.toVector
+
+  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n")
 }
 
 
