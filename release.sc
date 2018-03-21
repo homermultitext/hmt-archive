@@ -32,6 +32,19 @@ def scholia = {
 
   new PrintWriter(s"${cexEditions}/scholia_xml.cex") { write(scholiaRepo.cex("#"));close }
 
+// do this in a loop for each group
+/*
+
+
+  val tokens = TeiReader.fromCorpus(repo.corpus)
+  val diplIliad = DiplomaticEditionFactory.corpusFromTokens(tokens)
+  val diplIliadByLine = diplIliad.exemplarToVersion("msA")
+
+  val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+
+  new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
+
+*/
   val xrefNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
 }
 
