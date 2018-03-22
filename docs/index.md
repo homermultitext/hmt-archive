@@ -26,6 +26,10 @@ You can then use the `release`   function to generate a new release like this:
 
 This will write a composite file name `hmt-RELEASE_NAME.cex`  in the `releases-cex` directory.
 
+## Layout of the archive
+
+See details about [file system organization and formats of archival files](layout) used to build CEX publications.
+
 ## Earlier build systems
 
 Prior to 2018, we used a gradle build system for assembling packages of published material that has passed final editorial review and verification into a unified representation in RDF.  That system is no longer used but is documented [here](priorwork/groovy_builder).
