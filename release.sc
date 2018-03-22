@@ -45,7 +45,7 @@ def scholia = {
       val tokens = TeiReader.fromCorpus(c)
       println("Created " + tokens.size + " tokens.")
       val diplEdition = DiplomaticEditionFactory.corpusFromTokens(tokens)
-      val diplByScholion = diplEdition.exemplarToVersion(s)
+      val diplByScholion = diplEdition.exemplarToVersion("va_dipl")
 
       val diplHeader = s"\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026.${s}.va_dipl:#book,scholion, section#Scholia to the Iliad#Scholia ${s} in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
       new PrintWriter(s"${cexEditions}/${s}_diplomatic.cex") { write(diplHeader + diplByScholion.cex("#"));close }
@@ -107,7 +107,7 @@ def catAll: String = {
 
   val dse =  Source.fromFile("archive/dse/va-dse.cex").getLines.toVector
 
-  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n") + "\n" + msA.mkString("\n") + "\n" + msAext.mkString("\n") + "\n" + msAil.mkString("\n") + "\n" + msAim.mkString("\n") + "\n" + msAint.mkString("\n") 
+  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n") + "\n" + msA.mkString("\n") + "\n" + msAext.mkString("\n") + "\n" + msAil.mkString("\n") + "\n" + msAim.mkString("\n") + "\n" + msAint.mkString("\n")
 
   /*archive/editions/msA_diplomatic.cex
   archive/editions/msAext_diplomatic.cex
