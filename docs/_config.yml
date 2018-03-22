@@ -16,13 +16,9 @@ author:
 paginate:         5
 
 links:
-  - title: Specifications
-    url: specs/hmt/Hmt.html
   - title: HMT on github
     url: http://homermultitext.github.io/
     external: true
-  - title: HMT editors' group
-    url: http://hmteditors.github.io/
     external: true
   - title: HMT home page
     url: http://www.homermultitext.org/
