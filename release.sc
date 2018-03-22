@@ -34,6 +34,9 @@ def scholia = {
 
   val scholiaDocs = scholiaRepo.corpus.nodes.map(_.urn.work).distinct
 
+
+  // WRITE CATALOG LIKE THIS:
+  //
   for (s <- scholiaDocs) {
     if (s != "msAextra") {
       println("Create corpus for " + s)
@@ -41,20 +44,13 @@ def scholia = {
       val c = Corpus(subCorpusNodes)
       val tokens = TeiReader.fromCorpus(c)
       println("Created " + tokens.size + " tokens.")
+      val diplEdition = DiplomaticEditionFactory.corpusFromTokens(tokens)
+      val diplByScholion = diplEdition.exemplarToVersion(s)
+
+      val diplHeader = s"\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026.${s}.va_dipl:#book,scholion, section#Scholia to the Iliad#Scholia ${s} in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+      new PrintWriter(s"${cexEditions}/${s}_diplomatic.cex") { write(diplHeader + diplByScholion.cex("#"));close }
     }
   }
-// do this in a loop for each group
-/*
-
-
-  val diplIliad = DiplomaticEditionFactory.corpusFromTokens(tokens)
-  val diplIliadByLine = diplIliad.exemplarToVersion("msA")
-
-  val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
-
-  new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
-
-*/
   val xrefNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
 }
 
@@ -95,6 +91,12 @@ def catAll: String = {
 
   val scholia =  Source.fromFile("archive/editions/scholia_xml.cex").getLines.toVector
 
+  val msA = Source.fromFile("archive/editions/msA_diplomatic.cex").getLines.toVector
+  val msAext = Source.fromFile("archive/editions/msAext_diplomatic.cex").getLines.toVector
+  val msAil = Source.fromFile("archive/editions/msAil_diplomatic.cex").getLines.toVector
+  val msAim = Source.fromFile("archive/editions/msAim_diplomatic.cex").getLines.toVector
+  val msAint = Source.fromFile("archive/editions/msAint_diplomatic.cex").getLines.toVector
+
   val vaimg =  Source.fromFile("archive/images/vaimgs.cex").getLines.toVector
   val vbimg =  Source.fromFile("archive/images/vbimgs.cex").getLines.toVector
 
@@ -105,7 +107,14 @@ def catAll: String = {
 
   val dse =  Source.fromFile("archive/dse/va-dse.cex").getLines.toVector
 
-  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n")
+  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n") + "\n" + msA.mkString("\n") + "\n" + msAext.mkString("\n") + "\n" + msAil.mkString("\n") + "\n" + msAim.mkString("\n") + "\n" + msAint.mkString("\n") 
+
+  /*archive/editions/msA_diplomatic.cex
+  archive/editions/msAext_diplomatic.cex
+  archive/editions/msAil_diplomatic.cex
+  archive/editions/msAim_diplomatic.cex
+  archive/editions/msAint_diplomatic.cex
+  */
 }
 
 
