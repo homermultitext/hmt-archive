@@ -32,11 +32,21 @@ def scholia = {
 
   new PrintWriter(s"${cexEditions}/scholia_xml.cex") { write(scholiaRepo.cex("#"));close }
 
+  val scholiaDocs = scholiaRepo.corpus.nodes.map(_.urn.work).distinct
+
+  for (s <- scholiaDocs) {
+    if (s != "msAextra") {
+      println("Create corpus for " + s)
+      val subCorpusNodes = scholiaNodes.filter(_.urn.work == s)
+      val c = Corpus(subCorpusNodes)
+      val tokens = TeiReader.fromCorpus(c)
+      println("Created " + tokens.size + " tokens.")
+    }
+  }
 // do this in a loop for each group
 /*
 
 
-  val tokens = TeiReader.fromCorpus(repo.corpus)
   val diplIliad = DiplomaticEditionFactory.corpusFromTokens(tokens)
   val diplIliadByLine = diplIliad.exemplarToVersion("msA")
 
