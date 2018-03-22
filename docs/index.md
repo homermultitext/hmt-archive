@@ -32,4 +32,4 @@ See details about [file system organization and formats of archival files](layou
 
 ## Earlier build systems
 
-Prior to 2018, we used a gradle build system for assembling packages of published material that has passed final editorial review and verification into a unified representation in RDF.  That system is no longer used but is documented [here](priorwork/groovy_builder).
+Prior to 2018, we used a gradle build system for assembling packages of published material that has passed final editorial review and verification into a unified representation in RDF.  That system is no longer used but vestigial documentation is available [here](priorwork/groovy_builder).
