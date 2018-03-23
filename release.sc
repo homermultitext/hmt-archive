@@ -76,7 +76,6 @@ def scholia = {
     }
   }
 
-
   val hdr = "#!relations\n"
   new PrintWriter(s"${cexEditions}/commentaryIndex.cex") { write(hdr + index.mkString("\n") + "\n");close }
 }
