@@ -56,7 +56,7 @@ def scholia = {
 
   val xrefUrns = for (n <- xrefNodes) yield {
     val scholion = n.urn
-    val iliadUrnText = XmlCollector.collectText(n.text).trim
+    val iliadUrnText = DataCollector.collectXmlText(n.text).trim
     try {
 
       val iliadUrn = CtsUrn(iliadUrnText)
@@ -142,15 +142,15 @@ def catAll: String = {
 
 
 def tidy = {
-  val scholiaCompositeFiles  = FileCollector.filesInDir(scholiaComposites, "xml")
+  val scholiaCompositeFiles  = DataCollector.filesInDir(scholiaComposites, "xml")
   for (f <- scholiaCompositeFiles.toSeq) {
     f.delete()
   }
-  val iliadCompositeFiles  = FileCollector.filesInDir(iliadComposites, "xml")
+  val iliadCompositeFiles  = DataCollector.filesInDir(iliadComposites, "xml")
   for (f <- iliadCompositeFiles.toSeq) {
     f.delete()
   }
-  val cexEditionFiles = FileCollector.filesInDir(cexEditions, "cex")
+  val cexEditionFiles = DataCollector.filesInDir(cexEditions, "cex")
   for (f <- cexEditionFiles.toSeq) {
     f.delete()
   }
