@@ -52,6 +52,33 @@ def scholia = {
     }
   }
   val xrefNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
+
+
+  val xrefUrns = for (n <- xrefNodes) yield {
+    val scholion = n.urn
+    val iliadUrnText = XmlCollector.collectText(n.text).trim
+    try {
+
+      val iliadUrn = CtsUrn(iliadUrnText)
+      (scholion, Some(iliadUrn))
+    } catch {
+      case t: Throwable => {
+        println("Could not parse " + iliadUrnText)
+        (scholion, None)
+      }
+    }
+  }
+  val verb = "urn:cite2:cite:verbs.v1:commentsOn"
+  val index = xrefUrns.map { case (sch,iliadOpt) =>
+    iliadOpt match {
+      case None => ""
+      case u: Some[CtsUrn] => s"${sch}#${verb}#${u.get}"
+    }
+  }
+
+
+  val hdr = "#!relations\n"
+  new PrintWriter(s"${cexEditions}/commentaryIndex.cex") { write(hdr + index.mkString("\n") + "\n");close }
 }
 
 def iliad = {
@@ -74,7 +101,6 @@ def iliad = {
   val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
 
   new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
-
 }
 
 
@@ -97,8 +123,12 @@ def catAll: String = {
   val msAim = Source.fromFile("archive/editions/msAim_diplomatic.cex").getLines.toVector
   val msAint = Source.fromFile("archive/editions/msAint_diplomatic.cex").getLines.toVector
 
+  val commentsIndex = Source.fromFile(s"${cexEditions}/commentaryIndex.cex").getLines.toVector
+
   val vaimg =  Source.fromFile("archive/images/vaimgs.cex").getLines.toVector
   val vbimg =  Source.fromFile("archive/images/vbimgs.cex").getLines.toVector
+
+  val binimg = Source.fromFile("archive/images/binaryimgs.cex").getLines.toVector
 
   val arist =  Source.fromFile("archive/commentaries-annotations/aristarchansigns.cex").getLines.toVector
 
@@ -107,14 +137,8 @@ def catAll: String = {
 
   val dse =  Source.fromFile("archive/dse/va-dse.cex").getLines.toVector
 
-  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n") + "\n" + msA.mkString("\n") + "\n" + msAext.mkString("\n") + "\n" + msAil.mkString("\n") + "\n" + msAim.mkString("\n") + "\n" + msAint.mkString("\n")
+  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + binimg.mkString("\n")+ "\n"+ arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n") + "\n" + msA.mkString("\n") + "\n" + msAext.mkString("\n") + "\n" + msAil.mkString("\n") + "\n" + msAim.mkString("\n") + "\n" + msAint.mkString("\n") + "\n" + commentsIndex.mkString("\n") + "\n"
 
-  /*archive/editions/msA_diplomatic.cex
-  archive/editions/msAext_diplomatic.cex
-  archive/editions/msAil_diplomatic.cex
-  archive/editions/msAim_diplomatic.cex
-  archive/editions/msAint_diplomatic.cex
-  */
 }
 
 
