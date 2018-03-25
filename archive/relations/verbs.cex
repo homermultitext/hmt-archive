@@ -1,0 +1,13 @@
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:cite:verbs.v1:#Verbs defined for relations of CITE indexes#urn:cite2:cite:verbs.v1.summary:##Public domain
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:cite:verbs.v1.urn:#URN#Cite2Urn#
+urn:cite2:cite:verbs.v1.summary:#Summary#String#
+
+#!citedata
+urn#summary
+urn:cite2:cite:verbs.v1:commentsOn#Subject (a CtsUrn) comments on the object (ak second CtsUrn).

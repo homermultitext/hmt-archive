@@ -13,7 +13,7 @@ File names in `code` format are planned for inclusion in the `2018a` release.
 Applies to:
 
 -   `images/vaimgs.cex`
--   `images/vbimgs.cex`
+-   vbimgs.cex
 -   bankes.cex
 -   chicago.cex
 -   churikimgs.cex
@@ -88,7 +88,7 @@ Applies to:
 
 - This implmenents `binaryimg` with the `iipDeepZoom` protocol, for the same collection of image-objects, using a different `path` and `url`.
 
-- Two more implementations connect `binaryimg` to the `vaimg` collection, one for locally hosted DeepZoom (`.dzi`) files, and one for locally hosted JPGs: 
+- Two more implementations connect `binaryimg` to the `vaimg` collection, one for locally hosted DeepZoom (`.dzi`) files, and one for locally hosted JPGs:
 
     urn:cite2:hmt:binaryimg.v1:vaimg_localDeepZoom#Binary data for images of the Venetus A manuscript. DeepZoom files#urn:cite2:hmt:vaimg.2017a:#localDeepZoom#/hmt/vaimg/2017a#image_archive#Creative Commons Attribution Share-Alike.
 

@@ -148,9 +148,10 @@ def catAll: String = {
   val imageCex = DataCollector.compositeFiles("archive/images", "cex")
   val annotationCex = DataCollector.compositeFiles("archive/annotations","cex")
   val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
+  val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
 
   // Concatenate into a single string:
-  List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex ).mkString("\n\n")
+  List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex ).mkString("\n\n") + "\n"
 }
 
 /** Remove all temporary files created in process of composing
