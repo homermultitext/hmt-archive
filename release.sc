@@ -8,7 +8,7 @@ import java.io.PrintWriter
 import scala.io._
 
 
-
+// Predefine layout of archive's file directory:
 val scholiaXml = "archive/scholia"
 val iliadXml = "archive/iliad"
 
@@ -17,7 +17,10 @@ val iliadComposites = "archive/iliad-composites"
 
 val cexEditions = "archive/editions"
 
-/**  Write CEX editions of scholia.
+/**  Compose editions of scholia.  This includes
+* an archival XML edition in CEX format;  a markdown
+* document with corrigenda to the XML edition; and
+* a pure diplomatic edition in CEX format.
 */
 def scholia = {
   println("Creating composite XML editions of scholia...")
@@ -32,37 +35,39 @@ def scholia = {
 
   new PrintWriter(s"${cexEditions}/scholia_xml.cex") { write(scholiaRepo.cex("#"));close }
 
+
+  // Now compute corrigenda for each scholia document, and
+  // generate automatically derived editions:
   val scholiaDocs = scholiaRepo.corpus.nodes.map(_.urn.work).distinct
-
-
-
-  // WRITE CATALOG LIKE THIS:
-  //
   for (s <- scholiaDocs) {
+
+    // omit this class for now:
     if (s != "msAextra") {
       println("Create corpus for " + s)
       val subCorpusNodes = scholiaNodes.filter(_.urn.work == s)
       val c = Corpus(subCorpusNodes)
       val tokens = TeiReader.fromCorpus(c)
       println("Created " + tokens.size + " tokens.")
+
+      // Corrigenda to XML edition:
+      val badtokens = tokens.filter(_.analysis.errors.size > 0)
+      println(s"Found ${badtokens.size} errors in ${s}")
+      val report = badtokens.map(err => "-   " + err.analysis.errorReport(" "))
+
+      val corrHeader = s"\n\n## Corrigenda XML markup of scholia ${s}\n\n"
+      new PrintWriter(s"${cexEditions}/va_${s}_corrigenda.md") { write(corrHeader + report.mkString("\n"));close }
+
+      // Compose pure diplomatic edition:
       val diplEdition = DiplomaticEditionFactory.corpusFromTokens(tokens)
       val diplByScholion = diplEdition.exemplarToVersion("va_dipl")
 
       val diplHeader = s"\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026.${s}.va_dipl:#book,scholion, section#Scholia to the Iliad#Scholia ${s} in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
       new PrintWriter(s"${cexEditions}/${s}_diplomatic.cex") { write(diplHeader + diplByScholion.cex("#"));close }
-
-
-      val badtokens = tokens.filter(_.analysis.errors.size > 0)
-      println(s"Found ${badtokens.size} errors in ${s}")
-
-      val report = badtokens.map(err => "-   " + err.analysis.errorReport(" "))
-
-      val corrHeader = s"\n\n## Corrigenda XML markup of scholia ${s}\n\n"
-
-      new PrintWriter(s"${cexEditions}/va_${s}_corrigenda.md") { write(corrHeader + report.mkString("\n"));close }
-
     }
   }
+
+  // Write index file indexing scholia to Iliad passage they
+  // comment on:
   val xrefNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
 
 
@@ -92,41 +97,45 @@ def scholia = {
   new PrintWriter(s"${cexEditions}/commentaryIndex.cex") { write(hdr + index.mkString("\n") + "\n");close }
 }
 
+
+/**  Compose editions of Iliad.  This includes
+* an archival XML edition in CEX format;  a markdown
+* document with corrigenda to the XML edition; and
+* a pure diplomatic edition in CEX format.
+*/
 def iliad = {
   // revisit this for making multiple Iliads...
   val fileBase = "va_iliad_"
-  println("Creating CEX editions of Iliad...")
-  IliadComposite.composite(iliadXml, iliadComposites)
+  println("Creating editions of Iliad...")
 
+  // create temporary composite XML file from source
+  // documents organized by book:
+  IliadComposite.composite(iliadXml, iliadComposites)
   val catalog = s"${iliadComposites}/ctscatalog.cex"
   val citation = s"${iliadComposites}/citationconfig.cex"
-
   val repo = TextRepositorySource.fromFiles(catalog,citation,iliadComposites)
+  // write CEX-formatted version of archival XML:
   new PrintWriter(s"${cexEditions}/va_iliad_xml.cex") { write(repo.cex("#"));close }
 
-
   val tokens = TeiReader.fromCorpus(repo.corpus)
+  // Compute corrigenda:
+  val badtokens = tokens.filter(_.analysis.errors.size > 0)
+  val report = badtokens.map(err => "-   " + err.analysis.errorReport(" "))
+  val corrHeader = "\n\n## Corrigenda to XML markup of *Iliad*\n\n"
+  new PrintWriter(s"${cexEditions}/va_iliad_corrigenda.md") { write(corrHeader + report.mkString("\n"));close }
+
+  // Generate pure diplomatic edition:
   val diplIliad = DiplomaticEditionFactory.corpusFromTokens(tokens)
   val diplIliadByLine = diplIliad.exemplarToVersion("msA")
 
   val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
 
   new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
-
-
-
-
-  val badtokens = tokens.filter(_.analysis.errors.size > 0)
-  val report = badtokens.map(err => "-   " + err.analysis.errorReport(" "))
-
-  val corrHeader = "\n\n## Corrigenda to XML markup of *Iliad*\n\n"
-
-  new PrintWriter(s"${cexEditions}/va_iliad_corrigenda.md") { write(corrHeader + report.mkString("\n"));close }
-
-
 }
 
 
+/** Concatenate all CEX source into a single string.
+*/
 def catAll: String = {
   // The archive's root directory has the library definition
   // for a given release in the file "library.cex".
@@ -144,7 +153,9 @@ def catAll: String = {
   List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex ).mkString("\n\n")
 }
 
-
+/** Remove all temporary files created in process of composing
+* a release.
+*/
 def tidy = {
   val scholiaCompositeFiles  = DataCollector.filesInDir(scholiaComposites, "xml")
   for (f <- scholiaCompositeFiles.toSeq) {
