@@ -16,6 +16,8 @@ The CEX-format releases are automatically assembled from source files in the `ar
 
 Prerequisites:  [sbt](https://www.scala-sbt.org/)
 
+Update `library.cex` in the `archive` directory for each published release.
+
 From from the root directory of this repository, open an sbt console (`sbt console`).  Load the interactive script for generating releases:
 
     :load release.sc
@@ -24,7 +26,17 @@ You can then use the `release`   function to generate a new release like this:
 
     release("RELEASE_NAME")
 
-This will write a composite file name `hmt-RELEASE_NAME.cex`  in the `releases-cex` directory.
+The value of `RELEASE_NAME` should be the version identifier for this release's URN as given in `library.cex`.  E.g., to publish a release of
+`urn:cite2:hmt:publications.cex.2018a:all`, use `2018a`
+as the value for `RELEASE_NAME`.
+
+This function writes two files to the  the `releases-cex` directory:
+
+
+1.  a composite CEX file named `hmt-RELEASE_NAME.cex`   with the full contents of the archive
+2.  a composite markdown file named `hmt-RELEASE_NAME-corrigenda.md` with a full catalog of machine-identified corrigenda
+
+
 
 ## Layout of the archive
 

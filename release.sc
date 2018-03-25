@@ -35,6 +35,7 @@ def scholia = {
   val scholiaDocs = scholiaRepo.corpus.nodes.map(_.urn.work).distinct
 
 
+
   // WRITE CATALOG LIKE THIS:
   //
   for (s <- scholiaDocs) {
@@ -49,6 +50,17 @@ def scholia = {
 
       val diplHeader = s"\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026.${s}.va_dipl:#book,scholion, section#Scholia to the Iliad#Scholia ${s} in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
       new PrintWriter(s"${cexEditions}/${s}_diplomatic.cex") { write(diplHeader + diplByScholion.cex("#"));close }
+
+
+      val badtokens = tokens.filter(_.analysis.errors.size > 0)
+      println(s"Found ${badtokens.size} errors in ${s}")
+
+      val report = badtokens.map(err => "-   " + err.analysis.errorReport(" "))
+
+      val corrHeader = s"\n\n## Corrigenda XML markup of scholia ${s}\n\n"
+
+      new PrintWriter(s"${cexEditions}/va_${s}_corrigenda.md") { write(corrHeader + report.mkString("\n"));close }
+
     }
   }
   val xrefNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
@@ -100,44 +112,36 @@ def iliad = {
   val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
 
   new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
+
+
+
+
+  val badtokens = tokens.filter(_.analysis.errors.size > 0)
+  val report = badtokens.map(err => "-   " + err.analysis.errorReport(" "))
+
+  val corrHeader = "\n\n## Corrigenda to XML markup of *Iliad*\n\n"
+
+  new PrintWriter(s"${cexEditions}/va_iliad_corrigenda.md") { write(corrHeader + report.mkString("\n"));close }
+
+
 }
 
 
 def catAll: String = {
-  val libLines = Source.fromFile("archive/library.cex").getLines.toVector
+  // The archive's root directory has the library definition
+  // for a given release in the file "library.cex".
+  val libraryCex = DataCollector.compositeFiles("archive", "cex")
 
-  val codices =  Source.fromFile("archive/codices/vapages.cex").getLines.toVector
+  // Four subdirectories of the archive root contain all archival
+  // data in CEX format:
+  val tbsCex = DataCollector.compositeFiles("archive/codices", "cex")
+  val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
+  val imageCex = DataCollector.compositeFiles("archive/images", "cex")
+  val annotationCex = DataCollector.compositeFiles("archive/annotations","cex")
+  val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
 
-  val iliad =  Source.fromFile("archive/editions/va_iliad_xml.cex").getLines.toVector
-
-
-  val iliadDipl =  Source.fromFile("archive/editions/va_iliad_diplomatic.cex").getLines.toVector
-
-
-  val scholia =  Source.fromFile("archive/editions/scholia_xml.cex").getLines.toVector
-
-  val msA = Source.fromFile("archive/editions/msA_diplomatic.cex").getLines.toVector
-  val msAext = Source.fromFile("archive/editions/msAext_diplomatic.cex").getLines.toVector
-  val msAil = Source.fromFile("archive/editions/msAil_diplomatic.cex").getLines.toVector
-  val msAim = Source.fromFile("archive/editions/msAim_diplomatic.cex").getLines.toVector
-  val msAint = Source.fromFile("archive/editions/msAint_diplomatic.cex").getLines.toVector
-
-  val commentsIndex = Source.fromFile(s"${cexEditions}/commentaryIndex.cex").getLines.toVector
-
-  val vaimg =  Source.fromFile("archive/images/vaimgs.cex").getLines.toVector
-  val vbimg =  Source.fromFile("archive/images/vbimgs.cex").getLines.toVector
-
-  val binimg = Source.fromFile("archive/images/binaryimgs.cex").getLines.toVector
-
-  val arist =  Source.fromFile("archive/commentaries-annotations/aristarchansigns.cex").getLines.toVector
-
-  val critsigns =  Source.fromFile("archive/commentaries-annotations/va_criticalsigns.cex").getLines.toVector
-
-
-  val dse =  Source.fromFile("archive/dse/va-dse.cex").getLines.toVector
-
-  libLines.mkString("\n") + "\n" + codices.mkString("\n") + "\n" + vaimg.mkString("\n") + "\n" + vbimg.mkString("\n") + "\n" + iliad.mkString("\n") +  scholia.mkString("\n") + "\n" + binimg.mkString("\n")+ "\n"+ arist.mkString("\n") + "\n" + critsigns.mkString("\n") + "\n" + dse.mkString("\n") + "\n" + iliadDipl.mkString("\n") + "\n" + msA.mkString("\n") + "\n" + msAext.mkString("\n") + "\n" + msAil.mkString("\n") + "\n" + msAim.mkString("\n") + "\n" + msAint.mkString("\n") + "\n" + commentsIndex.mkString("\n") + "\n"
-
+  // Concatenate into a single string:
+  List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex ).mkString("\n\n")
 }
 
 
@@ -150,24 +154,45 @@ def tidy = {
   for (f <- iliadCompositeFiles.toSeq) {
     f.delete()
   }
+
   val cexEditionFiles = DataCollector.filesInDir(cexEditions, "cex")
   for (f <- cexEditionFiles.toSeq) {
+    f.delete()
+  }
+
+  val corrigendaFiles = DataCollector.filesInDir(cexEditions, "corrigenda.md")
+  for (f <- corrigendaFiles.toSeq) {
     f.delete()
   }
 }
 
 
+/** Publish a release of the Homer Multitext project archive.
+*
+* @param releaseId Identifier for the release.
+* The value should be the version identifier for this release's URN
+* as given in `library.cex`.  E.g., to publish release
+* `urn:cite2:hmt:publications.cex.2018a:all`, use `2018a`
+* as the value for releaseId.
+*/
 def release(releaseId: String) =  {
   // Generate intermediate files:
   scholia
   iliad
-  // build single composite and write it:
+  // build single CEX composite and write it out to a file:
   val allCex = catAll
   new PrintWriter(s"releases-cex/hmt-${releaseId}.cex") { write(allCex); close}
-  // clean up all intermediate files:
+
+  // build a single markdown file with all corrigenda, and
+  // write it out to a file:
+  val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
+  val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
+  new PrintWriter(s"releases-cex/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
+
+  // clean up intermediate files:
   tidy
 
-  println(s"\nRelease ${releaseId} is available in releases-cex/hmt-${releaseId}.cex\n")
+  println(s"\nRelease ${releaseId} is available in releases-cex/hmt-${releaseId}.cex with accompanying list of corrigenda in releases-cex/hmt-${releaseId}-corrigenda.md\n")
 }
 
 
