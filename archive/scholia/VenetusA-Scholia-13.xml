@@ -3171,7 +3171,7 @@
 						<div
 							n="comment">
 							<p>μεσαιπολιος <persName
-									n="urn:cite2:hmt:pers.pers287">Ϊδομενευς</persName>⁑</p>
+									n="urn:cite2:hmt:pers.v1:pers287">Ϊδομενευς</persName>⁑</p>
 						</div>
 					</div>
 					<div n="3bis">
@@ -3203,7 +3203,7 @@
 						<div
 							n="comment">
 							<p>γέρων <persName
-									n="urn:cite2:hmt:pers.pers117">Νέστωρ</persName>⁑</p>
+									n="urn:cite2:hmt:pers.v1:pers117">Νέστωρ</persName>⁑</p>
 						</div>
 					</div>
 					<div
@@ -3253,7 +3253,7 @@
 							n="comment">
 							<p>ὁ ϊόντα δια τοῦ <rs
 									n="waw">ϊ</rs> αἱ <persName
-									n="urn:cite2:hmt:pers.pers16">
+									n="urn:cite2:hmt:pers.v1:pers16">
 									<choice>
 										<abbr>Αρισταρχ</abbr>
 										<expan>Αρισταρχου</expan>
@@ -3279,7 +3279,7 @@
 								<abbr>οὑτ</abbr>
 								<expan>οὑτῶς</expan> δια τοῦ <rs
 									n="waw">ε</rs> ἁι <persName
-									n="urn:cite2:hmt:pers.pers16">
+									n="urn:cite2:hmt:pers.v1:pers16">
 									<choice>
 										<abbr>Αρισταρχ</abbr>
 										<expan>Αρισταρχος</expan>
@@ -3307,14 +3307,14 @@
 								<expan>οὑτῶς</expan> δια τοῦ <rs
 									n="waw">o</rs>
 								<persName
-									n="urn:cite2:hmt:pers.pers16">
+									n="urn:cite2:hmt:pers.v1:pers16">
 									<choice>
 										<abbr>Αρισταρχ</abbr>
 										<expan>Αρισταρχος</expan>
 									</choice>
 								</persName>
 								<persName
-									n="urn:cite2:hmt:pers.pers15">
+									n="urn:cite2:hmt:pers.v1:pers15">
 									<choice>
 										<abbr>Ζενοτ</abbr>
 										<expan>Ζενοδοτος</expan>
@@ -3338,7 +3338,7 @@
 							n="comment">
 							<p>
 								<persName
-									n="urn:cite2:hmt:pers.pers16">
+									n="urn:cite2:hmt:pers.v1:pers16">
 									<choice>
 										<abbr>Ἀριστ</abbr>
 										<expan>Ἀρισταρχος</expan>
@@ -7517,7 +7517,7 @@
 							n="comment">
 							<p>
 								<placeName
-									n="urn:cite:hmt:place.6">Τροίας</placeName>λούσης, <persName
+									n="urn:cite2:hmt:place.v1:place.6">Τροίας</placeName>λούσης, <persName
 									n="urn:cite2:hmt:pers:pers142">Αἰνείας</persName>
 								<persName
 									n="urn:cite2:hmt:pers:pers273">Ἀγχίσην</persName>αραλαβὼν τὸν <choice>
@@ -7527,9 +7527,9 @@
 									<sic>περιπεσών</sic>
 									<corr>περιπεσὼν</corr>
 								</choice>ερὶ τὸν <placeName
-									n="urn:cite:hmt:place.427">Ἄθω</placeName>νῄει σὺν τῷ πατρί· καὶ <persName
+									n="urn:cite2:hmt:place.v1:place.427">Ἄθω</placeName>νῄει σὺν τῷ πατρί· καὶ <persName
 									n="urn:cite2:hmt:pers:pers273">Ἀγχίσης</persName>ὲν πρὸς τῷ καλαύρῳ ὄρει πλησίον <placeName
-									n="urn:cite:hmt:place.!!!!">Ἀνθέμου</placeName>οταμοῦ τελευτᾷ, θάψας δὲ αὐτὸν <persName
+									n="urn:cite2:hmt:place.v1:place.MISSING">Ἀνθέμου</placeName>οταμοῦ τελευτᾷ, θάψας δὲ αὐτὸν <persName
 									n="urn:cite2:hmt:pers:pers142">Αἰνείας</persName>, ὅπου καὶ νῦν τάφος ἐστίν <persName
 									n="urn:cite2:hmt:pers:pers273">Ἀγχίσου</persName>εγόμενος ἐν πυάνη κὰτα βούλησιν τῆς <choice>
 									<abbr>μρς</abbr>
@@ -7537,11 +7537,11 @@
 								</choice>
 								<persName
 									n="urn:cite2:hmt:pers:pers194">Ἀφροδίτης</persName>όλιν ἔκτισε τὴν ἁπ αὐτοῦ <rs
-									n="urn:cite:hmt:pers:pers142"
+									n="urn:cite2:hmt:pers.v1:pers142"
 									type="ethnic">Αἰνειάδα</rs>ροσαγορευθεῖσαν· τελευτήσαντος δὲ τούτου ὁ εξ αυτῆς γενόμενος
 								παῖς λάθρα ἐπὶ τὴν πατρώαν ἀρχὴν παραγενόμενος καὶ πόλιν ἀναστήσας παραλαβὼν δὲ τὸν στρατὸν
 								μετῴκησεν εἰς <placeName
-									n="urn:cite:hmt:place.204">Ἰ̈ταλίαν</placeName>αὶ κτίζει πόλιν Ῥώμην⁑</p>
+									n="urn:cite2:hmt:place.v1:place.204">Ἰ̈ταλίαν</placeName>αὶ κτίζει πόλιν Ῥώμην⁑</p>
 						</div>
 					</div>
 					<div
