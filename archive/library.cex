@@ -19,7 +19,6 @@ namespace#greekLit#http://chs.harvard.edu/ctsns/greekLit
 URN#Description#Labelling property#Ordering property#License
 urn:cite2:cite:datamodels.v1:#CITE data models#urn:cite2:cite:datamodels.v1.label:##Public domain
 
-
 #!citeproperties
 Property#Label#Type#Authority list
 urn:cite2:cite:datamodels.v1.urn:#Data model#Cite2Urn#
@@ -28,5 +27,7 @@ urn:cite2:cite:datamodels.v1.description:#Description#String#
 
 #!citedata
 urn#label#description
+urn:cite2:cite:datamodels.v1:imagemodel#Citable Image#Model of a citable image.  See http://cite-architecture.github.io/imagemodel/.
+urn:cite2:cite:datamodels.v1:binaryimg#Binary image data#Model of a binary image data associated with a citable image.  See TBA.
 urn:cite2:cite:datamodels.v1:tbsmodel#Text Bearing Surface Model#Model of TextBearing Surfaces.  See http://cite-architecture.github.io/tbsmodel/.
 urn:cite2:cite:datamodels.v1:dsemodel#Diplomatic Scholarly Edition#Diplomatic Scholarly Edition.  See https://cite-architecture.github.io/dse/.
