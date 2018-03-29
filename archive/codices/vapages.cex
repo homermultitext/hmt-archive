@@ -1,10 +1,10 @@
 #!datamodels
+Collection#Model#Label#Description
 urn:cite2:hmt:msA.v1:#urn:cite2:cite:datamodels.v1:tbsmodel#Codex model#CITE model of a sequence of text-bearing surfaces
 
 #!citecollections
 URN#Description#Labelling property#Ordering property#License
 urn:cite2:hmt:msA.v1:#Venetus A manuscripts#urn:cite2:hmt:msA.v1.label:#urn:cite2:hmt:msA.v1.sequence:#CC-attribution-share-alike
-urn:cite2:cite:datamodels.v1:#CITE data models#urn:cite2:cite:datamodels.v1.label:##Public domain
 
 #!citeproperties
 Property#Label#Type#Authority list
