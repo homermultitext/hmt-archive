@@ -3,6 +3,7 @@
 import org.homermultitext.hmtcexbuilder._
 import edu.holycross.shot.ohco2._
 import edu.holycross.shot.cite._
+import edu.holycross.shot.scm._
 import org.homermultitext.edmodel._
 import java.io.PrintWriter
 import scala.io._
@@ -205,7 +206,14 @@ def release(releaseId: String) =  {
   tidy
 
   println(s"\nRelease ${releaseId} is available in releases-cex/hmt-${releaseId}.cex with accompanying list of corrigenda in releases-cex/hmt-${releaseId}-corrigenda.md\n")
+
+  println("Now preparing user guide...")
+  val lib = CiteLibrarySource.fromFile(s"releases-cex/hmt-${releaseId}.cex")
+  val surveyor = ReleaseSurveyor(lib, "releases-cex" ,  releaseId)
+  surveyor.overview
 }
+
+
 
 
 println("\nBuild a release of the HMT archive:")
