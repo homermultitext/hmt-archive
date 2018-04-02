@@ -210,7 +210,7 @@ def release(releaseId: String) =  {
   println("Now preparing user guide...")
   val lib = CiteLibrarySource.fromFile(s"releases-cex/hmt-${releaseId}.cex")
   val surveyor = ReleaseSurveyor(lib, "releases-cex" ,  releaseId)
-  surveyor.overview(6, 300)
+  surveyor.overview(3, 100)
 }
 
 
