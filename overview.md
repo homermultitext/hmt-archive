@@ -23,7 +23,7 @@ The HMT project is developing a project-specific model of the contents of citabl
 Contributors to the HMT assemble material in TEI-compliant XML files and in tabular delimited-text files.  An automated publication process composites all of the source material in a single text file in CEX format (specification linked [here](https://cite-architecture.github.io/citedx/).)
 
 
-## How are the publications verified?
+## How are HMT publications verified?
 
 Before publication, a composite CEX file encoding the entire contents of the archive is analyzed for inconsistencies in content and structure.  A detailed listing of every error is recorded in a human-reable list of corrigenda.  A machine-generated textual summary and visualizations of different aspects of the publication are written as files in markdown format.
 
@@ -56,7 +56,7 @@ Since CEX files are just plain-text files, you can use any tools that work with 
 
 
 
-## What other kinds of access does the project offer?
+## What other kinds of access does the HMT project offer?
 
 The principal publication is the CEX source that can be downloaded from github.  In addition, we currently offer:
 
