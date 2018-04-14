@@ -38,7 +38,7 @@ The automated verification depends on a number of code libraries.  To assess the
 
 Each library includes a suite of automated tests, API documentation, and some additional end-user documentation.
 
-## How do I find them?
+## How do I find HMT publications?
 
 Published releases, comprised of a single data set in `.cex` format, a catalog of corrigenda, and a folder with user-readable reports, are committed to the `releases-cex` directory of the project's `hmt-archive` github repository:
 <https://github.com/homermultitext/hmt-archive/tree/master/releases-cex>
