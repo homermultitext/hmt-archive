@@ -53,6 +53,7 @@ Since CEX files are just plain-text files, you can use any tools that work with 
 -   Individual labelled CEX blocks are easily imported into databases or statistical software.
 -   CITE-App is a browser-based app for working with data loaded from a CEX source:
 <https://github.com/cite-architecture/CITE-App>
+-  `scs-akka` is a RESTful microservice that loads data from a CEX source:  <https://github.com/cite-architecture/scs-akka>
 
 
 
@@ -60,5 +61,7 @@ Since CEX files are just plain-text files, you can use any tools that work with 
 
 The principal publication is the CEX source that can be downloaded from github.  In addition, we currently offer:
 
--   a REST returning json [DOCUMENTATION TBA]
+
 -   an installation of CITE-App: <http://www.homermultitext.org/cite-app/>
+
+In the near future, we plan to offer an installation of `scs-akka` hosted at the University of Houston.
