@@ -51,7 +51,7 @@ Since CEX files are just plain-text files, you can use any tools that work with 
 
 -   You can inspect or browse  an HMT publication with a text editor, search it with command-line tools like `grep`, or of course read the file with scripts written in any language.
 -   Individual labelled CEX blocks are easily imported into databases or statistical software.
--   CITE-App is an browser-based app for working with data loaded from a CEX source:
+-   CITE-App is a browser-based app for working with data loaded from a CEX source:
 <https://github.com/cite-architecture/CITE-App>
 
 
