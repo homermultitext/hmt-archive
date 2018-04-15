@@ -5,8 +5,8 @@
 
 #!citelibrary
 
-name#Homer Multitext project, release 2018 A
-urn#urn:cite2:hmt:publications.cex.2018a:all
+name#Homer Multitext project, release 2018 B
+urn#urn:cite2:hmt:publications.cex.2018b:all
 license#Creative Commons Attribution, Non-Commercial 4.0 License <https://creativecommons.org/licenses/by-nc/4.0/>.
 
 // CITE namespace definitions
@@ -31,3 +31,4 @@ urn:cite2:cite:datamodels.v1:imagemodel#Citable Image#Model of a citable image. 
 urn:cite2:cite:datamodels.v1:binaryimg#Binary image data#Model of a binary image data associated with a citable image.  See TBA.
 urn:cite2:cite:datamodels.v1:tbsmodel#Text Bearing Surface Model#Model of TextBearing Surfaces.  See http://cite-architecture.github.io/tbsmodel/.
 urn:cite2:cite:datamodels.v1:dsemodel#Diplomatic Scholarly Edition#Diplomatic Scholarly Edition.  See https://cite-architecture.github.io/dse/.
+urn:cite2:cite:datamodels.v1:commentarymodel#Commentary#Model text passages commenting on text passages
