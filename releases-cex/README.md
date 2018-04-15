@@ -1,1 +1,3 @@
-This directory is for publication of a complete release of the Homer Multitext project archive in a single file in CEX format.
+# Published releases of the HMT archive (from 2018)
+
+-  **2018a**:  *scholia* and *Iliad* text for *Iliad* 1-12 in the Venetus A.
