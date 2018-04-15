@@ -73,7 +73,7 @@ def scholia = {
 
 
   val xrefUrns = for (n <- xrefNodes) yield {
-    val scholion = n.urn
+    val scholion = n.urn.collapsePassageTo(2)
     val iliadUrnText = DataCollector.collectXmlText(n.text).trim
     try {
 
