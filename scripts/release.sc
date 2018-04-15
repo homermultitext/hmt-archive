@@ -194,22 +194,22 @@ def release(releaseId: String) =  {
   iliad
   // build single CEX composite and write it out to a file:
   val allCex = catAll
-  new PrintWriter(s"releases-cex/hmt-${releaseId}.cex") { write(allCex); close}
+  new PrintWriter(s"release-candidates/hmt-${releaseId}.cex") { write(allCex); close}
 
   // build a single markdown file with all corrigenda, and
   // write it out to a file:
   val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
   val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
-  new PrintWriter(s"releases-cex/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
+  new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
 
   // clean up intermediate files:
   tidy
 
-  println(s"\nRelease ${releaseId} is available in releases-cex/hmt-${releaseId}.cex with accompanying list of corrigenda in releases-cex/hmt-${releaseId}-corrigenda.md\n")
+  println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying list of corrigenda in release-candidates/hmt-${releaseId}-corrigenda.md\n")
 
   println("Now preparing user guide...")
-  val lib = CiteLibrarySource.fromFile(s"releases-cex/hmt-${releaseId}.cex")
-  val surveyor = ReleaseSurveyor(lib, "releases-cex" ,  releaseId)
+  val lib = CiteLibrarySource.fromFile(s"release-candidates/hmt-${releaseId}.cex")
+  val surveyor = ReleaseSurveyor(lib, "release-candidates" ,  releaseId)
   surveyor.overview(4, 200)
 }
 
