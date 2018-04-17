@@ -11,6 +11,6 @@ Published releases are machine generated and validated from data in the `archive
 -   For more detailed technical information about how the archive is organized and managed, see the web site at <http://homermultitext.github.io/hmt-archive/>.
 
 
-## Current published release: `2018a`
+## Current published release: `2018b`
 
 See a brief summary of [published releases](releases-cex/README.md).
