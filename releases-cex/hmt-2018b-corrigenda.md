@@ -1,0 +1,3174 @@
+# All corrigenda for HMT release 2018b
+
+
+
+## Corrigenda to XML markup of *Iliad*
+
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:2.30.1 Τρώων unrecognized value for @type attribute on rs element urn:cite2:hmt:place.r1:place6
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:2.56.2 ξιφος Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:2.853.3 Κύτωρον element placeName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:2.853.7 Σήσαμον element placeName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:2.854.3 Παρθένιον element placeName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.1 ἀλλ' Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.2 ἐπὶ Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.3 πύργον Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.4 ἔβη Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.5 μέγαν Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.6 Ἰ̈λίου Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.7 οὕνεκ' Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.386del.8 ἄκουσεν Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.425.7 Πλάκω element placeName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:6.460.1 Ἕκτορος element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:7.159.7 Παναχαιῶν unrecognized value for @type attribute on rs element ethic
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:7.442.7 Ἀχαιοὶ unrecognized value for @type attribute on rs element ethic
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:7.468.5 Ἰ̈ησονίδης element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:7.468.6 Εὔνηος element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:7.469.4 Ὑψιπύλη element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:7.471.2 Ἰ̈ησονίδης element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:9.170.7 Εὐρυβάτης element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:9.381.8 Θήβας element placeName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:9.557.4 Εὐηνί̄νης element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:9.571.7 Ἐρῑνὺς element persName missing required @n attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:10.534.5 τοι Invalid element name: del
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:11.286.7 Δάρδανοι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:11.420.1 Τρῶες unrecognized value for @type attribute on rs element urn:cite2:hmt:place.r1:place6
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:11.597.6 Νηλήϊαι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:11.682.6 Νηλήϊον rs element missing required @type attribute
+-   urn:cts:greekLit:tlg0012.tlg001.va_xml.tokens:11.690.6 Ἡρακληείη rs element missing required @type attribute
+
+
+## Corrigenda XML markup of scholia msA
+
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.161 ἢἐ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.162 χόλο?ν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.163 παύσειεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.164 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.165 ἐρητύσειε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.166 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.167 θυμόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.169 οὐδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.170 ὄθομαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.171 κοτέοντος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.173 αὐτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.174 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.175 μήνιε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1.comment.176 νηυσίν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.4.comment.11 ἄνδρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.4.comment.12 μοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.4.comment.13 ἔννεπε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.4.comment.14 Μοῦσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.11.comment.56 ί Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.34.comment.20 βασι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.34.comment.21 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.34.comment.22 ἀγαθὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.34.comment.23 κρατερός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.34.comment.24 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.34.comment.25 αἰχμητής Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.10 αὐτοὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.11 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.12 ἑλώρια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.13 τεῦχε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.14 κύνεσσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.18 αἰεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.19 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.20 πυραὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.63.comment.21 νεκύων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.27 ἡμὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.28 τοὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.29 ἵππους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.30 τὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.31 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.32 ἄρματα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.33 ἠμὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.34 εμοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.35 δώσειν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.38 ἡ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.39 γᾶρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.93.comment.40 ὀΐομαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.2 Ἄρηϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.12 χερείονα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.13 περ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.14 καταπέφνων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.24 ἀλλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.25 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.26 υἱόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.27 γείνατο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.28 ειο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.29 χέρεια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.36 χέρεια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.37 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.38 χείρονι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.94.comment.39 δόσκεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.97.comment.11 οἶσθα· Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.97.comment.12 τί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.97.comment.13 ἠ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.97.comment.14 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.97.comment.15 ταυτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.97.comment.16 οἶσθα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.97.comment.17 γέρον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.98.comment.24 Θόαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.18 εἴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.19 ταρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.20 ὅ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.21 γ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.22 εὐχωλῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.54 ἔνθα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.55 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.56 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.57 οὔτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.58 ἄναξ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.59 ἐπιδευής Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.60 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.61 οὔτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.62 τι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.102.comment.63 ποιμήν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.103.comment.6 ἀλλ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.103.comment.7 ἕνεκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.103.comment.8 ἀρητῆρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.106.comment.29 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.106.comment.30 Χρύσην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.106.comment.37 πριν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.8 οἴκοθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.9 ἦγ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.10 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.11 γεραιός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.14 ἦγον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.15 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.16 Μαχάονα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.17 ποιμένα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.107.comment.18 λαῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.118.comment.16 αἰεί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.118.comment.17 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.118.comment.18 τα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.118.comment.19 κακ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.118.comment.20 εστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.118.comment.21 φίλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.120.comment.61 αἶγ Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.120.comment.62 αν Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.128.comment.27 οἵ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.128.comment.28 εθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.128.comment.29 οτρύνοντος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.128.comment.31 οὕς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.128.comment.32 εθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.128.comment.33 εἴνεκ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.128.comment.34 ἔπασχον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.22 δέμας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.23 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.24 ἤϊκτο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.25 γυναικὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.26 καλῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.27 τὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.28 μεγάλῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.29 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.31 ἐπεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.32 οὕτως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.33 οὐδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.34 ἕοικε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.35 θνητὰς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.36 ἀθανάτησι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.37 δέμας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.53 σῶμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.54 οἴκαδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.61 σῶμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.62 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.63 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.64 Κίρκης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.65 κατελείπομεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.66 αὖθις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.67 ἡμεῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.68 ἄκλαυτον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.69 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.70 ἄθαπτον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.73 ὧν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.74 ἔτι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.75 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.76 νῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.77 σώματ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.78 ακήδεα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.129.comment.79 κεῖται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.14 νῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.15 μοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.16 σῶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.17 αἰπὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.18 ὄλεθρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.25 σόον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.26 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.131.comment.27 ἀνένευσε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.72 λεύσσετε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.73 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.74 ὅ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.75 μοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.76 γέρας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.77 ἔρχεται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.78 ἄλλῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.81 πῦρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.82 ἕτερον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.83 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.84 ὑπ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.85 αἰθούσῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.86 εὐεργεος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.87 αὐλῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.88 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.89 ἄλλο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.90 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.91 ἐνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.92 προδόμῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.95 ὅς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.96 χ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.97 ἕτερον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.98 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.99 κεύθῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.100 ἐνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.101 φρεσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.102 ἄλλο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.103 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.132.comment.104 εἴπη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.133.comment.13 ἄξετε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.133.comment.14 οἴσετε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.133.comment.15 καταβήσεο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.133.comment.16 δίφρου Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.4 δῶσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.5 πόλιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.6 Τροιην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.90 φῆσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.91 ἐμὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.92 γενεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.95 εἰσόκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.96 μοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.97 μάλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.98 πάντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.99 πηρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.100 αποδῷσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.417.comment.101 έεδνα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.13 ήτοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.14 ὅτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.15 ἀμφὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.16 πόλιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.17 Τροΐην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.18 φράζευ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.49 εἰσόκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.50 περ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.51 Τροιην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.52 διαπέρσομεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.54 ἔνθα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.55 κεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.56 ὑψίπυλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.57 Τροιην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.58 ἕλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.59 υἱες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.61 Τροίῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.62 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.63 νευρείῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.83 ἤτοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.84 ἀμφι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.85 πόλιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.418.comment.86 Τροΐην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.423.comment.5 ὁ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.424.comment.10 ἕλωμαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.427.comment.13 ἠ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.427.comment.14 τεὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.427.comment.15 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.427.comment.16 ἠ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.427.comment.17 Αἴαντος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.18 καρτερώθυμε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.19 δαΐφρον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.35 Ἀγάμεμνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.36 ὀλβιόδαιμον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.37 κυλλοποδιον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.39 Ποσείδαον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.65 κέρδεά Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.66 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.67 οὔ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.68 πω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.69 τιν' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.428.comment.70 ἀκούομεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.477.comment.9 χαλκόφι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.478.comment.35 πωλεῖταί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.478.comment.36 τις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.478.comment.37 δεῦρο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.478.comment.38 γέρων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.478.comment.39 ἄλιος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.480.comment.10 δὲ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.481.comment.45 ουλομένην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.481.comment.46 ἢ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.481.comment.47 μυρί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.481.comment.48 Αχαιοῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.6 θυμος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.7 δε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.8 μέγας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.9 ἐστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.10 διοτρεφέων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.11 βασιλήων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.19 μελιηδέα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.20 θυμὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.21 ἀπηυρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.27 ὦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.28 θυμῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.29 ειξας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.30 μίγη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.31 φιλότητι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.32 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.491.comment.33 εὐνη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.492.comment.1 ἕτερος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.492.comment.2 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.492.comment.3 με Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.492.comment.4 θυμὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.492.comment.5 ἀνῆκεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.4 ἀλλ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.5 ένα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.6 θυμὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.7 ἔχοντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.8 νόῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.9 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.10 επίφρονι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.493.comment.11 βουλῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.22 ἐπεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.23 οῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.24 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.25 ἐπι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.26 δεος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.27 οὐ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.28 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.29 ἐπ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.30 ανὴρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.31 οῖος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.494.comment.32 Ὀδυσσεύς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.495.comment.10 αὐτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.495.comment.11 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.495.comment.12 αῦτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.495.comment.13 Θυέστ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.555.comment.11 ἦε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.555.comment.12 χόλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.555.comment.13 παύσειεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.561.comment.18 ξανθῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.561.comment.19 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.561.comment.20 κόμης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.561.comment.21 ἔλε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.561.comment.22 Πηλείωνος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.600.comment.15 προ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.600.comment.16 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.600.comment.17 μ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.600.comment.18 ῆκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.600.comment.19 θεᾶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.600.comment.21 ἄμφω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.600.comment.22 ὁμῶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.602.comment.29 και Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.6 ὥς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.7 κε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.8 θεοῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.9 ἐπιπείθηται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.10 . Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.11 μάλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.12 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.13 ἔκλυον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.603.comment.14 αὐτοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.18 ἐπειῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.19 πολὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.20 φέρτερόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.21 ἐστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.24 ἦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.25 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.26 λοίγια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.27 ἔργα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.34 ἠ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.35 οὐχ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.36 Ἑλένης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.37 ἕνεκ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.38 ἠϋκόμοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.39 . Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.40 ἦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.41 μούνοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.42 φιλέουσ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.43 ἀλόχους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.44 μερόπων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.45 ανων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.46 Ἀτρεῖδαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.53 ἦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.54 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.55 κυανέῃσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.92 ἢ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.93 εὖ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.94 ἠὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.95 κακῶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.107 οὐδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.108 ἀφαμαρτοεπής Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.109 εἰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.110 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.111 γένει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.112 ὕστερος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.113 ῆεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.118 ἀλλὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.119 τίη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.120 με Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.121 ταῦτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.122 παρεξερέεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.123 ἕκαστα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.133 ἡ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.134 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.135 ἑτέρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.136 θέρεϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.137 προρῥέει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.138 εἰκυῖα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.139 χαλάζῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.147 ἣ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.148 μυρὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.149 Αχαιοῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.156 ὣς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.157 ἥ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.158 γ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.159 ἀ'μφιπόλοισι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.608.comment.160 μετέπρεπεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.9 ναὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.10 μα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.11 τὸδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.12 σσκῆπτρον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.39 ουτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.40 ἔποτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.41 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.42 πόλεμον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.43 οὔτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.611.comment.44 λόχον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.653.comment.17 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.653.comment.18 λόχον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.653.comment.19 ἔνθα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.653.comment.20 μάλιστ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.653.comment.21 ἀρετὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.653.comment.22 διαείδεται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.653.comment.23 ἀνδρός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.655.comment.21 δῶρ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.655.comment.22 ἀποαιρεῖσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.656.comment.27 ε Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.656.comment.28 ι Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.12 καί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.13 νύ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.14 κεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.15 ἔνθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.16 ἀπόλοιτο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.17 ἄναξ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.18 ἀνδρῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.657.comment.19 Αἰνείας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.662.comment.6 ὃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.662.comment.7 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.662.comment.8 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.662.comment.9 νημερτὲς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.662.comment.10 ἐνήψει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.667.comment.35 οὔ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.667.comment.36 μιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.667.comment.37 ἐπέτρεπεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.667.comment.38 γήραϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.667.comment.39 λόγρῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.28 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.29 ὁδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.30 ἀνήρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.31 ἐθε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.32 περὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.33 πάντων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.66 νήπιοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.67 οἳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.68 κατα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.69 βοῦς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.70 Ὑπερίονος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.71 Ἠελίοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.723.comment.72 ἤσθιον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.14 πληθὺν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.15 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.16 οὐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.17 ὰν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.18 ἐγὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.19 μυθήσομαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.20 οὐδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.725.comment.21 ὀνομήνω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.734.comment.5 αὐτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.734.comment.6 ἐπεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.734.comment.7 κοσμηθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.793.comment.26 ἀλλ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.793.comment.27 οδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.793.comment.28 ἀνηρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.793.comment.29 εθελει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.793.comment.31 ἤθελε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.793.comment.32 Μηριόνης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.795.comment.29 ἔν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.795.comment.30 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.795.comment.31 Έρις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.795.comment.32 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.795.comment.33 δε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.795.comment.34 Κυδοιμὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.22 οὔ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.23 ποτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.24 ἐ?ς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.25 πόλεμον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.27 οὔτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.28 λόχον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.29 δ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.797.comment.30 ιεναι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.25 εἰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.26 δή Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.27 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.28 σοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.29 πρς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.31 καί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.32 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.33 ἐγὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.800.comment.34 συνέριθ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.30 Κύκλωψ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.31 τί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.32 πῖε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.33 οἶνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.48 ἤτοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.49 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.50 τά Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.51 γ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.52 όπισθε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.53 Μαχάωνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.54 παντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.55 ἔοικε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.56 τῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.57 Ασκληπιαδι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.64 τό Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.65 μιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.66 εεισάμενος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.71 τὸ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.72 σε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.73 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.74 οὐ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.803.comment.75 δύναμαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.23 ἀλλά Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.24 με Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.25 κακκεῖαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.26 συν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.27 τεύχεσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.28 τῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.29 λε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.30 τοδὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.31 κρήδεμνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.32 ὑπο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.33 στέρνοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.34 τανύσσαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.49 ἀλλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.50 σὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.51 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.52 κατάλεξαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.54 νῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.55 αὐτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.56 ἐμὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.57 ἔγχος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.58 ἄλευαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.109 δευρ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.110 άγε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.111 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.112 σὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.113 ξεῖνε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.114 πείρησαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.862.comment.115 ἀέθλων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.870.comment.17 αγέμεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.932.comment.16 αἵ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.932.comment.17 κ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.932.comment.18 ὕμμιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.932.comment.19 ὑπέρσχη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.932.comment.20 χεῖρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.932.comment.21 Κρονίων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.933.comment.8 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.933.comment.9 θώρηχ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.933.comment.10 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.933.comment.11 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.933.comment.12 ἦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.935.comment.18 αἰὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.935.comment.19 ἀναιδειην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.935.comment.20 ἐπιειμένε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.935.comment.21 κερδαλεόφρον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.10 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.11 παρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.12 τοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.13 βασιλῆος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.18 οὔνεκα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.19 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.20 Χρύσην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.936.comment.21 ητίμασεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.13 ὅππως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.14 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.15 παρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.16 νηυσὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.17 σόοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.18 μαχέοιντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.19 ἅμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.20 πρόσσω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.21 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.22 ὁπίσσω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.45 οἷς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.46 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.47 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.48 γέρων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.49 μετέῃσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.50 ἅμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.51 πρόσσω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.52 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.937.comment.53 ὀπίσσῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.990.comment.20 πέσεῖν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.990.comment.21 παρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.990.comment.22 ποσὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.990.comment.23 γυναικὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.8 τὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.9 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.10 βαρυ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.11 στενάχων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.12 μετέφη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.13 κρείων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.14 Ἀγαμεμνων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.15 · Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.16 χειρὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.17 ἔχων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.18 Μενέλαον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.19 ἐπεστενάχοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.20 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.21 ἑταῖοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.48 βαρὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.49 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.50 στενάχοντος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.51 ἄκουσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.58 τῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.59 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.60 βαρυ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.993.comment.61 στενάχοντι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.23 πολλάκι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.24 γάρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.25 σεο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.26 πατρός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.41 ἀγγελίην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.42 τινά Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.43 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.44 γαιήοχε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.66 ἀλλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.67 σὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.68 τόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.69 γ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.70 ελθοῦσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.71 θεὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.72 ὑπελύσαο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.997.comment.73 δεσμῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.23 τοὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.24 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.25 ἄναγον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.26 ζῳοὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.27 σφίσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.28 ἐργάζεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.29 ἀνάγκῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.31 σφίσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.32 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.33 αὐτοῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.34 δαῖτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.35 πένεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.51 συν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.52 σοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.53 δῖα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.54 θεα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.55 πρότι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.56 οι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.57 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.58 ἔλαβ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.59 ἔντεα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.60 κατα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.61 σφέας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.62 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.63 μαχέοιντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.65 ἀπὸ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.66 ἕο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.67 κάββαλεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.68 ἀμφὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.69 ἓ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.70 παπτηνας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.72 ἆλτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.73 ἐπί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.74 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.998.comment.75 μεμαὼς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1037.comment.11 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1037.comment.12 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1037.comment.13 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1037.comment.14 ὑπέδδεισαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.19 χαλκίδα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.20 κικλίσκουσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.21 θεοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.22 ἄνδρες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.23 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.24 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.25 κύμινδιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.31 ὃν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.32 Ξανθον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.33 καλέουσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.34 θεοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.35 ἄνδρες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.36 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.37 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1059.comment.38 Σκάμανδρον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.9 πὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.10 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.11 Διῒ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.12 Κρονίωνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.13 καθέζετο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.14 κύδεϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.15 γαίων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.28 παύροι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.29 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.30 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.31 πατρὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1061.comment.32 ἀρείους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.7 ὡς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.8 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.9 μὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.10 ὄφελον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.11 νικᾶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.12 ὥς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.13 μ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.14 ὄφελ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.15 Έκτωρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.16 κτεῖναι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.18 μη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.19 όφελ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.20 Ἔκτορα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1063.comment.21 λίσσεσθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.16 ὀλυμπόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.17 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.18 ὅθι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.19 φασὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.20 θεῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.21 ἔδος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.22 ἀσφαλὲς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.23 αἰεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.24 έμμεναι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.25 οὔτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.26 ἀνέμοισι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.27 τινασσόμενον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.28 οὔτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.29 ποθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.30 όμβρω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.31 δεύεται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.32 οὔτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.33 χιων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.34 ἐπιπίλναται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.35 ἀλλὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.36 μάλ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.37 αἴθρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.38 πέπταται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.39 ἀννέφελος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.40 λευκὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.41 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.42 ἐπιδέδρομεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1066.comment.43 αἴγλη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1124.comment.26 ἐνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1124.comment.27 μαλακῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1124.comment.42 όθι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1124.comment.43 φασὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1124.comment.44 Τυφωέως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1124.comment.45 ἔμμεναι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1124.comment.46 εὐνάς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1125.comment.8 χέρσω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1125.comment.9 ῥηγνύμενον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1125.comment.10 μεγάλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1125.comment.11 βρέμειν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1126.comment.4 δῖ?ος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1126.comment.5 Ὀδυσσεύς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1126.comment.17 Διῒ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1126.comment.18 μῆτιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1126.comment.19 ἀτάλαντον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.38 η Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.39 εἰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.40 δη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.41 ποτέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.42 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.43 κατα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.44 πίονα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.45 μηρι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1179.comment.46 ἐκηα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1182.comment.20 κεκάδοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1182.comment.21 κεχάδοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1182.comment.22 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1182.comment.23 πάντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1182.comment.24 Ἀχαιοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1187.comment.16 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1187.comment.17 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1187.comment.18 πανημέριοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1187.comment.19 μολπῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1187.comment.20 θεὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1187.comment.21 ϊλάσκοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1227.comment.15 ἀνέμων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1227.comment.16 μένος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1227.comment.17 ὑγρὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1227.comment.18 ἀέντων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1230.comment.8 κείμενον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1230.comment.9 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1230.comment.10 ψαμάθοις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1230.comment.11 Αἰσήποιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1231.comment.6 αὖθι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1231.comment.7 μένων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1231.comment.11 οὐτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1231.comment.12 έποτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1231.comment.13 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1231.comment.14 πόλεμον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1233.comment.41 ὡς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1233.comment.42 Ἕκτωρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1233.comment.43 ὁτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1233.comment.44 μενον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1233.comment.45 μετα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1233.comment.46 πρώτοισιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1233.comment.47 φάνεσκεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1279.comment.28 εὐρύοπα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1282.comment.12 ῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1282.comment.13 δῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1282.comment.14 ἀλιτρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1282.comment.15 ἔσσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.4 άν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.23 οὐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.24 ὰν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.25 ἐφ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.26 ὑμετέρων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.27 ὀχέων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.28 οὐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.29 ὰν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.30 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.31 μείνειας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.44 ὡς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.45 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.46 ὅτ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.47 αν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.48 ὠδίνουσαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1284.comment.94 πάμπαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.26 μή Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.27 τι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.28 φόβον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.29 δ'αγόρευε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.31 μή Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.32 τι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.33 μευ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.34 ἠΰτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.35 παιδός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.37 μή Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.38 τι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.39 σὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.40 ταῦτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.41 ἕκαστα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1286.comment.42 διείρεο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.10 κραδίη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.11 δε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.12 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.13 ἔνδον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.14 ὑλακτεῖ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.17 οἱδάνεται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.18 κραδίῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.19 χόλῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.25 ἣπαρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1331.comment.26 έκειρον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.12 ἣ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.13 μυρι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.14 Ἀχαιοῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.23 βούλομ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.24 εγὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.25 λαὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.26 σῶον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.27 ἔμμεναι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.28 ἢ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.29 ἀπολεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.38 ή Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.39 δη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.40 λοίγια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1332.comment.41 ἔργα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.13 ἀμβρόσιαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.14 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.15 άρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.16 χαῖται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.17 ἐπερρώσαντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.18 ἄνακτος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.19 κρατὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.20 ἀπ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1333.comment.21 αθανάτοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1334.comment.9 ὰψ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1334.comment.10 Ὁδυσεὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1334.comment.11 κατα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1334.comment.12 κράτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1334.comment.13 καλυψάμενος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.45 Ἄλτεω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.46 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.47 Λελέγεσσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.49 ληΐου Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.50 ἀλδήσκοντος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.51 ἄλθετο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.52 χείρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.57 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.58 τοῦτον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.59 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1336.comment.60 ἄναλτον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.6 σταν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.7 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.8 μεταστοιχεῖ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.33 στήσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.34 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.35 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.36 Ἀμνησῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1338.comment.37 ποταμῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1339.comment.9 κλυται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1339.comment.10 κασίγνηται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1339.comment.11 Νιρηΐδες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1341.comment.6 σχέτλιε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1341.comment.7 ποικιλομητα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1341.comment.31 ἀκάκητα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1342.comment.20 σφῶϊν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1342.comment.21 μέν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1342.comment.22 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1342.comment.23 ἐπέοικε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1342.comment.24 μετα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1342.comment.25 πρότοισιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1342.comment.26 εόντας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1391.comment.35 ἄσσ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1391.comment.36 ἂν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1391.comment.37 ἐμοί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1391.comment.38 περ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1391.comment.39 αὕτη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.68 πολλὰς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.69 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.70 ἰφθίμους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.71 ψυχὰς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.72 Ἄϊδι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.73 προΐαψεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.81 μέγα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.82 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.83 ἴψαο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.84 λαὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1396.comment.85 Ἀχαιῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1401.comment.28 ῆμαρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1401.comment.35 ἄμυδις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1440.comment.4 πλησαμενος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1440.comment.5 οἱνοῖο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1440.comment.6 δέπας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1441.comment.29 μειδήσασα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1441.comment.30 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1441.comment.31 παιδὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1441.comment.32 ἐδέξατο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1441.comment.33 χειρὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1441.comment.34 κύπελλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.26 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.27 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.28 έπεσ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.29 ᾨκεανῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.30 κάππεσεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.31 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.32 κονίῃσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.34 θοῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.35 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.36 νηῒ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1446.comment.37 πέσῃσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1499.comment.84 εἰς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1499.comment.85 εὐνὴν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1499.comment.86 φοιτῶντε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1499.comment.87 φίλους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1499.comment.88 λήθοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1499.comment.89 τοκήας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1500.comment.37 εὗδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1500.comment.38 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:1.1500.comment.39 ἀνακλιθεὶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.3.comment.19 νήδυμος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.3.comment.20 ἀμφιχυθείς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.9 χόλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.10 τελέσει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.11 Ἀγαμέμνων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.25 ὑπερ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.26 αῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.27 ἀν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.28 Ἀχαιοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.29 φέρτεροι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.5.comment.30 ἦσαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.11 ἕτερος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.12 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.13 με Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.14 θυμὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.15 ἀνηκεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.17 αἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.18 δευτεραι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.19 φροντίδες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.6.comment.20 σοφώτεραι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.14 οὗλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.15 ἄρτον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.16 ἑλών Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.17 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.55 οὔλε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.56 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.57 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.58 μέγα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.59 χαίρεται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.60 . Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.61 θεοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.62 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.63 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.64 ὄλβια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.8.comment.65 δοῖεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.19.comment.36 ἄνστησον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.19.comment.38 τάχα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.19.comment.39 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.19.comment.40 ἀνστήσεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.19.comment.41 ἔμελλεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.19.comment.42 . Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.8 νῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.9 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.10 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.11 γένος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.12 ἐστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.14 νῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.15 ὤλετο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.16 πᾶσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.17 περι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.18 χθών Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.20 νῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.21 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.22 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.23 Αἰνείαο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.24 βίη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.25 Τρώεσσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.20.comment.26 ἀνάξει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.58.comment.12 αὐτη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.58.comment.13 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.58.comment.14 ἀργύφεον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.58.comment.15 φᾶρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.60.comment.13 σφυὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.60.comment.14 σιδηρᾶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.60.comment.15 κέντρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.60.comment.20 χρυσοδέτοις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.60.comment.21 περόναις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.20 στυγέει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.21 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.22 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.23 ἄλλος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.24 ἴσον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.25 ἐμοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.26 φᾶσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.100.comment.27 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.102.comment.4 κλᾶσθ Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.5 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.6 άγετ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.7 αἰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.8 κέν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.9 πως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.45 εἰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.46 μέν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.47 τις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.48 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.49 ὄνειρον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.50 Ἀχαιῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.51 ἄλλος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.52 ἔνισπε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.53 ψεῦδός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.54 κεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.55 φαῖμεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.75 πείθοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.76 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.77 ποιμένι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.103.comment.78 λαῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.104.comment.29 Ἀβυδόθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.104.comment.38 πάντοθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.104.comment.39 οἴκοθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.13 αἰσχρὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.14 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.15 τὸδέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.16 γ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.17 ἐστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.21 ὦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.22 φίλοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.23 ἥρωες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.24 Δαναοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.25 θεράποντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.26 Ἄρηος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.27 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.28 λώβη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.29 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.30 τὰδέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.31 γ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.32 ἐστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.33 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.34 ἐσσομένοισι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.35 πυθέσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.36 μὰψ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.168.comment.37 οὕτω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.102 κεῖτο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.103 μέγας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.104 μεγαλωστί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.105 λελασμένος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.106 ἱπποσυνάων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.121 Αἴας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.122 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.123 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.124 μέγας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.130 αὐτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.131 ἔπειτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.132 Αἴας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.133 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.134 μέγας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.210 ἐπεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.211 μέγας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.212 ὠδύσατο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.169.comment.213 Ζεῦς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.170.comment.10 νηπιος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.172.comment.11 ἀγακλέα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.173.comment.7 ἀμφιρεφέα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.173.comment.10 ἀκλέα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.173.comment.11 ἀνδρῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.173.comment.13 ἀκλεᾶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.173.comment.14 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.173.comment.15 μεγάρῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.178.comment.3 οἰνοχοεύειν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.178.comment.9 ἄμφω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.178.comment.12 ἔασιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.178.comment.13 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.178.comment.16 Ἀχαιοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.178.comment.19 οἰνοχοεύειν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.180.comment.30 πᾶσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.180.comment.31 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.180.comment.32 ἐπιστιόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.180.comment.33 ἐστιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.180.comment.34 ἑκάστῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.181.comment.5 λέξασθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.181.comment.6 εἰς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.181.comment.7 ευνήν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.181.comment.11 λέξατο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.181.comment.12 κούρους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.181.comment.17 λέγε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.181.comment.18 κήτεσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.182.comment.4 εκπέρσαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.20 ἡμεῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.21 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.22 μαχόμεθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.23 οἵπερ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.24 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.25 ἐπικουροι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.26 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.183.comment.27 ἔνειμεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.230.comment.20 στεῦτο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.230.comment.21 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.230.comment.22 Ἡφαίστοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.230.comment.23 παρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.230.comment.24 οισέμεναι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.231.comment.40 κοῦρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.231.comment.42 θοῦρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.231.comment.44 οὖρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.40 ῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.41 μευ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.42 καλὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.43 πατὴρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.44 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.45 κήδεαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.46 ὑιὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.47 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.49 πυκνὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.50 μάλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.234.comment.51 στενάχων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.20 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.21 γάρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.22 τίς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.23 θ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.24 ἕνα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.25 μῆνα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.26 μένων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.27 ἀπο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.28 ῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.273.comment.29 ἀλόχοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.275.comment.7 ἐπὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.275.comment.8 κληῗσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.275.comment.9 κάθιζον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.275.comment.13 ἐϋπλοκαμῖδες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.275.comment.14 Ἀχαιαὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.275.comment.105 εὔκληϊς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.310.comment.5 τιμη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.310.comment.6 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.310.comment.7 ἐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.310.comment.8 Διὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.310.comment.9 ἐστιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.312.comment.15 φιλεῖ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.312.comment.16 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.312.comment.17 ἑ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.312.comment.18 μητίετα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.312.comment.19 Ζεύς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.322.comment.118 νεικείειν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.322.comment.119 βασιλῆας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.375.comment.19 αύτη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.375.comment.20 δε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.375.comment.22 φοξίχειλος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.375.comment.23 Ἀργείη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.375.comment.24 κοίλιξ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.377.comment.20 ἐπεσβόλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.7 ἀτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.8 ήν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.9 ποτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.10 δασμος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.11 ΐκηται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.12 σοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.13 τό Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.14 γέρας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.15 πολὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.380.comment.16 μεῖζον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.387.comment.17 ἀγέραστος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.387.comment.18 ἔω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.387.comment.21 ῆσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.387.comment.22 δευόμενον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.388.comment.19 φευγωμεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.413.comment.30 τέττα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.413.comment.31 σιωπῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.413.comment.32 ἧσω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.414.comment.28 ἔνθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.414.comment.29 έσαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.414.comment.30 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.414.comment.31 πέπλοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.8 ἠῶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.9 δῖαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.10 ἔμιμνε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.31 Λητῶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.32 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.33 ἤλκησε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.35 Πυθῶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.36 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.417.comment.37 ερχομένην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.424.comment.16 φύγεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.424.comment.17 ἡνία Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.424.comment.19 ἔκφυγε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.424.comment.20 χειρός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.12 χραύσῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.13 μέν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.14 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.15 αὐλῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.16 ὑπεράλμενον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.46 ἀχρεῖον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.47 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.428.comment.48 γέλασσε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.430.comment.13 ἠ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.430.comment.14 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.430.comment.15 λοίγια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.430.comment.16 ἔργα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.431.comment.20 Ἤφαιστε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.431.comment.21 πρόμολ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.431.comment.22 ὦδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.433.comment.29 δερκόμενοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.433.comment.30 πᾶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.433.comment.31 δῆμος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.434.comment.41 σῂ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.434.comment.42 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.434.comment.43 εἴλω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.434.comment.44 βουλῂ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.434.comment.45 πόλεις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.434.comment.46 Πριάμοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.434.comment.47 ἄνακτος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.23 δύο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.24 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.25 ἄνδρες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.26 ἐνείκεον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.27 εἵνεκα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.28 ποινῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.37 μάκαρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.38 Ατρείδη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.40 οἱνοβαρὲς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.41 κοινὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.42 ὄμματ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.435.comment.43 ἔχων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.436.comment.25 ὧ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.436.comment.26 πόποι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.436.comment.27 ῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.436.comment.28 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.436.comment.29 ὀΐω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.436.comment.30 ἐϋκνημιδας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.436.comment.31 Ἀχαιούς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.448.comment.11 Ζευς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.448.comment.12 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.448.comment.13 ἅμ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.448.comment.14 ἐπιμάρτυρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.448.comment.15 ἑστω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.473.comment.20 ἡ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.473.comment.21 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.473.comment.22 ἄνεω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.473.comment.23 δῆν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.473.comment.24 ἧστο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.475.lemma.4 μὲν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.475.comment.18 ὀκτῶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.475.comment.19 ἀτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.475.comment.20 μήτηρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.475.comment.21 ἐνάτη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.475.comment.22 ἦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.486.comment.6 κρητῆρι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.486.comment.7 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.486.comment.8 οἶνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.486.comment.9 μίσγον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.492.comment.5 κατανεῦσαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.509.comment.27 ἐλθόντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.509.comment.28 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.509.comment.29 ἠβαιόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.512.comment.23 πρόπαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.512.comment.24 ῆμαρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.20 αἵματος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.21 ἆσαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.22 Ἄρηα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.23 ταλαύρινον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.24 πολεμιστήν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.26 ἐνθά Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.27 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.28 ἔπειτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.29 ἀφίειμένος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.30 ὄβριμον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.31 Ἄρης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.39 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.40 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.41 αύτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.42 ἡκυμάμυια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.43 ἄγει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.44 βροτολοιγὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.45 Ἄρηα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.48 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.49 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.50 Τρῶας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.51 Ἄρης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.52 κορυθαιόλος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.61 ἔνθα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.62 μάλιστα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.63 γίνεται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.64 Ἄρης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.65 ἀλεγεινὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.66 ὀϊζυροῖσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.513.comment.67 βροτοῖσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.522.comment.16 σπάρτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.522.comment.17 λέλυνται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.528.comment.22 ἔν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.528.comment.23 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.528.comment.24 ἄνεμος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.528.comment.25 πρῆσεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.528.comment.26 μέσον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.528.comment.27 ἱστίον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.28 ἠ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.29 ει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.30 δη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.31 ποτέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.32 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.33 κατα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.34 πίονα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.35 μηρι' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.36 ἔκηα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.45 μῆρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.46 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.533.comment.47 κείαντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.535.comment.23 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.535.comment.24 άγε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.535.comment.25 μηκέτι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.535.comment.26 ταῦτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.535.comment.27 λεγώμεθα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.547.comment.13 ὑμεῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.547.comment.14 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.547.comment.15 ἐστὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.547.comment.16 ἀγήρω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.547.comment.17 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.547.comment.18 ἀθανάτω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.547.comment.19 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.549.comment.11 ἠγερέθονται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.550.comment.15 σθενος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.22 ὡς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.23 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.24 ὅτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.25 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.26 ουνὠ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.27 ἄστρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.28 τόσσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.29 μεσηγὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.571.comment.30 νεῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.574.comment.27 τῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.574.comment.28 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.574.comment.29 ἔχεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.574.comment.30 Αὐτομέδων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.12 οὐδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.13 εἰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.14 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.15 χειρές Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.16 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.17 ἐείκοσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.18 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.19 πόδες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.586.comment.20 εἶεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.32 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.33 εὐρυάγυιαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.34 Ἀθήνην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.35 πολυχρύσοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.36 Μυκήνῃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.45 ἐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.46 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.47 Κρητάων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.48 γένος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.594.comment.49 εὔχομαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.595.comment.11 Ὕλη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.595.comment.12 ἔνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.595.comment.13 οἰκίᾳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.595.comment.14 ναίων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.597.comment.19 Ἄσκρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.597.comment.20 χεῖμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.597.comment.21 κακον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.597.comment.22 θέρει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.597.comment.23 ἀργαλέη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.12 τοῖσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.13 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.14 ἅμ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.15 ὁγδώκοντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.19 τῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.20 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.21 ἅμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.602.comment.22 τεσσαράκοντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.603.comment.17 ἔνθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.603.comment.18 Ἕκτωρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.603.comment.19 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.603.comment.20 ἕλε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.603.comment.21 Σχεδίον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.603.comment.22 ἀρχὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.603.comment.23 Φωκήων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.605.comment.16 Ἴφιτος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.605.comment.17 Εὐρυτίδης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.607.comment.46 σέο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.607.comment.47 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.607.comment.48 ὀστᾶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.607.comment.49 πύσει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.607.comment.50 ἄρουρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.608.comment.22 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.608.comment.23 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.608.comment.24 κλειτῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.608.comment.25 Πανοπῆϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.618.comment.22 μέγαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.619.comment.66 Μυρμιδόνες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.619.comment.67 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.619.comment.68 καλεῦτο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.619.comment.69 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.619.comment.70 Ἕλληνες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.619.comment.71 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.619.comment.72 Ἀχαιοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.632.comment.32 παῦσεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.632.comment.33 ἀριστεύοντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.632.comment.34 μάχας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.633.comment.28 ασιμέλουσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.10 φῶτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.11 Ἀσκληπιοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.12 υἱόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.29 φόως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.30 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.31 ετάροισιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.32 ἔθηκεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.35 χρύσεον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.36 λύχνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.37 ἔχουσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.38 φόως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.39 περικαλλές Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.51 πῶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.52 θάνεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.53 Ἀτρείδης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.54 ποῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.55 Μενέλαος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.56 ἔιη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.57 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.65 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.66 οὔπως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.67 ἅμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.68 πάν'τα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.69 θεοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.70 δόσαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.71 ἀνοισιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.73 ἀλλά Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.74 που Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.75 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.76 μεγάροισι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.77 Λυκάονος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.78 ἕνδεκα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.634.comment.79 δίφροι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.635.comment.29 ἔστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.635.comment.30 πόλις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.635.comment.31 Ἐφύρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.10 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.11 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.12 αὐτὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.13 ἐδύσετο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.14 νώροπα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.15 χαλκον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.16 κυδιόων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.17 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.18 πᾶσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.19 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.20 μετέπρεπεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.21 ἡρώεσσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.22 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.23 οὕνεκ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.24 ἄριστος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.25 ἔην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.26 πολὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.27 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.28 πλείστους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.29 ἄγε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.30 λάους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.41 οὕνεκ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.42 ἄριστος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.43 ἔην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.44 : Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.45 πολὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.46 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.47 πλείστους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.48 ἀγε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.641.comment.49 λάους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.47 τοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.48 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.49 γίνεται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.50 Ἀμφάναξ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.51 τοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.52 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.53 Οίτυλος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.54 ἀφ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.55 οῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.56 ἡ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.57 (πό)λις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.58 ἡ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.59 εν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.60 Σπάρτη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.645.comment.61 καλεῖται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.11 δωρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.12 τά Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.13 οι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.14 ξεῖνος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.15 Λακεδαίμονι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.16 δῶκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.17 τῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.18 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.19 ἐν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.646.comment.20 Μεσσήνη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.647.comment.8 ἔστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.647.comment.9 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.647.comment.10 τις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.647.comment.11 Θρυόεσσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.647.comment.12 πό Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.651.comment.19 στεῦτο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.651.comment.20 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.651.comment.21 διψάων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.652.comment.39 ὀφθαλμὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.652.comment.40 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.652.comment.41 ἄμερσε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.652.comment.42 δίδου Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.652.comment.43 δ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.652.comment.44 ϊδίαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.652.comment.45 ἀοιδήν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.653.comment.44 πηός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.25 Ζεὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.26 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.27 ἐπει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.28 οῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.29 Τρώάς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.30 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.31 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.670.comment.32 Ἕκτορα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.673.comment.2 πιστὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.673.comment.11 Ἱ¨δομενεὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.673.comment.12 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.673.comment.13 ἄρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.673.comment.14 Φαῖστον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.674.comment.11 πεδίον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.674.comment.29 Θρόνιον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.676.comment.32 σάφα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.9 ἔκτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.10 συν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.11 οὐλομένῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.12 ἀλόχῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.32 ὣς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.33 ἑμὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.34 ὅτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.35 δῖον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.36 Ἐρευθαλίωνα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.37 κατέκτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.52 οῦτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.53 κατα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.680.comment.54 λαπάρην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.38 ἐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.39 Διὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.40 ὅς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.41 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.42 θεοῖσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.43 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.44 ἀνοισιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.688.comment.45 ἀνάσσει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.690.comment.18 ἀλαπαδνὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.690.comment.19 ἔην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.690.comment.20 παῦρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.690.comment.21 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.690.comment.22 οι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.690.comment.23 εἵπετο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.690.comment.24 λαος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.692.comment.12 υἱὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.692.comment.13 Τροιζήνοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.694.comment.27 ψάμαθος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.698.comment.8 τῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.698.comment.9 ὅ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.698.comment.10 γε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.698.comment.11 κεῖτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.698.comment.12 ἀχέων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.706.comment.22 Ἑρμιόνην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.706.comment.23 Ἄσην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.706.comment.24 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.706.comment.25 Τροίζην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.706.comment.26 Ἠϊονας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.706.comment.27 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.708.comment.19 τοὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.708.comment.20 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.708.comment.21 ήδη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.708.comment.22 κάτεχεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.708.comment.23 φυσίζωος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.708.comment.24 αἶα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.711.comment.3 Μεδεῶνα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.723.comment.2 Σπάρτην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.723.comment.7 κορώνην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.736.comment.16 τῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.736.comment.17 αὖθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.736.comment.18 ἡγεμόνευε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.736.comment.19 μενεπτόλεμος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.736.comment.20 Πολυποίτης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.94 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.95 δή Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.96 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.97 εἶδος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.98 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.99 έην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.100 κακὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.101 ἀλλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.740.comment.102 ποδώκης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.32 καλή Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.33 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.34 μεγάλη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.35 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.36 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.37 ἀγλαὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.38 ἔργ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.39 εἰδυῖα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.43 οὐ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.44 δέμας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.45 οὐδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.46 φυήν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.47 οὔτ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.48 αρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.49 φρένας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.50 οὐτέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.51 τι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.741.comment.52 ἔργα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.742.comment.72 ἀδμήτην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.744.comment.21 διωκέμεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.744.comment.22 ἠδὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.744.comment.23 φεβεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.754.comment.31 στὰν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.754.comment.32 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.754.comment.33 μεταστοιχεί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.754.comment.38 στῆσαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.754.comment.39 ἀείραντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.755.comment.7 Τυφωέϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.755.comment.8 γαῖαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.755.comment.9 ϊμάσσῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.5 τῶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.6 μιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.7 εεισαμένη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.75 Ἕκτορ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.76 σὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.77 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.78 μάλιστ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.756.comment.79 ἐπιτελλόμενοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.759.comment.17 ήδη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.759.comment.18 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.759.comment.19 Φρυγίην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.759.comment.20 εἰσήλυθον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.759.comment.21 ἀμπελόεσσαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.761.comment.16 πολλοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.761.comment.17 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.761.comment.18 κατὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.761.comment.19 ἄστυ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.761.comment.20 μέγα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.23 ἀν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.24 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.25 ὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.26 έβη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.27 Πρίαμος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.29 αὐτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.30 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.31 βῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.32 ρ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.33 ϊέναι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.34 οὐδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.35 έλαθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.36 Ἀτρέος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.37 υἱόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.39 ἔμε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.40 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.41 οὐ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.763.comment.42 λάθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.775.comment.12 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.775.comment.13 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.775.comment.14 ἔκτανε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.775.comment.15 Δάρδανος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.775.comment.16 ἀνήρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.778.comment.9 ὥς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.778.comment.10 ρ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.778.comment.11 ἐνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.778.comment.12 Παισῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.42 ῶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.43 περι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.44 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.45 νόον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.46 ἐστι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.47 βροτῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.48 περὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.49 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.50 ϊρὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.51 θεοῖσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.52 οὐ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.53 περὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.54 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.55 πρόφρων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.779.comment.56 κραδίη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.780.comment.22 ὧδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.780.comment.23 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.780.comment.24 τις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.780.comment.25 εἴπεσκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.780.comment.26 τὴν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.780.comment.27 αὐτὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.780.comment.28 φορέεσκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.20 Ξάνθῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.21 ἐπι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.22 δινήεντι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.23 μάχῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.24 ἐνι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.25 κυδιανείρῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.42 Ξάνθου Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.43 ἀπο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.784.comment.44 δινήεντος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.791.comment.4 Εὐμήλοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.799.comment.39 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.799.comment.40 μήτρως Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.799.comment.41 ἢν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.799.comment.42 Ἕκτορος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.799.comment.43 ἱπποδάμοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.18 καὶ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.45 πλόχμοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.46 θ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.47 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.48 χρυσῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.49 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.50 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.51 ἀργύρω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:2.805.comment.52 εσφήκωντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.16 τῶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.17 δ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.18 εὖτε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.19 πτερὰ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.20 γίνεται Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.49 ἠΰτε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.50 ὄρευς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.51 κορυφῆισι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.81 εὖτε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.82 γὰρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.83 ηὲλιος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.84 φαέθων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.86 εὖτ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.87 ἀστήρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.88 ὑπερέσχε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.91 ποιμέσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.92 οὔτι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.93 φίλην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.94 κλέπτῃ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.95 δέ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.96 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.97 νυκτὸς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.98 ἀμείνω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.99 τόσσον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.100 τίς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.101 τ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.102 ἐπὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.103 λάᾶν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.104 ὅσον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.105 ἐπὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.106 λάαν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.107 ἰ̈́ησιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.149 ὡς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.150 ἄρα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.151 των Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.152 ὑπο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.153 ποσσὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.154 κονίσσαλος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.60.comment.19 Ἀφίδναζε rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.60.comment.20 Θήβαζε rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.74.comment.4 Τρῷας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.74.comment.7 Ῥοδίους rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.10 Δύσπαρις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.11 Αἰνόπαρις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.12 κακὸν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.13 Ελλαδι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.14 Βοτιανείρι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.7 τὸν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.8 δ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.9 ὡς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.10 οὖν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.82.comment.5 Δάρδανον rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.91.comment.12 Ἀργείων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.91.comment.13 προκαλίζετο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.91.comment.14 πάντας Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.91.comment.15 ἀρίστους Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.5 ἢ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.6 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.7 Λαέρτη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.8 αὐτὴν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.9 ὁδὸν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.10 ἄγγε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.11 ἔλθω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.23 εἰ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.24 ἤδεις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.25 σάφα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.26 οἵη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.27 περίφρων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.96.comment.28 Πηνελόπεια Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.97.comment.23 τούνεκα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.97.comment.24 γὰρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.97.comment.25 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.97.comment.26 πόντον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.97.comment.27 ἐπέπλως Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.113.comment.27 έσσω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.113.comment.28 μιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.113.comment.29 χλαῖνάν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.113.comment.30 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.118.comment.3 ἠθεῖε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.118.comment.5 κασιγνήτη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.126.comment.3 ἐπεί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.126.comment.4 με Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.126.comment.5 κατ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.126.comment.6 αῖσαν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.126.comment.7 ἐνείκεσας Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.lemma.3 Τρῶες rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.11 οὐ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.12 μὲν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.13 γὰρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.14 φιλότητί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.15 γ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.16 ἐκεύθανον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.17 ῏ϊσον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.18 γάρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.19 σφιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.20 πασῖν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.679.comment.21 ἀπήχθετο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.129.comment.9 ἑκὼν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.129.comment.10 οὐκ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.129.comment.11 ἄν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.129.comment.12 τις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.129.comment.13 ἕλοιτο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.136.comment.7 κρείσσω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.143.comment.3 Ἑλλήνων rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.4 Πελασγὸς rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.5 Τριόπα rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.18 Πελασγὸς rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.69 ῾Ελλανϊκὸς rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.151.lemma.2 Ἀργεῖοι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.157.comment.6 κέλεται Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.158.comment.7 κρείσσω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.4 Ἀργεῖοι Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.5 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.6 Τρῶες Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.14 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.15 εἴ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.16 ποθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.17 ἀλλ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.18 ἐπιθεῖτε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.28 ἡμεῖς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.29 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.30 ἐς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.31 δεκάδας Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.32 διακοσμηθεῖμεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.33 Ἀχαιοί Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.174.comment.43 ῾Ελληνικῶς rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.175.comment.2 Ἑλληνικῶς rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.201.comment.10 πορφυρέην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.201.comment.23 φάρε᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.201.comment.24 ὑφαίνουσι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.201.comment.25 ἀλιπόρφυρα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.691.comment.10 πορφυρέην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.691.comment.21 φάρεων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.691.comment.22 ὑφαίνουσι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.691.comment.23 ἀλιπόρφυραι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.43 ἐπεὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.44 οὐ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.45 εθέν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.46 ἐστι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.47 χερείων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.48 οἱ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.49 ἕθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.50 ὤτρυνον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.57 ἀπο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.58 έθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.59 ὤσατο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.60 χειρί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.71 πρόσθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.72 ἕθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.73 φεύγοντα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.229.comment.47 Ἄδραστος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.lemma.1 Σκαιαὶ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.1 Δαρδανίας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.12 Τρῶες rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.14 Σκαιαὶ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.19 Σκαιοῦ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.43 Τρῶας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.233.comment.27 ῾Ελλανικος rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.233.comment.75 Διόσκουροι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.245.comment.15 υἵον rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.245.comment.42 ῾Ελλανικος rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.252.comment.3 τιθεῖσι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.252.comment.52 φασὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.13 ὦκα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.14 γράφει Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.15 ἀντι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.16 τοῦ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.17 ἠκα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.27 Ἑλένην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.28 ἐπι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.29 πῦργον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.30 ἰοῦσαν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.27 αἰνῶς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.28 γὰρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.29 κεφαλήν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.30 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.31 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.32 ὄμματα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.33 καλά Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.52 οὐ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.53 νέμεσις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.54 Τρῶας Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.25 κατα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.26 ληΐδα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.27 ὅπη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.28 ἄρξειεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.29 ᾿ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.30 Αχιλλεύς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.31 · Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.94 Τρῶας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.119 ἀσπίδι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.120 γινώσκων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.121 αὐλώπιδι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.122 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.123 τροφαλείῃ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.15 ς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.16 ὄφρα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.17 ᾿ΐδη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.18 πρότερόν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.19 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.20 πόσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.285.comment.33 Πέρσαις rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.285.comment.41 Λακεδαιμονίοις rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.285.comment.49 Αἰθιόλας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.249.comment.4 δένδρει Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.249.comment.28 δένδρεον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.249.comment.29 ὑψιπέτηλον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.253.comment.4 ῶκα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.73 ιὼ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.74 Λακεδαῖμον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.76 ᾿Ολκάσι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.81 ψευδόμοι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.82 σε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.83 Παλαῖμον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.296.comment.30 πεφοβήατο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.9 Αμαζωνιδων rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.47 Φρυγῶν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.70 Αμαζονίδων rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.88 ᾿Αμαζόνων rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.305.comment.2 ᾿Αμαζόνες rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.6 Τροίας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.32 ήδη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.33 γὰρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.34 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.35 δεῦρό Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.36 ποτ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.37 ήλυθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.316.comment.4 οἰῶν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.317.comment.17 Ἑλληνικῷ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.318.comment.4 Κεφαληνίας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.315.comment.135 Ἀττικοῖς rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.324.comment.4 σῆς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.324.comment.5 ἕνεκ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.324.comment.6 ἀγγελίης Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.324.comment.25 ῞Ελληνας rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.4 Λάκωνες rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.31 παῦρα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.32 μὲν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.39 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.40 ἔπεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.41 νιφάδεσσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.42 ἐοικότα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.330.comment.7 ἑζομένων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.330.comment.36 οἱ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.330.comment.37 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.330.comment.38 δύο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.330.comment.39 σκόπελοι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.330.comment.40 ὁ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.330.comment.41 μέν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.7 χώρου Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.8 ἄϊδρις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.9 ἐών Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.53 πολυΐδριδι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.64 ᾿ΐδριδα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.73 ᾿ΐδριδες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.121 εὐνήν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.122 τ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.123 αἰδομένη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.124 πόσιος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.129 χαριζομ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.130 πόσεϊ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.345.comment.131 ᾧ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.347.comment.28 ἔνθ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.347.comment.29 οὐκ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.347.comment.30 ἂν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.347.comment.31 βρίζοντα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.347.comment.32 ᾿ΐδοις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.21 Καταλόγῳ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.25 στῆσε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.26 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.27 άγων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.28 ῾ΐν᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.29 Ἀθηναίων Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.30 ῾ΐσταντο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.31 φάλαγγες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.38 Ἀθηναῖοι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.368.comment.19 ᾿Αργοναυτικῶν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.379.comment.13 Διοσκούροις rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.379.comment.59 Διόσκουροι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.379.comment.71 Πολεμωνίοις rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.23 ἄλλοτε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.24 μὲν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.25 ζωοὺς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.26 ἑτερήμεροι· Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.27 ἄλλοτε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.28 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.29 τεθνᾶσι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.30 τιμὴν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.31 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.32 λελόγχασιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.33 ἴσα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.34 θεοῖσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.61 Διόσκουροι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.724.comment.17 Διοσκούρους rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.724.comment.29 Δισκούρους rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.4 ἑῇ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.5 ἐν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.6 πατρίδι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.12 Διοσκούρων rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.15 ἑῇ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.388.comment.23 ῾Ελλάνικον rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.399.lemma.4 Σκαιῶν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.399.comment.13 Σκαιάων Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.402.comment.11 Τρώων rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.402.comment.13 Ἀχαιῶν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.402.comment.20 σπονδαί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.402.comment.21 τ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.402.comment.22 ἄκρητοι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.407.comment.12 θετίς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.407.comment.13 ώμοισιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.407.comment.14 ἐπῆρσεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.407.comment.18 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.407.comment.19 πόμασιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.407.comment.20 ἆρσον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.407.comment.21 ἅπαντα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.409.comment.4 ἀρνέων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.409.comment.5 ἐκ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.409.comment.6 κεφαλέων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.421.comment.12 οὐδ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.421.comment.13 ἐπιορκήσω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.421.comment.14 προς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.421.comment.15 δαίμονα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.4 μάρτυρες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.14 Ζεὺς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.15 δ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.16 ἂν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.17 ἐπι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.18 μάρτυρος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.19 ἔστω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.48 Ζεῦ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.49 περ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.50 ἀλλα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.51 σὺ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.52 ῥῦσαι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.53 ποίησόν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.54 τ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.55 αἴθρην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.56 δὸς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.57 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.423.comment.58 ὀφθαλμοῖσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.7 δὸς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.8 φίλος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.11 ἀλλά Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.12 φίλος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.13 θάνε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.14 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.15 σὺ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.22 Οδυσσεία rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.23 ὠκεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.24 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.25 Ἠελίῳ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.26 ὑπερίονι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.27 ἄγγελος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.28 ἦλθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.429.lemma.3 ᾿Αργείοις rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.437.comment.12 ἐπι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.437.comment.13 στομάχους Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.465.comment.16 θυμῆρες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.465.comment.17 κεράσασα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.465.comment.37 ἔχει Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.465.comment.38 δ᾽ἄλοχον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.465.comment.39 θυμαρέα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.477.comment.94 Τραγῳδούμενα rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.8 οἷο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.9 κασιγνήτοιο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.11 κρατὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.12 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.13 ἐπ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.14 ἰφθίμῳ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.15 κυνέην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.16 εὔτυκτον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.17 ἔθηκεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.18 ἵππουριν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.19 δεινὸν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.20 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.21 λόφος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.22 καθ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.23 ὕπερθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.24 ἔνευεν· Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.25 εἵλετο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.26 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.27 ἄλκιμον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.490.comment.28 ἔγχος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.745.comment.1 βάλετ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.745.comment.2 ἀσπίδα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.745.comment.3 τερσανόὲσσαν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.502.comment.20 χῶρον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.502.comment.21 μὲν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.502.comment.22 πρῶτον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.502.comment.23 διεμέτρεον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.746.comment.23 μνηστῆρες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.746.comment.24 δ'ἀπεκόσμεον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.746.comment.25 ἔντεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.746.comment.26 δαιτός Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.505.comment.11 ὁ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.505.comment.12 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.505.comment.13 δεύτερος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.505.comment.14 ὤρνυτο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.505.comment.15 χαλκῷ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.753.comment.40 λιθόβολον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.753.comment.41 εῖμα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.753.comment.42 κατειργάσω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.527.comment.28 ῞Ελλη rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.529.comment.4 αἰπύν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.10 οὐδ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.11 ἐδάμασσα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.21 δῖον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.22 ᾿Αλέξανδρον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.23 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.24 ἐμης Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.25 ὑπο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.26 χερσὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.535.comment.27 δαμῆναι· Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.541.comment.21 τῆ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.541.comment.22 νῦν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.541.comment.23 τοῦτον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.541.comment.24 ϊμάντα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.541.comment.25 ποικίλον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.546.comment.18 καί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.546.comment.19 νύ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.546.comment.20 κεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.546.comment.21 εἴρυς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.546.comment.22 έν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.546.comment.23 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.563.comment.21 ϊδρῶσαι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.563.comment.22 ἤγον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.563.comment.23 δέ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.26 καί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.27 ῤ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.28 ὡς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.29 οὖν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.30 ἐνόησεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.34 ὡς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.35 ἔφατ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.36 ἔδδεισεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.37 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.38 Ἑλένη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.47 περικαλλέα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.48 δειρὴν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.51 ὄμματα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.52 μαρμαίροντα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.55 στήθεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.56 ἡμερόεντα· Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.65 εῖσο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.66 παρ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.67 αυτὸν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.68 ἰοῦσα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.69 θεῶν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.70 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.71 ἀπόειπε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.72 κελευθους Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.73 μηδ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.74 έτι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.75 σοῖσι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.76 πόδεσσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.82 μή Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.83 μ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.84 ἔρεθε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.85 σχετλίη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.103 βῆ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.104 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.105 κατασχομένη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.106 ἑανῷ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.107 ἀργῆτι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.108 φαεινῷ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.109 σιγῇ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.110 πάσας Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.111 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.112 Τρῳὰς Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.113 λάθεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.114 ἥρχε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.115 δε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.116 δαίμων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.590.comment.1 Μῃονεις rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.590.comment.4 Λυλοὶ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.590.comment.8 Λυδοὶ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.2 ἀπόεικε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.10 κελεύθου Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.59 τί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.60 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.61 εἰς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.62 τὰς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.63 θεοὺς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.64 ὁδοῦ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.65 εῖκε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.66 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.67 παραχερεῖ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.68 μὴ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.69 βαδίζουσα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.70 εἰς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.71 αυτὸυς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.610.comment.6 αχθεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.610.comment.10 ἄλγεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.5 ἔνθ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.6 κάθιζ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.7 Ἑλένη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.19 ἀμφίπο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.20 μὲν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.21 ἔπειτα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.22 θοῶς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.23 ἐπι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.24 έργα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.25 τράποντο· Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.26 αὐτῆ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.27 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.28 ἀντίον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.29 ΐζεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.30 Ἀλεξάνδροιο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.31 ἄνακτος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.32 ὄσσε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.33 πάλιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.34 κλίνασα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.35 πόσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.36 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.37 ἠνίπαπε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.620.comment.38 μύθῳ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.623.comment.12 ἐκ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.623.comment.13 τοῦ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.623.comment.14 γὰρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.623.comment.15 εἰσορᾶν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.623.comment.16 γίνετ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.623.comment.17 ανοις Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.623.comment.18 ερᾶν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.35 νὺξ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.36 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.37 μάλα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.38 στυγερῇ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.39 κάτεχ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.40 εν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.41 ουνν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.45 Νέστωρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.46 τ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.47 αὐτός Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.48 τ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.625.comment.49 ἔφιζε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.632.comment.5 ἀφραδέως Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.632.comment.30 ἀλλά Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.632.comment.31 ς᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.632.comment.32 ἔγωγε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.632.comment.33 παύσασθαι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.632.comment.34 κέλομαι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.35 κατα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.36 ταυρον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.37 ἐδηδώς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.38 κατα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.39 βοῦς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.40 ὑπερίονος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.41 ἤσθιον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.42 . Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.43 ἀνα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.44 δ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.45 ὁπτολίπορθος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.46 οδ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.47 ἔστη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.48 . Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.649.comment.55 Σιδῶνα rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.13 ὡς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.14 σέο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.15 νῦν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.16 ἔραμαι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.35 ευνή Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.45 εὐνῇ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.6 Τρῶες rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.17 ἀλλα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.18 μάλα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.19 Τρῶες Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.20 ἐλεήμονες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.24 δειδήμονες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.668.comment.3 ἀποτίνετο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.9 Τρῶες rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.16 εἰ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.17 δέ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.18 κ᾽ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.19 Ἀλέξανδρον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.20 κτείνει Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.22 Ἀχαιοὶ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.27 ὁππότερος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.28 δε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.29 κε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.30 νικήσῃ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:4.229.lemma.5 μα Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:4.400.comment.26 καὶ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:4.400.comment.27 αἱ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:4.400.comment.28 ἄλλοι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1001.comment.94 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1001.comment.95 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1001.comment.96 μυίης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1001.comment.97 θάρσος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1001.comment.98 ἐνί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1001.comment.99 στήθεσσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1001.comment.100 ἔθηκα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1003.comment.43 ὡς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1003.comment.44 οἱ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1003.comment.45 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1003.comment.46 μάρναντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1003.comment.47 δέμας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1003.comment.48 πυρὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1005.comment.31 πέμψεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1005.comment.32 ἐπ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1005.comment.33 Ωκεανοῖο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1005.comment.34 ῥοάων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1006.comment.5 Δάρητος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1006.comment.40 φραδέος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1006.comment.41 νόου Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1006.comment.42 ἔργα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1006.comment.61 Κουρῆτες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1006.comment.62 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1006.comment.63 ἐμάχοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1008.comment.7 μεταφρενον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.5 οὐδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.6 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.7 οὐδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.8 βίη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.9 οὐδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.10 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.11 οὐδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1010.comment.12 Δρύαντος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1011.comment.13 πᾶσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1011.comment.14 ὀρίνθη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1011.comment.15 θυμός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1015.comment.10 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1015.comment.11 Φαιστὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1015.comment.12 μικρὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1015.comment.13 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1015.comment.14 λίθος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1017.comment.19 πῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1017.comment.20 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1017.comment.21 συνθεσίαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1018.comment.17 Τερπιάδης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1018.comment.18 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1018.comment.19 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1018.comment.20 ἀοιδός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.6 αἳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.7 πᾶσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.8 κακὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.9 Τρώεσσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.10 γένοντο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.35 ἀλλὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.36 τόδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.37 ἡμὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.38 ἐμοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.39 πολὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.40 κάλλιον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.41 ἠδέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.42 οι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1019.comment.43 αὐτῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.23 πορφύρεον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.24 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.25 ἄρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.26 κῦμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.29 μέλαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.30 δέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.31 ε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.32 κῦμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1028.comment.33 κάλυψεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1032.comment.12 ὃν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1032.comment.13 δὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1032.comment.14 ἐγὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1032.comment.15 κάρτιστον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1032.comment.16 Ἀχαιῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1037.comment.19 τίς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1037.comment.20 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1037.comment.21 σύ? Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1037.comment.22 ἐσσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1037.comment.23 φέριστε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.15 τῷ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.16 δ’ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.17 αὖτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.18 φιλομμειδὴς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.19 Ἀφροδίτη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.20 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.21 αἰεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.22 παρμέμβλωκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.23 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.24 αυτοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.25 κήρας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1039.comment.26 ἀμύνει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1043.comment.16 εἰροπόκοις Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1043.comment.17 ὀΐεσσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1046.comment.21 Αἴθρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1046.comment.22 Πιτθῆος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1046.comment.23 θυγάτηρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1048.comment.32 ἐπεί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1048.comment.33 μ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1048.comment.34 αφελεσθέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1048.comment.35 γε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1048.comment.36 δόντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1049.comment.37 εεδνώσαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1049.comment.38 τὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1049.comment.39 θύγατρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1049.comment.47 χηρώσας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1049.comment.48 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1049.comment.49 γυναῖκα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1049.comment.54 κυβερνήτης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.8 ἐπὶσμυγερῶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.10 βοῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.11 ἐπιβουκόλος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.12 ἀνήρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.29 ἐπεὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.30 οὔ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.31 τοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.32 ἐπι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1052.comment.33 δέος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.26 Τυδείδῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.27 μιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.28 ἔγωγε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.29 δαΐφρονι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.30 πάντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.31 ἐΐσκω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.32 ἀσπίδι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.33 γινώσκων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.34 αὐλώπιδ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.35 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1053.comment.36 τρυφαλείῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.11 κύον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.12 ἀδδεὲς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.44 ἅδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.45 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.46 Ἕκτορι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.48 ἇδος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.49 τέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.50 μιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.51 ΐκετο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1062.comment.52 θυμόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.47 Τρώων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.48 δ’ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.49 οἰώθη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.50 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.51 Ἀχαιῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.58 Τρωσὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.59 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.60 ἡγεμόνευε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.61 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.62 μέγας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.63 κορυθαίολος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.64 Ἕκτωρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.70 οἳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.71 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.72 Ζέλειαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.73 ἔναιον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.74 ὑπαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.75 πόδα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.76 νείατον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.77 Ἵδης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.78 τῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.79 ἦρχε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.80 Λυκάονος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1063.comment.81 υἱος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.41 νῶϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.42 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.43 ἐγὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.44 Σθένελός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.46 οὐδ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.47 ἂν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.48 νῶϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.49 διαδράκοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.50 , Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.51 ἠέλιός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.52 περ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.97 σφὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.98 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.99 μάλ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.100 ἠθέλετο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.102 Ζεὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.103 σφὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.104 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1064.comment.105 Ί¨δην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1065.comment.5 φόβον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1065.comment.6 Ἄρηος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1065.comment.7 φορεούσας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1066.comment.10 λελαχωσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1068.comment.15 ἠὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1068.comment.16 σὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1068.comment.17 τόνδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1068.comment.18 δέδεξο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.25 μὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.26 τὼ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.27 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.28 δήσαντε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.29 ματήσετον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.30 οὐδ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.31 ἐθέλητον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.32 ἐκφερέμεν· Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.33 πολέμοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.34 τεὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.35 φθόγγον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.36 ποθέοντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.47 ἀήθεσσον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.48 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.49 ἔτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1069.comment.50 αὐτόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.31 ϊ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.33 οὔ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.34 μ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.35 είας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.36 μακάρεσσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.44 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.45 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.46 οὔτι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.47 πατὴρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.48 εἴασκε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.49 μάχεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.52 τόνδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.53 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.54 ἔασκεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.58 ἀλλ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.59 ἔα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.60 ὅς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.61 οι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.62 πρῶτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.152 οὐχ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.153 ὁράας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.154 οἶος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.155 καγώ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.161 ἰχανάᾳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.162 δακέειν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.163 ήτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.164 ἐκπεράᾳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.165 μέγα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.166 λαῖτμα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.168 οὐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.169 ἐἄᾳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.170 Κρονίδης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.206 οὔτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.207 καταὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1076.comment.208 λαπάρην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.29 Νηληΐῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.30 υἷϊ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.31 ἐοικὼς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.35 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.36 υἷα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.37 Κλυτίοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.38 σαώσωμεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.43 υἷες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.44 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.45 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.46 Κτεάτου Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.51 υἷας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.52 τ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.53 ὀλλυμμένους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.59 υἱᾶσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.60 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1078.comment.61 Πριάμοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1079.comment.10 ποινὴν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1079.comment.11 δεξαμένῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1080.comment.13 θῆλυς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1080.comment.14 εέρσῃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1080.comment.16 Ἥρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1080.comment.17 θῆλυς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1080.comment.18 ἐοῦσα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1080.comment.20 θῆλυν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1080.comment.21 ὑπόρρηνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1081.comment.12 Ξανθέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1081.comment.13 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1081.comment.14 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1081.comment.15 σὺ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.1081.comment.16 Πόδαργέ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2001.comment.59 μελιηδέος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2001.comment.60 οίνου Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2002.comment.2 πυκνην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2002.comment.17 λευκη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2002.comment.38 πρυμνος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2005.comment.18 φασὶ Invalid element name: app ++ Invalid element name: lem
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2005.comment.19 φησὶ Invalid element name: app ++ Invalid element name: rdg
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2005.comment.151 αἴ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2005.comment.152 κε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2005.comment.153 λάβωμεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2005.comment.154 ἀσπίδα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2005.comment.155 Νεστορέην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2006.comment.9 ὃς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2006.comment.10 Χρυσην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2006.comment.11 ἀμφιβέβηκας Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2007.comment.26 ἑορτή Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2007.comment.64 ἰῶκα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2007.comment.68 κρόκα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.22 ἡμεῖς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.23 δὲ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.24 ἱάχοντες Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.32 ἐπι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.33 δ'¨ἴαχε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.34 λαὸς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.35 όπισθε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.36 τρεὶς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.37 δ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.38 ἄϊεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.39 ¨ἰάχοντος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.45 φθέγξομ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.46 ἐγὼν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2008.comment.47 ¨ἰάχουσα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2029.comment.19 οὐκ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2029.comment.20 εθέλεσκε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2029.comment.21 μάχην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2029.comment.22 ἀπο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2029.comment.23 τείχεος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2030.comment.20 ἀλλ‘ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2030.comment.21 οδ' Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2030.comment.22 ἀνὴρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2030.comment.23 ἐθελει Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2030.comment.24 περι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2030.comment.25 πάντων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2032.comment.19 ἀνακοιρανέοντα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2032.comment.24 ¨Ιθάκην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2032.comment.25 κατακοιρανέουσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2035.comment.4 δίρα Invalid element name: app ++ Invalid element name: lem
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2035.comment.5 δίχα Invalid element name: app ++ Invalid element name: rdg
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.16 Τροσί Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.17 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.18 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.19 Ἕκτορι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.20 κῦδος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.21 ὁπάζει Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.30 χειμάρρους Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.31 κατ‘ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.32 όρεσφιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.33 ὀπαζόμενος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.34 διὸς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.35 ὄμβρῳ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.42 ῆ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.43 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.44 Νέστορος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.45 υἱὸν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.46 ὀπάσσατο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.47 κυδαλίμοιο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.55 ἅλλ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.56 ὅτε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.57 δὴ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.58 ρ‘ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.59 ἐκίχανε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.60 πολὺν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.61 καθ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.62 όμιλον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.2036.comment.63 ὁπάζων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.20 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.21 οῖον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.22 τον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.23 Τηλεφίδην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.31 οἷον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.32 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.33 κρομύοιο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.34 λόπον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.40 οἷον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.41 ἀναΐξας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.52 ἀλλοῖός Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.53 μοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.54 ξεῖνε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.71 ὁσσάτιόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.72 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.73 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.74 οἷον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.76 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.77 οῖον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.78 τόδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.79 ἔρεξεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.80 οἷον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.81 τὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.82 Τηλεφίδην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.4006.comment.34 ὴ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.4006.comment.35 δε Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.4006.comment.36 διπλη Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.4006.comment.37 . Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.4031.comment.27 τουτην Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:6.1.comment.50 Ἀπόλλων Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite:htm:pers.HELP is invalid: collection component must be separated from empty object selection with :
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.201.comment.2 ἐπιπλεῖν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.206.comment.2 οἰδάνει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.29 νὺξ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.30 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.31 ήδη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.32 τελέθει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.78 χρὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.79 ξεῖνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.80 παρεόντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.88 Ὕλλῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.89 ἐπ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.90 ἰ̈χθυόεντι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.96 σιγῇ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.97 δειδιότες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1000.comment.32 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1000.comment.33 ἥμισυ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1000.comment.34 μείρεο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1000.comment.35 τιμῆς· Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1004.comment.19 βαρείας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1004.comment.20 χείρας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1004.comment.21 ἐποίσειν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1006.comment.4 ἡ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1006.comment.5 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1006.comment.6 θεαῖς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1006.comment.7 ἐπέβαλλεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1006.comment.8 ἐπειγομένη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1006.comment.9 Διὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1006.comment.10 ούρῳ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1009.comment.19 ἀλλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1009.comment.20 σιδηρείη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1009.comment.21 κορύνη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.9 τύμβον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.10 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.11 οὐ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.12 μάλα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.13 πολλόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.14 ἔσω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.15 πονέεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1018.comment.16 ἄνωγα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1021.comment.14 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1021.comment.15 νείκεσσεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1021.comment.16 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1021.comment.17 θεᾶς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1024.comment.22 ἰχθὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1024.comment.23 ὅς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1024.comment.24 κε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1024.comment.25 φάγῃσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.10 ἐρ' Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.33 ἠῶθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.34 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.35 μάλ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.36 ἤρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.37 λοέσσαί Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.38 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.39 χρῖσέν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1039.comment.40 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1050.comment.9 ἠδ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1050.comment.10 Ὕλην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1050.comment.11 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1050.comment.12 Πετεῶνα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.1060.comment.6 βῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.6.comment.70 αιθηρ Invalid element name: body
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.6.comment.71 ἀήρ Invalid element name: body
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.6.comment.72 αίδης Invalid element name: body
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.6.comment.73 τάρταρος Invalid element name: body
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.6.comment.74 ⁚ Invalid element name: body
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.148.comment.1 Ἑλίκη element placeName missing required @n attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.205.comment.76 συ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.222.comment.18 αὐερύοντα rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.326.comment.58 Ἐπιχάρμῳ element persName missing required @n attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.340.comment.22 ἢ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.340.comment.23 τοὺς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.340.comment.24 ἑξῆς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:8.340.comment.25 τρεῖς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.86.comment.4 ορῶν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.39 οὐκ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.40 εἰς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.41 το Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.42 πρεσβεύειν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.43 ἀλλ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.44 εἰς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.45 τὸ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.46 πρεσβεύειν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.47 Αἴαντας Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.48 καὶ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.49 Ὀδυσσέα Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.50 Φοίνικος Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.193.comment.51 προέληλυθότος Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.214.comment.56 Τάμμεω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.214.comment.57 θυγατέρος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.37 τῇ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.38 ἡμετέρα Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.39 , Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.40 συνηθεία Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.41 , Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.42 ἀλλα Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.43 θυμιάσαι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.44 : Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.45 καὶ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.46 ὅτι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.47 θυηλάς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.48 τὰς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.49 ἐπιθυομένας Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.50 ἀπαρχᾶς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.51 καὶ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.52 ἐν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.247.comment.53 Ὀδ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.686.comment.11 δὲ unrecognized value for @type attribute on rs element supralinear
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.378.comment.8 σωῶ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.379.comment.24 Ἀχαιούς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.497.comment.13 ἐὰν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.497.comment.14 δὲ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.503.comment.15 περι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.639.lemma.5 εν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:9.639.lemma.6 : Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2.comment.61 παννυχίη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2.comment.62 γάρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2.comment.63 μοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2.comment.64 Πατροκλῆος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2.comment.65 δειλοῖο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2.comment.66 ψυχὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2.comment.67 ἐφεστήκει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1001.comment.12 δεῦρο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1001.comment.13 νῦν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1001.comment.14 ἡ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1001.comment.15 τρίποδος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1006.comment.22 νεικέσω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1006.comment.25 ἐν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1006.comment.26 θαυμασμῷ· Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1006.comment.27 ἠ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1006.comment.28 τοῖς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1006.comment.29 ἄνω Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1006.comment.30 συναπτέον Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1007.comment.17 νήπιος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1007.comment.18 . Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1007.comment.19 ἠὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1007.comment.20 χαλίφρων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1007.comment.21 ἠὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1007.comment.22 ἑκών Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.1007.comment.23 μεθίει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2501.comment.6 Ὠρίων unrecognized value for @type attribute on rs element astro
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2501.comment.7 Ὁφιοῦχος unrecognized value for @type attribute on rs element astro
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2544.comment.9 ων Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.2544.comment.48 δι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:10.4513.comment.1 Ῥῆσος Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.15.comment.9 πόλεως Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.13 μῦς Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.14 μῦν Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.17 νοῦς Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.18 νοῦν Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.22 λῖς Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.23 λῖν Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.79 κις Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.81 θις Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.103.comment.83 ρις Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.110.comment.61 ὁππιπεύω Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.110.comment.62 ὀπή Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.110.comment.63 ὀπώρα Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.110.comment.72 ὀπάων Invalid element name: mentioned
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.149.comment.27 η Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.177.comment.16 αὐτῷ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.246.comment.27 Κριφηΐς element persName missing required @n attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.246.comment.29 Θαΐς element persName missing required @n attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.246.comment.30 Λαΐς element persName missing required @n attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.255.comment.20 ε Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.269.comment.39 τοῦ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.269.comment.40 δὲ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.269.comment.41 δευτέρου Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:11.306.comment.2 Ἀχίλλειαν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.A12.comment.55 θεῖόν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.A12.comment.56 τε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.A12.comment.57 Σιμοῦντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.43 ἆσσον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.44 ῗεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.45 πολυκάρπου Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.46 ἁλῴης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.58 ἐννῆμαρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.59 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.60 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.61 τεῖχος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.62 ἵ̈ει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.63 ῥόον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.75 τεῖχος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.76 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.77 αμαλδύνας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.78 ποταμοὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.79 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.80 ἔστρεψε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.B3.comment.81 νέεσθαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.D1.comment.13 δὲ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.E2.comment.36 λ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.E11.comment.20 ν unrecognized value for @type attribute on rs element WAW
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.E15.comment.9 ης unrecognized value for @type attribute on rs element WAW
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.D8.comment.3 Φοίνικος unrecognized value for @type attribute on rs element ethinc
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:12.F5.comment.5 Ὁμηρικὸν unrecognized value for @type attribute on rs element personal
+
+
+## Corrigenda XML markup of scholia msAext
+
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.5 ἥνδανε Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.12 τὰς Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.16 καὶ Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.17 οὐκ Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.18 ἐ Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.20 ἀλλὰ Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.21 τὸ Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.25 ᾔτει Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.26 παρὰ Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.27 τῶν Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.26.comment.28 ἀρχομένων Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:1.1502.comment.5 πίδεσσι Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:3.743.comment.3 ῥῶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:3.743.comment.5 ὁρμῶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:7.1066.comment.1 ἡβώμ' Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:7.1056.comment.1 τύχιο? Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:9.396.comment.1 γήμαντα Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:9.589.comment.1 αλλι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:9.589.comment.2 επι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:9.589.comment.3 δ?ώρων Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.1011.comment.1 κτῶς Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.1513.comment.1 κατ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.1513.comment.2 νηας Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.2547.comment.1 παρίσταο Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.3526.comment.1 προτι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.3526.comment.2 νῆας Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.4559.comment.1 επιδωσόμεθ' Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.4592.comment.1 τὸν Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:10.4592.comment.2 τρεισκαιδεκ?α?τ?α?ι? Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.1.comment.1 ἐπιστεφέες Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.11.comment.1 αὐτὰρ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.11.comment.2 ἔμ' Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.11.comment.3 εἴ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.11.comment.4 κε Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.12.comment.1 ἐπεὶ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.12.comment.2 ί̈δον Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:11.16.comment.1 ὑπερμενέϊ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.246 οὐδε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.247 μοι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.248 ῆτορ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.249 ἔμπεδον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.250 ἀλλ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.251 ἀλύκτημαι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.252 ὁ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.253 μὲν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.254 ἔμπεδον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.255 ἡνιόχευεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.284 ἁλιπλόω Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.309 ούτι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.310 πολὺν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.311 χρόνον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.312 ἔμπεδον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.313 ῆεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.323 ὁμόσε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.324 στόματ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.325 έτραπε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.326 Φοῖβος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.327 Ἀπόλλων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.328 · Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.329 ἐννῆμαρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.330 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.331 ἐς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.332 τεῖχος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.333 ΐει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.334 								ῥόον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.335 υἱε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.336 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.337 ἄρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.338 Ζεὺς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.339 συννεχες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.340 ὄφρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.341 κε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.342 θᾶσσον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.343 ἁλίπλοα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.344 τείχεα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.345 θείη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.346 αὐτὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.347 								δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.348 ἐννοσίγαιος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.349 ἔχων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.350 χείρεσσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.351 τρίαιναν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.352 ἡγεῖτ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.353 ἐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.354 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.355 ἄρα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.356 πάντα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.357 								θεμείλια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.358 κύμασι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.359 πέμπε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.360 φιτρῶν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.361 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.362 λάων Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.363 τὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.364 θέσαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.365 μογέοντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.366 Ἀχαιοὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.367 λεια Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.368 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.369 ἐποίησεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.370 παρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.371 αγάρροον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.A1.comment.372 Ἑλλησποντον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.H1.comment.1 ἔρειπον Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.H2.comment.1 πάσας Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.H2.comment.2 γὰρ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.H2.comment.3 επῴχατ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.G3.comment.1 χείρεσ' Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.G3.comment.2 αμφοτερῃσι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.F1.comment.1 εστη Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAext.hmt_xml.tokens:12.F1.comment.2 και Invalid element name: del
+
+
+## Corrigenda XML markup of scholia msAil
+
+-   urn:cts:greekLit:tlg5026.msAil.hmt_xml.tokens:1.325.comment.1 γν Invalid element name: supplied
+-   urn:cts:greekLit:tlg5026.msAil.hmt_xml.tokens:1.638.comment.3 επι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msAil.hmt_xml.tokens:2.165.comment.3 Θυέστ' element persName missing required @n attribute
+-   urn:cts:greekLit:tlg5026.msAil.hmt_xml.tokens:2.254.comment.2 μεγάλα rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msAil.hmt_xml.tokens:12.G31.comment.1 γράφεται Invalid element name: del
+
+
+## Corrigenda XML markup of scholia msAim
+
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.24.comment.10 ποι Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.24.comment.11 η Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.24.comment.12 τὴς Invalid element name: seg
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.54.comment.12 αὐτοῖσι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.669.comment.7 ῆ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.669.comment.8 γὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.669.comment.9 ὰν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.669.comment.10 Ατρείδη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.940.comment.5 χρειοῖ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.940.comment.6 ἀναγ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.1237.comment.6 χθιζὸς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.1237.comment.7 έβη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.1237.comment.8 κατὰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:1.1237.comment.9 δαιτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.69.comment.3 α rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.135.comment.9 ήλθε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.135.comment.10 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.135.comment.11 ἐπι Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.135.comment.12 Κρήτεσσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.137.comment.21 ἀντίος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.137.comment.22 ἔγχος Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.186.comment.10 Εὔβοιαν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.330.comment.8 ὡς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.330.comment.9 εφεπε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.330.comment.10 κλον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.389.comment.9 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.389.comment.10 νύ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.389.comment.11 κεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.389.comment.12 ἔνθ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.389.comment.13 ἀπόλοιτο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.389.comment.14 Ἄρης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.515.comment.10 μαχήσονται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.515.comment.11 περὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.515.comment.12 σεῖο Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:2.769.comment.4 οξεῖα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.713.comment.3 κεφαλην Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.732.comment.3 Τρῶες rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.740.comment.9 εἴσω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.740.comment.21 δός Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.741.comment.4 εκαστου Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.748.comment.9 αμφ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.748.comment.10 ώμοισι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.748.comment.11 βάλετο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.749.comment.3 εἴλετο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.749.comment.4 δ‘άλκιμον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.749.comment.5 ἔγχος Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.749.comment.6 ἀκαχμένον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.749.comment.7 ὀξέϊ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.749.comment.8 χαλκῷ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.751.comment.8 χαλκον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.755.comment.2 δαμῆναι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.762.comment.37 ἐπόρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.762.comment.42 κατακτάμεναι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.762.comment.43 μενεαίνων Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.763.comment.9 οὐδέ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.763.comment.10 κε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.763.comment.11 φαῖνε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.771.comment.6 ἄχθεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:3.771.comment.9 αλγεα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:4.884.comment.4 α unrecognized value for @type attribute on rs element  waw
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.2039.comment.5 αινείω Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.2040.comment.4 κρατερωνύχεσο Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.4046.comment.1 πρι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6005.comment.11 ὃς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6005.comment.12 Χρυσην Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6005.comment.13 ἀμφιβέβηκας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6044.comment.13 ξανθῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6044.comment.14 δὲ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6044.comment.15 κόμης Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6044.comment.16 ἕλε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6044.comment.17 Πηλείωνα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6073.comment.5 πληθὺν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6073.comment.6 δ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6073.comment.7 οὐκ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6073.comment.8 ὰν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6073.comment.9 ἔγωγ’ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6074.comment.6 εἰ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6074.comment.7 μὴ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6074.comment.8 εγώ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6074.comment.9 σε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6074.comment.10 λαβών Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:5.6078.comment.3 ὅτι Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:7.1027.comment.2 Ἀρίσταρχος element persName missing required @n attribute
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:9.91.comment.3 ρ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:9.449.comment.6 θύραν rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msAim.hmt_xml.tokens:9.477.comment.1 Ἀρίσταρχ element persName missing required @n attribute
+
+
+## Corrigenda XML markup of scholia msAint
+
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.115.comment.1 Δαναοῖσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.115.comment.2 ἀεικέα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.115.comment.3 λοιγὸν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.115.comment.4 απώσει Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.741.comment.9 κόσμιθεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.1078.comment.4 μετα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.1078.comment.5 δαίμονας Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:1.1078.comment.6 ἄλλους Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.14 ὡς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.15 ἄρ' Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.16 άτερ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.17 σπουδῆς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.18 τάνυσσεν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.19 μέγα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.20 τόξον Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.143.comment.21 Ὀδυσσεύς Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.245.comment.4 εανοῦ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.245.comment.5 απτομένη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.394.comment.9 ὄμματα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.394.comment.10 καὶ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.394.comment.11 κεφαλήν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.394.comment.13 κάρη Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:2.394.comment.14 κομόωντες Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.209.comment.1 Ιωνικὰ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.260.comment.5 αἰνῶς Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.260.comment.6 γὰρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.260.comment.7 κεφαλήν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.260.comment.8 τε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.260.comment.9 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.260.comment.10 ὄμματ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.287.comment.6 τά Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.287.comment.7 κε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.387.comment.11 καλεουσιν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.387.comment.12 ἀρ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.545.comment.4 καὶ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.545.comment.5 νύκεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.545.comment.6 ἐξείρυσεν Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.608.comment.3 ἔκπαγλα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.608.comment.4 φίλησα Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:3.639.comment.2 δαμείης Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:5.4011.comment.6 ἐξεσύθη Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:5.6062.comment.6 αὐτὰρ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:5.6062.comment.7 ὃ Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:5.6062.comment.8 αὖτε Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:5.6062.comment.9 Θυεστα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:5.6096.comment.7 λελάχωσιν Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:7.15.comment.5 σπάρτα Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:7.15.comment.6 λέλυνται Invalid structure: cit should have both q and ref children
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:9.328.comment.1 οτ Invalid element name: del
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:9.328.comment.2 ἄοροι Invalid element name: del
