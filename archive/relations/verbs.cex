@@ -16,3 +16,4 @@ urn:cite2:cite:verbs.v1:illustrates#Subject (a Cite2Urn implemented by citable i
 #!datamodels
 Collection#Model#Label#Description
 urn:cite2:cite:verbs.v1:#urn:cite2:cite:datamodels.v1:commentarymodel#Commentary Model#URN comments on URN. See documentation at <https://github.com/cite-architecture/commentary>.
+urn:cite2:cite:verbs.v1:#urn:cite2:cite:datamodels.v1:illustrationmodel#Illustration Model#URN comments on URN. See documentation at <https://github.com/cite-architecture/illustration>.
