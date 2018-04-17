@@ -14,3 +14,9 @@ Published releases are machine generated and validated from data in the `archive
 ## Current published release: `2018b`
 
 See a brief summary of [published releases](releases-cex/README.md).
+
+
+
+## Contributors
+
+Contributors to releases published in 2018 are [listed here](contributors/2018.md).  If you know of any name that is missing, please get in touch with us.  (You may file an issue directly on our issue tracker if you're a github user.)
