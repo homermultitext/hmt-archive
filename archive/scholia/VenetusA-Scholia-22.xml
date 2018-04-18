@@ -18,54 +18,55 @@
     </teiHeader>
     <text>
         <group n="22">
+
           <text n="msA">
                 <body>
                     <div n="1" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς οἱ μὲν κατα άστυ πεφυζότες ὴ ΰπε νεβροι:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.1</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>βραδὺ διασταλτεον μετα τὸ <q>νεβροὶ</q> πεφευγέναι γὰρ αὐτοὺς φησὶν
                                 ὡς νεβροὺς οὐ τὸν ἰδρῶτα ἀποψυχεσθαι· νεβροὶ δὲ οἱ νεωστὶ ἐπι βοραν
                                 ἰόντες, ἠ νηπόροι οἱ μηδέπω πορεύεσθαι δυνάμενοι⁑</p>
                         </div>
                     </div>
                     <div n="2" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἰδρῶ απεψυχοντο·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.2</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>διχῶς καὶ <q>ἀνεψύχοντο</q> καὶ <q>ἀπεψύχοντο</q> χαριεστέρα δὲ ἡ δια
                                 τοῦ <rs type="waw">ν</rs>⁑</p>
                         </div>
                     </div>
                     <div n="3" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>κεκλιμένοι</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.3</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προσκεκλιμένοι ὅ ἐστι περιεχόμενοι ὑπo τῶν τειχῶν. ἐπάλξεις γὰρ οἱ
                                 τῶν τειχῶν λεγόμενοι προμαχῶνες⁑</p>
                         </div>
                     </div>
                     <div n="4" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ῆ νύ τοι οὔ τι μέλει <rs type="ethnic" n="urn:cite2:hmt:place:place6"
                                     >Τρώων</rs> πόνος οὓς ἐφόβησας·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.11</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> ὅτι σαφῶς ὁ πόνος οὐκ έστιν ἀλγηδών· οὐ γὰρ ἂν λέγοιτο οὐ μέλει σοι
                                 ἡ τῶν <rs type="ethnic" n="urn:cite2:hmt:place:place6">Τρώων</rs>
                                 ἀλγηδών· ἀλλ' οὕτως εἴρηκεν ἀντι τοῦ οῦ μέλλει σοι τὸ περὶ τοὺς <rs
@@ -74,27 +75,27 @@
                         </div>
                     </div>
                     <div n="5" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὁς ῥά τε ῥεῖα·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.23</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι θέησιν ἀντι τοῦ θέη πλεονάζει δὲ τῷ τοιούτῳ σχήματι <persName
                                     n="urn:cite2:hmt:pers:pers241">Ἴβυκος</persName> καὶ ὅτι
                                 ἐλλειπει ἡ δία διὰ πεδίου·</p>
                         </div>
                     </div>
                     <div n="6" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὄν τε κύν' <persName n="urn:cite2:hmt:pers:pers1009"
                                     >Ὠρίωνος</persName>.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.29</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὁ <persName n="urn:cite2:hmt:pers:pers323">Σιδώνιος</persName> ὑφ ἓν
                                 ἀναγινώσκει ἄμεινον δὲ κατα παράθεσιν ὅτι οἱ κῦνες πολλάκις
                                 ὀνομάζονται μετα τῶν κτητόρων. οἷον <persName
@@ -113,14 +114,14 @@
                         </div>
                     </div>
                     <div n="7" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὀν τε <persName n="urn:cite2:hmt:pers:pers1105"
                                 >Κυνωρίωνος</persName>.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.29</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὸν ἀστρωῶν κύνα <choice>
                                     <abbr>οὕτ</abbr>
                                     <expan>οὕτως</expan>
@@ -162,13 +163,13 @@
                         </div>
                     </div>
                     <div n="8" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p> πολλοῖσι μετ' άστρασι· </p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.28</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><persName n="urn:cite2:hmt:pers:pers16">Ἀρίσταρχος</persName> ὡς
                                 πατράσιν· ἄμεινον δὲ προπαροξύνειν ὥσπερ καὶ τοῖς πλείωσιν ἔδοξε καὶ
                                     <persName n="urn:cite2:hmt:pers:pers141">Φιλοξένῳ</persName> ἵνα
@@ -186,60 +187,60 @@
                         </div>
                     </div>
                     <div n="9" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>καί τε φέρει πολλὸν·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.31</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἅπαξ ἐνταῦθα ὁ πυρετός. καὶ ὅτι πυρετὸν κυρίως λέγει οὐχ ώς τινες
                                 δέχονται τὴν διάκαυσιν τοῦ ἀέρος πρὸς γὰρ τὸ φθοροποιὸν ἡ παραβολή·
                                 καὶ ὅτι δειλοῖσιν ἀντι τοῦ δειλαίοις.</p>
                         </div>
                     </div>
                     <div n="10" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>σχέτλιος αἴθε θεοῖσι·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.41</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>σημειοῦνται τὶνες ὅτι ἐκ τοῦ ἐναντίου τὸ ἐναντίον δεδήλωκεν⁑</p>
                         </div>
                     </div>
                     <div n="11" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀλλ εἰ μὲν ζώουσι μετα στρατῷ</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.49</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι περισσὸς ὁ ἂν σύνδεσμος· εἰ γὰρ ἐνετέτακτο κυρίως. ἐπήνεγκεν ἂν
                                 ἀπολυσαμεθα⁑</p>
                         </div>
                     </div>
                     <div n="12" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>φίλος τοσσόνδε:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.41</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προ τέλους ἡ ὀξεῖα ἓν γάρ ἐστι μέρος λόγου ⁑</p>
                         </div>
                     </div>
                     <div n="13" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>πολλὰ γὰρ ὥπασε παιδὶ γέρων</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.51</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι κατα σύνθετον προενεκτέον· σημαίνει δὲ τὸ ὅλον ὀνομαστος· ὁ γὰρ
                                 κλυτὸς ἐπι τοῦ διαβεβοημένου. καὶ ὅτι οἱ πατέρες ταῖς θυγατράσι
                                 γαμουμέναις δῶρα παρεῖχον· <cit>
@@ -249,14 +250,14 @@
                         </div>
                     </div>
                     <div n="14" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὀνομάκλυτος <persName n="urn:cite2:hmt:pers:pers187"
                                 >Ἄλτης</persName>·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.51</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὡς τοξόκλυτος. οὕτως δὲ καὶ <persName n="urn:cite2:hmt:pers:pers16"
                                     >Ἀρίσταρχος</persName>· ἐν μέντοι τῆ <title><ref type="urn"
                                         n="urn:cts:greekLit:tlg0012.tlg002"><choice>
@@ -276,13 +277,13 @@
                         </div>
                     </div>
                     <div n="15" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>εἰ δ' ἤδη τεθνᾶσι·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.52</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>βραχυ διασταλτεον ἐπι τὸ <q>τεθνᾶσι</q> καὶ ὑποστικτέον
                                     <q>δόμοισι</q>· ἴσως δ' ἄν τις ἐπι τὸ <q>τεθνᾶσι</q> ὑποστίζοι·
                                 τὰ δὲ ἑξῆς πάντα συνάπτοι ἵν' ᾖ ὁ λόγος, καὶ ἀποθανόντες ἀνιασόμεθα·
@@ -301,14 +302,14 @@
                         </div>
                     </div>
                     <div n="16" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p><rs type="ethnic" n="urn:cite2:hmt:place:place6">Τρῶας</rs> καὶ <rs
                                     type="ethnic" n="urn:cite2:hmt:place:place6">Τρωὰς</rs></p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.57</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἤτοι στικτέον μετὰ τὸ <q><rs type="ethnic"
                                         n="urn:cite2:hmt:place:place6">Τρῶας</rs>. καὶ <rs
                                         type="ethnic" n="urn:cite2:hmt:place:place6">Τρῳὰς</rs></q>,
@@ -327,13 +328,13 @@
                         </div>
                     </div>
                     <div n="17" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>αὐτὸν δ' ὰν πύματόν τε,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.66</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀντι τοῦ <q>ἄκραις</q>. πρώτῃσι δὲ πύλῃσι προς τὸ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:6.40</ref>
                                     <q>άξαντ' ἐν πρώτῳ ῥυμῷ</q>
@@ -341,13 +342,13 @@
                         </div>
                     </div>
                     <div n="18" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὠμισταὶ ἐρύουσιν·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.67</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι χρόνος ήλλακται ἀντι τοῦ <q>ἐρύσουσιν</q> καὶ ἐν <title>
                                     <ref type="urn" n="urn:cite2:hmt:citedworks:work1"><choice>
                                             <abbr>Οδ</abbr>
@@ -360,13 +361,13 @@
                         </div>
                     </div>
                     <div n="19" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡμησταί·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.67</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>
                                 <persName n="urn:cite2:hmt:pers:pers16">Ἀρίσταρχος</persName> ὡς
                                     <q>ἀθληταὶ</q>
@@ -377,26 +378,26 @@
                         </div>
                     </div>
                     <div n="20" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τύψας ἠὲ βαλὼν</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.68</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πρὸς τὴν διαστολὴν τοῦ βαλεῖν καὶ τύψαι· καὶ ὅτι ῥέθη πάντα τὰ μέλη
                                 οἱ δὲ <rs type="ethnic" n="urn:cite2:hmt:place:place77">Αιολεῖς</rs>
                                 τὸ πρόσωπον ⁑</p>
                         </div>
                     </div>
                     <div n="21" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ῥεθέων μελῶν:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.68</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>δείκνυσι δὲ ὅτι κατὰ παντὸς μέλους τὸ ζωτικον καὶ ψυχικόν ἐστι ῥέθη
                                 δὲ τὰ ζῶντα μέλη· <rs type="ethnic" n="urn:cite2:hmt:place:place77"
                                     >Αἰολεῖς</rs> δὲ τὸ πρόσωπον καὶ ῥεθομαλιδας τοὺς εὐπροσώπους <choice>
@@ -416,25 +417,25 @@
                         </div>
                     </div>
                     <div n="22" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>αλύσσοντες:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.70</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὑπο λησμονῆς ἀλύοντες. οἷον ἐν άλλῃ ὄντες. δυσφοροῦντες· οἱ δὲ εῖπον
                                 ἐπι τὸ ἄγαν λυσσῶντες⁑</p>
                         </div>
                     </div>
                     <div n="23" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>κόλπον ἀνιεμένη:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.80</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀντι τοῦ χαλῶσα ἀναστέλλουσα· καὶ ἐν <title><ref type="urn"
                                         n="urn:cite2:hmt:citedworks:work1"><choice>
                                             <abbr>Οδ</abbr>
@@ -452,13 +453,13 @@
                         </div>
                     </div>
                     <div n="24" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>αὐτὴν εἴποτέ τοι·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.83-22.84</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἤτοι συναπτέον μέχρι τοῦ <q>ἐπέσχον</q> εἶτα ἀπ' άλλης ἀρχῆς, <q>τῶν <choice>
                                         <sic>μνῆσει</sic>
                                         <corr>μνῆσαι</corr>
@@ -468,48 +469,48 @@
                         </div>
                     </div>
                     <div n="25" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τῶν μνῆσαι φίλε τέκνον·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.84</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἰδίως <q>φίλε τέκνον</q> ἀντι τοῦ <q>φίλον τέκνον</q>.
                                     καὶ <q>ἄμυνε</q> ἀντι τοῦ <q>ἀμύνου</q>⁑</p>
                         </div>
                     </div>
                     <div n="26" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τείχεος ἐντὸς</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.85</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι σαφῶς <q>πρόμος</q> ὁ πρόμαχος οὐχ ὁ βασιλεύς ⁑</p>
                         </div>
                     </div>
                     <div n="27" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>οὐδ' ἄλοχος πολύδωρος:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.88</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἔδνα ἐδίδοσαν οἱ παλαιοὶ ταῖς θυγατράσι· καὶ πολύδωρον λέγει τὴν
                                 πολύεδνον ⁑</p>
                         </div>
                     </div>
                     <div n="28" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>πολλὰ λισσομένω·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.91</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ὑπερβίβασται ὁ <rs type="waw">δε</rs> <q><persName
                                         n="urn:cite2:hmt:pers:pers172">Ἔκτορι</persName> δὲ θυμὸν
                                     οῦκ ἔπειπον</q> προς τὸ <cit>
@@ -519,16 +520,16 @@
                         </div>
                     </div>
                     <div n="29" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς δε δράκων ἐπι <choice>
                                     <sic>εχειῆ</sic>
                                     <corr>χειῇ</corr>
                                 </choice>·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.93</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι τὴν τῶν ὄφεων κατάδυσιν χειὰν εἴρηκεν ἀπο τοῦ χεῖσθαι ὅ ἐστι
                                 χωρῆσαι. εἰς αυτὸ γὰρ μόνον μηχανῶνται οἱ ὄφεις εἰς τὸ χωρῆσαι τὸ
                                 σῶμα ὥσπερ ἕλυτρον. <cit>
@@ -540,26 +541,26 @@
                         </div>
                     </div>
                     <div n="30" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p> ‡ἠέ κεν αὐτῷ ὀλέσθαι:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.110</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ὁ <q><rs type="waw">κεν</rs></q> περισσὸς. καὶ ὅτι ἀμφίβολον
                                 πότερον εμοὶ <q>αὐτῷ ὀλέσθαι</q>· ἠ καθ Ὁμηρικὴν συνήθειαν ἀντι τοῦ
                                     <q>ὑπ αυτοῦ ὀλέσθαι</q>⁑</p>
                         </div>
                     </div>
                     <div n="31" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>εἰ δέ κεν ἀσπίδα μὲν·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.111</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἤρτηται μέχρι τοῦ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:22.122</ref>
                                     <q>ἀλλὰ τίη μοι ταυτα</q>
@@ -578,27 +579,27 @@
                         </div>
                     </div>
                     <div n="32" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>δωσέμεν <persName n="urn:cite2:hmt:pers:pers22"><persName
                                         n="urn:cite2:hmt:pers:pers119"
                                     >Ἀτρείδῃσιν</persName></persName>:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.117</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀντι τοῦ <q>ἀμφι δάσασθαι</q>· διχὰ <q>μερίσεσθαι</q>· πάλιν δὲ ὁ
                                     <q>δε̄</q> σύνδεσμος περισσός⁑</p>
                         </div>
                     </div>
                     <div n="33" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>μή μιν ἐγὼ μὲν ί̈κωμαι:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.123</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τινὲς ὡς <q>φιλῶμαι</q>
                                 <choice>
                                     <sic>ἀναγινόσκουσιν</sic>
@@ -619,25 +620,25 @@
                         </div>
                     </div>
                     <div n="34" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>μή μιν ἐγὼ μὲν</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.123</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι τὸ <q>ί̈κωμαι</q> ἀντι τοῦ <q>ϊκετεύσω</q>, παράκειται οὖν
                                     τὸ <q>ϊὼν</q> ἐπεὶ προσεγγιζομένοις ἂν προσφέρωμεν ϊκετείαν⁑</p>
                         </div>
                     </div>
                     <div n="35" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>οὐδέ τι μ' αἰδέσεται:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.124</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι <q>αἰδέσεται</q> ὡς ϊκέτην προσδέξεται <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:1.23</ref>
                                     <q>αἰδεῖσθαί θ' ἱερῆα</q>
@@ -645,13 +646,13 @@
                         </div>
                     </div>
                     <div n="36" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>οὐ μέν πως νῦν έστιν ἀπὸ δρυὸς</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.126</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>οὐκ έστι φησίν ἄντικρυς <persName n="urn:cite2:hmt:pers:pers1"
                                     >Ἀχιλλεως</persName> μύθους διηγεῖσθαι· ὁποίους ἄν παρθένοι καὶ
                                 ἠί̈θεοι· οἱ γὰρ παλαιοὶ τὰ ἐκτιθέμενα βρέφη παρὰ δρυσιν ἠ πέτραις
@@ -666,40 +667,40 @@
                         </div>
                     </div>
                     <div n="37" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>οὐ μέν πως νῦν <choice>
                                     <abbr>εστ</abbr>
                                     <expan>ἔστιν</expan>
                                 </choice> ἀπο δρυὸς,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.126</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>οὐκ έστιν ἀρχαῖα μυθολογεῖν τῷ <persName n="urn:cite2:hmt:pers:pers1"
                                     >Ἀχιλλεῖ</persName> νηπίων δίκην ὡς τῶν πρώτων ἀνθρώπων ἐκ δρυῶν
                                 καὶ πετρῶν γεγεννῆσθαι λεγομένων ⁑</p>
                         </div>
                     </div>
                     <div n="38" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>παρθένος ἠΐθεός τ' ὀαρίζετον·</p>
                         </div>
-                        <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.</p>
+                        <div n="ref">
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.MISSING</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὁ ἀρισμός ἐστιν ἀνδρὸς καὶ γυναικὸς ὁμιλίᾳ ὀάραι γὰρ αἱ γῦναῖκες⁑</p>
                         </div>
                     </div>
                     <div n="39" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς ἂρ ὅ γ' ἐμμεμαῶς.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.143</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι τὸ τρέσαι, οὐ τὴν πτώησιν σημαίνει ἀλλα σὺν τῷ φεύγειν· ἐπήνεγκεν
                                 γοὖν <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:22.144</ref>
@@ -708,26 +709,26 @@
                         </div>
                     </div>
                     <div n="40" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τείχεος αἰὲν,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.146</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>βραχὺ διασταλτέον μετα τὸ <q>ὑπὲκ</q>, τὸ γὰρ ἑξῆς ὑπεκ τείχεος κατα
                                 τὸν ἀμαξιτὸν οἶον ὑπο τὸ τεῖχος· ἡ δὲ <rs type="waw">εξ</rs> πρόθεσις προκειμένη ἐμφαίνει
                                 ὡς καὶ μικρὸν ἔξω τοῦ τείχους ἐδίωκον⁑</p>
                         </div>
                     </div>
                     <div n="41" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>δοιαὶ ἀναΐσσουσι. </p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.148</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι λείπει πρόθεσις ἡ <rs type="waw">εκ</rs> ἡ <rs type="waw">ἀπο</rs>· ἐκ <placeName
                                     n="urn:cite2:hmt:place:place93">Σκαμάνδρου</placeName> γὰρ ἡ ἀπο
                                     <placeName n="urn:cite2:hmt:place:place93"
@@ -735,13 +736,13 @@
                         </div>
                     </div>
                     <div n="42" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἡ δ' ἑτέρη θέρεϊ·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.151</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἐκ τῆς ἀντιδιαστολῆς ταύτης σαφὲς ὅτι ἡ ετέρα πηγὴ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:22.149</ref>
                                     <q> ὕδατι λιαρῷ ῥεῖ</q>
@@ -749,24 +750,24 @@
                         </div>
                     </div>
                     <div n="43" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τῇ ῥα παραδραμέτην:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.157</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>βραχὺ διασταλτέον <q>παραδραμέτην</q> καὶ <q>φεύγων</q>⁑</p>
                         </div>
                     </div>
                     <div n="44" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>πρόσθε μεν ἐσθλὸς:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.158</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ὑγιῶς διώκεσθαι λέγει τὸν φεύγοντα ἐν ενίοις δὲ φέρεται στίχος
                                 ὑπο τοῦτον εὐτελῆς. <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:22.158a</ref>
@@ -775,13 +776,13 @@
                         </div>
                     </div>
                     <div n="45" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀλλα περὶ ψυχῆς·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.161</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ὡς περι ἑτέρων λέγει τρεχόντων περι τῆς <persName
                                     n="urn:cite2:hmt:pers:pers172">Ἕκτορος</persName> ψυχῆς αὐτοῦ
                                 τοῦ <persName n="urn:cite2:hmt:pers:pers172">Ἕκτορος</persName> ἐνὸς
@@ -789,13 +790,13 @@
                         </div>
                     </div>
                     <div n="46" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>περι τέρματα μώνυχες ἵπποι</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.162</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀντι τοῦ <q>δια τὰ τέρματα</q> εἰς γὰρ τούτους τὸ τέλος τῆς νίκης
                                 ἀπόκειται ἐπεὶ εἰ περὶ τὰ τέρματα δράμουσιν εὐφυῶς κάμπτειν, οῦ
                                 δύνανται οὕτως <persName n="urn:cite2:hmt:pers:pers1107"
@@ -803,13 +804,13 @@
                         </div>
                     </div>
                     <div n="47" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἢ τρίπος ἠὲ γυνη:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.164</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀμφίβολον, πότερον ἀνδρὸς τεθνεῶτος γυνὴ ἡ ἐπι τεθνειῶτι ἀνδρὶ ὃ
                                 καὶ <choice>
                                     <sic>ὑγιές</sic>
@@ -819,14 +820,14 @@
                         </div>
                     </div>
                     <div n="48" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>θάρσει <persName n="urn:cite2:hmt:pers:pers67"
                                 >Τριτογένεια</persName>:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.183</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἐνταῦθα ὑγιῶς λέγονται· κατα δὲ τὴν προ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:8</ref>
                                     <q>τῆς κώλου μάχης</q>
@@ -834,13 +835,13 @@
                         </div>
                     </div>
                     <div n="49" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>σημειῶδες</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.188</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι μόνος <persName n="urn:cite2:hmt:pers:pers17">Ὁμηρός</persName>
                                 φησι μονομαχῆσαι τὸν <persName n="urn:cite2:hmt:pers:pers172"
                                     >Ἕκτορα</persName>· οἱ δὲ λοιποὶ πάντες ἐνεδρευθῆναι ὑπο
@@ -848,13 +849,13 @@
                         </div>
                     </div>
                     <div n="50" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τοσσάκι μιν προπάροιθεν:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.197</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι τοπικῶς τὸ <q>προπάροιθε</q> δυνατὸν ἀκούειν εἰς
                                     <q>τούμπροσθεν</q>. <choice>
                                     <sic>δύνατῳν</sic>
@@ -865,13 +866,13 @@
                         </div>
                     </div>
                     <div n="51" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς δ' ἐν oνείρῳ</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.199-22.201</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀθετοῦνται <choice>
                                     <abbr>στιχ</abbr>
                                     <expan>στίχοι</expan>
@@ -883,14 +884,14 @@
                         </div>
                     </div>
                     <div n="52" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>πῶς δέ κεν <persName n="urn:cite2:hmt:pers:pers172"
                                 >Ἕκτωρ</persName>⁑</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.202</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀξιοῦσι τοῦτον τὸν στίχον καθ αυτὸν ἀναγινώσκεσθαι ἐπεὶ ἐρωτητικός
                                 ἐστι φασίν εῖτα τους δύο τοὺς ἑξῆς κατὰ μίαν περικοπήν εἰσὶ μέντοι
                                 οἳ συνῆψαν τὸ <q>πῶς</q>. ἀόριστον ἐκδεχόμενοι ἐξέφυγε δάν πως ὁ
@@ -904,13 +905,13 @@
                         </div>
                     </div>
                     <div n="53" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἐγγύθεν ὡς οἱ ἐπῶρσε,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.204-22.207</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἤτοι στικτέον εἰς τὸ <q>γοῦνα</q> καὶ ἀφ ετέρας ἀρχῆς <q>ἄλλοισιν δ'
                                     ἀνένευεν</q> ἵν' ᾗ τῶν προτέρων ὁ λόγος τοιοῦτος εὐθέως δ ἂν
                                 ἀπώλετο ὁ <persName n="urn:cite2:hmt:pers:pers172">Ἕκτωρ</persName>
@@ -927,13 +928,13 @@
                         </div>
                     </div>
                     <div n="54" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀλλ' ὅτε δὴ τὸ τέταρτον·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.208</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>σημειοῦνται τινὲς δια τὸ δοκοῦν ἄπορον εῖναι μετα μικρὸν τούτων
                                 λεγομένων, <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:22.251</ref>
@@ -943,13 +944,13 @@
                         </div>
                     </div>
                     <div n="55" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς ὁ τὸν οὐ δύνατο μάρψαι ποσί·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.208</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πῶς τάχιστος ὢν ὁ <persName n="urn:cite2:hmt:pers:pers1"
                                     >Ἀχιλλεὺς</persName> οὐ καταλαμβάνει τὸν <persName
                                     n="urn:cite2:hmt:pers:pers172">Ἕκτορα</persName> καὶ φασίν· οἱ
@@ -962,13 +963,13 @@
                         </div>
                     </div>
                     <div n="56" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἐν δ ετίθει δύο κῆρε:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.210</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἐντεῦθεν ἡ <title n="urn:cite2:hmt:citedworks:work3"
                                     >Ψυχοστασία</title>
                                 <persName n="urn:cite2:hmt:pers:pers225">Αἰσχύλου</persName>
@@ -977,13 +978,13 @@
                         </div>
                     </div>
                     <div n="57" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>νῦν δὴ νῶϊ γ’,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.216</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι <persName n="urn:cite2:hmt:pers:pers15">Ζηνόδοτος</persName>
                                 γράφει <q>νῶϊν</q>. τοῦτο δέ ἐστιν ἡμῖν ἢ ἡμῶν, ὅπερ οὐ συμφωνεῖ, τὸ
                                     δε <q>νῶϊ</q> χωρὶς τοῦ <rs type="waw">ν</rs> σημαίνει ἡμᾶς. ἠ
@@ -991,25 +992,25 @@
                         </div>
                     </div>
                     <div n="58" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>‡ ἠθεῖ’ ἠ μάλα δήσε:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.229</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι νεωτέρου προς πρεσβύτερον σεπτικῆ προσφώνησις ἐστι
                                     τοῦ <q>ἠθεῖε</q>⁑</p>
                         </div>
                     </div>
                     <div n="59" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἔστω φειδωλή.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.244-22.446</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>βραχὺ <choice>
                                     <abbr>διασταλτ</abbr>
                                     <expan>διασταλτέον</expan>
@@ -1026,13 +1027,13 @@
                         </div>
                     </div>
                     <div n="60" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς φαμένη· καὶ κερδοσύνη·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.247</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>βραχ</abbr>
                                     <expan>βραχὺ</expan>
@@ -1042,13 +1043,13 @@
                         </div>
                     </div>
                     <div n="61" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τρὶς περι αστυ.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.251</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι τὸ <q>δῖον</q> ἐδιώχθην· οὐ μάχεται δὲ τῷ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:22.208</ref>
                                     <q>ἄλλ οτε δὴ τὸ τέταρτον</q>
@@ -1057,13 +1058,13 @@
                         </div>
                     </div>
                     <div n="62" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>μάρτυροι ἔσονται·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.255</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι μάρτυροι οὐ μάρτυρες. καὶ γὰρ τὸ ἑνικὸν <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:7.76</ref>
                                     <q><persName n="urn:cite2:hmt:pers:pers8">Ζεὺς</persName> δ'
@@ -1072,36 +1073,36 @@
                         </div>
                     </div>
                     <div n="63" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἁρμονίων·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.255</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>συναρμογῶν ἀφ οὗ δηλοὶ τὸ ὁμολογιῶν καὶ συνθηκῶν⁑</p>
                         </div>
                     </div>
                     <div n="64" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>δῴῃ καμμονίην:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.257</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι καμμονίη νίκη οὐ καθολικῶς ἀλλὰ ἡ εκ καταμονῆς διὸ ἐπι τῶν
                                 μονομαχούντων καὶ πυκτευόντων τίθησιν ἐπὶ δὲ δρομέων οὐκέτι⁑</p>
                         </div>
                     </div>
                     <div n="65" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>συν ἡμοσύνας ἀγόρευε·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.261</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>δασυντέον σημαίνει δὲ τὰς συνθήκας ἀπὸ τοῦ εἰς ταὐτὸν ἐφεῖναι τὰ τῆς
                                 διανοίας παρα τὸν ἥσω οὖν ἥμων τί ἐστι καὶ ἥμονος ἡ γενική παρ ὴν τὸ
                                     <q>ἡμοσύνη</q>. οὕτως δὲ εῖχεν καὶ τὸ <cit>
@@ -1111,13 +1112,13 @@
                         </div>
                     </div>
                     <div n="66" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς οὐκ έστι λέουσιν.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.262-22.264</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αἱ ὑποστιγμαὶ <q>πιστὰ</q> <q>ἔχουσιν</q>, <q>ἀλλήλοισιν</q>. ἡ γὰρ
                                 ἀνταπόδοσις <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:22.265</ref>
@@ -1126,13 +1127,13 @@
                         </div>
                     </div>
                     <div n="67" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὄρκια ἔσσονται·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.266</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>εἰς τοῦτο ἡ διάνοια καταστρέφει ὅτι πρότερον συμβήσεται τὸν ἕτερον
                                 ἡμῶν πεσεῖν πρὶν ἠ όρκους ἡμᾶς ποιήσασθαι· ὡς τὸ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:1.29-1.30</ref>
@@ -1141,13 +1142,13 @@
                         </div>
                     </div>
                     <div n="68" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀλλά τις ἀρτιεπὴς καὶ ἐπίκλοπος·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.281</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι οὐκ ἐν ἐπαίνῳ ὁ <q>ἀρτιεπὴς</q> κατα τοὐναντίον τῷ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.212</ref>
                                     <q>ἀμετροεπῇ</q>
@@ -1158,13 +1159,13 @@
                         </div>
                     </div>
                     <div n="69" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἐπίκλοπος.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.281</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἠσκηκὼς λόγοις ἀπατᾶν·  οἱ δὲ ἐπιθυμητής. κλέπτεσθαι γὰρ τὸ
                                 ὀρέγεσθαι· <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:21.397</ref>
@@ -1176,37 +1177,37 @@
                         </div>
                     </div>
                     <div n="70" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>νῦν αὖτ' ἐμὸν ἔγχος ἄλευαι</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.285</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προστακτικῶς ἀναγινώσκειν δεῖ διὸ τρίτη ἀπο τέλους ἡ ὀξεῖα· εἰρωνεία
                                 δὲ τοῦτο φησὶν⁑</p>
                         </div>
                     </div>
                     <div n="71" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>χάλκεον ὡς δή μιν σῷ·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.286</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>στικτέον μετα τὸ <q>χάλκεον</q> τὸ γὰρ <q><rs type="waw">ὡς</rs></q>
                                 ἀντι τοῦ <q>εἴθε</q> διόπερ ἀπ ἅλλης ἀρχῆς ἀναγνωστέον.⁑</p>
                         </div>
                     </div>
                     <div n="72" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>νῦν δὲ δὴ ἐγγύθι μοι:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.300-22.301</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> βραχὺ <choice>
                                     <abbr>διασταλτ</abbr>
                                     <expan>διασταλτέον</expan>
@@ -1215,25 +1216,25 @@
                                 εαυτὸ προενεκτέον λείποντος τοῦ ἐστι⁑</p>
                         </div>
                     </div>
-                    <div n="72" type="scholion">
-                        <div type="lemma">
+                    <div n="72a" type="scholion">
+                        <div n="lemma">
                             <p>μη μὰν ἀσπουδί γε:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.304</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι <q>ἀσπουδὶ</q> χωρὶς μόγου καὶ καπαθιας⁑</p>
                         </div>
                     </div>
-                    <div n="72" type="scholion">
-                        <div type="lemma">
+                    <div n="72b" type="scholion">
+                        <div n="lemma">
                             <p>οἴμησεν δ' αλεὶς,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.308</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι κακεῖ γραπτέον <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:21.252</ref>
                                     <q>αἰετοῦ οἴματ' ἔχων</q>
@@ -1245,14 +1246,14 @@
                                 </cit>⁑</p>
                         </div>
                     </div>
-                    <div n="72" type="scholion">
-                        <div type="lemma">
+                    <div n="72c" type="scholion">
+                        <div n="lemma">
                             <p>ἕσπερος ὃς κάλλιστος.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.318</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι νῦν τὸν ἕσπερον κάλλιστον, ἐν άλλοις δὲ τὸν ἑωσφόρον φαάντατον·
                                 καὶ οὐ δεῖ ὡς μαχόμενον λαμβανειν ἕτερον δὲ τὸν ἕσπερον ὡς ἂν
                                 παλαιὸς. οἱ δὲ τοῦ <choice>
@@ -1262,13 +1263,13 @@
                         </div>
                     </div>
                     <div n="73" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς αἰχμῆς ἀπέλαμπ'</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.319</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἐπι τῶν αἰχμὰς ἐχόντων <q>εὐήκεος</q> λέγει καὶ <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:16.768</ref>
                                     <q>τανυήκεος</q>
@@ -1280,13 +1281,13 @@
                         </div>
                     </div>
                     <div n="74" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τοῦ δὲ καὶ ἄλλο τόσον·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.322</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι οὕτως εἴωθε λέγειν <q>ἄλλο τόσον</q>. ἐπειδὰν ἀπολείπῃ τί τοῦ
                                 ὄλου μικρὸν τέλος, <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:18.378</ref>
@@ -1296,26 +1297,26 @@
                         </div>
                     </div>
                     <div n="75" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>φαίνετο δ' ᾗ κληῗδες.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.324</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἔν τισι τῶν ὑπομνημάτων <q>φαῖνεν δὲ κληῗδες</q> ἵν' ᾖ ἐπι τῶν
                                 τευχέων τὰ τεύχῃ οὐκ εκάλυπτε τὴν λαυκανίην. ἀλλ εποίει
                                 φαίνεσθαι⁑</p>
                         </div>
                     </div>
                     <div n="76" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὄφρα τί μιν <w>προ<add place="supralinear">τι</add>ειποι</w>.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.329</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀθετεῖται ὅτι γελοῖος, εἰ ἡ μελία ἐπετήδευσεν μὴ ἀποτεμεῖν τὸν
                                 ἀσφάραγον ἵνα προσφωνήσῃ τὸν <persName n="urn:cite2:hmt:pers:pers1"
                                     >Ἀχιλλέα</persName>· ἀπολογούμενοι δε φασιν ὅτι τὸ ἐκ τύχης
@@ -1326,13 +1327,13 @@
                         </div>
                     </div>
                     <div n="77" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>σῶμα δὲ οἴκαδ' ἐμὸν </p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.342</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -1341,13 +1342,13 @@
                         </div>
                     </div>
                     <div n="78" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>Τρῶες καὶ τρώων άλοχοι</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.343</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -1359,37 +1360,37 @@
                         </div>
                     </div>
                     <div n="79" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>κρεᾰ ἔδμεναι</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.347</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>κατα συστολὴν τὸ <rs type="waw">α</rs> ἀνεγνώσθη ὥσπερ καὶ ἐν τῇ
                                 συνηθείᾳ ⁑</p>
                         </div>
                     </div>
                     <div n="80" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς οὐκ έσθ' ὡς σῆς γε·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.348</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>βέλτιον προ <expan><abbr>τούτ</abbr><expan>τούτου</expan></expan>
                                 στίζειν, καὶ τὸ <q>ὡς</q>, εἰς τὸ ούτω μεταλαμβάνειν⁑</p>
                         </div>
                     </div>
                     <div n="81" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>οὐδ' εἴ κεν δὲ κάκιςτε·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.349</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>σημειοῦνται τινὲς προς τὴν <choice>
                                     <abbr>εἰκοσινήριτ</abbr>
                                     <expan>εἰκοσινήριτα</expan>
@@ -1400,13 +1401,13 @@
                         </div>
                     </div>
                     <div n="82" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>οὐδ' εἴ κεν δὲ κάκιςτε  </p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.348-22.352</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἤτοι ἀπο τούτων ἀρκτέον ἵνα ὑποστίζωμεν <q>ἄγοντες</q>, <q>καὶ
                                     ἀλλὰ</q>, τῆς ἀνταποδόσεως οὔσης <q>οὐδ' ὡς σέ γε πότνια <choice>
                                         <abbr>μηρ</abbr>
@@ -1417,26 +1418,26 @@
                         </div>
                     </div>
                     <div n="83" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>εἴκοσινήριτ’·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.349</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὑφ ἓν ἀναγνωστέον ὡς <q>εἰκοσάβοια</q> ἔσται δὲ προς είκοσιν ἐρίζοντα
                                 ὅ ἐστιν ἐξισούμενα· φυλακτέον δὲ ὅτι ὁ είκοσιν ἀριθμὸς εἰς <rs
                                     type="waw">ν</rs> καταλήξας συνετέθη⁑</p>
                         </div>
                     </div>
                     <div n="84" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>οὐδ' εἴ κεν σ' αὐτὸν.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.351</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ὑπερβολικῶς λέγει· ὁ δὲ <persName n="urn:cite2:hmt:pers:pers225"><choice>
                                         <abbr>Αἰσχυ</abbr>
                                         <expan>Αἰσχύλος</expan>
@@ -1447,13 +1448,13 @@
                         </div>
                     </div>
                     <div n="85" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ῆ σ' εὐ γινώσκων.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.356</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὸν <rs type="waw">η</rs> σύνδεσμον περισπαστέον· ἔστι γὰρ <choice>
                                     <sic>βεβαιωτικὸς</sic>
                                     <corr>βεβαιωτικός</corr>
@@ -1464,13 +1465,13 @@
                         </div>
                     </div>
                     <div n="86" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ψυχὴ δ' ἐκ ῥεθέων πταμένη·  </p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.362</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>σημειοῦνταί τινὲς ὅτι μόνη κάτεισιν εἰς <placeName
                                     n="urn:cite2:hmt:place:place67">Ἅδου</placeName> ἡ ψυχὴ, καὶ οὐ
                                 δεῖται τῆς <persName n="urn:cite2:hmt:pers:pers104">Ἑρμοῦ</persName>
@@ -1478,26 +1479,26 @@
                         </div>
                     </div>
                     <div n="87" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡς ἄρα τις εἴπεσκε</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.375</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι οὐ πάντως πρότερον ἔλεγον ἀλλ ἅμα παίοντες ἐπεφώνουν ὥστ' εἶναι
                                 ὡς ἄρα τις ἔλεγε καὶ οὐτήσασκε ⁑</p>
                         </div>
                     </div>
                     <div n="88" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὦ φίλοι <rs type="ethnic" n="urn:cite2:hmt:place:place96"
                                     >Ἀργείων</rs> ἡγήτορες, </p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.378</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι <persName n="urn:cite2:hmt:pers:pers15"><choice>
                                         <abbr>Ζηνοδοτ</abbr>
                                         <expan>Ζηνόδοτος</expan>
@@ -1515,16 +1516,16 @@
                         </div>
                     </div>
                     <div n="89" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἐπειδὴ τὸνδ' <choice>
                                     <sic>ἂρδρα</sic>
                                     <corr>ἄνδρα</corr>
                                 </choice></p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.379-22.384</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> ὅτι τὴν αιτίαν προτέταχεν <q>ἐπειδὴ τόνδ' ἄνδρα θεοὶ</q> ἔδει δὲ
                                 οὕτως <q>εἰ δ' ἄγετ' ἀμφι <choice>
                                         <abbr>πο</abbr>
@@ -1547,13 +1548,13 @@
                         </div>
                     </div>
                     <div n="90" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ᾐράμεθα μέγα κῦδος</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.393</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀθετοῦνται στίχοι δύο ὅτι παρα τὴν ἀξίαν <persName
                                     n="urn:cite2:hmt:pers:pers1">Ἀχιλλεως</persName> οἱ λόγοι. αὐτὸς
                                 γὰρ ἦν ὁ λέγων <cit>
@@ -1566,25 +1567,25 @@
                         </div>
                     </div>
                     <div n="91" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀμφοτέρων μετ' όπισθε ποδῶν</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.396</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι νῦν τένοντας εἶπεν τὰ διατεταμένα τῶν σφυρῶν νεῦρα ὄπισθεν τῆς
                                 κνήμης</p>
                         </div>
                     </div>
                     <div n="92" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἐκ δίφροιο δ' ἔδησε,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.398</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>δια τί <persName n="urn:cite2:hmt:pers:pers1">Ἀχιλλεύς</persName>
                                 θανόντα σύρει τὸν <persName n="urn:cite2:hmt:pers:pers172"
                                     >Ἕκτορα</persName> καὶ λέγομεν οὐ δι' ωμότητα ὅς γε καὶ
@@ -1611,13 +1612,13 @@
                         </div>
                     </div>
                     <div n="93" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὡσει άπασα</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.410</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τινὲς περιέργως δια μόνου τοῦ <rs type="waw">ϊ</rs> γράφοντες
                                 ἀποδιδόασιν ὡς αυτῆ ἅπασα. οὐκ οῖδεν δὲ ὁ ποιητὴς οὔτε τὴν <rs
                                     type="waw">ϊ</rs> οὔτε τὴν σφείς ἔστιν οὖν ὅμοιον τῷ ἐν <title>
@@ -1636,13 +1637,13 @@
                         </div>
                     </div>
                     <div n="94" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>‡ σμύχοιτο:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.411</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> καταφλέγοιτο· ὁ δὲ λόγος. τοιοῦτος δέ φησι θρῆνος διεγήγερτο ὡσπερεὶ
                                 τῆς <placeName n="urn:cite2:hmt:place:place6">Ἰλίου</placeName>
                                 πάσης ὑπο πυρὸς <choice>
@@ -1652,13 +1653,13 @@
                         </div>
                     </div>
                     <div n="95" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>κηδόμενοι περ, </p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.416</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>οὕτως πληθυντικὼς αἱ <persName n="urn:cite2:hmt:pers:pers16"><choice>
                                         <abbr>Ἀρισταρχ</abbr>
                                         <expan>Ἀριστάρχου</expan>
@@ -1666,25 +1667,25 @@
                         </div>
                     </div>
                     <div n="96" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>δυσάμμορος·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.428</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> τὸ <q>δυσάμμορος</q> ἐπίθετον ἑκατέρωθι δύναται προσδίδοσθαι βέλτιον
                                 δὲ ἴσως τοῖς ἑξῆς⁑</p>
                         </div>
                     </div>
                     <div n="97" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τέκνον ἐγω δειλὴ.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.431</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> στικτέον καὶ μετὰ τὸ <q>τέκνον</q> καὶ μετα τὸ <q>δειλὴ</q> βέλτιον
                                 δέ ἐστι συνάπτειν μετὰ τὸ τέκνον <choice>
                                     <abbr>παντ</abbr>
@@ -1693,36 +1694,36 @@
                         </div>
                     </div>
                     <div n="98" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>εὐχωλὴ κατα άστυ πελέσκετο.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.433</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>καθ εκάστην οὖν ἡμέραν φησὶν ὡς θεῷ σωτῆρι σοι ηὔχοντο· καὶ ὁ ζῶν
                                 ἰσόθεος. νῦν οὐδὲ νεκρὸς εὐτυχής ⁑</p>
                         </div>
                     </div>
                     <div n="99" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>κατα πτόλιν οἵ σε θέον·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.434</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> ἐμοὶ μέν φησι δόξα τοῖς δε πολίταις ὄφελος⁑</p>
                         </div>
                     </div>
                     <div n="100" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τέκνον ἐγὼ δειλὴ τί νυ βείομαι·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.431</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> ἀντι τοῦ ἐς τί ἔτι βιώσω ὅ ἑστι ζήσω· πῶς <persName
                                     n="urn:cite2:hmt:pers:pers535">Ἑκάβη</persName> μὲν οὐ πίπτει,
                                     <persName n="urn:cite2:hmt:pers:pers171">Ἀνδρομάχῃ</persName>
@@ -1733,13 +1734,13 @@
                         </div>
                     </div>
                     <div n="101" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀλλ' ἥ γ' ἱ̈στὸν ὕφαινε.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.440</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀσυμπαθὴς ἡ <persName n="urn:cite2:hmt:pers:pers171"
                                     >Ἀνδρομάχῃ</persName> ἐν τοσούτω θορύβῳ κατ οῖκον ἀτρεμοῦσα καὶ
                                 ταῦτα τὴν <persName n="urn:cite2:hmt:pers:pers1">Ἀχιλλέως</persName>
@@ -1753,35 +1754,35 @@
                         </div>
                     </div>
                     <div n="102" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>θρόνα·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.441</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὰ βαπτὰ ἔρια κατα μετουσίαν ὁμοίως τοῖς ποιοῦσι τὰ ποιούμενα⁑</p>
                         </div>
                     </div>
                     <div n="103" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ποικίλ' έπασσεν·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.441</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πάσσειν Κύπριοι τὸ ποικίλλειν ἀφ οῦ παστὸς ὁ θάλαμος⁑</p>
                         </div>
                     </div>
                     <div n="104" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>κωκυτοῦ δ' ήκουσεν.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.447</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀντι τοῦ <q>θρήνου ήκουσεν</q> ἐζήτηται δὲ πῶς <choice>
                                     <abbr>τοσοῦτου</abbr>
                                     <expan>τοσούτου</expan>
@@ -1792,13 +1793,13 @@
                         </div>
                     </div>
                     <div n="105" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἡδ' αῦτις δμωῇσι</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.445-22.449</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αὔξει τὸ <choice>
                                     <abbr>πάθ</abbr>
                                     <expan>πάθος</expan>
@@ -1810,13 +1811,13 @@
                         </div>
                     </div>
                     <div n="106" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τῆλε δ' ἀπο κρατὸς.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.468</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι βελτιον ἂν ἢν ἡ διάθεσις εἰ μὴ ἐκπεπληγμένη τὰ ἐπι τῆς κεφαλῆς
                                 ἀπέβαλεν ἀλλ' ὕστερον ὅτε ἀναπινύγκεταί τε καὶ ἑαυτὴν ἀναλαμβάνει
                                 ἵν' ᾖ οὕτως. <cit>
@@ -1829,25 +1830,25 @@
                         </div>
                     </div>
                     <div n="107" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>κρήδεμνόν θ’.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.470</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐκ πλήρους ὁ <rs type="waw">τε</rs> σύνδεσμος· <q>κρήδεμνόν τε</q>
                                 οὕτως ἅπασαι⁑</p>
                         </div>
                     </div>
                     <div n="108" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀμφι δέ μιν γαλόῳ τε·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.473</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προ τέλους ἡ ὀξεῖα. αἱ γὰρ εἰς <rs type="waw">ω</rs> λήγουσαι δοτικαὶ <choice>
                                     <sic>βαρύνονοι</sic>
                                     <corr>βαρύτονοι</corr>
@@ -1858,25 +1859,25 @@
                         </div>
                     </div>
                     <div n="109" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>γαλόῳ</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.473</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>οὕτως τῇ γυναικὶ αἱ τοῦ ἀνδρὸς ἀδελφαι· εἰνάτερες δὲ αἱ τῶν ἀδελφῶν
                                 γυναῖκες προς ἀλλήλας⁑</p>
                         </div>
                     </div>
                     <div n="110" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>εἰνάτερες:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.473</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὡς <persName n="urn:cite2:hmt:pers:pers210">Δημήτερες</persName>.
                                 οὕτως πάντες καὶ τὰ τῆς ἀναλογίας ἐπικρατεῖ <choice>
                                     <abbr>ουτ</abbr>
@@ -1889,13 +1890,13 @@
                         </div>
                     </div>
                     <div n="111" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἄμπυξ·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.469-22.470</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀρσενικῶς τὸ διάδημα πρὸς ἀνάδεσιν τῶν κομῶν ἃς περιστέλλοντες οἱ
                                 παλαιοὶ ὑπο τοῦτων παρήγοντο καὶ νῦν ἀμπυκίζειν τὸ τὰς ἐμπροσθίους
                                 τρίχας ἀναδείσθαι· καὶ <cit>
@@ -1911,25 +1912,25 @@
                         </div>
                     </div>
                     <div n="112" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>αἵ ἑ μετα σφίσιν:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.474</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὀρθοτονητέον τὴν <q>σφίσιν</q> εἰς γὰρ σύνθετον ἡ μετάληψις· ἔφαμεν
                                 δὲ ὡς οὐναστρέφει τὰ τοῦ λόγου⁑</p>
                         </div>
                     </div>
                     <div n="113" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἡ δ' ἐπεὶ οῦν ἄμπνυτο.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.475</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>δια τοῦ <rs type="waw">ε</rs> <persName n="urn:cite2:hmt:pers:pers16"
                                     >Ἀρίσταρχος</persName>
                                 <q>ἔμπνυτο</q> ἔμπνους ἐγένετο· καὶ ἐπι τοῦ <persName
@@ -1941,14 +1942,14 @@
                         </div>
                     </div>
                     <div n="114" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p><persName n="urn:cite2:hmt:pers:pers172">Ἕκτορ</persName> ἐγὼ
                                 δύστηνος·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.477</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>στικτέον μετα τὸ <q><persName n="urn:cite2:hmt:pers:pers172"><choice>
                                             <sic>Ἕκτωρ</sic>
                                             <corr>Ἕκτορ</corr>
@@ -1956,13 +1957,13 @@
                         </div>
                     </div>
                     <div n="115" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>δύσμορος αἱνόμορον:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.481</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>οὕτως <q>αἰνόμορον</q>· ὥστε τὸν μὲν <persName
                                     n="urn:cite2:hmt:pers:pers170">Ἠετίωνα</persName> δύσμορον
                                 λέγεσθαι αἰνόμορον δὲ τὴν <persName n="urn:cite2:hmt:pers:pers171"
@@ -1970,38 +1971,38 @@
                         </div>
                     </div>
                     <div n="116" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>χήρην ἐν μεγάροισι</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.484</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>βραχὺ διασταλτέον μετα τὸ <q>αύτως</q> γελοῖοι γὰρ οἱ τοῖς ἑξῆς αὐτῷ
                                 συνάπτοντες⁑</p>
                         </div>
                     </div>
                     <div n="117" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>αὕτως ὃν τέκομεν.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.484</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἵν' ᾖ ὃν μάτην ἐγεννήσαμεν· τοῖς δὲ ἄνω προσδιδόμενον σημαίνει τὸ
                                     <q>ὡσαύτως</q>. οἷον νηπιός εστιν ὡς καὶ πρότερον οὐδέπω τέλειός
                                 ἐστιν⁑</p>
                         </div>
                     </div>
                     <div n="118" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>‡ ἦν γὰρ δὴ πόλεμόν γε φύγῃ:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.487-22.499</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀπο τούτου ἕως τοῦ <q>δακρυόεις δέ τ' ἄνεισι</q> ἀθετοῦνται στίχοι
                                 δεκατρεῖς. ὅτι ἀδιάθετοι. τὸ γὰρ περιέρχεσθαι τὸν <persName
                                     n="urn:cite2:hmt:pers:pers726">Ἄστυἄνακτα</persName> καὶ τὸν
@@ -2041,13 +2042,13 @@
                         </div>
                     </div>
                     <div n="119" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ῆμαρ δ' ὀρφανικὸν,</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.490</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὸ τῆς ὀρφανιας ῆμαρ τῶν ἀμφιλικιωτῶν ἔρημον τίθησι τὸν παῖδα· ἔνιοι
                                 δὲ <w>διεσταλμέν<add place="supralinear">ως</add></w>
                                 <q>πᾶν</q> εἶτα <q>ἀφήλικα</q> ἵν ἦ πᾶν ῆμαρ τὸν ὀρφανικὸν παῖδα
@@ -2055,26 +2056,26 @@
                         </div>
                     </div>
                     <div n="120" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>πάντα δ' ὑπεμνήμυκε:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.491</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πάντα αὐτῷ καταπέπτωκε κέκλιται παρα τὸ <q>ἠμύω</q> ἐμήμυκε καὶ
                                 περισσὸν τὸ <rs type="waw">ν</rs>. ἠ πάντα αὐτὸν εἰς ἀνάμνησιν ἄγει
                                 τοῦ δυσφορεῖν⁑</p>
                         </div>
                     </div>
                     <div n="121" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ὑπεμνήμυκε.</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.491</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>καταμέμυκε κατεστύγνακε. κάτω βλέπει· ὁ δὲ <persName
                                     n="urn:cite2:hmt:pers:pers16">Ἀρίσταρχος</persName> ἐπι τοῦ
                                 κατανένευκε ἐκδέχεται· οἱ δὲ ἀντι τοῦ εἰς ἀνάμνησιν ἔρχεται τοῦ
@@ -2082,13 +2083,13 @@
                         </div>
                     </div>
                     <div n="122" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>δευόμενος δέ τ' ἄνεισι·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.492</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀντι τοῦ πρὸς πατρὸς ἑταίρους ὡς <cit>
                                     <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:7.312</ref>
                                     <q>εἰς <persName n="urn:cite2:hmt:pers:pers22"
@@ -2097,16 +2098,16 @@
                         </div>
                     </div>
                     <div n="123" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>τῶν δ' <choice>
                                     <abbr>ἐλεησάντω</abbr>
                                     <expan>ἐλεησάντων</expan>
                                 </choice> κοτύλην τίς:</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.494</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι εἶδος ποτηρίου ἡ κοτύλη καὶ λέγεται ἀρσενικῶς κότυλος καὶ ἐν
                                         <title><ref type="urn" n="urn:cite2:hmt:citedworks:work1"><choice>
                                             <abbr>οδ</abbr>
@@ -2119,25 +2120,25 @@
                         </div>
                     </div>
                     <div n="124" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>νηπιαχεύων·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.502</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>παραγωγόν ἐστι τὸ ῥῆμα παρα τὸ νηπίαχος νηπιαχέυω ὡς ἵππος
                                 ἱππεύω⁑</p>
                         </div>
                     </div>
                     <div n="125" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p>ἀγκαλίδεσσι·</p>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.503</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἔχουσι γὰρ ἐν ταῖς ἀγκάλαις στρωμνὴν σύμμετρον. ἠ ὡς τῆς τροφοῦ
                                 συγκυμωμενης αὐτῷ· ἐμείωσε δὲ τὴν λέξιν ὁμοιως τῆ <choice>
                                     <abbr>βραχύτητ</abbr>
@@ -2146,17 +2147,18 @@
                         </div>
                     </div>
                 </body>
-            </text>
+          </text>
+
             <text n="msAext">
                 <body>
                     <div n="1" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.31</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ση</abbr>
                                     <expan>σῆμα</expan>
@@ -2164,39 +2166,40 @@
                         </div>
                     </div>
                     <div n="2" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.75</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αἰδεο</p>
                         </div>
                     </div>
                     <div n="3" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.380</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἔρδεσκεν</p>
                         </div>
                     </div>
                 </body>
             </text>
+
             <text n="msAint">
                 <body>
                     <div n="1" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.27</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -2208,13 +2211,13 @@
                         </div>
                     </div>
                     <div n="2" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.36</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -2227,24 +2230,24 @@
                         </div>
                     </div>
                     <div n="3" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.40</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πρὸς τὸ σχῆμα·</p>
                         </div>
                     </div>
                     <div n="4" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.48</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -2256,24 +2259,24 @@
                         </div>
                     </div>
                     <div n="5" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.51</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αἱ ἀπο τ<w><unclear>ῶν</unclear></w> πόλεων παιδὶ φίλῳ⁑⁑</p>
                         </div>
                     </div>
                     <div n="6" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.55</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πρὸς τὸ <choice>
                                     <abbr>σχημ</abbr>
                                     <expan>σχῆμα</expan>
@@ -2294,35 +2297,35 @@
                         </div>
                     </div>
                     <div n="7" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.60</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τῶ τέλει τῇ εξόδω⁑</p>
                         </div>
                     </div>
                     <div n="8" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.68</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν ἀλλω ἕλοιτο⁑</p>
                         </div>
                     </div>
                     <div n="9" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.83</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -2336,24 +2339,24 @@
                         </div>
                     </div>
                     <div n="10" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.109</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>διχῶς καὶ κατακτειναντι⁑</p>
                         </div>
                     </div>
                     <div n="11" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.118</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>γρ</abbr>
                                     <expan>γράφεται</expan>
@@ -2361,13 +2364,13 @@
                         </div>
                     </div>
                     <div n="12" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.119</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>γρ</abbr>
                                     <expan>γράφεται</expan>
@@ -2375,24 +2378,24 @@
                         </div>
                     </div>
                     <div n="13" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.128</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πρὸς τὴν ἐπανάληψιν τὸ πυκνῶς ἐν Ἰλιάδη</p>
                         </div>
                     </div>
                     <div n="14" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.153</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι πρόθεσις ήλλακται καὶ πτῶσις <choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -2401,13 +2404,13 @@
                         </div>
                     </div>
                     <div n="15" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.190</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι <choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -2415,24 +2418,24 @@
                         </div>
                     </div>
                     <div n="16" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.194</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἃς άνω Σκαιὰς νῦν Δαρδανίους⁑</p>
                         </div>
                     </div>
                     <div n="17" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.198</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -2440,24 +2443,24 @@
                         </div>
                     </div>
                     <div n="18" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.201</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν ἄλλω <q>ὡς ὁ τὸν</q>⁑</p>
                         </div>
                     </div>
                     <div n="19" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.202</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>αρισταρχ</abbr>
                                     <expan>Ἀρίσταρχος</expan>
@@ -2465,35 +2468,35 @@
                         </div>
                     </div>
                     <div n="20" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.247</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τινὲς πληθυντικῶς κερδοσύνῃς⁑</p>
                         </div>
                     </div>
                     <div n="21" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.250</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι σαφῶς φεύξομαι⁑</p>
                         </div>
                     </div>
                     <div n="22" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.251</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>γρ</abbr>
                                     <expan>γράφεται</expan>
@@ -2502,46 +2505,46 @@
                         </div>
                     </div>
                     <div n="23" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.254</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἐπιμαρτυρώμεθα</p>
                         </div>
                     </div>
                     <div n="24" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.287</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν αλλῶ <q>καί σφιν</q></p>
                         </div>
                     </div>
                     <div n="25" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.315</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αἱ πλείους <q>δεῖναι δὲ</q></p>
                         </div>
                     </div>
                     <div n="26" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.344</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν αλλῷ τὸν δ' <choice>
                                     <abbr>απαμειβομε</abbr>
                                     <expan>ἀπαμειβομεμενος</expan>
@@ -2549,24 +2552,24 @@
                         </div>
                     </div>
                     <div n="27" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.403</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν αλλω <q>τερπικεραυνος</q>⁑</p>
                         </div>
                     </div>
                     <div n="28" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.411</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -2584,35 +2587,35 @@
                         </div>
                     </div>
                     <div n="29" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.429</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>γράφεται <q>γέροντες</q> ⁑</p>
                         </div>
                     </div>
                     <div n="30" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.445</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>καθ' εαυτο τὸ νιπίη</p>
                         </div>
                     </div>
                     <div n="31" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.469</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>παρα τοῖς νεωτέροις <choice>
                                     <abbr>ἐκτείνετ</abbr>
                                     <expan>ἐκτείνεται</expan>
@@ -2623,24 +2626,24 @@
                         </div>
                     </div>
                     <div n="32" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.473</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>γράφεται <q>άλις ῆσαν</q>⁑</p>
                         </div>
                     </div>
                     <div n="33" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.480</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -2656,75 +2659,70 @@
                         </div>
                     </div>
                     <div n="34" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.487</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>γραφεται ἢν περ γὰρ</p>
                         </div>
                     </div>
                     <div n="35" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.496</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
                                 </choice> ἀπαξ <q>αμφιθαλής</q>⁑</p>
                         </div>
                     </div>
-                    <!-- <div n="" type="scholion">
-                        <div type="lemma">
-                            <p/>
-                        </div>
-                        <div type="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.</p>
-                        </div>
-                        <div type="comment">
-                            <p/>
-                        </div>
-                    </div> -->
+
+
+
                 </body>
             </text>
+
+
+
             <text n="msAil">
                 <body>
                     <div n="1" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.4@ἴ̈σαν</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>παρ ἐγένοντο</p>
                         </div>
                     </div>
                     <div n="2" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.26@ὀπώρῃς ἐῖσιν</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αν εισιν ἀνατέλλει</p>
                         </div>
                     </div>
                     <div n="3" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.43@πραπίδων</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>εντὸς έσομαι <choice>
                                     <abbr>λυπ</abbr>
                                     <expan>λυπόμενος</expan>
@@ -2732,46 +2730,46 @@
                         </div>
                     </div>
                     <div n="4" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.44@εῦνιν</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ερημον χηρον</p>
                         </div>
                     </div>
                     <div n="5" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.45@περνὰς </p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πιπρασων</p>
                         </div>
                     </div>
                     <div n="6" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.58@ἀμερθῇς</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>στερηθεῖς</p>
                         </div>
                     </div>
                     <div n="7" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.59@ἔμε</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><expan><choice>
                                         <abbr>ουτ</abbr>
                                         <expan>οὕτως</expan>
@@ -2784,167 +2782,167 @@
                         </div>
                     </div>
                     <div n="8" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.59@φρονέοντ’</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>καλῶς οι παραινοῦντα</p>
                         </div>
                     </div>
                     <div n="9" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.66@πύματον</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τελευταῖον</p>
                         </div>
                     </div>
                     <div n="10" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.67@ὠμησταὶ</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὡμοφάγοι</p>
                         </div>
                     </div>
                     <div n="11" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.69@τραπεζῆας </p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τους παρεστῶτας τῃ τραπεζη</p>
                         </div>
                     </div>
                     <div n="12" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.70@ἀλύσσοντες</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p> αδημονοῦντες</p>
                         </div>
                     </div>
                     <div n="13" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.83@λαθικηδέα</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὸν λήθην ἐμποιοῦντα τοῖς παισὶ τῶν κακῶν ἁπαντα</p>
                         </div>
                     </div>
                     <div n="14" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.93@ὀρέστερος</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν όρει διατρίβων</p>
                         </div>
                     </div>
                     <div n="15" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.102@ὤρετο</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὡρμησεν</p>
                         </div>
                     </div>
                     <div n="16" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.104@ἀτασθαλίῃσιν</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>φρενοβλαβίαις</p>
                         </div>
                     </div>
                     <div n="17" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.113@ἀμύμονος </p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τῆ πατρίδι δηλον ἐστιν</p>
                         </div>
                     </div>
                     <div n="18" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.123@ἵκωμαι</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ικετεύσω</p>
                         </div>
                     </div>
                     <div n="19" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.132@Ἐνυαλίῳ</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι τῷ <persName n="urn:cite2:hmt:pers:pers83">Ἄρεϊ</persName></p>
                         </div>
                     </div>
                     <div n="20" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.132@Ἐνυαλίῳ</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τῷ <persName n="urn:cite2:hmt:pers:pers83">Ἄρηι</persName></p>
                         </div>
                     </div>
                     <div n="21" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.149@λιαρω</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>θερμῶ</p>
                         </div>
                     </div>
                     <div n="22" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.151@εἰκῦια χαλάζῃ</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -2952,178 +2950,178 @@
                         </div>
                     </div>
                     <div n="23" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.153@πλυνοὶ</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>εν οῖς πλύνουσι</p>
                         </div>
                     </div>
                     <div n="24" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.159@οὐδε βοείην</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>οὐ θυμα οῦ βύρσαν</p>
                         </div>
                     </div>
                     <div n="25" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.162@τέρματα</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τάς καμπτήρας</p>
                         </div>
                     </div>
                     <div n="26" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.163@τρωχῶσι</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τρέχωσι</p>
                         </div>
                     </div>
                     <div n="27" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.197@παραφθὰς </p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προλαβών</p>
                         </div>
                     </div>
                     <div n="28" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.244@φειδωλὴ</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>φειδω</p>
                         </div>
                     </div>
                     <div n="29" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.247@κερδοσσύνῃ</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πονηρίᾳ απάτη</p>
                         </div>
                     </div>
                     <div n="30" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.251@δίον</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>εδιώχθην</p>
                         </div>
                     </div>
                     <div n="31" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.253@ἁλοίην</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ληφθείην</p>
                         </div>
                     </div>
                     <div n="32" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.255@ἁρμονιάων</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>συνθηκῶν</p>
                         </div>
                     </div>
                     <div n="33" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.261@ἄλαστε</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αλιτήριε</p>
                         </div>
                     </div>
                     <div n="34" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.301@οὐδ’ ἀλέη</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ουκ εστι φησιν ἐκφυγεῖν⁑</p>
                         </div>
                     </div>
                     <div n="35" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.310@ἀμαλήν</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἁπαλήν τρυφεράν</p>
                         </div>
                     </div>
                     <div n="36" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.328@ἀσφάραγον</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὴν φάρυγγα·</p>
                         </div>
                     </div>
                     <div n="37" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.332@οπίζεο</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὑφορω</p>
                         </div>
                     </div>
                     <div n="38" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.351@ἐρύσασθαι</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -3131,36 +3129,36 @@
                         </div>
                     </div>
                     <div n="39" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.358@μή τοί, τι θεῶν μήνιμα
                                 γένωμαι </p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>μή πως τῆς ἐκ θεῶν σοι βλάβης αίτιος καταστῶ⁑</p>
                         </div>
                     </div>
                     <div n="40" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.370@θηήσαντο</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>εθαύμασαν</p>
                         </div>
                     </div>
                     <div n="41" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.400ἄκοντε πετέσθην</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -3168,13 +3166,13 @@
                         </div>
                     </div>
                     <div n="42" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.4410@θρόνα ποικίλ’ ἔπασσεν</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ανθ</abbr>
                                     <expan>ἄνθη</expan>
@@ -3182,24 +3180,24 @@
                         </div>
                     </div>
                     <div n="43" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.490@παναφήλικα</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>πάντων έρημον τῶν ηλικιωτῶν</p>
                         </div>
                     </div>
                     <div n="44" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.491@ὑπεμνήμυκε</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>κατεστύγηακε κάτω <choice>
                                     <abbr>βλεπ</abbr>
                                     <expan>βλεπει</expan>
@@ -3207,13 +3205,13 @@
                         </div>
                     </div>
                     <div n="45" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.492@δευόμενος</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ενδεὴς <choice>
                                     <sic>ὼν</sic>
                                     <corr>ών</corr>
@@ -3222,50 +3220,51 @@
                     </div>
 
                     <div n="46" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.495@ἐδίην’</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>εβρεξε</p>
                         </div>
                     </div>
                     <div n="47" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.495@ὑπερώην</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὸν οὐρανίσκον</p>
                         </div>
                     </div>
                 </body>
             </text>
+
             <text n="msAim">
                 <body>
                     <div n="1" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.6</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προς τας σκαιάς⁑</p>
                         </div>
                     </div>
                     <div n="2" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.20</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀπ' ἀλλης ἀρχῆς τοῦτο <choice>
                                     <abbr>ἀναγνωστ</abbr>
                                     <expan>ἀναγνωστέον</expan>
@@ -3273,13 +3272,13 @@
                         </div>
                     </div>
                     <div n="3" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.23</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -3287,13 +3286,13 @@
                         </div>
                     </div>
                     <div n="4" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.29</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3301,13 +3300,13 @@
                         </div>
                     </div>
                     <div n="5" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.42</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>
                                 <choice>
                                     <abbr>Αρισταρχ</abbr>
@@ -3316,13 +3315,13 @@
                         </div>
                     </div>
                     <div n="6" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.50</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>εν αλλω <choice>
                                     <abbr>απλύσομεν</abbr>
                                     <expan>ἀπολύσομεν</expan>
@@ -3330,13 +3329,13 @@
                         </div>
                     </div>
                     <div n="7" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.59</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>σημειωτεον <choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3351,25 +3350,25 @@
                         </div>
                     </div>
                     <div n="8" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.62</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προαναφωνεῖ τὴν <rs type="ethnic" n="urn:cite2:hmt:place:place6"
                                     >Ἰλίου</rs> ἄλωσιν⁑</p>
                         </div>
                     </div>
                     <div n="9" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.69</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><persName n="urn:cite2:hmt:pers:pers16"><choice>
                                         <abbr>Ἀρισταρχ</abbr>
                                         <expan>Ἀρίσταρχος</expan>
@@ -3377,13 +3376,13 @@
                         </div>
                     </div>
                     <div n="10" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.73</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -3399,24 +3398,24 @@
                         </div>
                     </div>
                     <div n="11" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.75</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τὰ αιδοῖα⁑</p>
                         </div>
                     </div>
                     <div n="12" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.85</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὔτως</expan>
@@ -3428,35 +3427,35 @@
                         </div>
                     </div>
                     <div n="13" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.87</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>γράφεται φίλον θάλος·⁑</p>
                         </div>
                     </div>
                     <div n="14" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.108</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αἱ κατα ἄνδρα πολὺ κάλλιον⁑</p>
                         </div>
                     </div>
                     <div n="15" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.118</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>Αρισταρχ</abbr>
                                     <expan>Ἀρίσταρχος</expan>
@@ -3469,13 +3468,13 @@
                         </div>
                     </div>
                     <div n="16" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.122</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -3485,13 +3484,13 @@
                         </div>
                     </div>
                     <div n="17" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.129</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν αλλω όφρα τάχιστα <choice>
                                     <abbr>τουτ</abbr>
                                     <expan>τοῦτο</expan>
@@ -3499,24 +3498,24 @@
                         </div>
                     </div>
                     <div n="18" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.137</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι αντι τοῦ <q>φυγών</q></p>
                         </div>
                     </div>
                     <div n="19" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.141</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι καὶ νῦν σαφῶς <choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -3527,24 +3526,24 @@
                         </div>
                     </div>
                     <div n="20" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.159</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἀντικατήλλασσον τῷ δρόμῳ⁑</p>
                         </div>
                     </div>
                     <div n="21" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.170</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι <choice>
                                     <abbr>ἐλλειπ</abbr>
                                     <expan>ἐλλείπει</expan>
@@ -3553,13 +3552,13 @@
                         </div>
                     </div>
                     <div n="22" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.172</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ὑπερθετικως <choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -3570,35 +3569,35 @@
                         </div>
                     </div>
                     <div n="23" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.184</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὑποχώρει ἐνδίδου⁑</p>
                         </div>
                     </div>
                     <div n="24" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.239</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προς τὸ αυτο⁑</p>
                         </div>
                     </div>
                     <div n="25" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.259</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι <choice>
                                     <abbr>αντ</abbr>
                                     <expan>ἀντὶ</expan>
@@ -3607,46 +3606,46 @@
                         </div>
                     </div>
                     <div n="26" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.266</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι τὰ όρκια έσονται οὐκ έσσεται⁑</p>
                         </div>
                     </div>
                     <div n="27" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.275</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν αλλῶ <q>μείλινον ἔγχος</q>⁑</p>
                         </div>
                     </div>
                     <div n="28" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.286</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀντι τοῦ όλον⁑</p>
                         </div>
                     </div>
                     <div n="29" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.291</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι ἀντι τοῦ <choice>
                                     <abbr>συνεχυθ</abbr>
                                     <expan>συνεχύθη</expan>
@@ -3654,58 +3653,58 @@
                         </div>
                     </div>
                     <div n="30" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.294</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ὅτι άπαξ εἴρηκε <q>λευκάσπιδα</q>⁑</p>
                         </div>
                     </div>
                     <div n="31" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.325</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>τοῦ λαιμοῦ</p>
                         </div>
                     </div>
                     <div n="32" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.336</p>
                         </div>
-                        <div type="comment">
-                            <p>οἱ περι <persName n="urn:hmt:cite2:pers:pers7">Ἀντίμαχον</persName>
+                        <div n="comment">
+                            <p>οἱ περι <persName n="urn:cite2:hmt:pers:pers7">Ἀντίμαχον</persName>
                                 ἐπι τὸ γνωριμώτερον <q>ἐλκήσουσι κακῶς</q>⁑</p>
                         </div>
                     </div>
                     <div n="33" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.346</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>προθυμία με αναπείση⁑</p>
                         </div>
                     </div>
                     <div n="34" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.354</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3717,24 +3716,24 @@
                         </div>
                     </div>
                     <div n="35" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.380</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>γράφεται ἔρδεσκεν⁑</p>
                         </div>
                     </div>
                     <div n="36" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.388</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3743,24 +3742,24 @@
                         </div>
                     </div>
                     <div n="37" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.402</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἔν τισι <q>πιμπλανται</q>⁑</p>
                         </div>
                     </div>
                     <div n="38" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.411</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3769,13 +3768,13 @@
                         </div>
                     </div>
                     <div n="39" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.416</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><persName n="urn:cite2:hmt:pers:pers16"><choice>
                                         <abbr>Ἀρισταρχ</abbr>
                                         <expan>Ἀρίσταρχος</expan>
@@ -3783,13 +3782,13 @@
                         </div>
                     </div>
                     <div n="40" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.431</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><persName n="urn:cite2:hmt:pers:pers16"><choice>
                                         <abbr>Ἀρισταρχ</abbr>
                                         <expan>Ἀρίσταρχος</expan>
@@ -3798,13 +3797,13 @@
                         </div>
                     </div>
                     <div n="41" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.468</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><persName n="urn:cite2:hmt:pers:pers16"><choice>
                                         <abbr>ἀρισταρχ</abbr>
                                         <expan>Ἀρίσταρχος</expan>
@@ -3815,25 +3814,25 @@
                         </div>
                     </div>
                     <div n="42" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.478</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>αἳ κοινότερα <persName n="urn:cite2:hmt:pers:pers145"
                                     >Πριαμου</persName> ενι οίκω</p>
                         </div>
                     </div>
                     <div n="43" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.481</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>ουτ</abbr>
                                     <expan>οὕτως</expan>
@@ -3842,24 +3841,24 @@
                         </div>
                     </div>
                     <div n="44" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.488</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>ἐν αλλω <q>αλλ ήτοι τούτῳ</q></p>
                         </div>
                     </div>
                     <div n="45" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.489</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3870,13 +3869,13 @@
                         </div>
                     </div>
                     <div n="46" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.491</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>αριστ</abbr>
                                     <expan>Ἀρίσταρχος</expan>
@@ -3884,13 +3883,13 @@
                         </div>
                     </div>
                     <div n="47" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.497</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3902,13 +3901,13 @@
                         </div>
                     </div>
                     <div n="48" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.505</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p><choice>
                                     <abbr>οτ</abbr>
                                     <expan>ὅτι</expan>
@@ -3923,18 +3922,19 @@
                         </div>
                     </div>
                     <div n="49" type="scholion">
-                        <div type="lemma">
+                        <div n="lemma">
                             <p/>
                         </div>
-                        <div type="ref">
+                        <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:22.513</p>
                         </div>
-                        <div type="comment">
+                        <div n="comment">
                             <p>οὐκ <q>εντάφῃσι</q>·</p>
                         </div>
                     </div>
                 </body>
             </text>
+
         </group>
     </text>
 </TEI>
