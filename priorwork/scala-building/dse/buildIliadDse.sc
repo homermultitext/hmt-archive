@@ -12,7 +12,7 @@ URNs for text, surface and image are filled in from the indices.
 
 // This is a growing index of iliad to image.  Update this file
 // and rerun this script to build a new DSE.
-val imgSrc =  "iliad-source/va-iliad2image-1-12.cex"
+val imgSrc =  "iliad-source/va-iliad2image-composite.cex"
 
 // Set this to a desired value to start counting from in generating
 // DSE record URNs distinguished by an integer.
