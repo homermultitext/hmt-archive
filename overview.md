@@ -63,5 +63,4 @@ The principal publication is the CEX source that can be downloaded from github. 
 
 
 -   an installation of CITE-App: <http://www.homermultitext.org/cite-app/>
-
-In the near future, we plan to offer an installation of `scs-akka` hosted at the University of Houston.
+-   an initial version of `scs-akka` hosted on our test machine at the University of Houston:  <http://beta.hpcc.uh.edu/scs/>  (currently supports the `texts` requests documented on [scs-akka github README](https://github.com/cite-architecture/scs-akka) )
