@@ -53,8 +53,8 @@ Since CEX files are just plain-text files, you can use any tools that work with 
 -   Individual labelled CEX blocks are easily imported into databases or statistical software.
 -   CITE-App is a browser-based app for working with data loaded from a CEX source:
 <https://github.com/cite-architecture/CITE-App>
--  `scs-akka` is a RESTful microservice that loads data from a CEX source:  <https://github.com/cite-architecture/scs-akka>
-
+-   `scs-akka` is a RESTful microservice that loads data from a CEX source:  <https://github.com/cite-architecture/scs-akka>
+-   Server-CITE-App is a browser-based app for working with CEX data served by `scs-akka`:  <https://github.com/cite-architecture/Server-CITE-App>
 
 
 ## What other kinds of access does the HMT project offer?
@@ -64,3 +64,4 @@ The principal publication is the CEX source that can be downloaded from github. 
 
 -   an installation of CITE-App: <http://www.homermultitext.org/cite-app/>
 -   an initial version of `scs-akka` hosted on our test machine at the University of Houston:  <http://beta.hpcc.uh.edu/scs/>  (currently supports the `texts` requests documented on [scs-akka github README](https://github.com/cite-architecture/scs-akka) )
+-   an installation of the current version Server-CITE-App, drawing on the `scs-akka` installation at the Unviersity of Houston for its data:   <https://github.com/cite-architecture/Server-CITE-App>
