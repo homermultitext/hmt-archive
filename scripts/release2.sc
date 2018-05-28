@@ -52,9 +52,7 @@ def indexAuthlists(tokens: Vector[TokenAnalysis], siglum: String, editionsDir: S
   val persRelations = for (p <- persons) yield {
     p.textNode + "#urn:cite2:hmt:verbs.v1:appearsIn#" + p.analysis.lexicalDisambiguation
   }
-
   new PrintWriter(s"${editionsDir}/${siglum}_personrelations.cex") { write(hdr + persRelations.mkString("\n") + "\n"); close; }
-
 
 
   val places = tokens.filter(_.analysis.lexicalDisambiguation.collection == "place")
@@ -249,6 +247,11 @@ def releaseTexts(releaseId: String) =  {
   new PrintWriter(s"release-candidates/hmt-${releaseId}-texts.cex") { write(allCex); close}
 }
 
+def userGuide(releaseId: String) = {
+  val lib = CiteLibrarySource.fromFile(s"release-candidates/hmt-${releaseId}.cex")
+  val surveyor = ReleaseSurveyor(lib, "release-candidates" ,  releaseId)
+  surveyor.overview(4, 200)
+}
 
 def updateAuthlists = {
   println("Retrieving personal names data from github...")
@@ -295,9 +298,8 @@ def release(releaseId: String) =  {
   println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying list of corrigenda in release-candidates/hmt-${releaseId}-corrigenda.md\n")
 
   println("Now preparing user guide...")
-  val lib = CiteLibrarySource.fromFile(s"release-candidates/hmt-${releaseId}.cex")
-  val surveyor = ReleaseSurveyor(lib, "release-candidates" ,  releaseId)
-  surveyor.overview(4, 200)
+  userGuide(releaseId)
+
 }
 
 

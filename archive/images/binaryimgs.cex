@@ -2,7 +2,7 @@
 
 #!datamodels
 Collection#Model#Label#Description
-urn:cite2:hmt:binaryimg.v1:#urn:cite2:cite:datamodels.v1:binaryimg#Citable image model#CITE architecture model of binary images manipulable by URN reference.  See <TBA>.
+urn:cite2:hmt:binaryimg.v1:#urn:cite2:cite:datamodels.v1:binaryimg#Image collections supporting binary image manipulation#Image collections supporting binary image manipulation int the CITE architecture model.  See <TBA>.
 
 #!citecollections
 URN#Description#Labelling property#Ordering property#License
