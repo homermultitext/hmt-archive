@@ -46,8 +46,23 @@ def publishScholiaCorpus(tokens: Vector[TokenAnalysis], siglum: String, editions
 }
 
 
-def indexAuthlists = {
-  println("Index corpus or vector of tokens here...")
+def indexAuthlists(tokens: Vector[TokenAnalysis], siglum: String, editionsDir: String) = {
+  val persons = tokens.filter(_.analysis.lexicalDisambiguation.collection == "pers")
+  val hdr = "#!relations\n"
+  val persRelations = for (p <- persons) yield {
+    p.textNode + "#urn:cite2:hmt:verbs.v1:appearsIn#" + p.analysis.lexicalDisambiguation
+  }
+
+  new PrintWriter(s"${editionsDir}/${siglum}_personrelations.cex") { write(hdr + persRelations.mkString("\n") + "\n"); close; }
+
+
+
+  val places = tokens.filter(_.analysis.lexicalDisambiguation.collection == "place")
+  val placeRelations = for (p <- places) yield {
+    p.textNode + "#urn:cite2:hmt:verbs.v1:appearsIn#" + p.analysis.lexicalDisambiguation
+  }
+
+  new PrintWriter(s"${editionsDir}/${siglum}_placerelations.cex") { write(hdr + placeRelations.mkString("\n") + "\n"); close; }
 }
 
 /** Write index of scholia to Iliadic text they comment on.
@@ -113,6 +128,7 @@ def scholia: Unit = {
       println("Get tokens for " + s)
       val subCorpusTokens = tokens.filter(_.textNode.work == s)
       publishScholiaCorpus(subCorpusTokens, s, cexEditions)
+      indexAuthlists(subCorpusTokens, s, cexEditions)
     }
   }
 

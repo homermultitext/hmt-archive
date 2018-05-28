@@ -12,6 +12,7 @@ urn:cite2:cite:verbs.v1.summary:#Summary#String#
 urn#summary
 urn:cite2:cite:verbs.v1:commentsOn#Subject (a CtsUrn) comments on the object (a second CtsUrn).
 urn:cite2:cite:verbs.v1:illustrates#Subject (a Cite2Urn implemented by citable image data model) illustrates an object (a Cite2Urn).
+urn:cite2:cite:verbs.v1:appearsIn#Subject (a Cite2Urn) appears in a text (a CtsUrrn).
 
 #!datamodels
 Collection#Model#Label#Description
