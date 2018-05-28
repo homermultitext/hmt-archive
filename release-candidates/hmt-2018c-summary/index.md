@@ -45,15 +45,8 @@ Note: more details are provided for specific contents of this release in the ass
 The OHOC2 model of citable texts applies to 
 
 -   Scholia to the Iliad, *Scholia msAint in the Venetus A* (HMT project diplomatic edition: `urn:cts:greekLit:tlg5026.msAint.va_dipl:)`
--   Iliadic scholia, *Main scholia of the Venetus A manuscript* (HMT project archival XML edition: `urn:cts:greekLit:tlg5026.msA.hmt_xml:)`
 -   Scholia to the Iliad, *Scholia msA in the Venetus A* (HMT project diplomatic edition: `urn:cts:greekLit:tlg5026.msA.va_dipl:)`
--   Iliadic scholia, *Interior scholia of the Venetus A manuscript* (HMT project archival XML edition: `urn:cts:greekLit:tlg5026.msAint.hmt_xml:)`
 -   Scholia to the Iliad, *Scholia msAext in the Venetus A* (HMT project diplomatic edition: `urn:cts:greekLit:tlg5026.msAext.va_dipl:)`
--   Iliadic scholia, *Exterior scholia of the Venetus A manuscript* (HMT project archival XML edition: `urn:cts:greekLit:tlg5026.msAext.hmt_xml:)`
 -   Scholia to the Iliad, *Scholia msAim in the Venetus A* (HMT project diplomatic edition: `urn:cts:greekLit:tlg5026.msAim.va_dipl:)`
 -   Scholia to the Iliad, *Scholia msAil in the Venetus A* (HMT project diplomatic edition: `urn:cts:greekLit:tlg5026.msAil.va_dipl:)`
--   Iliadic scholia, *Scholia from the Venetus A manuscript outside 5 principal zones* (HMT project archival XML edition: `urn:cts:greekLit:tlg5026.msAextra.hmt_xml:)`
--   Iliadic scholia, *Intermarginal scholia of the Venetus A manuscript* (HMT project archival XML edition: `urn:cts:greekLit:tlg5026.msAim.hmt_xml:)`
--   Iliadic scholia, *Interlinear scholia of the Venetus A manuscript* (HMT project archival XML edition: `urn:cts:greekLit:tlg5026.msAil.hmt_xml:)`
--   Homeric poetry, *Iliad* (HMT project archival XML edition: `urn:cts:greekLit:tlg0012.tlg001.va_xml:)`
 -   Homeric epic, *Iliad* (HMT project diplomatic edition: `urn:cts:greekLit:tlg0012.tlg001.msA:)`
