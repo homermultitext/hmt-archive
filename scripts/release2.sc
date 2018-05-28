@@ -52,6 +52,7 @@ def publishScholiaCorpus(tokens: Vector[TokenAnalysis], siglum: String, editions
 * @param editionsDir Directory where output should be written.
 */
 def indexScholia(xrefNodes: Vector[CitableNode], editionsDir: String) : Unit = {
+
   val xrefUrns = for (n <- xrefNodes) yield {
     val scholion = n.urn.collapsePassageTo(2)
     val iliadUrnText = DataCollector.collectXmlText(n.text).trim
@@ -66,15 +67,19 @@ def indexScholia(xrefNodes: Vector[CitableNode], editionsDir: String) : Unit = {
     }
   }
   val verb = "urn:cite2:cite:verbs.v1:commentsOn"
+  val versionId = "va_dipl"
   val index = xrefUrns.map { case (sch,iliadOpt) =>
     iliadOpt match {
       case None => ""
-      case u: Some[CtsUrn] => s"${sch}#${verb}#${u.get}"
+      case u: Some[CtsUrn] => {
+        s"${sch.dropVersion.addVersion(versionId)}#${verb}#${u.get}"
+      }
     }
   }
 
   val hdr = "#!relations\n"
   new PrintWriter(s"${cexEditions}/commentaryIndex.cex") { write(hdr + index.mkString("\n") + "\n");close }
+
 }
 
 /**  Compose editions of scholia.  This includes
@@ -99,8 +104,8 @@ def scholia: Unit = {
   // generate automatically derived editions:
   val scholiaDocs = scholiaRepo.corpus.nodes.map(_.urn.work).distinct
   for (s <- scholiaDocs) {
-    // omit this class for now:
     if (s != "msAextra") {
+    //if (s == "msAil") {
       println("Get tokens for " + s)
       val subCorpusTokens = tokens.filter(_.textNode.work == s)
       publishScholiaCorpus(subCorpusTokens, s, cexEditions)
@@ -110,8 +115,8 @@ def scholia: Unit = {
 
   // Write index file indexing scholia to Iliad passage they
   // comment on:
-  val refNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref")
-  indexScholia (refNodes), cexEditions)
+  val refNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
+  indexScholia (refNodes, cexEditions)
 
   // Now index all personal names and place names...
 }
@@ -198,6 +203,30 @@ def tidy = {
 }
 
 
+
+/** Concatenate all CEX source into a single string.
+*/
+def catTextThings: String = {
+  // The archive's root directory has the library definition
+  // for a given release in the file "library.cex".
+  val libraryCex = DataCollector.compositeFiles("archive", "cex")
+
+  // Four subdirectories of the archive root contain all archival
+  // data in CEX format:
+  val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
+  val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
+
+  // Concatenate into a single string:
+  List(libraryCex,  textCex,  indexCex ).mkString("\n\n") + "\n"
+}
+
+def releaseTexts(releaseId: String) =  {
+  // build single CEX composite and write it out to a file:
+  val allCex = catTextThings
+  new PrintWriter(s"release-candidates/hmt-${releaseId}-texts.cex") { write(allCex); close}
+}
+
+
 /** Publish a release of the Homer Multitext project archive.
 *
 * @param releaseId Identifier for the release.
@@ -219,6 +248,11 @@ def release(releaseId: String) =  {
   val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
   val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
   new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
+
+
+  // Prepare text-only release
+  releaseTexts(releaseId)
+
 
   // clean up intermediate files:
   tidy
