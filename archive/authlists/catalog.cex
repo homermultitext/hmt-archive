@@ -6,14 +6,14 @@ urn:cite2:hmt:place.v1:#Geographic names#urn:cite2:hmt:pers.v1.label:##Public do
 
 #!citeproperties
 Property#Label#Type#Authority list
-urn:cite2:hmt:pers.v1.urn:#Binary Image#Cite2Urn#
+urn:cite2:hmt:pers.v1.urn:#Person#Cite2Urn#
 urn:cite2:hmt:pers.v1.label:#Label#String#
 urn:cite2:hmt:pers.v1.description:#Description#String#
 urn:cite2:hmt:pers.v1.status:#Status#String#proposed,accepted,rejected
 urn:cite2:hmt:pers.v1.redirect:#Redirected to#Cite2Urn#
-urn:cite2:hmt:pers.v1.urn:#Binary Image#Cite2Urn#
-urn:cite2:hmt:pers.v1.label:#Label#String#
-urn:cite2:hmt:pers.v1.description:#Description#String#
-urn:cite2:hmt:pers.v1.pleiades:#Pleiades project identifier#String#
-urn:cite2:hmt:pers.v1.status:#Status#String#proposed,accepted,rejected
-urn:cite2:hmt:pers.v1.redirect:#Redirected to#Cite2Urn#
+urn:cite2:hmt:place.v1.urn:#Place#Cite2Urn#
+urn:cite2:hmt:place.v1.label:#Label#String#
+urn:cite2:hmt:place.v1.description:#Description#String#
+urn:cite2:hmt:place.v1.pleiades:#Pleiades project identifier#String#
+urn:cite2:hmt:place.v1.status:#Status#String#proposed,accepted,rejected
+urn:cite2:hmt:place.v1.redirect:#Redirected to#Cite2Urn#
