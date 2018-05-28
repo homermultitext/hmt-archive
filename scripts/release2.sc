@@ -8,6 +8,7 @@ import java.io.PrintWriter
 import scala.io._
 
 
+
 // Predefine layout of archive's file directory:
 // 1. src files
 val scholiaXml = "archive/scholia"
@@ -45,13 +46,16 @@ def publishScholiaCorpus(tokens: Vector[TokenAnalysis], siglum: String, editions
 }
 
 
+def indexAuthlists = {
+  println("Index corpus or vector of tokens here...")
+}
 
 /** Write index of scholia to Iliadic text they comment on.
 *
 * @param xrefNodes Vector of citation nodes.
 * @param editionsDir Directory where output should be written.
 */
-def indexScholia(xrefNodes: Vector[CitableNode], editionsDir: String) : Unit = {
+def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) : Unit = {
 
   val xrefUrns = for (n <- xrefNodes) yield {
     val scholion = n.urn.collapsePassageTo(2)
@@ -116,7 +120,7 @@ def scholia: Unit = {
   // Write index file indexing scholia to Iliad passage they
   // comment on:
   val refNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
-  indexScholia (refNodes, cexEditions)
+  indexScholiaCommentary (refNodes, cexEditions)
 
   // Now index all personal names and place names...
 }
@@ -174,8 +178,11 @@ def catAll: String = {
   val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
   val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
 
+  val authlistsCex = DataCollector.compositeFiles("archive/authlists", "cex")
+
+
   // Concatenate into a single string:
-  List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex ).mkString("\n\n") + "\n"
+  List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex, authlistsCex ).mkString("\n\n") + "\n"
 }
 
 /** Remove all temporary files created in process of composing
@@ -227,6 +234,17 @@ def releaseTexts(releaseId: String) =  {
 }
 
 
+def updateAuthlists = {
+  println("Retrieving personal names data from github...")
+  val persnamesUrl = "https://raw.githubusercontent.com/homermultitext/hmt-authlists/master/data/hmtnames.cex"
+  val personLines = Source.fromURL(persnamesUrl).getLines.toVector
+  new PrintWriter("archive/authlists/hmtnames.cex") {write(personLines.mkString("\n") + "\n"); close;}
+
+  println("Retrieving place names data from github...")
+  val placenamesUrl = "https://raw.githubusercontent.com/homermultitext/hmt-authlists/master/data/hmtnames.cex"
+  val placeLines = Source.fromURL(placenamesUrl).getLines.toVector
+  new PrintWriter("archive/authlists/hmtplaces.cex") {write(placeLines.mkString("\n") + "\n"); close;}
+}
 /** Publish a release of the Homer Multitext project archive.
 *
 * @param releaseId Identifier for the release.
@@ -239,20 +257,21 @@ def release(releaseId: String) =  {
   // Generate intermediate files:
   scholia
   iliad
+  // Collect remote data:
+  updateAuthlists
+
   // build single CEX composite and write it out to a file:
   val allCex = catAll
   new PrintWriter(s"release-candidates/hmt-${releaseId}.cex") { write(allCex); close}
+
+  // From the composite, select material for a text-only release
+  releaseTexts(releaseId)
 
   // build a single markdown file with all corrigenda, and
   // write it out to a file:
   val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
   val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
   new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
-
-
-  // Prepare text-only release
-  releaseTexts(releaseId)
-
 
   // clean up intermediate files:
   tidy
@@ -264,7 +283,6 @@ def release(releaseId: String) =  {
   val surveyor = ReleaseSurveyor(lib, "release-candidates" ,  releaseId)
   surveyor.overview(4, 200)
 }
-
 
 
 
