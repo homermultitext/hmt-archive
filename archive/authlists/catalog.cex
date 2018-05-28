@@ -1,0 +1,19 @@
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:pers.v1:#Names of persons#urn:cite2:hmt:pers.v1.label:##Public domain
+urn:cite2:hmt:place.v1:#Geographic names#urn:cite2:hmt:pers.v1.label:##Public domain
+
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:pers.v1.urn:#Binary Image#Cite2Urn#
+urn:cite2:hmt:pers.v1.label:#Label#String#
+urn:cite2:hmt:pers.v1.description:#Description#String#
+urn:cite2:hmt:pers.v1.status:#Status#String#proposed,accepted,rejected
+urn:cite2:hmt:pers.v1.redirect:#Redirected to#Cite2Urn#
+urn:cite2:hmt:pers.v1.urn:#Binary Image#Cite2Urn#
+urn:cite2:hmt:pers.v1.label:#Label#String#
+urn:cite2:hmt:pers.v1.description:#Description#String#
+urn:cite2:hmt:pers.v1.pleiades:#Pleiades project identifier#String#
+urn:cite2:hmt:pers.v1.status:#Status#String#proposed,accepted,rejected
+urn:cite2:hmt:pers.v1.redirect:#Redirected to#Cite2Urn#
