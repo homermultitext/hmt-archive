@@ -10,25 +10,23 @@ Note: more details are provided for specific contents of this release in the ass
 ## Collection data models
 
 
-**Codex model** (`urn:cite2:cite:datamodels.v1:tbsmodel`) applies to 
+**Model of Venetus A codex** (`urn:cite2:cite:datamodels.v1:tbsmodel`) applies to 
 
 -   Venetus A manuscript (`urn:cite2:hmt:msA.v1:`)
 
-**Citable image model** (`urn:cite2:cite:datamodels.v1:binaryimg`) applies to 
+**Image collections supporting binary image manipulation** (`urn:cite2:cite:datamodels.v1:binaryimg`) applies to 
 
 -   Collections of binary images (`urn:cite2:hmt:binaryimg.v1:`)
 
-**Citable image model** (`urn:cite2:cite:datamodels.v1:imagemodel`) applies to 
+**Model of citable images of Comparetti facsimile of Venetus A manuscript** (`urn:cite2:cite:datamodels.v1:imagemodel`) applies to 
 
 -   Images of the Comparetti facsimile of the Venetus A manuscript (`urn:cite2:hmt:compimg.v1:`)
+
+**Model of citable images of the Venetus A manuscript** (`urn:cite2:cite:datamodels.v1:imagemodel`) applies to 
+
 -   Images of the Venetus A manuscript (`urn:cite2:hmt:vaimg.2017a:`)
 
-**Citable image model** (`urn:cite2:cite:datamodels.v1:imagemodel`) applies to 
-
--   Images of the Comparetti facsimile of the Venetus A manuscript (`urn:cite2:hmt:compimg.v1:`)
--   Images of the Venetus A manuscript (`urn:cite2:hmt:vaimg.2017a:`)
-
-**DSE model** (`urn:cite2:cite:datamodels.v1:dse`) applies to 
+**DSE model of the Venetus A manuscript** (`urn:cite2:cite:datamodels.v1:dse`) applies to 
 
 -   DSE model of Venetus A manuscript (`urn:cite2:hmt:va_dse.v1:`)
 
