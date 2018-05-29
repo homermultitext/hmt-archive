@@ -45,19 +45,21 @@ def publishScholiaCorpus(tokens: Vector[TokenAnalysis], siglum: String, editions
   new PrintWriter(s"${editionsDir}/${siglum}_diplomatic.cex") { write(diplHeader + diplByScholion.cex("#"));close }
 }
 
-
+// fix this
 def indexAuthlists(tokens: Vector[TokenAnalysis], siglum: String, editionsDir: String) = {
+  val versionId = "va_dipl"
+
   val persons = tokens.filter(_.analysis.lexicalDisambiguation.collection == "pers")
   val hdr = "#!relations\n"
   val persRelations = for (p <- persons) yield {
-    p.textNode + "#urn:cite2:hmt:verbs.v1:appearsIn#" + p.analysis.lexicalDisambiguation
+    p.analysis.lexicalDisambiguation.dropVersion.addVersion("v1")  + "#urn:cite2:hmt:verbs.v1:appearsIn#" +  p.textNode.dropVersion.addVersion(versionId)
   }
   new PrintWriter(s"${editionsDir}/${siglum}_personrelations.cex") { write(hdr + persRelations.mkString("\n") + "\n"); close; }
 
 
   val places = tokens.filter(_.analysis.lexicalDisambiguation.collection == "place")
   val placeRelations = for (p <- places) yield {
-    p.textNode + "#urn:cite2:hmt:verbs.v1:appearsIn#" + p.analysis.lexicalDisambiguation
+    p.analysis.lexicalDisambiguation.dropVersion.addVersion("v1") + "#urn:cite2:hmt:verbs.v1:appearsIn#" + p.textNode.dropVersion.addVersion(versionId)
   }
 
   new PrintWriter(s"${editionsDir}/${siglum}_placerelations.cex") { write(hdr + placeRelations.mkString("\n") + "\n"); close; }
@@ -260,7 +262,7 @@ def updateAuthlists = {
   new PrintWriter("archive/authlists/hmtnames.cex") {write(personLines.mkString("\n") + "\n"); close;}
 
   println("Retrieving place names data from github...")
-  val placenamesUrl = "https://raw.githubusercontent.com/homermultitext/hmt-authlists/master/data/hmtnames.cex"
+  val placenamesUrl = "https://raw.githubusercontent.com/homermultitext/hmt-authlists/master/data/hmtplaces.cex"
   val placeLines = Source.fromURL(placenamesUrl).getLines.toVector
   new PrintWriter("archive/authlists/hmtplaces.cex") {write(placeLines.mkString("\n") + "\n"); close;}
 }
