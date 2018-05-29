@@ -40,7 +40,7 @@ Note: more details are provided for specific contents of this release in the ass
 
 ## Texts
 
-The OHOC2 model of citable texts applies to 
+The OHCO2 model of citable texts applies to 
 
 -   Scholia to the Iliad, *Scholia msAint in the Venetus A* (HMT project diplomatic edition: `urn:cts:greekLit:tlg5026.msAint.va_dipl:)`
 -   Scholia to the Iliad, *Scholia msA in the Venetus A* (HMT project diplomatic edition: `urn:cts:greekLit:tlg5026.msA.va_dipl:)`
