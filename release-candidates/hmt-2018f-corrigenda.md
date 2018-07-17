@@ -1805,20 +1805,13 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.152 ὑπο Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.153 ποσσὶ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.23.comment.154 κονίσσαλος Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.60.comment.19 Ἀφίδναζε rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.60.comment.20 Θήβαζε rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.74.comment.4 Τρῷας rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.74.comment.7 Ῥοδίους rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.10 Δύσπαρις Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.11 Αἰνόπαρις Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.12 κακὸν Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.13 Ελλαδι Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.78.comment.14 Βοτιανείρι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.60.comment.19 Ἀφίδναζε Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite:hmt:place.place442 is invalid: collection component must be separated from empty object selection with :
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.74.comment.4 Τρῷας Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite:hmt:place.place6 is invalid: collection component must be separated from empty object selection with :
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.74.comment.7 Ῥοδίους Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite:hmt:place.place26 is invalid: collection component must be separated from empty object selection with :
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.7 τὸν Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.8 δ' Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.9 ὡς Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.62.comment.10 οὖν Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.82.comment.5 Δάρδανον rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.91.comment.12 Ἀργείων Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.91.comment.13 προκαλίζετο Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.91.comment.14 πάντας Invalid element name: quote
@@ -1870,17 +1863,13 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.129.comment.12 τις Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.129.comment.13 ἕλοιτο Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.136.comment.7 κρείσσω Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.143.comment.3 Ἑλλήνων rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.4 Πελασγὸς rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.5 Τριόπα rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.18 Πελασγὸς rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.69 ῾Ελλανϊκὸς rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.151.lemma.2 Ἀργεῖοι rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.142.comment.4 Τριόπα rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.151.lemma.2 Ἀργεῖοι unrecognized value for @type attribute on rs element ethni
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.157.comment.6 κέλεται Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.158.comment.7 κρείσσω Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.4 Ἀργεῖοι Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.4 Ἀργεῖοι Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.5 καὶ Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.6 Τρῶες Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.164.comment.6 Τρῶες Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.14 καὶ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.15 εἴ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.16 ποθεν Invalid element name: quote
@@ -1891,9 +1880,7 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.30 ἐς Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.31 δεκάδας Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.32 διακοσμηθεῖμεν Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.33 Ἀχαιοί Invalid element name: quote ++ rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.174.comment.43 ῾Ελληνικῶς rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.175.comment.2 Ἑλληνικῶς rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.170.comment.33 Ἀχαιοί Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.201.comment.10 πορφυρέην Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.201.comment.23 φάρε' Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.201.comment.24 ὑφαίνουσι Invalid element name: quote
@@ -1917,17 +1904,7 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.71 πρόσθεν Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.72 ἕθεν Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.206.comment.73 φεύγοντα Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.229.comment.47 Ἄδραστος Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.lemma.1 Σκαιαὶ rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.1 Δαρδανίας rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.12 Τρῶες rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.14 Σκαιαὶ rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.19 Σκαιοῦ rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.235.comment.43 Τρῶας rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.233.comment.27 ῾Ελλανικος rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.233.comment.75 Διόσκουροι rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.245.comment.15 υἵον rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.245.comment.42 ῾Ελλανικος rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.252.comment.3 τιθεῖσι Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.252.comment.52 φασὶ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.254.comment.13 ὦκα Invalid element name: quote
@@ -1948,7 +1925,7 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.33 καλά Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.52 οὐ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.53 νέμεσις Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.54 Τρῶας Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.256.comment.54 Τρῶας Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.25 κατα Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.26 ληΐδα Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.27 ὅπη Invalid element name: quote
@@ -1956,7 +1933,6 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.29 ᾿ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.30 Αχιλλεύς Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.31 · Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.94 Τρῶας rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.119 ἀσπίδι Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.120 γινώσκων Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.275.comment.121 αὐλώπιδι Invalid element name: quote
@@ -1968,26 +1944,16 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.18 πρότερόν Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.19 τε Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.276.comment.20 πόσιν Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.285.comment.33 Πέρσαις rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.285.comment.41 Λακεδαιμονίοις rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.285.comment.49 Αἰθιόλας rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.249.comment.4 δένδρει Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.249.comment.28 δένδρεον Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.249.comment.29 ὑψιπέτηλον Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.253.comment.4 ῶκα Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.73 ιὼ Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.74 Λακεδαῖμον Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.76 ᾿Ολκάσι rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.81 ψευδόμοι Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.82 σε Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.83 Παλαῖμον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.71 ιὼ Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.72 Λακεδαῖμον Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.79 ψευδόμοι Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.80 σε Invalid element name: quote
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.711.comment.81 Παλαῖμον Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.296.comment.30 πεφοβήατο Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.9 Αμαζωνιδων rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.47 Φρυγῶν rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.70 Αμαζονίδων rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.303.comment.88 ᾿Αμαζόνων rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.305.comment.2 ᾿Αμαζόνες rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.6 Τροίας rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.32 ήδη Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.33 γὰρ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.297.comment.34 καὶ Invalid element name: quote
@@ -2002,7 +1968,6 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.324.comment.5 ἕνεκ' Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.324.comment.6 ἀγγελίης Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.324.comment.25 ῞Ελληνας rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.4 Λάκωνες rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.31 παῦρα Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.32 μὲν Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.334.comment.39 καὶ Invalid element name: quote
@@ -2039,13 +2004,11 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.26 δ' Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.27 άγων Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.28 ῾ΐν' Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.29 Ἀθηναίων Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.29 Ἀθηναίων Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.30 ῾ΐσταντο Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.31 φάλαγγες Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.362.comment.38 Ἀθηναῖοι rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.368.comment.19 ᾿Αργοναυτικῶν rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.379.comment.13 Διοσκούροις rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.379.comment.59 Διόσκουροι rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.379.comment.71 Πολεμωνίοις rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.23 ἄλλοτε Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.24 μὲν Invalid element name: quote
@@ -2060,14 +2023,11 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.33 ἴσα Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.34 θεοῖσιν Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.380.comment.61 Διόσκουροι rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.724.comment.17 Διοσκούρους rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.724.comment.29 Δισκούρους rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.4 ἑῇ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.5 ἐν Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.6 πατρίδι Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.12 Διοσκούρων rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.381.comment.15 ἑῇ Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.388.comment.23 ῾Ελλάνικον rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.399.lemma.4 Σκαιῶν rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.399.comment.13 Σκαιάων Invalid element name: quote ++ rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.402.comment.11 Τρώων rs element missing required @type attribute
@@ -2114,7 +2074,6 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.13 θάνε Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.14 καὶ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.15 σὺ Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.22 Οδυσσεία rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.23 ὠκεα Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.24 δ' Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.416.comment.25 Ἠελίῳ Invalid element name: quote
@@ -2240,9 +2199,6 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.114 ἥρχε Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.115 δε Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.579.comment.116 δαίμων Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.590.comment.1 Μῃονεις rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.590.comment.4 Λυλοὶ rs element missing required @type attribute
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.590.comment.8 Λυδοὶ rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.2 ἀπόεικε Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.10 κελεύθου Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.598.comment.59 τί Invalid element name: quote
@@ -2323,7 +2279,6 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.46 οδ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.47 ἔστη Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.645.comment.48 . Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.649.comment.55 Σιδῶνα rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.13 ὡς Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.14 σέο Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.652.comment.15 νῦν Invalid element name: quote
@@ -2334,18 +2289,16 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.6 Τρῶες rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.17 ἀλλα Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.18 μάλα Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.19 Τρῶες Invalid element name: quote ++ rs element missing required @type attribute
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.19 Τρῶες Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.20 ἐλεήμονες Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.23  Invalid choice markup.  Elements were: expan
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.662.comment.25 δειδήμονες Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.668.comment.3 ἀποτίνετο Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.9 Τρῶες rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.16 εἰ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.17 δέ Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.18 κ' Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.19 Ἀλέξανδρον Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.20 κτείνει Invalid element name: quote
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.22 Ἀχαιοὶ rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.27 ὁππότερος Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.28 δε Invalid element name: quote
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:3.665.comment.29 κε Invalid element name: quote
@@ -2723,9 +2676,10 @@
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.80 οἷον Invalid structure: cit should have both q and ref children
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.81 τὸν Invalid structure: cit should have both q and ref children
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:5.3002.comment.82 Τηλεφίδην Invalid structure: cit should have both q and ref children
--   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:6.1.comment.50 Ἀπόλλων Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite:htm:pers.HELP is invalid: collection component must be separated from empty object selection with :
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:6.19.comment.19 Λάκωνες rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:6.54.comment.179  Invalid choice markup.  Elements were: expan
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:6.109.comment.8  Invalid choice markup.  Elements were: expan
+-   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:6.117.comment.5 Πελασγὸς Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite2:hmt:pers.pers433 is invalid: collection component must be separated from empty object selection with :
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.201.comment.2 ἐπιπλεῖν Invalid structure: cit should have both q and ref children
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.206.comment.2 οἰδάνει Invalid structure: cit should have both q and ref children
 -   urn:cts:greekLit:tlg5026.msA.hmt_xml.tokens:7.308.comment.29 νὺξ Invalid structure: cit should have both q and ref children
