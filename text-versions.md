@@ -26,7 +26,7 @@ On `urn:cts:greekLit:tlg0012.tlg001:`
 
 -   xml archival =  = `msB_xml`
 -   diplomatic = `msB`
--   scribal normalization = `e3_scribe`
+-   scribal normalization = `msB_scribe`
 
 ## Upsilon 1.1 scholia
 
