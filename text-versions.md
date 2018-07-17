@@ -3,72 +3,94 @@
 
 ## Venetus A *Iliad*
 
--   xml archival =
+On `urn:cts:greekLit:tlg0012.tlg001:`
+
+-   xml archival =  `hmt_xml`
 -   diplomatic = `msA`
--   scribal normalization =
+-   scribal normalization = `scribe`
 
 
 
 ## Upsilon 1.1 *Iliad*
 
--   xml archival =
--   diplomatic = `msA`
--   scribal normalization =
+
+On `urn:cts:greekLit:tlg0012.tlg001:`
+
+-   xml archival = `hmt_xml`
+-   diplomatic = `e3`
+-   scribal normalization = `scribe`
 
 ## Venetus B *Iliad*
 
--   xml archival =
--   diplomatic = `msA`
--   scribal normalization =
+On `urn:cts:greekLit:tlg0012.tlg001:`
+
+-   xml archival =  = `hmt_xml`
+-   diplomatic = `msB`
+-   scribal normalization = `scribe`
 
 ## Upsilon 1.1 scholia
 
--   xml archival =
--   diplomatic =
--   scribal normalization =
+On `urn:cts:greekLit:tlg5026.e3:`
+
+-   xml archival =   `hmt_xml`
+-   diplomatic = `dipl`
+-   scribal normalization = `scribe`
 
 
 
 ## Venetus B scholia
 
--   xml archival =
--   diplomatic =
--   scribal normalization =
+On `urn:cts:greekLit:tlg5026.msB:`
+
+-   xml archival =  `hmt_xml`
+-   diplomatic = `dipl`
+-   scribal normalization = `scribe`
 
 
 ## Venetus A main scholia
 
--   xml archival =
--   diplomatic =
--   scribal normalization =
+On `urn:cts:greekLit:tlg5026.msA:`
+
+-   xml archival  = `hmt_xml`
+-   diplomatic = `dipl`
+-   scribal normalization = `scribe`
 
 ## Venetus A intermarginal scholia
 
--   xml archival =
--   diplomatic =
--   scribal normalization =
+
+On `urn:cts:greekLit:tlg5026.msAim:`
+
+-   xml archival  = `hmt_xml`
+-   diplomatic =  `dipl`
+-   scribal normalization = `scribe`
 
 
 
 ## Venetus A interior scholia
 
--   xml archival =
--   diplomatic =
--   scribal normalization =
+On `urn:cts:greekLit:tlg5026.msAint:`
+
+-   xml archival  = `hmt_xml`
+-   diplomatic =  `dipl`
+-   scribal normalization = `scribe`
 
 
 
 
 ## Venetus A exterior scholia
 
--   xml archival =
--   diplomatic =
--   scribal normalization =
+On `urn:cts:greekLit:tlg5026.msAext:`
+
+-   xml archival  = `hmt_xml`
+-   diplomatic =  `dipl`
+-   scribal normalization = `scribe`
 
 
 
 ## Venetus A interlinear scholia
 
--   xml archival =
--   diplomatic =
--   scribal normalization =
+On `urn:cts:greekLit:tlg5026.msAil:`
+
+-   xml archival  = `hmt_xml`
+-   diplomatic =  `dipl`
+-   scribal normalization = `scribe`

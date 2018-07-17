@@ -39,15 +39,15 @@ def publishScholiaCorpus(tokens: Vector[TokenAnalysis], siglum: String, editions
 
   // Compose pure diplomatic edition:
   val diplEdition = DiplomaticEditionFactory.corpusFromTokens(tokens)
-  val diplByScholion = diplEdition.exemplarToVersion("va_dipl")
+  val diplByScholion = diplEdition.exemplarToVersion("dipl")
 
-  val diplHeader = s"\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026.${siglum}.va_dipl:#book,scholion, section#Scholia to the Iliad#Scholia ${siglum} in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+  val diplHeader = s"\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026.${siglum}.dipl:#book,scholion, section#Scholia to the Iliad#Scholia ${siglum} in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
   new PrintWriter(s"${editionsDir}/${siglum}_diplomatic.cex") { write(diplHeader + diplByScholion.cex("#"));close }
 }
 
 // fix this
 def indexAuthlists(tokens: Vector[TokenAnalysis], siglum: String, editionsDir: String) = {
-  val versionId = "va_dipl"
+  val versionId = "dipl"
 
   val persons = tokens.filter(_.analysis.lexicalDisambiguation.collection == "pers")
   val hdr = "#!relations\n"
@@ -86,7 +86,7 @@ def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) 
     }
   }
   val verb = "urn:cite2:cite:verbs.v1:commentsOn"
-  val versionId = "va_dipl"
+  val versionId = "dipl"
   val index = xrefUrns.map { case (sch,iliadOpt) =>
     iliadOpt match {
       case None => ""
