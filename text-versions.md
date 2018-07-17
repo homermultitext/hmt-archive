@@ -5,9 +5,9 @@
 
 On `urn:cts:greekLit:tlg0012.tlg001:`
 
--   xml archival =  `hmt_xml`
+-   xml archival =  `msA_xml`
 -   diplomatic = `msA`
--   scribal normalization = `scribe`
+-   scribal normalization = `msA_scribe`
 
 
 
@@ -16,17 +16,17 @@ On `urn:cts:greekLit:tlg0012.tlg001:`
 
 On `urn:cts:greekLit:tlg0012.tlg001:`
 
--   xml archival = `hmt_xml`
+-   xml archival = `e3_xml`
 -   diplomatic = `e3`
--   scribal normalization = `scribe`
+-   scribal normalization = `e3_scribe`
 
 ## Venetus B *Iliad*
 
 On `urn:cts:greekLit:tlg0012.tlg001:`
 
--   xml archival =  = `hmt_xml`
+-   xml archival =  = `msB_xml`
 -   diplomatic = `msB`
--   scribal normalization = `scribe`
+-   scribal normalization = `e3_scribe`
 
 ## Upsilon 1.1 scholia
 
