@@ -8,6 +8,8 @@ urn:cite2:hmt:place.v1:#Geographic names#urn:cite2:hmt:place.v1.label:##Public d
 Property#Label#Type#Authority list
 urn:cite2:hmt:pers.v1.urn:#Person#Cite2Urn#
 urn:cite2:hmt:pers.v1.label:#Label#String#
+urn:cite2:hmt:pers.v1.mf:#MF#String#
+urn:cite2:hmt:pers.v1.character:#Character#String#
 urn:cite2:hmt:pers.v1.description:#Description#String#
 urn:cite2:hmt:pers.v1.status:#Status#String#proposed,accepted,rejected
 urn:cite2:hmt:pers.v1.redirect:#Redirected to#String#
