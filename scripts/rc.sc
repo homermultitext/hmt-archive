@@ -137,3 +137,7 @@ def rc(releaseId: String) : Unit = {
   val lib = CiteLibrarySource.fromFile(outFile)
 
 }
+
+println("\n\nTo generate a release candidate:\n")
+println("\trc(RELEASE_ID)\n"
+println("The results will be written to a single CEX file named \n\nrelease-candidates/hmt-RELEASE_ID.cex")
