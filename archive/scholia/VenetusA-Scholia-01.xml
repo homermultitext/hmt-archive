@@ -903,7 +903,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div ana="59e" n="67" type="scholion">
                      <div n="lemma">
-                        <p>+<persName n="urn:cite2:hmt:pers.r1:pers22">Ἀτρείδη</persName>, νῦν ἄμμε παλιμπλαχθεντας</p>
+                        <p>‡<persName n="urn:cite2:hmt:pers.r1:pers22">Ἀτρείδη</persName>, νῦν ἄμμε παλιμπλαχθεντας</p>
                      </div>
                      <div n="ref">
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.59</p>
@@ -1134,7 +1134,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div ana="52" n="81" type="scholion">
                      <div n="lemma">
-                        <p>+αἰεὶ δὲ πυραὶ νεκύων </p>
+                        <p>‡αἰεὶ δὲ πυραὶ νεκύων </p>
                      </div>
                      <div n="ref">
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.52</p>
@@ -1772,7 +1772,7 @@ style simple scholia" alternate="no"?>
                      </div>
                      <div n="comment">
                         <p>συν τῷ <rs type="waw">ϊ</rs> τὸ ἄλλη καὶ ἐστιν ἄλλοσε ὥσπερ τὸ <rs
-                              type="waw">πάντῃ<note resp="Erbse">Α 384. *e 495 al.</note></rs> ὁ γὰρ
+                              type="waw">πάντῃ<note resp="Erbse">Α 384. E 495 al.</note></rs> ὁ γὰρ
                            νοῦς τῶν λεγομένων τοιοῦτος ἐμοὶ δὲ γέρας παρασκευάσατε ὅπως μὴ ὑπολειφθῶ
                            ἀγέραστος ἐν τοῖς Ἕλλησι ὁρατε γὰρ δή μου τὸ γέρας ἀλλαχόσσε ἀπερχόμενον.
                               <w>θα<unclear>υ</unclear>μάσειε</w> δ' ἄν τις
@@ -5053,7 +5053,7 @@ style simple scholia" alternate="no"?>
                   <div ana="435b" n="1121" type="scholion">
                      <div
                      n="lemma">
-                     <p>+ϊστὸν δ' ἱστοδόκη πέλασαν</p>
+                     <p>‡ϊστὸν δ' ἱστοδόκη πέλασαν</p>
                   </div>
                      <div n="ref">
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.435</p>
@@ -6101,7 +6101,7 @@ style simple scholia" alternate="no"?>
                               >Κρόνος</persName> μὲν <persName n="urn:cite2:hmt:pers.r1:pers8">Διός</persName>
                            <persName n="urn:cite2:hmt:pers.r1:pers116">Ἥρας</persName>
                            <persName n="urn:cite2:hmt:pers.r1:pers201">Ἅδου</persName>
-                           <persName n="urn:cite2:hmt:pers.r1:pers47">Ποσειδῶνος</persName>+ θνητοῦ δὲ οὐδενός καὶ
+                           <persName n="urn:cite2:hmt:pers.r1:pers47">Ποσειδῶνος</persName>‡ θνητοῦ δὲ οὐδενός καὶ
                               <persName n="urn:cite2:hmt:pers.r1:pers47">Ποσειδῶν</persName> πάλιν <choice>
                               <abbr>θυ</abbr>
                               <expan>θεοῦ</expan>
@@ -6416,7 +6416,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div ana="577a1" n="1437" type="scholion">
                      <div n="lemma">
-                        <p>+παράφημι</p>
+                        <p>‡παράφημι</p>
                      </div>
                      <div n="ref">
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.577</p>
@@ -6641,7 +6641,7 @@ style simple scholia" alternate="no"?>
                               >Ζηνοδότου</persName> καὶ <choice>
                               <abbr>Ἀριστοφα</abbr>
                               <expan><persName n="urn:cite2:hmt:pers.r1:pers21">Ἀριστοφάνους</persName></expan>
-                           </choice>+</p>
+                           </choice>‡</p>
                      </div>
                   </div>
                   <div ana="600a1" n="1449" type="scholion">
@@ -7497,7 +7497,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.366</p>
                      </div>
                      <div n="comment">
-                        <p>+ἀνακεφαλαίωσις ὁ τρόπος:</p>
+                        <p>‡ἀνακεφαλαίωσις ὁ τρόπος:</p>
                      </div>
                   </div>
                   <div ana="374a" n="1001" type="scholion">
@@ -7516,7 +7516,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.393</p>
                      </div>
                      <div n="comment">
-                        <p>+ὑποστικτεον ἐπι τὸ <rs type="waw">γε</rs> στικτεον δὲ κατα το τέλος τοῦ
+                        <p>‡ὑποστικτεον ἐπι τὸ <rs type="waw">γε</rs> στικτεον δὲ κατα το τέλος τοῦ
                            στίχου⁑</p>
                      </div>
                   </div>
@@ -12411,7 +12411,7 @@ style simple scholia" alternate="no"?>
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:1.50</p>
                      </div>
                      <div n="comment">
-                        <p>+<choice>
+                        <p>‡<choice>
                               <abbr>φιλανος</abbr>
                               <expan>φιλανθρωπος</expan>
                            </choice> ὦν ὁ θεὸς πρῶτον τὰς ἡμιόνους καὶ τοὺς κύνας καὶ τὰ ἄλογα ζῶα
