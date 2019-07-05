@@ -186,7 +186,7 @@
                             <p>οὔτε συος κάπρου</p>
                         </div>
                         <div n="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.17</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.21</p>
                         </div>
                         <div n="comment">
                             <p>κατ επίτασιν <choice>
@@ -572,7 +572,7 @@
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.65-17.66</p>
                         </div>
                         <div n="comment">
-                            <p>οἱ <q>νομῆες</q>, οἱ δe <choice>
+                            <p>οἱ <q>νομῆες</q>, οἱ δε<choice>
                                     <sic>κῦνες</sic>
                                     <corr>κύνες</corr>
                                 </choice> ὑλακτοῦσιν ⁑</p>
@@ -1680,7 +1680,7 @@
                     <div n="93" type="scholion">
                         <div n="lemma">
                             <p><persName n="urn:cite2:hmt:pers.r1:pers768">φόρκυν</persName> τε Χρομίον
-                                τε:</p>
+                                τε~</p>
                         </div>
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.218</p>
@@ -2468,7 +2468,7 @@
                         <div n="lemma">
 <p>ἀργαλέου προ φόβοιο</p>
 
-              
+
                         </div>
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:17.667</p>
