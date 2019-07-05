@@ -5,6 +5,7 @@ import edu.holycross.shot.ohco2._
 import edu.holycross.shot.cite._
 import edu.holycross.shot.scm._
 import org.homermultitext.edmodel._
+import org.homermultitext.edmodel._
 
 import edu.holycross.shot.cex._
 
