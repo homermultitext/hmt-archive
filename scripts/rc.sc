@@ -101,7 +101,8 @@ def commentaryIndex(scholiaRepo: TextRepository) : String = {
 
 def allCex: String = {
   // The archive's root directory has the library definition
-  // for a given release in the file "library.cex".
+  // for a given release in the file "library.cex
+  // Be sure to check this for a real release!
   val libraryCex = DataCollector.compositeFiles("archive", "cex")
 
   // Four subdirectories of the archive root contain all archival
@@ -112,7 +113,7 @@ def allCex: String = {
   val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
   val authlistsCex = DataCollector.compositeFiles("archive/authlists", "cex")
 
-  //val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
+  val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
 
 
   // Texts and cross references are dynamically built from XML source
@@ -121,23 +122,18 @@ def allCex: String = {
   val diplomaticTextsCex = diplomaticTextRepository.cex("#")
 
   // Concatenate into a single string:
-  //List(libraryCex, tbsCex, imageCex, annotationCex, indexCex, authlistsCex, dseCex, scholiaCommentsIndex, diplomaticTextRepository ).mkString("\n\n") + "\n"
-
-  List(libraryCex, tbsCex, imageCex, annotationCex, indexCex, authlistsCex, scholiaCommentsIndex, diplomaticTextsCex).mkString("\n\n") + "\n"
-
-
-
+  List(libraryCex, tbsCex, imageCex, annotationCex, indexCex, authlistsCex, dseCex, scholiaCommentsIndex, diplomaticTextsCex).mkString("\n\n") + "\n"
 }
 
 
 // Write an HMT release candidate
 def rc(releaseId: String) : Unit = {
-  println("Assembling all HMT archival data into CEX format\n\n")
+  println("==>Assembling all HMT archival data into CEX format\n\n")
   val cex = allCex
   val outFile = s"release-candidates/hmt-${releaseId}.cex"
-  println("\n\nWriting CEX to " + outFile)
+  println("\n\n==>Writing CEX to " + outFile)
   new PrintWriter(outFile) { write(cex); close}
-  println("\n\nTesting output by loading as a CITE library...\n\n")
+  println("\n\n==>Testing output by loading as a CITE library...\n\n")
   val lib = CiteLibrarySource.fromFile(outFile)
 
 }
