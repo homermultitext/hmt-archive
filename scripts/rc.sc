@@ -139,6 +139,6 @@ def rc(releaseId: String) : Unit = {
 }
 
 println("\n\nTo generate a release candidate:\n")
-println("\trc(RELEASE_ID)\n"
+println("\trc(RELEASE_ID)\n")
 println("The results will be written to a single CEX file named \n\nrelease-candidates/hmt-RELEASE_ID.cex")
 println("\nThe results are tested by loading the single CEX file\ninto a CITE library (using the scm library)")
