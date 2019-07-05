@@ -23,9 +23,6 @@ urn:cite2:hmt:e3img.2017a.urn:#URN#Cite2Urn#
 urn:cite2:hmt:e3img.2017a.caption:#Caption#String#
 urn:cite2:hmt:e3img.2017a.rights:#Rights#String#
 
-#!citedata
-urn#caption#rights
-urn:cite2:hmt:e3bifolio.v1:E3_1v_2r#Image of MS Upsilon 1.1, bifolio containing 1v and 2r#This composed image was derived from two originals ©2010, The Homer Multitext. The derivative images are ©2010, Center for Hellenic Studies. Originals and derivatives are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License.
 
 #!citedata
 urn#caption#rights
@@ -207,6 +204,3 @@ urn:cite2:hmt:e3bifolio.v1:E3_97v_98r#Image of MS Upsilon 1.1, bifolio containin
 urn:cite2:hmt:e3bifolio.v1:E3_98v_99r#Image of MS Upsilon 1.1, bifolio containing 98v and 99r#©2019, Center for Hellenic Studies. Originals and derivatives are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License.
 urn:cite2:hmt:e3bifolio.v1:E3_99v_100r#Image of MS Upsilon 1.1, bifolio containing 99v and 100r#©2019, Center for Hellenic Studies. Originals and derivatives are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License.
 urn:cite2:hmt:e3bifolio.v1:E3_9v_10r#Image of MS Upsilon 1.1, bifolio containing 9v and 10r#©2019, Center for Hellenic Studies. Originals and derivatives are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License.
-
-
-

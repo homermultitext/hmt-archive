@@ -1,0 +1,34 @@
+// Metadata for the current release
+
+#!cexversion
+3.0.1
+
+#!citelibrary
+
+name#Homer Multitext project, release 2018 F
+urn#urn:cite2:hmt:publications.cex.2018f:all
+license#Creative Commons Attribution, Non-Commercial 4.0 License <https://creativecommons.org/licenses/by-nc/4.0/>.
+
+// CITE namespace definitions
+namespace#hmt#http://www.homermultitext.org/citens/hmt
+namespace#greekLit#http://chs.harvard.edu/ctsns/greekLit
+
+// Collection of data models used in this release:
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:cite:datamodels.v1:#CITE data models#urn:cite2:cite:datamodels.v1.label:##Public domain
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:cite:datamodels.v1.urn:#Data model#Cite2Urn#
+urn:cite2:cite:datamodels.v1.label:#Label#String#
+urn:cite2:cite:datamodels.v1.description:#Description#String#
+
+#!citedata
+urn#label#description
+urn:cite2:cite:datamodels.v1:imagemodel#Citable Image#Model of a citable image.  See http://cite-architecture.github.io/imagemodel/.
+urn:cite2:cite:datamodels.v1:binaryimg#Binary image data#Model of a binary image data associated with a citable image.  See TBA.
+urn:cite2:cite:datamodels.v1:tbsmodel#Text Bearing Surface Model#Model of TextBearing Surfaces.  See http://cite-architecture.github.io/tbsmodel/.
+urn:cite2:cite:datamodels.v1:dse#Diplomatic Scholarly Edition#Diplomatic Scholarly Edition.  See https://cite-architecture.github.io/dsemodel/.
+urn:cite2:cite:datamodels.v1:commentarymodel#Commentary#Model text passages commenting on text passages
