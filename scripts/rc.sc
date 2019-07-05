@@ -107,12 +107,13 @@ def allCex: String = {
   // Four subdirectories of the archive root contain all archival
   // data in CEX format:
   val tbsCex = DataCollector.compositeFiles("archive/codices", "cex")
-  //val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
   val imageCex = DataCollector.compositeFiles("archive/images", "cex")
   val annotationCex = DataCollector.compositeFiles("archive/annotations","cex")
-  //val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
   val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
   val authlistsCex = DataCollector.compositeFiles("archive/authlists", "cex")
+
+  //val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
+
 
   // Texts and cross references are dynamically built from XML source
   val scholiaCommentsIndex = commentaryIndex(scholiaXmlRepo)
@@ -120,7 +121,7 @@ def allCex: String = {
   val diplomaticTextsCex = diplomaticTextRepository.cex("#")
 
   // Concatenate into a single string:
-  //List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex, authlistsCex, scholiaCommentsIndex, diplomaticTextRepository ).mkString("\n\n") + "\n"
+  //List(libraryCex, tbsCex, imageCex, annotationCex, indexCex, authlistsCex, dseCex, scholiaCommentsIndex, diplomaticTextRepository ).mkString("\n\n") + "\n"
 
   List(libraryCex, tbsCex, imageCex, annotationCex, indexCex, authlistsCex, scholiaCommentsIndex, diplomaticTextsCex).mkString("\n\n") + "\n"
 
