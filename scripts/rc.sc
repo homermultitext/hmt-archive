@@ -54,8 +54,8 @@ def scholiaXmlRepo: TextRepository = {
 
 
 // Construct HMT diplomatic corpus from XML corpus.
-def diplCorpus(c: Corpus): Corpus = {
-  val nodeOpts = for (n <- c.nodes.filterNot(_.urn.passageComponent.contains("ref"))) yield {
+def diplomaticRepo(tr: TextRepository): TextRepository = {
+  val nodeOpts = for (n <- tr.corpus.nodes.filterNot(_.urn.passageComponent.contains("ref"))) yield {
     try {
       Some(DiplomaticReader.editedNode(n))
       // yay
@@ -75,7 +75,7 @@ def diplCorpus(c: Corpus): Corpus = {
       }
     }
   }
-  Corpus(nodeOpts.toVector.flatten)
+  TextRepository(Corpus(nodeOpts.toVector.flatten),tr.catalog)
 }
 
 // Create CEX relations for commentary commenting on text.
@@ -84,13 +84,21 @@ def commentaryIndex(scholiaRepo: TextRepository) : String = {
   val xrefNodes = scholiaRepo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
   val links = for (n <- xrefNodes) yield {
     val xn = XML.loadString(n.text)
-    n.urn.collapsePassageBy(1) +  s"#${verb}#" + xn.text.trim
+    try {
+      val urn2 = CtsUrn(xn.text.trim)
+      n.urn.collapsePassageBy(1) +  s"#${verb}#" + urn2
+    } catch {
+      case t: Throwable => {
+        println("Could not make valid URN from " + xn.text.trim + " in " + n.urn)
+        ""
+      }
+    }
   }
   val hdr = "#!relations\n"
-  hdr + links.mkString
+  hdr + links.mkString("\n")
 }
 
-def catAll: String = {
+def allCex: String = {
   // The archive's root directory has the library definition
   // for a given release in the file "library.cex".
   val libraryCex = DataCollector.compositeFiles("archive", "cex")
@@ -98,16 +106,36 @@ def catAll: String = {
   // Four subdirectories of the archive root contain all archival
   // data in CEX format:
   val tbsCex = DataCollector.compositeFiles("archive/codices", "cex")
-  val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
+  //val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
   val imageCex = DataCollector.compositeFiles("archive/images", "cex")
   val annotationCex = DataCollector.compositeFiles("archive/annotations","cex")
-  val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
+  //val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
   val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
   val authlistsCex = DataCollector.compositeFiles("archive/authlists", "cex")
 
-
+  // Texts and cross references are dynamically built from XML source
   val scholiaCommentsIndex = commentaryIndex(scholiaXmlRepo)
+  val diplomaticTextRepository = diplomaticRepo(iliadXmlRepo ++ scholiaXmlRepo)
+  val diplomaticTextsCex = diplomaticTextRepository.cex("#")
 
   // Concatenate into a single string:
-  List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex, authlistsCex ).mkString("\n\n") + "\n"
+  //List(libraryCex, tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex, authlistsCex, scholiaCommentsIndex, diplomaticTextRepository ).mkString("\n\n") + "\n"
+
+  List(libraryCex, tbsCex, imageCex, annotationCex, indexCex, authlistsCex, scholiaCommentsIndex, diplomaticTextsCex).mkString("\n\n") + "\n"
+
+
+
+}
+
+
+// Write an HMT release candidate
+def rc(releaseId: String) : Unit = {
+  println("Assembling all HMT archival data into CEX format\n\n")
+  val cex = allCex
+  val outFile = s"release-candidates/hmt-${releaseId}.cex"
+  println("\n\nWriting CEX to " + outFile)
+  new PrintWriter(outFile) { write(cex); close}
+  println("\n\nTesting output by loading as a CITE library...\n\n")
+  val lib = CiteLibrarySource.fromFile(outFile)
+
 }
