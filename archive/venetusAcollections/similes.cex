@@ -1,0 +1,22 @@
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:similemarkers.v1:#Simile markers in the Venetus A manuscript#urn:cite2:hmt:similemarkers.v1.label:#urn:cite2:hmt:similemarkers.v1.number:#CC-attribution-share-alike
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:similemarkers.v1.urn:#Urn#Cite2Urn#
+urn:cite2:hmt:similemarkers.v1.number:#Number#Number#
+urn:cite2:hmt:similemarkers.v1.passage:#Passage#CtsUrn#
+urn:cite2:hmt:similemarkers.v1.label:#Label#String#
+urn:cite2:hmt:similemarkers.v1.imageroi:#Visual evidence#Cite2Urn#
+urn:cite2:hmt:similemarkers.v1.folio:#Folio#Cite2Urn#
+
+
+#!citedata
+urn#number#passage#label#imageroi#folio
+urn:cite2:hmt:similemarkers.v1:1#1#urn:cts:greekLit:tlg0012.tlg001.msA:2.87#bee simile#urn:cite2:hmt:vaimg.2017a:VA026RN_0027@0.81061164,0.23298284,0.01768607,0.01328168#urn:cite2:hmt:msA.v1:26r
+urn:cite2:hmt:similemarkers.v1:2#2#urn:cts:greekLit:tlg0012.tlg001.msA:2.144#wave simile#urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.80987472,0.33471646,0.01915991,0.01659751#urn:cite2:hmt:msA.v1:27r
+urn:cite2:hmt:similemarkers.v1:3#3#urn:cts:greekLit:tlg0012.tlg001.msA:2.147#corn simile#urn:cite2:hmt:vaimg.2017a:VA027RN_0028@0.80913780,0.39363762,0.01621223,0.01327801#urn:cite2:hmt:msA.v1:27r
+urn:cite2:hmt:similemarkers.v1:4#4#urn:cts:greekLit:tlg0012.tlg001.msA:2.209#wave simile#urn:cite2:hmt:vaimg.2017a:VA028RN_0029@0.78887251,0.59197787,0.02505527,0.02683264#urn:cite2:hmt:msA.v1:28r
+urn:cite2:hmt:similemarkers.v1:5#5#urn:cts:greekLit:tlg0012.tlg001.msA:2.289#cry simile#urn:cite2:hmt:vaimg.2017a:VA030RN_0031@0.80950626,0.20746888,0.01547531,0.01327801#urn:cite2:hmt:msA.v1:30r
