@@ -6,7 +6,7 @@ scalaVersion := "2.12.4"
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
 
-  "edu.holycross.shot.cite" %% "xcite" % "4.0.2",
+  "edu.holycross.shot.cite" %% "xcite" % "4.1.0",
   "edu.holycross.shot" %% "ohco2" % "10.13.0",
   "edu.holycross.shot" %% "dse" % "4.6.0",
   "edu.holycross.shot" %% "scm" % "6.2.3",
