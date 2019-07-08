@@ -112,6 +112,7 @@ def allCex: String = {
   val annotationCex = DataCollector.compositeFiles("archive/annotations","cex")
   val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
   val authlistsCex = DataCollector.compositeFiles("archive/authlists", "cex")
+  val vaCollectionsCex = DataCollector.compositeFiles("archive/venetusAcollections")
 
   val dseCex = DataCollector.compositeFiles("archive/dse", "cex")
 
