@@ -11,6 +11,7 @@ val releaseFile = "release-candidates/hmt-2019_1_rc2.cex"
 def iliad(src: String =  releaseFile ) = {
   val lib = CiteLibrarySource.fromFile(src)
   val corpus = lib.textRepository.get.corpus
-  val lines = corpus.nodes.map(n => n.urn.passageComponent + "#" + n.text)
+  val iliadCorpus = corpus ~~ CtsUrn("urn:cts:greekLit:tlg0012.tlg001:")
+  val lines = iliadCorpus.nodes.map(n => n.urn.passageComponent + "#" + n.text)
   lines.map(_.replaceAll("[\t ]+", " ")).mkString("\n").replaceAll("#", "\t")
 }
