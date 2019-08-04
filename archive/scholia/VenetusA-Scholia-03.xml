@@ -408,8 +408,8 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.36</p>
                   </div>
                   <div n="comment">
-                     <p> ὅτι ἀγερώχους τοὺς <rs type="ethnic" n="urn:cite:hmt:place.place6"
-                           >Τρῷας</rs> οὐμόνον τοὺς <rs type="ethnic" n="urn:cite:hmt:place.place26"
+                     <p> ὅτι ἀγερώχους τοὺς <rs type="ethnic" n="urn:cite2:hmt:place.v1:place6"
+                           >Τρῷας</rs> οὐμόνον τοὺς <rs type="ethnic" n="urn:cite2:hmt:place.v1:place26"
                            >Ῥοδίους</rs> ὥς τινες ὠήθησαν, δια τὸ ἀγείρειν τὴν ὀχήν τοῦτέστι τὴν
                         τροφήν ὁ γὰρ <persName n="urn:cite2:hmt:pers.v1:pers17">Ὅμηρος</persName>
                         ἀγερώχους τοὺς ἄγαν γεραωχοὺς καὶ σεμνοὺς λέγει ⁑ </p>
@@ -911,7 +911,7 @@ style simple scholia" alternate="no"?>
                </div>
                <div ana="3.82b" n="151" type="scholion">
                   <div n="lemma">
-                     <p> ΐσχεσθ᾽ <rs type="ethni" n="urn:cite2:hmt:place.v1:place114">Ἀργεῖοι</rs>
+                     <p> ΐσχεσθ᾽ <rs type="ethnic" n="urn:cite2:hmt:place.v1:place114">Ἀργεῖοι</rs>
                      </p>
                   </div>
                   <div n="ref">
@@ -2649,7 +2649,7 @@ style simple scholia" alternate="no"?>
                         τὸ τεχθὲν παιδίον εὐθέως μικρὸν ὂν ῥιφῆναι θρησὶ βοράν. τεχθέντα δὲ
                            τὸν<persName n="urn:cite2:hmt:pers.v1:pers129"> ᾿Αλέξανδρον</persName>
                         ἐξέθηκαν ἐν τῇ ΄Ϊδῃ ὃν ποιμὴν ἑορακὼς σφόδρα εὐειδέστατον. ἀνελόμενος
-                        (abbrev.) ἀνέθρεψεν· <persName n="urn:cite2:hmt:pers.v1:pers77"
+                       ἀνέθρεψεν· <persName n="urn:cite2:hmt:pers.v1:pers77"
                            >Πορφύριος</persName> φησὶν ἱστορεῖν τὸν γράψαντα τὰ
                            <rs>Τραγῳδούμενα</rs>. ὅτι ὁ θρέψας τὸν <persName
                            n="urn:cite2:hmt:pers.v1:pers129">Πάριν</persName> νομεὺς ἀρχιάλας
@@ -3637,7 +3637,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.108</p>
                   </div>
                   <div n="comment">
-                     <p> νεωτερ (symbol) </p>
+                     <p> νεωτερ  </p>
                   </div>
                </div>
                <div n="698" type="scholion">
@@ -3648,7 +3648,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:3.108</p>
                   </div>
                   <div n="comment">
-                     <p> κσέμαντ (abbreviation)</p>
+                     <p> κσέμαντ</p>
                   </div>
                </div>
                <div n="699" type="scholion">

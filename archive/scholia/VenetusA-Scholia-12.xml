@@ -2456,7 +2456,7 @@
                     </div>
                     <div n="H37" type="scholion">
                         <div n="lemma">
-                            <p>ῶδε γὰρ ἔβρισαν:</p>
+                            <p>ῶδε γὰρ ἔβρισαν~</p>
 
                         </div>
                         <div n="ref">
@@ -3634,7 +3634,7 @@
 
                 </body>
             </text>
-      
+
               <text n="msAil">
                 <body>
 
@@ -6233,7 +6233,7 @@
 
                 </body>
             </text>
-      
+
               <text n="msAim">
                 <body>
                     <!-- folio 154v -->
@@ -7054,11 +7054,11 @@
 
                 </body>
             </text>
-       
+
         	<text n="msAext">
         		<body>
-        			
-        			
+
+
         			<!-- folio 154v -->
         			<div n="A1" type="scholion">
         				<div n="lemma">
@@ -7169,9 +7169,9 @@
         						>Πο</supplied>σειδαων</w></persName></p>
         				</div>
         			</div>
-        			
+
         			<!-- folio 155r -->
-        			
+
         			<div n="B1" type="scholion">
         				<div n="lemma">
         					<p/>
@@ -7186,7 +7186,7 @@
         			<!-- folio 155v -->
         			<!-- folio 156r -->
         			<!-- folio 156v -->
-        			
+
         			<!-- folio 157r -->
         			<div n="G1" type="scholion">
         				<div n="lemma">
@@ -7199,9 +7199,9 @@
         					<p>πυλάων</p>
         				</div>
         			</div>
-        			
+
         			<!-- folio 157v -->
-        			
+
         			<div n="E2" type="scholion">
         				<div n="lemma">
         					<p/>
@@ -7212,9 +7212,9 @@
         				<div n="comment">
         					<p>ὢ</p>
         				</div>
-        				
+
         			</div>
-        			
+
         			<!-- folio 158r -->
         			<!-- folio 158v -->
         			<!-- folio 159r -->
@@ -7286,15 +7286,15 @@
         				</div>
         			</div>
         			<!-- folio 163v -->
-        			
-        			
-        			
-        			
-        			
-        			
+
+
+
+
+
+
         		</body>
         	</text>
-        	
+
         </group>
     </text>
 </TEI>

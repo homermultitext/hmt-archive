@@ -2,18 +2,24 @@
 
 This is the central repository for archival data from the Homer Multitext project.
 
-Published releases are machine generated and validated from data in the `archive` directory, and are committed to the `releases-cex` directory.  Other directories in this repository include scripts for working with the archive, and work in progress integrating contributions from HMT editors.
+Published releases are machine generated and validated from data in the `archive` directory.  Release candidates are committed to the `release-candidates` directory.  Published releases are com
+
+ and are committed to the `releases-cex` directory.  Other directories in this repository include scripts for working with the archive, and work in progress integrating contributions from HMT editors.
+
+
+
+## Current releases
+
+- Most recent release candidate:  `2019_1_r2`.  See a brief summary of [release candidates](release-candidates/README.md)
+- Most recent published release:  `2018e`.  See a brief summary of [published releases](releases-cex/README.md).
+
+
 
 
 ## What is published here?
 
 -   See a [guide to understanding HMT project publications](overview.md)
 -   For more detailed technical information about how the archive is organized and managed, see the web site at <http://homermultitext.github.io/hmt-archive/>.
-
-
-## Current published release: `2018e`
-
-See a brief summary of [published releases](releases-cex/README.md).
 
 
 

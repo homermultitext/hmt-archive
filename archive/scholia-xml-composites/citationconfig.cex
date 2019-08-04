@@ -1,7 +1,7 @@
 Text URN#Format#Document#Namespace mapping#Citation model
-urn:cts:greekLit:tlg5026.msAint.hmt_xml:#xml#va_composite_scholia_msAint.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
-urn:cts:greekLit:tlg5026.msA.hmt_xml:#xml#va_composite_scholia_msA.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
-urn:cts:greekLit:tlg5026.msAext.hmt_xml:#xml#va_composite_scholia_msAext.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
-urn:cts:greekLit:tlg5026.msAextra.hmt_xml:#xml#va_composite_scholia_msAextra.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
-urn:cts:greekLit:tlg5026.msAil.hmt_xml:#xml#va_composite_scholia_msAil.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
-urn:cts:greekLit:tlg5026.msAim.hmt_xml:#xml#va_composite_scholia_msAim.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
+urn:cts:greekLit:tlg5026.msAint.hmt:#xml#va_composite_scholia_msAint.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
+urn:cts:greekLit:tlg5026.msA.hmt:#xml#va_composite_scholia_msA.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
+urn:cts:greekLit:tlg5026.msAext.hmt:#xml#va_composite_scholia_msAext.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
+urn:cts:greekLit:tlg5026.msAextra.hmt:#xml#va_composite_scholia_msAextra.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
+urn:cts:greekLit:tlg5026.msAil.hmt:#xml#va_composite_scholia_msAil.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
+urn:cts:greekLit:tlg5026.msAim.hmt:#xml#va_composite_scholia_msAim.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:div[@n = '?']
