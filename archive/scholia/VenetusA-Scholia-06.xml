@@ -3221,10 +3221,9 @@
                         </div>
                     </div>
                     <div ana="160a" type="scholion" n="56">
-                        <div n="lemma">
-                            <note>see above: There is a clear ending mark, yet the prior scholion
-                                seems to be this one's lemma</note>
-                        </div>
+                        <div n="lemma"/>
+
+
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.160</p>
                         </div>
@@ -3708,9 +3707,8 @@
                         </div>
                     </div>
                     <div ana="244" type="scholion" n="86">
-                        <div n="lemma">
-                            <p><note>See note on lemma for Erbse 160a</note></p>
-                        </div>
+                        <div n="lemma"/>
+
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.244</p>
                         </div>
@@ -4340,9 +4338,9 @@
                         </div>
                     </div>
                     <div ana="414a" type="scholion" n="121">
-                        <div n="lemma">
-                            <p><note>See note on lemma for Erbse 160a, 244</note></p>
-                        </div>
+                        <div n="lemma"/>
+                            
+
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.414</p>
                         </div>
