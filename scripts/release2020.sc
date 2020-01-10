@@ -13,7 +13,7 @@ import $ivy.`edu.holycross.shot::ohco2:10.18.1`
 import $ivy.`edu.holycross.shot.cite::xcite:4.2.0`
 import $ivy.`edu.holycross.shot::scm:7.2.0`
 import $ivy.`org.homermultitext::hmtcexbuilder:3.5.0`
-import $ivy.`org.homermultitext::hmt-textmodel:5.1.0`
+import $ivy.`org.homermultitext::hmt-textmodel:5.2.1`
 //
 // GENERIC SCALA from here on
 //
