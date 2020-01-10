@@ -138,6 +138,9 @@ def iliad = {
   // write CEX-formatted version of archival XML:
   new PrintWriter(s"${iliadComposites}/va_iliad_xml.cex") { write(repo.cex("#"));close }
 
+
+  val dipl =  DiplomaticReader.edition(repo.corpus)
+
   /*
 
   // Generate pure diplomatic edition:
