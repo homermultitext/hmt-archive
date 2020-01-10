@@ -279,7 +279,5 @@ def release(releaseId: String) =  {
 
 }
 
-release("not_real_2020_d")
-
 println("\nBuild a release of the HMT archive:")
 println("\n\trelease(RELEASE_ID)")
