@@ -1,6 +1,7 @@
 // If you want to use sbt instead of almond.sh, comment out
 // sections one and two.
 //
+/*
 // Almond.sh set up:
 // 1. Add maven repository where we can find our libraries
 val myBT = coursierapi.MavenRepository.of("https://dl.bintray.com/neelsmith/maven")
@@ -13,7 +14,8 @@ import $ivy.`edu.holycross.shot::ohco2:10.18.1`
 import $ivy.`edu.holycross.shot.cite::xcite:4.2.0`
 import $ivy.`edu.holycross.shot::scm:7.2.0`
 import $ivy.`org.homermultitext::hmtcexbuilder:3.5.0`
-import $ivy.`org.homermultitext::hmt-textmodel:5.2.1`
+import $ivy.`org.homermultitext::hmt-textmodel:5.2.2`
+*/
 //
 // GENERIC SCALA from here on
 //
@@ -47,7 +49,7 @@ val cexEditions = "archive/editions"
 *
 * @param xrefNodes Vector of citation nodes.
 * @param editionsDir Directory where output should be written.
-*/
+
 def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) : Unit = {
 
   val xrefUrns = for (n <- xrefNodes) yield {
@@ -77,12 +79,14 @@ def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) 
   val hdr = "#!relations\n"
   new PrintWriter(s"${cexEditions}/commentaryIndex.cex") { write(hdr + index.mkString("\n") + "\n");close }
 }
+*/
 
 /**  Compose editions of scholia.  This includes
 * an archival XML edition in CEX format; and
 * a pure diplomatic edition in CEX format.
 */
 def scholia: Unit = {
+
   println("Creating composite XML editions of scholia...")
   ScholiaComposite.composite(scholiaXml, scholiaComposites)
   val catalog = s"${scholiaComposites}/ctscatalog.cex"
@@ -92,39 +96,32 @@ def scholia: Unit = {
   val scholiaNodes = repo.corpus.nodes.filterNot(_.urn.passageComponent.endsWith("ref"))
 
   val scholiaRepo = TextRepository( Corpus(scholiaNodes), repo.catalog)
-
-
-  //////// THIS NEEDS REWRITING
-/*
-  val tokens = TeiReader.fromCorpus(scholiaRepo.corpus)
-
-  // Compute corrigenda for each scholia document, and
-  // generate automatically derived editions:
-  val scholiaDocs = scholiaRepo.corpus.nodes.map(_.urn.work).distinct
+  val corpus = scholiaRepo.corpus
+  val scholiaDocs = corpus.nodes.map(_.urn.dropPassage).distinct
   for (s <- scholiaDocs) {
-    if (s != "msAextra") {
-    //if (s == "msAil") {
-      //println("Get tokens for " + s)
-      val subCorpusTokens = tokens.filter(_.textNode.work == s)
-      publishScholiaCorpus(subCorpusTokens, s, cexEditions)
-      indexAuthlists(subCorpusTokens, s, cexEditions)
+    val siglum = s.work
+    if (siglum != "msAextra") {
+      println("Get subcorpus for " + s)
+      val subcorpusAll = corpus ~~ s
+
+      val cleanNodes = subcorpusAll.nodes.filterNot(n => TextReader.collectText(n.text).trim.isEmpty)
+      println("Clean nodes: " + cleanNodes.size)
+      val subcorpus = Corpus(cleanNodes)
+      println("Got " + subcorpus.size + " scholia.")
+      val diplSubcorpus = DiplomaticReader.edition(subcorpus)
+
+      val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026." + siglum + ".dipl:#book,scholion, section#Scholia to the Iliad#Scholia " + siglum + " in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+
+      new PrintWriter(s"${cexEditions}/${siglum}_diplomatic.cex") { write(diplHeader + diplSubcorpus.cex("#"));close }
     }
   }
-  // Write index file indexing scholia to Iliad passage they
-  // comment on:
-  val refNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
-  indexScholiaCommentary (refNodes, cexEditions)
-
-  // Now index all personal names and place names...
-  */
 }
-
 
 /**  Compose editions of Iliad.  This includes
 * an archival XML edition in CEX format;  and
 * a pure diplomatic edition in CEX format.
 */
-def iliad = {
+def iliad : Unit= {
   // revisit this for making multiple Iliads...
   val fileBase = "va_iliad_"
   println("Creating editions of Iliad...")
@@ -138,19 +135,13 @@ def iliad = {
   // write CEX-formatted version of archival XML:
   new PrintWriter(s"${iliadComposites}/va_iliad_xml.cex") { write(repo.cex("#"));close }
 
-
-  val dipl =  DiplomaticReader.edition(repo.corpus)
-
-  /*
-
-  // Generate pure diplomatic edition:
-  val diplIliad = DiplomaticEditionFactory.corpusFromTokens(tokens)
-  val diplIliadByLine = diplIliad.exemplarToVersion("msA")
-
+  val diplIliad =  DiplomaticReader.edition(repo.corpus)
   val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
 
-  new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader + diplIliadByLine.cex("#"));close }
-  */
+
+  val tidyDipl = diplIliad.cex("#").replaceAll("[\t ]+", " ")
+
+  new PrintWriter(s"${cexEditions}/va_iliad_diplomatic.cex") { write(diplHeader +  tidyDipl);close }
 }
 
 
@@ -288,7 +279,7 @@ def release(releaseId: String) =  {
 
 }
 
-release("not_real_2020_b")
+release("not_real_2020_d")
 
 println("\nBuild a release of the HMT archive:")
 println("\n\trelease(RELEASE_ID)")
