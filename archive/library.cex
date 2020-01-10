@@ -4,9 +4,10 @@
 3.0.1
 
 #!citelibrary
-
-name#Homer Multitext project, release 2019, 1, RC 2
-urn#urn:cite2:hmt:publications.cex.2018_1_rc2:all
+// These values are inserted programmtacally when
+// the CITE library is built:
+RELEASE_NAME_VALUE
+RELEASE_URN_VALUE
 license#Creative Commons Attribution, Non-Commercial 4.0 License <https://creativecommons.org/licenses/by-nc/4.0/>.
 
 // CITE namespace definitions
