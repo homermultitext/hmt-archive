@@ -30,8 +30,7 @@ import edu.holycross.shot.xmlutils._
 import org.homermultitext.edmodel._
 import java.io.PrintWriter
 import scala.io._
-
-
+import java.io.File
 
 // Predefine the layout of archive's file directory:
 // 1. src directories for texts broken out by MS and book
@@ -40,7 +39,9 @@ val iliadXml = "archive/iliad"
 // 2. target directory for intermeidate composite xml output
 val scholiaComposites = "archive/scholia-xml-composites"
 val iliadComposites = "archive/iliad-xml-composites"
-// 3. target directory for publishable CEX editions of texts
+// 3. src directory for dynamically downloaded authority lists:
+val authListDir = "archive/authlists"
+// 4. target directory for publishable CEX editions of texts
 val cexEditions = "archive/editions"
 
 
@@ -133,7 +134,7 @@ def iliad : Unit= {
   val citation = s"${iliadComposites}/citationconfig.cex"
   val repo = TextRepositorySource.fromFiles(catalog,citation,iliadComposites)
   // write CEX-formatted version of archival XML:
-  new PrintWriter(s"${iliadComposites}/va_iliad_xml.cex") { write(repo.cex("#"));close }
+  //new PrintWriter(s"${iliadComposites}/va_iliad_xml.cex") { write(repo.cex("#"));close }
 
   val diplIliad =  DiplomaticReader.edition(repo.corpus)
   val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
@@ -176,17 +177,23 @@ def tidy = {
   for (f <- scholiaCompositeFiles.toSeq) {
     f.delete()
   }
+
+
   val iliadCompositeFiles  = DataCollector.filesInDir(iliadComposites, "xml")
   for (f <- iliadCompositeFiles.toSeq) {
     f.delete()
   }
+
 
   val cexEditionFiles = DataCollector.filesInDir(cexEditions, "cex")
   for (f <- cexEditionFiles.toSeq) {
     f.delete()
   }
 
-
+  val authListFiles = DataCollector.filesInDir(authListDir, "cex")
+  for (f <- authListFiles) {
+    if (f.getName() != "catalog.cex") {f.delete() }
+  }
 
 }
 
@@ -262,17 +269,15 @@ def release(releaseId: String) =  {
 
   // build a single markdown file with all corrigenda, and
   // write it out to a file:
-  val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
-  val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
-  new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
+  //val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
+  //val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
+  //new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
 
   // clean up intermediate files:
-  //tidy
+  tidy
 
   println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying list of corrigenda in release-candidates/hmt-${releaseId}-corrigenda.md\n")
 
-  //println("Now preparing user guide...")
-  //userGuide(releaseId)
 
 }
 
