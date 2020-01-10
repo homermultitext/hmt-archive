@@ -263,7 +263,7 @@ def release(releaseId: String) =  {
   updateAuthlists
 
   // build single CEX composite and write it out to a file:
-  val allCex = catAll
+  val allCex =  libraryHeader(releaseId) + "\n\n" + catAll
   new PrintWriter(s"release-candidates/hmt-${releaseId}.cex") { write(allCex); close}
 
   // From the composite, select material for a text-only release
