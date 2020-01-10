@@ -6400,6 +6400,64 @@
 									n="waw">τμήδην</rs>⁑</p>
 						</div>
 					</div>
+					
+					<div n="A5a" type="scholion">
+						<div n="lemma"> <p/> </div>
+						<div
+							n="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:13.594</p>
+						</div>
+						<div
+							n="comment">
+							<p><choice>
+								<abbr>ουτ</abbr>
+								<expan>οὕτως</expan>
+							</choice> <persName
+								n="urn:cite2:hmt:pers.v1:pers16">
+								<choice>
+									<abbr>Αριστ</abbr>
+									<expan>Αριστάρχος</expan>
+								</choice></persName>
+								<q>ῄ ρ' ἔχε</q> καθ' ὃ μέρος κατεῖχε ⁑
+							</p>
+						</div>
+					</div>
+					
+					<div n="A5b" type="scholion">
+						<div n="lemma"> <p/> </div>
+						<div
+							n="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:13.599</p>
+						</div>
+						<div
+							n="comment">
+							<p><persName
+								n="urn:cite2:hmt:pers.v1:pers16">
+								<choice>
+									<abbr>Αριστ</abbr>
+									<expan>Αριστάρχος</expan>
+								</choice></persName>
+								<q>ἐϋστρεφεῖ</q> ὡς ἀπὸ τῆς <rs type="waw">εὐσρεφές</rs> ⁑
+							</p>
+						</div>
+					</div>
+					
+					<div n="A5c" type="scholion">
+						<div n="lemma"> <p/> </div>
+						<div
+							n="ref">
+							<p>urn:cts:greekLit:tlg0012.tlg001.msA:13.608</p>
+						</div>
+						<div
+							n="comment">
+							<p><choice>
+								<abbr>γρ</abbr>
+								<expan>γράφεται</expan> 
+							</choice> ⁑
+							</p>
+						</div>
+					</div>
+					
 					<div
 						n="A6"
 						type="scholion">
