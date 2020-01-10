@@ -110,7 +110,7 @@ def scholia: Unit = {
       println("Got " + subcorpus.size + " scholia.")
       val diplSubcorpus = DiplomaticReader.edition(subcorpus)
 
-      val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026." + siglum + ".dipl:#book,scholion, section#Scholia to the Iliad#Scholia " + siglum + " in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+      val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026." + siglum + ".hmt:#book,scholion, section#Scholia to the Iliad#Scholia " + siglum + " in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
 
       new PrintWriter(s"${cexEditions}/${siglum}_diplomatic.cex") { write(diplHeader + diplSubcorpus.cex("#"));close }
     }
@@ -172,25 +172,22 @@ def catAll: String = {
 * a release.
 */
 def tidy = {
-  /*val scholiaCompositeFiles  = DataCollector.filesInDir(scholiaComposites, "xml")
+  val scholiaCompositeFiles  = DataCollector.filesInDir(scholiaComposites, "xml")
   for (f <- scholiaCompositeFiles.toSeq) {
     f.delete()
   }
   val iliadCompositeFiles  = DataCollector.filesInDir(iliadComposites, "xml")
   for (f <- iliadCompositeFiles.toSeq) {
     f.delete()
-  }*/
+  }
 
   val cexEditionFiles = DataCollector.filesInDir(cexEditions, "cex")
   for (f <- cexEditionFiles.toSeq) {
     f.delete()
   }
-  /*
-  val corrigendaFiles = DataCollector.filesInDir(cexEditions, "corrigenda.md")
-  for (f <- corrigendaFiles.toSeq) {
-    f.delete()
-  }
-  */
+
+
+
 }
 
 
