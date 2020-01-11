@@ -259,15 +259,8 @@ def hmtValidators(lib: CiteLibrary) : Vector[MidValidator[Any]]= {
 def validateRelease(releaseId: String) = {
   val f = s"release-candidates/hmt-${releaseId}.cex"
   val lib = CiteLibrarySource.fromFile(f)
-
-
-  val pages =
-    Vector(
-      Cite2Urn("urn:cite2:hmt:msA.v1:30r"),
-      Cite2Urn("urn:cite2:hmt:msA.v1:31v")
-    )
-  println("Validating pages " + pages)
-  val rslts = LibraryValidator.validate(pages, hmtValidators(lib))
+  println("Validating library " + lib.name)
+  val rslts = LibraryValidator.validate(lib, hmtValidators(lib))
   println(rslts)
 }
 
