@@ -14,4 +14,4 @@ urn:cite2:hmt:va_dse.v1.surface:#Artifact surface#Cite2Urn#
 
 #!datamodels
 Collection#Model#Label#Description
-urn:cite2:hmt:va_dse.v1:#urn:cite2:cite:datamodels.v1:dse#DSE model of the Venetus A manuscript#Diplomatic Scholarly Edition (DSE) model.  See documentation at <https://github.com/cite-architecture/dse>.
+urn:cite2:hmt:va_dse.v1:#urn:cite2:cite:datamodels.v1:dsemodel#DSE model of the Venetus A manuscript#Diplomatic Scholarly Edition (DSE) model.  See documentation at <https://github.com/cite-architecture/dse>.
