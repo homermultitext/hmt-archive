@@ -28,6 +28,9 @@ import edu.holycross.shot.cex._
 import edu.holycross.shot.xmlutils._
 
 import org.homermultitext.edmodel._
+import edu.holycross.shot.mid.validator._
+
+
 import java.io.PrintWriter
 import scala.io._
 import java.io.File
@@ -50,9 +53,9 @@ val cexEditions = "archive/editions"
 *
 * @param xrefNodes Vector of citation nodes.
 * @param editionsDir Directory where output should be written.
-
+*/
 def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) : Unit = {
-
+/*
   val xrefUrns = for (n <- xrefNodes) yield {
     val scholion = n.urn.collapsePassageTo(2)
     val iliadUrnText = TextReader.collectText(n.text).trim
@@ -79,8 +82,9 @@ def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) 
 
   val hdr = "#!relations\n"
   new PrintWriter(s"${cexEditions}/commentaryIndex.cex") { write(hdr + index.mkString("\n") + "\n");close }
+  */
 }
-*/
+
 
 /**  Compose editions of scholia.  This includes
 * an archival XML edition in CEX format; and
@@ -164,7 +168,6 @@ def catAll: String = {
 
   val authlistsCex = DataCollector.compositeFiles("archive/authlists", "cex")
 
-
   // Concatenate into a single string:
   List(tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex, authlistsCex ).mkString("\n\n") + "\n"
 }
@@ -198,7 +201,9 @@ def tidy = {
 }
 
 
-
+/** Compose CEX header for library by replacing
+* template values for name and urn of release in library.cex.
+*/
 def libraryHeader(releaseId: String): String = {
   val src = Source.fromFile("archive/library.cex").getLines.toVector.mkString("\n")
   val modified = src.replaceFirst("RELEASE_NAME_VALUE",
@@ -212,10 +217,6 @@ def libraryHeader(releaseId: String): String = {
 /** Concatenate all CEX source into a single string.
 */
 def catTextThings: String = {
-  // The archive's root directory has the library definition
-  // for a given release in the file "library.cex".
-  //val libraryCex = DataCollector.compositeFiles("archive", "cex")
-
   // Four subdirectories of the archive root contain all archival
   // data in CEX format:
   val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
@@ -245,15 +246,24 @@ def updateAuthlists = {
 }
 
 
-/** Publish a release of the Homer Multitext project archive.
-*
-* @param releaseId Identifier for the release.
-* The value should be the version identifier for this release's URN
-* as given in `library.cex`.  E.g., to publish release
-* `urn:cite2:hmt:publications.cex.2018a:all`, use `2018a`
-* as the value for releaseId.
-*/
-def release(releaseId: String) =  {
+def validateRelease(releaseId: String) = {
+  val f = s"release-candidates/hmt-${releaseId}.cex"
+  val lib = CiteLibrarySource.fromFile(f)
+  val libValidator = LibraryValidator(lib)
+
+
+  val dsev = DseValidator(lib)
+  val hmtValidators = Vector(dsev)
+
+
+  val pg =   Cite2Urn("urn:cite2:hmt:msA.v1:12r")
+  println("Validating page " + pg)
+  val rslts = libValidator.validate(pg, hmtValidators)
+  println(rslts)
+}
+
+
+def buildRelease(releasId: String) = {
   // Generate intermediate files:
   scholia
   iliad
@@ -267,17 +277,31 @@ def release(releaseId: String) =  {
   // From the composite, select material for a text-only release
   releaseTexts(releaseId)
 
+  // clean up intermediate files:
+  tidy
+}
+
+
+/** Publish a release of the Homer Multitext project archive.
+*
+* @param releaseId Identifier for the release.
+* The value should be the version identifier for this release's URN
+* as given in `library.cex`.  E.g., to publish release
+* `urn:cite2:hmt:publications.cex.2018a:all`, use `2018a`
+* as the value for releaseId.
+*/
+def release(releaseId: String) =  {
+  buildRelease(releaseId)
+
+  println("Validating release " + releaseId)
+  validateRelease(releaseId)
   // build a single markdown file with all corrigenda, and
   // write it out to a file:
   //val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
   //val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
   //new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
 
-  // clean up intermediate files:
-  tidy
-
   println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying list of corrigenda in release-candidates/hmt-${releaseId}-corrigenda.md\n")
-
 
 }
 
