@@ -13,14 +13,14 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
 
   "edu.holycross.shot.cite" %% "xcite" % "4.2.0",
-  "edu.holycross.shot" %% "ohco2" % "10.18.1",
+  "edu.holycross.shot" %% "ohco2" % "10.18.2",
 
   "edu.holycross.shot" %% "cex" % "6.4.0",
   "edu.holycross.shot" %% "dse" % "6.0.2",
   "edu.holycross.shot" %% "scm" % "7.2.0",
   "edu.holycross.shot" %% "citerelations" % "2.6.0",
 
-  "edu.holycross.shot" %% "midvalidator" % "11.0.0",
+  "edu.holycross.shot" %% "midvalidator" % "12.0.0",
 
   "org.homermultitext" %% "hmt-textmodel" % "6.0.2",
 
