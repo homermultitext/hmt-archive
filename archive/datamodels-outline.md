@@ -103,7 +103,6 @@ Applies to:
 
 Applies to:
 
-
 -   `codex/vapages.cex`
 -   `codex/vbpages.cex`
 -   comparetti-codex.cex
@@ -119,10 +118,11 @@ Applies to:
 -  Documentation:  <https://cite-architecture.github.io/dse/>
 
 
-Applies to:
+Applies to data in
 
--  `dse/venA-iliad-dse.cex`
--  `dse/venA-scholia-dse.cex`
+-  `dse-data` (files of `citedata` blocks)
+-  `dse-catalog` (cite collection cataloging of DSE collections)
+
 
 
 
