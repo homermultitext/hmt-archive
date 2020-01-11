@@ -1,0 +1,254 @@
+#!cexversion
+3.0.1
+
+#!citelibrary
+name#Test data extracted from HMT project
+urn#urn:cite2:hmt:publications.cex.2018a:all
+license#Creative Commons Attribution, Non-Commercial 4.0 License <https://creativecommons.org/licenses/by-nc/4.0/>.
+
+// CITE namespace definitions
+namespace#hmt#http://www.homermultitext.org/citens/hmt
+namespace#greekLit#http://chs.harvard.edu/ctsns/greekLit
+
+// Collection of data models used in this release:
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:cite:datamodels.v1:#CITE data models#urn:cite2:cite:datamodels.v1.label:##Public domain
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:cite:datamodels.v1.urn:#Data model#Cite2Urn#
+urn:cite2:cite:datamodels.v1.label:#Label#String#
+urn:cite2:cite:datamodels.v1.description:#Description#String#
+
+#!citedata
+urn#label#description
+urn:cite2:cite:datamodels.v1:imagemodel#Citable Image#Model of a citable image.  See http://cite-architecture.github.io/imagemodel/.
+urn:cite2:cite:datamodels.v1:binaryimg#Binary image data#Model of a binary image data associated with a citable image.  See TBA.
+urn:cite2:cite:datamodels.v1:tbsmodel#Text Bearing Surface Model#Model of TextBearing Surfaces.  See http://cite-architecture.github.io/tbsmodel/.
+urn:cite2:cite:datamodels.v1:dsemodel#Diplomatic Scholarly Edition#Diplomatic Scholarly Edition.  See https://cite-architecture.github.io/dse/.
+
+
+#!datamodels
+Collection#Model#Label#Description
+urn:cite2:hmt:msA.v1:#urn:cite2:cite:datamodels.v1:tbsmodel#Codex model#CITE model of a sequence of text-bearing surfaces
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:msA.v1:#Venetus A manuscript#urn:cite2:hmt:msA.v1.label:#urn:cite2:hmt:msA.v1.sequence:#CC-attribution-share-alike
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:msA.v1.sequence:#Page sequence#Number#
+urn:cite2:hmt:msA.v1.urn:#URN#Cite2Urn#
+urn:cite2:hmt:msA.v1.rv:#Recto or Verso#String#recto,verso
+urn:cite2:hmt:msA.v1.label:#Label#String#
+urn:cite2:hmt:msA.v1.image:#TBS image#Cite2Urn#
+
+#!citedata
+sequence#urn#rv#label#image
+-2#urn:cite2:hmt:msA.v1:insidefrontcover#verso#Venetus A (Marciana 454 = 822), inside front cover#urn:cite2:hmt:vaimg.2017a:VAMSInside_front_cover_versoN_0500
+-1#urn:cite2:hmt:msA.v1:ir#recto#Venetus A (Marciana 454 = 822), folio i, recto#urn:cite2:hmt:vaimg.2017a:VAMSFolio_i_rectoN_0001
+0#urn:cite2:hmt:msA.v1:iv#verso#Venetus A (Marciana 454 = 822), folio i, verso#urn:cite2:hmt:vaimg.2017a:VAMSFlyleaf_i_versoN_0501
+1#urn:cite2:hmt:msA.v1:1r#recto#Venetus A (Marciana 454 = 822), folio 1, recto#urn:cite2:hmt:vaimg.2017a:VA001RN_0002
+2#urn:cite2:hmt:msA.v1:1v#verso#Venetus A (Marciana 454 = 822), folio 1, verso#urn:cite2:hmt:vaimg.2017a:VA001VN_0503
+3#urn:cite2:hmt:msA.v1:2r#recto#Venetus A (Marciana 454 = 822), folio 2, recto#urn:cite2:hmt:vaimg.2017a:VA002RN_0003
+4#urn:cite2:hmt:msA.v1:2v#verso#Venetus A (Marciana 454 = 822), folio 2, verso#urn:cite2:hmt:vaimg.2017a:VA002VN_0504
+5#urn:cite2:hmt:msA.v1:3r#recto#Venetus A (Marciana 454 = 822), folio 3, recto#urn:cite2:hmt:vaimg.2017a:VA003RN_0004
+6#urn:cite2:hmt:msA.v1:3v#verso#Venetus A (Marciana 454 = 822), folio 3, verso#urn:cite2:hmt:vaimg.2017a:VA003VN_0505
+7#urn:cite2:hmt:msA.v1:4r#recto#Venetus A (Marciana 454 = 822), folio 4, recto#urn:cite2:hmt:vaimg.2017a:VA004RN_0005
+8#urn:cite2:hmt:msA.v1:4v#verso#Venetus A (Marciana 454 = 822), folio 4, verso#urn:cite2:hmt:vaimg.2017a:VA004VN_0506
+9#urn:cite2:hmt:msA.v1:5r#recto#Venetus A (Marciana 454 = 822), folio 5, recto#urn:cite2:hmt:vaimg.2017a:VA005RN_0006
+10#urn:cite2:hmt:msA.v1:5v#verso#Venetus A (Marciana 454 = 822), folio 5, verso#urn:cite2:hmt:vaimg.2017a:VA005VN_0507
+11#urn:cite2:hmt:msA.v1:6r#recto#Venetus A (Marciana 454 = 822), folio 6, recto#urn:cite2:hmt:vaimg.2017a:VA006RN_0007
+12#urn:cite2:hmt:msA.v1:6v#verso#Venetus A (Marciana 454 = 822), folio 6, verso#urn:cite2:hmt:vaimg.2017a:VA006VN_0508
+13#urn:cite2:hmt:msA.v1:7r#recto#Venetus A (Marciana 454 = 822), folio 7, recto#urn:cite2:hmt:vaimg.2017a:VA007RN_0008
+14#urn:cite2:hmt:msA.v1:7v#verso#Venetus A (Marciana 454 = 822), folio 7, verso#urn:cite2:hmt:vaimg.2017a:VA007VN_0509
+15#urn:cite2:hmt:msA.v1:8r#recto#Venetus A (Marciana 454 = 822), folio 8, recto#urn:cite2:hmt:vaimg.2017a:VA008RN_0009
+16#urn:cite2:hmt:msA.v1:8v#verso#Venetus A (Marciana 454 = 822), folio 8, verso#urn:cite2:hmt:vaimg.2017a:VA008VN_0510
+17#urn:cite2:hmt:msA.v1:9r#recto#Venetus A (Marciana 454 = 822), folio 9, recto#urn:cite2:hmt:vaimg.2017a:VA009RN_0010
+18#urn:cite2:hmt:msA.v1:9v#verso#Venetus A (Marciana 454 = 822), folio 9, verso#urn:cite2:hmt:vaimg.2017a:VA009VN_0511
+19#urn:cite2:hmt:msA.v1:10r#recto#Venetus A (Marciana 454 = 822), folio 10, recto#urn:cite2:hmt:vaimg.2017a:VA010RN_0011
+20#urn:cite2:hmt:msA.v1:10v#verso#Venetus A (Marciana 454 = 822), folio 10, verso#urn:cite2:hmt:vaimg.2017a:VA010VN_0512
+21#urn:cite2:hmt:msA.v1:11r#recto#Venetus A (Marciana 454 = 822), folio 11, recto#urn:cite2:hmt:vaimg.2017a:VA011RN_0012
+22#urn:cite2:hmt:msA.v1:11v#verso#Venetus A (Marciana 454 = 822), folio 11, verso#urn:cite2:hmt:vaimg.2017a:VA011VN_0513
+23#urn:cite2:hmt:msA.v1:12r#recto#Venetus A (Marciana 454 = 822), folio 12, recto#urn:cite2:hmt:vaimg.2017a:VA012RUVD_0895
+24#urn:cite2:hmt:msA.v1:12v#verso#Venetus A (Marciana 454 = 822), folio 12, verso#urn:cite2:hmt:vaimg.2017a:VA012VUVD_0905
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0012.tlg001.va_xml:#book,line#Homeric poetry#Iliad#HMT project archival XML edition##true#grc
+
+#!ctsdata
+urn:cts:greekLit:tlg0012.tlg001.va_xml:4.1#<l n="1" xmlns="http://www.tei-c.org/ns/1.0">Οἱ δὲ θεοὶ παρ <persName n="urn:cite2:hmt:pers.r1:pers8">Ζηνὶ</persName> καθήμενοι ἠγορόωντο </l>
+urn:cts:greekLit:tlg0012.tlg001.va_xml:4.2#<l n="2" xmlns="http://www.tei-c.org/ns/1.0">χρυσέῳ ἐν δαπέδῳ· μετα δέ σφισι πότνια <persName n="urn:cite2:hmt:pers.r1:pers181">Ἥβη</persName> </l>
+
+
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg5026.msAint.va_dipl:#book,scholion, section#Scholia to the Iliad#Scholia msAint in the Venetus A#HMT project diplomatic edition##true#grc
+
+#!ctsdata
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office4_1.comment#τουτ δια μέσου τὸ γὰρ ἑξῆς ἀεικίσσωει δε νεκρόν κατ δὲ χρόα ⁑
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office4_2.comment#παρα Αριστοφ καὶ Ριανῶ ερίηρας
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office4_3.comment#νεῶν αγῶνα τὸ ἄθροισμα τοῦ ναστάθμου ⁑
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office5_1.comment#ὅτι νῦν ἀντὶ τοῦ θυμοῦσθαι
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office9_1.comment#ουτ Ἀρίσταρχ ἄλλοι δὲ ἀκουέμεν ⁚
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office9_2.comment#Αρισταρχ ἐπισταμένῳ περ εόντι ⁚
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office9_3.comment#κρίνατε δοκιμάσατ ⁚
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office9_4.comment#παρα Αριστοφα καὶ τῇ Χίᾳ νεικίουσιν ⁑
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office9_5.comment#ουτ Ἀρισταρχ , ἄλλοι δὲ τῆς μεν θ' ἁπαλοί
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office9_6.comment#Ἀριστχ Ζεὺς άσατο ⁑
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office9_7.comment#οτ τὸ εὐχόμενος σαφῶς εστ αὐχώμενος παρὰ τὸ αὐχεῖν ⁑
+urn:cts:greekLit:tlg5026.msAint.va_dipl:19.2015office10_1.comment#κελεύοι
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg5026.msA.va_dipl:#book,scholion, section#Scholia to the Iliad#Scholia msA in the Venetus A#HMT project diplomatic edition##true#grc
+
+#!ctsdata
+urn:cts:greekLit:tlg5026.msA.va_dipl:17.1.lemma#οὐδ' ἔλαθ' Ἀτρέος υἱὸν·
+urn:cts:greekLit:tlg5026.msA.va_dipl:17.1.comment#Πατρόκλου πεσόντος πρὼτος αἰσθεται Μενέλαος φησὶ γὰρ ὃς κεῖται ἐμῆς ἔνεκ' ἐνθάδε τιμῆς . καὶ ὅτι ὁμότροποι ἄμφω γὰρ ἥπιοι οἱδε Μενέλαος , οὐ μόνον προς τοὺς ἀπχόμενους ήπιος ἦν , ἀλλ’ ήδη καὶ προς τὸυς πολεμίους ὥστε Ἄδραστον ζωγρήσας σὼζειν ἐβούλετο ἢ ὅτι καὶ περ περι παντ παντα σπουδαῖος ὁρᾶται . δεόντος τον Μενέλαον εντῳ νῦν παρεισήγαγε καιρῷ , βοηθοῦντα καὶ ἀγωνιζόμενον . μάλιστα μεν δ α τὸ τετρῶσθαι τοὺς αριστεῖς . ἔπει ταδὲ καὶ δί καιον ἡγεῖτο τὸυς δι αυτων τελευτήσαντας μὴ κατ κατα λιπεῖν , ἀλλα βοηθεῖν παντὶ σθένει ⁑
+urn:cts:greekLit:tlg5026.msA.va_dipl:17.2.lemma#Τρώεσσι δαμεῖς .
+urn:cts:greekLit:tlg5026.msA.va_dipl:17.2.comment#ἀμφίβολον πότερον Τρώεσσι συνήθως κατ' ἐναλλαγὴν πτώσεως παρείληπται . ἀντι τοῦ Τρώων ὡς Αἴαντι δὲ μάλιστα ἀντι τοῦ Αἴαντος · καὶ ἔστιν δαμεῖς ἐν Τρώων δηϊοτῆ́τι ἐν τῇ τῶν Τρώων μάχῃ ὡς το ἢν μὴ καὶ σὺ θάνῃς Ἀχιλῆϊ δαμασθεὶς , οὕτως Τρώεσσι δαμασθεὶς ἀντι τοῦ ὑπὸ Τρώων . δαμείς δὲ δαμασθείς · η αυτὸ δὲ τοῦτο διχῶς ἤτοι ἐπιπεσόντων πάντων τῶν Τρώων δαμεὶς ἢ ὑφ' Εκτορος ὥστε τὸ ἑνικὸν πληθυντικῶς ἐξενηνέχθαι καὶ Τρῶας κατα τὸ πληθυντικὸν ἔφη τόν τε Ἔκτορα καὶ τὸν Εὔφορβον ὑφ οῦ μὲν γὰρ ἐβλήθη . ὑφ οῦ δὲ οὐτάσθη ⁑
+
+
+#!relations
+urn:cts:greekLit:tlg5026.msAint.hmt_xml:19.2015office4_1.ref#urn:cite2:cite:verbs.v1:commentsOn#urn:cts:greekLit:tlg0012.tlg001.msA:19.26-19.27
+urn:cts:greekLit:tlg5026.msAint.hmt_xml:19.2015office4_2.ref#urn:cite2:cite:verbs.v1:commentsOn#urn:cts:greekLit:tlg0012.tlg001.msA:19.41
+urn:cts:greekLit:tlg5026.msAint.hmt_xml:19.2015office4_3.ref#urn:cite2:cite:verbs.v1:commentsOn#urn:cts:greekLit:tlg0012.tlg001.msA:19.42
+
+
+// Binary Image Models and Collections: Start
+
+#!datamodels
+Collection#Model#Label#Description
+urn:cite2:hmt:binaryimg.v1:#urn:cite2:cite:datamodels.v1:binaryimg#Citable image model#CITE architecture model of binary images manipulable by URN reference.  See <TBA>.
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:binaryimg.v1:#Collections of binary images#urn:cite2:hmt:binaryimg.v1.label:##Public domain
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:binaryimg.v1.urn:#Binary Image#Cite2Urn#
+urn:cite2:hmt:binaryimg.v1.label:#Label#String#
+urn:cite2:hmt:binaryimg.v1.collection:#Image Collection#Cite2Urn#
+urn:cite2:hmt:binaryimg.v1.protocol:#Protocol#String#iiifApi,localDeepZoom,JPG,iipDeepZoom
+urn:cite2:hmt:binaryimg.v1.path:#Path on Server#String#
+urn:cite2:hmt:binaryimg.v1.url:#Service URN Base#String#
+urn:cite2:hmt:binaryimg.v1.rights:#Rights#String#
+
+
+#!citedata
+urn#label#collection#protocol#path#url#rights
+urn:cite2:hmt:binaryimg.v1:vaimg_amphoreusIIF#Binary data for images of the Venetus A manuscript. IIIF Files at the University of Houson.#urn:cite2:hmt:vaimg.2017a:#iiifApi#/project/homer/pyramidal/VenA/#http://www.homermultitext.org/iipsrv?#Creative Commons Attribution Share-Alike.
+urn:cite2:hmt:binaryimg.v1:vaimg_iipDeepZoom#Binary data for images of the Venetus A manuscript. IIIF Files at the University of Houson. (must add .tif.dzi)#urn:cite2:hmt:vaimg.2017a:#iipDeepZoom#/project/homer/pyramidal/deepzoom/hmt/vaimg/2017a/#http://www.homermultitext.org/iipsrv?DeepZoom=#Creative Commons Attribution Share-Alike.
+urn:cite2:hmt:binaryimg.v1:vaimg_localDeepZoom#Binary data for images of the Venetus A manuscript. DeepZoom files#urn:cite2:hmt:vaimg.2017a:#localDeepZoom#/hmt/vaimg/2017a#image_archive#Creative Commons Attribution Share-Alike.
+urn:cite2:hmt:binaryimg.v1:vaimg_localJPG#Binary data for images of the Venetus A manuscript. DeepZoom files#urn:cite2:hmt:vaimg.2017a:#JPG#/hmt/vaimg/2017a/#image_archive#Creative Commons Attribution Share-Alike.
+
+// End: Binary Image Models and Collections
+#!datamodels
+Collection#Model#Label#Description
+urn:cite2:hmt:vaimg.2017a:#urn:cite2:cite:datamodels.v1:imagemodel#Citable image model#CITE model of a citable image
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:vaimg.2017a:#Images of the Venetus A manuscriptscript#urn:cite2:hmt:vaimg.2017a.caption:##CC-attribution-share-alike
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:vaimg.2017a.urn:#URN#Cite2Urn#
+urn:cite2:hmt:vaimg.2017a.caption:#Caption#String#
+urn:cite2:hmt:vaimg.2017a.rights:#Rights#String#
+
+#!citedata
+urn#caption#rights
+urn:cite2:hmt:vaimg.2017a:VA082RN_0083#Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 82, recto.#This image was derived from an original ©2007, Biblioteca Nazionale Marciana, Venezie, Italia. The derivative image is ©2010, Center for Hellenic Studies. Original and derivative are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License. The CHS/Marciana Imaging Project was directed by David Jacobs of the British Library.
+urn:cite2:hmt:vaimg.2017a:VA083RN_0084#Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 83, recto.#This image was derived from an original ©2007, Biblioteca Nazionale Marciana, Venezie, Italia. The derivative image is ©2010, Center for Hellenic Studies. Original and derivative are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License. The CHS/Marciana Imaging Project was directed by David Jacobs of the British Library.
+urn:cite2:hmt:vaimg.2017a:VA084RN_0085#Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 84, recto.#This image was derived from an original ©2007, Biblioteca Nazionale Marciana, Venezie, Italia. The derivative image is ©2010, Center for Hellenic Studies. Original and derivative are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License. The CHS/Marciana Imaging Project was directed by David Jacobs of the British Library.
+urn:cite2:hmt:vaimg.2017a:VA085RN_0086#Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 85, recto.#This image was derived from an original ©2007, Biblioteca Nazionale Marciana, Venezie, Italia. The derivative image is ©2010, Center for Hellenic Studies. Original and derivative are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License. The CHS/Marciana Imaging Project was directed by David Jacobs of the British Library.
+urn:cite2:hmt:vaimg.2017a:VA086RN_0087#Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 86, recto.#This image was derived from an original ©2007, Biblioteca Nazionale Marciana, Venezie, Italia. The derivative image is ©2010, Center for Hellenic Studies. Original and derivative are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License. The CHS/Marciana Imaging Project was directed by David Jacobs of the British Library.
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:critsigns.v1:#Aristarchan critical signs#urn:cite2:hmt:critsigns.v1.englishName:##CC-attribution-share-alike
+
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:critsigns.v1.urn:#Aristarchan sign#Cite2Urn#
+urn:cite2:hmt:critsigns.v1.englishName:#English name#String#diple,dotted diple,obelos,asteriskos,antisigma,dotted antisigma
+urn:cite2:hmt:critsigns.v1.greekName:#Greek name#String#
+urn:cite2:hmt:critsigns.v1.ucodehex:#Unicode code point (hex)#String#
+urn:cite2:hmt:critsigns.v1.notes:#Notes on Unicode value#String#
+
+
+#!citedata
+urn#englishName#greekName#ucodehex#notes
+urn:cite2:hmt:critsigns.v1:diple#diple#διπλῆ ἀπερίστικτος#003E#No distinct character:  substitute greater-than sign for display.
+urn:cite2:hmt:critsigns.v1:dotteddiple#dotted diple#διπλῆ περιεστιγμένη#2E16#Dotted right-pointing angle
+urn:cite2:hmt:critsigns.v1:obelos#obelos#ὀβελός#2014#No distinct character:  substitute en dash for display.
+urn:cite2:hmt:critsigns.v1:asterisk#asteriskos#ἀστερίσκος#203B#Unicode Reference mark
+urn:cite2:hmt:critsigns.v1:antisigma#antisigma#ἀντίσιγμα#03FD#Greek capital reversed lunate sigma
+urn:cite2:hmt:critsigns.v1:dottedantisigma#dotted antisigma#ἀντίσιγμα περιστιγμένον#03FF#Greek capital reversed dotted lunate sigma
+
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:va_signs.v1:#Occurrences of Aristarchan critical signs in the Veentus A manuscript#urn:cite2:hmt:va_signs.v1.label:#urn:cite2:hmt:va_signs.v1.sequence:#CC-attribution-share-alike
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:va_signs.v1.urn:#URN#Cite2Urn#
+urn:cite2:hmt:va_signs.v1.label:#Name#String#
+urn:cite2:hmt:va_signs.v1.passage:#Iliad line#CtsUrn#
+urn:cite2:hmt:va_signs.v1.critsign:#Critical sign#Cite2Urn#
+urn:cite2:hmt:va_signs.v1.sequence:#Sequence#Number#
+
+#!citedata
+urn#label#passage#critsign#sequence
+urn:cite2:hmt:va_signs.v1:cs0#diple on Iliad 1.2#urn:cts:greekLit:tlg0012.tlg001.msA:1.2#urn:cite2:hmt:critsigns.v1:diple#0
+urn:cite2:hmt:va_signs.v1:cs1#diple on Iliad 1.3#urn:cts:greekLit:tlg0012.tlg001.msA:1.3#urn:cite2:hmt:critsigns.v1:diple#1
+urn:cite2:hmt:va_signs.v1:cs2#dotteddiple on Iliad 1.5#urn:cts:greekLit:tlg0012.tlg001.msA:1.5#urn:cite2:hmt:critsigns.v1:dotteddiple#2
+urn:cite2:hmt:va_signs.v1:cs3#dotteddiple on Iliad 1.7#urn:cts:greekLit:tlg0012.tlg001.msA:1.7#urn:cite2:hmt:critsigns.v1:dotteddiple#3
+
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:hmt:va_dse.v1:#DSE model of HMT editions#urn:cite2:hmt:va_dse.v1.label:##CC-attribution-share-alike
+
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:hmt:va_dse.v1.urn:#DSE record#Cite2Urn#
+urn:cite2:hmt:va_dse.v1.label:#Label#String#
+urn:cite2:hmt:va_dse.v1.passage:#Text passage#CtsUrn#
+urn:cite2:hmt:va_dse.v1.imageroi:#Image region of interest#Cite2Urn#
+urn:cite2:hmt:va_dse.v1.surface:#Artifact surface#Cite2Urn#
+
+#!datamodels
+Collection#Model#Label#Description
+urn:cite2:hmt:va_dse.v1:#urn:cite2:cite:datamodels.v1:dse#DSE model#Diplomatic Scholarly Edition (DSE) model.  See documentation at <https://github.com/cite-architecture/dse>.
+
+
+#!citedata
+urn#label#passage#imageroi#surface
+urn:cite2:hmt:va_dse.v1:il80#DSE record for Iliad 1.298#urn:cts:greekLit:tlg0012.tlg001.msA:1.298#urn:cite2:hmt:vaimg.2017a:VA017VN_0519@0.481,0.6138,0.366,0.0308#urn:cite2:hmt:msA.v1:17v
+urn:cite2:hmt:va_dse.v1:il585#DSE record for Iliad 1.130#urn:cts:greekLit:tlg0012.tlg001.msA:1.130#urn:cite2:hmt:vaimg.2017a:VA014VN_0516@0.468,0.2943,0.352,0.0293#urn:cite2:hmt:msA.v1:14v
+
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:cite:verbs.v1:#Verbs defined for relations of CITE indexes#urn:cite2:cite:verbs.v1.summary:##Public domain
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:cite:verbs.v1.urn:#URN#Cite2Urn#
+urn:cite2:cite:verbs.v1.summary:#Summary#String#
+
+#!citedata
+urn#summary
+urn:cite2:cite:verbs.v1:commentsOn#Subject (a CtsUrn) comments on the object (ak second CtsUrn).

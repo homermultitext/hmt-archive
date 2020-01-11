@@ -55,7 +55,7 @@ val cexEditions = "archive/editions"
 * @param editionsDir Directory where output should be written.
 */
 def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) : Unit = {
-/*
+
   val xrefUrns = for (n <- xrefNodes) yield {
     val scholion = n.urn.collapsePassageTo(2)
     val iliadUrnText = TextReader.collectText(n.text).trim
@@ -82,7 +82,7 @@ def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) 
 
   val hdr = "#!relations\n"
   new PrintWriter(s"${cexEditions}/commentaryIndex.cex") { write(hdr + index.mkString("\n") + "\n");close }
-  */
+
 }
 
 
@@ -120,6 +120,11 @@ def scholia: Unit = {
       new PrintWriter(s"${cexEditions}/${siglum}_diplomatic.cex") { write(diplHeader + diplSubcorpus.cex("#"));close }
     }
   }
+
+
+  val refNodes = repo.corpus.nodes.filter(_.urn.passageComponent.endsWith("ref"))
+  indexScholiaCommentary (refNodes, cexEditions)
+
 }
 
 /**  Compose editions of Iliad.  This includes
@@ -246,24 +251,28 @@ def updateAuthlists = {
 }
 
 
+def hmtValidators(lib: CiteLibrary) : Vector[MidValidator[Any]]= {
+  val dsev = DseValidator(lib)
+  Vector(dsev)
+}
+
 def validateRelease(releaseId: String) = {
   val f = s"release-candidates/hmt-${releaseId}.cex"
   val lib = CiteLibrarySource.fromFile(f)
-  val libValidator = LibraryValidator(lib)
 
 
-  val dsev = DseValidator(lib)
-  val hmtValidators = Vector(dsev)
-
-
-  val pg =   Cite2Urn("urn:cite2:hmt:msA.v1:12r")
-  println("Validating page " + pg)
-  val rslts = libValidator.validate(pg, hmtValidators)
+  val pages =
+    Vector(
+      Cite2Urn("urn:cite2:hmt:msA.v1:30r"),
+      Cite2Urn("urn:cite2:hmt:msA.v1:31v")
+    )
+  println("Validating pages " + pages)
+  val rslts = LibraryValidator.validate(pages, hmtValidators(lib))
   println(rslts)
 }
 
-
-def buildRelease(releasId: String) = {
+/** Build a release of the HMT archive as a CITE library.*/
+def buildRelease(releaseId: String) = {
   // Generate intermediate files:
   scholia
   iliad
@@ -295,15 +304,19 @@ def release(releaseId: String) =  {
 
   println("Validating release " + releaseId)
   validateRelease(releaseId)
+
   // build a single markdown file with all corrigenda, and
   // write it out to a file:
   //val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
   //val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
   //new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
 
-  println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying list of corrigenda in release-candidates/hmt-${releaseId}-corrigenda.md\n")
+  println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex") // with accompanying list of corrigenda in release-candidates/hmt-${releaseId}-corrigenda.md\n")
 
 }
 
-println("\nBuild a release of the HMT archive:")
+println("\nBuild and vadidate a release of the HMT archive:")
 println("\n\trelease(RELEASE_ID)")
+
+println("\nBuild a CITE library without validating:")
+println("\n\tbuildRelease(RELEASE_ID)")

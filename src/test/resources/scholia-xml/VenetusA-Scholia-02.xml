@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet  type="text/css" href="scholia-css/tei-scholia.css" title="TEI
+style simple scholia" alternate="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Venetus A: Book 2</title>
+            <author>Tom Arralde</author>
+            <author>Megan Whitacre</author>
+            <author>Matt Angiolillo</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcribed directly from photography of Venetus A MS</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+
+      <group n="2">
+         <text n="msAextra">
+         <body>
+            <div n="1" type="scholion">
+               <div n="lemma">
+                  <p>β<gap/>ΐθι <abbr>ουλ</abbr>⁑</p>
+               </div>
+               <div type="ref">
+                  <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.8</p>
+               </div>
+               <div n="comment">
+                  <p><persName n="urn:cite2:hmt:pers.r1:pers105"
+                     >τυρ<unclear>α</unclear>ννί<unclear>ω</unclear>ν</persName> ὑφεν
+                     <w><unclear>ω</unclear>ς</w> ἄπιθι: παραιτητέον δὲ τὰ γὰρ εις μῖ λήγοντα μετα
+                     προθεσεως φιλεῖ συντίθεσθαι μετ άλλων δὲ λέξεων οὐκέτι καὶ πάλιν τα δια τοῦ <rs
+                        type="waw">κ</rs> παραχθέντα κατ αρχην ου θέλει συντίθεσθαι καὶ ἄμεινον ταυτολογίαν
+                     εἶναι ἐμφαίνουσαν τὴν ἔπειξιν. καὶ ἀλλαχοῦ ἔλθοι καὶ ΐκοιτο καὶ <persName
+                        n="urn:cite2:hmt:pers.r1:pers493">ἡρῳδιανος</persName> μεν φησὶ τὸ ίθι ἐνεστῶτα νῦν
+                     <persName n="urn:cite2:hmt:pers.r1:pers283">ἐπαφρόδιτος</persName> δε αορίστον ὡς
+                     <q>έφατ' ἔκ τ'ὀνόμαζε</q> δύναται δὲ καὶ ἴθι ἐπίρρημα παρακελεύσεως ὡς <q>ἴθι
+                        ἐκκάλυψον ὡς ίδω τὸ πᾶν κακ ὄν</q>: στικτέον δὲ κατα τὸ τέλος τοῦ στίχου περίοδον
+                     γὰρ <choice>
+                        <abbr>αὐτοτελ</abbr>
+                        <expan>αὐτοτελές</expan>
+                     </choice> ἔχει καὶ τὸ πρέπον τῆς ἐγκελεύσεως δια τοῦ ἀσυνδέτου φαίνεται ⁑</p>
+               </div>
+            </div>
+
+
+         </body>
+         </text>
+         <text n="msA">
+            <!--msA == main scholia -->
+            <body>
+               <div n="1" type="scholion">
+                  <div n="lemma">
+                     <p>ἄλλοι μέν ῥα</p>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.1</p>
+                  </div>
+                  <div n="comment">
+                     <p>ὅτι <persName n="urn:cite2:hmt:pers.r1:pers15"><choice>
+                              <abbr>ζηνοδ</abbr>
+                              <expan>Ζηνόδοτος</expan>
+                           </choice></persName> γράφει <rs type="waw">ὦλλοι</rs> ὁ δὲ ποιητὴς
+                        ἀσυνάρθρως ἐκφέρει: διδάσκει δὲ ὅτι καὶ θεοῖς πρὸς σκέψιν εὔθετον νύξ τούς
+                        τε ἄρχοντας οὓς παννυχίζειν δεῖ καὶ παντὶ τρόπω τὰς ὑποσχέσεις πληροῦν·</p>
+                  </div>
+               </div>
+               <div n="2" type="scholion">
+                  <div n="lemma">
+                     <p>παννύχιοι</p>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.2</p>
+                  </div>
+                  <div n="comment">
+                     <p>πῶς εν τῆ <ref n="urn:cts:greekLit:tlg0012.tlg001:1" type="ctsurn">Α</ref>
+                        εἰπὼν τὸν <persName n="urn:cite2:hmt:pers.r1:pers8">δία</persName> καθεύδειν: νῦν φησὶ
+                              <q><persName n="urn:cite2:hmt:pers.r1:pers8">δία</persName> δ' οὐκ έχε, νήδυμος ὕπνος:</q>
+                        λεγομεν δὲ ἡμεῖς ὅτι ἐκαθευδε μὲν ἀλλ' ἐπ ολίγον ἐκαθεύδησεν καὶ οὐ δια
+                        πάσης τῆς νυκτὸς ὡς οἱ ἄλλοι μεριμνῶν⁑</p>
+                  </div>
+               </div>
+            </body>
+         </text>
+
+         <text n="msAim">
+            <!-- msAim
+            -->
+            <body>
+               <div n="147" type="scholion">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.86</p>
+                  </div>
+                  <div n="comment">
+                     <p>στικτέον κατα τὸ λαοὶ ἵνα ἁπ άλλης ἀρχῆς ἡ παραβολὴ γενομένη ὑποστίζηαι
+                        μέχρι τοῦ αἱ δὲ τε ἔνθα οὕτως γὰρ βέλτιον⁑</p>
+                  </div>
+               </div>
+
+            </body>
+         </text>
+
+         <text n="msAint">
+            <!-- msAint
+            -->
+            <body>
+               <div n="13" type="scholion">
+                  <div n="lemma">
+                     <p/>
+                  </div>
+                  <div type="ref">
+                     <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.3-2.4</p>
+                  </div>
+                  <div n="comment">
+                     <p>βραχὺ διασταλτέον μὲτὰ τὸ <rs type="waw">φρένα</rs> καὶ <rs type="waw"
+                           >τιμήσει</rs>⁑</p>
+                  </div>
+               </div>
+
+
+            </body>
+         </text>
+
+
+      </group>
+   </text>
+</TEI>

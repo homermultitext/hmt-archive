@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iliad 1 (A)</title>
+        <author>Homer</author>
+        <sponsor>The Homer Multitext</sponsor>
+        <editor>C. Dué and Mary Ebbott, Editors in Chief</editor>
+        <editor>Thomas Arralde</editor>
+        <editor>Stephanie Lindeborg</editor>
+        <editor>Christine Roughan</editor>
+        <editor>Neel Smith</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Copyright 2010, The Center for Hellenic Studies of Harvard University</p>
+        <p>Licensed under the Creative Commons, Non-Commercial, Attribution, Share-alike					license: http://creativecommons.org/licenses/by-nc-sa/2.0/</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>A new, born-digital diplomatic edition of the Venetus A manuscript of the Iliad,					Marcianus Graecus Z.454 (=822). Diplomatic edition based on a digital facsimile					prepared by the Center for Hellenic Studies in collaboration with the Biblioteca					Marciana, M. Zorzi, Director.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek, in pre-composed UTF-8</language>
+        <language ident="eng">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:lang="grc">
+      <div n="1">
+        <head n="title">ἰλιάδος ἄλφα</head>
+        <l n="1">Μῆνιν ἄειδε θεὰ <persName n="urn:cite2:hmt:pers.r1:pers1">Πηληϊάδεω						Ἀχιλῆος</persName>
+      </l>
+      <l n="2">οὐλομένην· ἡ μυρί' <rs type="ethnic" n="urn:cite2:hmt:place.r1:place96"						>Ἀχαιοῖς</rs> ἄλγε' ἔθηκεν· </l>
+      <l n="3">πολλὰς δ' ἰφθίμους ψυχὰς <placeName n="urn:cite2:hmt:place.r1:place67"						>Ἄϊδι</placeName> προΐαψεν </l>
+    </div>
+  </body>
+</text>
+</TEI>

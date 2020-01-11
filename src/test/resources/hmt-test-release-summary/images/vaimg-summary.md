@@ -1,0 +1,11 @@
+# Summary for image collection
+
+**Images of the Venetus A manuscriptscript** (`urn:cite2:hmt:vaimg.2017a:`):  total of 5 images.
+
+| | |
+|:-------------|:-------------|
+| [![urn:cite2:hmt:vaimg.2017a:VA086RN_0087](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom//hmt/vaimg/2017a/VA086RN_0087.tif&WID=400&CVT=JPEG)](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vaimg.2017a:VA086RN_0087) <br/>Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 86, recto. (`urn:cite2:hmt:vaimg.2017a:VA086RN_0087`) | [![urn:cite2:hmt:vaimg.2017a:VA084RN_0085](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom//hmt/vaimg/2017a/VA084RN_0085.tif&WID=400&CVT=JPEG)](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vaimg.2017a:VA084RN_0085) <br/>Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 84, recto. (`urn:cite2:hmt:vaimg.2017a:VA084RN_0085`) |
+| [![urn:cite2:hmt:vaimg.2017a:VA085RN_0086](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom//hmt/vaimg/2017a/VA085RN_0086.tif&WID=400&CVT=JPEG)](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vaimg.2017a:VA085RN_0086) <br/>Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 85, recto. (`urn:cite2:hmt:vaimg.2017a:VA085RN_0086`) | [![urn:cite2:hmt:vaimg.2017a:VA083RN_0084](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom//hmt/vaimg/2017a/VA083RN_0084.tif&WID=400&CVT=JPEG)](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vaimg.2017a:VA083RN_0084) <br/>Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 83, recto. (`urn:cite2:hmt:vaimg.2017a:VA083RN_0084`) |
+ | [![urn:cite2:hmt:vaimg.2017a:VA082RN_0083](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom//hmt/vaimg/2017a/VA082RN_0083.tif&WID=400&CVT=JPEG)](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vaimg.2017a:VA082RN_0083) <br/>Venetus A: Marcianus Graecus Z. 454 (= 822).  Photograph in natural light, folio 82, recto. (`urn:cite2:hmt:vaimg.2017a:VA082RN_0083`) |
+
+
