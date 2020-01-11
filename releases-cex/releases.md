@@ -3,7 +3,8 @@
 ## Notes on published releases of HMT archival data
 
 
-- **2020a**: adds corrected edition of *Iliad* 22 in the Venetus A.  Validations applied:  none.
+- **2020a**: adds corrected edition of *Iliad* 22 in the Venetus A.  Validations applied:  
+    - DSE relations validated.
 
 
 ### Prior to 2020
