@@ -105,7 +105,7 @@ Applies to:
 
 
 -   `codex/vapages.cex`
--   venetusB.cex
+-   `codex/vbpages.cex`
 -   comparetti-codex.cex
 -   marciana841.cex
 -   muncg88model.cex
