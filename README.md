@@ -4,7 +4,6 @@ This is the central repository for archival data from the Homer Multitext projec
 
 Published releases are machine-generated and validated from data in the [archive](./archive) directory, and are committed to the [releases-cex](./releases-cex) directory.  Other directories in this repository include scripts for working with the archive, and work in progress integrating contributions from HMT editors.
 
-## Published releases
 
 
 
