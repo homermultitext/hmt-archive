@@ -3,7 +3,7 @@
 
 ## Release notes
 
-(./releases.md).
+See notes on [contents and vadliation of individual releases](./releases.md).
 
 
 
