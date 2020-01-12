@@ -47,7 +47,10 @@ val authListDir = "archive/authlists"
 // 4. target directory for publishable CEX editions of texts
 val cexEditions = "archive/editions"
 
-
+val orthoMap : Map[CtsUrn, MidOrthography] = Map(
+  CtsUrn("urn:cts:greekLit:tlg0012.tlg001:") -> IliadOrthography
+  //CtsUrn("urn:cts:greekLit:tlg5026:") -> ScholiaOrthography
+)
 
 /** Write index of scholia to Iliadic text they comment on.
 *
@@ -256,12 +259,14 @@ def hmtValidators(lib: CiteLibrary) : Vector[MidValidator[Any]]= {
   Vector(dsev)
 }
 
-def validateRelease(releaseId: String) = {
+def validateRelease(releaseId: String) : TestResultGroup = {
   val f = s"release-candidates/hmt-${releaseId}.cex"
   val lib = CiteLibrarySource.fromFile(f)
   println("Validating library " + lib.name)
+
   val rslts = LibraryValidator.validate(lib, hmtValidators(lib))
-  println(rslts)
+  val title = "Valdation results for HMT release " + releaseId
+  TestResultGroup(title, rslts)
 }
 
 /** Build a release of the HMT archive as a CITE library.*/
@@ -296,15 +301,10 @@ def release(releaseId: String) =  {
   buildRelease(releaseId)
 
   println("Validating release " + releaseId)
-  validateRelease(releaseId)
+  val testResults = validateRelease(releaseId)
+  new PrintWriter(s"release-candidates/hmt-${releaseId}-validation.md") { write(testResults.markdown); close}
 
-  // build a single markdown file with all corrigenda, and
-  // write it out to a file:
-  //val hdr = s"# All corrigenda for HMT release ${releaseId}\n\n"
-  //val corrigenda = DataCollector.compositeFiles("archive/editions", "corrigenda.md")
-  //new PrintWriter(s"release-candidates/hmt-${releaseId}-corrigenda.md") { write(hdr + corrigenda); close}
-
-  println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex") // with accompanying list of corrigenda in release-candidates/hmt-${releaseId}-corrigenda.md\n")
+  println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying report on validation in release-candidates/hmt-${releaseId}-validation.md\n")
 
 }
 
