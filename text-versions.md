@@ -61,7 +61,7 @@ On `urn:cts:greekLit:tlg5026.msA:`
 On `urn:cts:greekLit:tlg5026.msAim:`
 
 -   xml archival  = `hmt_xml`
--   diplomatic =  `dipl`
+-   diplomatic =  `hmt`
 -   scribal normalization = `scribe`
 
 
@@ -71,7 +71,7 @@ On `urn:cts:greekLit:tlg5026.msAim:`
 On `urn:cts:greekLit:tlg5026.msAint:`
 
 -   xml archival  = `hmt_xml`
--   diplomatic =  `dipl`
+-   diplomatic =  `hmt`
 -   scribal normalization = `scribe`
 
 
@@ -82,7 +82,7 @@ On `urn:cts:greekLit:tlg5026.msAint:`
 On `urn:cts:greekLit:tlg5026.msAext:`
 
 -   xml archival  = `hmt_xml`
--   diplomatic =  `dipl`
+-   diplomatic =  `hmt`
 -   scribal normalization = `scribe`
 
 
@@ -92,5 +92,5 @@ On `urn:cts:greekLit:tlg5026.msAext:`
 On `urn:cts:greekLit:tlg5026.msAil:`
 
 -   xml archival  = `hmt_xml`
--   diplomatic =  `dipl`
+-   diplomatic =  `hmt`
 -   scribal normalization = `scribe`

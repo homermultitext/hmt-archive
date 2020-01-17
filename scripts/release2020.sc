@@ -73,7 +73,7 @@ def indexScholiaCommentary(xrefNodes: Vector[CitableNode], editionsDir: String) 
     }
   }
   val verb = "urn:cite2:cite:verbs.v1:commentsOn"
-  val versionId = "dipl"
+  val versionId = "hmt"
   val index = xrefUrns.map { case (sch,iliadOpt) =>
     iliadOpt match {
       case None => ""
