@@ -1,6 +1,5 @@
 # Release notes for `hmt-cexbuilder` code library
 
-**3.5.1**:  correct automatic indexing of texts and commentaries.
 
 **3.5.0**:  adds logging, updates libraries.
 
