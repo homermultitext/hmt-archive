@@ -2,7 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
-
+- **2020b**: corrects version identifier on CTS URNs indexing scholia to lines of *Iliad*.  Validations applied:
+    - DSE relations validated.
 - **2020a**: adds corrected edition of *Iliad* 22 in the Venetus A.  Validations applied:  
     - DSE relations validated.
 

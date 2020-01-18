@@ -2,16 +2,25 @@
 
 This is the central repository for archival data from the Homer Multitext project.
 
-Published releases are machine-generated and validated from data in the [archive](./archive) directory, and are committed to the [releases-cex](./releases-cex) directory.  Other directories in this repository include scripts for working with the archive, and work in progress integrating contributions from HMT editors.
+
+## What's in this repository
+
+Published releases are machine-generated and validated from data in the [archive](./archive) directory.  The contents of the `archive` directory are compiled into a [CITE library](https://cite-architecture.github.io/scm/), which can be written as a single, plain-text file in the [CEX format](https://github.com/cite-architecture/citedx).  Once a library has been validated, its CEX file is committed to the [releases-cex](./releases-cex) directory. You'll find notes on the contents and level of validation applied to each release in [releases-cex/releases.md](./releases-cex/releases.md)
+
+The [scripts](./scripts) directory includes a Scala script that can be used to build a release.
+
+The [src](./src) directory tree includes a Scala library  (`org.homermultitext.hmtcexbuilder`) that understands the organization of this repository, and can construct a unified CITE library from the contents of the `archive` directory.  (You'll find release nodes on the code library in [code-releases.md](./code-releases.md).)
+
+Other directories include work in progress and older work being updated to conform with current HMT project standards.
 
 
 
 
 
-## What is published here?
+## Guide to HMT project publications
 
--   See a [guide to understanding HMT project publications](overview.md)
--   For more detailed technical information about how the archive is organized and managed, see the web site at <http://homermultitext.github.io/hmt-archive/>.
+-   See a [guide to understanding HMT project publications](overview.md) (2018).
+
 
 ## Contributors
 
