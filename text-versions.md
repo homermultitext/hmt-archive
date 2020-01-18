@@ -33,7 +33,7 @@ On `urn:cts:greekLit:tlg0012.tlg001:`
 On `urn:cts:greekLit:tlg5026.e3:`
 
 -   xml archival =   `hmt_xml`
--   diplomatic = `dipl`
+-   diplomatic = `hmt`
 -   scribal normalization = `scribe`
 
 
@@ -43,7 +43,7 @@ On `urn:cts:greekLit:tlg5026.e3:`
 On `urn:cts:greekLit:tlg5026.msB:`
 
 -   xml archival =  `hmt_xml`
--   diplomatic = `dipl`
+-   diplomatic = `hmt`
 -   scribal normalization = `scribe`
 
 
@@ -52,7 +52,7 @@ On `urn:cts:greekLit:tlg5026.msB:`
 On `urn:cts:greekLit:tlg5026.msA:`
 
 -   xml archival  = `hmt_xml`
--   diplomatic = `dipl`
+-   diplomatic = `hmt`
 -   scribal normalization = `scribe`
 
 ## Venetus A intermarginal scholia
