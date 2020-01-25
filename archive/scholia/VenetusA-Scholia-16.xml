@@ -1839,7 +1839,7 @@
         <p>urn:cts:greekLit:tlg0012.tlg001.msA:16.491</p>
         </div>
         <div n="comment">
-        <p>ὅτι τὸ <rs type="waw">μενέαινεν</rs> ἔνθα δε μὲν <rs type="waw">ἐλιποθύμει</rs>. ἐν ἄλλοις δὲ <rs type="waw">προεθυμεῖτο</rs> ὡς τὸ <rs type="waw"><cit><ref type="urn">urn:cts:greekLit:tlg0012.tlg001:21.543</ref><q>μενέαινε κῦδος ἀρέσθαι</q></cit></rs> ἠ <rs type="waw">εθυμοῦτο</rs>⁑</p>
+        <p>ὅτι τὸ <rs type="waw">μενέαινεν</rs> ἔνθα δε μὲν <rs type="waw">ἐλιποθύμει</rs>. ἐν ἄλλοις δὲ <rs type="waw">προεθυμεῖτο</rs> ὡς τὸ <cit><ref type="urn">urn:cts:greekLit:tlg0012.tlg001:21.543</ref><q>μενέαινε κῦδος ἀρέσθαι</q></cit> ἠ <rs type="waw">εθυμοῦτο</rs>⁑</p>
         </div>
         </div>
         <div n="215v5" type="scholion">
@@ -4417,10 +4417,11 @@
 
           <div n="211v1" type="scholion">
             <div n="lemma">
-              <p>urn:cts:greekLit:tlg0012.tlg001.msA:16.298</p>
+                <p></p>
             </div>
             <div n="ref">
-              <p></p>
+
+              <p>urn:cts:greekLit:tlg0012.tlg001.msA:16.298</p>
             </div>
             <div n="comment">
               <p>ὑπ ανέμου δηλονότι:</p>
