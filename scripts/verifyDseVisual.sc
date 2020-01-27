@@ -19,12 +19,17 @@ import edu.holycross.shot.dse._
 
 
 // Configure values for source data and tools:
-val url = "https://raw.githubusercontent.com/homermultitext/hmt-archive/master/releases-cex/hmt-2020d.cex"
+val releaseId = "2020e.cex"
+val url = s"https://raw.githubusercontent.com/homermultitext/hmt-archive/master/releases-cex/hmt-${releaseId}"
+val cexFile = s"releases-cex/${releaseId}.cex"
 val  baseUrl : String  = "http://www.homermultitext.org/iipsrv?"
 val  basePath: String = "/project/homer/pyramidal/deepzoom/"
 
 
-val hmtLib = CiteLibrarySource.fromUrl(url)
+// Use either of these:
+//val hmtLib = CiteLibrarySource.fromUrl(url)
+val hmtLib = CiteLibrarySource.fromFile(cexFile)
+
 val dsev = DseVector.fromCiteLibrary(hmtLib)
 val collrepo = hmtLib.collectionRepository.get
 
@@ -44,7 +49,7 @@ def verifyReport = {
         case _ => "- Page [" + pg.objectComponent + s"](${ict.get})"
       }
     })
-    new PrintWriter(s"verification-${codex.collection}.md"){write(s" Verify codex ${codex.collection}\n\n" + mdList.mkString("\n"));close;}
+    new PrintWriter(s"verification-${codex.collection}.md"){write(s"# Verify codex ${codex.collection}\n\n" + s"Verification applies to data release **${releaseId}**\n\n" + mdList.mkString("\n"));close;}
   }
 }
 
