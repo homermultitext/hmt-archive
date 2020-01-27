@@ -19,9 +19,9 @@ import edu.holycross.shot.dse._
 
 
 // Configure values for source data and tools:
-val releaseId = "2020e.cex"
-val url = s"https://raw.githubusercontent.com/homermultitext/hmt-archive/master/releases-cex/hmt-${releaseId}"
-val cexFile = s"releases-cex/${releaseId}.cex"
+val releaseId = "2020e"
+val url = s"https://raw.githubusercontent.com/homermultitext/hmt-archive/master/releases-cex/hmt-${releaseId}.cex"
+val cexFile = s"releases-cex/hmt-${releaseId}.cex"
 val  baseUrl : String  = "http://www.homermultitext.org/iipsrv?"
 val  basePath: String = "/project/homer/pyramidal/deepzoom/"
 
@@ -49,7 +49,7 @@ def verifyReport = {
         case _ => "- Page [" + pg.objectComponent + s"](${ict.get})"
       }
     })
-    new PrintWriter(s"verification-${codex.collection}.md"){write(s"# Verify codex ${codex.collection}\n\n" + s"Verification applies to data release **${releaseId}**\n\n" + mdList.mkString("\n"));close;}
+    new PrintWriter(s"verification-${codex.collection}-${releaseId}.md"){write(s"# Verify codex ${codex.collection}\n\n" + s"Verification applies to data release **${releaseId}**\n\n" + mdList.mkString("\n"));close;}
   }
 }
 
