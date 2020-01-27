@@ -7,7 +7,7 @@ val myBT = coursierapi.MavenRepository.of("https://dl.bintray.com/neelsmith/mave
 interp.repositories() ++= Seq(myBT)
 // 2. Ivy import:
 import $ivy.`edu.holycross.shot::scm:7.2.0`
-import $ivy.`edu.holycross.shot::dse:6.1.0`
+import $ivy.`edu.holycross.shot::dse:7.0.0`
 import $ivy.`edu.holycross.shot::citeobj:7.4.0`
 import $ivy.`edu.holycross.shot.cite::xcite:4.2.0`
 //
@@ -37,7 +37,13 @@ def verifyReport = {
     val seqUrn = codex.addProperty("sequence")
     println("Use codex's sequence property to sort: " + seqUrn)
     val pageSeq = collrepo.citableObjects.filter(obj => obj.urn.dropSelector == codex).sortBy(pg => pg.propertyValue(seqUrn).toString.toDouble).map(_.urn)
-    val urlsWithIct = pageSeq.map(pg => (pg, dsev.ictForSurface(pg) ))
+    val urlsWithIct = pageSeq.map(pg => {
+      val ict = dsev.ictForSurface(pg)
+      ict match {
+        case None =>     (pg, "" )
+        case _ => (pg, ict)
+      }
+    })
     val mdList = for (u <- urlsWithIct) yield {
       val md = s"- Page [${u._1.objectComponent}](${u._2})"
       md

@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "ohco2" % "10.18.2",
 
   "edu.holycross.shot" %% "cex" % "6.4.0",
-  "edu.holycross.shot" %% "dse" % "6.1.0",
+  "edu.holycross.shot" %% "dse" % "7.0.0",
   "edu.holycross.shot" %% "scm" % "7.2.0",
   "edu.holycross.shot" %% "citerelations" % "2.6.0",
 
