@@ -288,6 +288,11 @@ def buildRelease(releaseId: String) = {
   tidy
 }
 
+def printValidation(releaseId: String) : Unit = {
+  println("Validating release " + releaseId)
+  val testResults = validateRelease(releaseId)
+  new PrintWriter(s"release-candidates/hmt-${releaseId}-validation.md") { write(testResults.markdown); close}
+}
 
 /** Publish a release of the Homer Multitext project archive.
 *
@@ -299,10 +304,7 @@ def buildRelease(releaseId: String) = {
 */
 def release(releaseId: String) =  {
   buildRelease(releaseId)
-
-  println("Validating release " + releaseId)
-  val testResults = validateRelease(releaseId)
-  new PrintWriter(s"release-candidates/hmt-${releaseId}-validation.md") { write(testResults.markdown); close}
+  printValidation(releaseId)
 
   println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying report on validation in release-candidates/hmt-${releaseId}-validation.md\n")
 
