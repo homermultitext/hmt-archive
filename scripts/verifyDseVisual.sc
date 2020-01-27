@@ -37,17 +37,13 @@ def verifyReport = {
     val seqUrn = codex.addProperty("sequence")
     println("Use codex's sequence property to sort: " + seqUrn)
     val pageSeq = collrepo.citableObjects.filter(obj => obj.urn.dropSelector == codex).sortBy(pg => pg.propertyValue(seqUrn).toString.toDouble).map(_.urn)
-    val urlsWithIct = pageSeq.map(pg => {
+    val mdList = pageSeq.map(pg => {
       val ict = dsev.ictForSurface(pg)
       ict match {
-        case None =>     (pg, "" )
-        case _ => (pg, ict)
+        case None => "- Page " + pg.objectComponent
+        case _ => "- Page [" + pg.objectComponent + s"](${ict.get})"
       }
     })
-    val mdList = for (u <- urlsWithIct) yield {
-      val md = s"- Page [${u._1.objectComponent}](${u._2})"
-      md
-    }
     new PrintWriter(s"verification-${codex.collection}.md"){write(s" Verify codex ${codex.collection}\n\n" + mdList.mkString("\n"));close;}
   }
 }
