@@ -2,6 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2020f**: illegal characters removed from scholia XML edition.  Validations applied:
+    - DSE relations validated.
 - **2020e**: further correctios to invalid image references in DSE records.  Validations applied:
     - DSE relations validated.
 - **2020d**: invalid image references in DSE records corrected.  Validations applied:
