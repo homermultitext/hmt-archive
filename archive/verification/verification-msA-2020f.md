@@ -1,6 +1,6 @@
 # Verify codex msA
 
-Verification applies to data release **2020e.cex**
+Verification applies to data release **2020f**
 
 - Page insidefrontcover
 - Page ir
