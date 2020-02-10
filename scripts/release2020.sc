@@ -105,6 +105,7 @@ def scholia: Unit = {
 
   val scholiaRepo = TextRepository( Corpus(scholiaNodes), repo.catalog)
   val corpus = scholiaRepo.corpus
+  val scholiaCatalog = scholiaRepo.catalog
   val scholiaDocs = corpus.nodes.map(_.urn.dropPassage).distinct
   for (s <- scholiaDocs) {
     val siglum = s.work
@@ -118,7 +119,11 @@ def scholia: Unit = {
       println("Got " + subcorpus.size + " scholia.")
       val diplSubcorpus = DiplomaticReader.edition(subcorpus)
 
-      val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg5026." + siglum + ".hmt:#book,scholion, section#Scholia to the Iliad#Scholia " + siglum + " in the Venetus A#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
+      val diplHeader: String = {
+        val entries: Vector[CatalogEntry] = scholiaCatalog.entriesForUrn(s)
+        val newCat = Catalog(entries)
+        "\n\n#!ctscatalog\n" + newCat.cex("#") + "\n\n#!ctsdata\n"
+      }
 
       new PrintWriter(s"${cexEditions}/${siglum}_diplomatic.cex") { write(diplHeader + diplSubcorpus.cex("#"));close }
     }
