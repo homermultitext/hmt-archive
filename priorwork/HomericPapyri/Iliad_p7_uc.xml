@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader >
+        <fileDesc >
+            <titleStmt >
+                <title >Iliad P 7 (P. Grenf. 2.2, P. Hibeh 21, P. Heidelberg 1260, P. Heidelberg
+                    1261)</title>
+                <editor ><name  xml:id='al'>Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt >
+                <edition >A new edition, with semantic markup, punctuation, accentuation, emendation,
+                    and notes.</edition>
+                <respStmt >
+                    <name >Alexander Loney, ed.</name>
+                    <resp >after the editions of <name  xml:id='swest'>West, S.<title >The Ptolemaic
+                                Papyri of Homer, Papyrologica Coloniensia III.</title> pp.
+                            74-90.</name>
+                        <name  xml:id='hag'> Hagedorn, U. and D. 2003. <title >"Drei Iliasfragmente
+                                der Heidelberger Papyrussammlung," in A. Meinhold and A. Berlejung,
+                                eds., Der Freund des Menschen: Festschrift fur Georg Christian
+                                Macholz zur Vollendung des 70 Lebensjahres.</title> Neukirchen:
+                            Vluyn. pp. 209-222.</name>
+                    </resp>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt >
+                <publisher > The Center for Hellenic Studies of Harvard University </publisher>
+                <authority >
+                    <name >Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc >
+                <p >File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc >
+            <langUsage >
+                <language  ident='eng'>English</language>
+                <language  ident='lat'>Latin</language>
+                <language  ident='grc'>Greek</language>
+                <language  ident='xgrc'>Transliterated Greek</language>
+                <language  ident='deu'>German</language>
+                <language  ident='fra'>French</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <text  xml:lang='grc'>
+        <body >
+
+            <div  xml:lang='eng' n='date' type='description'>
+                <head >Date</head>
+                <p >Between 285 and 260 B.C. (<bibl >West, 74</bibl>)</p>
+            </div>
+            <div  xml:lang='eng' n='provenance' type='description'>
+                <head >Provenance</head>
+                <p >Hibeh; mummy cartonnage (<bibl >West, 74</bibl>)</p>
+            </div>
+            <div  xml:lang='eng' n='bibliography' type='description'>
+                <head >Bibliography</head>
+                <list >
+                    <item ><bibl >van Thiel, H. 1996. <title >Homeri Ilias</title> Hildesheim:
+                            Olms.</bibl></item>
+                    <item ><bibl >West, S. 1967. <title >The Ptolemaic Papyri of Homer, Papyrologica
+                                Coloniensia III</title> K√∂ln: Opladen.</bibl></item>
+                    <item ><bibl > Hagedorn, U. and D. 2003. <title >"Drei Iliasfragmente der
+                                Heidelberger Papyrussammlung," in A. Meinhold and A. Berlejung,
+                                eds., Der Freund des Menschen: Festschrift f√ºr Georg Christian
+                                Macholz zur Vollendung des 70 Lebensjahres.</title> Neukirchen:
+                            Vluyn. pp. 209-222</bibl></item>
+                </list>
+            </div>
+            <div  xml:lang='eng' n='catalogues' type='description'>
+                <head >Catalogue entries</head>
+                <list >
+                    <item >Mertens-Pack 819 </item>
+                    <item >LDAB 2377 </item>
+                    <item >Allen-Sutton-West p7</item>
+                </list>
+            </div>
+            <div  n='text' type='edition'>
+
+
+
+                <head  xml:lang='eng'>Iliad P 7</head>
+
+                <div  n='8' type='book'>
+                    <div  n='a' type='frag'>
+                        <gap reason='lost' unit='line'/>
+                        
+                    	<l  n='17'><supplied  reason='lost'>γνώσετ᾽ ἔπειθ᾽ ὅσον εἰμὶ</supplied>
+                    		<seg type="word"><supplied  reason='lost'>θε</supplied>ῶ<supplied  reason='lost'>ν</supplied></seg> <supplied  reason='lost'>κάρτιστος ἁπάντων.
+                                </supplied></l>
+                    	
+                        <l  n='18'><supplied  reason='lost'>εἰ δ᾽ ἄγε πειρήσασθε θεοὶ</supplied>
+                        	<sic  n='anticipation'><seg type="word">πᾶσα<supplied  reason='lost'>ί</supplied></seg> <supplied  reason='lost'>τε
+                            θέαιναι·</supplied></sic>
+                        	
+                        	<note  xml:lang='eng' resp='al'>The
+                                hemistich of the second half of this line seems to have been taken
+                                by anticipation from line 20 below.</note></l>
+                    	
+                    	
+                        <l  n='19'><supplied  reason='lost'>σειρὴν χρυσείην ἐξ</supplied>
+                        	<seg type="word"><supplied  reason='lost'>οὐρα</supplied>νόθεν</seg> <supplied  reason='lost'>κρεμάσαντες
+                            </supplied></l>
+                    	
+                    	<l  n='20'><supplied  reason='lost'>πάντές τ᾽ ἐξάπτεσθε</supplied> <seg type="word"><supplied  reason='lost'>θεο</supplied>ὶ</seg>
+                    		<seg type="word">πᾶς<supplied  reason='lost'>αί</supplied></seg> <supplied  reason='lost'>τε θέαιναι· </supplied></l>
+                    	
+                        <l  n='21'><supplied  reason='lost'>ἀλλ᾽ οὐκ ἂν ἐρύσαιτ᾽ ἐξ</supplied>
+                                <seg type="word"><supplied  reason='lost'>οὐρ</supplied>ανόθ<supplied  reason='lost'>εν</supplied></seg> <supplied  reason='lost'>πεδίονδε
+                            </supplied></l>
+                        <l  n='22'><supplied  reason='lost'>Ζῆνα ὕπατον μήστωρα,</supplied><note  xml:lang='eng' resp='al'>West thinks that the elided vowel of
+                                    "<foreign  xml:lang='grc'>α</foreign>" was twice written out in
+                                the first half of this line because the gap requires more letters,
+                                versus the attested reading of "<foreign  xml:lang='grc'>Ζῆν᾽
+                                    ὕπατον μήστωρ᾽,</foreign>," even though it thus would be
+                                unmetrical (West, 80). Presumabley these vowels must have been
+                                unpronounced. There is also the possibility that an entirely
+                                different hemistich was present here , such as Fick suggested from
+                                5.756: "<foreign  xml:lang='grc'>Ζῆν᾽ ὕπατον
+                                Κρονίδην</foreign>."</note> οὐδ᾽ <supplied  reason='lost'>εἰ
+                                μάλα πολλὰ κάμοιτε. </supplied></l>
+                        <gap  reason='lost' unit='line'/>
+                    </div>
+
+                    <div  n='b' type='frag'>
+                        <gap   reason='lost' unit='line'/>
+                    	
+                        <l  n='24'><supplied  reason='lost'>αὐτῇ κεν γαίῃ ἐρύσαιμ᾽
+                                αὐτῇ</supplied> τε <seg type="word">θαλ<supplied  reason='lost'>άσσῃ·</supplied></seg></l>
+                        
+                    	<l  n='25'><supplied  reason='lost'>σειρὴν μέν κεν ἔπειτα περὶ ῥίον</supplied>
+                    	        <seg type="word"><supplied  reason='lost'>Οὐ</supplied>λύμπ<supplied  reason='lost'>οιο</supplied></seg></l>
+                        <l  n='26'><supplied  reason='lost'>δησαίμην, τὰ δέ κ᾽ αὖτε
+                                μετήορα</supplied> <seg type="word">πάντ<supplied  reason='lost'>α</supplied></seg> <supplied  reason='lost'>γένοιτο.
+                            </supplied></l>
+                        <l  n='27'><gap  extent='25' reason='lost' unit='character'/>ωντ<unclear >α</unclear><gap  reason='lost'/><note  xml:lang='eng' resp='al'>These traces may indicate a minor variation in
+                                diction, but still be the same notional line, thus West numbers this
+                                line 27. This line may, however, be suitabley numbered 27a as a
+                                plus-verse.</note></l>
+                        <l  n='28'><supplied  reason='lost'>Ὣς ἔφαθ᾽, οἱ δ᾽ ἄρα πάντες ἀκὴν </supplied>
+                                <seg type="word"><supplied  reason='lost'>ἐγέ</supplied><unclear >νον</unclear><supplied  reason='lost'>το</supplied></seg>
+                            <supplied  reason='lost'>σιωπῇ </supplied></l>
+                        <gap   reason='lost' unit='line'/>
+                    </div>
+
+                    <div  n='c' type='frag'>
+                        <gap   reason='lost' unit='line'/>
+                        <l  n='29'><supplied  reason='lost'>μῦθον ἀγασσάμενοι· μάλα γὰρ</supplied>
+                                <seg type="word"><supplied  reason='lost'>κρα</supplied>τερ<supplied  reason='lost'>ῶς</supplied></seg> <supplied  reason='lost'>ἀγόρευσεν.
+                            </supplied></l>
+                        <l  n='30'><supplied  reason='lost'>ὀψὲ δὲ δὴ μετέειπε θεὰ</supplied>
+                                <seg type="word"><supplied  reason='lost'>γλαυκῶπ</supplied>ις</seg> Ἀθήνη· </l>
+                        <l  n='31'><supplied  reason='lost'>ὦ πάτερ ἡμέτερε Κρονίδη </supplied>
+                                <seg type="word"><supplied  reason='lost'>ὕπατ</supplied>ε</seg> <seg type="word">κρειό<supplied  reason='lost'>ντων,
+                            </supplied></seg></l>
+                        <l  n='32'><supplied  reason='lost'>εὖ νυ καὶ ἡμεῖς ἴδμεν ὅ τοι
+                                σθένος</supplied> <seg type="word"><supplied  reason='lost'>ο</supplied>ὐκ</seg> <supplied  reason='lost'>ἐπιεικτόν·
+                            </supplied></l>
+                        <gap   reason='lost' unit='line'/>
+                    </div>
+
+                    <div  n='d, e, f, g, h' type='frag'>
+                        <div  n='1' type='col'>
+                            <gap   reason='lost' unit='line'/>
+                            <l  n='38'><supplied  reason='lost'>ὣς φάτο, μείδησεν δὲ </supplied>
+                                    <seg type="word"><supplied  reason='lost'>πα</supplied><unclear >τ</unclear><supplied  reason='lost'>ὴ</supplied>ρ</seg> <seg type="word">ἀν<unclear >δ</unclear><supplied  reason='lost'>ρ</supplied><unclear >ῶν</unclear></seg> <seg type="word"><unclear>τ</unclear>ε</seg> <seg type="word">θε<unclear>ῶν</unclear></seg> <unclear>τε,
+                                </unclear></l>
+                                <l  n='38a'><supplied  reason='lost'>χειρί τέ μιν</supplied> <seg type="word"><supplied  reason='lost'>κατέ</supplied>ρεξεν</seg>
+                                ἔπος τ᾽ ἔφατ᾽ <seg type="word">ἔ<unclear >κ</unclear></seg> <unclear> τ᾽ </unclear> <seg type="word"><unclear>ὀνό</unclear>μ<supplied  reason='lost'>α</supplied>ζε</seg>· </l>
+                            <l  n='39'><supplied  reason='lost'>"θάρσει </supplied>
+                                    <seg type="word"><supplied  reason='lost'>Τριτο</supplied><unclear >γ</unclear>ένεια</seg> φίλον
+                                    <seg type="word">τ<unclear >έκ</unclear>ος</seg>· οὔ <unclear >νύ τι </unclear>
+                                    <seg type="word"><unclear>θυμ</unclear><supplied  reason='lost'>ῶ</supplied>ι</seg></l>
+                            <l  n='40'><supplied  reason='lost'>πρόφρονι </supplied>
+                                    <seg type="word"><supplied>μυθέομ</supplied><unclear >αι</unclear></seg>, <seg type="word"><unclear>ἐ</unclear>θέλω</seg> δέ τοι
+                                    <seg type="word">ἤπιο<unclear >ς</unclear></seg> <seg type="word"><unclear>εἶ</unclear><supplied  reason='lost'>ν</supplied><unclear >α</unclear>ι</seg>." </l>
+                            <l  n='41'><supplied  reason='lost'>ὣς εἰπὼν </supplied> <seg type="word"><supplied>ὑ</supplied>π᾽</seg> ὄχεσφι
+                                    <seg type="word">τετύ<supplied  reason='lost'>σκε</supplied>το</seg> <seg type="word">χαλκ<supplied  reason='lost'>όπο</supplied></seg> <unclear >δ᾽</unclear> <seg type="word"><supplied  reason='lost'>ἵ</supplied><unclear >ππω</unclear></seg></l>
+                            <l  n='42'><supplied  reason='lost'>ὠκυπέτα</supplied> χρυσέαισιν
+                                    <seg type="word">ἐθε<supplied  reason='lost'>ίρῃσι</supplied>ν</seg> <seg type="word">κομ<supplied  reason='lost'>ό</supplied><unclear >ωντε</unclear></seg>,
+                            </l>
+                                <l  n='43'><supplied  reason='lost'>χρυσὸν δ᾽</supplied> <seg type="word"><supplied  reason='lost'>αὐ</supplied>τ<supplied  reason='lost'>ὸ</supplied>ς</seg> <seg type="word">ἔδυ<unclear >νε</unclear></seg> <seg type="word"><unclear>π</unclear>ερὶ</seg>
+                                    <supplied  reason='lost'>χροΐ,</supplied> <seg type="word"><supplied  reason='lost'>γέν</supplied><unclear >το</unclear></seg> <unclear>δ᾽
+                                    </unclear> <seg type="word"><supplied  reason='lost'>ἱ</supplied><unclear >μάσθλ</unclear>ην</seg> </l>
+                                <l  n='44'><supplied  reason='lost'>χρυσείην</supplied> <seg type="word"><supplied  reason='lost'>εὔ</supplied>τυκτον</seg>,
+                                    <unclear >ἑοῦ δ’</unclear> <supplied  reason='lost'>ἐπεβήσετο </supplied>
+                                        <seg type="word"><supplied  reason='lost'>δί</supplied><unclear >φ</unclear>ρου</seg>, </l>
+                            <l  n='45'><supplied  reason='lost'>μάστιξεν δ</supplied>
+                                    <seg type="word"><unclear >λ</unclear>ά<unclear >αν</unclear></seg>· <seg type="word"><unclear>τ</unclear>ὼ</seg> δ᾽
+                                   <seg type="word"> οὐ<supplied  reason='lost'>κ</supplied></seg> <supplied  reason='lost'>ἄκοντε </supplied>
+                                    <seg type="word"><supplied  reason='lost'>πε</supplied><unclear >τ</unclear>άσθην</seg></l>
+                                <l  n='46'><supplied  reason='lost'>μεσσηγὺς</supplied> <seg type="word"><supplied  reason='lost'>γαίη</supplied>ς</seg> <seg type="word">τ<supplied  reason='lost'>ε</supplied></seg> <seg type="word"><supplied  reason='lost'>κ</supplied>αὶ</seg> <seg type="word">οὐρα<supplied  reason='lost'>νοῦ</supplied></seg> <seg type="word"><supplied  reason='lost'>ἀστερόεν</supplied>το<unclear >ς. </unclear></seg></l>
+                            <l  n='47'><supplied  reason='lost'>Ἴδην δ᾽</supplied> <seg type="word"><supplied  reason='lost'>ἵκανε</supplied>μ</seg>
+                                <seg type="word">πο<unclear >λυπίδ</unclear><supplied  reason='lost'>ακα</supplied></seg> <supplied  reason='lost'>μητέρα </supplied>
+                                    <seg type="word"><supplied  reason='lost'>θ</supplied><unclear >ηρῶν </unclear></seg></l>
+                                <l  n='48'><supplied  reason='lost'>Γάργαρον </supplied>, <seg type="word"><supplied  reason='lost'>ἔνθ</supplied>ά</seg> τέ οἱ
+                                    <seg type="word"><supplied  reason='lost'>τέ</supplied><unclear >με</unclear><supplied  reason='lost'>νος </supplied></seg>
+                                        <supplied  reason='lost'>βωμός τε</supplied> <seg type="word"><supplied  reason='lost'>θυήε</supplied>ις</seg>. </l>
+                            <l  n='49'><supplied  reason='lost'>ἔνθ᾽ ἵππους ἔστησε Κρόνου
+                                    πάϊς </supplied> <seg type="word"><supplied  reason='lost'>ἀγκυλομ</supplied>ήτεω</seg> </l>
+                            <l  n='50'><supplied  reason='lost'>λύσας ἐξ ὀχέων, κατὰ δ᾽ ἠέρα
+                                    πουλὺν </supplied> <seg type="word"><supplied  reason='lost'>ἔχευ</supplied>ε<unclear >ν </unclear></seg>.</l>
+                            <gap   reason='lost' unit='line'/>
+                            <l  n='?'><gap  reason='lost'/><gap  extent='2' reason='illegible' unit='character'/><gap  reason='lost'/></l>
+                            <gap  extent='4' reason='lost' unit='line'/>
+                            <note  xml:lang='eng' resp='al'>According to West (<bibl >West,
+                                    82-83</bibl>), there are at least five lines between 51 and
+                                53.</note>
+                            <l  n='53'><supplied  reason='lost'>Οἳ δ᾽ ἄρα δεῖπνον ἕλοντο κάρη
+                                    κομόωντες </supplied> <seg type="word"><supplied  reason='lost'>  Ἀχαιο</supplied>ὶ</seg> </l>
+                            <l  n='54'><supplied reason="lost">ῥίμφα κατὰ κλισίας, ἀπὸ δ᾽</supplied>
+                                    αὐτοῦ <seg type="word"><supplied reason="lost">θωρήσσον</supplied>τ<unclear>ο.</unclear></seg> </l>
+                            <l  n='54a'><gap  reason='lost'/><gap  extent='2' reason='illegible' unit='character'/><unclear >ε</unclear><gap  extent='2' reason='illegible' unit='character'/><gap  extent='1' reason='lost' unit='character'/><unclear >ι</unclear>
+                            </l>
+                            <l  n='54b'><gap  reason='lost'/><supplied  reason='lost'>μετὰ δὲ
+                                    κρείων</supplied> <seg type="word">Α᾿γα<supplied  reason='lost'>μ</supplied>έμνων</seg> </l>
+                            <l  n='54c'><supplied  reason='lost'>ὄμματα καὶ κεφαλὴν ἴκελος Διὶ</supplied>
+                                <seg type="word"><supplied  reason='lost'>τερ </supplied>πικερ<supplied  reason='lost'>αύ</supplied>νῳ</seg>, </l>
+                                <l  n='54d'><seg type="word"><supplied  reason='lost'>Ἄ</supplied>ρεϊ</seg> δὲ <seg type="word">ζ<supplied  reason='lost'>ώνην</supplied></seg>, <supplied  reason='lost'>στέρνον δὲ</supplied> <seg type="word"><supplied  reason='lost'>Ποσειδάω</supplied>νι</seg>. </l>
+                            <l  n='55'>Τρῶες δ᾽ <supplied  reason='lost'>αὖθ᾽ ἑτέρωθεν ἀνὰ </supplied>
+                                    <seg type="word"><supplied  reason='lost'>πτόλι</supplied>ν</seg> <seg type="word">ὡπλί<supplied  reason='lost'>ζο</supplied>ντο</seg> </l>
+
+                            <l  n='55a'><note  xml:lang='eng' resp='bh'>Plus-verses 55a, b, c, d =
+                                    Iliad 11.57-60. S. West (<bibl >West, 83</bibl>) observes that
+                                    the first hemistich of 8.55 and 11.56 is the
+                                same.</note>Ἕκτορά τ᾽ <supplied  reason='lost'>ἀμφὶ μέγαν καὶ</supplied>
+                                <seg type="word"><supplied  reason='lost'>ἀμύμον</supplied>α</seg> <seg type="word">Που<supplied  reason='lost'>λυ</supplied>δάμαντα</seg> </l>
+                            <l  n='55b'><seg type="word">Αἰνεία<supplied  reason='lost'>ν</supplied></seg> <supplied  reason='lost'>θ᾽, ὃς Τρωσὶ θεὸς
+                                ὣς τίετο</supplied> <seg type="word"><supplied  reason='lost'>δή</supplied>μω<supplied  reason='lost'>ι,</supplied></seg>
+                            </l>
+                            <l  n='55c'>τρεῖς τ᾽ <seg type="word">Ἀ<supplied  reason='lost'>ντηνορίδας</supplied></seg> <supplied  reason='lost'>Πόλυβον
+                                    καὶ Ἀγήνορα δῖον</supplied>
+                            </l>
+                            <gap   reason='lost' unit='line'/>
+                        </div>
+
+                        <div  n='2' type='col'>
+                            <gap   reason='lost' unit='line'/>
+                            <l  n='55d'><unclear >ἠίθεόν</unclear> <seg type="word">τ<unclear >ε</unclear></seg>
+                                   <seg type="word"> <unclear >Ἀκά</unclear><supplied  reason='lost'>μαντ᾽</supplied></seg> <supplied  reason='lost'>ἐπιείκελον
+                                    ἀθανάτοισιν,</supplied>
+                            </l>
+                                <l  n='56'><seg type="word"><unclear >παυ</unclear>ρότεροι</seg>· <seg type="word">μέμ<supplied  reason='lost'>ασαν</supplied> </seg><supplied  reason='lost'>δὲ καὶ ὧς ὑσμῖνι μάχεσθαι </supplied></l>
+                                <l  n='57'><seg type="word">χρ<choice><sic >η</sic><corr>ει</corr></choice>ῇ</seg> <seg type="word">ἀναγκα<supplied  reason='lost'>ίῃ</supplied></seg> <supplied  reason='lost'>, πρό τε παίδων καὶ πρὸ γυναικῶν. </supplied></l>
+                                <l  n='58'>πᾶσαι δ᾽ <seg type="word">ὠίγον<supplied  reason='lost'>το</supplied></seg> <supplied  reason='lost'>πύλαι, ἐκ δ᾽
+                                    ἔσσυτο λαός, </supplied></l>
+                            <l  n='59'><seg type="word">πεζο<supplied  reason='lost'>ί </supplied></seg> <supplied  reason='lost'>θ'</supplied> <seg type="word"><supplied  reason='lost'>ἱππῆ</supplied></seg>
+                                ές τε· πολὺς δ᾽ ὀρυμαγδὸς ὀρώρει.
+                                </l>
+                            <l  n='60'><unclear >οἳ δ᾽</unclear> ὅτε <supplied  reason='lost'>δή
+                            </supplied>ῥ᾽ <seg type="word">ἐ<supplied  reason='lost'>ς</supplied></seg>
+                                    <seg type="word"><unclear >χ</unclear><supplied  reason='lost'>ῶρον</supplied></seg> <supplied  reason='lost'>ἕνα ξυνιόντες
+                                    ἵκοντο </supplied></l>
+                                <l  n='61'><seg type="word">σύ<choice><sic>ρ</sic><corr>ν</corr></choice></seg> ῥ᾽ <seg type="word">ἔβ<supplied  reason='lost'>α</supplied><unclear >λ</unclear>ον</seg> <seg type="word">ῥ<supplied  reason='lost'>ινούς</supplied></seg> <supplied  reason='lost'>, σὺν δ᾽ ἔγχεα καὶ μένε᾽ ἀνδρῶν </supplied></l>
+                            <l  n='62'><seg type="word">χα<unclear >λ</unclear>κ<supplied  reason='lost'>εοθ</supplied>ωρήκ<supplied  reason='lost'>ων</supplied></seg>· <supplied  reason='lost'>ἀτὰρ ἀσπίδες
+                                    ὀμφαλόεσσαι </supplied></l>
+                            <l  n='63'><seg type="word">ἔπλη<supplied  reason='lost'>ντ᾽</supplied></seg> <seg type="word"><supplied  reason='lost'>ἀλλ</supplied>ή<supplied  reason='lost'>λῃσι</supplied></seg>, <supplied  reason='lost'>πολὺς δ᾽ ὀρυμαγδὸς ὀρώρει.
+                                </supplied></l>
+                            <l  n='64'>ἔνθα δ᾽ <supplied  reason='lost'>ἅμ᾽</supplied> 
+                                    <seg type="word"><unclear >οἰμ</unclear>ω<supplied  reason='lost'>γή</supplied></seg> <supplied  reason='lost'>τε καὶ εὐχωλὴ
+                                    πέλεν ἀνδρῶν </supplied></l>
+                                <l  n='65'><seg type="word"><unclear >ὀλλ</unclear>ύντων</seg> <seg type="word">τ<supplied  reason='lost'>ε</supplied></seg> <supplied  reason='lost'>καὶ
+                                    ὀλλυμένων, ῥέε δ᾽ αἵματι γαῖα. </supplied></l>
+                            <l  n='65a'>ἐν δ᾽ Ἔρις <seg type="word"><supplied  reason='lost'>ἐ</supplied>ν</seg> δὲ
+                                    <supplied  reason='lost'> ὁμίλεον,
+                                    ἐν δ᾽ ὀλοὴ Κήρ, </supplied></l>
+                            <l  n='65b'>ἄλλον <seg type="word">ζ<supplied  reason='lost'>ω</supplied><sic><unclear ></unclear></sic><unclear >ὸν</unclear></seg>
+                                    <seg type="word"><unclear>ἔ</unclear><supplied  reason='lost'>χουσα</supplied></seg> <supplied  reason='lost'>νεούτατον, ἄλλον
+                                    ἄουτον, </supplied></l>
+                                <l  n='65c'>ἄλλον <seg type="word">τε<supplied  reason='lost'>θ</supplied>ν<supplied  reason='lost'>ηῶτα</supplied></seg> <supplied  reason='lost'>κατὰ μόθον ἕλκε ποδοῖιν·
+                                </supplied></l>
+                            <l  n='65d'><unclear >ν</unclear><gap  extent='2' reason='illegible' unit='character'/><gap  extent='1' reason='lost' unit='character'/><unclear >τ</unclear><gap  extent='1' reason='illegible' unit='character'/><gap  reason='lost'/><note  xml:lang='eng' resp='al'>Blass identified 65a,b, and c as Iliad 18.535-7, but the traces
+                                    of 65d do not suit 18.538.</note></l>
+                            <gap  extent='4' reason='lost' unit='line'/>
+                            <note  xml:lang='eng' resp='al'>West says that at least 4 lines have been
+                                lost here, but the exact size of the lacuna is uncertain
+                                    (<bibl >West, 84</bibl>). She has numbered the missing lines
+                                accordingly 65 e, f, g, and h.</note>
+                            <l  n='65i'><gap  extent='2' reason='illegible' unit='character'/><gap  reason='lost'/></l>
+                                <l  n='66'><seg type="word">ὄφρ<supplied  reason='lost'>α</supplied></seg> <seg type="word">μὲ<supplied  reason='lost'>ν</supplied></seg> <supplied  reason='lost'>ἠω</supplied><unclear >`ς</unclear> <seg type="word"><unclear>ἦ</unclear>ν</seg>
+                                    <supplied  reason='lost'>καὶ ἀέξετο ἱερὸν ἦμαρ,
+                                </supplied></l>
+                                <l  n='67'>τόφρα <seg type="word">μά<supplied  reason='lost'>λ᾽</supplied> </seg><supplied  reason='lost'>ἀμφοτέρων βέλε᾽
+                                    ἥπτετο, πῖπτε δὲ λαός. </supplied></l>
+                            <l  n='68'>ἦμος δ᾽ <seg type="word">Ἠέ<supplied  reason='lost'>λιο</supplied>ς</seg>
+                                   <seg type="word"> μές<supplied  reason='lost'>ον</supplied> </seg><supplied  reason='lost'>οὐρανὸν ἀμφιβεβήκει,
+                                </supplied></l>
+                            <l  n='69'><seg type="word"><unclear >κ</unclear>αὶ</seg> <seg type="word">τότ<supplied  reason='lost'>ε</supplied></seg>
+                                    <seg type="word"><supplied  reason='lost'>δ</supplied>ὴ</seg> <seg type="word">χρύ<supplied  reason='lost'>σεια</supplied></seg> <supplied  reason='lost'>πατὴρ
+                                    ἐτίταινε τάλαντα· </supplied></l>
+                            <l  n='70'>ἐν δ᾽ <seg type="word">ἐτίθ<supplied  reason='lost'>ει</supplied></seg> δύο
+                                    <supplied  reason='lost'>κῆρε τανηλεγέος θανάτοιο
+                                </supplied></l>
+                            <l  n='71'><seg type="word"><supplied  reason='lost'>Τρώ</supplied><unclear >ων</unclear></seg> <unclear>θ᾽</unclear>
+                                    <seg type="word"><unclear>ἱ</unclear><supplied  reason='lost'>π</supplied><unclear >ποδ</unclear><supplied  reason='lost'>άμων</supplied></seg>
+                                    <supplied  reason='lost'>καὶ Ἀχαιῶν χαλκοχιτώνων, </supplied></l>
+                                <l  n='72'><supplied  reason='lost'>ἕλκε δὲ</supplied> <seg type="word"><supplied  reason='lost'>μέσ</supplied>σα</seg>
+                                        <seg type="word">λ<supplied  reason='lost'>αβών</supplied></seg>· <supplied  reason='lost'>ῥέπε δ᾽ αἴσιμον ἦμαρ
+                                    Ἀχαιῶν. </supplied></l>
+                            <l  n='73'><supplied  reason='lost'>αἳ μὲν</supplied> <seg type="word"><supplied  reason='lost'> Ἀχαι</supplied>ῶν</seg>
+                                    <supplied  reason='lost'>κῆρες ἐπὶ χθονὶ πουλυβοτείρῃ
+                                </supplied></l>
+                            <gap   reason='lost' unit='line'/>
+                        </div>
+                    </div>
+
+                    <div  n='P. Heid. 1261' type='frag'>
+                        <gap   reason='lost' unit='line'/>
+                        <l  n='153'><supplied  reason='lost'>εἴ περ γάρ ς᾽ Ἕκτωρ γε κακὸν καὶ</supplied>
+                                <seg type="word"><supplied  reason='lost'>ἀν</supplied><unclear >άλκιδ</unclear><supplied  reason='lost'>α</supplied></seg> φήσει, </l>
+                        <l  n='154'><supplied  reason='lost'>ἀλλ᾽ οὐ πείσονται Τρῶες καὶ</supplied>
+                                <seg type="word"><supplied reason="lost">Δαρδα</supplied><unclear >ν</unclear>ίω<unclear >ν</unclear>ες</seg> </l>
+                        <l  n='155'><supplied  reason='lost'>καὶ Τρώων ἄλοχοι μεγαθύμων</supplied>
+                                <seg type="word"><supplied  reason='lost'>αἰ</supplied><unclear >χ</unclear>μητάων</seg>, </l>
+                        <l  n='156'><supplied  reason='lost'>τάων ἐν κονίῃσι βάλες
+                                θαλεροὺς</supplied> <seg type="word">παρακ<unclear >ο</unclear>ίτας</seg>. </l>
+                        <l  n='157'><supplied  reason='lost'>ὣς ἄραὣ φωνήσας φύγαδε τράπε</supplied>
+                                <seg type="word">μ<unclear >ώ</unclear>νυχας</seg>
+                               <seg type="word"> ἵππ<unclear >ο</unclear>υ<supplied  reason='lost'>ς </supplied></seg></l>
+                        <l  n='158'><supplied  reason='lost'>αὖτις ἀν᾽ ἰωχμόν· ἐπὶ δὲ Τρῶές
+                                τε</supplied><seg type="word"> <unclear>κ</unclear>αὶ </seg> <seg type="word"><unclear>Ἕκ</unclear>τωρ</seg> </l>
+                        <l  n='159'><supplied  reason='lost'>ἠχῇ θεσπεσίῃ βέλεα</supplied>
+                            <seg type="word"><supplied  reason='lost'>στονόεν</supplied>τα</seg> <seg type="word">χ<unclear >έο</unclear>ντες</seg>. </l>
+                        <l  n='160'><supplied  reason='lost'>τῷ δ᾽ ἐπὶ μακρὸν ἄυσε μέγας </supplied>
+                                <seg type="word"><supplied  reason='lost'>κορ</supplied>υθ<unclear >α</unclear>ίο<unclear >λο</unclear>ς</seg>
+                                <seg type="word">Ἕ<unclear >κ</unclear>τωρ</seg>· </l>
+                        <l  n='161'><supplied  reason='lost'>Τυδείδη περὶ μέν σε τίον</supplied>
+                                <seg type="word"><supplied  reason='lost'>Δα</supplied><unclear >ν</unclear>αο<supplied  reason='lost'>ὶ</supplied></seg> <seg type="word">ταχ<unclear >ύ</unclear>π<unclear >ω</unclear>λοι</seg> </l>
+                        <l  n='162'><supplied  reason='lost'>ἕδρῃ τε κρέασίν τε ἰδὲ πλείοις</supplied>
+                                <seg type="word"><supplied  reason='lost'>δε</supplied><unclear >π</unclear>άεσσιν</seg>· </l>
+                        <l  n='163'><supplied  reason='lost'>νῦν δέ ς᾽ ἀτιμήσουσι·
+                                γυναικὸς</supplied> <unclear>ἄρ᾽ ἀ</unclear>ντ<gap  extent='1' reason='illegible' unit='character'/>τέτυξο. <note  xml:lang='eng' resp='al'>The textual tradition the final colon has
+                                both "<foreign  xml:lang='grc'>ἀντὶ τέτυξο</foreign>" and
+                                    "<foreign  xml:lang='grc'>ἀντ᾽ ἐτέτυξο</foreign>." In this
+                                papyrus the fourth letter is uncertain, thus it is unclear which of
+                                these two readings is present.</note></l>
+                        <l  n='164'><supplied  reason='lost'>ἔρρε κακὴ γλήνη, ἐπεὶ οὐκ</supplied>
+                            <seg type="word"><supplied  reason='lost'>εἴξαν</supplied><unclear >τος</unclear></seg> <seg type="word"><unclear>ἐμε</unclear><supplied  reason='lost'>ῖο </supplied></seg></l>
+                        <l  n='165'><supplied  reason='lost'>πύργων ἡμετέρων ἐπιβήσεαι, </supplied>
+                                <seg type="word"><supplied  reason='lost'>ο</supplied>ὐδὲ</seg> <seg type="word">γυν<unclear >α</unclear>ῖκα<unclear >ς
+                            </unclear></seg></l>
+                        <l  n='166'><supplied  reason='lost'>ἄξεις ἐν νήεσσι· πάρος τοι</supplied>
+                                <seg type="word"><supplied  reason='lost'>πότμο</supplied>ν</seg> ἐφήσω. </l>
+                        <l  n='167'><supplied  reason='lost'>ὣς φάτο, Τυδείδης δὲ</supplied>
+                                <seg type="word"><supplied  reason='lost'>διάνδι</supplied><unclear >χ</unclear>α</seg> <seg type="word">μερμ<supplied  reason='lost'>ήρι</supplied>ξε<supplied  reason='lost'>ν </supplied></seg></l>
+                        <gap   reason='lost' unit='line'/>
+                    </div>
+
+                    <div  n='i' type='frag'>
+                        <l  n='180'><supplied  reason='lost'>ἀλλ᾽ ὅτε κεν δὴ νηυσὶν ἔπι</supplied>
+                                <seg type="word"><supplied  reason='lost'>γλαφυρῇ</supplied><unclear >σ</unclear>ι</seg> <seg type="word">γένω<supplied  reason='lost'>μ</supplied>αι</seg>, </l>
+                        <l  n='181'><supplied  reason='lost'>μνημοσύνη τις ἔπειτα πυρὸς
+                                δηίοιο</supplied> <seg type="word">γενές<sic /><add  n='correction' place='supralinear'>θ</add>ω</seg>, </l>
+                        <l  n='182'><supplied  reason='lost'>ὡς πυρὶ νῆας ἐνιπρήσω, κτείνω δὲ </supplied>
+                                <seg type="word"><supplied  reason='lost'>κ</supplied>αὶ</seg> αὐτοὺς </l>
+                        <l  n='183'><supplied  reason='lost'>Ἀργείους παρὰ νηυσὶν
+                                ἀτυζομένους</supplied> ὑπὸ καπνοῦ." </l>
+                        <l  n='184'><supplied  reason='lost'>ὣς εἰπὼν ἵπποισιν ἐκέκλετο
+                                φαίδιμος</supplied> Ἕκτωρ· </l>
+                        <gap   reason='lost' unit='line'/>
+                    </div>
+                    <div  n='k and P. Heid. 1261' type='frag'>
+                        <gap   reason='lost' unit='line'/>
+                        <l  n='187'><supplied  reason='lost'>Ἀνδρομάχη θυγάτηρ </supplied>
+                                <seg type="word"><supplied  reason='lost'>μεγαλ</supplied>ήτορος</seg> <seg type="word">Ἠ<supplied  reason='lost'>ετίωνος</supplied></seg>
+                            </l>
+                        <l  n='188'><supplied  reason='lost'>ὑμῖν πὰρ προτέροισι </supplied>
+                                <seg type="word"><supplied  reason='lost'>μελί</supplied>φ<supplied  reason='lost'>ρ</supplied>ονα</seg>
+                                <seg type="word">πυρὸ<supplied  reason='lost'>ν</supplied></seg> <supplied  reason='lost'>ἔθηκεν </supplied></l>
+                        <l  n='189'><supplied  reason='lost'>οἶνόν τ᾽ ἐγκεράσασα πιεῖν,
+                                ὅτε</supplied> <seg type="word">θυμὸ<supplied  reason='lost'>ς</supplied></seg> <supplied  reason='lost'>ἀνώγοι,
+                            </supplied></l>
+                        <l  n='190'><supplied  reason='lost'>ἢ ἐμοί, ὅς</supplied> <seg type="word"><supplied  reason='lost'>π</supplied>έ<supplied  reason='lost'>ρ</supplied></seg> <supplied  reason='lost'>οἱ θαλερὸς πόσις</supplied> <seg type="word">εὔχομα<supplied  reason='lost'>ι</supplied></seg> <supplied  reason='lost'>εἶναι. </supplied></l>
+                        <l  n='191'><supplied  reason='lost'>ἀλλ᾽</supplied> <seg type="word"><supplied  reason='lost'>ἐφο</supplied>μαρτεῖτο<sic /><add  n='correction' place='supralinear'>ν</add></seg> <seg type="word">κα<supplied  reason='lost'>ὶ</supplied></seg> <supplied  reason='lost'>σπεύδετον ὄφρα λάβωμεν </supplied></l>
+
+
+
+
+
+                        <l  n='192'><supplied  reason='lost'>ἀσπίδα</supplied> Νεστορέην,
+                                <supplied  reason='lost'>τῆς νῦν κλέος οὐρανὸν ἵκει
+                            </supplied></l>
+                        <l  n='193'><supplied  reason='lost'>πᾶσαν</supplied> <seg type="word"><supplied  reason='lost'>χρυ</supplied><note  xml:lang='eng' resp='al'>West notes (<bibl >1967, 85</bibl>) that the lacuna at the
+                            beginning of the line is rather short for "<foreign  xml:lang='grc'>πᾶσαν χρυ</foreign>."</note>σείην</seg> εἶναι, <seg type="word">καν<supplied  reason='lost'>όνας</supplied></seg> <supplied  reason='lost'>τε καὶ αὐτήν, </supplied></l>
+                        <l  n='194'><supplied  reason='lost'>αὐτὰρ</supplied>
+                            <seg type="word"><supplied  reason='lost'>ἀ</supplied><unclear >π᾽</unclear></seg> ὤμοιιν <seg type="word">Διομή<supplied  reason='lost'>δεος</supplied></seg> <supplied  reason='lost'>ἱπποδάμοιο </supplied></l>
+                        <l  n='195'><seg type="word"><supplied  reason='lost'>δαιδάλεο</supplied>ν</seg> θώρηκα, τὸν
+                                <supplied  reason='lost'>Ἥφαιστος κάμε τεύχων. </supplied></l>
+                        <l  n='196'><supplied  reason='lost'>εἰ τούτω</supplied> γε λάβοιμεν,
+                                <seg type="word">ἐε<supplied  reason='lost'>λποίμην</supplied></seg> <supplied  reason='lost'>κεν Ἀχαιοὺς </supplied></l>
+                        <l  n='197'><gap  extent='8' reason='lost' unit='character'/>ς νηῶν
+                                ἐπιβη<gap  reason='lost'/></l>
+                        <l  n='197a'><gap  extent='8' reason='lost' unit='character'/><unclear >υ</unclear>ς μάλα γάρ κε<gap  reason='lost'/></l>
+                            <l  n='198'><supplied  reason='lost'>Ὣς ἔφατ᾽</supplied> <seg type="word"><supplied  reason='lost'>εὐ</supplied>χόμενος</seg>,
+                                    <seg type="word">νεμ<supplied  reason='lost'>έσησε</supplied></seg> <supplied  reason='lost'>δὲ πότνια Ἥρη,
+                            </supplied></l>
+                        <l  n='199'><gap  extent='7' reason='lost' unit='character'/>κλισμῷ,
+                                <seg type="word">πελέ<supplied  reason='lost'>μιξε</supplied></seg> <supplied  reason='lost'>δὲ μακρὸν Ὄλυμπον,
+                            </supplied></l>
+                        <l  n='199a'><gap  extent='6' reason='lost' unit='character'/><seg type="word"><supplied  reason='lost'>ἀ</supplied>μφοτέραισιν</seg> ε<gap  reason='lost'/></l>
+                        <l  n='200'><supplied  reason='lost'>καί ῥα</supplied> <seg type="word"><supplied  reason='lost'>Πος</supplied>ειδάωνα</seg> μέγαν
+                                <supplied  reason='lost'>θεὸν ἀντίον ηὔδα· </supplied></l>
+                            <l  n='201'><supplied  reason='lost'>ὢ πόποι</supplied> <seg type="word"><supplied  reason='lost'>ἐ</supplied>ννοσίγα<corr></corr></seg> εὐρυς<supplied  reason='lost'>θενές, οὐδέ νυ σοί περ
+                            </supplied></l>
+                        <l  n='202'><gap  extent='6' reason='lost' unit='character'/>Ἀργείων
+                                <seg type="word">ὀλοφ<supplied  reason='lost'>ύρεται</supplied></seg><supplied  reason='lost'>ἐν φρεσὶ θυμός.
+                            </supplied></l>
+                        <l  n='202a'><supplied  reason='lost'>οἵ κεν δὴ</supplied>
+                                <seg type="word"><supplied  reason='lost'>κ</supplied><unclear >α</unclear>κὸν</seg> <seg type="word">οἶτο<unclear>ν</unclear></seg>
+                                <supplied  reason='lost'>ἀναπλήσαντες ὄλωνται
+                            </supplied></l>
+                        <l  n='202b'><supplied  reason='lost'>ἀνδρὸς</supplied> <seg type="word"><supplied  reason='lost'>ἑν</supplied>ὸς</seg> <seg type="word">ῥιπ<supplied  reason='lost'>ῇ</supplied></seg>,<supplied  reason='lost'>ὃ δὲ μαίνεται οὐκέτ᾽ ἀνεκτῶς
+                            </supplied></l>
+                        <gap   reason='lost' unit='line'/>
+                    </div>
+
+                    <div  n='l' type='frag'>
+                        <l  n='203'><seg type="word"><supplied  reason='lost'>οἳ</supplied><unclear>δ</unclear>έ</seg>
+                                σοι εἰς <seg type="word">Ἑλ<unclear >ίκ</unclear><supplied  reason='lost'>ην</supplied></seg> <supplied  reason='lost'>τε καὶ
+                                Αἰγὰς δῶρ᾽ ἀνάγουσι </supplied></l>
+                        <l  n='204'>πολλά <unclear >τε </unclear> <seg type="word"><unclear>κ</unclear><supplied  reason='lost'>αὶ</supplied></seg>
+                                <supplied  reason='lost'>χαρίεντα· σὺ δέ σφισι βούλεο νίκην. </supplied></l>
+                        <l  n='204a'><gap  extent='6' reason='lost' unit='character'/><unclear >κ</unclear><note  xml:lang='eng' resp='al'>According to
+                                West (<bibl >1967, 89</bibl>) this unclear letter could be either
+                                    "<foreign  xml:lang='grc'>κ</foreign>" or "<foreign  xml:lang='grc'>ις</foreign>."</note>αιμ<gap  reason='lost'/></l>
+                        <l  n='205'><supplied  reason='lost'>εἴ</supplied> <seg type="word"><supplied  reason='lost'>πε</supplied>ρ</seg> γάρ κ᾽ <seg type="word">ἐθ<supplied  reason='lost'>έλοιμεν</supplied></seg> <supplied  reason='lost'>, ὅσοι Δαναοῖσιν ἀρωγοί, </supplied></l>
+                        <l  n='206'><seg type="word"><supplied  reason='lost'>Τ</supplied>ρῶας</seg>
+                           <seg type="word"> ἀ<unclear >π</unclear><supplied  reason='lost'>ώσασθαι</supplied></seg> <supplied  reason='lost'>καὶ
+                                ἐρυκέμεν εὐρύοπα Ζῆν, </supplied></l>
+                        <l  n='206a'><gap  extent='3' reason='lost' unit='character'/><unclear >μι</unclear><note  xml:lang='eng' resp='al'>The first
+                                letter could also be "<foreign  xml:lang='grc'>α</foreign>" and the
+                                second letter could also be "<foreign  xml:lang='grc'>κ </foreign>or
+                                    <foreign  xml:lang='grc'>ρ</foreign>," (<bibl >West 1967,
+                                    89)</bibl>).</note><gap  reason='lost'/></l>
+                        <gap   reason='lost' unit='line'/>
+                    </div>
+
+                    <div  n='m and Grenfell' type='frag'>
+                        <milestone unit="column"  n='1'/>
+                        <gap   reason='lost' unit='line'/>
+                        <l  n='216a'><supplied  reason='lost'>Ἔνθά κε λοιγὸς ἔην καὶ</supplied>
+                            <seg type="word"><supplied  reason='lost'>ἀμήχαν</supplied>α</seg> ἔργ᾽ ἐγένοντο, </l>
+                        <l  n='217'><gap  reason='lost'/><seg type="word"><supplied  reason='lost'>ν</supplied>ῆες</seg>
+                                <seg type="word">Ἀχα<supplied  reason='lost'>ι</supplied>ῶν</seg>, <note  xml:lang='eng' resp='al'>See note to line 220.</note></l>
+                        <l  n='218'><supplied  reason='lost'>εἰ μὴ ἐπὶ φρεσὶ θῆκ᾽</supplied>
+                            <seg type="word"><supplied  reason='lost'>Ἀγαμέμνον</supplied><unclear >ι</unclear></seg> πότνια Ἥρη </l>
+                        <l  n='219'><supplied  reason='lost'>αὐτῷ ποιπνύσαντι</supplied> <seg type="word"><supplied  reason='lost'>θοῶ</supplied>ς</seg>
+                                <seg type="word">ὀτρῦνα<corr>ι</corr></seg>  Ἀχαιούς. </l>
+                        <l  n='220'><supplied  reason='lost'>βῆ δ᾽ ἰέναι παρά τε</supplied>
+                            <seg type="word"><supplied  reason='lost'>κλις</supplied><unclear >ί</unclear>ας</seg> καὶ <seg type="word">νῆ<choice><sic>ες</sic><corr>ας</corr></choice></seg> <seg type="word">ἐί<unclear >ς</unclear><supplied  reason='lost'>ας</supplied></seg>
+                             <note  xml:lang='eng' resp='al'>The ending of this line
+                                may be present here by its similarity to line 217. Syntactically,
+                                the extant ending in this line is not likely to be possible with
+                                    "<foreign  xml:lang='grc'>νῆες</foreign>" in the nominative and
+                                    "<foreign  xml:lang='grc'>κλίσιας</foreign>" in the accusative.
+                                Likewise, line 217 seems also to have been changed because of its
+                                similarity to line 220.</note></l>
+                        <l  n='221'><supplied  reason='lost'>πορφύρεον μέγα φᾶρος</supplied> <seg type="word"><supplied  reason='lost'>ἔ</supplied>χων</seg>
+                            <seg type="word">ἐ<choice><sic>γ</sic><corr>ν</corr></choice></seg> <seg type="word">χ<supplied  reason='lost'>ει</supplied><unclear >ρὶ</unclear></seg> <seg type="word"><unclear>π</unclear><supplied  reason='lost'>αχείῃ</supplied></seg>, <supplied  reason='lost'></supplied></l>
+                        <gap   reason='lost' unit='line'/>
+
+                        <milestone unit="column" n="2"/>
+                        <gap   reason='lost' unit='line'/>
+                        <l  n='249'>πὰρ δὲ <seg type="word">Δι<supplied  reason='lost'>ὸς</supplied></seg> <supplied  reason='lost'>βωμῷ περικαλλέι
+                                κάββαλε νεβρόν, </supplied></l>
+                        <l  n='250'>ἔνθα πανομφαίῳ Ζηνὶ <seg type="word">ῥέζ<supplied  reason='lost'>εσκον</supplied></seg>
+                            <supplied  reason='lost'>Ἀχαιοί. </supplied></l>
+                        <l  n='251'>οἳ δ᾽ ὡς οὖν εἴδοντο Διὸς τέρας <supplied  reason='lost'> αἰγιόχοιο, </supplied></l>
+                        <l  n='252'>μᾶλλον ἐπὶ <seg type="word">Τρώε<choice><sic>ε</sic><corr>ς</corr></choice>σι</seg> <seg type="word">θόρο<choice><sic>μ</sic><corr>ν</corr></choice></seg>, <seg type="word">μν<supplied  reason='lost'>ήσαντο</supplied></seg> <supplied  reason='lost'>δὲ χάρμης.
+                        </supplied>
+                        	
+                        	
+                        	<note  xml:lang='eng' resp=''>There appears to be an error here in West's edition. Compare
+                        	her note on the line (<bibl >1967, 90</bibl>) versus her printed
+                        	edition of it (<bibl >West 1967, 80</bibl>).</note></l>
+                        <l  n='252a'>Ζεὺς δὲ πατὴρ ὤτρυνε φ<gap  reason='lost'/></l>
+                        <l  n='252b'>εισαν<note  xml:lang='eng' resp='al'>"<foreign  xml:lang='grc'>εἶσαν</foreign>" in this context seems unlikely. Most editors
+                                have emended it to "<foreign  xml:lang='grc'>εἶξαν</foreign>,"
+                                    (<bibl >West 1967, 90</bibl>).</note> δὲ Τρῶες τυτθὸν δα<gap  reason='lost'/></l>
+                        <l  n='253'>ἔνθ᾽ οὔ τις <supplied  reason='lost'>πρότερος Δαναῶν
+                                πολλῶν περ ἐόντων </supplied></l>
+                        <gap   reason='lost' unit='line'/>
+                    </div>
+
+                    <div  n='n' type='frag'>
+                        <l  n='255?'><note  xml:lang='eng' resp='al'>West numbers this verse 255a
+                                becasue the traces cannot be reconciled with the vulgate
+                                    (<bibl >1967, 90</bibl>).</note><gap  extent='21' reason='lost' unit='character'/><gap  extent='1' reason='illegible' unit='character'/>κειν<gap  reason='lost'/></l>
+                        <l  n='256'><supplied  reason='lost'>ἀλλὰ πολὺ πρῶτος Τρώων</supplied>
+                            <seg type="word"><supplied  reason='lost'>ἕλ</supplied><unclear >ε</unclear>ν</seg>
+                            <seg type="word"> ἄ<unclear >ν</unclear><supplied  reason='lost'>δρα</supplied></seg> <supplied  reason='lost'>κορυστὴν
+                            </supplied></l>
+                        <l  n='257'><supplied  reason='lost'>Φραδμονίδην Ἀγέλαον· ὃ</supplied>
+                            <seg type="word"><supplied  reason='lost'>μὲ</supplied><choice><sic>ν</sic><corr>μ</corr></choice></seg> φύγα <supplied  reason='lost'> δ᾽
+                                ἔτραπεν ἵππους· </supplied></l>
+                        <l  n='258'><supplied  reason='lost'>τῷ δὲ μεταστρεφθέντι</supplied>
+                            <seg type="word"><supplied  reason='lost'>μ</supplied>εταφρέν<supplied  reason='lost'>ῳ</supplied></seg> <supplied  reason='lost'>ἐν δόρυ πῆξεν
+                            </supplied></l>
+                        <note  xml:lang='eng' resp='al'>There is a further fragment O of 4 lines, but
+                            these lines have not been identifed or placed.</note>
+                    </div>
+
+                </div>
+            </div>
+
+        </body>
+
+
+    </text>
+</TEI>

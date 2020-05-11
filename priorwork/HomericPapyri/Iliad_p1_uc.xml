@@ -1,0 +1,2559 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad Allen-Sutton-West P1</title>
+				<editor xml:id="bh">Bart Huelsenbeck</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new edition, with semantic markup, punctuation, accentuation, emendation,
+					and notes.</edition>
+				<respStmt>
+					<name>Bart Huelsenbeck, ed. </name>
+					<resp> After the edition of Angelo Mai <title>Iliadis fragmenta antiquissima cum
+							picturis</title>1819; M. Ceriani and A. Ratti <title>Homeri Iliadis
+							pictae fragmenta Ambrosiana phototypice edita (Milan, 1905)</title>;
+						Aristide Calderini <title>Ilias Ambrosiana Cod. F. 205 P. inf. Bibliothecae
+							Ambrosianae Mediolanensis (Berne-Olten, 1953)</title>
+					</resp>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher> The Center for Hellenic Studies of Harvard University </publisher>
+				<authority>
+					<name>Casey Dué and Mary Ebbott, edd.</name>
+				</authority>
+				<availability>
+					<p>©2009, The Center for Hellenic Studies. This work is made available under the
+						Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States
+						License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="eng">English</language>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+				<language ident="xgrc">Transliterated Greek</language>
+				<language ident="deu">German</language>
+				<language ident="fra">French</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div n="date" type="description" xml:lang="eng">
+				<head>Date</head>
+				<p>Fifth or Sixth century A.D. </p>
+				<list>
+					<item>
+						<bibl>W.H. Willis, Akten des XIII. Internationalen Papyrologenkongresses
+							(Munich, 1974) 461-467</bibl>
+					</item>
+					<item>
+						<bibl>G. Cavallo, Il calamo e il papiro, Papyrologica florentina 36 (2005),
+							pp. 163-74</bibl>
+					</item>
+				</list>
+			</div>
+			<div n="provenance" type="description" xml:lang="eng">
+				<head>Provenance</head>
+				<p>Byzantion? Alexandria?</p>
+			</div>
+			<div n="bibliography" type="description" xml:lang="eng">
+				<head>Bibliography</head>
+				<list>
+					<item>
+						<bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim:
+							Olms.</bibl>
+					</item>
+					<item>
+						<bibl>Calderini, Aristide<title>Ilias Ambrosiana Cod. F. 205 P. inf.
+								Bibliothecae Ambrosianae Mediolanensis</title>Berne-Olten,
+							1953</bibl>
+					</item>
+					<item>
+						<bibl>Ceriani, M. and A. Ratti<title>Homeri Iliadis pictae fragmenta
+								Ambrosiana phototypice edita</title>Milan, 1905</bibl>
+					</item>
+					<item>
+						<bibl>Mai, Angelo<title>Iliadis fragmenta antiquissima cum
+							picturis</title>1819</bibl>
+					</item>
+				</list>
+			</div>
+			<div n="catalogues" type="description" xml:lang="eng">
+				<head>Catalogue entries</head>
+				<list>
+					<item>Mertens-Pack 554.1 </item>
+					<item>Allen-Sutton-West P 001</item>
+					<item>Biblioteca Ambrosiana inv. F 205 inf.</item>
+				</list>
+			</div>
+			<div n="text" type="edition">
+				<head xml:lang="eng">Iliad P1</head>
+				<div n="1" type="book">
+					<div n="1recto" type="frag">
+						<l n="1"><supplied reason="lost">μῆνιν</supplied>
+							<seg type="word"><supplied reason="lost">ἄειδε</supplied>θεὰ</seg>
+							Πηληιάδεω Ἀχιλῆος</l>
+						<l n="2"><seg type="word"><supplied reason="lost"
+								>οὐλομένη</supplied>ν</seg>,<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> ἣ <seg type="word">μυρί<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ Ἀχαιοῖς <seg type="word"
+									>ἄλγε<add n="punctuation" place="inline">'</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽
+								ἔθηκε,<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>
+						</l>
+						<l n="3"><supplied reason="lost">πολλὰς δ᾽</supplied>
+							<seg type="word"><supplied reason="lost">ἰ</supplied>φθίμους</seg> ψυχὰς
+							Ἄιδι προίαψεν </l>
+						<l n="4"><seg type="word"><supplied reason="lost"
+								>ἡρώω</supplied>ν</seg>,<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν </l>
+						<l n="5"><seg type="word"><supplied reason="lost">οἰων</supplied>οῖσί</seg>
+							τε πᾶσι,<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> Διὸς δ᾽ ἐτελείετο
+								βουλή,<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>
+						</l>
+						<l n="6"><supplied reason="lost">ἐξ οὗ</supplied> δὴ τὰ πρῶτα διαστήτην
+							ἐρίσαντε </l>
+						<l n="7"><seg type="word"><supplied reason="lost">Ἀτρεί</supplied>δης</seg>
+							τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="8"><supplied reason="lost">τίς τάρ</supplied>
+							<seg type="word"><supplied reason="lost">σ</supplied>φωε</seg> θεῶν
+							ἔριδι ξυνέηκε μάχεσθαι<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> ; </l>
+						<l n="9"><seg type="word"><supplied reason="lost">Λητο</supplied>ῦς</seg>
+							καὶ Διὸς υἱός·<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> ὃ<add
+								n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+								xml:lang="eng">A rough breathing mark is visible here.</note> γὰρ
+							βασιλῆι χολωθεὶς </l>
+						<l n="10"><seg type="word"><supplied reason="lost">νοῦ</supplied>σον</seg>
+							ἀνὰ στρατὸν ὄρσε κακήν,<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> ὀλέκοντο
+							δὲ λαοί,</l>
+						<l n="11"><seg type="word"><supplied reason="lost">οὕνε</supplied>κα</seg>
+							τὸν Χρύσην <seg type="word">ἠτίμ<del rend="erasure">α</del><add
+									n="correction">η</add>σεν</seg> ἀρητῆρα </l>
+						<l n="12"><seg type="word"><supplied reason="lost"
+								>Ἀτρείδ</supplied>ης</seg>·<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> ὃ γὰρ ἦλθε θοὰς ἐπὶ νῆας Ἀχαιῶν </l>
+						<l n="13"><seg type="word"><supplied reason="lost"
+								>λυσόμ</supplied>ενός</seg> τε θύγατρα φέρων τ᾽ ἀπερείσι᾽
+								ἄποινα,<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>
+						</l>
+						<gap reason="lost"/>
+					</div>
+					<div n="2recto" type="frag">
+						<gap reason="lost"/>
+						<l n="68"><supplied reason="lost">ἤτοι ὅ γ᾽</supplied> ὣς εἰπὼν κατ᾽ ἄρ᾽
+								ἕζετο<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · τοῖσι <seg
+								type="word">δ<add n="punctuation" place="inline">'</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽
+							ἀνέστη </l>
+						<l n="69"><supplied reason="lost">Κάλχας</supplied> Θεστορίδης οἰωνοπόλων
+								<seg type="word">ὄχ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἄριστος<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , </l>
+						<l n="70"><supplied reason="lost">ὃς ᾔδη</supplied> τά <seg type="word"
+									>τ<add n="punctuation" place="inline">'</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here
+									(<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽ ἐόντα<add
+								n="punctuation" place="inline">·</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> τά <seg type="word">τ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here (<bibl>Ceriani in
+									Calderini, xxvii</bibl>).</note>᾽ ἐσσόμενα<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> πρό <seg type="word">τ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἐόντα<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="71"><supplied reason="lost">καὶ</supplied>
+							<seg type="word"><supplied reason="lost">νή</supplied>εσς᾽</seg>
+								ἡγήσατ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ Ἀχαιῶν Ἴλιον
+								εἴσω<add n="punctuation" place="inline">.</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>
+						</l>
+						<l n="72"><supplied reason="lost">ἣν διὰ</supplied>
+							<seg type="word"><supplied reason="lost">μ</supplied>αντοσύνην</seg><add
+								n="punctuation" place="inline">·</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> , τήν οἱ πόρε Φοῖβος Ἀπόλλων· </l>
+						<l n="73"><supplied reason="lost">ὅ σφιν</supplied> ἐὺ φρονέων ἀγορήσατο καὶ
+							μετέειπεν· </l>
+						<l n="74"><supplied reason="lost">ὦ</supplied>
+							<seg type="word"><supplied reason="lost">Ἀχιλ</supplied>εῦ</seg> κέλεαί
+							με Διὶ φίλε μυθήσασθαι </l>
+						<l n="75"><supplied reason="lost">μῆνιν</supplied>
+							<seg type="word"><supplied reason="lost">Ἀπ</supplied>όλλωνος</seg>
+							ἑκατηβελέταο ἄνακτος<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="76"><supplied reason="lost">τοὶ γὰρ</supplied>
+							<seg type="word"><supplied reason="lost">ἐγ</supplied>ὼν</seg> ἐρέω<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> · σὺ δὲ σύνθεο καί μοι ὄμοσσον </l>
+						<l n="77"><supplied reason="lost">ἦ μέν μοι</supplied> πρόφρων ἔπεσιν καὶ
+							χερσὶν ἀρήξειν· </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="3recto" type="frag">
+						<gap reason="lost"/>
+						<l n="178">εἰ μάλα καρτερός ἐσσι, θεός που σοὶ τό γ᾽ <seg type="word"
+									>ἔ<unclear>δ</unclear>ωκεν</seg><add n="punctuation"
+								place="inline">.</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="179">οἴκαδ᾽ ἰὼν σὺν νηυσί τε σῆις καὶ σοῖς ἑτάροισι<add
+								n="punctuation" place="inline">.</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note>
+						</l>
+						<l n="180">Μυρμιδόνεσσιν ἄνασσε, σέθεν <seg type="word">δ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἐγὼ οὐκ
+								ἀλεγίζω<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , </l>
+						<l n="181">οὐδ᾽ ὄθομαι κοτέοντος· ἀπειλήσω δέ τοι ὧδε· </l>
+						<l n="182"><seg type="word"><supplied reason="lost">ὡ</supplied>ς</seg> ἔμ᾽
+							ἀφαιρεῖται Χρυσηίδα Φοῖβος Ἀπόλλων<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , </l>
+						<l n="183">τὴν μὲν ἐγὼ σὺν νηί τ᾽ ἐμῆι καὶ ἐμοῖς ἑτάροισι </l>
+						<l n="184"><seg type="word"><supplied reason="lost"
+								>πέμψ</supplied>ω</seg><add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , ἐγὼ δέ <seg type="word">κ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἄγω Βρισηίδα καλλιπάρηον<add
+								n="punctuation" place="inline">.</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note>
+						</l>
+						<l n="185"><supplied reason="lost">αὐτὸς</supplied>
+							<seg type="word"><supplied reason="lost">ἰ</supplied>ὼν</seg> κλισίην δὲ
+							τὸ σὸν γέρας <seg type="word">ὄφρ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἐὺ εἰδῆς </l>
+						<l n="186">ὅσσον φέρτερός εἰμι σέθεν<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , στυγέη δὲ καὶ ἄλλος </l>
+						<l n="187">ἶσον ἐμοὶ φάσθαι<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> καὶ
+							ὁμοιωθήμεναι ἄντην<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> ." </l>
+						<l n="188"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>ὣς φάτο<add> ⸒</add><note
+								resp="bh" xml:lang="eng">A hypodiastole appears here.</note>·
+							Πηλείωνι <seg type="word">δ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἄχος <seg type="word">γένετ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽, ἐν δέ οἱ
+								ἦτορ<add n="punctuation" place="inline">.</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>
+						</l>
+						<l n="189">στήθεσσιν λασίοισι διάνδιχα μερμήριξεν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="190">ἢ ὅ γε φάσγανον ὀξὺ ἐρυσσάμενος παρὰ μηροῦ<add n="punctuation"
+								place="inline">.</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<gap reason="lost"/>
+					</div>
+					<div n="4recto" type="frag">
+						<gap reason="lost"/>
+						<l n="283">λίσσομ᾽ Ἀχιλλῆι μεθέμεν χόλον<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, ὃς μέγα πᾶσιν </l>
+						<l n="284">ἕρκος Ἀχαιοῖσιν πέλεται πολέμοιο κακοῖο<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ." </l>
+						<l n="285"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>τὸν <seg type="word">δ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἀπαμειβόμενος
+							προσέφη κρείων <seg type="word">Ἀγαμέμνω<supplied reason="lost"
+									>ν·</supplied></seg>
+						</l>
+						<l n="286"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>"ναὶ δὴ ταῦτά γε πάντα γέρον κατὰ
+							μοῖραν ἔειπες<add n="punctuation" place="inline"> ˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="287">ἀλλ᾽ ὅδ᾽ ἀνὴρ ἐθέλει περὶ πάντων ἔμμεναι ἄλλων<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> , </l>
+						<l n="288">πάντων μὲν κρατέειν ἐθέλει<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , πάντεσσι <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἀνάσσειν, </l>
+						<l n="289"><supplied reason="lost">πᾶσι</supplied>
+							<supplied reason="lost">δὲ</supplied> σημαίνειν<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , ἅ <seg type="word">τιν<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ οὐ πείσεσθαι ὀίωι<add
+								n="punctuation" place="inline">·</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> · </l>
+					</div>
+					<div n="5recto" type="frag">
+						<gap reason="lost"/>
+						<l n="320"><supplied reason="lost">ἀλλ᾽</supplied> ὅ γε Ταλθύβιόν τε καὶ
+							Εὐρυβάτην προσέειπε, </l>
+						<l n="321"><supplied reason="lost">τώ</supplied>
+							<seg type="word"><supplied reason="lost">ο</supplied>ἱ</seg> ἔσαν κήρυκε
+							καὶ ὀτρηρὼι θεράποντε· </l>
+						<l n="322">ἔρχεσθον κλισίην Πηληιάδεω Ἀχιλῆος· </l>
+						<l n="323">χειρὸς <seg type="word">ἑλόντ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀγέμεν Βρισηίδα καλλιπάρηον· </l>
+						<l n="324">εἰ δέ κε μὴ δώησιν ἐγὼ δέ κεν αὐτὸς ἕλωμαι </l>
+						<l n="325">ἐλθὼν σὺν πλεόνεσσι· τό οἱ καὶ ῥίγιον ἔσται<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ." </l>
+						<l n="326"><seg type="word"><supplied reason="lost">ὣ</supplied>ς
+								εἰπὼν</seg> προίει, κρατερὸν <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἐπὶ μῦθον ἔτελλε<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> · </l>
+						<l n="327">τὼι δ᾽ ἀέκοντε βάτην παρὰ θῖν᾽ α<add n="punctuation"
+								place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A rough
+								breathing mark is visible here.</note>῾λὸς ἀτρυγέτοιο<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> , </l>
+						<l n="328">Μυρμιδόνων <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἐπί τε κλισίας καὶ νῆας <seg type="word">ἱ<add
+									n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+									xml:lang="eng">A rough breathing mark is visible
+								here.</note>κέσθην</seg>, </l>
+						<l n="329">τὸν δ᾽ εὗρον <seg type="word"><supplied reason="lost"
+									>πα</supplied>ρά</seg> τε κλισίηι καὶ νηὶ μελαίνηι </l>
+						<l n="330">ἥμενον· οὐδ᾽ ἄρα τώι γε <seg type="word">ἰ<add n="punctuation"
+									place="supralinear"> ҆</add><note resp="bh" xml:lang="eng">A
+									smooth breathing mark is visible here.</note>δὼν</seg> γήθησεν
+								Ἀχιλλεύς<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> . </l>
+						<l n="331">τὼι μὲν ταρβήσαντε καὶ αἰδομένω βασιλῆα </l>
+						<l n="332"><seg type="word">
+								<supplied reason="lost">στήτ</supplied>
+								<unclear>ην</unclear>
+							</seg> οὐδέ τί μιν προσεφώνεον <seg type="word">οὐδ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἐρέοντο· </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="6recto" type="frag">
+						<gap reason="lost"/>
+						<l n="345">ὣς φάτο, Πάτροκλος δὲ φίλωι ἐπεπείθεθ᾽ <supplied reason="lost"
+								>ἑταίρῳ,</supplied>
+						</l>
+						<l n="346">ἐκ δ᾽ ἄγαγε κλισίης Βρισηίδα καλλιπάρηον, </l>
+						<l n="347">δῶκε δ᾽ ἄγειν· τὼι δ᾽ αὖτις ἴτην παρὰ νῆας Ἀχαιῶν· </l>
+						<l n="348">ἣ δ᾽ ἀέκους᾽ ἅμα τοῖσι γυνὴ κίεν· αὐτὰρ Ἀχιλλεὺς </l>
+						<l n="349">δακρύσας ἑτάρων ἄφαρ ἕζετο νόσφι λιασθείς, </l>
+						<l n="350">θῖν᾽ ἔφ᾽ ἁλὸς πολιῆς, ὁρόων ἐπὶ οἴνοπα πόντον· </l>
+						<l n="351">πολλὰ δὲ μητρὶ φίληι ἠρήσατο χεῖρας ὀρεγνύς· </l>
+						<l n="352">μῆτερ ἐπεί μ᾽ ἔτεκές γε μινυνθάδιόν περ ἐόντα, </l>
+						<l n="353">τιμήν πέρ μοι ὄφελλεν Ὀλύμπιος ἐγγυαλίξαι </l>
+						<l n="354">Ζεὺς ὑψιβρεμέτης· νῦν δ᾽ οὐδέ με τυτθὸν ἔτισεν· </l>
+						<l n="355">ἦ γάρ μ᾽ Ἀτρείδης εὐρὺ κρείων Ἀγαμέμνων </l>
+						<l n="356">ἠτίμησεν· ἑλὼν γὰρ ἔχει γέρας αὐτὸς ἀπούρας. </l>
+						<l n="357">ὣς φάτο δάκρυ χέων, τοῦ δ᾽ ἔκλυε πότνια μήτηρ </l>
+						<l n="358">ἡμένη ἐν βένθεσσιν ἁλὸς παρὰ πατρὶ γέροντι· </l>
+						<l n="359">καρπαλίμως δ᾽ ἀνέδυ πολιῆς ἁλὸς ἠύτ᾽ ὀμίχλη, </l>
+						<l n="360">καί ῥα πάροιθ᾽ αὐτοῖο καθέζετο δάκρυ χέοντος, </l>
+						<l n="361">χειρί τέ μιν κατέρεξεν ἔπος τ᾽ ἔφατ᾽ ἔκ τ᾽ ὀνόμαζε· </l>
+						<l n="362">τέκνον τί κλαίεις; τί δέ σε φρένας ἵκετο πένθος; </l>
+						<l n="363">ἐξαύδα, μὴ κεῦθε νόω, ἵνα εἴδομεν ἄμφω. </l>
+						<l n="364">τὴν δὲ βαρὺ στενάχων προσέφη πόδας ὠκὺς Ἀχιλλεύς· </l>
+						<l n="365">οἶσθα· <supplied reason="lost">τί ἤ τοι</supplied> ταῦτ᾽ εἰδυίηι
+							πάντ᾽ ἀγορεύω; </l>
+						<l n="366"><supplied reason="lost">ᾠχόμεθ᾽ ἐς</supplied>
+							<seg type="word"><supplied reason="lost">Θ</supplied>ήβην</seg> ἱερὴν
+							πόλιν <supplied reason="lost">Ἠετίωνος,</supplied>
+						</l>
+						<l n="367"><supplied reason="lost">τὴν δὲ</supplied>
+							<seg type="word"><supplied reason="lost">δι</supplied>επράθομέν</seg> τε
+							καὶ ἤγομεν ἐνθάδε πάντα· </l>
+						<l n="368"><supplied reason="lost">καὶ τὰ</supplied> μὲν εὖ δάσσαντο μετὰ
+							σφίσιν υἷες Ἀχαιῶν, </l>
+						<l n="369"><supplied reason="lost">ἐκ δ᾽</supplied>
+							<seg type="word"><supplied reason="lost">ἕλ</supplied>ον</seg> Ἀτρείδηι
+							Χρυσηίδα καλλιπάρηον. </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="7recto" type="frag">
+						<gap reason="lost"/>
+						<l n="436">ἐκ δ᾽ εὐνὰς ἔβαλον, κατὰ δὲ πρυμνήσι᾽ ἔδησαν· </l>
+						<l n="437">ἐκ δὲ καὶ αὐτοὶ βαῖνον ἐπὶ ῥηγμῖνι θαλάσσης, </l>
+						<l n="438">ἐκ δ᾽ ἑκατόμβην βῆσαν ἡκεβόλωι Ἀπόλλωνι· </l>
+						<l n="439">ἐκ δὲ Χρυσηὶς νηὸς βῆ ποντοπόροιο. </l>
+						<l n="440">τὴν μὲν ἔπειτ᾽ ἐπὶ βωμὸν ἄγων πολύμητις <seg type="word"
+									>Ὀδυσσ<supplied reason="lost">εὺς</supplied></seg>
+						</l>
+						<l n="441"><seg type="word"><supplied reason="lost">πατ</supplied>ρὶ</seg>
+							φίλωι ἐν χερσὶ τίθει καί μιν προσέειπεν· </l>
+						<l n="442">"ὦ Χρύση, πρό μ᾽ ἔπεμψεν ἄναξ ἀνδρῶν Ἀγαμέμνων </l>
+						<l n="443"><seg type="word"><supplied reason="lost">παῖ</supplied>δά</seg>
+							τε σοὶ ἀγέμεν, Φοίβω θ᾽ ἱερὴν ἑκατόμβην </l>
+						<l n="444"><seg type="word"><supplied reason="lost">ῥέ</supplied>ξαι</seg>
+							ὑπὲρ Δαναῶν ὄφρ᾽ ἱλασόμεσθα ἄνακτα, </l>
+						<l n="445">ὃς νῦν Ἀργείοισι πολύστονα κήδε᾽ ἐφῆκεν." </l>
+						<l n="446">ὣς εἰπὼν ἐν χερσὶ τίθει, ὃ δὲ δέξατο χαίρων </l>
+						<l n="447">παῖδα φίλην· οἳ δ᾽ ὦκα θεῶ κλειτὴν ἑκατόμβην </l>
+						<l n="448"><seg type="word"><supplied reason="lost">ἑ</supplied>ξείης</seg>
+							ἔστησαν ἐύδμητον περὶ βωμόν, </l>
+						<l n="449">χερνίψαντο δ᾽ ἔπειτα καὶ οὐλοχύτας ἀνέλοντο. </l>
+						<l n="450"><seg type="word"><supplied reason="lost">τ</supplied>οῖσιν</seg>
+							δὲ Χρύσης μεγάλ᾽ εὔχετο χεῖρας ἀνασχών· </l>
+						<l n="451">κλῦθί μευ ἀργυρότοξ᾽, ὃς Χρύσην ἀμφιβέβηκας </l>
+						<l n="452">Κίλλάν τε ζαθέην Τενέδοιό τε ἶφι ἀνάσσεις· </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="8recto" type="frag">
+						<gap reason="lost"/>
+						<l n="509"><supplied reason="lost">τόφρα δ᾽</supplied> ἐπὶ Τρώεσσι τίθει
+							κράτος ὄφρ᾽ ἂν Ἀχαιοὶ </l>
+						<l n="510"><supplied reason="lost">υἱὸν</supplied> ἐμὸν τίσωσιν ὀφέλλωσίν τέ
+							ἑ τιμῆι." </l>
+						<l n="511"><supplied reason="lost">ὣς</supplied>
+							<seg type="word"><supplied reason="lost">φ</supplied>άτο</seg>· τὴν δ᾽
+							οὔ τι προσέφη νεφεληγερέτα Ζεύς, </l>
+						<l n="512"><supplied reason="lost">ἀλλ᾽</supplied>
+							<seg type="word"><supplied reason="lost">ἀ</supplied>κέων</seg> δὴν
+							ἧστο· Θέτις δ᾽ ὡς ἥψατο γούνων </l>
+						<l n="513">ὣς ἔχετ᾽ ἐμπεφυυῖα, καὶ εἴρετο δεύτερον αὖθις· </l>
+						<l n="514">νημερτὲς μὲν δή μοι ὑπόσχεο καὶ κατάνευσον </l>
+						<l n="515">ἢ ἀπόειπ᾽, ἐπεὶ οὔ τοι ἔπι δέος, ὄφρ᾽ ἐὺ εἰδῶ </l>
+						<l n="516">ὅσσον ἐγὼ μετὰ πᾶσιν ἀτιμοτάτη θεός εἰμι. </l>
+						<l n="517">τὴν δὲ μέγ᾽ ὀχθήσας προσέφη νεφεληγερέτα Ζεύς· </l>
+						<l n="518">ἦ δὴ λοίγια ἔργ᾽ ὅτε μ᾽ ἐχθοδοπῆσαι ἐφήσεις </l>
+						<l n="519">Ἥρηι ὅτ᾽ ἄν μ᾽ ἐρέθηισιν ὀνειδείοις ἐπέεσσιν· </l>
+						<l n="520">ἣ <supplied reason="lost">δὲ καὶ</supplied> αὔτως μ᾽ αἰεὶ ἐν
+							ἀθανάτοισι θεοῖσιν </l>
+						<l n="521"><seg type="word"><supplied reason="lost">νε</supplied>ικεῖ</seg>,
+							καί τέ μέ φησι μάχη Τρώεσσιν ἀρήγειν. </l>
+						<l n="522"><seg type="word"><supplied reason="lost">ἀλλ</supplied>ὰ</seg> σὺ
+							μὲν νῦν αὖθις ἀπόστιχε μή σε νοήση </l>
+						<l n="523"><seg type="word"><supplied reason="lost">Ἥρ</supplied>η</seg>·
+							ἐμοὶ δέ κε ταῦτα μελήσεται ὄφρα τελέσσω· </l>
+						<l n="524"><supplied reason="lost">εἰ δ᾽ ἄγε</supplied> τοι κεφαλῆ
+							κατανεύσομαι ὄφρα πεποίθης· </l>
+						<l n="525"><supplied reason="lost">τοῦτο γὰρ</supplied>
+							<seg type="word"><supplied reason="lost">ἐ</supplied>ξ</seg> ἐμέθεν γε
+							μετ᾽ ἀθανάτοισι μέγιστον </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="9recto" type="frag">
+						<gap reason="lost"/>
+						<l n="606">οἳ μὲν κακκείοντες ἔβαν οἶκόνδε ἕκαστος, </l>
+						<l n="607">ἧιχι ἑκάστωι δῶμα περικλυτὸς <seg type="word"><supplied
+									reason="lost">ἀμ</supplied>φιγυήεις</seg>
+						</l>
+						<l n="608">Ἥφαιστος ποίησεν ἰδυίηισιν πραπίδεσσιν· </l>
+						<l n="609">Ζεὺς δὲ πρὸς ὃν λέχος ἤι᾽ Ὀλύμπιος ἀστεροπητής, </l>
+						<l n="610">ἔνθα πάρος κοιμᾶθ᾽ ὅτε μιν γλυκὺς ὕπνος ἱκάνοι· </l>
+						<l n="611">ἔνθα καθεῦδ᾽ ἀναβάς, παρὰ δὲ χρυσόθρονος Ἥρη. </l>
+						<l><sic>Α</sic></l>
+						<l><sic>ϊϚ</sic></l>
+					</div>
+				</div>
+				<div n="2" type="book">
+					<div n="10recto" type="frag">
+						<gap reason="lost"/>
+						<l n="117">ὃς δὴ πολλάων πολίων κατέλυσε κάρηνα<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<l n="118">ἠδ᾽ ἔτι καὶ λύσει· τοῦ γὰρ κράτος ἐστὶ μέγιστον<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> . </l>
+						<l n="119">αἰσχρὸν γὰρ τόδε <seg type="word">γ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἐστὶ καὶ ἐσσομένοισι πυθέσθαι </l>
+						<l n="120">μὰψ οὕτω τοιόνδε τοσόνδε τε λαὸν Ἀχαιῶν<add n="punctuation"
+								place="inline">.</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<l n="121">ἄπρηκτον πόλεμον πολεμίζειν ἠδὲ μάχεσθαι </l>
+						<l n="122">ἀνδράσι παυροτέροισι<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note>, τέλος δ<add n="punctuation" place="inline">
+								'</add><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ οὔ πώ τι πέφανται<add n="punctuation" place="inline">
+								˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · </l>
+						<l n="123">εἴ περ γάρ κ᾽ ἐθέλοιμεν Ἀχαιοί τε Τρῶές τε<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<l n="124">ὅρκια πιστὰ ταμόντες ἀριθμηθήμεναι ἄμφω<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="125">Τρῶας μὲν λέξασθαι ἐφέστιοι ὅσσοι ἔασιν<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="11recto" type="frag">
+						<gap reason="lost"/>
+						<l n="311">ἔνθα δ᾽ ἔσαν<add hand="later" place="supralinear">Unintelligible
+								mark</add><note resp="bh" xml:lang="eng">Two lines are visible
+								here.</note> στρουθοῖο νεοσσοί, νήπια τέκνα, </l>
+						<l n="312">ὄζωι ἐπ᾽ ἀκροτάτωι πετάλοις ὑποπεπτηῶτες </l>
+						<l n="313">ὀκτώ, ἀτὰρ μήτηρ ἐνάτη ἦν ἣ τέκε τέκνα· </l>
+						<l n="314">ἔνθ᾽ ὅ γε τοὺς ἐλεεινὰ κατήσθιε τετριγῶτας· </l>
+						<l n="315">μήτηρ δ᾽ ἀμφεποτᾶτο ὀδυρομένη φίλα τέκνα· </l>
+						<l n="316">τὴν δ᾽ ἐλελιξάμενος πτέρυγος λάβεν ἀμφιαχουσαν. </l>
+						<l n="317">αὐτὰρ ἐπεὶ κατὰ τέκν᾽ ἔφαγε στρουθοῖο καὶ αὐτήν, </l>
+						<l n="318">τὸν μὲν <seg type="word">ἀ<add hand="later" place="supralinear"
+									>ρ</add>ίζηλον</seg>
+							<del>ἐ</del>θῆκεν θεὸς ὅς περ ἔφηνε· </l>
+						<l n="319">λᾶαν γάρ μιν ἔθηκε Κρόνου πάις ἀγκυλομήτεω· </l>
+						<l n="320">ἡμεῖς δ᾽ ἑσταότες θαυμάζομεν οἷον ἐτύχθη. </l>
+						<l n="321">ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ᾽ ἑκατόμβας, </l>
+						<l n="322">Κάλχας δ᾽ αὐτίκ᾽ ἔπειτα θεοπροπέων ἀγόρευε· </l>
+						<l n="323">τίπτ᾽ ἄνεω ἐγένεσθε κάρη κομόωντες Ἀχαιοί; </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="12recto" type="frag">
+						<gap reason="lost"/>
+						<l n="387">εἰ μὴ νὺξ ἐλθοῦσα διακρινέει μένος ἀνδρῶν. </l>
+						<l n="388">ἱδρώσει μέν τευ τελαμὼν ἀμφὶ στήθεσσιν </l>
+						<l n="389">ἀσπίδος ἀμφιβρότης, περὶ δ᾽ ἔγχει χεῖρα καμεῖται· </l>
+						<l n="390">ἱδρώσει δέ τευ ἵππος ἐύξοον ἅρμα τιταίνων. </l>
+						<l n="391">ὃν δ᾽ ἂν ἐγὼν ἀπάνευθε μάχης ἐθέλοντα νοήσω </l>
+						<l n="392">μιμνάζειν παρὰ νηυσὶ κορωνίσιν, οὔ οἱ ἔπειτα </l>
+						<l n="393">ἄρκιον ἐσσεῖται φυγέειν κύνας ἠδ᾽ οἰωνούς. </l>
+						<l n="394">ὣς ἔφατ᾽, Ἀργεῖοι δὲ μέγ᾽ ἴαχον ὡς ὅτε κῦμα </l>
+						<l n="395">ἀκτῆι ἐφ᾽ ὑψηλῆι, ὅτε κινήσηι Νότος ἐλθών, </l>
+						<l n="396">προβλῆτι σκοπέλωι· τὸν δ᾽ οὔ ποτε κύματα λείπει </l>
+						<l n="397">παντοίων ἀνέμων, ὅτ᾽ ἂν ἔνθ᾽ ἢ ἔνθα γένωνται. </l>
+						<l n="398">ἀνστάντες δ᾽ ὀρέοντο κεδασθέντες κατὰ νῆας, </l>
+						<l n="399"><supplied reason="lost">κάπνισσάν τε κατὰ κλισίας, καὶ</supplied>
+							<seg type="word"><supplied reason="lost">δ</supplied>εῖπνον</seg>
+							ἕλοντο. </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="13recto" type="frag">
+						<gap reason="lost"/>
+						<l n="827">Πάνδαρος, ὧι καὶ τόξον Ἀπόλλων αὐτὸς ἔδωκεν. </l>
+						<l n="828"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>οἳ δ᾽ Ἀδρήστειάν τ᾽ εἶχον καὶ
+							δῆμον Ἀπαισοῦ </l>
+						<l n="829">καὶ Πιτύειαν ἔχον καὶ Τηρείης ὄρος αἰπύ, </l>
+						<l n="830">τῶν ἦρχ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ δρηστός τε καὶ
+							Ἄμφιος λινοθώρηξ </l>
+						<l n="831">υἷε δύω Μέροπος Περκωσίου, <seg type="word">ὃ<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here (<bibl>Ceriani in
+										Calderini, xxvii</bibl>).</note>ς</seg> περὶ πάντων </l>
+						<l n="832">ἤιδεε μαντοσύνας, οὐδ᾽ ἑοὓς παῖδας ἔασκε </l>
+						<l n="833">στίχειν ἐς πόλεμον φθισήνορα<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · τὼι δέ οἱ οὔ τι </l>
+						<l n="834">πιθέσθην<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · κῆρες
+							γὰρ ἄγον μέλανος θανάτοιο<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="835"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>οἳ δ<add n="punctuation"
+								place="inline">'</add><note resp="bh" xml:lang="eng">An apostrophe
+								is visible here.</note>᾽ ἄρα Περκώτην καὶ Πράκτιον ἀμφενέμοντο </l>
+						<l n="836">καὶ Σηστὸν καὶ βυδον ἔχον καὶ δῖαν Ἀρίσβην, </l>
+						<l n="837">τῶν αὖθ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ Ὑρτακίδης
+								ἦρχ<add n="punctuation" place="inline"> '</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>Ἄσιος ὄρχαμος
+							ἀνδρῶν, </l>
+						<l n="838">Ἄσιος Ὑρτακίδης<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> ὃν
+							Ἀρίσβηθεν φέρον ἵπποι </l>
+						<l n="839">αἴθωνες μεγάλοι ποταμοῦ ἄπο Σελλήεντος<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="840">Ἱππόθοος <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἄγε φῦλα Πελασγῶν ἐγχεσιμώρων </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="4" type="book">
+					<div n="14recto" type="frag">
+						<gap reason="lost"/>
+						<l n="102">ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην </l>
+						<l n="103">οἴκαδε νοστήσας ἱερῆς εἰς ἄστυ Ζελείης<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="104">ὣς φάτ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ Ἀθηναίη, τῶι
+							δὲ φρένας ἄφρονι πεῖθεν<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="105">αὐτίκ᾽ ἐσύλα τόξον ἐύξοον ἰξάλου αἰγὸς </l>
+						<l n="106">ἀγρίου<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , ὅν ῥά ποτ᾽ αὐτὸς
+							ὑπὸ στέρνοιο τυχήσας </l>
+						<l n="107">πέτρης ἐκβαίνοντα δεδεγμένος ἐν προδοκῆισι </l>
+						<l n="108">βεβλήκει πρὸς στῆθος<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · ὃ <seg type="word">δ<add n="punctuation"
+									place="inline"> '</add><note resp="bh" xml:lang="eng">An
+									apostrophe is visible here.</note>᾽</seg> ὕπτιος ἔμπεσε
+								πέτρηι<add n="punctuation" place="inline"> ·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> . </l>
+						<l n="109">τοῦ κέρα ἐκ κεφαλῆς ἑκκαιδεκάδωρα πεφύκει<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="110">καὶ τὰ μὲν ἀσκήσας κεραοξόος ἤραρε τέκτων, </l>
+						<l n="111">πᾶν δ᾽ εὖ λιήνας χρυσέην ἐπέθηκε κορώνην<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="112">καὶ τὸ μὲν εὖ κατέθηκε τανυσσάμενος ποτὶ γαίηι </l>
+						<l n="113">ἀγκλίνας<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · πρόσθεν
+							δὲ σάκεα σχέθον ἐσθλοὶ ἑταῖροι </l>
+						<l n="114">μὴ πρὶν ἀναίξειαν ἀρήιοι υἷες Ἀχαιῶν </l>
+						<l n="115">πρὶν βλῆσθαι Μενέλαον ἀρήιον Ἀτρέος υἱόν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="5" type="book">
+					<div n="15recto" type="frag">
+						<l n="1"><supplied reason="lost">ἔνθ᾽ αὖ</supplied> Τυδείδηι Διομήδει Παλλὰς
+							Ἀθήνη </l>
+						<l n="2">δῶκε μένος καὶ θάρσος, ἵν᾽ ἔκδηλος μετὰ πᾶσιν </l>
+						<l n="3">Ἀργείοισι γένοιτο ἰδὲ κλέος ἐσθλὸν ἄροιτο· </l>
+						<l n="4">δαῖέ οἱ ἐκ κόρυθός τε καὶ ἀσπίδος ἀκάματον πῦρ </l>
+						<l n="5">ἀστέρι ὀπωρινῶι ἐναλίγκιον, ὅς τε μάλιστα </l>
+						<l n="6">λαμπρὸν παμφαίνηισι λελουμένος ὠκεανοῖο· </l>
+						<l n="7">τοῖόν οἱ πῦρ δαῖεν ἀπὸ κρατός τε καὶ ὤμων, </l>
+						<l n="8">ὦρσε δέ μιν κατὰ μέσσον ὅθι πλεῖστοι κλονέοντο. </l>
+						<l n="9">ἦν δέ τις ἐν Τρώεσσι Δάρης ἀφνειὸς ἀμύμων </l>
+						<l n="10">ἱρεὺς Ἡφαίστοιο· δύω δέ οἱ υἱέες ἤστην </l>
+						<l n="11">Φηγεὺς Ἰδαῖός τε μάχης εὖ ἰδότε πάσης. </l>
+						<l n="12">τώι οἱ ἀποκριθέντε ἐναντίω ὁρμηθήτην· </l>
+						<l n="13">τὼι μὲν ἀφ᾽ ἵπποιιν, ὃ δ᾽ ἀπὸ χθονὸς ὤρνυτο πεζός. </l>
+						<l n="14">οἳ δ᾽ ὅτε δὴ σχεδὸν ἦσαν ἐπ᾽ ἀλλήλοισιν ἰόντες </l>
+						<l n="15">Φηγεύς ῥα πρότερος προίει δολιχόσκιον ἔγχος· </l>
+						<l n="16">Τυδείδεω δ᾽ ὑπὲρ ὦμον ἀριστερὸν ἤλυθ᾽ ἀκωκὴ </l>
+						<l n="17">ἔγχεος, οὐδ᾽ ἔβαλ᾽ αὐτόν· ὃ δ᾽ ὕστερος ὄρνυτο χαλκῶι </l>
+						<l n="18">Τυδείδης· τοῦ δ᾽ οὐχ ἅλιον βέλος ἔκφυγε χειρός, </l>
+						<l n="19">ἀλλ᾽ ἔβαλε στῆθος μεταμάζιον, ὦσε δ᾽ ἀφ᾽ ἵππων. </l>
+						<l n="20">Ἰδαῖος δ᾽ ἀπόρουσε λιπὼν περικαλλέα δίφρον, </l>
+						<l n="21">οὐδ᾽ ἔτλη περιβῆναι ἀδελφειοῦ κταμένοιο· </l>
+						<l n="22">οὐδὲ γὰρ οὐδέ κεν αὐτὸς ὑπέκφυγε κῆρα μέλαιναν, </l>
+						<l n="23">ἀλλ᾽ Ἥφαιστος ἔρυτο, σάωσε δὲ νυκτὶ καλύψας, </l>
+						<l n="24"><supplied reason="lost">ὡς δή</supplied> οἱ μὴ πάγχυ γέρων
+							ἀκαχήμενος εἴη. </l>
+						<l n="25"><supplied reason="lost">ἵππους δ᾽</supplied> ἐξελάσας μεγαθύμου
+							Τυδέος υἱὸς </l>
+					</div>
+					<div n="16recto" type="frag">
+						<gap reason="lost"/>
+						<l n="407"><supplied reason="lost">ὅττι</supplied> μάλ᾽ οὐ δηναιὸς ὃς
+							ἀθανάτοισι μάχηται, </l>
+						<l n="408">οὐδέ τί μιν παῖδες ποτὶ γούνασι παππάζουσιν </l>
+						<l n="409"><seg type="word"><supplied reason="lost">ἐλ</supplied>θόντ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἐκ πολέμοιο
+							καὶ αἰνῆς δηιοτῆτος. </l>
+						<l n="410"><add hand="later" place="left">θ</add><note resp="bh"
+								xml:lang="eng">Ceriani (<bibl>Calderini, xxxviii</bibl>) says a
+								small theta is visible in the left margin.</note> τὼι νῦν Τυδείδης,
+							εἰ καὶ μάλα καρτερός ἐστι<add n="punctuation" place="inline"
+								>.</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , </l>
+						<l n="411">φραζέσθω<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> μή
+								τίς<add n="diacritical mark" place="inline"> ⸒</add><note resp="bh"
+								xml:lang="eng">A diastole is visible here.</note> οἱ ἀμείνων σεῖο
+							μάχηται, </l>
+						<l n="412"><seg type="word"><supplied reason="lost">μ</supplied>ὴ</seg> δὴν
+							Αἰγιάλεια περίφρων <seg type="word">Ἀδρηστρ<del>ε</del>ίνη</seg>
+						</l>
+						<l n="413"><seg type="word"><supplied reason="lost">ἐξ</supplied>
+								ὕπνου</seg> γοόωσα φίλους οἰκῆας ἐγείρηι </l>
+						<l n="414"><seg type="word"><supplied reason="lost"
+								>κο</supplied>υρίδιον</seg> ποθέουσα πόσιν τὸν ἄριστον Ἀχαιῶν </l>
+						<l n="415"><seg type="word"><supplied reason="lost">ἰφ</supplied>θίμηι</seg>
+							ἄλοχος Διομήδεος ἱπποδάμοιο<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng"> A punctus is visible
+								here.</note> . </l>
+						<l n="416"><supplied reason="lost">ἦ</supplied>
+							<seg type="word"><supplied reason="lost">ῥ</supplied>α</seg> καὶ
+							ἀμφοτέρηισιν ἀπ᾽ ἰχῶ χειρὸς ὀμόργνυ<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · </l>
+						<l n="417"><seg type="word"><supplied reason="lost">ἄλ</supplied>θετο</seg>
+							χείρ, ὀδύναι δὲ κατηπιόωντο βαρεῖαι<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="418">αἳ δ᾽ αὖτ᾽ εἰσορόωσαι Ἀθηναίη τε καὶ Ἥρη </l>
+						<l n="419"><seg type="word"><supplied reason="lost"
+								>κερτ</supplied>ομίοις</seg> ἐπέεσσι Δία Κρονίδην ἐρέθιζον<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> . </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="17recto" type="frag">
+						<gap reason="lost"/>
+						<l n="422"><supplied reason="lost">ἦ</supplied>
+							<seg type="word"><supplied reason="lost">μά</supplied>λα</seg> δή τινα
+							Κύπρις Ἀχαιιάλων ἐνιεῖσα </l>
+						<l n="423">Τρωσὶν <seg type="word">ἅμ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἕσπεσθαι, τοὺς νῦν ἔκπαγλ<add n="punctuation"
+								place="inline">'</add><note resp="bh" xml:lang="eng">An apostrophe
+								is visible here.</note>᾽ ἐφίλησε, </l>
+						<l n="424">τῶν τινα καρρέζουσα Ἀχαιιάδων ἐυπέπλων </l>
+						<l n="425">πρὸς χρυσῆι περόνηι κατεμύξατο χεῖρα ἀραιήν. </l>
+						<l n="426">ὣς φάτο<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , μείδησεν δὲ πατὴρ
+							ἀνδρῶν τε θεῶν τε, </l>
+						<l n="427">καί ῥα καλεσσάμενος προσέφη χρυσῆν Ἀφροδίτην· </l>
+						<l n="428">οὔ τοι τέκνον ἐμὸν δέδοται πολεμήια ἔργα<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="429">ἀλλὰ σύ γ᾽ ἱμερόεντα μετέρχεο ἔργα γάμοιο<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="430">ταῦτα δ᾽ ρηι θοῶι καὶ Ἀθήνηι πάντα μελήσει<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="431">ὣς οἳ μὲν τοιαῦτα πρὸς ἀλλήλους ἀγόρευον<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="432"><supplied reason="lost">Αἰνείᾳ</supplied>
+							<seg type="word">δ<add n="punctuation" place="inline">'</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽
+							ἐπόρουσε βοὴν ἀγαθὸς Διομήδης, </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="18recto" type="frag">
+						<gap reason="lost"/>
+						<l n="634"><seg type="word"><supplied reason="lost"
+								>π</supplied>τώσσειν</seg> ἐνθάδ᾽ ἐόντι μάχης <seg type="word"
+									>ἀδαήμο<supplied reason="lost">νι</supplied></seg>
+							<supplied reason="lost">φωτί;</supplied>
+						</l>
+						<l n="635">ψευδόμενοι δέ σέ φασι Διὸς γόνον αἰγιόχοιο </l>
+						<l n="636">εἶναι, ἐπεὶ πολλὸν κείνων ἐπιδεύεαι ἀνδρῶν </l>
+						<l n="637">οἳ Διὸς ἐξεγένοντο ἐπὶ προτέρων ἀνθρώπων· </l>
+						<l n="638">ἀλλ᾽ ὁ<add hand="early" n="punctuation" place="supralinear">
+								҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+								visible here.</note>ι<add n="diacritical mark" place="supralinear">
+								῀</add><note resp="bh" xml:lang="eng">A circumflex is visible
+								here.</note>όν τινά φασι βίην Ἡρακληείην </l>
+						<l n="639">εἶναι, ἐμὸν πατέρα θρασυμέμνονα θυμολέοντα· </l>
+						<l n="640">ὅς ποτε <seg type="word">δεῦρ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἐλθὼν <seg type="word">ἕνεχ<add
+									n="punctuation" place="inline"> '</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἵππων
+							Λαομέδοντος </l>
+						<l n="641">ἓξ οἴης σὺν νηυσὶ καὶ ἀνδράσι παυροτέροισιν </l>
+						<l n="642">Ἰλίου ἐξαλάπαξε πόλιν, χήρωσε <seg type="word">δ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἀγυιάς· </l>
+						<l n="643">σοὶ δὲ κακὸς μὲν θυμός, ἀποφθινύθουσι δὲ λαοί<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="644">οὐδέ τί σε Τρώεσσιν ὀίομαι ἄλκαρ ἔσεσθαι </l>
+						<l n="645">ἐλθόντ᾽ ἐκ Λυκίης, <seg type="word">οὐδ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ εἰ μάλα καρτερός ἐσσι, </l>
+						<l n="646">ἀλλ᾽ ὑπ᾽ ἐμοὶ δμηθέντα πύλας Ἀίδαο περήσειν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="647">τὸν δ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ αὖ Σαρπηδὼν
+							Λυκίων ἀγὸς ἀντίον ηὔδα<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="648">"<seg type="word">Τληπόλεμ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἤτοι κεῖνος ἀπώλεσεν Ἴλιον ἱρὴν </l>
+						<l n="649">ἀνέρος ἀφραδίηισιν ἀγαυοῦ Λαομέδοντος<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="650">ὅς ῥά μιν εὖ ἕρξαντα κακῶι ἠνίπαπε μύθωι, </l>
+						<l n="651">οὐδ᾽ <seg type="word">ἀπέδωχ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἵππους<add n="punctuation" place="inline">
+								·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , ὧν εἵνεκα τηλόθεν ἦλθε. </l>
+						<l n="652">σοὶ <seg type="word">δ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἐγὼ ἐνθάδε φημὶ φόνον καὶ κῆρα μέλαιναν </l>
+						<l n="653">ἐξ ἐμέθεν τεύξεσθαι, ἐμῶι <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ὑπὸ δουρὶ δαμέντα </l>
+						<l n="654">εὖχος ἐμοὶ δώσειν, ψυχὴν δ᾽ Ἄιδι κλυτοπώλωι<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ." </l>
+						<l n="655">ὣς φάτο Σαρπηδών<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , ὃ δ᾽
+							ἀνέσχετο μείλινον ἔγχος </l>
+						<l n="656">Τληπόλεμος· καὶ τῶν μὲν ἁμαρτῆι δούρατα μακρὰ </l>
+						<l n="657">ἐκ χειρῶν ἤιξαν· ὃ μὲν βάλεν αὐχένα μέσσον </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="19recto" type="frag">
+						<gap reason="lost"/>
+						<l n="765">ἄγρει μάν οἱ ἔπορσον Ἀθηναίην ἀγελείην, </l>
+						<l n="766">ἥ ἑ <seg type="word">μάλιστ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ εἴωθε κακῆις ὀδύνηισι πελάζειν<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> . </l>
+						<l n="767">ὣς ἔφατ᾽, <seg type="word">οὐδ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀπίθησε θεὰ λευκώλενος Ἥρη<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="768">μάστιξεν <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἵππους<add n="punctuation" place="inline">
+								·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · τὼ <seg type="word">δ<add n="punctuation"
+									place="inline"> '</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ οὐκ<add n="punctuation"
+								place="inline">'</add><note resp="bh" xml:lang="eng">An apostrophe
+								is visible here.</note> ἄκοντε πετέσθην<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<l n="769">μεσσηγὺς γαίης τε καὶ οὐρανοῦ ἀστερόεντος<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="770">ὅσσον <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἠεροειδὲς ἀνὴρ ἴδεν ὀφθαλμοῖσιν </l>
+						<l n="771">ἥμενος ἐν σκοπιῆι<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , λεύσσων
+							ἐπὶ οἴνοπα πόντον, </l>
+						<l n="772">τόσσον ἐπιθρώσκουσι θεῶν ὑψηχέες ἵπποι. </l>
+						<l n="773">ἀλλ᾽ ὅτε δὴ Τροίην ἷξον ποταμώ τε ῥέοντε, </l>
+						<l n="774">ἡῖχι ῥοὰς Σιμόεις συμβάλλετον ἠδὲ Σκάμανδρος,</l>
+						<l n="775">ἔνθ᾽ ἵππους ἔστησε θεὰ λευκώλενος Ἥρη </l>
+						<l n="776">λύσας᾽ ἐξ ὀχέων, περὶ <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἠέρα πουλὺν ἔχευε<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> · </l>
+						<l n="777"><seg type="word"><supplied reason="lost">τ</supplied>οῖσιν</seg>
+							<seg type="word">δ<add n="punctuation" place="inline">'</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽
+							ἀμβροσίην Σιμόεις ἀνέτειλε νέμεσθαι<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="778">αἳ δὲ βάτην τρήρωσι πελειάσιν ἴθμαθ᾽ ὁμοῖαι </l>
+						<l n="779">ἀνδράσιν Ἀργείοισιν ἀλεξέμεναι μεμαυῖαι· </l>
+						<l n="780">ἀλλ᾽ ὅτε δή ῥ᾽ ἵκανον ὅθι πλεῖστοι καὶ ἄριστοι </l>
+						<l n="781">ἕστασαν ἀμφὶ βίην Διομήδεος ἱπποδάμοιο </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="20recto" type="frag">
+						<gap reason="lost"/>
+						<l n="848"><seg type="word"><supplied reason="lost">κεῖ</supplied>σθαι</seg>
+							ὅθι πρῶτον κτείνων <seg type="word">ἐ<supplied reason="lost"
+									>ξαί</supplied>νυτο</seg> θυμόν, </l>
+						<l n="849">αὐτὰρ ὃ βῆ ῥ᾽ ἰθὺς Διομήδεος ἱπποδάμοιο. </l>
+						<l n="850">οἳ δ᾽ ὅτε δὴ σχεδὸν ἦσαν ἐπ᾽ ἀλλήλοισιν ἰόντες, </l>
+						<l n="851">πρόσθεν Ἀ´ρης ὠρέξαθ᾽ ὑπὲρ ζυγὸν ἡνία θ᾽ ἵππων </l>
+						<l n="852">ἔγχει χαλκείωι μεμαὼς ἀπὸ θυμὸν ἑλέσθαι· </l>
+						<l n="853">καὶ τό γε χειρὶ λαβοῦσα θεὰ γλαυκῶπις Ἀθήνη </l>
+						<l n="854">ὦσεν ὑπὲκ δίφροιο ἐτώσιον ἀιχθῆναι. </l>
+						<l n="855">δεύτερος αὖθ᾽ ὡρμᾶτο βοὴν ἀγαθὸς Διομήδης </l>
+						<l n="856">ἔγχει χαλκείωι· ἐπέρεισε δὲ Παλλὰς Ἀθήνη </l>
+						<l n="857">νείατον ἐς κενεῶνα ὅθι ζωννύσκετο μίτρην· </l>
+						<l n="858">τῆι ῥά μιν οὖτα τυχών, διὰ δὲ χρόα καλὸν ἔδαψεν, </l>
+						<l n="859">ἐκ δὲ δόρυ σπάσεν αὖτις· ὃ δ᾽ ἔβραχε χάλκεος Ἀ´ρης </l>
+						<l n="860">ὅσσόν τ᾽ ἐννεάχιλοι ἐπίαχον ἢ δεκάχιλοι </l>
+						<l n="861"><seg type="word"><supplied reason="lost">ἀ</supplied>νέρες</seg>
+							ἐν πολέμωι ἔριδα ξυνάγοντες Ἄρηος. </l>
+						<l n="862"><supplied reason="lost">τοὺς</supplied> δ᾽ ἄρ᾽ ὑπὸ τρόμος εἷλεν
+							Ἀχαιούς τε Τρῶάς τε </l>
+						<l n="863">δείσαντας· τόσον ἔβραχ᾽ Ἄρης ἆτος πολέμοιο. </l>
+						<l n="864">Οἵη δ᾽ ἐκ νεφέων ἐρεβεννὴ φαίνεται ἀὴρ </l>
+						<l n="865"><seg type="word"><supplied reason="lost"
+								>καύμ</supplied>ατος</seg> ἐξ ἀνέμοιο δυσαέος ὀρνυμένοιο, </l>
+						<l n="866"><supplied reason="lost">τοῖος</supplied>
+							<seg type="word"><supplied reason="lost">Τυ</supplied>δείδηι</seg>
+							Διομήδει χάλκεος Ἄρης </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="6" type="book">
+					<div n="21recto" type="frag">
+						<gap reason="lost"/>
+						<l n="207">πέμπε δέ μ᾽ ἐς Τροίην, καί μοι μάλα πόλλ᾽ ἐπέτελλεν </l>
+						<l n="208">αἰὲν ἀριστεύειν καὶ ὑπείροχον ἔμμεναι ἄλλων, </l>
+						<l n="209">μηδὲ γένος πατέρων αἰσχυνέμεν<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , οἳ <seg type="word">μέγ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἄριστοι </l>
+						<l n="210"><seg type="word">ἔ<add n="punctuation" place="supralinear">
+									҆</add><note resp="bh" xml:lang="eng">A smooth breathing mark is
+									visible here.</note>ν</seg>
+							<seg type="word">τ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ <seg type="word">Ἐφύρη<add hand="later"
+									place="supralinear">ι</add></seg> ἐγένοντο καὶ ἐν Λυκίηι
+							εὐρείηι. </l>
+						<l n="211">ταύτης τοι γενεῆς τε καὶ <seg type="word">α<add n="punctuation"
+									place="supralinear"> ҅</add></seg><note resp="bh" xml:lang="eng"
+								>A rough breathing mark is visible here.</note>ἵματος εὔχομαι
+								εἶναι<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> ." </l>
+						<l n="212">ὣς φάτο<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , γήθησεν δὲ βοὴν
+							ἀγαθὸς Διομήδης<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="213">ἔγχος μὲν κατέπηξεν <seg type="word">ἐ<add n="punctuation"
+									place="supralinear"> ҆</add><note resp="bh" xml:lang="eng">A
+									smooth breathing mark is visible here.</note>πὶ</seg> χθονὶ
+							πουλυβοτείρηι, </l>
+						<l n="214">αὐτὰρ ο<add n="punctuation" place="supralinear"> ҅</add><note
+								resp="bh" xml:lang="eng">A rough breathing mark is visible
+								here.</note>῝ μειλιχίοισι προσηύδα ποιμένα λαῶν· </l>
+						<l n="215">ἦ ῥά νύ μοι ξεῖνος πατρώιός ἐσσι παλαιός<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="216">Οἰνεὺς γάρ ποτε δῖος ἀμύμονα Βελλεροφόντην </l>
+						<l n="217">ξείνις<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here (<bibl>Ceriani in
+									Calderini, xxvii</bibl>).</note>᾽ ἐνὶ μεγάροισιν ἐείκοσιν <seg
+								type="word">ἤματ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἐρύξας<add n="punctuation" place="inline">
+								˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · </l>
+						<l n="218">οἳ δὲ καὶ ἀλλήλοισι πόρον ξεινήια καλά<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="219">Οἰνεὺς μὲν ζωστῆρα <seg type="word">δίδο<add n="diacritical mark"
+									place="supralinear"> –</add><note resp="bh" xml:lang="eng">A
+									hyphen is visible here.</note>υ</seg> φοίνικι φαεινόν, </l>
+						<l n="220">Βελλεροφόντης δὲ χρύσεον δέπας ἀμφικύπελλον<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<l n="221">καί μιν ἐγὼ κατέλειπον ἰὼν ἐν δώμας<add n="punctuation"
+								place="inline">'</add><note resp="bh" xml:lang="eng">An apostrophe
+								is visible here.</note>᾽ ἐμοῖσι<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="222">Τυδέα <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add><note resp="bh" xml:lang="eng">An apostrophe is visible
+									here.</note>᾽</seg> οὐ μέμνημαι, ἐπεί <seg type="word">μ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἔτι τυτθὸν
+							ἐόντα </l>
+						<l n="223"><seg type="word">κάλλιπ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽, ο<add n="punctuation" place="supralinear">
+								҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+								visible here.</note>῞τ<add n="punctuation" place="inline">
+								'</add><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἐν Θήβηισιν ἀπώλετο λαὸς Ἀχαιῶν<add n="punctuation"
+								place="inline"> ˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="224">τὼι νῦν σοὶ μὲν ἐγὼ ξεῖνος φίλος Ἄργει μέσσωι </l>
+						<l n="225"><unclear>εἰμί, σὺ δ᾽</unclear> ἐν Λυκίηι ὅτε κεν τῶν δῆμον
+							ἵκωμαι. </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="22recto" type="frag">
+						<gap reason="lost"/>
+						<l n="282">γαῖα χάνοι· μέγα γάρ μιν Ὀλύμπιος ἔτρεφε πῆμα </l>
+						<l n="283">Τρωσί τε καὶ Πριάμωι μεγαλήτορι τοῖό τε παισίν. </l>
+						<l n="284">εἰ κεῖνόν γε ἴδοιμι <seg type="word">κατελθόντ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ Ἄιδος εἴσω </l>
+						<l n="285">φαίην κε <seg type="word">φρέν<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀτέρ<add n="diacritical mark"
+								place="supralinear"> ͜</add><note resp="bh" xml:lang="eng">A hyphen
+								is visible here.</note>που ὀιζύος ε<add n="punctuation"
+								place="supralinear"> ҆</add><note resp="bh" xml:lang="eng">A smooth
+								breathing mark is visible here.</note>᾿κλελαθέσθαι<add
+								n="punctuation" place="inline"> ˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> ." </l>
+						<l n="286"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>ὣς ἔφαθ<add n="punctuation"
+								place="inline">'</add><note resp="bh" xml:lang="eng">An apostrophe
+								is visible here.</note>᾽, η<add n="punctuation" place="supralinear">
+								҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+								visible here.</note>῝ δὲ μολοῦσα ποτὶ <seg type="word">μέγαρ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἀμφιπόλοισι </l>
+						<l n="287">κέκλετο<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · ταὶ <seg
+								type="word">δ<add n="punctuation" place="inline"> '</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽ <seg
+								type="word">ἄρ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἀόλλισσαν κατὰ ἄστυ γεραιάς<add n="punctuation"
+								place="inline"> ˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="288">ἣ <seg type="word">δ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ εἰς οἶκον ι<add n="punctuation"
+								place="supralinear"> ҆</add><note resp="bh" xml:lang="eng">A smooth
+								breathing mark is visible here.</note>᾿οῦσα παρίστατο φωριαμοῖσιν
+								<add hand="later" n="critical remark" place="right">νόθος ὁ δεύτερος
+								στίχος</add></l>
+						<l n="289">ἔνθ᾽ ἔσάν ο<add n="punctuation" place="supralinear"> ҅</add><note
+								resp="bh" xml:lang="eng">A rough breathing mark is visible
+								here.</note>ἱ πέπλοι παμποίκιλοι ἔργα γυναικῶν </l>
+						<l n="290">Σιδονίων<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note>
+							<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> ἃς αὐτὸς Ἀλέξανδρος
+							θεοειδὴς </l>
+						<l n="291">ἤγαγε Σιδονίηθεν <seg type="word">ἐπιπλὼς<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note> εὐρέα πόντον, </l>
+						<l n="292">τὴν ὁδὸν <seg type="word">ἢ<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>ν</seg> Ἑλένην περ
+								<seg type="word">ἀ<add n="punctuation" place="supralinear">
+									҆</add><note resp="bh" xml:lang="eng">A smooth breathing mark is
+									visible here.</note>νήγαγεν</seg> εὐπατέρειαν· </l>
+						<l n="293">τῶν ἕν<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἀειραμένη
+							Ἑκάβη φέρε δῶρον Ἀθήνη<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> ,</l>
+						<l n="294">ὃς κάλλιστος ἔην ποικίλμασιν ἠδὲ μέγιστος<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="295">ἀστὴρ δ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ <seg
+								type="word">ὥ<add n="punctuation" place="supralinear"> ҅</add><note
+									resp="bh" xml:lang="eng">A rough breathing mark is visible
+									here.</note>ς</seg> ἀπέλαμπεν· ἔκειτο δὲ νείατος <seg
+								type="word">ἄ<add n="punctuation" place="supralinear"> ҆</add><note
+									resp="bh" xml:lang="eng">A smooth breathing mark is visible
+									here.</note>λλων</seg>. </l>
+						<l n="296">βῆ <seg type="word">δ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἰέναι, πολλαὶ δὲ μετεσσεύοντο γεραιαί. </l>
+						<l n="297">αἳ δ᾽ ὅτε νηὸν <seg type="word">ἵ<add hand="early"
+									n="punctuation" place="supralinear">¨</add><note resp="bh"
+									xml:lang="eng">A diaeresis is visible here.</note><add
+									hand="later" n="punctuation" place="supralinear">¨</add><note
+									resp="bh" xml:lang="eng">A diaeresis is visible here
+										(<bibl>Ceriani in Calderini,
+								xxvii</bibl>).</note>κανον</seg> Ἀθήνης ἐν πόλει ἄκρηι, </l>
+						<l n="298">τῆισι θύρας ὤιξε Θεανὼ καλλιπάρηος </l>
+						<l n="299">Κισσηὶς ἄλοχος Ἀντήνορος ἱπποδάμοιο· </l>
+						<l n="300">τὴν γὰρ Τρῶες ἔθηκαν Ἀθηναίης ἱέρειαν. </l>
+						<l n="301"><supplied reason="lost">αἳ δ᾽</supplied>
+							<seg type="word"><supplied reason="lost">ὀ</supplied>λολυγῆι</seg> πᾶσαι
+							Ἀθήνηι χεῖρας <seg type="word">ἀνέσχο<supplied reason="lost"
+									>ν·</supplied></seg>
+						</l>
+						<gap reason="lost"/>
+					</div>
+					<div n="23verso" type="frag">
+						<gap reason="lost"/>
+						<l n="418">ἀλλ᾽ ἄρα μιν κατέκηε σὺν ἔντεσι δαιδαλέοισιν </l>
+						<l n="419"><seg type="word"><supplied reason="lost">ἠ</supplied>δ᾽</seg> ἐπὶ
+								<seg type="word">σῆμ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἔχεεν<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · περὶ δὲ πτελέας ἐφύτευσαν </l>
+						<l n="420">νύμφαι ὀρεστιάδες κοῦραι Διὸς αἰγιόχοιο. </l>
+						<l n="421">οἳ δέ μοι ἑπτὰ κασίγνητοι ἔσαν ἐν μεγάροισιν </l>
+						<l n="422">οἳ μὲν πάντες ἰῶι κίον ἤματι Ἄιδος εἴσω<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="423">πάντας γὰρ κατέπεφνε ποδάρκης δῖος Ἀχιλλεὺς </l>
+						<l n="424">βουσὶν <seg type="word">ἐπ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ εἰλιπόδεσσι καὶ ἀργεννῆις ὀίεσσι. </l>
+						<l n="425">μητέρα <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽, ἣ βασίλευεν ὑπὸ Πλάκωι ὑληέσσηι, </l>
+						<l n="426">τὴν ἐπεὶ ἂρ <seg type="word">δεῦρ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἤγαγ<add n="punctuation"
+								place="inline"> '</add><note resp="bh" xml:lang="eng">An apostrophe
+								is visible here.</note>᾽ ἅμ<add n="punctuation" place="inline">
+								'</add><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἄλλοισιν κτεάτεσσιν, </l>
+						<l n="427">ἂψ ὅ γε τὴν ἀπέλυσε λαβὼν ἀπερείσι᾽ ἄποινα, </l>
+						<l n="428">πατρὸς δ<add n="punctuation" place="inline">'</add><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽ ἐν
+							μεγάροισι <seg type="word">βάλ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ Ἄρτεμις ἰοχέαιρα<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="429">Ἕκτορ ἀτὰρ σύ μοί ἐσσι πατὴ<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>ρ καὶ πότνια μήτηρ </l>
+						<l n="430">ἠδὲ κασίγνητος, σὺ δέ μοι θαλερὸς παρακοίτης<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="431">ἀλλ᾽ ἄγε νῦν ἐλέαιρε καὶ αὐτοῦ μίμν᾽ ἐπὶ πύργωι, </l>
+						<l n="432"><seg type="word"><supplied reason="lost">μ</supplied>ὴ</seg>
+							παῖδ᾽ <seg type="word"><supplied reason="lost"
+								>ὀρ</supplied>φανικὸν</seg> θήιης χήρην τε γυναῖκα· </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="7" type="book">
+					<div n="24recto" type="frag">
+						<gap reason="lost"/>
+						<l n="445"><supplied reason="lost">τοῖσι</supplied> δὲ μύθων ἦρχε Ποσειδάων
+								<seg type="word"><supplied reason="lost">ἐνο</supplied>σίχθων</seg>· </l>
+						<l n="446">"Ζεῦ πάτερ, ἦ ῥά τίς ἐστι βροτῶν ἐπ᾽ <seg type="word"
+									>ἀπείρο<supplied reason="lost">να</supplied></seg>
+							<supplied reason="lost">γαῖαν</supplied>
+						</l>
+						<l n="447">ὅς τις ἔτ᾽ ἀθανάτοισι νόον καὶ μῆτιν ἐνίψει; </l>
+						<l n="448">οὐχ ὁ<add n="punctuation" place="supralinear"> ҅</add><note
+								resp="bh" xml:lang="eng">A rough breathing mark is visible
+								here.</note>ράαις ὅτι <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ αὖτε κάρη κομόωντες Ἀχαιοὶ </l>
+						<l n="449">τεῖχος ἐτειχίσσαντο νεῶν ὕπερ, ἀμφὶ δὲ τάφρον </l>
+						<l n="450">ἤλασαν, οὐδὲ θεοῖσι δόσαν κλειτὰς ἑκατόμβας<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ; </l>
+						<l n="451">τοῦ δ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἤτοι κλέος
+							ἔσται ὅσην τ᾽ ἐπικίδναται ἠώς· </l>
+						<l n="452">τοῦ δ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἐπιλήσονται τό
+								<seg type="word">τ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἐγὼ καὶ Φοῖβος Ἀπόλλων </l>
+						<l n="453">ἥρωι Λαομέδοντι πολίσσαμεν ἀθλήσαντε<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ." </l>
+						<l n="454">τὸν δὲ <seg type="word">μέγ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ὀχθήσας προσέφη νεφεληγερέτα Ζεύς· </l>
+						<l n="455">ὢ πόποι <seg type="word">ἐννοσίγαι<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ εὐρυσθενές, οἷον ἔειπες<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> . </l>
+						<l n="456">ἄλλός κέν τις τοῦτο θεῶν δείσειε νόημα, </l>
+						<l n="457">ὃς σέο πολλὸν ἀφαυρότερος χεῖράς τε μένος τε· </l>
+						<l n="458">σὸν δ᾽ ἤτοι κλέος ἔσται ὅσην τ᾽ ἐπικίδναται ἠώς. </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="8" type="book">
+					<div n="25recto" type="frag">
+						<gap reason="lost"/>
+						<l n="25">σειρὴν μέν κεν ἔπειτα περὶ ῥίον Οὐλύμποιο </l>
+						<l n="26">δησαίμην<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , τὰ δέ κ᾽ αὖτε
+							μετήορα πάντα γένοιτο. </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="26recto" type="frag">
+						<gap reason="lost"/>
+						<l n="233"><supplied reason="lost">Τρώων</supplied> ἄνθ᾽ ἑκατόν τε διηκοσίων
+							τε ἕκαστος </l>
+						<l n="234"><seg type="word"><supplied reason="lost"
+								>σ</supplied>τήσεσθ᾽</seg> ἐν πολέμωι<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · νῦν <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ οὐδ᾽ ἑνὸς ἄξιοί εἰμεν </l>
+						<l n="235">Ἕκτορος, ὃς τάχα νῆας ἐνιπρήσει πυρὶ κηλέωι. </l>
+						<l n="236">Ζεῦ πάτερ<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , ἦ ῥά
+							τιν᾽ ἤδη ὑπερμενέων βασιλήων </l>
+						<l n="237">τῆι δ<add n="punctuation" place="inline">'</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἄτηι ἄσας καί
+							μιν μέγα κῦδος ἀπηύρας<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> ; </l>
+						<l n="238">οὐ μὲν δή ποτέ φημι τεὸν περικαλλέα βωμὸν </l>
+						<l n="239">νηὶ πολυκλήιδι παρελθέμεν ἐνθάδε ἔρρων, </l>
+						<l n="240">ἀλλ᾽ ἐπὶ πᾶσι βοῶν δημὸν καὶ <seg type="word">μηρί<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἔκαιον </l>
+						<l n="241">ἱέμενος Τροίην εὐτείχεον ἐξαλαπάξαι. </l>
+						<l n="242">ἀλλὰ Ζεῦ τόδε πέρ μοι ἐπικρήηνον ἐέλδωρ<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="243">αὐτοὺς δή περ ἔασον ὑπεκφυγέειν καὶ ἀλύξαι, </l>
+						<l n="244">
+							<supplied reason="lost">μηδ᾽ οὕτω Τρώεσσιν ἔα δάμνασθαι Ἀχαιούς." </supplied>
+							<note resp="bh" xml:lang="eng">Ceriani (<bibl>Calderini, xxxix</bibl>)
+								says this verse was omitted.</note>
+						</l>
+						<gap extent="1" reason="lost" unit="verse"/>
+					</div>
+					<div n="26verso" type="frag">
+						<l n="245">ὣς φάτο<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, τὸν δὲ πατὴρ
+							ὀλοφύρατο δάκρυ χέοντα, </l>
+						<l n="246">νεῦσε δέ οἱ λαὸν σόον ἔμμεναι<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> οὐδ᾽ <seg
+								type="word">ἀπολε<del>ῖ</del>σθαι</seg>. </l>
+						<l n="247">αὐτίκα δ<add n="punctuation" place="inline">'</add><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽ <seg
+								type="word">α<add n="punctuation" place="supralinear"> ҆</add><note
+									resp="bh" xml:lang="eng">A smooth breathing mark is visible
+									here.</note>ἰετὸν</seg> ἧκε τελειότατον πετεηνῶν, </l>
+						<l n="248">νεβρὸν ἔχοντ᾽ ὀνύχεσσι τέκος ἐλάφοιο ταχείης· </l>
+						<l n="249">πὰρ δὲ Διὸς βωμῶι περικαλλέι κάββαλε νεβρόν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="250">ἔνθα πανομφαίωι Ζηνὶ ῥέζεσκον Ἀχαιοί<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="251">οἳ δ᾽ ὡς οὖν <seg type="word">ἴδονθ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ὅ <seg type="word">τ<add
+									n="punctuation" place="inline"> '</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἄρ<add
+								n="punctuation" place="inline"> '</add><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἐκ Διὸς ἤλυθεν
+							ὄρνις, </l>
+						<l n="252">μᾶλλον ἐπὶ Τρώεσσι θόρον, μνήσαντο δὲ χάρμης. </l>
+						<l n="253"><seg type="word"><supplied reason="lost">ἔν</supplied>θ᾽</seg> οὔ
+							τις πρότερος Δαναῶν πολλῶν περ ἐόντων </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="27recto" type="frag">
+						<gap reason="lost"/>
+						<l n="511">φεύγειν ὁρμήσωνται <seg type="word">ἐπ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ εὐρέα νῶτα θαλάσσης. </l>
+						<l n="512">μὴ μὰν ἀσπουδεί γε νεῶν ἐπιβαῖεν ἕκηλοι<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="513">ἀλλ᾽ ὅς τις τούτων γε βέλος καὶ οἴκοθι πέσσηι </l>
+						<l n="514">βλήμενος ἢ ἰῶι ἢ ἔγχει ὀξυόεντι </l>
+						<l n="515">νηὸς ἐπιθρώσκων<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note>,<seg
+								type="word"> ἵ<add n="punctuation" place="supralinear"> ҅</add><note
+									resp="bh" xml:lang="eng">A rough breathing mark is visible
+									here.</note>να</seg> τις στυγέηισι καὶ ἄλλος </l>
+						<l n="516">Τρωσὶν ἐφ᾽ ἱπποδάμοισι φέρειν πολύδακρυν Ἄρηα. </l>
+						<l n="517">κήρυκες δ᾽ ἀνὰ ἄστυ Διὶ φίλοι ἀγγελλόντων </l>
+						<l n="518">παῖδας πρωθήβας πολιοκροτάφους τε γέροντας </l>
+						<l n="519">λέξασθαι περὶ ἄστυ θεοδμήτων ἐπὶ πύργων· </l>
+						<l n="520">θηλύτεραι δὲ γυναῖκες ἐνὶ μεγάροισιν ἑκάστη </l>
+						<l n="521">πῦρ μέγα καιόντων· φυλακὴ δέ τις ἔμπεδος ἔστω </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="9" type="book">
+					<div n="28recto" type="frag">
+						<l n="1">ὣς οἳ μὲν Τρῶες φυλακὰς ἔχον· αὐτὰρ Ἀχαιοὺς </l>
+						<l n="2">θεσπεσίηι ἔχε φύζα φόβου κρυόεντος ἑταίρη, </l>
+						<l n="3">πένθει <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀτλήτω<add place="supralinear">ι</add>
+							βεβολήατο πάντες ἄριστοι. </l>
+						<l n="4">ὡς δ᾽ ἄνεμοι δύο πόντον ὀρίνετον ἰχθυόεντα </l>
+						<l n="5">βορέης καὶ Ζέφυρος, τώ τε Θρήκηθεν ἄητον </l>
+						<l n="6">ἐλθόντ᾽ ἐξαπίνης· ἄμυδις δέ τε κῦμα κελαινὸν </l>
+						<l n="7">κορθύεται, πολλὸν δὲ παρὲξ ἅλα φῦκος ἔχευεν· </l>
+						<l n="8">ὣς ἐδαίζετο θυμὸς ἐνὶ στήθεσσιν Ἀχαιῶν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="9">Ἀτρείδης <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἄχει μεγάλω<add place="supralinear">ι</add>
+							βεβολημένος ἦτορ </l>
+						<l n="10">φοίτα κηρύκεσσι λιγυφθόγγοισι κελεύων<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<l n="11">κλήδην εἰς ἀγορὴν κικλήσκειν ἄνδρα ἕκαστον, </l>
+						<l n="12">μηδὲ βοᾶν· αὐτὸς δὲ μετὰ πρώτοισι πονεῖτο<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="13">ἷζον <seg type="word">δ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ εἰν ἀγορῆ<add place="supralinear">ι</add>
+								τετιηότες<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · ἂν <seg
+								type="word">δ<add n="punctuation" place="inline">'</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽
+							Ἀγαμέμνων </l>
+						<l n="14">ἵστατο δάκρυ χέων ὥς τε κρήνη μελάνυδρος </l>
+						<l n="15">ἥ τε κατ᾽ αἰγίλιπος πέτρης δνοφερὸν χέει ὕδωρ· </l>
+						<l n="16">ὣς ὃ βαρὺ στενάχων <seg type="word">ἔπε<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ Ἀργείοισι μετηύδα<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> · </l>
+						<l n="17">ὦ φίλοι Ἀργείων <seg type="word">῾η<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>γήτορες</seg> ἠδὲ
+							μέδοντες </l>
+						<l n="18">Ζεύς με μέγα Κρονίδης ἄτηι ἐνέδησε βαρείηι </l>
+						<l n="19">σχέτλιος<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , <seg type="word"
+									>῝ο<add n="punctuation" place="supralinear"> ҅</add><note
+									resp="bh" xml:lang="eng">A rough breathing mark is visible
+									here.</note>ς</seg> πρὶν μέν μοι ὑπέσχετο καὶ <seg type="word"
+									>κατένευσε<supplied reason="lost">ν</supplied></seg>
+						</l>
+						<l n="20">Ἴλιον <seg type="word">ἐκπέρσαντ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ εὐτείχεον ἀπονέεσθαι<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> , </l>
+						<l n="21">νῦν δὲ κακὴν ἄτην βουλεύσατο<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , καί με κελεύει </l>
+						<l n="22">δυσκλέα Ἀ´ργος <seg type="word">῾ι<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>κέσθαι</seg>, ἐπεὶ
+							πολὺν ὤλεσα λαόν. </l>
+						<l n="23">οὕτω που Διὶ μέλλει ὑπερμενέι φίλον εἶναι, </l>
+						<l n="24">ὃς δὴ πολλάων πολίων κατέλυσε κάρηνα </l>
+						<l n="25"><supplied reason="lost">ἠδ᾽ ἔτι</supplied> καὶ λύσει· <seg
+								type="word"><supplied reason="lost">το</supplied>ῦ</seg> γὰρ κράτος
+							ἐστὶ μέγιστον. </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="10" type="book">
+					<div n="29recto" type="frag">
+						<gap reason="lost"/>
+						<l n="168">τὸν δ᾽ αὖτε προσέειπε Γερήνιος ἱππότα Νέστωρ<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="169">"ναὶ δὴ ταῦτά γε πάντα φίλος κατὰ μοῖραν ἔειπες. </l>
+						<l n="170">εἰσὶν μέν μοι παῖδες ἀμύμονες, εἰσὶ δὲ λαοὶ </l>
+						<l n="171">καὶ πολέες, τῶν κέν τις ὑποσχόμενος καλέσειεν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="172">ἀλλὰ μάλα μεγάλη χρειὼ βεβίη<note resp="bh" xml:lang="eng">A
+								space appears here. Ceriani (<bibl>Calderini, xl</bibl>) suggests
+								that an <foreign xml:lang="grc">Ω</foreign> may originally have been
+								written here, then erased and replaced by the<foreign xml:lang="grc"
+									>Η</foreign> present in the text.</note>κεν Ἀχαιούς<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> . </l>
+						<l n="173">νῦν γὰρ δὴ πάντεσσιν ἐπὶ ξυροῦ ἵσταται ἀκμῆς </l>
+						<l n="174">ἢ μάλα λυγρὸς ὄλεθρος Ἀχαιοῖς ἠὲ βιῶναι. </l>
+						<l n="175">ἀλλ᾽ ἴθι νῦν Αἴαντα ταχὺν καὶ Φυλέος υἱὸν </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="30recto" type="frag">
+						<gap reason="lost"/>
+						<l n="204">"ὦ φίλοι οὐκ ἂν δή τις ἀνὴ<sic>
+								<add n="punctuation" place="inline">·</add>
+							</sic><note resp="bh" xml:lang="eng">A punctus is visible here.</note> ρ
+							πεπίθοιθ᾽ ἑῶι αὐτοῦ </l>
+						<l n="205">θυμῶι τολμήεντι<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> μετὰ
+							Τρῶας μεγαθύμους </l>
+						<l n="206">ἐλθεῖν, εἴ τινά που δηίων ἕλοι ἐσχατόωντα<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="207">ἤ τινά που καὶ φῆμιν ἐνὶ Τρώεσσι πύθοιτο, </l>
+						<l n="208">ἅσσά τε μητιόωσι μετὰ σφίσιν<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , ἢ μεμάασιν </l>
+						<l n="209">αὖθι μένειν παρὰ νηυσὶν ἀπόπροθεν<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , ἦε πόλιν<supplied reason="lost"
+							>δε</supplied></l>
+						<l n="210">ἂψ ἀναχωρήσουσιν<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , ἐπεὶ
+							δαμάσαντό <seg type="word">γ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ Ἀχαιούς<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="211">ταῦτά κε πάντα πύθοιτο, καὶ ἂψ εἰς ἡμέας ἔλθοι </l>
+						<l n="212">ἀσκηθής· μέγα κέν οἱ ὑπουράνιον κλέος εἴηι </l>
+						<l n="213">πάντας ἐπ᾽ ἀνθρώπους, καί οἱ δόσις ἔσσεται ἐσθλή· </l>
+						<l n="214">ὅσσοι γὰρ νήεσσιν ἐπικρατέουσιν ἄριστοι </l>
+						<l n="215">τῶν πάντων οἱ ἕκαστος ὄιν δώσουσι μέλαιναν </l>
+						<l n="216">θῆλυν ὑπόρρηνον<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · τῆι μὲν
+							κτέρας οὐδὲν ὁμοῖον, </l>
+						<l n="217">αἰεὶ <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἐν δαίτηισι καὶ εἰλαπίνηισι παρέσται<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> ." </l>
+						<l n="218">ὣς <seg type="word">ἔφα<del>τ</del><add hand="later"
+								>θ</add></seg>, οἳ <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἄρα πάντες ἀκὴν ἐγένοντο
+								σιωπῆ<add hand="later">ι</add>. </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="31recto" type="frag">
+						<gap reason="lost"/>
+						<l n="557">ἵππους <seg type="word">δωρήσετ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽, ἐπει<add hand="later"
+								place="supralinear">δ</add>ὴ πολὺ φέρτεροί εἰσιν. </l>
+						<l n="558">ἵπποι <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ <seg type="word">ο<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>ἷδε</seg> γεραιὲ
+							νεήλυδες οὓς ἐρεείνεις</l>
+						<l n="559">Θρηίκιοι<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · τὸν δέ
+							σφιν <seg type="word">ἄνακτ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἀγαθὸς Διομήδης </l>
+						<l n="560">ἔκτανε, πὰρ <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ <seg type="word">῾ε<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>τάρους</seg>
+							δυοκαίδεκα πάντας ἀρίστους. </l>
+						<l n="561">τὸν τρισκαιδέκατον σκοπὸν <seg type="word">ε<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>ἵλομεν</seg> ἐγγύθι
+								νηῶ<supplied reason="lost">ν,</supplied>
+						</l>
+						<l n="562">τόν ῥα διοπτῆρα στρατοῦ ἔμμεναι <seg type="word">῾η<add
+									n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+									xml:lang="eng">A rough breathing mark is visible
+								here.</note>μετέροιο</seg>
+						</l>
+						<l n="563">Ἕκτωρ τε προέηκε καὶ ἄλλοι Τρῶες ἀγαυοί<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ." </l>
+						<l n="564">ὣς εἰπὼν τάφροιο διήλασε μώνυχας ἵππους </l>
+						<l n="565">καγχαλόων<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>ἅμα <seg type="word"
+									>δ<add n="punctuation" place="inline"> '</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽
+							ἄλλοι <seg type="word">῎ι<add n="punctuation" place="supralinear">
+									¨</add><note resp="bh" xml:lang="eng">A diaeresis is visible
+									here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>σαν</seg>
+							χαίροντες Ἀχαιοί<add n="punctuation" place="inline"> ˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> . </l>
+						<l n="566">οἳ δ᾽ ὅτε Τυδείδεω κλισίην εὔτυκτον ἵκοντο, </l>
+						<l n="567">ἵππους μὲν κατέδησαν <seg type="word">ἐυ<add n="punctuation"
+									place="supralinear"> ¨</add><note resp="bh" xml:lang="eng">A
+									diaeresis is visible here (<bibl>Ceriani in Calderini,
+										xxvii</bibl>).</note>τμήτοισιν</seg>
+							<seg type="word">῾ι<add n="punctuation" place="supralinear">
+									¨</add><note resp="bh" xml:lang="eng">A diaeresis is visible
+									here (<bibl>Ceriani in Calderini,
+								xxvii</bibl>).</note>μᾶσι</seg>
+						</l>
+						<l n="568"><seg type="word"><supplied reason="lost">φά</supplied>τνηι</seg>
+							ἐφ᾽ ἱππείηι, ὅθι περ Διομήδεος ἵπποι </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="11" type="book">
+					<div n="32recto" type="frag">
+						<gap reason="lost"/>
+						<l n="561">σπουδῆ<add>ι</add> τ᾽ ἐξήλασσαν, ἐπεί τ᾽ ἐκορέσσατο φορβῆς· </l>
+						<l n="562">ὣς τότ᾽ ἔπειτ᾽ Αἴαντα μέγαν Τελαμώνιον υἱὸν </l>
+						<l n="563">Τρῶες ὑπέρθυμοι τηλεκλειτοί τ᾽ ἐπίκουροι </l>
+						<l n="564">νύσσοντες ξυστοῖσι μέσον σάκος αἰὲν ἕποντο. </l>
+						<l n="565">Αἴας δ᾽ ἄλλοτε μὲν μνησάσκετο θούριδος ἀλκῆς </l>
+						<l n="566">αὖτις ὑποστρεφθείς, καὶ ἐρητύσασκε φάλαγγας </l>
+						<l n="567">Τρώων ἱπποδάμων· ὁτὲ δὲ τρωπάσκετο φεύγειν. </l>
+						<l n="568">πάντας δὲ προέεργε θοὰς ἐπὶ νῆας <supplied reason="lost"
+								>ὁδεύειν,</supplied>
+						</l>
+						<l n="569">αὐτὸς δὲ Τρώων καὶ Ἀχαιῶν θῦνε <supplied reason="lost"
+								>μεσηγὺ</supplied>
+						</l>
+						<l n="570"><supplied reason="lost">ἱστάμενος·</supplied> τὰ δὲ δοῦρα
+							θρασειάων <supplied reason="lost">ἀπὸ</supplied> χειρῶν </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="33recto" type="frag">
+						<gap reason="lost"/>
+						<l n="597">Νέστορα δ᾽ ἐκ πολέμοιο φέρον Νηλήιοι ἵπποι </l>
+						<l n="598">ἱδρῶσαι<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, ἦγον δὲ Μαχάονα
+							ποιμένα λαῶν. </l>
+						<l n="599">τὸν δὲ ἰδὼν ἐνόησε ποδάρκης δῖος Ἀχιλλεύς· </l>
+						<l n="600"><del>ι</del><add hand="?">ε</add>῾στήκει<note resp="bh"
+								xml:lang="eng">Misreported in M.L. West's edition, 1998, ad. loc.
+								See <bibl>Ceriani's note in Calderini, xli</bibl>.</note> γὰρ ἐπὶ
+							πρυμνῆι μεγακήτει νηὶ </l>
+						<l n="601">εἰσορόων πόνον αἰπὺν ἰῶκά τε δακρυόεσσαν. </l>
+						<l n="602">αἶψα δ᾽ ἑταῖρον ἑὸν Πατροκλῆα προσέειπεν </l>
+						<l n="603">φθεγξάμενος παρὰ νηός<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · ὃ δὲ κλισίηθεν ἀκούσας </l>
+						<l n="604">ἔκμολεν ἶσος Ἄρηι<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, κακοῦ <seg
+								type="word">δ<add n="punctuation" place="inline"> '</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽ ἄρα
+								<seg type="word">ο<add n="punctuation" place="supralinear">
+									҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+									visible here.</note>ἱ</seg> πέλεν ἀρχήι<add n="punctuation"
+								place="inline"> ˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="605">τὸν πρότερος προσέειπε Μενοιτίου ἄλκιμος υἱός· </l>
+						<l n="606"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>"τίπτέ με κικλήσκεις Ἀχιλεῦ<add
+								n="punctuation" place="inline"> ·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> ; τί δέ σε χρεὼ
+							ἐμεῖο;" </l>
+						<l n="607">τὸν δ᾽ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς· </l>
+						<l n="608"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>"δῖε Μενοιτιάδη τῶ<del>ι</del>μῶι
+							κεχαρισμένε θυμῶι </l>
+						<l n="609">νῦν ὀίωι περὶ <seg type="word">γούνατ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἐμὰ στήσεσθαι Ἀχαιοὺς </l>
+						<l n="610">λισσομένους<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · χρειὼ
+							γὰρ ἱκάνεται <seg type="word">οὐκέτ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀνεκτός. </l>
+						<l n="611">ἀλλ᾽ ἴθι νῦν Πάτροκλε Διὶ φίλε <seg type="word">Νέστορ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἔρειο </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="12" type="book">
+					<div n="34recto" type="frag">
+						<l n="1">ὣς ὃ μὲν ἐν κλισίηισι Μενοιτίου ἄλκιμος υἱὸς </l>
+						<l n="2">ἰᾶτ᾽ Εὐρύπυλον βεβλημένον<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · <seg type="word">ο<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>ἳ</seg> δὲ μάχοντο </l>
+						<l n="3">Ἀργεῖοι καὶ Τρῶες ὁμειλαδόν· <seg type="word">οὐδ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ <seg
+								type="word">ἄρ<add n="punctuation" place="inline">'</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here.</note>᾽ <seg
+								type="word">ἔμελ<supplied reason="lost">λε</supplied></seg>
+						</l>
+						<l n="4">τάφρος ἔτι σχήσειν Δαναῶν καὶ τεῖχος <seg type="word">ὕπ<supplied
+									reason="lost">ερθεν</supplied></seg>
+						</l>
+						<l n="5">εὐρύ, τὸ ποιήσαντο νεῶν <seg type="word">῞υ<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>περ</seg>, ἀμφί
+								τε<add hand="later" place="supralinear">δὲ</add> τάφρον </l>
+						<l n="6">ἤλασαν<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · <seg type="word"
+									>ο<add n="punctuation" place="supralinear"> ҆</add><note
+									resp="bh" xml:lang="eng">A smooth breathing mark is visible
+									here.</note>ὐδὲ</seg> θεοῖσι δόσαν κλειτὰς ἑκατόμβας· </l>
+						<l n="7">ὄφρά σφιν νῆάς τε θοὰς καὶ ληίδα πολλὴν </l>
+						<l n="8">ἐντὸς <seg type="word">ἔχ<del rend="erasure">
+									<unclear>ω</unclear>
+								</del>ον</seg> ῥύοιτο<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · θεῶν <seg type="word">δ<add n="punctuation"
+									place="inline"> '</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἀέκητι τέτυκτο </l>
+						<l n="9">ἀθανάτων<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · τὸ καὶ οὔ τι
+							πολὺν χρόνον ἔμπεδον <seg type="word">ἦ<supplied reason="lost"
+									>εν.</supplied></seg>
+						</l>
+						<l n="10">ὄφρα μὲν Ἕκτωρ ζωὸς ἔην καὶ <seg type="word">μήνι᾽<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note> Ἀχιλλεὺς </l>
+						<l n="11">καὶ Πριάμοιο ἄνακτος ἀπόρθητος πόλις ἔπλε, </l>
+						<l n="12">τόφρα δὲ καὶ μέγα τεῖχος Ἀχαιῶν ἔμπεδον ἦεν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="13">αὐτὰρ <seg type="word">ε<add n="punctuation" place="supralinear">
+									҆</add><note resp="bh" xml:lang="eng">A smooth breathing mark is
+									visible here.</note>᾿πεὶ</seg> κατὰ μὲν Τρώων θάνον ὅσσοι
+							ἄριστοι, </l>
+						<l n="14">πολλοὶ <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ Ἀργείων <seg type="word">ο<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>ἳ</seg> μὲν δάμεν,
+								<seg type="word">ο<add n="punctuation" place="supralinear">
+									҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+									visible here.</note>ἳ</seg>
+							<seg type="word">δ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἐλίποντο, </l>
+						<l n="15">πέρθετο δὲ Πριάμοιο πόλις δεκάτωι ἐνιαυτῶι<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="16">Ἀργ<del>ε</del><add hand="later" place="supralinear">˙</add><note
+								resp="bh" xml:lang="eng">Two (deletion?) dots appear over <foreign
+									xml:lang="grc">ε</foreign></note>ῖοι <seg type="word">δ<add
+									n="punctuation" place="inline"> '</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ ἐν νηυσὶ φίλην
+							ἐς <seg type="word">πατρίδ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἔβησαν<add n="punctuation" place="inline">
+								·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , </l>
+						<l n="17">δὴ τότε μητιόωντο Ποσειδάων καὶ Ἀπόλλων </l>
+						<l n="18">τεῖχος ἀμαλδῦναι<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> ποταμῶν
+							μένος εἰσαγαγόντες. </l>
+						<l n="19">ὅσσοι <seg type="word">ἀπ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ Ἰδαίων ὀρέων <seg type="word">α<add
+									n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+									xml:lang="eng">A rough breathing mark is visible
+								here.</note>῞λαδε</seg> προρέουσιν<add n="punctuation"
+								place="inline"> ˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="20">Ῥῆσός θ᾽ <seg type="word">Ἑ<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>πτάπορός</seg> τε
+							Κάρησός τε Ῥοδίος τε </l>
+						<l n="21">Γρήνικός τε καὶ Αἴσηπος δῖός τε Σκάμανδρος </l>
+						<l n="22">καὶ Σιμόεις, ὅθι πολλὰ βοάγρια καὶ τρυφάλειαι </l>
+						<l n="23">κάππεσον ἐν κονίηισι καὶ ἡμιθέων γένος <seg type="word"
+									>ἀνδρ<supplied reason="lost">ῶν·</supplied></seg>
+						</l>
+						<l n="24">τῶν πάντων ὁμόσε στόματ᾽ ἔτραπε Φοῖβος Ἀπόλλων, </l>
+						<l n="25">ἐννῆμαρ δ᾽ ἐς τεῖχος ἵει ῥόον· ὗε δ᾽ ἄρα Ζεὺς </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="35recto" type="frag">
+						<gap reason="lost"/>
+						<l n="139">Ἀ´σιον ἀμφὶ ἄνακτα καὶ Ἰαμενὸν καὶ Ὀρέστην </l>
+						<l n="140">Ἀσιάδην <seg type="word">τ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ Ἀδάμαντα Θόωνά τε Οἰνόμαόν τε<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> . </l>
+						<l n="141">οἳ δ᾽ ἤτοι εἷως μὲν <seg type="word">ἐυκνήμ<del>ε</del><add
+									hand="later" n="critical mark">˙</add><note resp="bh"
+									xml:lang="eng">Two deletion dots have been set above <foreign
+										xml:lang="grc">ε</foreign>.</note>ιδας</seg> Ἀχαιοὺς </l>
+						<l n="142">ὄρνυον ἔνδον ἐόντας ἀμύνεσθαι περὶ νηῶν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="143">αὐτὰρ ἐπεὶ δὴ τεῖχος ἐπεσσυμένους ἐνόησαν </l>
+						<l n="144">Τρῶας, ἀτὰρ Δαναῶν γένετο ἰαχή τε φόβος τε, </l>
+						<l n="145">ἐκ δὲ τὼι ἀίξαντε πυλάων πρόσθε μαχέσθην </l>
+						<l n="146">ἀγροτέροισι σύεσσιν ἐοικότε<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , τώ τ᾽ ἐν ὄρεσσιν </l>
+						<l n="147">ἀνδρῶν ἠδὲ κυνῶν <seg type="word">δέχετ<del>
+									<unclear>ε</unclear>
+								</del><add hand="?" place="inline">αι</add></seg> κολοσυρτὸν
+								ἰόντα<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , </l>
+						<l n="148">δοχμώ <seg type="word">τ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀίσσοντε περὶ σφίσιν ἄγνυτον ὕλην </l>
+						<l n="149">πρυμνὴν ἐκτάμνοντες, ὑπαὶ δέ τε κόμπος <seg type="word"
+									>ὀδόντ<supplied reason="lost">ων</supplied></seg>
+						</l>
+						<l n="150">γίνεται εἰς ὅ κέ τίς τε βαλὼν ἐκ θυμὸν ἕληται· </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="36recto" type="frag">
+						<gap reason="lost"/>
+						<l n="226">πολλοὺς γὰρ Τρώων καταλείψομεν, οὕς κεν Ἀχαιοὶ </l>
+						<l n="227">χαλκῶι δηιώσωσιν ἀμυνόμενοι περὶ νηῶν<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="228">ὧδέ <seg type="word">χ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ὑποκρίναιτο θεοπρόπος, <seg type="word">῝ο<add
+									n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+									xml:lang="eng">A rough breathing mark is visible here
+										(<bibl>Ceriani in Calderini, xxvii</bibl>).</note>ς</seg>
+							σάφα θυμῶι </l>
+						<l n="229">εἰδείηι τεράων καί οἱ <del>πε</del><add hand="later"
+								n="critical mark">˙</add><note resp="bh" xml:lang="eng">Two deletion
+								dots have been set over these two letters (<bibl>Ceriani in
+									Calderini, xxviii</bibl>).</note>πιθοίατο λαοί<add
+								n="punctuation" place="inline"> ˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> ." </l>
+						<l n="230">τὸν δ᾽ ἄρ᾽ ὑπόδρα ἰδὼν προσέφη κορυθαίολος Ἕκτωρ· </l>
+						<l n="231"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>Πουλυδάμα, σὺ μὲν <seg
+								type="word">οὐκέτ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἐμοὶ φίλα <seg type="word">ταῦτ<add n="punctuation"
+									place="inline"> '</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἀγορεύεις<add n="punctuation"
+								place="inline"> ˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="232">οἶσθα καὶ ἄλλον μῦθον ἀμείνονα τοῦδε νοῆσαι<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="233">εἰ ἐτεὸν δὴ τοῦτον ἀπὸ σπουδῆς ἀγορεύεις, </l>
+						<l n="234">ἐξ ἄρ᾽ δή τοι ἔπειτα θεοὶ φρένας ὤλεσαν αὐτοί<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="235">ὃς κέλεαι Ζηνὸς μὲν ἐριγδούποιο λαθέσθαι </l>
+						<l n="236">βουλέων, ἅς τέ μοι αὐτὸς ὑπέσχετο καὶ κατένευσε· </l>
+						<l n="237">τύνη δ᾽ οἰωνοῖσι τανυπτερύγεσσι κελεύεις </l>
+						<l n="238">πείθεσθαι, τῶν οὔ τι μετατρέπομ᾽ οὐδ᾽ ἀλεγίζω </l>
+						<l n="239">εἴτ᾽ ἐπὶ δεξί᾽ ἴωσι πρὸς ἠῶ τ᾽ ἠέλιόν τε, </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="37recto" type="frag">
+						<gap reason="lost"/>
+						<l n="425">δήιουν ἀλλήλων ἀμφὶ στήθεσσι βοείας </l>
+						<l n="426">ἀσπίδας εὐκύκλους λαισήιά τε πτερόεντα. </l>
+						<l n="427">πολλοὶ <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ οὐτάζοντο κατὰ χρόα νηλέι χαλκῶι, </l>
+						<l n="428">ἠμὲν ὅτωι στρεφθέντι μετάφρενα γυμνωθείη </l>
+						<l n="429">μαρναμένων, πολλοὶ δὲ διαμπερὲς ἀσπίδος <seg type="word"
+									>αὐτ<supplied reason="lost">ῆς.</supplied></seg>
+						</l>
+						<l n="430"><seg type="word">πάντη<add hand="later" place="inline"
+								>ι</add></seg> δὴ πύργοι καὶ ἐπάλξιες <seg type="word">α<add
+									n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+									xml:lang="eng">A rough breathing mark is visible
+								here.</note>ἵματι</seg> φωτῶν </l>
+						<l n="431"><seg type="word">ἐρράδατ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀμφοτέρωθεν ἀπὸ Τρώων καὶ Ἀχαιῶν<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> . </l>
+						<!--<l n="432">
+							<supplied reason="omitted">ἀλλ᾽ οὐδ᾽ ὧς ἐδύναντο φόβον ποιῆσαι
+								Ἀχαιῶν,</supplied>
+						</l>-->
+						<l n="433"><seg type="word">ἀλλ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἔχον, ὥς τε τάλαντα γυνὴ χερνῆτις ἀληθής, </l>
+						<l n="434">ἥ τε σταθμὸν ἔχουσα καὶ εἴριον ἀμφὶς ἀνέλκει </l>
+						<l n="435"><seg type="word">ἰσάζους<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽, ἵνα παισὶν ἀεικέα μισθὸν ἄρηται· </l>
+						<l n="436">ὣς μὲν τῶν ἐπὶ ἶσα μάχη τέτατο πτόλεμός τε, </l>
+						<l n="437">πρίν <seg type="word">γ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ὅτε δὴ Ζεὺς κῦδος ὑπέρτερον Ἕκτορι δῶκε </l>
+						<l n="438">Πριαμίδηι<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , ὃς
+							πρῶτος ἐσήλατο τεῖχος Ἀχαιῶν. </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="13" type="book">
+					<div n="38verso" type="frag">
+						<gap reason="lost"/>
+						<l n="393">βεβρυχὼς κόνιος δεδραγμένος <seg type="word"
+								>αἱματο<sic>θ</sic>σσης</seg>. </l>
+						<l n="394">ἐκ δέ οἱ ἡνίοχος πλήγη φρένας ἃς πάρος εἶχεν, </l>
+						<l n="395"><seg type="word">οὐδ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ὅ <seg type="word">γ<add n="punctuation"
+									place="inline"> '</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἐτόλμησεν δηίων ὑπὸ χεῖρας
+							ἀλύξας </l>
+						<l n="396">ἂψ ἵππους στρέψαι, τὸν <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ Ἀντίλοχος μενεχάρμης </l>
+						<l n="397">δουρὶ μέσον περόνησε τυχών<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · οὐδ᾽ ἤρκεσε θώρηξ </l>
+						<l n="398">χάλκεος ὃν φορέεσκε<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , μέση <seg type="word">δ<add n="punctuation"
+									place="inline"> '</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ ἐν γαστέρι πῆξεν. </l>
+						<l n="399">αὐτὰρ ὅ <seg type="word">γ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀσθμαίνων εὐεργέος ἔκπεσε δίφρου<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> , </l>
+						<l n="400">ἵππους <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ Ἀντίλοχος μεγαθύμου Νέστορος υἱὸς </l>
+						<l n="401">ἐξέλασε Τρώων μετ᾽ ἐυκνήμ<del>ε</del><note resp="bh"
+								xml:lang="eng">A deletion dot has been set over this
+							letter.</note>ιδας Ἀχαιούς<add n="punctuation" place="inline">
+								˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="402">Δηίφοβος δὲ μάλα σχεδὸν ἤλυθεν Ἰδομενῆος </l>
+						<l n="403">Ἀσίου ἀχνύμενος, καὶ ἀκόντισε δουρὶ φαεινῶι. </l>
+						<l n="404">ἀλλ᾽ ὃ μὲν ἄντα ἰδὼν ἠλεύατο χάλκεον ἔγχος </l>
+						<l n="405">Ἰδομενεύς<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · κρύφθηι
+							γὰρ <seg type="word">ὑπ᾽<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note> ἀσπίδι πάντος᾽ ἐίσηι, </l>
+						<l n="406">τὴν <seg type="word">ἄρ᾽<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note> ὅ γε ῥινοῖσι βοῶν καὶ νώροπι χαλκῶι </l>
+						<l n="407">δινωτὴν φορέεσκε, δύω κανόνεσς᾽ ἀραρυῖαν· </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="14" type="book">
+					<div n="39recto" type="frag">
+						<gap reason="lost"/>
+						<l n="414">ὁς δ᾽ ὅθ᾽ ὑπὸ πληγῆς πατρὸς Διὸς ἐξερίπηι <supplied reason="lost"
+								>δρῦς</supplied>
+						</l>
+						<l n="415">πρόρριζος, δεινὴ δὲ θεείου γίνεται ὀδμὴ<del>ι</del><add
+								hand="later" n="critical mark">˙</add><note resp="bh" xml:lang="eng"
+								>Ceriani says a deletion dot is visible here (<bibl>Calderini,
+									xlii</bibl>).</note>
+						</l>
+						<l n="416">ἐξ αὐτῆς<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , τὸν
+								<seg type="word">δ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽ οὔ περ ἔχει
+							θράσος <seg type="word">῞ο<add n="punctuation" place="supralinear">
+									҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+									visible here.</note>ς</seg> κεν ἴδηται </l>
+						<l n="417">ἐγγὺς ἐών, χαλεπὸς δὲ Διὸς μεγάλοιο κεραυνός, </l>
+						<l n="418"><seg type="word">῞ω<add n="punctuation" place="supralinear">
+									҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+									visible here.</note>ς</seg> πέσεν Ἕκτορος ὠκὺ<add hand="later"
+								place="supralinear">α</add> μένος χαμαὶ<add hand="later" n="variant"
+								place="supralinear">χαμαὶ μένος</add> ἐν κονίηισι· </l>
+						<l n="419">χειρὸς <seg type="word">δ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽
+							ἔκβαλεν ἔγχος, <seg type="word">ἐπ<add n="punctuation" place="inline">
+									'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽
+							αὐτῶι <seg type="word">δ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽ ἀσπὶς
+								ἑάφθη<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>
+						</l>
+						<l n="421">οἳ δὲ μέγα ι<add n="punctuation" place="supralinear">
+								¨</add><note resp="bh" xml:lang="eng">A diaeresis is visible here
+									(<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾿άχοντες
+							ἐπέδραμον υ<add n="punctuation" place="supralinear"> ¨</add><note
+								resp="bh" xml:lang="eng">A diaeresis is visible here (<bibl>Ceriani
+									in Calderini, xxvii</bibl>).</note>ι<add n="punctuation"
+								place="supralinear"> ¨</add><note resp="bh" xml:lang="eng">A
+								diaeresis is visible here (<bibl>Ceriani in Calderini,
+								xxvii</bibl>).</note>῟ες Ἀχαιῶν </l>
+						<l n="422">ἐλπόμενοι ἐρύσασθαι, ἀκόντιζον δὲ θαμειὰς </l>
+						<l n="423">αἰχμάς<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · ἀλλ᾽ οὔ τις
+							ἐδυνήσατο ποιμένα λαῶν </l>
+						<l n="424">οὐτάσαι οὐδὲ βαλεῖν<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · πρὶν γὰρ περίβησαν ἄριστοι </l>
+						<l n="425">Πουλυδάμας τε καὶ Αἰνείας καὶ δῖος Ἀγήνωρ<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note>
+						</l>
+						<l n="426">Σαρπηδών <seg type="word">τ<add n="punctuation" place="inline"
+									>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ἀρχὸς Λυκίων καὶ Γλαῦκος ἀμύμων. </l>
+						<l n="427">τῶν <seg type="word">δ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽
+							ἄλλων οὔ τίς <seg type="word">ε<add n="punctuation" place="supralinear">
+									҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+									visible here.</note>ὑ</seg> ἀκήδεσεν, ἀλλὰ πάροιθεν </l>
+						<l n="428">ἀσπίδας εὐκύκλους σχέθον αὐτοῦ<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note>. τὸν <seg type="word">δ<add n="punctuation"
+									place="inline">'</add></seg><note resp="bh" xml:lang="eng">An
+								apostrophe is visible here.</note>᾽ <seg type="word">ἄρ<add
+									n="punctuation" place="inline">'</add></seg><note resp="bh"
+								xml:lang="eng">An apostrophe is visible here.</note>᾽ <seg
+								type="word">῾ε<add n="punctuation" place="supralinear"> ҅</add><note
+									resp="bh" xml:lang="eng">A rough breathing mark is visible
+									here.</note>ταῖροι</seg>
+						</l>
+						<l n="429">χερσὶν ἀείραντες φέρον ἐκ πόνου<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, <seg type="word"
+									>ὄφρ<add n="punctuation" place="inline"> '</add></seg><note
+								resp="bh" xml:lang="eng">An apostrophe is visible here
+									(<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽ ι<add
+								n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+								xml:lang="eng">A rough breathing mark is visible here.</note><seg
+								type="word">῞κεθ<add n="punctuation" place="inline">
+								'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽ <seg
+								type="word">ἵππου<supplied reason="lost">ς</supplied></seg>
+						</l>
+						<l n="430">ὠκέας<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , οἵ <seg
+								type="word">ο<add n="punctuation" place="supralinear"> ҅</add><note
+									resp="bh" xml:lang="eng">A rough breathing mark is visible
+									here.</note>ἱ</seg> ὄπισθε μάχης ἠδὲ πτολέμοιο </l>
+						<l n="431">ἕστασαν ἡνίοχόν τε καὶ <seg type="word">῞α<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>ρματα</seg>
+							<seg type="word">ποικίλ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here (<bibl>Ceriani in Calderini, xxvii</bibl>).</note>᾽
+							ἔχοντες· </l>
+						<l n="432"><seg type="word">ο<add n="punctuation" place="supralinear">
+									҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+									visible here.</note>ἳ</seg> τόν γε προτὶ ἄστυ φέρον βαρέα
+								στενάχοντα<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> . </l>
+						<l n="433"><seg type="word">ἀλλ<add n="punctuation" place="inline"
+								>'</add></seg><note resp="bh" xml:lang="eng">An apostrophe is
+								visible here.</note>᾽ ὅτε δὴ πόρον ἷξον ἐυ<add n="punctuation"
+								place="supralinear"> ¨</add><note resp="bh" xml:lang="eng">A
+								diaeresis is visible here (<bibl>Ceriani in Calderini,
+								xxvii</bibl>).</note>ρρεῖος ποταμοῖο </l>
+						<l n="434">Ξάνθου δινήεντος, ὃν ἀθάνατος τέκετο Ζεύς, </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="15" type="book">
+					<div n="40recto" type="frag">
+						<gap reason="lost"/>
+						<l n="378"><seg type="word"><supplied reason="lost">ἀρά</supplied>ων</seg>
+							ἀίων <seg type="word">Νηληι<supplied reason="lost">άδαο</supplied></seg>
+							<seg type="word"><supplied reason="lost">γέρ</supplied>οντος</seg>. </l>
+						<l n="379">Τρῶες δ᾽ ὡς <seg type="word">ἐπύθον<supplied reason="lost"
+									>το</supplied></seg> Διὸς κτύπον αἰγιόχοιο, </l>
+						<l n="380"><seg type="word"><supplied reason="lost">μ</supplied>ᾶλλον</seg>
+							ἐπ᾽ Ἀργείοισι θόρον, μνήσαντο δὲ <seg type="word">χάρμ<supplied
+									reason="lost">ης.</supplied></seg>
+						</l>
+						<l n="381"><supplied reason="lost">οἳ</supplied> δ᾽ ὥς τε μέγα κῦμα θαλάσσης
+							εὐρυπόροιο </l>
+						<l n="382"><seg type="word"><supplied reason="lost">ν</supplied>ηὸς</seg>
+							ὑπὲρ τοίχων <seg type="word">κα<supplied reason="lost"
+									>ταβήσετ</supplied>αι</seg><add n="punctuation" place="inline">
+								·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , ὁππότ᾽ ἐπείγηι </l>
+						<l n="383"><seg type="word"><supplied reason="lost">ἲ</supplied>ς</seg>
+							ἀνέμου · η<add n="punctuation" place="supralinear"> ҅</add><note
+								resp="bh" xml:lang="eng">A rough breathing mark is visible
+								here.</note>῝ γάρ τε μάλιστά <seg type="word"><supplied
+									reason="lost">γ</supplied>ε</seg> κύματ᾽ ὀφέλλει<add
+								n="punctuation" place="inline"> ·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="384">ὣς Τρῶες μεγάληι ἰαχῆι κατὰ τεῖχος ἔβαινον<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , </l>
+						<l n="385"><seg type="word"><supplied reason="lost">ἵπ</supplied>πους</seg>
+							δ᾽ εἰσελάσαντες ἐπὶ πρύμνηισι μάχοντο </l>
+						<l n="386">ἔγχεσιν ἀμφιγύοις αὐτοσχεδόν<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, οἳ μὲν ἀφ᾽ ἵππων, </l>
+						<l n="387">οἳ δ᾽ ἀπὸ νηῶν ὕψι μελαινάων ἀποβάντες </l>
+						<l n="388">μακροῖσι ξυστοῖσι, τά ῥά σφ᾽ ἐπὶ νηυσὶν ἔκειτο </l>
+						<l n="389">ναύμαχα κολλήεντα, κατὰ στόμα <seg type="word">ι<add
+									n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+									xml:lang="eng">A rough breathing mark is visible
+								here.</note>῾μένα</seg> χαλκὸν<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="390"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>Πάτροκλος δ᾽ εἷως μὲν Ἀχαιοί τε
+							Τρῶές τε </l>
+						<l n="391">τείχεος ἀμφεμάχοντο θοάων ἔκτοθι νηῶν, </l>
+						<l n="392">τόφρ᾽ ὅ γ᾽ ἐνὶ κλισίηι ἀγαπήνορος Εὐρυπύλοιο </l>
+						<l n="393">ἧστό τε καὶ τὸν ἔτερπε λόγοις<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , ἐπὶ δ᾽ <seg type="word">ε<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>῞λκει</seg> λυγρῶι </l>
+						<l n="394">φάρμακ᾽ ἀκήματ᾽ ἔπασσε μελαινάων ὀδυνάων<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="395">αὐτὰρ ἐπεὶ δὴ τεῖχος ἐπεσσυμένους ἐνόησεν </l>
+						<l n="396">Τρῶας<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , ἀτὰρ Δαναῶν
+							γένετο ἰαχή τε φόβος τε, </l>
+						<l n="397">ὤιμωξέν<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> τ᾽ ἄρ᾽ ἔπειτα καὶ
+								<seg type="word">ω<add n="punctuation" place="supralinear">
+									҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+									visible here (<bibl>Ceriani in Calderini,
+								xxvii</bibl>).</note>῝ι</seg> πεπλήγετο μηρὼ<del>ι</del><note
+								resp="bh" xml:lang="eng">A later has drawn a deletion slash through
+								the <foreign xml:lang="grc">ι</foreign>.</note>
+						</l>
+						<gap reason="lost"/>
+					</div>
+					<div n="41verso" type="frag">
+						<gap reason="lost"/>
+						<l n="671">Ἕκτορα δ᾽ ἐφράσσαντο βοὴν ἀγαθὸν καὶ ἑταίρους, </l>
+						<l n="672">ἠμὲν ὅσοι μετόπισθεν ἀφέστασαν οὐδ᾽ ἐμάχοντο, </l>
+						<l n="673">ἠδ᾽ ὅσσοι παρὰ νηυσὶ μάχην ἐμάχοντο θοῆισι. </l>
+						<l n="674">Οὐδ᾽ ἄρ᾽ ἔτ᾽ Αἴαντι μεγαλήτορι ἥνδανε θυμῶι </l>
+						<l n="675">ἑστάμεν ἔνθά περ ἄλλοι ἐφέστασαν υἷες Ἀχαιῶν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="676">ἀλλ᾽ ὅ γε νηῶν ἴκρι<add n="punctuation" place="inline"
+								>'</add><note resp="bh" xml:lang="eng">An apostrophe is visible
+								here.</note>᾽ ἐπώιχετο μακρὰ βιβάσθων, </l>
+						<l n="677">νώμα δὲ ξυστὸν μέγα ναύμαχον ἐν παλάμηισιν </l>
+						<l n="678">κολλητὸν βλήτροισι δυωκαιεικοσίπηχυ. </l>
+						<l n="679"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>ὡς δ᾽ ὅτ᾽ ἀνὴρ ἵπποισι κελη<del
+								rend="erasure">
+								<gap reason="illegible"/>
+							</del><seg type="word"><add n="correction" place="inline">θ</add><add
+									hand="later" place="supralinear">τ</add>ίζειν<note resp="bh"
+									xml:lang="eng">The letter <foreign xml:lang="grc">θ</foreign> is
+									written over an erasure. What was originally written is
+									uncertain. Above the line a later hand corrects <foreign
+										xml:lang="grc">θ</foreign> to <foreign xml:lang="grc"
+										>τ</foreign>.</note></seg> ἐὺ εἰδώς, </l>
+						<l n="680">ὅς τ᾽ ἐπεὶ ἐκ πολέων πίσυρας συναγείρεται <seg type="word"
+									>ἵππου<supplied reason="lost">ς,</supplied></seg>
+						</l>
+						<l n="681">σεύας ἐκ πεδίο<del rend="erasure">
+								<gap reason="illegible"/>
+							</del><add n="correction" place="inline">ιο</add> μέγα προτὶ ἄστυ διώκηι </l>
+						<l n="682">λαοφόρον καθ᾽ ὁδόν· πολέες τέ ἑ θηήσαντο </l>
+						<l n="683">ἀνέρες ἠδὲ γυναῖκες· ὃ δ᾽ ἔμπεδον ἀσφαλὲς αἰεὶ </l>
+						<l n="684"><seg type="word">θρώ<add hand="later">ι</add>σκων</seg> ἄλλοτ᾽
+							ἐπ᾽ ἄλλον ἀμείβεται<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , οἳ δὲ
+								<seg type="word">πέτον<supplied reason="lost">ται·</supplied></seg>
+						</l>
+						<l n="685"><supplied reason="lost">ὣς</supplied> Αἴας ἐπὶ πολλὰ θοάων ἴκρια
+							νηῶν </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="16" type="book">
+					<div n="42recto" type="frag">
+						<gap reason="lost"/>
+						<l n="209"><seg type="word"><supplied reason="lost">ἔ</supplied>νθά</seg>
+							τις ἄλκιμον ἦτορ ἔχων Τρώεσσι μαχέσθω." </l>
+						<l n="210">ὣς εἰπὼν ὤτρυνε μένος καὶ θυμὸν ἑκάστου<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="211"><seg type="word"><supplied reason="lost">μ</supplied>ᾶλλον</seg>
+							δὲ στίχες ἄρθεν, ἐπεὶ βασιλῆος ἄκουσαν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="212">ὡς δ᾽ ὅτε τοῖχον ἀνὴρ ἀράρηι πυκινοῖσι λίθοισι </l>
+						<l n="213">δώματος ὑψηλοῖο βίας ἀνέμων ἀλεείνων, </l>
+						<l n="214">ὣς ἄραρον κόρυθές τε καὶ ἀσπίδες ὀμφαλόεσσαι<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="215">ἀσπὶς ἄρ᾽ ἀσπίδ᾽ ἔρειδε, κόρυς κόρυν, ἀνέρα δ᾽ ἀνήρ<add
+								n="punctuation" place="inline"> ˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="216">ψαῦον δ᾽ ἱππόκομοι κόρυθες λαμπροῖσι φάλοισι </l>
+						<l n="217">νευόντων<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , ὡς
+							πυκνοὶ ἐφέστασαν ἀλλήλοισι<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="218">πάντων δὲ προπάροιθε δύ᾽ ἀνέρε θωρήσσοντο </l>
+						<l n="219">Πάτροκλός τε καὶ Αὐτομέδων <seg type="word">ε<add n="punctuation"
+									place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A
+									rough breathing mark is visible here.</note>῞να</seg> θυμὸν
+							ἔχοντες </l>
+						<l n="220">πρόσθεν Μυρμιδόνων πολεμιζέμεν<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . αὐτὰρ Ἀχιλεὺς </l>
+						<l n="221">βῆ ῥ᾽ ἴμεν ἐς κλισίην<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , χηλοῦ δ᾽ ἀπὸ πῶμ᾽ ἀνέωγε </l>
+						<l n="222">καλῆς δαιδαλέης, τήν οἱ Θέτις ἀργυρόπεζα </l>
+						<l n="223">θῆκ᾽ ἐπὶ νηὸς ἄγεσθαι ἐὺ πλήσασα χιτώνων </l>
+						<l n="224"><seg type="word"><supplied reason="lost">χλ</supplied>αινών</seg>
+							τ᾽ ἀνεμοσκεπέων οὔλων τε ταπήτων. </l>
+						<l n="225"><seg type="word"><supplied reason="lost">ἔν</supplied>θα</seg> δέ
+							οἱ δέπας ἔσκε τετυγμένον<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, οὐτέ τις ἄλλος </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="43recto" type="frag">
+						<gap reason="lost"/>
+						<l n="758">ἄμφω πεινάοντε μέγα φρονέοντε μάχεσθον· </l>
+						<l n="759">ὣς περὶ Κεβριόναο δύω μήστωρες ἀυτῆς </l>
+						<l n="760">Πάτροκλός τε Μενοιτιάδης καὶ φαίδιμος Ἕκτωρ </l>
+						<l n="761"><seg type="word"><supplied reason="lost">ἵ</supplied>εντ᾽</seg>
+							ἀλλήλων ταμέειν χρόα νηλέι χαλκῶι. </l>
+						<l n="762">Ἕκτωρ μὲν <seg type="word">κεφαλῆ<del>ι</del><note resp="bh"
+									xml:lang="eng">An oblique stroke, it seems, as deleted
+										<foreign>i</foreign> here.</note>φιν</seg> ἐπεὶ λάβεν οὐχὶ
+							μεθίει· </l>
+						<l n="763">Πάτροκλος δ᾽ ἑτέρωθεν ἔχεν ποδός· οἳ δὲ δὴ ἄλλοι </l>
+						<l n="764">Τρῶες καὶ Δαναοὶ σύναγον κρατερὴν ὑσμίνην. </l>
+						<l n="765">ὡς δ᾽ Εὖρός τε Νότος τ᾽ ἐριδαίνετον ἀλλήλοιιν </l>
+						<l n="766">οὔρεος ἐν βήσσηις βαθέην πελεμιζέμεν ὕλην </l>
+						<l n="767">φηγόν τε μελίην τε τανύφλοιόν τε κράνειαν, </l>
+						<l n="768">αἵ τε πρὸς ἀλλήλας ἔβαλον ταναήκεας ὄζους </l>
+						<l n="769">ἠχῆι θεσπεσίηι, πάταγος δέ τε ἀγνυμενάων, </l>
+						<l n="770">ὣς Τρῶες καὶ Ἀχαιοὶ ἐπ᾽ ἀλλήλοισι θορόντες </l>
+						<l n="771">δήιουν, οὐδ᾽ ἕτεροι μνώοντ᾽ ὀλοοῖο φόβοιο. </l>
+						<l n="772">πολλὰ δὲ Κεβριόνην ἀμφ᾽ ὀξέα δοῦρα πεπήγει </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="43verso" type="frag">
+						<gap reason="lost"/>
+						<l n="783">Πάτροκλος δὲ Τρωσὶ κακὰ φρονέων <seg type="word">ἐνόρου<supplied
+									reason="lost">σε.</supplied></seg>
+						</l>
+						<l n="784">τρὶς μὲν ἔπειτ᾽ ἐπόρουσε θοῶι ἀτάλαντος Ἀ´ρηι </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="17" type="book">
+					<div n="44recto" type="frag">
+						<gap reason="lost"/>
+						<l n="4"><supplied reason="lost">ἀμφὶ δ᾽ ἄρ᾽</supplied>
+							<seg type="word"><supplied reason="lost">αὐ</supplied>τῶι</seg> βαῖν᾽ ὥς
+							τις περὶ <seg type="word">πόρτακ<supplied reason="lost"
+								>ι</supplied></seg> μήτηρ </l>
+						<l n="5">πρωτοτόκος κινυρὴ οὐ πρὶν εἰδυῖα τόκοιο· </l>
+						<l n="6"><seg type="word"><supplied reason="lost">ὣ</supplied>ς</seg> περὶ
+							Πατρόκλωι βαῖνε ξανθὸς Μενέλαος. </l>
+						<l n="7"><seg type="word"><supplied reason="lost">π</supplied>ρόσθε</seg> δέ
+							οἱ δόρυ τ᾽ ἔσχε καὶ ἀσπίδα πάντος᾽ <seg type="word">ἐίση<supplied
+									reason="lost">ν,</supplied></seg>
+						</l>
+						<l n="8">τὸν κτάμεναι μεμαὼς ὅς τις τοῦ γ᾽ ἀντίος ἔλθοι. </l>
+						<l n="9">οὐδ᾽ ἄρα Πάνθου υἱὸς ἐυμμελίης ἀμέλησε </l>
+						<l n="10">Πατρόκλοιο πεσόντος ἀμύμονος· ἄγχι δ᾽ ἄρ᾽ αὐτοῦ </l>
+						<l n="11">ἔστη, καὶ προσέειπεν ἀρηίφιλον Μενέλαον<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="12">Ἀτρείδη Μενέλαε διοτρεφὲς ὄρχαμε λαῶν </l>
+						<l n="13">χάζεο, λεῖπε δὲ νεκρόν, ἔα δ᾽ ἔναρα βροτόεντα· </l>
+						<l n="14">οὐ γάρ τις πρότερος Τρώων κλειτῶν τ᾽ ἐπικούρων </l>
+						<l n="15">Πάτροκλον βάλε δουρὶ κατὰ κρατερὴν ὑσμίνην· </l>
+						<l n="16">τώι με ἔα κλέος ἐσθλὸν ἐνὶ Τρώεσσιν ἀρέσθαι, </l>
+						<l n="17">μή σε βάλω, ἀπὸ δὲ μελιηδέα θυμὸν ἕλωμαι. </l>
+						<l n="18"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>τὸν δὲ μέγ᾽ ὀχθήσας προσέφη
+							ξανθὸς Μενέλαος<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · </l>
+						<l n="19"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>Ζεῦ πάτερ<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> οὐ μὲν καλὸν
+							ὑπέρβιον εὐχετάασθαι<add n="punctuation" place="inline"> ˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> . </l>
+						<l n="20">οὔτ᾽ οὖν παρδάλιος τόσσον μένος οὔτε λέοντος </l>
+						<l n="21">οὔτε συὸς κάπρου ὀλοόφρονος, οὗ τε μέγιστος </l>
+						<l n="22">θυμὸς ἐνὶ στήθεσσι περὶ σθένει βλεμεαίνει, </l>
+						<l n="23">ὅσσον Πάνθου υἷες ἐυμμελίαι φορέουσιν. </l>
+						<l n="24">οὐδὲ μὲν οὐδὲ βίη Ὑπερήνορος ἱπποδάμοιο </l>
+						<l n="25">ἧς ἥβης ἀπόνηθ᾽, ὅτε μ᾽ ὤνατο καί μ᾽ ὑπέμεινε </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="45verso" type="frag">
+						<gap reason="lost"/>
+						<l n="88"><supplied reason="lost">ὀξέα</supplied>
+							<seg type="word"><supplied reason="lost">κεκλ</supplied>ήγως</seg> φλογὶ
+							ἴκελος Ἡφαίστοιο </l>
+						<l n="89"><seg type="word"><supplied reason="lost"
+								>ἀσβέσ</supplied>τωι</seg><add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · οὐδ᾽ υἱὸν λάθεν Ἀτρέος ὀξὺ βοήσας· </l>
+						<l n="90">ὀχθήσας δ᾽ ἄρα εἶπε πρὸς ὃν μεγαλήτορα θυμόν· </l>
+						<l n="91">"ὤ μοι ἐγὼν εἰ μέν κε λίπω κάτα τεύχεα καλὰ </l>
+						<l n="92">Πάτροκλόν θ᾽, ὃς κεῖται ἐμῆς ἕνεκ᾽ ἐνθάδε τιμῆς, </l>
+						<l n="93">μή τίς μοι Δαναῶν νεμεσήσεται ὅς κεν ἴδηται. </l>
+						<l n="94">εἰ δέ κεν Ἕκτορι μοῦνος ἐὼν καὶ Τρωσὶ μάχωμαι </l>
+						<l n="95">αἰδεσθείς, μή πώς με περι<add hand="later" n="diacritical mark"
+								place="inline"> ⸒</add><note resp="bh" xml:lang="eng">A diastole
+								appears here according to Ceriani (<bibl>Calderini,
+								xliii</bibl>).</note><del>σ</del><add hand="?" n="critical mark"
+								>˙</add><note resp="bh" xml:lang="eng">A dot appears above <foreign
+									xml:lang="grc">σ</foreign></note>τείως<add n="punctuation"
+								place="inline"> '</add><note resp="bh" xml:lang="eng">An apostrophe
+								is visible here.</note>᾽ ἕνα πολλοί· </l>
+						<l n="96">Τρῶας δ᾽ ἐνθάδε πάντας ἄγει κορυθαίολος Ἕκτωρ. </l>
+						<l n="97">ἀλλὰ τίη μοι ταῦτα φίλος διελέξατο θυμός; </l>
+						<l n="98">ὁππότ᾽ ἀνὴρ ἐθέληι πρὸς δαίμονα φωτὶ μάχεσθαι </l>
+						<l n="99">ὅν κε θεὸς τιμᾶι, τάχα οἱ μέγα πῆμα κυλίσθηι. </l>
+						<l n="100">τώι μ᾽ οὔ τις Δαναῶν νεμεσήσεται ὅς κεν ἴδηται </l>
+						<l n="101">Ἕκτορι χωρήσαντ᾽, ἐπεὶ ἐκ θεόφιν πολεμίζει. </l>
+						<l n="102">εἰ δέ που Αἴαντός γε βοὴν ἀγαθοῖο πυθοίμην, </l>
+						<l n="103">ἄμφω κ᾽ αὖτις ἰόντες ἐπιμνησαίμεθα χάρμης </l>
+						<l n="104">καὶ πρὸς δαίμονά περ, εἴ πως ἐρυσαίμεθα νεκρὸν </l>
+						<l n="105">Πηλείδηι Ἀχιλῆι<add n="punctuation" place="inline">˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · κακῶν
+							δέ κε φέρτατον εἴηι." </l>
+						<l n="106"><seg type="word"><supplied reason="lost">ἕ</supplied>ως</seg> ὁ
+							ταῦθ᾽ ὅρμαινε κατὰ φρένα καὶ κατὰ θυμὸν</l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="21" type="book">
+					<div n="46recto" type="frag">
+						<gap reason="lost"/>
+						<l n="202">κείμενον ἐν ψαμάθοισι, δίαιναι δέ μιν <seg type="word">μ<supplied
+									reason="lost">έλαν</supplied></seg>
+							<supplied reason="lost">ὕδωρ.</supplied>
+						</l>
+						<l n="203">τὸν μὲν ἄρ᾽ ἐγχέλυές τε καὶ ἰχθύες <seg type="word"
+									>ἀμφεπέ<supplied reason="lost">νοντο</supplied></seg>
+						</l>
+						<l n="204">δημὸν ἐρεπτόμενοι ἐπινεφρίδιον <seg type="word">κε<supplied
+									reason="lost">ίροντες·</supplied></seg>
+						</l>
+						<l n="205">αὐτὰρ ὃ βῆ ἰέναι μετὰ Παίονας <seg type="word">ἱπποκο<supplied
+									reason="lost">ρυστάς,</supplied></seg>
+						</l>
+						<l n="206">οἵ ῥ᾽ ἔτι πὰρ ποταμὸν πεφοβήατο δινήεντα, </l>
+						<l n="207">ὡς εἶδον τὸν ἄριστον ἐνὶ κρατερῆι <seg type="word">ὑσμ<supplied
+									reason="lost">ίνηι</supplied></seg></l>
+						<l n="208">χέρσ᾽ ὕπο Πηλείδαο καὶ ἄορι ἶφι δαμέντα. </l>
+						<l n="209">ἔνθ᾽ ἕλε Θερσίλοχόν τε Μύδωνά τε <seg type="word">Ἀστύ<supplied
+									reason="lost">πυλόν</supplied></seg>
+							<supplied reason="lost">τε</supplied>
+						</l>
+						<l n="210">Μνῆσόν τε Θρασίον τε καὶ Αἴνιον ἠδ᾽ <seg type="word">Ὀφ<supplied
+									reason="lost">ελέστην·</supplied></seg>
+						</l>
+						<l n="211">καί νύ κ᾽ ἔτι πλέονας κτάνε Παίονας <seg type="word">ὠ<supplied
+									reason="lost">κὺς</supplied></seg>
+							<supplied reason="lost">Ἀχιλλεύς,</supplied>
+						</l>
+						<l n="212">εἰ μὴ χωσάμενος προσέφη ποταμὸς <seg type="word">βα<supplied
+									reason="lost">θυδίνης</supplied></seg>
+						</l>
+						<l n="213">ἀνέρι εἰδόμενος, βαθέης δ᾽ ἐκ φθέγξατο <seg type="word"
+									>δ<supplied reason="lost">ίνης·</supplied></seg>
+						</l>
+						<gap reason="lost"/>
+					</div>
+					<div n="47verso" type="frag">
+						<gap reason="lost"/>
+						<l n="393">χάλκεον ἔγχος ἔχων, καὶ ὀνίδειον φάτο <seg type="word"
+									>μῦ<supplied reason="lost">θον·</supplied></seg>
+						</l>
+						<l n="394"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>"τίπτ᾽ αὖτ᾽ ὦ κυνάμυι<add
+								n="punctuation" place="supralinear"> ¨</add><note resp="bh"
+								xml:lang="eng">A diaeresis is visible here (<bibl>Ceriani in
+									Calderini, xxvii</bibl>).</note>α θεοὺς ἔριδι <seg type="word"
+									>ξυνελαύνε<supplied reason="lost">ις</supplied></seg>
+						</l>
+						<l n="395">θάρσος ἄητον ἔχουσα<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , μέγας δέ σε θυμὸς ἀνῆκεν; </l>
+						<l n="396">ἦ οὐ μέμνη ὅτε Τυδείδην Διομήδε᾽ ἀνῆκας </l>
+						<l n="397">οὐτάμεναι<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , αὐτὴ δὲ
+							πανόψιον ἔγχος ἑλοῦσα </l>
+						<l n="398">ἰθὺς ἐμεῦ ὦσας<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , διὰ δὲ
+							χρόα καλὸν ἔδαψας; </l>
+						<l n="399">τώι σ᾽ αὖ νῦν ὀίωι ἀποτισέμεν ὅσσα <add hand="later"
+								place="supralinear">μ᾽</add> ἔοργας<add n="punctuation"
+								place="inline"> ˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ." </l>
+						<l n="400"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>ὣς εἰπὼν οὔτησε κατ᾽ αἰγίδα
+							θυσσανόεσσαν </l>
+						<l n="401">σμερδαλέην, ἣν οὐδὲ Διὸς δάμνηισι κεραυνός· </l>
+						<l n="402">τῆι μιν Ἀ´ρης οὔτησε μιαιφόνος ἔγχει μακρῶι. </l>
+						<l n="403">ἣ δ᾽ ἀναχασσαμένη λίθον εἵλετο Παλλὰς Ἀθήνη </l>
+						<l n="404">κείμενον ἐν πεδίωι μέλανα τρηχύν τε μέγαν τε, </l>
+						<l n="405">τόν ῥ᾽ ἄνδρες πρότεροι θέσαν ἔμμεναι οὖρον <seg type="word"
+									>ἀρού<supplied reason="lost">ρης·</supplied></seg>
+						</l>
+						<l n="406">τῶι βάλε θοῦρον Ἀ´ρηα κατ᾽ αὐχένα, λῦσε δὲ γυι<add
+								n="punctuation" place="supralinear"> ¨</add><note resp="bh"
+								xml:lang="eng">A diaeresis is visible here (<bibl>Ceriani in
+									Calderini, xxvii</bibl>).</note>῀α. </l>
+						<l n="407">ἑπτὰ δ᾽ ἐπέσχε πέλεθρα πεσών, ἐκόνεισε δὲ χαίτας, </l>
+						<l n="408">τεύχεά τ᾽ ἀμφαράβησε· γέλασσε δὲ Παλλὰς Ἀθήνη, </l>
+						<l n="409">καί οἱ ἐπευχομένη ἔπεα πτερόεντα προσηύδα· </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="22" type="book">
+					<div n="48recto" type="frag">
+						<gap reason="lost"/>
+						<l n="4"><supplied reason="lost">τείχεος ἆσσον ἴσαν</supplied>
+							<seg type="word"><supplied reason="lost">σάκ</supplied>ε᾽</seg> ὤμοισι
+								<supplied reason="lost">κλίναντες.</supplied>
+						</l>
+						<l n="5"><seg type="word"><supplied reason="lost">Ἕ</supplied>κτορ<supplied
+									reason="lost">α</supplied></seg>
+							<supplied reason="lost">δ᾽</supplied> αὐτοῦ <seg type="word">μ<supplied
+									reason="lost">εῖ</supplied>ναι</seg> ὀλοὴ <seg type="word"
+									>μοῖ<supplied reason="lost">ρ᾽</supplied></seg>
+							<supplied reason="lost">ἐπέδησεν</supplied>
+						</l>
+						<l n="6"><seg type="word"><supplied reason="lost">Ἰλ</supplied>ίου</seg>
+							προπάροιθε πυλάων τε Σκαιάων. </l>
+						<l n="7"><seg type="word"><supplied reason="lost">α</supplied>ὐτὰρ</seg>
+							Πηλείωνα προσηύδα Φοῖβος <seg type="word">Ἀπό<supplied reason="lost"
+									>λλων·</supplied></seg>
+						</l>
+						<l n="8">"τίπτέ με Πηλέος υἱὲ ποσὶν ταχέεσσι διώκεις </l>
+						<l n="9">αὐτὸς θνητὸς ἐὼν θεὸν ἄμβροτον; οὐδέ νύ πώ <supplied reason="lost"
+								>με</supplied>
+						</l>
+						<l n="10">ἔγνως ὡς θεός εἰμι, σὺ δ᾽ ἀσπερχὲς μενεαίνεις. </l>
+						<l n="11">ἦ νύ τοι οὔ τι μέλει Τρώων πόνος, οὓς ἐφόβησας, </l>
+						<l n="12">οἳ δή τοι εἰς ἄστυ ἄλεν, σὺ δὲ δεῦρο λιάσθης<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="13">οὐ μέν με κτενέεις, ἐπεὶ οὔ τοι μόρσιμός εἰμι<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> ." </l>
+						<l n="14">τὸν δὲ μέγ᾽ ὀχθήσας προσέφη πόδας ὠκὺς <seg type="word">Ἀχι<add
+									hand="later" place="inline">λ</add>λεύς·</seg>
+						</l>
+						<l n="15"><add n="punctuation" place="supralinear">_</add><note resp="bh"
+								xml:lang="eng">A paragraphos line is visible here (<bibl>Ceriani in
+									Calderini, xxvi</bibl>).</note>"ἔβλαψάς μ᾽ ἑκάεργε θεῶν ὀλοώτατε
+							πάντων </l>
+						<l n="16">ἐνθάδε νῦν τρέψας ἀπὸ τείχεος· ἦ κ᾽ ἔτι πολλοὶ </l>
+						<l n="17">γαῖαν ὀδὰξ εἷλον<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note>
+							<del>το</del><note resp="bh" xml:lang="eng">These two letters have been
+								erased and the space left blank.</note> πρὶν Ἴλιον εἰσαφικέσθαι<add
+								n="punctuation" place="inline"> ˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> . </l>
+						<l n="18">νῦν δ᾽ ἐμὲ μὲν μέγα κῦδος ἀφείλαο<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , τοὺς δ᾽ ἐσάωσας </l>
+						<l n="19"><seg type="word"><supplied reason="lost">ῥηιδ</supplied>ίως</seg>,
+							ἐπεὶ οὔ τι τίσιν γ᾽ ἔδδεισαν ὀπίσσω<del>ι</del><note resp="bh"
+								xml:lang="eng">An oblique stroke has deleted <foreign xml:lang="grc"
+									>ι</foreign></note>. </l>
+						<l n="20"><supplied reason="lost">ἦ σ᾽ ἂν</supplied> τισαίμην<add
+								n="punctuation" place="inline">·</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> , εἴ μοι δύναμίς γε παρείηι<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> ." </l>
+						<l n="21"><supplied reason="lost">ὣς</supplied>
+							<seg type="word"><supplied reason="lost">εἰπ</supplied>ὼν</seg> προτὶ
+							ἄστυ μέγα φρονέων ἐβεβήκει, </l>
+						<l n="22"><seg type="word"><supplied reason="lost"
+								>σευάμεν</supplied>ος</seg> ὥς θ᾽ ἵππος ἀεθλοφόρος σὺν ὄχεσφιν, </l>
+						<l n="23"><supplied reason="lost">ὅς ῥά τε</supplied>
+							<seg type="word"><supplied reason="lost">ῥεῖ</supplied>α</seg> θέησι
+							τιταινόμενος πεδίοιο· </l>
+						<l n="24"><supplied reason="lost">ὣς</supplied>
+							<seg type="word"><supplied reason="lost">Ἀχι</supplied>λεὺς</seg>
+							λαιψηρὰ πόδας καὶ γούνατ᾽ ἐνώμα. </l>
+						<l n="25">
+							<supplied reason="lost">τὸν δ᾽ ὃ γέρων Πρίαμος πρῶτος ἴδεν</supplied>
+							<seg type="word"><supplied reason="lost">ὀφθα</supplied>λμοῖσι</seg>
+						</l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="23" type="book">
+					<div n="49verso" type="frag">
+						<gap reason="lost"/>
+						<l n="509">αὐτὸς δ᾽ ἐκ δίφροιο χαμαὶ θόρε <seg type="word"
+									>παμφανόωντο<supplied reason="lost">ς,</supplied></seg>
+						</l>
+						<l n="510">κλεῖνε δ᾽ ἄρα μάστιγα ποτὶ ζυγόν· οὐδ᾽ ἐμάτησεν </l>
+						<l n="511">ἴφθιμος Σθένελος<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , ἀλλ᾽
+							ἐσσυμένως λάβ᾽ ἄεθλον<add n="punctuation" place="inline"> ˙</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> , </l>
+						<l n="512">δῶκε δ᾽ ἄγειν ἑτάροισιν υ<add n="punctuation" place="supralinear"
+								> ¨</add><note resp="bh" xml:lang="eng">A diaeresis is visible here
+									(<bibl>Ceriani in Calderini, xxvii</bibl>).</note>῾περθύμοισι
+							γυναῖκα </l>
+						<l n="513">καὶ τρίποδ᾽ ὠτώεντα φέρειν<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · ο<add n="punctuation" place="supralinear">
+								҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+								visible here.</note>῝ δ᾽ ἔλυεν υ<add n="punctuation"
+								place="supralinear"> ¨</add><note resp="bh" xml:lang="eng">A
+								diaeresis is visible here (<bibl>Ceriani in Calderini,
+								xxvii</bibl>).</note>῾φ᾽ ἵππους. </l>
+						<l n="514">τῶι δ᾽ ἄρ᾽ ἐπ᾽ Ἀντίλοχος Νηλήι<add n="punctuation"
+								place="supralinear"> ¨</add><note resp="bh" xml:lang="eng">A
+								diaeresis is visible here (<bibl>Ceriani in Calderini,
+								xxvii</bibl>).</note>ος ἤλασεν ἵππους </l>
+						<l n="515">κέρδεσιν, οὔ τι τάχει γε, παραφθάμενος Μενέλαον· </l>
+						<l n="516">ἀλλὰ καὶ ω<add n="punctuation" place="supralinear"> ҅</add><note
+								resp="bh" xml:lang="eng">A rough breathing mark is visible
+								here.</note>῟ς <seg type="word">Μενέλαο<del rend="erasure"
+									>ν</del><add hand="later" n="correction" place="inline"
+								>ς</add></seg> ἔχ᾽ ἐγγύθεν ὠκέας <seg type="word">ἵππου<supplied
+									reason="lost">ς.</supplied></seg>
+						</l>
+						<l n="517">ὅσσον δὲ τροχοῦ ι<add n="punctuation" place="supralinear">
+								҅</add><note resp="bh" xml:lang="eng">A rough breathing mark is
+								visible here.</note>῞ππος ἀφίσταται<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note>, ο<add
+								n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+								xml:lang="eng">A rough breathing mark is visible here (<bibl>Ceriani
+									in Calderini, xxvii</bibl>).</note>῞ς ῥα τ᾽ ἄνακτα </l>
+						<l n="518">ἕλκησιν πεδίοιο τιταινόμενος σὺν ὄχεσφιν· </l>
+						<l n="519">τοῦ μέν τε ψαύουσιν ἐπισσώτρου τρίχες ἄκραι </l>
+						<l n="520">οὐραῖαι<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> · ο<add
+								n="punctuation" place="supralinear"> ҅</add><note resp="bh"
+								xml:lang="eng">A rough breathing mark is visible here.</note>῝ δέ τ᾽
+							ἄγχι μάλα τρέχει, οὐδέ τι πολλὴ </l>
+						<l n="521">χώρη μεσσηγὺς πολέος πεδίοιο θέοντος<add n="punctuation"
+								place="inline">·</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="522">τόσσον δὲ Μενέλαος ἀμύμονος Ἀντιλόχοιο </l>
+						<l n="523"><seg type="word"><supplied reason="lost"
+							>λ</supplied>είπετ᾽</seg>· ἀτὰρ τὰ πρῶτα καὶ ἐς δίσκουρα λέλειπτο, </l>
+						<l n="524">ἀλλά μιν αἶψα κίχανεν· ὀφέλλετο γὰρ μένος ἠὺ </l>
+						<gap reason="lost"/>
+					</div>
+					<div n="50recto" type="frag">
+						<gap reason="lost"/>
+						<l n="765">κὰδ δ᾽ ἄρα οἱ κεφαλῆς χέ᾽ ἀυτμένα δῖος Ὀδυσσεὺς </l>
+						<l n="766">αἰεὶ ῥίμφα θέων<add n="punctuation" place="inline">·</add><note
+								resp="bh" xml:lang="eng">A punctus is visible here.</note> · ἴαχον
+							δ᾽ ἐπεὶ πάντες Ἀχαιοὶ </l>
+						<l n="767">νίκης ἱεμένοι, μάλα δὲ σπεύδοντι κέλευον. </l>
+						<l n="768">ἀλλ᾽ ὅτε δὴ πύματον τέλεον δρόμον<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> , αὐτίκ᾽ <seg type="word">Ὀδυσσε<supplied
+									reason="lost">ὺς</supplied></seg>
+						</l>
+						<l n="769">εὔχετ᾽ Ἀθηναίη γλαυκώπιδι ὃν κατὰ θυμόν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="770"><seg type="word"><supplied reason="lost">κλ</supplied>ῦθι</seg>
+							θεά, ἀγαθή μοι ἐπίρροθος ἐλθὲ ποδοῖιν<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . </l>
+						<l n="771"><supplied reason="lost">ὣς</supplied> ἔφατ᾽ εὐχόμενος<add
+								n="punctuation" place="inline">·</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> · τοῦ δ᾽ ἔκλυε Παλλὰς Ἀθήνη<add
+								n="punctuation" place="inline">˙</add><note resp="bh" xml:lang="eng"
+								>A punctus is visible here.</note> , </l>
+						<l n="772"><seg type="word"><supplied reason="lost">γυῖ</supplied>α</seg> δ᾽
+							ἔθηκεν ἐλαφρά, πόδας καὶ χεῖρας ὕπερθεν<add n="punctuation"
+								place="inline">˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> . </l>
+						<l n="773"><supplied reason="lost">ἀλλ᾽</supplied> ὅτε δὴ τάχ᾽ ἔμελλον
+							ἐπαίξασθαι ἄεθλον, </l>
+						<l n="774">ἔνθ᾽ Αἴας μὲν ὄλισθε θέων<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , βλάψεν γὰρ Ἀθήνη<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , </l>
+						<l n="775"><supplied reason="lost">τῇ ῥα</supplied>
+							<seg type="word"><supplied reason="lost">βο</supplied>ῶν</seg> κέχυτ᾽
+							ὄνθος ἀποκταμένων <seg type="word">ἐριμύ<supplied reason="lost"
+									>κων,</supplied></seg>
+						</l>
+						<l n="776">οὓς ἐπὶ Πατρόκλωι πέφνεν πόδας ὠκὺς Ἀχιλλεύς· </l>
+						<l n="777"><supplied reason="lost">ἐν δ᾽ ὄνθου</supplied> βοέου πλῆτο στόμα
+							τε ῥῖνάς τε· </l>
+						<l n="778"><supplied reason="lost">κρητῆρ᾽ αὖτ᾽ ἀνάειρε πολύτλας</supplied>
+							<seg type="word"><supplied reason="lost">δ</supplied>ῖος</seg> Ὀδυσσεύς, </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+				<div n="24" type="book">
+					<div n="51recto" type="frag">
+						<gap reason="lost"/>
+						<l n="244">κείνου τεθνηῶτος ἐναιρέμεν<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> . αὐτὰρ ἔγωγε </l>
+						<l n="245">πρὶν ἀλαπαζομένην τε πόλιν κεραιζομένην τε </l>
+						<l n="246"><seg type="word"><supplied reason="lost"
+								>ὀ</supplied>φθαλμοῖσιν</seg> ἰδεῖν βαίην δόμον Ἀ´ιδος εἴσω." </l>
+						<l n="247">ἦ<add n="punctuation" place="inline">·</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> καὶ σκηπανίωι δίεπ᾽
+							ἀνέρας· οἳ δ᾽ ἴσαν ἔξω </l>
+						<l n="248"><seg type="word"><supplied reason="lost"
+								>σ</supplied>περχομένοιο</seg> γέροντος· ο<add n="punctuation"
+								place="supralinear"> ҅</add><note resp="bh" xml:lang="eng">A rough
+								breathing mark is visible here.</note>῝ δ᾽ υἱάσιν οἷσιν ὁμόκλα </l>
+						<l n="249"><seg type="word"><supplied reason="lost"
+								>ν</supplied>εικείων</seg> Ἕλενόν τε Πάριν τ᾽ Ἀγάθωνά τε δῖον </l>
+						<l n="250"><seg type="word"><supplied reason="lost">Π</supplied>άμμονά</seg>
+							τ᾽ Ἀντίφονόν τε βοὴν ἀγαθόν τε <seg type="word">Πολίτη<supplied
+									reason="lost">ν</supplied></seg>
+						</l>
+						<l n="251"><seg type="word"><supplied reason="lost"
+								>Δ</supplied>ηίφοβόν</seg> τε καὶ Ἱππόθοον καὶ δῖον Ἀγαυόν· </l>
+						<l n="252">ἐννέα τοῖς ὃ γεραιὸς ὁμοκλήσας ἐκέλευε· </l>
+						<l n="253">"σπεύσατέ μοι κακὰ τέκνα κατηφόνες· αἴθ᾽ ἅμα <seg type="word"
+									>πάν<supplied reason="lost">τες</supplied></seg>
+						</l>
+						<gap reason="lost"/>
+					</div>
+					<div n="52recto" type="frag">
+						<gap reason="lost"/>
+						<l n="329"><supplied reason="lost">οἳ</supplied> δ᾽ ἐπεὶ οὖν πόλιος κατέβαν,
+							πεδίον δ᾽ ἀφίκοντο, </l>
+						<l n="330"><supplied reason="lost">οἳ</supplied> μὲν ἄρ᾽ ἄψορρον ποτὶ Ἴλιον
+							ἀπονέοντο </l>
+						<l n="331">παῖδες καὶ γαμβροί<add n="punctuation" place="inline"
+								>˙</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> , τὼ δ᾽ οὐ λάθεν εὐρύοπα Ζῆν᾽ </l>
+						<l n="332">ἐς πεδίον προφανέντε<add n="punctuation" place="inline"
+								>·</add><note resp="bh" xml:lang="eng">A punctus is visible
+								here.</note> · ἰδὼν δ᾽ ἐλέησε γέροντα, </l>
+						<l n="333">αἶψα δ᾽ ἄρ᾽ Ἑρμείαν υἱὸν φίλον ἀντίον ηὔδα<add n="punctuation"
+								place="inline"> ˙</add><note resp="bh" xml:lang="eng">A punctus is
+								visible here.</note> · </l>
+						<l n="334">"Ἑρμεία<add n="punctuation" place="inline">˙</add><note resp="bh"
+								xml:lang="eng">A punctus is visible here.</note> , σοὶ γάρ τε
+							μάλιστά γε φίλτατόν ἐστιν </l>
+						<l n="335">ἀνδρὶ ἑταιρίσσαι, καί τ᾽ ἔκλυες ὧι κ᾽ ἐθέλησθα, </l>
+						<l n="336">βάσκ᾽ ἴθι καὶ Πρίαμον κοίλας ἐπὶ νῆας Ἀχαιῶν </l>
+						<l n="337">ὣς ἄγαγ᾽, ὡς μήτ᾽ ἄρ τις ἴδηι μήτ᾽ ἄρ τε νοήσηι </l>
+						<l n="338"><supplied reason="lost">τῶν</supplied>
+							<seg type="word"><supplied reason="lost">ἄλλ</supplied>ων</seg> Δαναῶν,
+							πρὶν Πηλείωνάδ᾽ ἱκέσθαι." </l>
+						<l n="339"><supplied reason="lost">ὣς ἔφατ᾽, οὐδ᾽</supplied>
+							<seg type="word"><supplied reason="lost">ἀπ</supplied>ίθησε</seg>
+							διάκτορος Ἀργειφόντης. </l>
+						<l n="340"><supplied reason="lost">αὐτίκ᾽ ἔπειθ᾽ ὑπὸ</supplied> ποσσὶν
+							ἐδήσατο καλὰ πέδειλα </l>
+						<l n="341"><supplied reason="lost">ἀμβρόσια χρύσεια, τά</supplied> μιν φέρον
+							ἠμὲν ἐφ᾽ ὑγρὴν </l>
+						<gap reason="lost"/>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

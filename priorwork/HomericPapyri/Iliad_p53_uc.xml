@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 53 (PSI 15.1454)</title>
+                <editor xml:id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation,
+                    and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of West, S., The Ptolemaic Papyri of Homer, Papyrologica
+                        Coloniensia III pp. 32-35</resp>
+                </respStmt>
+
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+                <availability>
+                    <p>©2009, The Center for Hellenic Studies. This work is made available under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+                <language ident="xgrc">Transliterated Greek</language>
+                <language ident="deu">German</language>
+                <language ident="fra">French</language>
+            </langUsage>
+        </profileDesc>
+
+
+    </teiHeader>
+    <text xml:lang="grc">
+        <body>
+            <div n="date" type="description" xml:lang="eng">
+                <head>Date</head>
+                <p>Latter half of second century B.C. (<bibl>West, 32</bibl>)</p>
+                <p>First century B.C. (<bibl>G. Cavallo, Pap. Flor. 36 (2005), p. 117 </bibl></p>
+            </div>
+            <div n="provenance" type="description" xml:lang="eng">
+                <head>Provenance</head>
+                <p>unknown (<bibl>West, 32</bibl>)</p>
+            </div>
+            <div n="bibliography" type="description" xml:lang="eng">
+                <head>Bibliography</head>
+                <list>
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim:
+                            Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica
+                                Coloniensia III</title> K√∂ln: Opladen.</bibl></item>
+                </list>
+            </div>
+            <div n="catalogues" type="description" xml:lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 614 </item>
+                    <item>LDAB 2341 </item>
+                    <item>Allen-Sutton-West p053</item>
+                </list>
+            </div>
+            <div n="text" type="edition">
+
+
+
+                <head xml:lang="eng">Iliad P 53</head>
+                <div n="1" type="book">
+                    <gap reason="lost" unit="line"/>
+                    <note xml:lang="eng">The fragment is torn at the top, and the extent of
+                        unattested verses preceding this fragment is uncertain. Lines 484a-486 = H.
+                        Apoll. 505-7 with minor modifications (for 484a cf. also Il. 1.437.</note>
+                    <l n="484"><note resp="al" xml:lang="eng">West numbers this line
+                            484y.</note><gap extent="8" reason="lost" unit="character"
+                            /><unclear>το</unclear><gap reason="lost"/></l>
+                    <l n="484a"><note resp="al" xml:lang="eng">West numbers this line
+                            484z.</note><supplied reason="lost">ἐκ δὲ</supplied>
+                        <seg type="word"><unclear>κ</unclear>αὶ</seg>
+                        <seg type="word">α<unclear>ὐ</unclear>το<unclear>ὶ</unclear></seg>
+                        <seg type="word">βάντ<unclear>ε</unclear><supplied reason="lost"
+                                >ς</supplied></seg>
+                        <supplied reason="lost">ἐπὶ ῥηγμῖνι θαλάσσης</supplied></l>
+                    <l n="485"><supplied reason="lost">ἐξ</supplied>
+                        <seg type="word"><supplied reason="lost">ἁλὸ</supplied>ς</seg> ἤπειρον δὲ
+                            <seg type="word">θοὴ<supplied reason="lost">ν</supplied></seg>
+                        <supplied reason="lost">ἀνὰ νῆ᾽ ἐρύσαντο</supplied></l>
+                    <l n="486"><supplied reason="lost">ὑψοῦ</supplied> ἐπὶ ψαμάθῳ, <seg type="word"
+                                >παρ<unclear>ὰ</unclear></seg>
+                        <supplied reason="lost">δ᾽ ἕρματα μακρὰ τάνυσσαν·</supplied></l>
+                    <l n="487"><seg type="word"><supplied reason="lost"
+                                >αὐτο</supplied><unclear>ὶ</unclear></seg> δὲ <seg type="word"
+                                >σκίδν<unclear>α</unclear>ντο</seg>
+                        <seg type="word">κα<unclear>τ</unclear>ὰ</seg>
+                        <seg type="word"><unclear>κ</unclear>λισίας</seg> τε νέας τε.</l>
+                    <l n="488"><supplied reason="lost">αὐτὰρ</supplied> ὁ μήνιε νηυσὶ <seg
+                            type="word">παρήμ<supplied reason="lost">ενος</supplied></seg>
+                        <supplied reason="lost">ὠκυπόροισι</supplied></l>
+                    <l n="489"><seg type="word"><supplied reason="lost">διογε</supplied>νὴς</seg>
+                        Πηλέως υἱός, <seg type="word">π<unclear>ό</unclear><supplied reason="lost"
+                                >δας</supplied></seg>
+                        <supplied reason="lost">ὠκὺς Ἀχιλλεύς·</supplied></l>
+                    <l n="490"><supplied reason="lost">οὔτε</supplied> ποτ᾽ εἰς ἀγορὴν <seg
+                            type="word">πωλ<supplied reason="lost">έσκετο</supplied></seg>
+                        <supplied reason="lost">κυδιάνειραν</supplied></l>
+                    <l n="491"><supplied reason="lost">οὔτε</supplied>
+                        <seg type="word"><unclear>πο</unclear>τ᾽</seg> εἰς πόλεμον, <seg type="word"
+                                >ἀλ<unclear>λ</unclear><supplied reason="lost">ὰ</supplied></seg>
+                        <supplied reason="lost">φθινύθεσκε φίλον κῆρ</supplied></l>
+                    <l n="492"><supplied reason="lost">αὖθι</supplied> <seg type="word"><supplied reason="lost">μένω</supplied><unclear>ν</unclear></seg>,
+                            <seg type="word"><unclear>π</unclear>οθέ<unclear>ε</unclear><supplied reason="lost">σκ</supplied>ε</seg>
+                        δ᾽ <seg type="word">ἀ<unclear>υ</unclear><supplied reason="lost">τήν</supplied></seg> <supplied reason="lost">τε πτόλεμόν
+                            τε.</supplied></l>
+                    <l n="493"><supplied reason="lost">ἀλλ᾽ ὅτε δή ῥ᾽ ἐκ</supplied>
+                        <seg type="word"><unclear>τ</unclear>οῖο</seg> <supplied reason="lost">δυωδεκάτη γένετ᾽
+                            ἠώς,</supplied></l>
+                    <l n="494"><supplied reason="lost">καὶ τότε δὴ πρὸς</supplied> <seg type="word">Ὄλ<supplied
+                        reason="lost">υμπον</supplied></seg> <supplied reason="lost">ἴσαν θεοὶ αἰὲν ἐόντες</supplied></l>
+                    <gap reason="lost" unit="line"/>
+
+                </div>
+
+
+
+
+
+            </div>
+        </body>
+
+    </text>
+</TEI>

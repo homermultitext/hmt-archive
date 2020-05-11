@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad P 51 (P. Berolinensis 9774)</title>
+				<editor xml:id="jm">Joseph Miller</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes</edition>
+				<respStmt>
+					<name>Joseph Miller, ed.</name>
+					<resp>after the edition of West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title>pp. 132-136</resp>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher>
+					The Center for Hellenic Studies of Harvard University
+				</publisher>
+				<authority>
+					<name>Casey Dué and Mary Ebbott, edd.</name>
+				</authority>
+				<availability>
+					<p>©2009, The Center for Hellenic Studies. This work is made available under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="eng">English</language>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+				<language ident="xgrc">Transliterated Greek</language>
+				<language ident="deu">German</language>
+				<language ident="fra">French</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div n="date" type="description" xml:lang="eng">
+				<head>Date</head>
+				<p>1st century B.C. (<bibl>West, 132</bibl>)</p>
+			</div>
+			<div n="provenance" type="description" xml:lang="eng">
+				<head>Provenance</head>
+				<p>Unknown (<bibl>West, 132</bibl>)</p>
+			</div>
+			<div n="bibliography" type="description" xml:lang="eng">
+				<head>Bibliography</head>
+				<list>
+					<item>
+						<bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl>
+					</item>
+					<item>
+						<bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> K√∂ln: Opladen.</bibl>
+					</item>
+				</list>
+			</div>
+			<div n="catalogues" type="description" xml:lang="eng">
+				<head>Catalogue entries</head>
+				<list>
+					<item>Mertens-Pack 962</item>
+					<item>LDAB 1276</item>
+					<item>Allen-Sutton-West p051</item>
+				</list>
+			</div>
+			<div n="text" type="edition">
+				<head xml:lang="eng">Iliad P 51</head>
+				<div n="18" type="book">
+					<div n="1" type="col">
+						<gap reason="lost" unit="line"/>
+						<l n="585"><supplied reason="lost">οἳ δ᾽ ἤτοι δακέειν μὲν ἀπετρωπῶντο</supplied> <seg type="word"><supplied reason="lost">λεόντω</supplied>ν,</seg></l>
+						<l n="586"><supplied reason="lost">ἱστάμενοι δὲ μάλ᾽ ἐγγὺς ὑλάκτεον ἔκ τ᾽</supplied> <seg type="word"><supplied reason="lost">ἀλέον</supplied>το.</seg></l>
+						<l n="587">
+							<supplied reason="lost">ἐν δὲ νομὸν ποίησε περικλυτὸς</supplied> <seg type="word"><supplied reason="lost">ἀμφιγυήε</supplied>
+							<unclear>ις</unclear></seg>
+						</l>
+						<l n="588">
+							<supplied reason="lost">ἐν καλῇ βήσσῃ, μέγαν οἰῶν ἀργεννάων,</supplied>
+						</l>
+						<l n="589"><supplied reason="lost">σταθμούς τε κλισίας τε κατηρεφέας ἰδὲ</supplied> <seg type="word"><supplied reason="lost">σηκ</supplied><unclear>ο</unclear>ύς.</seg></l>
+						<gap extent="7" reason="lost" unit="line"/>
+						<l n="594"><supplied reason="lost">ὠρχεῦντ᾽, ἀλλήλων ἐπὶ καρπῷ χεῖρας</supplied> <seg type="word"><supplied reason="lost">ἔχον</supplied><unclear>τ</unclear>ες.</seg></l>
+						<gap extent="1" reason="lost" unit="line"/>
+					</div>
+					<div n="2" type="col">
+						<gap reason="lost" unit="line"/>
+						<l n="596"><supplied reason="lost">εἵατ᾽ ἐϋννήτους,</supplied> <seg type="word"><supplied reason="lost">ἦ</supplied><unclear>κ</unclear>α</seg> <seg type="word">σ<supplied reason="lost">τί</supplied>λβο<supplied reason="lost"
+							>ντας</supplied></seg> <supplied reason="lost">ἐλαίῳ·</supplied></l>
+						<l n="597"><supplied reason="lost">καὶ ῥ᾽ αἳ μὲν</supplied> <seg type="word"><supplied reason="lost">καλὰ</supplied>ς</seg> στεφάνας <supplied reason="lost">ἔχον, οἳ δὲ μαχαίρας</supplied></l>
+						<l n="598"><supplied reason="lost">εἶχον</supplied> <seg type="word"><supplied reason="lost">χρυσεί</supplied><unclear>α</unclear>ς</seg> ἐξ <seg type="word">ἀργυρ<supplied reason="lost">έων</supplied></seg> <supplied reason="lost">τελαμώνων.</supplied></l>
+						<l n="599">οἳ δ᾽ <supplied reason="lost">ὁτὲ μὲν</supplied> <seg type="word"><supplied reason="lost">θρέξ</supplied>ασκον</seg> <seg type="word">ἐπι<unclear>ς</unclear><supplied reason="lost">ταμένοισι</supplied></seg> <supplied reason="lost">πόδεσσι</supplied></l>
+						<l n="600"><seg type="word">ῥ<sic>η</sic>῀α</seg> <seg type="word">μ<unclear>ά</unclear><supplied reason="lost">λ᾽,</supplied></seg> <supplied reason="lost">ὡς</supplied> <seg type="word"><supplied reason="lost">ὅ</supplied>τε</seg> τις τροχὸν <seg type="word">ἄρμεν<supplied reason="lost"
+								>ο</supplied><unclear>ν</unclear></seg> <seg type="word">ἐ<sic>μ</sic></seg>
+							<supplied reason="lost">παλάμῃσιν</supplied></l>
+						<l n="601"><seg type="word">ἑζόμε<unclear>ν</unclear><supplied reason="lost">ος</supplied></seg> <seg type="word"><supplied reason="lost">κ</supplied>εραμεὺς</seg> πειρήσεται, <seg type="word">α<supplied reason="lost">ἴ</supplied></seg> <seg type="word"><supplied reason="lost">κ</supplied>ε</seg> <seg type="word">θέ<unclear>η</unclear><supplied
+								reason="lost">ισιν·</supplied></seg></l>
+						<l n="602"><seg type="word">ἄλλοτ<supplied reason="lost">ε</supplied></seg> <seg type="word"><supplied reason="lost">δ᾽</supplied></seg> <seg type="word"><supplied reason="lost">αὖ</supplied></seg> <seg type="word">θρέξασκ<unclear>ο</unclear>ν</seg> ἐπὶ <seg type="word">στίχ<unclear>α</unclear><supplied reason="lost">ς</supplied></seg> <seg type="word">ἀλλ<supplied
+								reason="lost">ήλοισι.</supplied></seg></l>
+						<l n="603"><add n="editorial sign" place="left">&gt;</add>πολλὸς <supplied reason="lost"
+							>δ᾽</supplied> <seg type="word"><supplied reason="lost">ἱμε</supplied>ρόεντα</seg> <seg type="word">χ<supplied reason="lost">ο</supplied><unclear>ρ</unclear>ὸν</seg> <seg type="word">περιίστ<unclear>α</unclear><supplied reason="lost">θ᾽</supplied></seg> <seg type="word"><supplied reason="lost">ὅ</supplied>μιλ<supplied
+								reason="lost">ος</supplied></seg></l>
+						<l n="604/605"><add n="editorial sign" place="left">&gt;</add> <seg type="word">τερπό<unclear>μ</unclear><supplied reason="lost"
+								>ενοι·</supplied></seg> δοιὼ <seg type="word">δὲ <unclear>κυ</unclear><supplied reason="lost">β</supplied><unclear>ι</unclear>στητῆρε</seg> <seg type="word">κ<supplied reason="lost"
+								>α</supplied>τ᾽</seg> <seg type="word">αὐ<unclear>τ</unclear><supplied reason="lost">οὺς</supplied></seg></l>
+						<l n="606"><seg type="word">μολπῆ<supplied reason="lost">ς</supplied></seg> <seg type="word"><supplied reason="lost">ἐξ</supplied>άρχοντες</seg> <seg type="word">ἐ<unclear>δί</unclear>νευον</seg> <seg type="word">κατ<supplied reason="lost">ὰ</supplied></seg> <seg type="word">μές<supplied reason="lost"
+								>σους.</supplied></seg></l>
+						<l n="606a"><add n="editorial sign" place="left">—</add> ἐν δ᾽ <seg type="word">ἔσ<supplied reason="lost"
+							>αν</supplied></seg> <seg type="word"><supplied reason="lost">σ</supplied><unclear>ύ</unclear>ριγγε<supplied reason="lost">ς,</supplied></seg> <seg type="word"><supplied reason="lost">ἔσ</supplied><unclear>αν</unclear></seg> κίθαρίς <seg type="word">τ<supplied reason="lost">ε</supplied></seg>
+							<seg type="word"><unclear>κ</unclear>αὶ</seg> <seg type="word"><unclear>α</unclear><supplied reason="lost">ὐλοί.</supplied></seg></l>
+						<l n="607"><add n="editorial sign" place="left">.</add>ἐν δὲ <seg type="word">τ<supplied reason="lost"
+								>ίθει</supplied></seg> <seg type="word">ποταμο<unclear>ῖ</unclear>ο</seg> μέγα σθένος <seg type="word">Ὠκε<supplied reason="lost">ανοῖο</supplied></seg></l>
+						<l n="608">ἄντυγα πὰρ <seg type="word">πυμ<unclear>άτην</unclear></seg> <seg type="word"><unclear>σ</unclear>άκεος</seg> πύκα <seg type="word">π<supplied reason="lost">οιητοῖο.</supplied></seg></l>
+						<l n="608a"><note xml:lang="eng">Obelos and diple prefixed to line, evidently with the obelos beneath the diple.</note>—&gt;ἐν δὲ λιμὴν <seg type="word">ἐτέτυκ<unclear>τ</unclear><supplied
+								reason="lost">ο</supplied></seg>
+							<seg type="word"><unclear>ἑ</unclear>ανοῦ</seg> <seg type="word">κασσιτέ<unclear>ρ</unclear><supplied reason="lost">οιο</supplied></seg><note xml:lang="eng"
+									>For these added verses (608a-d), the reader is referred to Hesiod, Sc. 207-215; the description of the Hesiodic shield is used to supplement the Homeric portrait of Achilles' shield (cf. <bibl>West, 135</bibl>).</note></l>
+						<l n="608b"><add n="editorial sign" place="left">&gt;</add> <seg type="word">κλυζ<supplied reason="lost"
+								>ομ</supplied>ένῳ</seg> <seg type="word">ἴκ<unclear>ε</unclear><supplied reason="lost">λο</supplied>ς·</seg> δοίω δ᾽ <seg type="word">ἀναφυσιόω<supplied reason="lost">ντες</supplied></seg></l>
+						<l n="608c"><add n="editorial sign" place="left">&gt;</add> <seg type="word">ἀργύ<supplied reason="lost"
+								>ρεοι</supplied></seg> <seg type="word">δελφι?ε<unclear>ς</unclear></seg>
+							<seg type="word"><supplied reason="lost">ἐ</supplied>φοίνεον</seg> <seg type="word">ἔλλ<supplied reason="lost">ο</supplied>πας</seg> <supplied reason="lost">ἰχθῦς·</supplied></l>
+						<l n="608d"><add n="editorial sign" place="left">&gt;</add> τοῦ <unclear>δ᾽</unclear>
+							<seg type="word"><supplied reason="lost">ὕπ</supplied>ο</seg> <seg type="word">χάλκε<supplied reason="lost">ιοι</supplied></seg>
+							<unclear>τρέον</unclear> <seg type="word"><unclear>ἰχθύ</unclear>ες·</seg> <seg type="word">α<unclear>ὐ</unclear>τὰ<supplied reason="lost">ρ</supplied></seg> <supplied reason="lost">ἐπ᾽</supplied> <supplied reason="lost">ἀκταῖς</supplied></l>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

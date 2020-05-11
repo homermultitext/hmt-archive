@@ -1,0 +1,2366 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P425</title>
+                <editor xml:id="bh">Bart Huelsenbeck</editor>
+                <editor xml:id="al">Alexander Loney</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and
+          notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck and Alexander Loney, eds.</name>
+                    <resp>after the edition of H. Maehler; W. Müller; G. Poethke <title>Archiv für
+              Papyrusforschung 24-25 (1976)</title>13-26 (n° 2)</resp>
+                </respStmt>
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher> The Center for Hellenic Studies of Harvard University </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+                <availability>
+                    <p>©2009, The Center for Hellenic Studies. This work is made available under the Creative
+            Commons Attribution-Noncommercial-Share Alike 3.0 United States License:
+            http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+                <language ident="lat">Latin</language>
+                <language ident="grc">Greek</language>
+                <language ident="xgrc">Transliterated Greek</language>
+                <language ident="deu">German</language>
+                <language ident="fra">French</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="grc">
+        <body>
+            <div xml:lang="eng" n="date" type="description">
+                <head>Date</head>
+                <p>Early third century B.C. (<bibl>Maehler, Müller, Poethke, 13</bibl>)</p>
+            </div>
+            <div xml:lang="eng" n="provenance" type="description">
+                <head>Provenance</head>
+                <p>Hermupolis (<bibl>Maehler, Müller, Poethke, 13</bibl>)</p>
+            </div>
+            <div xml:lang="eng" n="bibliography" type="description">
+                <head>Bibliography</head>
+                <list>
+                    <item>
+                        <bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl>
+                    </item>
+                    <item>
+                        <bibl>Maehler, H.; Müller, W.; Poethke, G. 1976<title>Archiv für Papyrusforschung
+                24-25</title>pp. 13-26 (n¬∞ 2)</bibl>
+                    </item>
+                </list>
+            </div>
+            <div xml:lang="eng" n="catalogues" type="description">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 855.1 </item>
+                    <item>Allen-Sutton-West P 425</item>
+                    <item>P.Berol. inv. 11911 + 17038 + 17048 + 21155</item>
+                </list>
+            </div>
+            <div n="text" type="edition">
+                <head xml:lang="eng">Iliad P425</head>
+                <div n="10" type="book">
+                    <gap extent="2" reason="lost" unit="column"/>
+                    <div n="3" type="column">
+                        <gap reason="lost" unit="line"/>
+                        <l n="91">
+                            <supplied reason="lost"
+                                >πλάζομαι ὧδ᾽, ἐπεὶ οὔ μοι ἐπ᾽ ὄμμασι
+                νήδυμος</supplied>
+                            <seg type="word"><supplied reason="lost">ὕπ</supplied>νος</seg>
+                        </l>
+                        <gap reason="lost" unit="line"/>
+                        <l n="110">
+                            <supplied reason="lost">ἠδ᾽ Αἴαντα ταχὺν καὶ</supplied>
+                            <seg type="word">Φ<supplied reason="lost">υλέος</supplied></seg>
+                            <supplied reason="lost">ἄλκιμον υἱόν.</supplied>
+                        </l>
+                        <l n="111">
+                            <supplied reason="lost">ἀλλ᾽ εἴ τις καὶ</supplied>
+                            <seg type="word"><supplied reason="lost">τοῦσδ</supplied>ε</seg>
+                            <seg type="word">μετ<unclear>οι</unclear><supplied reason="lost"
+                                    >χόμενος</supplied></seg>
+                            <supplied reason="lost">καλέσειεν</supplied>
+                        </l>
+                        <l n="112"><supplied reason="lost">ἀντίθεόν τ᾽ Αἴαντα</supplied>
+                            <seg type="word">κα<unclear>ὶ</unclear></seg>
+                            <seg type="word">Ἰ<add n="punctuation" place="supralinear"
+                                    /><unclear>δο</unclear>μενῆα</seg> ἄνακτα. </l>
+                        <l n="113"><supplied reason="lost">τῶν γὰρ νῆες ἔασιν</supplied>
+                            <seg type="word"
+                            ><unclear>ἑ</unclear>καστ<unclear>ά</unclear>τω</seg>, οὐδὲ μάλ᾽
+              ἐγγύς. </l>
+                        <l n="114"><supplied reason="lost">ἀλλὰ φίλον περ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἐόντ</supplied><unclear>α</unclear></seg> καὶ
+                <seg
+                                type="word"><unclear>α</unclear>ἰδοῖον</seg> Μενέλαον </l>
+                        <l n="115">
+                            <supplied reason="lost">νεικέσω, εἴ πέρ μοι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >νε</supplied><unclear>μ</unclear>ε<unclear>σ</unclear><supplied
+                                    reason="lost">ήσεαι</supplied></seg>
+                            <supplied reason="lost">, οὐδ᾽ ἐπικεύσω,</supplied>
+                        </l>
+                        <gap reason="lost" unit="line"/>
+                    </div>
+                    <div n="4" type="column">
+                        <gap reason="lost" unit="line"/>
+                        <l n="123">ἀλλά <seg type="word">μ<supplied reason="lost">ε</supplied></seg>
+                            <supplied reason="lost"
+                                >τ᾽ εἰσορόων καὶ ἐμὴν ποτιδέγμενος ὁρμήν. </supplied>
+                        </l>
+                        <l n="124">νῦν δ᾽ <seg type="word">ἐ<supplied reason="lost"
+                                >μέο</supplied></seg>
+                            <supplied reason="lost"
+                                >πρότερος μάλ᾽ ἐπέγρετο καί μοι ἐπέστη· </supplied>
+                        </l>
+                        <l n="125">τὸν <seg type="word">μὲ<supplied reason="lost">ν</supplied></seg>
+                            <supplied reason="lost"
+                                >ἐγὼ προέηκα καλήμεναι οὓς σὺ μεταλλᾷς. </supplied>
+                        </l>
+                        <l n="126">
+                            <seg type="word">ἀλ<unclear>λ᾽</unclear></seg>
+                            <seg type="word"><unclear>ἴ</unclear>ομ<supplied reason="lost"
+                                    >εν</supplied></seg><supplied reason="lost"
+                                >· κείνους δὲ κιχησόμεθα πρὸ
+                πυλάων</supplied>
+                        </l>
+                        <l n="127">ἐν <seg type="word">φυλ<supplied reason="lost"
+                                >άκεσσ᾽</supplied></seg><supplied reason="lost"
+                                >, ἵνα γάρ σφιν ἐπέφραδον
+                ἠγερέεσθαι."</supplied>
+                        </l>
+                        <l n="128">τὸν δ᾽ <seg type="word">ἠ<supplied reason="lost"
+                                    >μείβετ᾽</supplied></seg>
+                            <supplied reason="lost">ἔπειτα Γερήνιος ἱππότα Νέστωρ· </supplied>
+                        </l>
+                        <l n="129">"οὕτως <supplied reason="lost"
+                                >οὔ τίς οἱ νεμεσήσεται οὐδ᾽ ἀπιθήσει
+              </supplied>
+                        </l>
+                        <l n="130">
+                            <seg type="word">Ἀργείω<supplied reason="lost">ν</supplied></seg>
+                            <supplied reason="lost">, ὅτε κέν τιν᾽ ἐποτρύνῃ καὶ ἀνώγῃ."</supplied>
+                        </l>
+                        <l n="131">ὣς <seg type="word">εἰπ<supplied reason="lost"
+                                >ὼν</supplied></seg>
+                            <supplied reason="lost">ἔνδυνε περὶ στήθεσσι χιτῶνα, </supplied>
+                        </l>
+                        <l n="132">
+                            <seg type="word">ποσσ<supplied reason="lost">ὶ</supplied></seg>
+                            <supplied reason="lost"
+                                >δ᾽ ὑπὸ λιπαροῖσιν ἐδήσατο καλὰ πέδιλα·</supplied>
+                        </l>
+                        <l n="133">ἀμφὶ δ᾽ <supplied reason="lost"
+                                >ἄρα χλαῖναν περονήσατο φοινικόεσσαν,
+              </supplied>
+                        </l>
+                        <l n="134">
+                            <seg type="word">διπλ<supplied reason="lost">ῆν</supplied></seg>
+                            <supplied reason="lost">ἐκταδίην, οὔλη δ᾽ ἐπενήνοθε λάχνη· </supplied>
+                        </l>
+                        <l n="135"><seg type="word"><unclear>ε</unclear>ἵλετο</seg> δ᾽ <seg
+                                type="word"
+                            ><unclear>ἄ</unclear>λκιμον</seg> ἔγχος ἀκαχμένον ὀξέι χαλκῷ, </l>
+                        <l n="136">
+                            <seg type="word">
+                                <supplied reason="lost">β</supplied><unclear>ῆ</unclear></seg>
+                            <unclear>δ᾽</unclear>
+                            <seg type="word">
+                                <unclear>ἰ</unclear><add n="punctuation" place="supralinear"/><supplied reason="lost">έ</supplied><unclear>ν</unclear><supplied reason="lost">αι</supplied></seg>
+                            <supplied reason="lost">κατὰ νῆας Ἀχαιῶν χαλκοχιτώνων.</supplied>
+                        </l>
+                        <l n="137">
+                            <seg type="word">πρῶ<unclear>τ</unclear><supplied reason="lost"
+                                    >ον</supplied></seg>
+                            <supplied reason="lost">ἔπειτ᾽ Ὀδυσῆα Διὶ μῆτιν ἀτάλαντον</supplied>
+                        </l>
+                        <l n="138">ἐξ <seg type="word">ὕπ<supplied reason="lost"
+                                >νου</supplied></seg>
+                            <supplied reason="lost">ἀνέγειρε Γερήνιος</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἱππότ</supplied><unclear>α</unclear></seg>
+                            <seg type="word">Ν<unclear>έστ</unclear><supplied reason="lost"
+                                    >ωρ</supplied></seg>
+                        </l>
+                        <l n="139">
+                            <seg type="word">φθε<supplied reason="lost">γξάμενος</supplied></seg>
+                            <supplied reason="lost">· τὸν δ᾽ αἶψα περὶ</supplied>
+                            <seg type="word"><unclear>φρ</unclear>έν<supplied reason="lost"
+                                    >ας</supplied></seg>
+                            <supplied reason="lost">ἤλυθ᾽ ἰωή.</supplied>
+                        </l>
+                        <l n="140">ἐκ <supplied reason="lost">δ᾽ ἦλθε κλισίης καί σφεας</supplied>
+                            <seg type="word"><unclear>πρ</unclear><supplied reason="lost"
+                                    >ὸς</supplied></seg>
+                            <supplied reason="lost">μῦθον ἔειπε· </supplied>
+                        </l>
+                        <l n="141">"τίφθ᾽ <supplied reason="lost"
+                                >οὕτω κατὰ νῆας ἀνὰ στρατὸν οἶοι
+                ἀλᾶσθε</supplied>
+                        </l>
+                        <l n="142">
+                            <seg type="word">νύκτ<unclear>α</unclear></seg>
+                            <supplied reason="lost"
+                                >δι᾽ ἀμβροσίην, ὅ τι δὴ χρειὼ τόσον ἵκει;" </supplied>
+                        </l>
+                        <l n="143"><seg type="word"><unclear>τ</unclear><supplied reason="lost"
+                                    >ὸ</supplied><unclear>ν</unclear></seg> δ᾽ ἠμείβετ᾽ ἔπειτα Γερήνιος ἱππότα Νέστωρ· </l>
+                        <l n="144">
+                            <seg type="word">
+                                <unclear>διο</unclear><supplied reason="lost">γενὲς</supplied></seg>
+                            <supplied reason="lost">Λαερτιάδη, πολυμήχαν᾽ Ὀδυσσεῦ, </supplied>
+                        </l>
+                        <gap extent="5" reason="lost" unit="line"/>
+                        <l n="150"><supplied reason="lost">βὰν δ᾽ ἐπὶ Τυδείδην</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Διομήδ</supplied><unclear>ε</unclear>α</seg>·
+              τὸν <unclear>δ᾽</unclear>
+                            <supplied reason="lost">ἐκίχανον</supplied>
+                        </l>
+                        <l n="151"><supplied reason="lost">ἐκτὸς ἀπὸ κλισίης σὺν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >τεύχ</supplied><unclear>ε</unclear>σιν</seg>·
+                <seg
+                                type="word">ἀ<supplied reason="lost">μφὶ</supplied></seg>
+                            <supplied reason="lost">δ᾽ ἑταῖροι </supplied>
+                        </l>
+                        <l n="152"><supplied reason="lost">εὗδον, ὑπὸ κρασὶν δ᾽ ἔχον</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀσπ</supplied><unclear>ίδ</unclear>ας</seg>·
+                <seg
+                                type="word"><unclear>ἔ</unclear>γχεα</seg> δέ σφιν </l>
+                        <l n="153"><supplied reason="lost">ὄρθ᾽ ἐπὶ σαυρωτῆροσ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἐλή</supplied><unclear>λ</unclear>α<unclear>το</unclear></seg>, <seg
+                                type="word"><unclear>τ</unclear>ῆ<unclear>λ</unclear><supplied
+                                    reason="lost">ε</supplied></seg>
+                            <supplied reason="lost">δὲ χαλκὸς</supplied>
+                        </l>
+                        <l n="154"><supplied reason="lost">λάμφ᾽ ὥς τε στεροπὴ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >πατ</supplied><unclear>ρὸς</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >Δι</supplied><unclear>ός</unclear></seg>·
+                <seg
+                                type="word">α<unclear>ὐ</unclear><supplied reason="lost"
+                                    >τὰρ</supplied></seg>
+                            <supplied reason="lost">ὅ γ᾽ ἥρως</supplied>
+                        </l>
+                        <l n="155">
+                            <supplied reason="lost">εὗδ᾽, ὑπὸ δ᾽ ἔστρωτο ῥινὸν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >β</supplied><unclear>ο</unclear>ὸς</seg>
+                            <seg type="word">ἀγρ<supplied reason="lost">αύλοιο,</supplied></seg>
+                        </l>
+                        <l n="156">
+                            <supplied reason="lost">αὐτὰρ ὑπὸ κράτεσφι</supplied>
+                            <seg type="word"><supplied reason="lost">τάπη</supplied><unclear>ς</unclear></seg>
+                            <seg type="word"><unclear>τε</unclear>τάν<supplied reason="lost"
+                                    >υστο</supplied></seg>
+                            <supplied reason="lost">φαεινός.</supplied>
+                        </l>
+                        <l n="157">
+                            <supplied reason="lost">τὸν παρστὰς ἀνέγειρε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Γερ</supplied><unclear>ή</unclear>νιος</seg>
+                            <seg type="word">ἱ<add n="punctuation" place="supralinear"/><supplied
+                                    reason="lost">ππότα</supplied></seg>
+                            <supplied reason="lost">Νέστωρ,</supplied>
+                        </l>
+                        <l n="158">
+                            <supplied reason="lost">λὰξ ποδὶ κινήσας, ὤτρυνέ</supplied>
+                            <unclear>τε</unclear>
+                            <seg type="word">ν<unclear>ε</unclear>ί<unclear>κε</unclear><supplied
+                                    reason="lost">σέ</supplied></seg>
+                            <supplied reason="lost">τ᾽ ἄντην·</supplied>
+                        </l>
+                        <l n="159">
+                            <supplied reason="lost">"ἔγρεο Τυδέος υἱέ· τί</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >πάν</supplied><unclear>ν</unclear>υχον</seg>
+                            <seg type="word">ὕ<unclear>π</unclear><supplied reason="lost"
+                                    >νον</supplied></seg>
+                            <supplied reason="lost">ἀωτεῖσ;</supplied>
+                        </l>
+                        <l n="160">
+                            <supplied reason="lost">οὐκ ἀίεις, ὡς Τρῶες ἐπὶ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >θρω</supplied>σ<unclear>μῷ</unclear></seg>
+                            <seg type="word">π<unclear>ε</unclear><supplied reason="lost"
+                                    >δίοιο</supplied></seg>
+                        </l>
+                    </div>
+                    <gap extent="1" reason="lost" unit="column"/>
+                    <div n="6" type="column">
+                        <l n="231">
+                            <supplied reason="lost">ἤθελε δ᾽ ὁ τλήμων Ὀδυσεὺς καταδῦναι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὅ</supplied><unclear>μ</unclear>ιλ<unclear>ο</unclear><supplied
+                                    reason="lost">ν</supplied></seg>
+                        </l>
+                        <l n="232">
+                            <supplied reason="lost">Τρώων· αἰεὶ γάρ οἱ ἐνὶ φρεσὶ θυμὸς</supplied>
+                            <seg type="word">
+                                <supplied reason="lost">ἐτόλμ</supplied><unclear>α.</unclear></seg>
+                        </l>
+                        <l n="233">
+                            <supplied reason="lost">τοῖσι δὲ καὶ μετέειπεν ἄναξ ἀνδρῶν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Ἀγα</supplied><unclear>μ</unclear>έμν<supplied reason="lost"
+                                    >ων·</supplied></seg>
+                        </l>
+                        <l n="234">
+                            <supplied reason="lost">"Τυδείδη Διόμηδες ἐμῷ κεχαρισμένε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >θ</supplied><unclear>υ</unclear>μ<supplied reason="lost"
+                                    >ῷ,</supplied></seg>
+                        </l>
+                        <gap extent="5" reason="lost" unit="line"/>
+                    </div>
+                    <div n="7" type="column">
+                        <l n="240"><supplied reason="lost">ὣς</supplied>
+                            <seg type="word"><supplied reason="lost">ἔ</supplied>φα<del>θ᾽</del><add
+                                    n="correction" place="supralinear">τ᾽</add></seg>, <seg
+                                type="word">ἔδ<supplied reason="lost">δεισεν</supplied></seg>
+                            <supplied reason="lost">δὲ περὶ ξανθῷ Μενελάῳ.</supplied>
+                        </l>
+                        <l n="241"><seg type="word"><supplied reason="lost"
+                                    >τοῖ</supplied><unclear>ς</unclear></seg> δ᾽ αὖτις <seg
+                                type="word">μ<supplied reason="lost">ετέειπε</supplied></seg>
+                            <supplied reason="lost">βοὴν ἀγαθὸς Διομήδης·</supplied>
+                        </l>
+                        <l n="242"><supplied reason="lost">"εἰ</supplied>
+                            <seg type="word"><unclear>μ</unclear>ὲν</seg> δὴ <seg type="word"
+                                    >ἕτ<unclear>α</unclear><supplied reason="lost"
+                                >ρόν</supplied></seg>
+                            <supplied reason="lost">γε κελεύετέ</supplied>
+                            <unclear>μ᾽</unclear>
+                            <seg type="word"><unclear>α</unclear><supplied reason="lost"
+                                    >ὐτὸν</supplied></seg>
+                            <supplied reason="lost">ἑλέσθαι,</supplied>
+                        </l>
+                        <l n="243"><seg type="word"><supplied reason="lost"
+                                    >πῶ</supplied><unclear>ς</unclear></seg> ἂν <seg type="word"
+                                    >ἔπει<del>θ᾽</del><add n="correction" place="supralinear"
+                                    >τ᾽</add></seg>
+                            <supplied reason="lost">Ὀδυσῆος ἐγὼ</supplied>
+                            <seg type="word"><supplied reason="lost">θ</supplied>είοιο</seg>
+                            <supplied reason="lost">λαθοίμην,</supplied>
+                        </l>
+                        <l n="244"><supplied reason="lost">οὗ</supplied>
+                            <seg type="word"><supplied reason="lost">π</supplied>έρι</seg> μὲν <seg
+                                type="word">π<unclear>ρ</unclear><supplied reason="lost"
+                                    >όφρων</supplied></seg>
+                            <seg type="word"><supplied reason="lost">κραδί</supplied>η</seg>
+                            <seg type="word"><supplied reason="lost">κ</supplied>αὶ</seg>
+                            <seg type="word">θυ<unclear>μ</unclear><supplied reason="lost"
+                                    >ὸς</supplied></seg>
+                            <supplied reason="lost">ἀγήνωρ</supplied>
+                        </l>
+                        <l n="245"><supplied reason="lost">ἐν</supplied>
+                            <seg type="word"><unclear>π</unclear>άντεσ<supplied reason="lost"
+                                    >σι</supplied></seg>
+                            <supplied reason="lost">πόνοισι, φιλεῖ</supplied> δέ ἑ <seg type="word"
+                                    >Πα<supplied reason="lost">λλὰς</supplied></seg>
+                            <supplied reason="lost">Ἀθήνη.</supplied>
+                        </l>
+                        <l n="246">
+                            <seg type="word"><supplied reason="lost">τούτ</supplied>ου</seg>
+                            <unclear>γ᾽</unclear>
+                            <supplied reason="lost">ἑσπομένοιο καὶ ἐκ</supplied>
+                            <seg type="word"><supplied reason="lost">π</supplied>υρὸς</seg>
+                            <seg type="word">αἰ<unclear>θ</unclear><supplied reason="lost"
+                                    >ο</supplied>μέ<unclear>ν</unclear><supplied reason="lost"
+                                    >οιο</supplied></seg>
+                        </l>
+                        <l n="247">⸏ἄμφω <seg type="word">ν<supplied reason="lost"
+                                    >οστήσαιμεν</supplied></seg><supplied reason="lost"
+                                >, ἐπεὶ</supplied>
+                            <seg type="word"
+                                    ><unclear>π</unclear>ε<unclear>ρ</unclear><del>ε</del>ίοιδ<unclear>ε</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ν</supplied>οῆ<unclear>σ</unclear><supplied reason="lost"
+                                    >αι."</supplied></seg>
+                        </l>
+                        <l n="248">⸏τὸν <supplied reason="lost">δ᾽</supplied>
+                            <seg type="word">αὖ<supplied reason="lost">τε</supplied></seg>
+                            <supplied reason="lost">προσέειπε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >πολ</supplied><unclear>ύ</unclear>τλας</seg>
+                            <seg type="word">δ<supplied reason="lost">ῖος</supplied></seg>
+                            <supplied reason="lost">Ὀδυσσεύς·</supplied>
+                        </l>
+                        <l n="249">"<seg type="word">Τυδ<supplied reason="lost"
+                                >ε</supplied>ίδη</seg>
+                            <supplied reason="lost">μήτ᾽ ἄρ με μάλ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >αἴν</supplied><unclear>ε</unclear>αι</seg>·
+                <seg
+                                type="word">μηδ<supplied reason="lost">έ</supplied></seg>
+                            <supplied reason="lost">τι νείκει·</supplied>
+                        </l>
+                        <l n="250">
+                            <seg type="word">εἰδ<supplied reason="lost">όσ</supplied>ι</seg>
+                            <seg type="word">γά<unclear>ρ</unclear></seg>
+                            <supplied reason="lost">τοι ταῦτα μετ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Ἀργ</supplied><unclear>ε</unclear>ίοι<unclear>ς</unclear></seg>
+                            <supplied reason="lost">ἀγορεύεις. </supplied>
+                        </l>
+                        <l n="251">ἀλλ᾽ <seg type="word"
+                                    >ἴο<unclear>μ</unclear>ε<unclear>ν·</unclear></seg>
+                            <supplied reason="lost">μάλα γὰρ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ν</supplied><unclear>ὺ</unclear>ξ</seg>
+              ἄνυται, <seg
+                                type="word">ἐγ<supplied reason="lost">γύθι</supplied></seg>
+                            <supplied reason="lost">δ᾽ ἠώς,</supplied>
+                        </l>
+                        <l n="252">ἄστρα δὲ <supplied reason="lost">δὴ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                >προβέβ</supplied>ηκε</seg>, <seg type="word"
+                                    >παρώχ<unclear>ω</unclear><supplied reason="lost"
+                                >κεν</supplied></seg>
+                            <supplied reason="lost">δὲ πλέων νὺξ</supplied>
+                        </l>
+                        <l n="253"><seg type="word"><unclear>τ</unclear>ῶ<unclear>ν</unclear></seg>
+                            <seg type="word"><unclear>δύ</unclear>ο</seg>
+                            <seg type="word">μ<supplied reason="lost">οιράων,</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                >τριτά</supplied>τη</seg> δ᾽ ἔτι μοῖρα <seg type="word"><supplied
+                                    reason="lost">λέ</supplied>λει<unclear>π</unclear><supplied
+                                    reason="lost">τα</supplied><unclear>ι</unclear></seg>." </l>
+                        <l n="254"><supplied reason="lost">ὣσ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >εἰ</supplied><unclear>π</unclear>ό<unclear>ν</unclear><supplied
+                                    reason="lost">θ᾽</supplied></seg>
+                            <supplied reason="lost">ὅπλοισιν</supplied>
+                            <seg type="word">ἔν<supplied reason="lost"
+                                >ι</supplied></seg> δεινοῖσιν <seg type="word"><supplied
+                                    reason="lost">ἐδύ</supplied>την</seg>. </l>
+                        <l n="255">
+                            <seg type="word"><supplied reason="lost">Τυδεί</supplied>δη<supplied
+                                    reason="lost">ι</supplied></seg>
+                            <supplied reason="lost">μὲν δῶκε</supplied>
+                            <seg type="word"
+                                    ><unclear>μεν</unclear>επτόλ<unclear>ε</unclear>μο<unclear>ς</unclear></seg>
+                            <seg type="word"><supplied reason="lost">Θ</supplied>ρασυ<supplied
+                                    reason="lost">μήδη</supplied>ς</seg>
+                        </l>
+                        <l n="256">
+                            <supplied reason="lost">φάσγανον</supplied>
+                            <seg type="word">
+                                <supplied reason="lost">ἄμφηκε</supplied><unclear>ς·</unclear></seg>
+                            <seg type="word">τ<unclear>ὸ</unclear></seg>
+                            <unclear>δ᾽ ἑὸν</unclear>
+                            <seg type="word">π<unclear>α</unclear>ρὰ</seg>
+                            <seg type="word"><unclear>ν</unclear><supplied reason="lost">ηὶ</supplied></seg>
+                            <seg type="word"><supplied reason="lost">λέλ</supplied>ει<supplied
+                                    reason="lost">πτο·</supplied></seg>
+                        </l>
+                        <l n="257">
+                            <supplied reason="lost">καὶ σάκος· ἀμφὶ δέ οἱ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >κυ</supplied>νέη<unclear>ν</unclear></seg>
+                            <seg type="word">κεφαλῆ<supplied reason="lost">φιν</supplied></seg>
+                            <seg type="word"><supplied reason="lost">ἔθη</supplied>κ<supplied
+                                    reason="lost">ε</supplied></seg>
+                        </l>
+                        <l n="258"><supplied reason="lost">ταυρείην, ἄφαλόν τε</supplied>
+                            <seg type="word"><unclear>κ</unclear>αὶ</seg> ἄλλοφον, ἥ τε <supplied
+                                reason="lost">καταῖτυξ</supplied>
+                        </l>
+                        <l n="259"><supplied reason="lost">κέκληται, ῥύεται δὲ</supplied> κάρη <seg
+                                type="word">θ<unclear>α</unclear>λε<supplied reason="lost"
+                                    >ρ</supplied>ῶν</seg>
+                            <supplied reason="lost">αἰζηῶν.</supplied>
+                        </l>
+                        <l n="260">
+                            <supplied reason="lost">Μηριόνης δ᾽ Ὀδυσῆι</supplied>
+                            <seg type="word"><supplied reason="lost">δίδο</supplied>υ</seg>
+                            <seg type="word">βι<unclear>ὸ</unclear>ν</seg>
+                            <seg type="word"><supplied reason="lost">ἠδ</supplied>ὲ</seg>
+                            <seg type="word"><unclear>φ</unclear><supplied reason="lost">αρέτρην</supplied></seg>
+                        </l>
+                        <l n="261">
+                            <supplied reason="lost">καὶ ξίφος, ἀμφὶ δέ οἱ</supplied>
+                            <seg type="word"><supplied reason="lost">κυνέ</supplied>ην</seg>
+                            <seg type="word">κ<supplied reason="lost">εφαλῆφιν</supplied></seg>
+                            <supplied reason="lost">ἔθηκε</supplied>
+                        </l>
+                        <l n="262"><supplied reason="lost">ῥινοῦ ποιητήν· πολέσιν</supplied> δ᾽ <seg
+                                type="word">ἔ<choice><sic><unclear>σ</unclear></sic><corr>ν</corr></choice><supplied reason="lost">τοσθεν</supplied></seg>
+                            <supplied reason="lost">ἱμᾶσιν</supplied>
+                        </l>
+                        <l n="263">
+                            <seg type="word"><supplied reason="lost"
+                                    >ἐντέτ</supplied><unclear>α</unclear>το</seg>
+                            <seg type="word">στ<supplied reason="lost">ερεῶς·</supplied></seg>
+                            <seg type="word"><supplied reason="lost">ἔκτοσθ</supplied><unclear>ε</unclear></seg>
+                            <seg type="word">δ<supplied reason="lost">ὲ</supplied></seg>
+                            <supplied reason="lost">λευκοὶ ὀδόντες</supplied>
+                        </l>
+                        <l n="264">
+                            <seg type="word"><supplied reason="lost">ἀργιόδ</supplied><unclear>οντ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear></seg>
+                            <seg type="word"><supplied reason="lost">ὑὸ</supplied><unclear>ς</unclear></seg>
+                            <seg type="word">θ<supplied reason="lost">αμέες</supplied></seg>
+                            <supplied reason="lost">ἔχον ἔνθα καὶ ἔνθα</supplied>
+                        </l>
+                        <l n="265">
+                            <supplied reason="lost">εὖ καὶ</supplied>
+                            <seg type="word">ἐπ<unclear>ιστα</unclear>μέ<supplied reason="lost"
+                                    >νως</supplied></seg>
+                            <supplied reason="lost">, μέσσῃ δ᾽ ἐνὶ πῖλος ἀρήρει.</supplied>
+                        </l>
+                        <l n="266"><supplied reason="lost">τήν</supplied>
+                            <supplied reason="lost">ῥά</supplied>
+                            <seg type="word"><unclear>π</unclear><supplied reason="lost"
+                                    >ο</supplied>τ᾽</seg> ἐξ
+                <seg type="word"
+                                    ><supplied reason="lost"
+                                    >Ἐ</supplied><unclear>λ</unclear>ε<unclear>ῶ</unclear>ν<supplied
+                                    reason="lost">ος</supplied></seg>
+                            <supplied reason="lost">Ἀμύντορος Ὀρμενίδαο</supplied>
+                        </l>
+                        <l n="267">
+                            <seg type="word"><supplied reason="lost">ἐξέλε</supplied>τ᾽</seg>
+                            <seg type="word">Αὐτ<supplied reason="lost">όλ</supplied>υκο<supplied
+                                    reason="lost">ς</supplied></seg>
+                            <supplied reason="lost">πυκινὸν δόμον ἀντιτορήσας,</supplied>
+                        </l>
+                        <l n="268">
+                            <supplied reason="lost">σκάνδειαν δ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">ἄ</supplied>ρα</seg>
+                            <seg type="word"><unclear>δ</unclear><supplied reason="lost">ῶκε</supplied></seg>
+                            <supplied reason="lost">Κυθηρίῳ Ἀμφιδάμαντι·</supplied>
+                        </l>
+                        <l n="269">
+                            <seg type="word"><supplied reason="lost">Ἀμφιδ</supplied><unclear>άμα</unclear><supplied reason="lost">ς</supplied></seg>
+                            <seg type="word"><supplied reason="lost">δ</supplied>ὲ</seg>
+                            <seg type="word">Μ<supplied reason="lost">όλῳ</supplied></seg>
+                            <supplied reason="lost">δῶκε ξεινήιον εἶναι,</supplied>
+                        </l>
+                        <l n="270"><supplied reason="lost">αὐτὰρ</supplied> ὃ <seg type="word"
+                                    ><unclear>Μ</unclear><supplied reason="lost"
+                                    >ηριό</supplied><unclear>ν</unclear><choice>
+                                    <sic>ης</sic>
+                                    <corr>ῃ</corr>
+                                </choice></seg>
+                            <supplied reason="lost">δῶκεν ᾧ παιδὶ φορῆναι.</supplied>
+                        </l>
+                        <l n="271">
+                            <supplied reason="lost">δὴ τότ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">Ὀδυσσῆ</supplied>ος</seg>
+                            <supplied reason="lost">πύκασεν κάρη ἀμφιτεθεῖσα.</supplied>
+                        </l>
+                        <l n="272">
+                            <supplied reason="lost">τὼ δ᾽ ἐπεὶ οὖν</supplied>
+                            <seg type="word">ὅπ<supplied reason="lost">λοισιν</supplied></seg>
+                            <supplied reason="lost">ἔνι δεινοῖσιν ἐδύτην,</supplied>
+                        </l>
+                        <l n="273">
+                            <supplied reason="lost">βάν ῥ᾽ ἰέναι,</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >λι</supplied><unclear>π</unclear>έ<supplied reason="lost"
+                                    >την</supplied></seg>
+                            <supplied reason="lost">δὲ κατ᾽ αὐτόθι πάντας ἀρίστους.</supplied>
+                        </l>
+                        <l n="274">
+                            <supplied reason="lost">τοῖσι δὲ δεξιὸν</supplied>
+                            <seg type="word"><unclear>ἧ</unclear>κ<supplied reason="lost"
+                                    >εν</supplied></seg>
+                            <supplied reason="lost">ἐρωδιὸν ἐγγὺς ὁδοῖο</supplied>
+                        </l>
+                        <l n="275"><supplied reason="lost">Παλλὰς</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Ἀθηνα</supplied>ί<unclear>η</unclear></seg>·
+                <supplied
+                                reason="lost">τοὶ δ᾽ οὐκ ἴδον</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὀφθαλμο</supplied><unclear>ῖσ</unclear><supplied reason="lost"
+                                    >ι</supplied></seg>
+                        </l>
+                        <l n="276">
+                            <supplied reason="lost">νύκτα δι᾽ ὀρφναίην, ἀλλὰ</supplied>
+                            <seg type="word"><supplied reason="lost">κλάγξαντο</supplied><unclear>ς</unclear></seg>
+                            <seg type="word">ἄκουσ<unclear>α</unclear><supplied reason="lost"
+                                    >ν.</supplied></seg>
+                        </l>
+                        <l n="277"><supplied reason="lost">χαῖρε δὲ τῷ ὄρνιθ᾽ Ὀδυσεύς,</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἠρ</supplied>ᾶτ<unclear>ο</unclear></seg> δ᾽
+                <seg
+                                type="word">Ἀ<supplied reason="lost">θήνῃ·</supplied></seg>
+                        </l>
+                        <gap extent="1" reason="lost" unit="line"/>
+                    </div>
+                    <div n="8" type="column">
+                        <l n="279">
+                            <supplied reason="lost">ἐν πάντεσσι πόνοισι παρίστασαι,</supplied>
+                            <seg type="word"><supplied reason="lost">οὐδ</supplied>έ</seg>
+                            <seg type="word">σ<supplied reason="lost">ε</supplied></seg>
+                            <supplied reason="lost">λήθω</supplied>
+                        </l>
+                        <l n="280"><supplied reason="lost"
+                                >κινύμενος· νῦν αὖτε μάλιστά με</supplied>
+                <seg type="word"><supplied reason="lost">φί</supplied><unclear>λ</unclear>ε᾽</seg> <seg type="word">Ἀθ<unclear>ή</unclear><supplied
+                                reason="lost">νη.</supplied></seg>
+                        </l>
+                        <l n="281">
+                            <supplied reason="lost">δὸς δὲ πάλιν ἐπὶ νῆας ἐυκλεῖασ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀφι</supplied><unclear>κ</unclear>έσθ<supplied reason="lost"
+                                    >αι</supplied></seg>
+                        </l>
+                        <l n="282">
+                            <supplied reason="lost">ῥέξαντας μέγα ἔργον, ὅ κε Τρώεσσι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >μ</supplied>ε<unclear>λ</unclear><supplied reason="lost"
+                                    >ήσῃ."</supplied></seg>
+                        </l>
+                        <l n="283"><supplied reason="lost">δεύτερος αὖτ᾽ ἠρᾶτο</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >β</supplied><unclear>ο</unclear>ὴν</seg>
+              ἀγαθὸς <seg
+                                type="word">Δι<supplied reason="lost">ομήδης·</supplied></seg>
+                        </l>
+                        <l n="284"><supplied reason="lost"
+                                >"κέκλυθι νῦν καὶ ἐμεῖο,</supplied> Διὸς τέκος <seg type="word"
+                                    >Ἀτ<supplied reason="lost">ρυτώνη. </supplied></seg>
+                        </l>
+                        <l n="285"><supplied reason="lost">σπεῖό μοι, ὡς ὅτε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >π</supplied><unclear>α</unclear>τρὶ</seg> ἅμ᾽
+                <supplied
+                                reason="lost">ἕσπεο</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Τυδ</supplied><unclear>έ</unclear>ι</seg> δίῳ </l>
+                        <l n="286"><supplied reason="lost"
+                                >ἐς Θήβας, ὅτε τε πρὸ Ἀχαιῶν ἄγγελος</supplied> ᾔει. </l>
+                        <l n="287">
+                            <supplied reason="lost">τοὺς δ᾽ ἄρ᾽ ἐπ᾽ Ἀσωπῷ λίπε</supplied>
+                            <seg type="word"><supplied reason="lost">χαλκοχίτω</supplied>νας</seg>
+                            <seg type="word">Ἀχαιο<supplied reason="lost"
+                                    >ύ</supplied><unclear>ς,</unclear></seg>
+                        </l>
+                        <l n="288">
+                            <supplied reason="lost">αὐτὰρ ὃ μειλίχιον μῦθον φέρε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Καδ</supplied><unclear>μ</unclear>είοισι</seg>
+                        </l>
+                        <l n="289"><supplied reason="lost"
+                                >κεῖσ᾽· ἀτὰρ ἂψ ἀπιὼν μάλα μέρμερα</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >μή</supplied>σατο</seg> ἔργα </l>
+                        <l n="290"><supplied reason="lost"
+                                >σὺν σοὶ, δῖα θεά, ὅτε οἱ πρόφρασσα</supplied>
+                            <seg type="word"><supplied reason="lost">πα</supplied>ρέστης</seg>. </l>
+                        <l n="291"><supplied reason="lost"
+                                >ὣς νῦν μοι ἐθέλουσα παρίστασο καί</supplied> με <seg type="word"
+                                    >φύλασ<unclear>σ</unclear>ε</seg>. </l>
+                        <l n="292">
+                            <supplied reason="lost">σοὶ δ᾽ αὖ ἐγὼ ῥέξω βοῦν ἦνιν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >εὐρυμέ</supplied><unclear>τ</unclear>ωπον</seg>
+                        </l>
+                        <l n="293">
+                            <supplied reason="lost">ἀδμήτην, ἣν οὔ πω ὑπὸ ζυγὸν</supplied>
+                            <seg type="word"><supplied reason="lost">ἤγαγ</supplied>εν</seg>
+                            <seg type="word">ἀν<unclear>ήρ·</unclear></seg>
+                        </l>
+                        <l n="294"><supplied reason="lost">τήν τοι ἐγὼ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                >ῥέ</supplied>ξω</seg> χρυσὸν <seg type="word">κέρα<supplied
+                                    reason="lost">σιν</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                            >πε</supplied>ριχεύας</seg>." </l>
+                        <l n="295"><supplied reason="lost">ὣς ἔφαν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >εὐχόμε</supplied><unclear>ν</unclear>οι</seg>, τῶν δ᾽ <seg
+                                type="word">ἔκ<unclear>λ</unclear><supplied reason="lost"
+                                    >υε</supplied></seg>
+                            <seg type="word"><unclear>Πα</unclear>λλὰς</seg> Ἀθήνη. </l>
+                        <l n="296"><supplied reason="lost">οἳ δ᾽ ἐπεὶ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἠρήσαντ</supplied><unclear>ο</unclear></seg>
+              Διὸς κούρῃ <supplied
+                                reason="lost">μεγάλοιο,</supplied>
+                        </l>
+                        <l n="297"><supplied reason="lost"
+                                >βάν ῥ᾽ ἴμεν ὥς τε</supplied> λέοντε δύω <supplied reason="lost"
+                                >διὰ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >νύκτ</supplied>α</seg> μέλαιναν </l>
+                        <l n="298"><supplied reason="lost">ἂμ φόνον, ἂν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                >νέκ</supplied>υας</seg>, διά τ᾽ <seg type="word"
+                                    >ἔν<unclear>τε</unclear>α</seg> καὶ μέλαν αἷμα. </l>
+                        <l n="299"><supplied reason="lost">οὐδὲ μὲν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >οὐδ</supplied><unclear>ὲ</unclear></seg>
+              Τρῶας <seg
+                                type="word">ἀγήνορ<del>αι</del>α<unclear>ς</unclear></seg>
+                            <gap extent="2" reason="illegible"/>ασεν Ἕκτωρ </l>
+                        <l n="300"><supplied reason="lost">εὕδειν, ἀλλ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                >ἄμυ</supplied>δις</seg> κικλήσκετο πάντας
+                <seg
+                                type="word">ἀρίστου<unclear>ς,</unclear></seg>
+                        </l>
+                        <l n="301">
+                            <supplied reason="lost">ὅσσοι ἔσαν Τρώων</supplied>
+                            <seg type="word"><unclear>ἡ</unclear>γήτορε<supplied reason="lost"
+                                    >ς</supplied></seg>
+                            <seg type="word"><unclear>ἠ</unclear>δὲ</seg>
+                            <seg type="word">μέδοντε<supplied reason="lost">ς.</supplied></seg>
+                        </l>
+                        <l n="302"><seg type="word">το<supplied reason="lost">ὺς</supplied></seg>
+                            <supplied reason="lost">ὅ γε συγκαλέσας</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >πυκ</supplied>ινὴν</seg> ἠρτύνετο βουλήν· </l>
+                        <l n="303">"τίς κέν μοι τόδε <seg type="word"
+                                    >ἔ<unclear>ρ</unclear>γ<unclear>ο</unclear>ν</seg> ὑποσχόμενος <seg
+                                type="word">τ<unclear>ελέ</unclear>σειεν</seg>
+                        </l>
+                        <l n="304">δώρῳ ἔπι <seg type="word"
+                                ><unclear>μ</unclear>εγάλῳ</seg>· μισθὸς <seg type="word"><supplied
+                                    reason="lost"
+                            >δ</supplied><unclear>έ</unclear></seg> οἱ ἄρκιος
+              ἔσται· </l>
+                        <l n="305">δώσω <seg type="word">γ<supplied reason="lost"
+                                >ὰρ</supplied></seg>
+                            <seg type="word"><supplied reason="lost">δίφρ</supplied>όν</seg> τε <seg
+                                type="word">δ<unclear>ύ</unclear><supplied reason="lost"
+                                    >ω</supplied></seg>
+                            <supplied reason="lost">τ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >ἐρια</supplied>ύχενας</seg> ἵππους, </l>
+                        <l n="306">οἵ κεν <seg type="word">ἄ<unclear>ρ</unclear><supplied
+                                    reason="lost">ιστοι</supplied></seg>
+                            <seg type="word"><unclear>ἔ</unclear>ωσι</seg>
+                            <seg type="word">θοῆ<supplied reason="lost">ις</supplied></seg>
+                            <supplied reason="lost">ἐπὶ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >ν</supplied>ηυσὶν</seg> Ἀχαιῶν, </l>
+                        <l n="307">ὅς τίς κε <seg type="word"><supplied reason="lost"
+                                    >τλαί</supplied><unclear>η</unclear></seg>, <seg type="word"
+                                    ><unclear>ο</unclear>ἷ</seg> τ᾽ <seg type="word"
+                                    >αὐτ<unclear>ῷ</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                            >κῦδ</supplied>ος</seg> ἄροιτο, </l>
+                        <l n="308"><seg type="word"><unclear>νη</unclear>ῶν</seg>
+                            <seg type="word">ὠκ<supplied reason="lost">υπ</supplied>όρων</seg>
+                            <seg type="word">σχεδὸ<unclear>ν</unclear></seg>
+                            <seg type="word"><unclear>ἐ</unclear>λθέμεν</seg> ἔκ <seg type="word"
+                                    >τ<unclear>ε</unclear></seg>
+                            <seg type="word">πυθ<unclear>έσ</unclear>θαι</seg>, </l>
+                        <l n="309"><seg type="word"><unclear>ἠ</unclear>ὲ</seg>
+                            <seg type="word">φυλάσ<unclear>σ</unclear><supplied reason="lost"
+                                    >ον</supplied>ται</seg> νῆες θοαὶ ὡς τὸ πάρος περ, </l>
+                        <l n="310">ἢ ἤδη <seg type="word">χε<unclear>ί</unclear><supplied
+                                    reason="lost">ρε</supplied>σσιν</seg>
+                            <seg type="word">ὑ<add n="punctuation" place="supralinear"/>φ᾽</seg>
+                            <seg type="word">ἡμ<supplied reason="lost">ε</supplied>τέρῃσι</seg>
+                            <seg type="word">δαμέντε<unclear>ς</unclear></seg>
+                        </l>
+                        <l n="311">φύξιν <seg type="word">βο<unclear>υ</unclear><supplied
+                                    reason="lost"
+                            >λεύ</supplied>ουσι</seg> μετὰ σφίσιν· οὐδ᾽ ἐθέλουσι </l>
+                        <l n="312">νύκτα <seg type="word">φ<supplied reason="lost"
+                                >υλασ</supplied>σέμεναι</seg>,
+              καμάτῳ ἀδηκότες αἰνῷ." </l>
+                        <l n="313"><seg type="word"
+                                >ὣ<unclear>ς</unclear></seg> ἔφαθ᾽· οἳ <unclear>δ᾽</unclear>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἄ</supplied><unclear>ρ</unclear>α</seg>
+              πάντες ἀκὴν <seg
+                                type="word">ἐγέ<unclear>ν</unclear><supplied reason="lost"
+                                    >ο</supplied>ντο</seg>
+                            <seg type="word">σιωπ<choice>
+                                    <sic>ῆ</sic>
+                                    <corr>ῇ</corr>
+                                </choice></seg>. </l>
+                        <l n="314">ἦν δέ <seg type="word"><unclear>τι</unclear><supplied
+                                    reason="lost">ς</supplied></seg>
+                            <supplied reason="lost">ἐν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Τ</supplied><unclear>ρώεσ</unclear>σι</seg>
+              Δόλων Εὐμήδεος υἱὸς </l>
+                        <l n="315">κήρυκος θείοιο <seg type="word">π<supplied reason="lost"
+                                    >ολ</supplied>ύχρυ<unclear>σ</unclear>ος</seg> πολύχαλκος, </l>
+                        <l n="316"><unclear>ὃς δή</unclear> τοι <seg type="word">εἶ<supplied
+                                    reason="lost">δο</supplied>ς</seg> μὲν <seg type="word"
+                                    ><unclear>ἔ</unclear><supplied reason="lost"
+                            >η</supplied>ν</seg> κακός, ἀλλὰ ποδώκης· </l>
+                    </div>
+                    <div n="9" type="column">
+                        <gap extent="3" reason="lost" unit="line"/>
+                        <l n="320"><supplied reason="lost"
+                                >νηῶν ὠκυπόρων σχεδὸν ἐλθέμεν ἔκ τε</supplied>
+                            <seg type="word"><supplied reason="lost">πυθέσ</supplied>θαι</seg>. </l>
+                        <l n="321"><supplied reason="lost"
+                                >ἀλλ᾽ ἄγε μοι τὸ σκῆπτρον ἀνάσχεο, καί μοι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὄμοσσ</supplied><unclear>ο</unclear>ν</seg>· </l>
+                        <l n="322">
+                            <supplied reason="lost"
+                                >ἦ μὲν τοὺς ἵππους τε καὶ ἅρματα ποικίλα</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >χα</supplied><unclear>λ</unclear><supplied reason="lost"
+                                    >κῶ</supplied>ι</seg>
+                        </l>
+                        <l n="323"><seg type="word">δωσέμ<supplied reason="lost"
+                                >εν</supplied></seg><supplied reason="lost"
+                                >, οἳ φορέουσιν ἀμύμονα</supplied>
+                            <seg type="word"><supplied reason="lost">Πηλείω</supplied>να</seg>· </l>
+                        <l n="324">σοὶ <add n="variant" place="supralinear">σὸς</add>
+                            <note xml:lang="eng" resp="bh"
+                                    >The supralinear addition includes only the <foreign
+                                    xml:lang="grc">ς</foreign>.</note> δ᾽ <seg type="word"
+                                    ><unclear>ἐ</unclear><supplied reason="lost">γὼ</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >οὐ</supplied><unclear>χ</unclear></seg>
+                            <seg type="word">ἅλι<supplied reason="lost">ος</supplied></seg>
+                            <supplied reason="lost">σκοπὸς ἔσσομαι οὐδ᾽</supplied>
+                            <seg type="word"><unclear>ἀ</unclear>πὸ</seg> δόξης· </l>
+                        <l n="325"><seg type="word">τόφρ<supplied reason="lost">α</supplied></seg>
+                            <supplied reason="lost">γὰρ ἐς</supplied>
+                            <seg type="word"><supplied reason="lost">σ</supplied>τρατὸν</seg>
+                            <seg type="word">εἰ̄μ<unclear>ι</unclear></seg>
+                            <seg type="word"><supplied reason="lost">δ</supplied>ιαμπερέ<supplied
+                                    reason="lost">ς,</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὄφ</supplied><unclear>ρ᾽</unclear></seg> ἂν
+              ἵκωμαι </l>
+                        <l n="326">νῆ̄᾽ <seg type="word">Ἀγ<supplied reason="lost"
+                                    >α</supplied><unclear>μ</unclear>εμνονέην</seg>, ὅθι που μέλλουσιν ἄριστοι </l>
+                        <l n="327">βουλὰς βουλεύειν, ἢ φευγέμεν· ἠὲ μάχεσθαι·" </l>
+                        <l n="328">ὣς <seg type="word"><sic>ἔ</sic>φ<supplied reason="lost"
+                                    >α</supplied>θ᾽</seg>, ὃ δ᾽ ἐν χερσὶ <seg type="word"
+                                    >σ<unclear>κ</unclear><supplied reason="lost"
+                                >ῆ</supplied>πτρον</seg> λάβε <unclear>καί</unclear> οἱ <seg
+                                type="word">ὄμοσσε<unclear>ν</unclear></seg>· </l>
+                        <l n="329">"<seg type="word">ἴστ<unclear>ω</unclear></seg>
+                            <seg type="word"
+                                ><unclear>ν</unclear>ῦν</seg> Ζεὺς πρῶτος, ἐρίγδουπος <seg
+                                type="word"><unclear>πό</unclear><supplied reason="lost"
+                                    >σ</supplied><unclear>ις</unclear></seg> Ἥρης· </l>
+                        <l n="330">μὴ μὲν τοῖς ἵπποισιν ἀνὴρ <seg type="word"
+                                    >ἐποχ<unclear>ή</unclear>σ<supplied reason="lost"
+                                >ε</supplied>ται</seg> ἄλλος </l>
+                        <l n="331">⸏Τρώων· ἀλλὰ σὲ φημὶ διαμπερὲς <seg type="word"
+                                    ><unclear>ἀ</unclear>γλ<unclear>α</unclear>ϊεῖσθαι</seg>·" </l>
+                        <l n="332"><seg type="word">ὣ<unclear>ς</unclear></seg>
+                            <seg type="word">φ<unclear>ά</unclear>το</seg>· καί ῥ᾽ ἐπίορκον <seg
+                                type="word"><del>ἐ</del><add n="correction" place="supralinear"
+                                    >ἀ</add>πώμοσε</seg>, <seg type="word"
+                                >τὸ<unclear>ν</unclear></seg>
+                            <supplied reason="lost">δ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὀ</supplied><unclear>ρ</unclear>όθυνεν</seg>. </l>
+                        <l n="333">αὐτίκα δ᾽ ἀμφ᾽ ὤμοισιν ἐβάλλετο <seg type="word"
+                                    >κ<unclear>α</unclear>μπ<unclear>ύ</unclear>λα</seg>
+                            <seg type="word"><unclear>τό</unclear>ξα</seg>· </l>
+                        <l n="334"><seg type="word">ἕσσα<unclear>τ</unclear>ο</seg> δ᾽ <seg
+                                type="word">ἔκτ<supplied reason="lost"
+                                >ο</supplied>σθεν</seg> ῥῑνὸν <seg type="word"
+                                    >πολιο<unclear>ῖ</unclear>ο</seg>
+                            <seg type="word"><unclear>λ</unclear>ύκοιο</seg>· </l>
+                        <l n="335">κρατὶ δ᾽ ἐπὶ κτιδέην κυνέην· <seg type="word"
+                                    >ἕ<unclear>λε</unclear></seg> δ᾽
+              ὀξὺν ἄκοντα· </l>
+                        <l n="336">βῆ δ᾽ ἰέναι προτὶ νῆας ἀπὸ <seg type="word">στρατο<supplied
+                                    reason="lost">ῦ.</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                            >οὐ</supplied>δ᾽</seg> ἄρ᾽ ἔμελλεν </l>
+                        <l n="337"><seg type="word"><supplied reason="lost"
+                                >ἐλθ</supplied>ὼν</seg> ἐκ <seg type="word"
+                                >νη<unclear>ῶν</unclear></seg> ἂψ <seg type="word"
+                                    >Ἕκτο<unclear>ρ</unclear><supplied reason="lost"
+                                >ι</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >μῦ</supplied><unclear>θον</unclear></seg>
+              ἀποίσειν. </l>
+                        <l n="338"><seg type="word">ἀ<unclear>λ</unclear><supplied reason="lost"
+                                    >λ᾽</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὅ</supplied><unclear>τ</unclear>ε</seg> δή ῥ᾽
+              ἵππων <seg
+                                type="word"><supplied reason="lost"
+                                >τ</supplied><unclear>ε</unclear></seg>
+              καὶ <seg
+                                type="word">ἀνδρῶ<unclear>ν</unclear></seg>
+                            <seg type="word">κάλ<supplied reason="lost"
+                            >λ</supplied>ιφ᾽</seg> ὅμῑλον, </l>
+                        <l n="339">βῆ <supplied reason="lost">ῥ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">ἀ</supplied>ν</seg>᾽ <seg
+                                type="word">ὁδ<unclear>ὸ</unclear>ν</seg>
+                            <seg type="word">μεμαώ<unclear>ς</unclear></seg>· τὸν δὲ <seg
+                                type="word"><unclear>φ</unclear><supplied reason="lost"
+                                    >ρ</supplied><unclear>ά</unclear>σ<unclear>α</unclear>τ<supplied
+                                    reason="lost">ο</supplied></seg>
+                            <seg type="word">πρ<unclear>οσ</unclear><supplied reason="lost"
+                                    >ιόν</supplied><unclear>τ</unclear><supplied reason="lost"
+                                    >α</supplied></seg>
+                        </l>
+                        <l n="340">⸏<seg type="word">διογ<unclear>ε</unclear><supplied reason="lost"
+                                    >ν</supplied>ὴς</seg>
+                            <seg type="word"
+                                ><unclear>Ὀ</unclear>δυ<del>σ</del>σεύς</seg>, Διομήδεα δὲ <seg
+                                type="word"><unclear>π</unclear>ροσέειπεν</seg>· </l>
+                        <l n="341">"<seg type="word"
+                                >οὗτό<unclear>ς</unclear></seg> τοι, Διόμηδες, ἀπὸ <seg type="word"
+                                    >στρατο<unclear>ῦ</unclear></seg>
+                            <seg type="word"><unclear>ἔρχ</unclear>εται</seg> ἀνήρ· </l>
+                        <l n="342">οὐκ<sic>᾽</sic> οἶδ᾽ εἰ νήεσσιν ἐπίσκοπος <seg type="word"
+                                    >ἡμ<unclear>ετέρ</unclear>ησιν</seg>· </l>
+                        <l n="343"><unclear>ἤ</unclear>
+                            <seg type="word"><unclear>τ</unclear>ινα</seg> συλήσων νεκύων <seg
+                                type="word"
+                                >κατα<unclear>τ</unclear>εθ<unclear>ν</unclear>ειώτων</seg>· </l>
+                        <l n="344">ἀλλ᾽ ἐῶμέν μιν <seg type="word"
+                                        >πρῶτ<choice><sic>ον</sic><corr>α</corr></choice></seg>
+                            <seg type="word">παρ<unclear>ε</unclear><supplied reason="lost"
+                                    >ξ</supplied>ε<unclear>λθ</unclear>εῖν</seg> πεδίοιο </l>
+                        <l n="345">τυτθόν· ἔπειτα δέ κ᾽ αὐτὸν <seg type="word"
+                                    ><unclear>ἀ</unclear><supplied reason="lost"
+                                    >ν</supplied><unclear>αΐξα</unclear>ντες</seg>
+                            <seg type="word">ἕλ<del>οι</del><add n="correction" place="supralinear"
+                                    >ω</add>μεν</seg>
+                        </l>
+                        <l n="346"><seg type="word">καρπαλίμω<unclear>ς</unclear></seg>. <seg
+                                type="word"><unclear>ε</unclear>ἰ</seg> δ᾽ <seg type="word"
+                                    >ἄ<unclear>μμ</unclear>ε</seg>
+                            <seg type="word">παραφ<unclear>θ</unclear>αίη<unclear>σι</unclear></seg>
+                            <seg type="word"><unclear>πό</unclear>δεσσιν</seg>, </l>
+                        <l n="347">αἰεί μιν <seg type="word">πρ<supplied reason="lost"
+                                >ο</supplied>τὶ</seg>
+                            <seg type="word">νῆ<unclear>α</unclear>ς</seg> ἀπὸ <seg type="word"
+                                    ><unclear>σ</unclear>τρ<unclear>α</unclear><supplied
+                                    reason="lost"
+                            >τ</supplied><unclear>ό</unclear>φιν</seg> προτιειλεῖν </l>
+                        <l n="348">⸏ἔγχει ἐπαΐσσων· μή πως <seg type="word"
+                                    ><unclear>π</unclear><supplied reason="lost"
+                                    >ρο</supplied><unclear>τὶ</unclear></seg> ἄστυ <seg type="word"
+                                    >ἀλύ<unclear>ξ</unclear>ῃ</seg>·" </l>
+                        <l n="349">ὣς ἄρα <seg type="word">φωνήσαντε<del>ς</del></seg>
+                            <seg type="word">π<unclear>αρὲξ</unclear></seg>
+                            <seg type="word">ὁ<supplied reason="lost">δ</supplied>οῦ</seg> ἐν <seg
+                                type="word">ν<unclear>ε</unclear>κύε<unclear>σ</unclear><supplied
+                                    reason="lost">σ</supplied>ι</seg>
+                        </l>
+                        <l n="350"><seg type="word"
+                                >κλινθήτη<unclear>ν</unclear></seg>· ὃ <unclear>δ᾽</unclear>
+                            <seg type="word"><unclear>ἄ</unclear>ρ᾽</seg>
+                            <seg type="word">ὦ<supplied reason="lost">κα</supplied></seg>
+                            <seg type="word"><unclear>π</unclear>α<unclear>ρέδραμεν</unclear></seg>
+                            <seg type="word"><unclear>ἀ</unclear>φραδίη<add n="correction"
+                                    place="supralinear">ι</add>σιν</seg>. </l>
+                        <l n="351">ἀλλ᾽ ὅτε δή <unclear>ῥ᾽</unclear>
+                            <seg type="word"><unclear>ἀ</unclear>π<unclear>έ</unclear>ην</seg>, <seg
+                                type="word"><unclear>ὅσσ</unclear>ον</seg> τ᾽ <seg type="word"
+                                    >ἐ<supplied reason="lost">πὶ</supplied></seg>
+                            <seg type="word"
+                            ><unclear>ο</unclear>ὖ<unclear>ρ</unclear>α</seg> πέλονται </l>
+                        <l n="352"><seg type="word">ἡ<add place="supralinear"
+                                >ι</add>μιόνων</seg>· αἱ γάρ τε
+              βοῶν <seg type="word"
+                                    >προφ<supplied reason="lost"
+                            >ερέστερ</supplied>αί</seg> εἰσιν
+            </l>
+                    </div>
+                    <div n="10" type="column">
+                        <gap extent="1" reason="lost" unit="line"/>
+                        <l n="354">τὼ <supplied reason="lost"
+                                >μὲν ἐπεδραμέτην, ὃ δ᾽ ἄρ᾽ ἔστη δοῦπον
+                ἀκούσας·</supplied>
+                        </l>
+                        <l n="355">
+                            <seg type="word">ἔ<supplied reason="lost">λπετο</supplied></seg>
+                            <supplied reason="lost">γὰρ</supplied>
+                            <seg type="word"><unclear>κ</unclear>ατὰ</seg>
+                            <seg type="word">θυ<unclear>μ</unclear><supplied reason="lost"
+                                    >ὸν</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀποστ</supplied><unclear>ρ</unclear>έψον<supplied reason="lost"
+                                    >τας</supplied></seg>
+                            <supplied reason="lost">ἑταίρους</supplied>
+                        </l>
+                        <l n="356"><seg type="word">ἐ<unclear>κ</unclear></seg>
+                            <supplied reason="lost">Τρώων</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἰ</supplied><unclear>έ</unclear>ναι</seg>,
+                <seg
+                                type="word">π<supplied reason="lost">άλιν</supplied></seg>
+                            <seg type="word"><supplied reason="lost">Ἕκ</supplied>τορος</seg>
+                            <seg type="word">ὀτ<unclear>ρ</unclear>ύ<unclear>ναν</unclear><supplied
+                                    reason="lost">τος.</supplied></seg>
+                        </l>
+                        <l n="357"><seg type="word">ἀ<unclear>λ</unclear><supplied reason="lost"
+                                    >λ᾽</supplied></seg>
+                            <supplied reason="lost">ὅτε δή ῥ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἄ</supplied><unclear>πεσ</unclear>α<supplied reason="lost"
+                                    >ν</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >δουρ</supplied>η<unclear>ν</unclear>εκὲς</seg> ἢ καὶ <seg
+                                type="word">ἔλ<unclear>ασ</unclear><supplied reason="lost"
+                                    >σον,</supplied></seg>
+                        </l>
+                        <l n="358"><supplied reason="lost">γνῶ ῥ᾽ ἄνδρας</supplied>
+                            <seg type="word">δ<unclear>ηίου</unclear><supplied reason="lost"
+                                    >ς,</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >λαι</supplied><unclear>ψ</unclear>η<unclear>ρ</unclear><supplied
+                                    reason="lost">ὰ</supplied></seg>
+                            <unclear>δὲ</unclear> γούνατ᾽ <seg type="word"
+                                    ><unclear>ἐν</unclear><supplied reason="lost"
+                                >ώμα</supplied></seg>
+                        </l>
+                        <l n="359">⸏<seg type="word">φε<supplied reason="lost"
+                                >υγέμεναι·</supplied></seg>
+                            <seg type="word"><unclear>τ</unclear>οὶ</seg> δ᾽ <seg type="word"
+                                    >αἶψ<unclear>α</unclear></seg> διώκειν ὁρμήθησαν. </l>
+                        <l n="360"><seg type="word">ὡ<supplied reason="lost">ς</supplied></seg>
+                            <supplied reason="lost">δ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">ὅ</supplied>τε</seg>
+                            <seg type="word"><unclear>κ</unclear><supplied reason="lost"
+                                    >αρ</supplied><unclear>χ</unclear>αρόδο<supplied reason="lost"
+                                    >ν</supplied>τε</seg> δύω
+                <seg type="word"
+                                    >κύν<unclear>ε</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >εἰδότ</supplied><unclear>ε</unclear></seg>
+                            <seg type="word"><unclear>θή</unclear><supplied reason="lost"
+                                    >ρης</supplied></seg>
+                        </l>
+                        <l n="361">ἢ <seg type="word"><unclear>κ</unclear><supplied reason="lost"
+                                    >ε</supplied><unclear>μ</unclear>άδ᾽</seg>
+                            <seg type="word">ἠ<supplied reason="lost">ὲ</supplied></seg>
+                            <seg type="word">λαγῶ<add place="supralinear">ι</add>ο<supplied
+                                    reason="lost">ν</supplied></seg>
+                            <note xml:lang="eng" resp="bh">The added <foreign xml:lang="grc"
+                                    >ι</foreign> indicates
+                that the scribe mistook the accusative of the epic form <foreign
+                                    xml:lang="grc">λαγωός</foreign> for a diminutive (e.g. <foreign
+                                    xml:lang="grc"
+                                    >λαγῴδιον</foreign>), or confused it with the adjective <foreign
+                                    xml:lang="grc"
+                                    >λαγῷος</foreign>, (<bibl>Maehler, Müller, Poethke, 25</bibl>).</note>
+                            <seg type="word">ἐπείγετο<supplied reason="lost">ν</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἐμ</supplied><unclear>μ</unclear>ε<unclear>ν</unclear>ὲ<supplied
+                                    reason="lost">ς</supplied></seg>
+                            <supplied reason="lost">αἰεὶ</supplied>
+                        </l>
+                        <l n="362">⸏<seg type="word">χ<supplied reason="lost"
+                                >ῶρο</supplied>ν</seg> ἀν᾽ <seg type="word"><supplied reason="lost"
+                                    >ὑ</supplied><unclear>λ</unclear>ήεντα</seg>, <supplied
+                                reason="lost">ὅ</supplied>
+                            <seg type="word">τ<unclear>ε</unclear></seg>
+                            <seg type="word">π<unclear>ρ</unclear><supplied reason="lost"
+                                    >οθέῃσι</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >μ</supplied>εμ<unclear>η</unclear><supplied reason="lost"
+                                    >κώς,</supplied></seg>
+                        </l>
+                        <l n="363"><seg type="word">ὣ<unclear>ς</unclear></seg> τὸν Τυδείδης <seg
+                                type="word"><unclear>ἠ</unclear><supplied reason="lost"
+                                    >δ᾽</supplied></seg>
+                            <supplied reason="lost">ὃ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >π</supplied><unclear>το</unclear><supplied reason="lost"
+                                    >λίπ</supplied><unclear>ο</unclear>ρθος</seg>
+                            <seg type="word">Ὀ<supplied reason="lost">δυσσεὺς</supplied></seg>
+                        </l>
+                        <l n="364">λαοῦ <seg type="word">ἀποτμήξαν<supplied reason="lost"
+                                    >τε</supplied></seg>
+                            <seg type="word"><supplied reason="lost">διώκετο</supplied>ν</seg>
+                            <seg type="word">ἐμ<unclear>μ</unclear><supplied reason="lost"
+                                    >ενὲς</supplied></seg>
+                            <supplied reason="lost">αἰεί.</supplied>
+                        </l>
+                        <l n="365">ἀλλ᾽ ὅτε δὴ ἄρ᾽ <seg type="word"
+                                    >ἔμελ<unclear>λ</unclear><supplied reason="lost"
+                                >ε</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >μιγήσεσ</supplied><unclear>θ</unclear>αι</seg>
+                            <seg type="word">φυλ<supplied reason="lost">άκεσσι</supplied></seg>
+                        </l>
+                        <l n="366">φεύγων <seg type="word">ἐ<unclear>ς</unclear></seg> νῆας, <seg
+                                type="word">τ<unclear>ό</unclear><supplied reason="lost"
+                                    >τε</supplied></seg>
+                            <supplied reason="lost">δὴ μένος</supplied>
+                            <seg type="word">ἔμβ<supplied reason="lost">αλ᾽</supplied></seg>
+                            <supplied reason="lost">Ἀθήνη
+              </supplied>
+                        </l>
+                        <l n="367"><seg type="word"
+                                    >Τυδείδ<choice><sic>η</sic><corr>ῃ</corr></choice></seg>, ἵνα μή <seg
+                                type="word">τι<supplied reason="lost">ς</supplied></seg>
+                            <seg type="word"><unclear>Ἀ</unclear>χ<unclear>α</unclear><supplied
+                                    reason="lost">ιῶν</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >χα</supplied><unclear>λ</unclear>κοχι<supplied reason="lost"
+                                    >τ</supplied><unclear>ώ</unclear>ν<unclear>ω</unclear><supplied
+                                    reason="lost">ν</supplied></seg>
+                        </l>
+                        <l n="368">⸏φθαίη <seg type="word">ἐπευξάμεν<supplied reason="lost"
+                                    >ος</supplied></seg>
+                            <seg type="word"><unclear>β</unclear>αλέειν</seg>, <unclear>ὃ</unclear>
+                            <seg type="word">δ<unclear>ὲ</unclear></seg>
+                            <seg type="word">δε<unclear>ύ</unclear><supplied reason="lost"
+                                    >τ</supplied>ερο<unclear>ς</unclear></seg>
+                            <seg type="word">ἔ<supplied reason="lost">λθῃ.</supplied></seg>
+                        </l>
+                        <l n="369">⸏δουρὶ δ᾽ <seg type="word">ἐπ<unclear>α</unclear>ΐσσω<supplied
+                                    reason="lost">ν</supplied></seg>
+                            <seg type="word"><supplied reason="lost">πρ</supplied>οσέφη</seg>
+                            <seg type="word"><unclear>κ</unclear>ρατερὸς</seg>
+                            <seg type="word"><unclear>Δ</unclear>ιο<unclear>μ</unclear><supplied
+                                    reason="lost">ήδης· </supplied></seg>
+                        </l>
+                        <l n="370">"ἠὲ μέν᾽, <seg type="word">ἠ<add n="correction"
+                                    place="supralinear">έ</add></seg> σε
+                <seg
+                                type="word">δου<unclear>ρ</unclear><supplied reason="lost"
+                                    >ὶ</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >κι</supplied><unclear>χ</unclear>ήσομαι</seg>· <seg type="word"
+                                    >οὐδ<unclear>έ</unclear></seg>
+                            <seg type="word"><unclear>σ</unclear>έ</seg>
+                            <seg type="word">φη<unclear>μ</unclear><supplied reason="lost"
+                                    >ι</supplied></seg>
+                        </l>
+                        <l n="371">⸏δηρὸν ἐμῆς <seg type="word">ἀπ<unclear>ὸ</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                                >χει</supplied>ρὸς</seg> ἀλύξειν αἰπὺν
+                <seg
+                                type="word"><unclear>ὄλ</unclear>ε<unclear>θ</unclear><supplied
+                                    reason="lost">ρον."</supplied></seg>
+                        </l>
+                        <l n="372">ἦ <seg type="word">ῥ<supplied reason="lost"
+                                >α</supplied></seg> καὶ ἔγχος <seg type="word">ἀφ<supplied
+                                    reason="lost">ῆκε</supplied>ν</seg>· ἑκῶν δ᾽ <seg type="word"
+                                    >ἡμάρτ<supplied reason="lost">α</supplied>νε</seg>
+                            <seg type="word">φ<supplied reason="lost">ωτός·</supplied></seg>
+                        </l>
+                        <l n="373"><seg type="word">δ<unclear>ε</unclear>ξιτερὸν</seg> δ᾽ <seg
+                                type="word"><supplied reason="lost"
+                                    >ὑ</supplied><unclear>πὲρ</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὦ</supplied><unclear>μ</unclear>ον</seg>
+                            <seg type="word">ἐ<unclear>ύ</unclear>ξου</seg>
+                            <seg type="word">δουρ<supplied reason="lost">ὸ</supplied>ς</seg>
+                            <seg type="word">ἀκω<unclear>κ</unclear><supplied reason="lost"
+                                    >ὴ</supplied></seg>
+                        </l>
+                        <l n="374">ἐν <seg type="word"
+                                    >γαί<choice><sic>η</sic><corr>ῃ</corr></choice></seg>
+                            <seg type="word">ἐπά<unclear>γ</unclear>η</seg>· ὃ δ᾽ ἂρ᾽ <seg
+                                type="word"><unclear>ἔ</unclear>στη</seg>
+                            <seg type="word">τάρβ<unclear>η</unclear>σέ<supplied reason="lost"
+                                    >ν</supplied></seg>
+                            <seg type="word"><supplied reason="lost">τ</supplied>ε</seg>
+                        </l>
+                        <l n="375"><seg type="word">βαμβαίν<unclear>ω</unclear><supplied
+                                    reason="lost"
+                                >ν·</supplied></seg> ἄραβος δὲ
+              διὰ <seg type="word"
+                                    >σ<unclear>τ</unclear>όμα</seg>
+                            <seg type="word">γε<unclear>ί</unclear>νετ᾽</seg>
+                            <seg type="word">ὀδόν<supplied reason="lost">των·</supplied></seg>
+                        </l>
+                        <l n="376">⸏<seg type="word"
+                                    ><unclear>χλ</unclear>ω<unclear>ρ</unclear><unclear>ὸς</unclear></seg>
+                            <seg type="word"><unclear>ὑ</unclear>π<unclear>α</unclear><supplied
+                                    reason="lost">ὶ</supplied></seg> δείους·
+                <seg
+                                type="word"><unclear>τ</unclear>ὼ</seg> δ᾽ <seg type="word">ἀσθ<add
+                                    n="correction" place="supralinear"
+                                    >μ</add>αίνο<unclear>ν</unclear><supplied reason="lost"
+                                    >τ</supplied><unclear>ε</unclear></seg>
+                            <seg type="word"
+                                    ><unclear>κ</unclear>ι<unclear>χ</unclear>ήτ<unclear>η</unclear><supplied
+                                    reason="lost">ν,</supplied></seg>
+                        </l>
+                        <l n="377">⸏χειρῶν δ᾽ <seg type="word"
+                                    >ἁψ<unclear>ά</unclear>σ<unclear>θ</unclear>η<unclear>ν</unclear></seg>·
+              ὃ <seg
+                                type="word"><unclear>δ</unclear><supplied reason="lost"
+                                >ὲ</supplied></seg>
+                            <seg type="word"><supplied reason="lost">δ</supplied>ακρύσας</seg>
+                            <seg type="word"><unclear>ἔ</unclear>πο<unclear>ς</unclear></seg>
+                            <seg type="word">η<unclear>ὔ</unclear><supplied reason="lost"
+                                    >δα·</supplied></seg>
+                        </l>
+                        <l n="378">"ζωγρεῖτ᾽· αὐτὰρ ἐγὼν ἐμὲ <seg type="word"
+                                    >λύσομα<unclear>ι·</unclear></seg>
+                            <seg type="word">ἔσ<unclear>τ</unclear>ι</seg>
+              γὰρ <seg
+                                type="word">ἔν<unclear>δ</unclear><supplied reason="lost"
+                                    >ον</supplied></seg>
+                        </l>
+                        <l n="379"><seg type="word"
+                                >χ<unclear>α</unclear>λκός</seg> τε χρυσός τε πολύκμητός τε
+                <seg
+                                type="word">σίδη<unclear>ρο</unclear><supplied reason="lost"
+                                    >ς·</supplied></seg>
+                        </l>
+                        <l n="380">τῶν <sic>κ᾽ ϋμιν</sic>
+                            <seg type="word">χ<supplied reason="lost"
+                                >α</supplied>ρίσαιτο</seg> πατὴρ
+                <seg type="word"
+                                    >ἀ<unclear>περείσ</unclear>ια</seg>
+                            <seg type="word">ἄπ<unclear>ο</unclear>ιν<supplied reason="lost"
+                                    >α,</supplied></seg>
+                        </l>
+                        <l n="381">⸏εἴ κεν ἐμὲ ζωὸν <seg type="word"
+                                >πε<unclear>π</unclear>ύθοιτ᾽</seg>
+                            <seg type="word"><supplied reason="lost">ἐ</supplied>πὶ</seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >νη</supplied><unclear>υ</unclear><supplied reason="lost"
+                                    >σὶν</supplied></seg>
+                            <supplied reason="lost">Ἀχαιῶν."</supplied>
+                        </l>
+                        <l n="382">⸏τὸν <supplied reason="lost"
+                                >δ᾽</supplied> ἀπαμειβόμενοσ
+                <seg type="word"
+                                    >προσέ<unclear>φ</unclear><supplied reason="lost"
+                                >η</supplied></seg>
+                            <seg type="word"><unclear>πολ</unclear><supplied reason="lost"
+                                    >ύ</supplied><unclear>μ</unclear>ητι<supplied reason="lost"
+                                    >ς</supplied></seg>
+                            <supplied reason="lost">Ὀδυσσεύς·</supplied>
+                        </l>
+                        <l n="383">"<seg type="word"
+                                >θά<unclear>ρ</unclear>σει</seg>, μηδέ τί τοι θάνατος
+                <seg
+                                type="word">καταθύμ<unclear>ιο</unclear><supplied reason="lost"
+                                    >ς</supplied></seg> ἔστω. </l>
+                        <l n="384">ἀλλ᾽ ἄγε μοι τόδε εἰπὲ καὶ ἀτρεκέως <seg type="word"
+                                    >κατά<unclear>λ</unclear><supplied reason="lost"
+                                    >εξον·</supplied></seg>
+                        </l>
+                        <l n="385">πῆ δ᾽ οὕτως ἐπὶ νῆας ἀπὸ <seg type="word"
+                                >σ<unclear>τρ</unclear>ατοῦ</seg>
+                            <seg type="word"><unclear>ἔ</unclear>ρχ<unclear>ε</unclear><supplied
+                                    reason="lost">α</supplied><unclear>ι</unclear></seg>
+                            <seg type="word">οἷο<unclear>ς</unclear></seg>
+                        </l>
+                        <l n="386">νύκτα δι᾽ ἀμβροσίην, ὅτε θ᾽ εὕδουσι <seg type="word"><supplied
+                                    reason="lost"
+                                    >β</supplied><unclear>ρ</unclear>οτο<unclear>ὶ</unclear></seg>
+                            <supplied reason="lost">ἄλλοι;</supplied>
+                        </l>
+                        <l n="387">ἦ τινα συλήσων νεκύων <seg type="word">κατατεθν<supplied
+                                    reason="lost">η</supplied><unclear>ώτω</unclear>ν</seg>, </l>
+                        <l n="388">ἤ σ᾽ Ἕκτωρ προέηκε <seg type="word">διασκοπιᾶ<supplied
+                                    reason="lost">σ</supplied>θα<supplied reason="lost"
+                                >ι</supplied></seg>
+                            <seg type="word"><supplied reason="lost">ἕκαστ</supplied>α</seg>
+                        </l>
+                        <l n="389">⸏νῆας ἔπι γλαφυράς· ἤ σ᾽ αὐτὸν <seg type="word"
+                                    >θυ<unclear>μὸ</unclear>ς</seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀνῆ</supplied><unclear>κε</unclear></seg>·" </l>
+                        <l n="390">⸏τὸν δ᾽ ἠμείβετ᾽ ἔπειτα <seg type="word"
+                                ><unclear>Δό</unclear>λων</seg>, <seg type="word"
+                                    >ὑ<unclear>πὸ</unclear></seg>
+                            <unclear>δ᾽</unclear>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἔτρεμ</supplied><unclear>ε</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >γ</supplied><unclear>υῖα·</unclear></seg>
+                        </l>
+                    </div>
+                    <div n="11" type="column">
+                        <l n="391">
+                            <supplied reason="lost">"πολλῇσίν μ᾽ ἄτῃσι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >παρ</supplied><unclear>ὲ</unclear>κ</seg>
+                            <supplied reason="lost">νόον ἤγαγεν Ἕκτωρ,
+              </supplied>
+                        </l>
+                        <l n="392">
+                            <supplied reason="lost">ὅς μοι Πηλείωνος</supplied>
+                            <seg type="word"><supplied reason="lost">ἀγαυ</supplied>οῦ</seg>
+                            <seg type="word"><unclear>μ</unclear><supplied reason="lost">ώνυχας</supplied></seg>
+                            <supplied reason="lost">ἵππους</supplied>
+                        </l>
+                        <l n="393">
+                            <supplied reason="lost">δωσέμεναι κατένευσε</supplied>
+                            <seg type="word"><supplied reason="lost">κ</supplied><unclear>αὶ</unclear></seg>
+                            <seg type="word"><unclear>ἅ</unclear><supplied reason="lost">ρματα</supplied></seg>
+                            <supplied reason="lost">ποικίλα χαλκῷ.</supplied>
+                        </l>
+                        <l n="394">
+                            <supplied reason="lost">ἠνώγει δέ μ᾽ ἰόντα</supplied>
+                            <seg type="word"><supplied reason="lost">θ</supplied>οὴν</seg>
+                            <supplied reason="lost">διὰ νύκτα μέλαιναν,</supplied>
+                        </l>
+                        <l n="395">
+                            <supplied reason="lost">ἀνδρῶν δυσμενέων</supplied>
+                            <seg type="word">σχ<unclear>εδ</unclear><supplied reason="lost"
+                                    >ὸν</supplied></seg>
+                            <supplied reason="lost">ἐλθέμεν ἔκ τε πυθέσθαι,</supplied>
+                        </l>
+                        <l n="396">
+                            <supplied reason="lost">ἠὲ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >φυ</supplied><unclear>λ</unclear>άσ<unclear>σ</unclear>ον<unclear>τ</unclear><supplied
+                                    reason="lost">αι</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >νῆ</supplied><unclear>ε</unclear>ς</seg>
+                            <seg type="word">θο<unclear>α</unclear><supplied reason="lost"
+                                    >ὶ</supplied></seg>
+                            <supplied reason="lost">ὡς τὸ πάρος περ, </supplied>
+                        </l>
+                        <l n="397">
+                            <supplied reason="lost">ἢ ἤδη</supplied>
+                            <seg type="word">χε<unclear>ί</unclear>ρε<unclear>σσι</unclear><supplied
+                                    reason="lost">ν</supplied></seg>
+                            <supplied reason="lost">ὑφ᾽</supplied>
+                            <seg type="word"><unclear>ἡ</unclear>με<supplied reason="lost"
+                                    >τέρῃσι</supplied></seg>
+                            <supplied reason="lost">δαμέντες</supplied>
+                        </l>
+                        <l n="398">
+                            <seg type="word"><supplied reason="lost">φύξι</supplied>ν</seg>
+                            <seg type="word">βουλεύ<supplied reason="lost">ουσι</supplied></seg>
+                            <seg type="word"><supplied reason="lost">με</supplied>τὰ</seg>
+                            <seg type="word"><unclear>σφί</unclear><supplied reason="lost">σιν</supplied></seg>
+                            <supplied reason="lost">, οὐδ᾽
+                ἐθέλουσι</supplied>
+                        </l>
+                        <l n="399"><seg type="word"><supplied reason="lost"
+                                    >νύκ</supplied><unclear>τ</unclear>α</seg>
+                            <seg type="word">φυλασ<supplied reason="lost"
+                                >σέμ</supplied>εναι</seg>, <seg type="word">καμάτ<supplied
+                                    reason="lost">ῳ</supplied></seg>
+                            <supplied reason="lost">ἀδηκότες
+                αἰνῷ."</supplied>
+                        </l>
+                        <l n="400"><supplied reason="lost">τὸν</supplied> δ᾽ <seg type="word"
+                                    >ἀπαμ<supplied reason="lost">ε</supplied>ιβ<supplied
+                                    reason="lost">όμ</supplied>ενος<note xml:lang="eng" resp="bh"
+                                    >The variant appears to be a mistake occasioned by verse 382 above. Also,
+                cf. verse 423 below.</note></seg> προσέφη πολύμητις Ὀδυσσεύς· </l>
+                        <l n="401"><supplied reason="lost">"ἦ ῥά</supplied>
+                            <seg type="word"><unclear>ν</unclear>ύ</seg> τοι <seg type="word"
+                                    >μεγάλ<supplied reason="lost"
+                                >ων</supplied></seg> δώρων
+                <seg type="word"
+                                    ><unclear>ἐπεμα</unclear><supplied reason="lost"
+                                >ίετο</supplied></seg>
+                            <supplied reason="lost">θυμός,</supplied>
+                        </l>
+                        <l n="402"><seg type="word"><supplied reason="lost"
+                                    >ἵπ</supplied><unclear>π</unclear>ων</seg>
+                            <seg type="word"
+                                ><unclear>Αἰ</unclear>ακίδ<unclear>α</unclear>ο</seg> δαΐφρονος· οἳ <unclear>δ᾽</unclear>
+                            <supplied reason="lost">ἀλεγεινοὶ</supplied>
+                        </l>
+                        <l n="403"><seg type="word"><supplied reason="lost"
+                                    >ἀνδ</supplied><unclear>ρ</unclear>άσι</seg> γε θνητοῖσι
+                <seg
+                                type="word">δαμήμ<unclear>ενα</unclear><supplied reason="lost"
+                                    >ι</supplied></seg>
+                            <supplied reason="lost">ἠδ᾽ ὀχέεσθαι</supplied>
+                        </l>
+                        <l n="404"><seg type="word"><supplied reason="lost"
+                                        >ἄλλ</supplied><choice><sic>ω</sic><corr>ῳ</corr></choice></seg> γ᾽ ἢ <seg
+                                type="word">Ἀχι<del>λ</del>λῆϊ</seg>, τὸν <seg type="word"
+                                    >ἀθανά<unclear>τη</unclear></seg>
+                            <seg type="word"><unclear>τ</unclear><supplied reason="lost"
+                                    >έκε</supplied></seg>
+                            <supplied reason="lost">μήτηρ.</supplied>
+                        </l>
+                        <l n="405"><supplied reason="lost">ἀλλ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                >ἄ</supplied>γε</seg> μοι τόδε εἰπὲ
+                <seg type="word"
+                                    ><unclear>κ</unclear>αὶ</seg>
+                            <seg type="word">ἀτρεκέ<unclear>ω</unclear><supplied reason="lost"
+                                    >ς</supplied></seg>
+                            <supplied reason="lost">κατάλεξον·</supplied>
+                        </l>
+                        <l n="406"><supplied reason="lost"
+                                >ποῦ</supplied> νῦν δεῦρο κιὼν λίπες
+                <seg
+                                type="word">Ἕκτο<unclear>ρ</unclear><supplied reason="lost"
+                                    >α</supplied></seg>
+                            <supplied reason="lost">ποιμένα λαῶν;</supplied>
+                        </l>
+                        <l n="407"><supplied reason="lost">ποῦ</supplied>
+                            <seg type="word"
+                                ><unclear>δ</unclear>έ</seg> οἱ ἔντεα κεῖται ἀρήϊα· ποῦ <seg
+                                type="word"><unclear>δ</unclear><supplied reason="lost"
+                                >έ</supplied></seg>
+                            <supplied reason="lost">οἱ ἵπποι;</supplied>
+                        </l>
+                        <l n="408"><seg type="word"><supplied reason="lost"
+                                    >π</supplied><unclear>ῶς</unclear></seg>
+                            <seg type="word"><sic>δα</sic><add n="correction" place="supralinear"
+                                    >᾽</add></seg>
+                            <add>αἱ</add><note xml:lang="eng" resp="bh"
+                                    >The corrected reading is <foreign xml:lang="grc"
+                                    >δ᾽ αἱ</foreign></note>
+              τῶν ἄλλων <seg type="word"
+                                    >Τρ<unclear>ώω</unclear>ν</seg>
+                            <seg type="word">φυλα<unclear>κ</unclear><supplied reason="lost"
+                                    >αί</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >τ</supplied><unclear>ε</unclear></seg> καὶ <seg type="word"
+                                    ><unclear>εὐ</unclear><supplied reason="lost"
+                                >ναί;</supplied></seg>
+                        </l>
+                        <l n="409"><seg type="word"><supplied reason="lost"
+                                >ἅσσ</supplied>ά</seg> τε μητιόωσι <seg type="word">μ<supplied
+                                    reason="lost">ετ</supplied>ὰ</seg>
+                            <seg type="word"
+                                ><unclear>σφί</unclear>σι<unclear>ν</unclear></seg>, <unclear>ἢ</unclear>
+                            <seg type="word"><supplied reason="lost">μεμ</supplied>άασιν</seg>
+                        </l>
+                        <l n="410"><seg type="word"><supplied reason="lost"
+                                >ἔνθ</supplied>α</seg> μένειν παρὰ <seg type="word">ν<supplied
+                                    reason="lost">ηυ</supplied><unclear>σ</unclear>ὶν</seg>
+                            <seg type="word">ἀπόπ<supplied reason="lost"
+                                    >ροθε</supplied><unclear>ν</unclear></seg> ἠὲ <seg type="word"
+                                    ><unclear>π</unclear><supplied reason="lost"
+                                >όλινδε</supplied></seg>
+                        </l>
+                        <l n="411">⸏<unclear>ἂψ</unclear> ἀναχωρήσουσιν, <seg type="word"><supplied
+                                    reason="lost">ἐ</supplied><unclear>π</unclear>εὶ</seg>
+                            <seg type="word"
+                                    >δα<unclear>μ</unclear>ά<unclear>σ</unclear>α<unclear>ν</unclear><supplied
+                                    reason="lost">τό</supplied></seg>
+                            <supplied reason="lost">γ᾽ Ἀχαιούς."</supplied>
+                        </l>
+                        <l n="412">⸏τὸν δ᾽ αὖτε <seg type="word"
+                                    ><unclear>π</unclear>ρ<unclear>ο</unclear>σέε<supplied
+                                    reason="lost">ιπ</supplied>ε</seg> Δόλων <seg type="word"
+                                    ><unclear>Ε</unclear>ὐμ<supplied reason="lost"
+                                    >ή</supplied>δε<supplied reason="lost">ος</supplied></seg>
+                            <supplied reason="lost">υἱός·</supplied>
+                        </l>
+                        <l n="413"><seg type="word"><unclear>"τ</unclear>οι<supplied reason="lost"
+                                    >γ</supplied><unclear>ὰ</unclear>ρ</seg> ἐγώ <seg type="word"
+                                    >τ<supplied reason="lost">ο</supplied>ι</seg>
+                            <seg type="word">ταῦτ<unclear>α</unclear></seg>
+                            <seg type="word"><supplied reason="lost">μ</supplied>άλ᾽</seg>
+                            <seg type="word">ἀ<unclear>τρ</unclear>εκέως</seg>
+                            <seg type="word">ἀγορ<supplied reason="lost">εύσω.</supplied></seg>
+                        </l>
+                        <l n="414"><seg type="word">Ἕκ<supplied reason="lost"
+                                >τωρ</supplied></seg> μὲν <seg type="word"
+                                >μ<unclear>ε</unclear>τὰ</seg>
+                            <seg type="word">τ<supplied reason="lost">οῖσι</supplied>ν</seg>, <seg
+                                type="word"><unclear>ὅ</unclear><supplied reason="lost"
+                                    >σοι</supplied></seg>
+                            <seg type="word"><unclear>β</unclear>ουληφόροι</seg>
+                            <supplied reason="lost">εἰσί,</supplied>
+                        </l>
+                        <l n="415"><seg type="word"><supplied reason="lost"
+                                    >βουλὰ</supplied><unclear>ς</unclear></seg>
+                            <seg type="word">βουλ<unclear>ε</unclear>ύει</seg>
+                            <seg type="word">θ<unclear>ε</unclear><supplied reason="lost"
+                                    >ίου</supplied></seg> παρὰ <seg type="word"
+                                    ><unclear>σ</unclear>ήμα<unclear>τ</unclear><supplied
+                                    reason="lost">ι</supplied></seg>
+                            <supplied reason="lost">Ἴλου</supplied>
+                        </l>
+                        <l n="416"><seg type="word"><unclear>ν</unclear><supplied reason="lost"
+                                    >ό</supplied><unclear>σ</unclear>φι<unclear>ν</unclear></seg> ἀπὸ φλοίσβου· <seg
+                                type="word"><supplied reason="lost"
+                                >φυ</supplied>λακὰς</seg> δ᾽ ἃς <supplied reason="lost"
+                                >εἴρεαι,
+                ἥρως,</supplied>
+                        </l>
+                        <l n="417"><unclear>οὔ</unclear>
+                            <seg type="word"><unclear>τ</unclear>ις</seg> κεκριμένη <seg type="word"
+                                    ><unclear>ῥ</unclear><supplied reason="lost"
+                                >ύετ</supplied>αι</seg> στρατὸν <seg type="word"
+                                    >ο<unclear>ὐ</unclear><supplied reason="lost"
+                                >δὲ</supplied></seg>
+                            <supplied reason="lost">φυλάσσει.</supplied>
+                        </l>
+                        <l n="418">ὅσσαι <seg type="word">μὲ<supplied reason="lost"
+                                >ν</supplied></seg>
+                            <seg type="word"><supplied reason="lost">Τ</supplied>ρώων</seg>
+                            <seg type="word">π<supplied reason="lost"
+                                >υ</supplied>ρὸς</seg> ἐσχάραι, <seg type="word">οἷ<supplied
+                                    reason="lost">σι</supplied>ν</seg>
+                            <seg type="word">ἀνά<supplied reason="lost">γκη,</supplied></seg>
+                        </l>
+                        <l n="419"><seg type="word">ο<unclear>ἷ</unclear></seg>
+                            <seg type="word">τ<add n="correction" place="supralinear">γ</add>᾽</seg>
+                            <seg type="word">ἐγ<supplied reason="lost"
+                                >ρηγόρ</supplied>θασι</seg> φυλασσέμεναί τε <seg type="word"
+                                    ><supplied reason="lost"
+                                    >κ</supplied>έλο<unclear>ν</unclear><supplied reason="lost"
+                                    >ται</supplied></seg>
+                        </l>
+                        <l n="420"><supplied reason="lost">ἀλλήλοις·</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                >ἀτ</supplied>ὰρ</seg> αὖτε πολύκλητοι γ᾽
+                <seg
+                                type="word">ἐ<supplied reason="lost"
+                                    >π</supplied><unclear>ί</unclear>κου<supplied reason="lost"
+                                    >ροι</supplied></seg>
+                        </l>
+                        <l n="421">
+                            <seg type="word"><unclear>ε</unclear>ὕδουσ<unclear>ιν,</unclear></seg>
+                            <seg type="word"><supplied reason="lost">Τρ</supplied>ωσὶν</seg>
+                            <seg type="word">γὰ<unclear>ρ</unclear></seg>
+                            <seg type="word">ἐπιτρ<del>ο</del><add n="correction"
+                                    place="supralinear">α</add>πέουσι</seg>
+                            <seg type="word"><unclear>φ</unclear><supplied reason="lost"
+                                    >υλ</supplied>άσ<supplied reason="lost">σειν·</supplied></seg>
+                        </l>
+                        <l n="422">⸏οὐ <seg type="word"><unclear>γ</unclear>άρ</seg> σφιν <seg
+                                type="word">π<unclear>α</unclear>ῖδες</seg>
+                            <seg type="word">σχε<supplied reason="lost">δ</supplied>ὸν</seg>
+                            <seg type="word">εἵατ<unclear>αι</unclear></seg>
+                            <seg type="word">οὐδ<unclear>ὲ</unclear></seg>
+                            <seg type="word"><supplied reason="lost">γ</supplied>υν<supplied
+                                    reason="lost">αῖκες."</supplied></seg>
+                        </l>
+                        <l n="423">⸏τὸν δ᾽ ἀπαμειβόμενος προσέφη <seg type="word">πο<supplied
+                                    reason="lost">λ</supplied><unclear>ύμη</unclear><supplied
+                                    reason="lost">τις</supplied></seg>
+                            <supplied reason="lost">Ὀδυσσεύς·</supplied>
+                        </l>
+                        <l n="424"><seg type="word"><unclear>"π</unclear>ῶς</seg> γὰρ νῦν, <seg
+                                type="word">Τρώεσσ<supplied reason="lost"
+                                >ι</supplied></seg>
+              μεμιγμένοι <seg type="word"
+                                    >ἱπποδ<unclear>ά</unclear><supplied reason="lost"
+                                    >μοισιν</supplied></seg>
+                        </l>
+                        <l n="425"><seg type="word"><supplied reason="lost"
+                                    >ε</supplied>ὕ<unclear>δ</unclear>ουσ᾽</seg> ἢ ἀπάνευθε;
+              δίειπέ μοι, ὄφρα <seg
+                                type="word">δα<unclear>ε</unclear><supplied reason="lost"
+                                    >ίω."</supplied></seg>
+                        </l>
+                        <l n="426">⸏<seg type="word"><supplied reason="lost"
+                                >τ</supplied>ὸν</seg> δ᾽ ἠμείβετ᾽ ἔπειτα Δόλων, Εὐμήδεος
+                <supplied
+                                reason="lost">υἱός·</supplied>
+                        </l>
+                        <l n="427"><seg type="word"><unclear>"τ</unclear>οι</seg> γὰρ ἐγὼ <del
+                                n="toi">το</del><add n="correction"
+                                >κα</add>ὶ ταῦτα μάλ᾽ ἀτρεκέως <seg type="word"
+                                    >ἀγορεύ<unclear>σ</unclear><supplied reason="lost"
+                                >ω</supplied></seg><add n="variant" place="supralinear"
+                                >καταλέξω</add>. </l>
+                    </div>
+                    <div n="12" type="column">
+                        <l n="428">
+                            <seg type="word"><supplied reason="lost">π</supplied><unclear>ρ</unclear><supplied reason="lost">ὸς</supplied></seg>
+                            <supplied reason="lost"
+                                >μὲν ἁλὸς Κᾶρες καὶ Παίονες ἀγκυλότοξοι</supplied>
+                        </l>
+                        <l n="429">καὶ <seg type="word">Λέλ<unclear>ε</unclear>γε<supplied
+                                    reason="lost">ς</supplied></seg>
+                            <supplied reason="lost"
+                                >καὶ Καύκωνες δῖοί τε
+                Πελασγοί,</supplied>
+                        </l>
+                        <l n="430">πρὸς <seg type="word">Θύμ<unclear>β</unclear><supplied
+                                    reason="lost">ρης</supplied></seg>
+                            <supplied reason="lost"
+                                >δ᾽ ἔλαχον Λύκιοι
+                Μυσοί τ᾽ ἀγέρωχοι, </supplied>
+                        </l>
+                        <l n="431">
+                            <seg type="word"><unclear>κα</unclear>ὶ</seg>
+                            <seg type="word">Φρ<unclear>ύ</unclear>γε<supplied reason="lost"
+                                    >ς</supplied></seg>
+                            <supplied reason="lost">ἱππόδαμοι καὶ Μῄονες ἱπποκορυσταί.</supplied>
+                        </l>
+                        <l n="432"><seg type="word"><supplied reason="lost"
+                                >ἀ</supplied>λλὰ</seg> τίη <seg type="word">μ<supplied reason="lost"
+                                    >ε</supplied></seg>
+                            <supplied reason="lost"
+                                >ταῦτα
+                διεξερέεσθε ἕκαστα;</supplied>
+                        </l>
+                        <l n="433"><seg type="word"><supplied reason="lost"
+                                >ε</supplied>ἰ</seg> γὰρ δὴ <seg type="word">μ<supplied
+                                    reason="lost">έματον</supplied></seg>
+                            <supplied reason="lost">Τρώων καταδῦναι ὅμιλον,</supplied>
+                        </l>
+                        <l n="434">
+                            <seg type="word"><supplied reason="lost"
+                                    >Θ</supplied><unclear>ρ</unclear>ήϊκες</seg>
+                            <seg type="word"><unclear>ο</unclear><supplied reason="lost">ἵδ᾽</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀ</supplied><unclear>π</unclear>άν<supplied reason="lost"
+                                    >ευθε</supplied></seg>
+                            <supplied reason="lost"
+                                >νεήλυδες, ἔσχατοι
+                ἄλλων,</supplied>
+                        </l>
+                        <l n="435">
+                            <supplied reason="lost">ἐν δέ σφιν</supplied>
+                            <seg type="word"><unclear>Ῥῆσ</unclear><supplied reason="lost">ο</supplied><unclear>ς</unclear></seg>
+                            <seg type="word">β<unclear>ασι</unclear><supplied reason="lost"
+                                    >λεὺς</supplied></seg>
+                            <supplied reason="lost">, πάις Ἠιονῆος.</supplied>
+                        </l>
+                        <l n="436">
+                            <supplied reason="lost">τοῦ δὴ</supplied>
+                            <seg type="word"><supplied reason="lost">καλλί</supplied>στ<supplied
+                                    reason="lost">ο</supplied><unclear>υ</unclear>ς</seg>
+                            <seg type="word">ἵππο<unclear>υ</unclear><supplied reason="lost"
+                                    >ς</supplied></seg>
+                            <supplied reason="lost">ἴδον ἠδὲ μεγίστους·</supplied>
+                        </l>
+                        <l n="437"><supplied reason="lost">λευκότεροι</supplied>
+                            <seg type="word">χ<supplied reason="lost">ι</supplied>όνος</seg>· <seg
+                                type="word">θείε<unclear>ι</unclear><supplied reason="lost"
+                                    >ν</supplied></seg>
+                            <supplied reason="lost">δ᾽ ἀνέμοισιν
+                ὁμοῖοι·</supplied>
+                        </l>
+                        <l n="438"><supplied reason="lost">ἅρμα δέ οἱ</supplied>
+                            <seg type="word"><supplied reason="lost">χρ</supplied>υσῷ</seg> τε <seg
+                                type="word">κ<supplied reason="lost">αὶ</supplied></seg>
+                            <supplied reason="lost">ἀργύρῳ εὖ ἤσκηται</supplied>· </l>
+                        <l n="439">
+                            <supplied reason="lost">τεύχεα δὲ</supplied>
+                            <seg type="word"><supplied reason="lost">χρ</supplied>ύσεια</seg>
+                            <seg type="word"><unclear>π</unclear><supplied reason="lost">ελώρια</supplied></seg>
+                            <supplied reason="lost">, θαῦμα ἰδέσθαι,</supplied>
+                        </l>
+                        <l n="440"><supplied reason="lost">ἤλυθ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                >ἔχω</supplied>ν</seg>· τὰ μὲν οὔ
+                <unclear>τι</unclear>
+                            <supplied reason="lost">καταθνητοῖσιν ἔοικεν</supplied>
+                        </l>
+                        <l n="441"><seg type="word"><supplied reason="lost"
+                                >ἄνδρεσσι</supplied>ν</seg> φορέειν· <seg type="word"
+                                    >ἀ<unclear>λλ᾽</unclear></seg>
+                            <supplied reason="lost">ἀθανάτοισι θεοῖσιν.</supplied>
+                        </l>
+                        <l n="442"><supplied reason="lost">ἀλλ᾽ ἐμὲ</supplied>
+                            <seg type="word"><supplied reason="lost">μὲ</supplied>ν</seg> νῦν <seg
+                                type="word">νηϋ<supplied reason="lost">σὶ</supplied></seg>
+                            <seg type="word"><supplied reason="lost">πελάσσετο</supplied>ν</seg>
+                            <seg type="word"><unclear>ὠ</unclear>κυπ<supplied reason="lost"
+                                    >όροισιν,</supplied></seg>
+                        </l>
+                        <l n="443">
+                            <supplied reason="lost">ἠέ με</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >δήσ</supplied><unclear>α</unclear>ντες</seg>
+                            <seg type="word">λί<unclear>π</unclear><supplied reason="lost"
+                                    >ετ᾽</supplied></seg>
+                            <supplied reason="lost">αὐτόθι</supplied>
+                            <seg type="word"><supplied reason="lost">νηλέ</supplied>ϊ</seg>
+                            <seg type="word">δεσμ<supplied reason="lost">ῷ,</supplied></seg>
+                        </l>
+                        <l n="444"><supplied reason="lost">ὄφρα κεν</supplied>
+                            <seg type="word">ἔλθ<supplied reason="lost">ητον</supplied></seg>
+                            <supplied reason="lost">καὶ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >πειρηθῆτο</supplied><unclear>ν</unclear></seg> ἐμεῖο, </l>
+                        <l n="445"><supplied reason="lost">ἤ ῥα κατ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">αἶ</supplied>σαν</seg>
+                            <supplied reason="lost">ἔειπον ἐν ὑμῖν, ἠὲ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >κα</supplied>ὶ</seg> οὐκί." </l>
+                        <l n="446">
+                            <supplied reason="lost">τὸν δ᾽ ἂρ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὑπόδ</supplied><unclear>ρ</unclear>α</seg>
+                            <seg type="word">ἰδ<supplied reason="lost">ὼν</supplied></seg>
+                            <supplied reason="lost">προσέφη</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >κρατε</supplied><unclear>ρ</unclear>ὸς</seg>
+                            <seg type="word">Διο<unclear>μ</unclear><supplied reason="lost"
+                                    >ήδ</supplied><unclear>η</unclear><supplied reason="lost"
+                                    >ς·</supplied></seg>
+                        </l>
+                        <l n="447"><supplied reason="lost">"μὴ δή μοι</supplied>
+                            <seg type="word"><unclear>φ</unclear><supplied reason="lost"
+                                    >ύξί</supplied><unclear>ν</unclear></seg> γε,
+                <seg
+                                type="word">Δό<unclear>λ</unclear><supplied reason="lost"
+                                    >ων</supplied></seg><supplied reason="lost"
+                                >, ἐμβάλλεο</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                        >θυμ</supplied><choice><sic>ῶ</sic><corr>ῷ</corr></choice></seg>, </l>
+                        <l n="448"><supplied reason="lost">ἐσθλά</supplied>
+                            <seg type="word"><supplied reason="lost">πε</supplied>ρ</seg>
+                            <seg type="word">ἀ<supplied reason="lost"
+                                >γγείλας</supplied></seg><supplied reason="lost"
+                                >, ἐπεὶ ἵκεο χεῖρας ἐς</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἁμ</supplied><unclear>ά</unclear>ς</seg>· </l>
+                        <l n="449"><supplied reason="lost">εἰ μὲν γάρ</supplied>
+                            <seg type="word"><unclear>κ</unclear>έ</seg>
+                            <seg type="word"><unclear>σ</unclear><supplied reason="lost"
+                                    >ε</supplied></seg>
+                            <supplied reason="lost">νῦν ἀπολύσομεν ἠὲ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >μεθῶμ</supplied><unclear>ε</unclear>ν</seg>· </l>
+                        <l n="450">
+                            <supplied reason="lost">ἦ τε καὶ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὕσ</supplied>τ<unclear>ε</unclear><supplied reason="lost"
+                                    >ρον</supplied></seg>
+                            <supplied reason="lost">εἶσθα θοὰς ἐπὶ νῆας Ἀχαιῶν</supplied>
+                        </l>
+                        <l n="451"><supplied reason="lost">ἠὲ διοπτεύσων ἢ ἐναντίβιον</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >πολεμίξω</supplied>ν</seg>· </l>
+                        <gap extent="3" reason="lost" unit="line"/>
+                        <l n="455">
+                            <seg type="word">ἁψάμενο<unclear>ς</unclear></seg>
+                            <supplied reason="lost">λίσσεσθαι, ὃ δ᾽ αὐχένα μέσσον ἔλασσε</supplied>
+                        </l>
+                        <l n="456">
+                            <seg type="word">φασγάν<unclear>ῳ</unclear></seg>
+                            <supplied reason="lost">ἀίξας, ἀπὸ δ᾽ ἄμφω κέρσε τένοντε·</supplied>
+                        </l>
+                        <l n="457">
+                            <seg type="word">φθεγγομέ<supplied reason="lost">νου</supplied></seg>
+                            <supplied reason="lost"
+                                >δ᾽ ἄρα τοῦ γε κάρη κονίῃσιν
+                ἐμίχθη.</supplied>
+                        </l>
+                        <l n="458"><seg type="word">το<unclear>ῦ</unclear></seg> δ᾽ ἀπὸ <seg
+                                type="word"><unclear>μ</unclear><supplied reason="lost"
+                                    >ὲν</supplied></seg>
+                            <supplied reason="lost">κτιδέην κυνέην κεφαλῆφιν ἕλοντο</supplied>
+                        </l>
+                        <l n="459">καὶ <seg type="word">κυνέ<unclear>η</unclear><supplied
+                                    reason="lost">ν</supplied></seg>
+                            <supplied reason="lost"
+                                >καὶ τόξα παλίντονα καὶ
+                δόρυ μακρόν·</supplied>
+                        </l>
+                        <l n="460">καὶ τά <seg type="word">τ<add n="correction" place="supralinear"
+                                    >γ</add>᾽</seg>
+                            <seg type="word">Ἀθ<unclear>η</unclear><supplied reason="lost"
+                                    >ναίῃ</supplied></seg>
+                            <supplied reason="lost">ληίτιδι δῖος Ὀδυσσεὺς</supplied>
+                        </l>
+                        <l n="461">⸏ὑψόσ᾽ <seg type="word">ἀνέσ<supplied reason="lost"
+                                    >χεθε</supplied></seg>
+                            <supplied reason="lost"
+                                >χειρὶ καὶ εὐχόμενος ἔπος
+                ηὔδα·</supplied>
+                        </l>
+                        <l n="462">"χαῖρε, θεά, <supplied reason="lost"
+                                >τοῖσδεσσι· σὲ γὰρ πρώτην ἐν
+                Ὀλύμπῳ</supplied>
+                        </l>
+                        <l n="463">πάντων <seg type="word"><unclear>ἀ</unclear><supplied
+                                    reason="lost">θανάτων</supplied></seg>
+                            <supplied reason="lost">ἐπιβωσόμεθ᾽. ἀλλὰ
+                καὶ</supplied>
+                            <seg type="word"><unclear>α</unclear><supplied reason="lost"
+                                    >ὖτ</supplied>ις</seg>
+                        </l>
+                        <l n="464">⸏<seg type="word">π<unclear>έ</unclear>μψον</seg>
+                            <seg type="word"><unclear>ἐ</unclear><supplied reason="lost"
+                                    >πὶ</supplied></seg>
+                            <supplied reason="lost">Θρῃκῶν ἀνδρῶν ἵππους τε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >κ</supplied><unclear>α</unclear>ὶ</seg> εὐνάς." </l>
+                        <l n="465">ὣς ἂρ᾽ <seg type="word">ἐφών<supplied reason="lost"
+                                    >ησεν</supplied></seg><supplied reason="lost"
+                                >, καὶ ἀπὸ ἕθεν ὑψόσ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀείρα</supplied><unclear>ς</unclear></seg>
+                        </l>
+                        <l n="466">θῆκεν <seg type="word">ἀ<unclear>ν</unclear><supplied
+                                    reason="lost">ὰ</supplied></seg>
+                            <supplied reason="lost"
+                                >μυρίκην· δέελον δ᾽ ἐπὶ
+                σῆμά τ᾽</supplied> ἔθηκεν, </l>
+                        <l n="467">
+                            <seg type="word">συ<unclear>μ</unclear>μάρψα<unclear>ς</unclear></seg>
+                            <supplied reason="lost">δόνακας μυρίκης τ᾽ ἐριθηλέας</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ὄζ</supplied><unclear>ο</unclear>υ<unclear>ς,</unclear></seg>
+                        </l>
+                        <l n="468">μὴ <sic>λάθ᾽οι</sic><note xml:lang="eng" resp="bh"
+                                    >The reading <foreign xml:lang="grc"
+                                >λάθ᾽οι?λάθ᾽ οἱ?</foreign> appears to be a scribal error.</note>
+                            <seg type="word">αὖ<supplied reason="lost">τις</supplied></seg>
+                            <supplied reason="lost">ἰόντε θοὴν διὰ νύκτα</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >μέλ</supplied><unclear>αι</unclear><supplied reason="lost"
+                                    >ναν.</supplied></seg>
+                        </l>
+                    </div>
+                    <div n="13" type="column">
+                        <l n="469"><supplied reason="lost">τὼ δὲ βάτην προτέρω διά τ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >ἔντε</supplied>α</seg> καὶ μέλαν
+              αἷμα· </l>
+                        <l n="470"><supplied reason="lost"
+                                >αἶψα δ᾽ ἐπὶ Θρῃκῶν ἀνδρῶν τέλος</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >ἷ</supplied>ξον</seg>              ἰόντες· </l>
+                        <l n="471"><supplied reason="lost">οἳ δ᾽ εὗδον καμάτῳ ἀδηκότες·</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >ἔντε</supplied>α</seg> δέ σφιν </l>
+                        <l n="472"><supplied reason="lost"
+                                >καλὰ παρ᾽ αὐτοῖσι χθονὶ κέκλιτο εὖ</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >κατ</supplied>ὰ</seg>
+              κόσμον </l>
+                        <l n="473"><supplied reason="lost"
+                                >τριστοιχί· παρὰ δέ σφιν ἑκάστῳ δίζυγες</supplied>
+                            <seg type="word"><supplied reason="lost">ἵ</supplied>πποι</seg>· </l>
+                        <l n="474">
+                            <supplied reason="lost"
+                                >Ῥῆσος δ᾽ ἐν μέσῳ εὗδε· παρ᾽ αὐτῷ δ᾽ ὠκέες</supplied>
+                            <seg type="word"><supplied reason="lost">ἵ</supplied>πποι</seg>
+                        </l>
+                        <l n="475"><supplied reason="lost">ἐξ ἐπιδιφριάδος πυμάτης ἱμᾶσι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >δέδεν</supplied><unclear>τ</unclear>ο</seg>· </l>
+                        <l n="476"><supplied reason="lost"
+                                >τὸν δ᾽ Ὀδυσεὺς προπάροιθεν ἰδὼν</supplied> Διομήδεϊ
+              δεῖξεν· </l>
+                        <l n="477"><supplied reason="lost"
+                                >"οὗτός τοι, Διόμηδες, ἀνήρ, οὗτοι δέ τοι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἵ</supplied><unclear>π</unclear>ποι</seg>, </l>
+                        <l n="478"><supplied reason="lost">οὓς νῶιν πίφαυσκε Δόλων ὃν</supplied>
+                            <seg type="word"><supplied reason="lost">ἐπέ</supplied>φνω<add
+                                    n="correction" place="supralinear">ο</add>μεν</seg> ἡμεῖς· </l>
+                        <l n="479"><supplied reason="lost">ἀλλ᾽ ἄγε δὴ πρόφερε</supplied>
+                            <seg type="word"><supplied reason="lost">κρατ</supplied>ερ<supplied
+                                    reason="lost">ὸν</supplied></seg>
+                            <supplied reason="lost">μένος·</supplied>
+                            <seg type="word"><supplied reason="lost"
+                            >οὐδ</supplied>έ</seg> τί σε χρὴ </l>
+                        <l n="480"><seg type="word"><supplied reason="lost"
+                                    >ἑ</supplied><unclear>σ</unclear>τάμε<unclear>ν</unclear><supplied
+                                    reason="lost">αι</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >μέ</supplied><unclear>λ</unclear>εον</seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >σὺν</supplied>τεύχε<supplied reason="lost"
+                                    >σιν</supplied></seg><supplied reason="lost"
+                                >, ἀλλὰ λύ᾽</supplied>
+                            <seg type="word">ἵ<unclear>ππ</unclear>ους</seg>. </l>
+                        <l n="481">⸏<seg type="word"><supplied reason="lost"
+                                >ἠ</supplied>ύ</seg> γ᾽ <seg type="word">ἄνδρ<supplied reason="lost"
+                                    >ας</supplied></seg>
+                            <seg type="word">ἔν<unclear>αι</unclear>ρ<supplied reason="lost"
+                                    >ε,</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >με</supplied>λή<unclear>σ</unclear>ουσιν</seg> δ᾽ <seg
+                                type="word"><unclear>ἐ</unclear><supplied reason="lost"
+                                    >μοὶ</supplied></seg>
+                            <seg type="word"><supplied reason="lost">ἵππ</supplied>οι</seg>." </l>
+                        <l n="482"><seg type="word"
+                                ><unclear>ὣ</unclear>ς</seg> φάτο, τῷ <unclear>δ᾽</unclear>
+                            <seg type="word">ἔ<add place="supralinear"
+                                    >μ</add><unclear>πν</unclear>ε<unclear>υ</unclear><supplied
+                                    reason="lost">σε</supplied></seg>
+                            <seg type="word"><unclear>μ</unclear>ένος</seg>
+                            <seg type="word">γλαυκ<supplied reason="lost">ῶπις</supplied></seg>
+                            <seg type="word"><supplied reason="lost">Ἀθ</supplied>ήνη</seg>· </l>
+                        <l n="483"><seg type="word"><unclear>κ</unclear>τεῖνε</seg> δ᾽· <seg
+                                type="word">ἐπιστροφ<unclear>ά</unclear><supplied reason="lost"
+                                    >δη</supplied>ν</seg>· τῶν δὲ <seg type="word"
+                                    >σ<del>θε</del><add n="correction" place="supralinear"
+                                    >τό</add><unclear>ν</unclear>ος</seg>
+                            <seg type="word">ὤρνυ<unclear>τ᾽</unclear></seg> ἀεικὴς </l>
+                        <l n="484"><seg type="word"><supplied reason="lost"
+                                    >ἄ</supplied><unclear>ο</unclear>ρι</seg> θεινομένων·
+                <seg
+                                type="word">ἐ<unclear>ρ</unclear><supplied reason="lost"
+                                    >υθα</supplied>ίνετο</seg> δ᾽ <seg type="word">αἵμ<supplied
+                                    reason="lost">ατι</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >γαῖ</supplied><unclear>α.</unclear></seg>
+                        </l>
+                        <l n="485"><supplied reason="lost"
+                                >ὡς</supplied> δὲ λέων
+                <seg type="word"
+                                    >μήλοισ<unclear>ι</unclear><supplied reason="lost"
+                                >ν</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀσ</supplied>ημάντο<unclear>ι</unclear><supplied reason="lost"
+                                    >σιν</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἐπελ</supplied><unclear>θὼ</unclear>ν</seg>, </l>
+                        <l n="486"><seg type="word"><supplied reason="lost"
+                                >αἴ</supplied>γεσιν</seg> ἢ ὀΐεσσι, <seg type="word"
+                                    >κακ<unclear>ὰ</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >φρο</supplied><unclear>νέ</unclear>ων</seg>
+                            <seg type="word">ἐ<unclear>ν</unclear><supplied reason="lost"
+                                    >ορούσῃ,</supplied></seg>
+                        </l>
+                        <l n="487"><seg type="word"><supplied reason="lost"
+                                >ὣ</supplied>ς</seg> μὲν Θρήϊκας <seg type="word">ἄ<supplied
+                                    reason="lost">νδρας</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἐ</supplied><unclear>πώ</unclear><supplied reason="lost"
+                                    >ιχετο</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >Τυδέ</supplied><unclear>ο</unclear>ς</seg> υἱὸς, </l>
+                        <l n="488"><seg type="word"><supplied reason="lost"
+                                    >ὄ</supplied><unclear>φ</unclear>ρα</seg> δυώδεκ᾽
+                <seg
+                                type="word">ἔπε<supplied reason="lost"
+                                >φνεν</supplied></seg><supplied reason="lost">. ἀτὰρ</supplied>
+                            <seg type="word"><unclear>πολ</unclear><supplied reason="lost"
+                                    >ύμη</supplied>τις</seg>
+                            <seg type="word"><supplied reason="lost">Ὀ</supplied>δυσσεύς</seg>, </l>
+                        <l n="489"><seg type="word"><supplied reason="lost"
+                                    >ὅ</supplied><unclear>ν</unclear></seg>
+                            <seg type="word">τ<del>ε</del>ινα
+</seg>              Τυδείδης <supplied
+                                reason="lost">ἄορι πλήξειε</supplied>
+                            <seg type="word"
+                            ><unclear>παρ</unclear>α<unclear>σ</unclear>τάς</seg>, </l>
+                        <l n="490"><seg type="word"><supplied reason="lost"
+                                >τ</supplied>ὸν</seg> δ᾽ Ὀδυσεὺς
+                <seg type="word"
+                                    >μ<unclear>ε</unclear><supplied reason="lost"
+                                >τόπισθε</supplied></seg>
+                            <supplied reason="lost">λαβὼν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >π</supplied>οδὸ<unclear>ς</unclear></seg>
+                            <seg type="word"><unclear>ἐ</unclear>ξερύσασκε</seg>, </l>
+                        <l n="491"><supplied reason="lost">τὰ</supplied>
+                            <seg type="word"><unclear>φρ</unclear>ονέων</seg> κατὰ <seg type="word"
+                                    ><unclear>θ</unclear><supplied reason="lost"
+                                >υμὸν</supplied></seg><supplied reason="lost">, ὅπως</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >καλλί</supplied>τριχ<unclear>ες</unclear></seg> ἵπποι </l>
+                        <l n="492"><supplied reason="lost">ῥεῖα</supplied> διέλθοιεν· <seg
+                                type="word">μη<supplied reason="lost">δὲ</supplied></seg>
+                            <supplied reason="lost">τρομεοίατο</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >θ</supplied><unclear>υ</unclear>μῷ</seg>
+                        </l>
+                        <l n="493"><seg type="word"><supplied reason="lost"
+                                    >ν</supplied>εκ<unclear>ρ</unclear>ο<del>υ</del><add
+                                    n="correction" place="supralinear">ῖ</add>ς</seg>
+                            <seg type="word">ἐμβαίνον<unclear>τ</unclear><supplied reason="lost"
+                                    >ες·</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἀήθ</supplied><unclear>ε</unclear>σσο<unclear>ν</unclear></seg>
+                            <seg type="word"><supplied reason="lost"
+                            >γὰ</supplied>ρ</seg> ἔτ᾽ αὐτῶν. </l>
+                        <l n="494"><seg type="word"><unclear>ἀ</unclear>λλ᾽</seg>
+                            <seg type="word">ὅτ<unclear>ε</unclear></seg> δὴ βασιλῆα <seg
+                                type="word"><supplied reason="lost">κιχήσα</supplied>το</seg>
+                            <seg type="word">Τυδέ<supplied reason="lost"
+                                    >ο</supplied><unclear>ς</unclear></seg> υἱός, </l>
+                        <l n="495"><seg type="word"><supplied reason="lost">τ</supplied>ὸν</seg>
+                            <seg type="word"
+                                    >τ<unclear>ρ</unclear>ισ<unclear>κα</unclear>ιδέκατο<unclear>ν</unclear></seg>
+                            <supplied reason="lost">μελιηδέα</supplied> θυμὸν ἀπηύρα </l>
+                        <l n="496"><seg type="word"><supplied reason="lost"
+                                    >ἀ</supplied>σ<unclear>θ</unclear>μαίνοντ<del>ε</del><add
+                                    n="correction" place="supralinear">α·</add></seg>
+                            <seg type="word">κα<unclear>κ</unclear><supplied reason="lost"
+                                    >ὸ</supplied><unclear>ν</unclear></seg>
+                            <seg type="word"><unclear>γὰ</unclear><supplied reason="lost"
+                                    >ρ</supplied></seg>
+                            <seg type="word"><supplied reason="lost">ὄν</supplied>αρ</seg>
+                            <seg type="word">κ<supplied reason="lost"
+                                    >ε</supplied>φαλ<unclear>ῆ</unclear>φιν</seg> ἐπέστηι </l>
+                        <l n="497"><seg type="word"><supplied reason="lost"
+                                >τ</supplied>ὴν</seg> νύκτ᾽ Οἰνείδαο <seg type="word"
+                                    ><unclear>π</unclear>άϊς</seg>
+                            <seg type="word"><unclear>δ</unclear><supplied reason="lost"
+                                    >ι</supplied><unclear>ὰ</unclear></seg> μῆτιν
+              Ἀθήνης. </l>
+                        <l n="498"><seg type="word"><supplied reason="lost"
+                                    >τ</supplied>όφρ<unclear>α</unclear></seg> δ᾽ ἂρ᾽ ὃ
+                <seg
+                                type="word">τ<unclear>λή</unclear>μων</seg> Ὀδυσσεὺς λύε <seg
+                                type="word">μώ<unclear>ν</unclear>υχας</seg> ἵππους, </l>
+                        <l n="499"><seg type="word"><unclear>σ</unclear>ὺν</seg>
+                            <unclear>δ᾽</unclear> ἤειρεν <seg type="word"><supplied reason="lost"
+                                    >ἱ</supplied>μᾶσι</seg> καὶ ἐξήλαυνεν <seg type="word"><supplied
+                                    reason="lost">ὁ</supplied><unclear>μ</unclear><add
+                                    place="supralinear">ε</add>ίλου</seg>
+                        </l>
+                        <l n="500"><seg type="word"><unclear>τ</unclear>όξῳ</seg>
+                            <seg type="word"
+                                >ἐπιπλήσ<unclear>σ</unclear>ων</seg>·
+                <seg
+                                type="word">ἐπ<unclear>ε</unclear><supplied reason="lost"
+                                    >ὶ</supplied></seg>
+                            <unclear>οὐ</unclear>
+                            <seg type="word">μάστ<unclear>ιγ</unclear><supplied reason="lost"
+                                    >α</supplied></seg>
+                            <seg type="word"><supplied reason="lost">φ</supplied>αεινὴν</seg>
+                        </l>
+                        <l n="501">ποικίλου ἐκ δίφροιο <seg type="word">νοή<supplied reason="lost"
+                                    >σ</supplied>ατο</seg> χερσὶν
+              ἑλέσθαι· </l>
+                        <l n="502"><seg type="word"
+                                ><unclear>ῥ</unclear>οίζησεν</seg> δ᾽ ἄρα
+                <seg
+                                type="word"
+                            >πιφ<unclear>ρ</unclear>αύσκ<unclear>ω</unclear>ν</seg> Διομήδεϊ δίῳ· </l>
+                        <l n="503">αὐτὰρ ὃ μερμήριξε <seg type="word"
+                                ><unclear>μ</unclear>ένων</seg> ὅ <seg type="word">τ<del>ε</del><add
+                                    n="correction" place="supralinear">ι</add></seg> κύντερον <seg
+                                type="word">ἔ<del>υ</del><add n="correction" place="supralinear"
+                                    >ρ</add>δοι</seg>· </l>
+                        <l n="504">ἢ ὅ γε δίφρον ἑλών, ὅθι <seg type="word">τ<add n="correction"
+                                    place="supralinear">π</add>ο<supplied reason="lost"
+                                >ι</supplied></seg>
+                            <seg type="word"><unclear>κ</unclear><del>α</del><add n="correction"
+                                    place="supralinear">ι</add>λα
+                <note
+                                    xml:lang="eng" resp="bh">The reading <foreign xml:lang="grc"
+                                        >τοι
+                  καλα</foreign>, which is unmetrical, has been corrected to <foreign
+                                        xml:lang="grc"
+                            >ποικίλα</foreign>.</note></seg> τεύχε᾽ ἔκειτο, </l>
+                        <l n="505">ῥυμοῦ <seg type="word">ἐξερ<sic>έ</sic><add n="correction"
+                                    place="supralinear"
+                                >οι</add>οι</seg> ἢ
+              ἐκφέροι <seg type="word"
+                                    ><unclear>ὑ</unclear><supplied reason="lost"
+                                >ψό</supplied>σ᾽</seg> ἀείρας, </l>
+                        <l n="506">ἦ ἔτι τῶν <seg type="word"><supplied reason="lost"
+                                    >π</supplied><unclear>λ</unclear>εόνων</seg>
+                            <seg type="word">Θρ<supplied reason="lost"
+                                    >ῃκῶ</supplied><unclear>ν</unclear></seg> ἀπὸ θυμὸν
+                <seg
+                                type="word">ἕλοιτ<unclear>ο. </unclear></seg>
+                        </l>
+                        <l n="507">⸏ὡς ὃ ταῦθ᾽ ὥρμαινε κατὰ <seg type="word">φ<supplied
+                                    reason="lost"
+                            >ρέν</supplied>α</seg>· τόφρα δ᾽
+              Ἀθήνη </l>
+                        <l n="508">⸏ἐγγύθεν ἱσταμένη προσέφη Διομήδεα δῖον· </l>
+                        <l n="509">"νόστου δὴ μνῆσαι μεγαθύμου Τυδέος υἱὲ </l>
+                    </div>
+                    <div n="14" type="column">
+                        <l n="510">
+                            <seg type="word"><supplied reason="lost"
+                                    >ν</supplied>ῆα<unclear>ς</unclear></seg>
+                            <seg type="word">
+                                <unclear>ἔπ</unclear>
+                                <supplied reason="lost">ι</supplied>
+                            </seg>
+                            <supplied reason="lost">γλαφυράς, μὴ καὶ πεφοβημένος ἔλθῃς, </supplied>
+                        </l>
+                        <l n="511">⸏μή <seg type="word">π<supplied reason="lost">ού</supplied></seg>
+                            <supplied reason="lost"
+                                >τις καὶ Τρῶας ἐγείρῃσιν θεὸς ἄλλος."
+              </supplied>
+                        </l>
+                        <l n="512">
+                            <unclear>ὣς</unclear>
+                            <supplied reason="lost"
+                                > φάθ᾽, ὃ δὲ ξυνέηκε θεᾶς ὄπα φωνησάσης, </supplied>
+                        </l>
+                        <gap extent="6" reason="lost" unit="line"/>
+                        <l n="519">
+                            <supplied reason="lost">Ῥήσου ἀνεψιὸν</supplied>
+                            <seg type="word"><supplied reason="lost">ἐσθλ</supplied><unclear>όν·</unclear></seg>
+                            <supplied reason="lost">ὃ δ᾽ ἐξ ὕπνου ἀνορούσας </supplied>
+                        </l>
+                        <l n="520"><supplied reason="lost">ὡς ἴδε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >χ</supplied><unclear>ῶ</unclear>ρον</seg>
+                            <seg type="word"><unclear>ἐ</unclear><supplied reason="lost"
+                                    >ρ</supplied><unclear>ῆμ</unclear>ον</seg>,
+                <seg
+                                type="word">ὅ<supplied reason="lost">θ᾽</supplied></seg>
+                            <supplied reason="lost">ἕστασαν ὠκέες ἵπποι, </supplied>
+                        </l>
+                        <l n="521"><seg type="word"><supplied reason="lost"
+                                    >ἄνδ</supplied><unclear>ράς</unclear></seg> τ᾽ ἀσπαίροντας
+              ἐν <seg
+                                type="word"><unclear>ἀρ</unclear><supplied reason="lost"
+                                    >γαλέῃσι</supplied></seg>
+                            <supplied reason="lost">φονῇσιν, </supplied>
+                        </l>
+                        <l n="522"><seg type="word"><supplied reason="lost"
+                                >ᾤμ</supplied>ωξέν</seg> τ᾽ ἄρ᾽ ἔπειτα φίλον <unclear>τ᾽</unclear>
+                            <supplied reason="lost">ὀνόμηνεν ἑταῖρον. </supplied>
+                        </l>
+                        <l n="523"><seg type="word"><supplied reason="lost"
+                                >Τρ</supplied>ώων</seg> δὲ κλαγγή τε καὶ <seg type="word">ἄ<supplied
+                                    reason="lost">σπετος</supplied></seg>
+                            <supplied reason="lost">ὦρτο κυδοιμὸς </supplied>
+                        </l>
+                        <l n="524"><seg type="word"><supplied reason="lost"
+                                >θυ</supplied>νόντων</seg>
+                            <seg type="word">ἄ<gap extent="2" unit="character"
+                                    /><note xml:lang="eng" resp="al"
+                                        >There appears to be a
+                hole in the papyrus here in its original form, and thus the scribe skipped over this
+                space (<bibl>Maehler, Müller, Poethke: 26</bibl>).</note>μυδις</seg>· <seg
+                                type="word">θ<supplied reason="lost">ηεῦντο</supplied></seg>
+                            <supplied reason="lost">δὲ μέρμερα</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἔργ</supplied><unclear>α</unclear>
+                            </seg>
+                        </l>
+                        <l n="525"><supplied reason="lost">ὅσσ᾽</supplied>
+                            <seg type="word"><unclear>ἄ</unclear>νδρες</seg>
+                            <seg type="word">ῥέ<unclear>ξ</unclear>αντες</seg> ἔβαν <seg type="word"
+                                    ><supplied reason="lost">κοίλα</supplied>ς</seg>
+                            <seg type="word">ἐπ<supplied reason="lost">ὶ</supplied></seg>
+                            <seg type="word"><supplied reason="lost"
+                                    >ν</supplied><unclear>ῆ</unclear>ας</seg>· </l>
+                        <l n="526"><seg type="word"><supplied reason="lost"
+                                    >οἳ</supplied><unclear>δ᾽</unclear></seg>
+                            <seg type="word"><unclear>ὅτ</unclear>ε</seg> δή ῥ᾽
+                <seg
+                                type="word">ἵ<unclear>κα</unclear>νον</seg> ὅθι <seg type="word"
+                                    >σκο<unclear>π</unclear><supplied reason="lost"
+                                >ὸ</supplied>ν</seg>
+                            <seg type="word">Ἕκτο<unclear>ρ</unclear><supplied reason="lost"
+                                    >ο</supplied>ς</seg>
+                            <seg type="word">ἔκτα<unclear>ν, </unclear></seg>
+                        </l>
+                        <l n="527"><supplied reason="lost">ἔνθ᾽</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >Ὀδυσ</supplied>εὺ<unclear>ς</unclear></seg> μὲν ἔρυκε
+              Διῒ φίλος <seg
+                                type="word">ὠ<supplied reason="lost">κέα</supplied>ς</seg>
+                            <seg type="word">ἵππου<supplied reason="lost">ς·</supplied></seg>
+                        </l>
+                        <l n="528"><supplied reason="lost">Τυδείδης δὲ</supplied>
+                            <seg type="word"><supplied reason="lost">χ</supplied>αμ<supplied
+                                    reason="lost"
+                                >ᾶ</supplied>ζ<unclear>ε</unclear></seg> θορὼν ἔναρα <seg
+                                type="word"><supplied reason="lost">βροτ</supplied>όωντα</seg>
+                        </l>
+                        <l n="529"><supplied reason="lost">ἐν χείρεσσ᾽ Ὀδυσῆι</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >τί</supplied><unclear>θ</unclear>ει</seg>, <seg type="word"
+                                    >ἐπε<supplied reason="lost">βήσετο</supplied></seg>
+                            <supplied reason="lost">δ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">ἵπ</supplied>πων</seg>· </l>
+                        <l n="530"><supplied reason="lost">μάστιξεν δ᾽ ἵππους, τὼ δ᾽</supplied>
+                            <unclear>οὐκ</unclear>
+                            <supplied reason="lost">ἀέκοντε</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >πετέσ</supplied><unclear>θ</unclear>ην</seg>· </l>
+                        <gap extent="4" reason="lost" unit="line"/>
+                        <l n="535">
+                            <supplied reason="lost">ἵππων μ᾽</supplied>
+                            <seg type="word"><unclear>ὠ</unclear>κ<supplied reason="lost"
+                                    >υπόδων</supplied></seg>
+                            <supplied reason="lost">ἀμφὶ κτύπος οὔατα βάλλει. </supplied>
+                        </l>
+                        <l n="536">
+                            <supplied reason="lost">αἲ γὰρ δὴ</supplied>
+                            <seg type="word"><supplied reason="lost">Ὀ</supplied>δυ<supplied
+                                    reason="lost">σεύς</supplied></seg>
+                            <supplied reason="lost">τε καὶ ὃ κρατερὸς Διομήδης </supplied>
+                        </l>
+                        <l n="537">
+                            <supplied reason="lost">ὧδ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">ἄφα</supplied>ρ</seg>
+                            <unclear>ἐκ</unclear>
+                            <supplied reason="lost">Τρώων ἐλασαίατο μώνυχας ἵππους· </supplied>
+                        </l>
+                        <l n="538">
+                            <seg type="word">ἀ<unclear>λλ᾽</unclear></seg>
+                            <seg type="word"><supplied reason="lost">αἰ</supplied>νῶς</seg>
+                            <seg type="word"><unclear>δ</unclear><supplied reason="lost">είδοικα</supplied></seg>
+                            <supplied reason="lost"
+                                >κατὰ φρένα μή τι πάθωσιν
+              </supplied>
+                        </l>
+                        <l n="539"><seg type="word"
+                                ><unclear>Ἀ</unclear>ργε<unclear>ί</unclear>ων</seg> οἳ
+                <seg
+                                type="word"><unclear>ἄρ</unclear><supplied reason="lost"
+                                    >ιστοι</supplied></seg>
+                            <supplied reason="lost">ὑπὸ Τρώων ὀρυμαγδοῦ. </supplied>
+                        </l>
+                        <l n="540"><seg type="word"><unclear>ο</unclear>ὔ</seg> πω πᾶν <seg
+                                type="word"><unclear>ε</unclear><supplied reason="lost"
+                                    >ἴρητο</supplied></seg>
+                            <supplied reason="lost">ἔπος ὅτ᾽ ἄρ᾽ ἤλυθον αὐτοί. </supplied>
+                        </l>
+                        <l n="541"><seg type="word"><unclear>κ</unclear>αί</seg> ῥ᾽ οἳ μὲν <seg
+                                type="word"><unclear>κ</unclear><supplied reason="lost"
+                                    >ατέβησαν</supplied></seg>
+                            <supplied reason="lost">ἐπὶ χθόνα, τοὶ δὲ χαρέντες </supplied>
+                        </l>
+                        <l n="542">⸏δεξιῇ <seg type="word"
+                                    >ἠ<unclear>σ</unclear>π<unclear>ά</unclear><supplied
+                                    reason="lost">ζοντο</supplied></seg>
+                            <supplied reason="lost">ἔπεσσί τε μειλιχίοισι· </supplied>
+                        </l>
+                        <l n="543"><unclear>⸏</unclear><seg type="word"><supplied reason="lost"
+                                    >πρ</supplied>ῶτος</seg> δ᾽ <seg type="word">ἐ<supplied
+                                    reason="lost">ξερέεινε</supplied></seg>
+                            <supplied reason="lost">Γερήνιος ἱππότα Νέστωρ· </supplied>
+                        </l>
+                        <l n="544"><seg type="word"
+                                >"εἴ<unclear>π᾽</unclear></seg> ἄγε μ᾽ <unclear>ὦ</unclear>
+                            <seg type="word"><unclear>π</unclear><supplied reason="lost"
+                                    >ολύαιν᾽</supplied></seg>
+                            <supplied reason="lost">Ὀδυσεῦ μέγα κῦδος Ἀχαιῶν </supplied>
+                        </l>
+                        <l n="545"><seg type="word">ὅππ<unclear>ως</unclear></seg> τοῦσδ᾽ <supplied
+                                reason="lost"
+                                >ἵππους λάβετον
+                καταδύντες ὅμιλον </supplied>
+                        </l>
+                        <l n="546"><seg type="word"><unclear>Τ</unclear><supplied reason="lost"
+                                    >ρώ</supplied>ων,</seg>
+                            <unclear>ἦ</unclear> τί <seg type="word">σφω<unclear>ε</unclear></seg>
+                            <supplied reason="lost"
+                                >πόρεν θεὸς
+                ἀντιβολήσας. </supplied>
+                        </l>
+                        <l n="547">αἰνῶς <seg type="word">ἀκτί<unclear>νε</unclear>σ<supplied
+                                    reason="lost">σιν</supplied></seg>
+                            <supplied reason="lost">ἐοικότες ἠελίοιο.
+              </supplied>
+                        </l>
+                        <l n="548">αἰεὶ μὲν <seg type="word"><unclear>Τ</unclear><supplied
+                                    reason="lost">ρώ</supplied>ε<unclear>σ</unclear><supplied
+                                    reason="lost">σ᾽</supplied></seg>
+                            <supplied reason="lost"
+                                >ἐπιμίσγομαι, οὐδέ τί
+                φημι </supplied>
+                        </l>
+                    </div>
+                    <div n="15" type="column">
+                        <gap extent="8" reason="lost" unit="line"/>
+                        <l n="557">
+                            <seg type="word">ἵ<unclear>π</unclear><supplied reason="lost"
+                                    >πους</supplied></seg>
+                            <supplied reason="lost"
+                                >δωρήσαιτ᾽, ἐπεὶ ἢ πολὺ
+                φέρτεροί εἰσιν. </supplied>
+                        </l>
+                        <l n="558">
+                            <seg type="word">ἵπ<unclear>π</unclear><supplied reason="lost"
+                                    >οι</supplied></seg>
+                            <supplied reason="lost">δ᾽ οἷδε γεραιὲ</supplied>
+                            <seg type="word"><supplied reason="lost">νε</supplied>ήλυ<supplied
+                                    reason="lost">δ</supplied><unclear>ε</unclear><supplied
+                                    reason="lost">ς</supplied></seg>
+                            <supplied reason="lost">οὓς ἐρεείνεις </supplied>
+                        </l>
+                        <l n="559">
+                            <seg type="word">Θρ<unclear>η</unclear><supplied reason="lost"
+                                    >ίκιοι</supplied></seg>
+                            <supplied reason="lost">· τὸν δέ σφιν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἄ</supplied><unclear>ν</unclear>ακτ᾽</seg>
+                            <seg type="word">ἀγ<supplied reason="lost">αθὸς</supplied></seg>
+                            <supplied reason="lost">Διομήδης
+              </supplied>
+                        </l>
+                        <l n="560">
+                            <seg type="word">ἔκ<supplied reason="lost">τ</supplied>αν<supplied
+                                    reason="lost">ε</supplied></seg>
+                            <supplied reason="lost">, πὰρ δ᾽</supplied>
+                            <seg type="word"><supplied reason="lost">ἑτάρο</supplied>υς</seg>
+                            <seg type="word">δυ<del>ω</del><add n="correction" place="supralinear"
+                                    >ο</add>κ<supplied reason="lost">αίδεκα</supplied></seg>
+                            <supplied reason="lost">πάντας ἀρίστους. </supplied>
+                        </l>
+                        <l n="561">
+                            <seg type="word">τὸ<unclear>ν</unclear></seg>
+                            <seg type="word">τρ<unclear>ι</unclear><supplied reason="lost"
+                                    >σ</supplied>κ<supplied reason="lost">αιδέκατον</supplied></seg>
+                            <seg type="word"><unclear>σ</unclear>κοπὸν</seg>
+                            <seg type="word">εἵ<supplied reason="lost"
+                                    >λομε</supplied><unclear>ν</unclear></seg>
+                            <supplied reason="lost">ἐγγύθι νηῶν, </supplied>
+                        </l>
+                        <l n="562">τόν <supplied reason="lost">ῥα</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >δ</supplied><unclear>ι</unclear>οπτῆρα</seg>
+                            <seg type="word"><supplied reason="lost">στρ</supplied>ατοῦ</seg>
+                            <seg type="word">ἔμμ<supplied reason="lost">εναι</supplied></seg>
+                            <seg type="word">ἡμε<supplied reason="lost">τέρ</supplied>οιο</seg>
+                        </l>
+                        <l n="563"> ⸏<seg type="word">Ἕκτ<unclear>ω</unclear><supplied reason="lost"
+                                    >ρ</supplied></seg> δὲ
+                <seg type="word"
+                                    >προέ<unclear>η</unclear><supplied reason="lost"
+                                    >κ</supplied><unclear>ε</unclear></seg> καὶ
+              ἄλλοι <seg
+                                type="word">Τ<supplied reason="lost">ρῶ</supplied>ες</seg>
+                            <seg type="word">ἀγα<supplied reason="lost"
+                                    >υοί."
+              </supplied></seg>
+                        </l>
+                        <l n="564">ὣς εἰπὼν <seg type="word"
+                                >τάφρο<unclear>ι</unclear>ο</seg> διήλασε <seg type="word"
+                                    >μώ<unclear>νυ</unclear>χας</seg>
+                            <seg type="word">ἵ<unclear>ππ</unclear>ους</seg>
+                        </l>
+                        <l n="565"><seg type="word">καν<add n="correction" place="supralinear"
+                                    >γ</add>χαλόω<unclear>ν·</unclear></seg>
+              ἅμα δ᾽ ἄλλοι ἴσαν χαίροντες <seg
+                                type="word">Ἀχα<unclear>ιοί. </unclear></seg>
+                        </l>
+                        <l n="566"><seg type="word"><unclear>ο</unclear>ἳ</seg> δ᾽ ὅτε <seg
+                                type="word"><supplied reason="lost"
+                                    >Τυδεί</supplied><unclear>δ</unclear>εω</seg>
+                            <seg type="word">κλισί<supplied reason="lost"
+                                    >η</supplied><unclear>ν</unclear></seg>
+                            <seg type="word">εὔτυκ<unclear>τον</unclear></seg>
+                            <seg type="word"><unclear>ἵ</unclear>κοντο</seg>· </l>
+                        <l n="567">
+                            <seg type="word"><supplied reason="lost">ἵ</supplied>π<supplied
+                                    reason="lost">πους</supplied></seg>
+                            <supplied reason="lost">μὲν</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >κα</supplied><unclear>τ</unclear>έδη<supplied reason="lost"
+                                    >σαν</supplied></seg>
+                            <seg type="word">ἐϋτ<unclear>μ</unclear><supplied reason="lost"
+                                    >ήτοισι</supplied><unclear>ν</unclear></seg>
+                            <seg type="word">ἱμᾶσ<supplied reason="lost">ι </supplied></seg>
+                        </l>
+                        <l n="568">
+                            <supplied reason="lost">φάτνῃ ἐφ᾽ ἱππείῃ,</supplied>
+                            <seg type="word"><supplied reason="lost">ὅ</supplied><unclear>θ</unclear><supplied reason="lost">ι</supplied></seg>
+                            <supplied reason="lost">περ Διομήδεος</supplied>
+                            <seg type="word"><supplied reason="lost"
+                                    >ἵπ</supplied><unclear>π</unclear>οι </seg>
+                        </l>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

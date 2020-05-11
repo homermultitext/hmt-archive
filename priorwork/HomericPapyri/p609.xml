@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad P 609 (P. Mich. 6972)</title>
+				<editor>
+					<name xml:id="al">Alexander Loney</name>
+				</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new edition, with semantic markup, punctuation, accentuation, emendation,
+					and notes.</edition>
+				<respStmt>
+					<name>Alexander Loney, ed.</name>
+					<resp>after the edition of Edwards, A.T. P. Mich, 6972: An Eccentric Papyrus of
+						Iliad K 421-34, 445-60, ZPE 56 (1984), 11-15.</resp>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher>
+					The Center for Hellenic Studies of Harvard University
+				</publisher>
+				<authority>
+					<name>Casey Dué and Mary Ebbott, edd.</name>
+				</authority>
+				<availability>
+					<p>©2009, The Center for Hellenic Studies. This work is made available under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="eng">English</language>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+				<language ident="xgrc">Transliterated Greek</language>
+				<language ident="deu">German</language>
+				<language ident="fra">French</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div n="date" type="description" xml:lang="eng">
+				<head>Date</head>
+				<p>2nd century BC (<bibl>Edwards, 11</bibl>)</p>
+			</div>
+			<div n="provenance" type="description" xml:lang="eng">
+				<head>Provenance</head>
+				<p>Egypt, unknown</p>
+			</div>
+			<div n="bibliography" type="description" xml:lang="eng">
+				<head>Bibliography</head>
+				<list>
+					<item>
+						<bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim:
+							Olms.</bibl>
+					</item>
+					<item>
+						<bibl>Edwards, A.T. 1984. P. Mich, 6972: An Eccentric Papyrus of Iliad K
+							421-34, 445-60, ZPE 56, 11-15.</bibl>
+					</item>
+					<item>
+						<bibl>Photograph from Institut de Papyrologie de la Sorbonne:
+							http://www.papyrologie.paris4.sorbonne.fr/photos/1020830.jpg</bibl>
+					</item>
+				</list>
+			</div>
+			<div n="catalogues" type="description" xml:lang="eng">
+				<head>Catalogue entries</head>
+				<list>
+					<item>Mertens-Pack 864.1</item>
+					<item>LDAB 2350</item>
+					<item>Allen-Sutton-West p609</item>
+				</list>
+			</div>
+			<div n="text" type="edition" xml:lang="grc">
+				<head xml:lang="eng">Iliad P 609</head>
+				<div n="10" type="book">
+					<div n="1" type="frag">
+						<div n="1" type="col">
+							<l n="421"><supplied reason="lost">εὕδουσι, Τρωσὶν</supplied>
+								<seg type="word">γ<unclear>ὰρ</unclear></seg>
+								<seg type="word"><unclear>ἐ</unclear>πιτρωπωσι</seg> φυλάσσειν· </l>
+							<l n="422"><supplied reason="lost">οὐ γάρ σφιν</supplied>
+								<seg type="word">
+									<supplied reason="lost">πα</supplied>
+									<unclear>ῖδε</unclear>
+									<supplied reason="lost">ς</supplied>
+								</seg>
+								<seg type="word"><unclear>σχεδ</unclear>ὸν</seg> εἵαται οὐδὲ
+								γυναῖκες. </l>
+							<l n="423"><supplied reason="lost">τὸν δ᾽ ἠμείβετ᾽</supplied>
+								<seg type="word"><unclear>ἔ</unclear><supplied reason="lost">πει</supplied><unclear>τ</unclear>α</seg> 
+								πολύτας Ὀδυσσεύς· </l>
+							<l n="424"><supplied reason="lost">πῶς γὰρ νῦν,</supplied>
+								<seg type="word"><supplied reason="lost">Τρώ</supplied><unclear>ε</unclear>σσ<unclear>ι</unclear></seg>
+								<seg type="word"><unclear>μ</unclear>εμ<sic>ε</sic>ιγμένοι</seg> ἱπποδάμοισιν </l>
+							<l n="425"><supplied reason="lost">εὕδουσ᾽ ἦ ἀπάνευθε; τό</supplied>
+								<seg type="word"><supplied reason="lost">μο</supplied>ι</seg> νημερτὲς 
+								ἔνισπε. <note resp="al" xml:lang="eng">The supplement here
+									is L. Koenen's (<bibl>Edwards 1984, 13</bibl>).</note>
+							</l>
+							<l n="426"><supplied reason="lost">τὸν δ᾽ ἠμείβετ᾽ ἔπειτα</supplied>
+								<seg type="word"><supplied reason="lost">Δό</supplied>λων</seg> 
+								κατὰ 
+								<seg type="word">δακρυ<supplied reason="lost">ο</supplied><unclear>ν</unclear></seg>
+								<supplied reason="lost">εἴβων·</supplied>
+							</l>
+							<l n="427"><supplied reason="lost">τοιγὰρ ἐγὼ καὶ ταῦτα</supplied> μάλ᾽
+								ἀτρεκέως 
+								<seg type="word">καταλ<supplied reason="lost"
+								>έ</supplied>ξω</seg>. </l>
+							<l n="428"><supplied reason="lost">πρὸς μὲν ἁλὸς Κᾶρες</supplied>
+								<seg type="word"><supplied reason="lost">κ</supplied>αὶ</seg>
+								Παίονες ἀγκυλότοξοι </l>
+							<l n="429"><supplied reason="lost">καὶ Λέλεγες καὶ</supplied>
+								<seg type="word"><supplied reason="lost">Καύκ</supplied>ωνες</seg> 
+								δῖοί τε Πελασγοί, </l>
+							<l n="430"><supplied reason="lost">πρὸς Θύμβρης δ᾽</supplied>
+								<seg type="word"><supplied reason="lost">ἔλαχο</supplied>ν</seg>
+								Λύκιοι Μυσοί τ᾽ ἀγέρωχοι </l>
+							<l n="431"><supplied reason="lost">καὶ Φρύγες</supplied>
+								<seg type="word">
+									<supplied reason="lost">ἱππόμαχο</supplied>
+									<unclear>ι</unclear>
+								</seg>
+								<seg type="word"><supplied reason="lost">κ</supplied>αὶ</seg>
+								<seg type="word">Μ<sic>ή</sic>ονες</seg> 
+								ἱπποκορυσταί. </l>
+							<l n="432"><supplied reason="lost">ἀλλὰ τίη ἐμὲ ταῦτα</supplied>
+									<seg type="word"><supplied reason="lost">δι</supplied><unclear>ε</unclear>ξερέ<unclear>ε</unclear>σθε</seg>
+								ἕκαστα; </l>
+							<l n="433"><gap reason="lost"/><seg type="word"><unclear>ὁ</unclear>ρμᾶται</seg> φίλον ἦτορ </l>
+							<l n="433a"><gap extent="16" reason="lost" unit="character"/><seg type="word">δῦνα<unclear>ι</unclear></seg><gap extent="1" reason="lost" unit="character"/><unclear>ι</unclear><note
+									resp="al" xml:lang="eng">Edwards suggests that <quote>
+										<foreign xml:lang="grc">δυναι<sic>αι</sic></foreign>
+									</quote> was written here, with the second <foreign xml:lang="grc">αι</foreign> erroneously written due to
+									dittography.</note> στρατὸν ἐγγὺς <seg type="word"><supplied
+									reason="lost">ἐόντ</supplied>ων, </seg></l>
+							<l n="434"><supplied reason="lost">Θρήικες οἷδ᾽ ἀπάνευθε</supplied>
+								<seg type = "word"><supplied reason="lost">νεή</supplied>λυδες</seg>, ἔσχατοι ἄλλων· </l>
+						</div>
+						<div n="2" type="col">
+							<l n="445">ἤ ῥα κατ᾽ <seg type="word">αἶ<unclear>σα</unclear>ν</seg>
+									<seg type="word"><unclear>ἔε</unclear><supplied reason="lost">ιπον</supplied></seg> <supplied reason="lost">ἐν ὑμῖν, ἦε
+									καὶ οὐκί. </supplied>
+							</l>
+							<l n="446">τὸν δ᾽ ἄρ᾽ ὑπόδρα <supplied reason="lost">ἰδὼν προσέφη
+									κρατερὸς Διομήδης· </supplied>
+							</l>
+							<l n="447">μὴ δή μοι <seg type="word">φύξ<unclear>ιν</unclear></seg> <supplied reason="lost">γε, Δόλων, ἐμβάλλεο θυμῷ, </supplied>
+							</l>
+							<l n="448"><seg type="word">ἐσ<sic/>λά</seg> περ <seg type="word">ἀγγέλλ<supplied reason="lost">ων,</supplied></seg><supplied reason="lost"> ἐπεὶ ἵκεο
+									χεῖρας ἐς ἀμάς. </supplied>
+							</l>
+							<l n="449"><seg type="word">ἢ<sic>μ</sic></seg> <seg type="word">μὲ<sic>γ</sic></seg>
+								 γάρ κέ σε ν<supplied reason="lost">ῦν ἀπολύσομεν ἠὲ
+									μεθῶμεν, </supplied>
+							</l>
+							<l n="450">ἦ τε καὶ ὕστερον <seg type="word">ε<supplied reason="lost">ἶσθα</supplied></seg> <supplied reason="lost">θοὰς ἐπὶ νῆασ
+									Ἀχαιῶν </supplied>
+							</l>
+							<l n="451">ἠὲ διοψόμενος ἢ <seg type="word">ἐ<supplied reason="lost">ναντίβιον</supplied></seg> <supplied reason="lost">πολεμίξων·
+								</supplied>
+							</l>
+							<l n="452">ἢν δέ κ᾽ ἐμῇς ὑπὸ <seg type="word">χ<supplied reason="lost">ερσὶ</supplied></seg> <supplied reason="lost">δαμεὶς ἀπὸ
+									θυμὸν ὀλέσσης, </supplied>
+							</l>
+							<l n="453">οὐκέτ᾽ ἔπειτα σὺ <seg type="word">πῆ<supplied reason="lost">μά</supplied></seg> <supplied reason="lost">ποτ᾽ ἔσσεαι
+									Ἀργείοισιν. </supplied>
+							</l>
+							<l n="454">ἦ, καὶ ὃ <seg type="word">μέ<sic>μ</sic></seg>
+									
+									μιν <seg type="word">ἔμε<supplied reason="lost">λλε</supplied></seg> <supplied reason="lost">γενείου χειρὶ παχείῃ
+								</supplied>
+							</l>
+							<l n="455">ἁψάμενος <seg type="word">λίσσεσ<unclear>θ</unclear><supplied reason="lost">αι,</supplied></seg> <supplied reason="lost">ὃ δ᾽ αὐχένα μέσσον ἔλασσε </supplied>
+							</l>
+							<l n="456">φασγάνῳ ἀίξας, <seg type="word">ἀ<unclear>π</unclear><supplied reason="lost">ὸ
+								δ᾽</supplied></seg> <supplied reason="lost">ἄμφω κέρσε τένοντε· </supplied>
+							</l>
+							<l n="457">φθεγγομένου δ᾽ <seg type="word"><supplied reason="lost">ἄρ</supplied><unclear>α </unclear><supplied reason="lost">τοῦ</supplied></seg>
+								<supplied reason="lost">γε κάρη κονίῃσιν ἐμίχθη. </supplied>
+							</l>
+							<l n="458"><seg type="word"><unclear>τ</unclear>οῦ</seg> δ᾽ ἀπὸ μὲν <seg type="word">κτ<supplied
+								reason="lost">ιδέην</supplied></seg> <supplied reason="lost">κυνέην κεφαλῆφιν ἕλοντο </supplied>
+							</l>
+							<l n="459"><unclear>καὶ</unclear> λυκέην καὶ τόξα <supplied reason="lost">παλίντονα καὶ δόρυ μακρόν· </supplied>
+							</l>
+							<l n="460"><supplied reason="lost">καὶ τά</supplied><unclear> γ᾽</unclear>
+									<seg type="word"><unclear>Ἀ</unclear><supplied reason="lost">θη</supplied>ναί<choice>
+									<sic>η</sic>
+									<corr>ῃ</corr>
+									</choice></seg> <seg type="word">λη<unclear>ΐ</unclear><supplied reason="lost">τιδι</supplied></seg> <supplied reason="lost">δῖος
+									Ὀδυσσεὺς </supplied>
+							</l>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

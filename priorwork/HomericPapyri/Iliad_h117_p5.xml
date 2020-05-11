@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad h117 (P. Michaelidae 5)</title>
+				<editor xml:id="bh">Bart Huelsenbeck</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new edition, with semantic markup, punctuation, accentuation, emendation,
+                    and notes.</edition>
+				<respStmt>
+					<name>Bart Huelsenbeck, ed.</name>
+					<resp>after the edition of</resp>
+					<resp>West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia
+                        III</title> pp. 70-71</resp>
+				</respStmt>
+				<respStmt>
+					<name xml:id="al">Alexander Loney</name>
+					<resp>Revision and error-checking.</resp>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher> The Center for Hellenic Studies of Harvard University </publisher>
+				<authority>
+					<name>Casey Dué and Mary Ebbott, edd.</name>
+				</authority>
+				<availability>
+					<p>©2009, The Center for Hellenic Studies. This work is made available under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="eng">English</language>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+				<language ident="xgrc">Transliterated Greek</language>
+				<language ident="deu">German</language>
+				<language ident="fra">French</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div n="date" type="description" xml:lang="eng">
+				<head>Date</head>
+				<p>Early third century B.C. (<bibl>West, 70</bibl>)</p>
+			</div>
+			<div n="provenance" type="description" xml:lang="eng">
+				<head>Provenance</head>
+				<p>unknown (<bibl>West, 70</bibl>)</p>
+			</div>
+			<div n="context" type="description" xml:lang="eng">
+				<head>Context</head>
+				<p>The lines form part of an anthology. The purpose of the anthology remains obscure
+                        (<bibl>West, 70</bibl>).</p>
+			</div>
+			<div n="bibliography" type="description" xml:lang="eng">
+				<head>Bibliography</head>
+				<list>
+					<item>
+						<bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim:
+                        Olms.</bibl>
+					</item>
+					<item>
+						<bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica
+                                Coloniensia III</title> Köln and Opladen.</bibl>
+					</item>
+				</list>
+			</div>
+			<div n="catalogues" type="description" xml:lang="eng">
+				<head>Catalogue entries</head>
+				<list>
+					<item>Mertens-Pack 1612 </item>
+					<item>LDAB 2409 </item>
+					<item>Allen-Sutton-West h117</item>
+				</list>
+			</div>
+			<div n="text" type="edition">
+				<head xml:lang="eng">Iliad h117</head>
+				<div n="3" type="book">
+					<l n="425"><note resp="al" xml:lang="eng"
+								>West numbers this line 425a (<bibl>1967,
+                        70</bibl>).</note>ἡ μὲν ἄρ᾽ ὣς <sic>ἔρξασαπ<unclear>ε</unclear><gap extent="1" reason="illegible"
+								unit="character"/></sic>
+						<gap reason="lost"/>
+					</l>
+					<l n="426">ἡ δὲ καθέζετ᾽ ἔπειτα <gap reason="lost"/>
+					</l>
+					<l n="427">ὄσσε πάλιν <seg type="word">κρ<unclear>ε</unclear>ινουσα,</seg>
+						<seg type="word">
+							<unclear>π</unclear>
+							<supplied reason="lost">όσιν</supplied>
+						</seg>
+						<supplied reason="lost">δ᾽ ἠνίπαπε μύθῳ· </supplied></l>
+					<l n="428">"ἤλυθες ἐκ πολέμου· <seg type="word">ὡ<supplied reason="lost">ς</supplied></seg>
+						<supplied reason="lost">ὤφελες αὐτόθ᾽ ὀλέσθαι </supplied></l>
+					<l n="429">ἀνδρὶ δαμεὶς κρατερῷ, <supplied reason="lost">ὃς ἐμὸς πρότερος πόσις ἦεν. </supplied></l>
+					<l n="429a">ἔγνως <unclear>χ᾽</unclear>
+						<note resp="bh" xml:lang="eng">SWest (p.71) acknowledges that <foreign xml:lang="grc">χ</foreign> is very uncertain.</note> οἵου φωτὸς <seg type="word">ἔχει<supplied
+								reason="lost">ς</supplied></seg>
+						<supplied reason="lost">θαλερὴν παράκοιτιν </supplied></l>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

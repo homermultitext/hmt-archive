@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad P8 (P. Petrie 1.3 [4] = P. Lit. Lond. 21)</title>
+				<editor>
+					<name xml:id="jm">Joseph Miller</name>
+				</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+				<respStmt>
+					<name>Joseph Miller, ed.</name>
+					<resp>after the edition of West, S.  1967. <title>The Ptolemaic Papyri of Homer.</title> 103-107.</resp>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+				<authority>
+					<name>Casey Dué and Mary Ebbott, edd.</name>
+				</authority>
+				<availability>
+					<p>©2009, The Center for Hellenic Studies. This work is made available under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="eng">English</language>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+				<language ident="xgrc">Transliterated Greek</language>
+				<language ident="deu">German</language>
+				<language ident="fra">French</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div n="date" type="description" xml:lang="eng">
+				<head>Date</head>
+				<p>Third century B.C. (<bibl>West 1967: 103</bibl>)</p>
+			</div>
+			<div n="provenance" type="description" xml:lang="eng">
+				<head>Provenance</head>
+				<p>Gurob; cartonnage</p>
+			</div>
+			<div n="bibliography" type="description" xml:lang="eng">
+				<head>Bibliography</head>
+				<list>
+					<item>
+						<bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> K√∂ln: Opladen.</bibl>
+					</item>
+				</list>
+			</div>
+			<div n="catalogues" type="description" xml:lang="eng">
+				<head>Catalogue entries</head>
+				<list>
+					<item>Mertens-Pack 879</item>
+					<item>LDAB 2373</item>
+					<item>Allen-Sutton-West p008</item>
+					<item/>
+				</list>
+			</div>
+			<div n="text" type="edition">
+				<head xml:lang="eng">Iliad P 8</head>
+				<div n="11" type="book">
+					<div n="1" type="col">
+						<l n="502">
+							<supplied reason="lost">Ἕκτωρ μὲν μετὰ τοῖσιν ὁμίλει μέρμερα</supplied>
+							<seg type="word"><supplied reason="lost">ῥ</supplied>έζων</seg>
+						</l>
+						<l n="503"><supplied reason="lost">ἔγχεΐ θ᾽ ἱπποσύνῃ τε, νέων δ᾽</supplied>
+							<seg type="word"><supplied reason="lost">ἀλάπαζ</supplied>ε</seg>
+							<seg type="word">φάλαγγα<unclear>ς</unclear></seg>.</l>
+						<l n="504">
+							<supplied reason="lost">οὐδ᾽ ἄν πω χάζοντο κελεύθου δῖοι</supplied>
+							<seg type="word"><supplied reason="lost">Ἀχα</supplied><unclear>ι</unclear>οὶ</seg>
+						</l>
+						<l n="504a"><gap reason="lost"/>νο<unclear>ι</unclear> περ</l>
+						<l n="505"><supplied reason="lost">εἰ μὴ Ἀλέξανδρος, Ἑλένης πόσις</supplied>
+							<seg type="word"><unclear>ἠ</unclear>υκόμοιο</seg>,</l>
+						<l n="506"><supplied reason="lost">παῦσεν ἀριστεύοντα Μαχάοντα</supplied>
+							<seg type="word"><supplied reason="lost">ποιμέ</supplied>να</seg>
+							<seg type="word">λαῶ<unclear>ν</unclear></seg>,</l>
+						<l n="507"><supplied reason="lost">ἰῷ τριγλώχινι βαλὼν κατὰ δεξιὸν</supplied>
+							<seg type="word"><supplied reason="lost">ὦ</supplied><unclear>μ</unclear>ον</seg>.</l>
+						<l n="508"><supplied reason="lost">τῷ ῥα περίδδεισαν μένεα πνείοντες</supplied> Ἀχαιοὶ</l>
+						<l n="509"><supplied reason="lost">μή πώς μιν πολέμοιο</supplied>
+							<seg type="word"><supplied reason="lost">μετακλινθέν</supplied>τες</seg> ἕλοιεν</l>
+						<l n="509a"><gap reason="lost"/>
+							<seg type="word"><supplied reason="lost">τεύ</supplied>χη</seg> ἕλοιντο.</l>
+						<l n="510"><supplied reason="lost">αὐτίκα δ᾽ Ἰδομενεὺς προσεφώνεε</supplied>
+							<seg type="word"><supplied reason="lost">Νέ</supplied>στορα</seg>
+							<seg type="word">δῖο<unclear>ν</unclear></seg>·</l>
+						<l n="511"><supplied reason="lost">"ὦ Νέστορ νηληϊάδη, μέγα κῦδος</supplied>
+							<seg type="word"><supplied reason="lost">Ἀχαι</supplied><unclear>ῶ</unclear>ν</seg>,</l>
+						<l n="512">
+							<supplied reason="lost">ἄγρει σῶν οχέων ἐπιβήσεο, πὰρ δὲ</supplied>
+							<seg type="word"><supplied reason="lost">Μ</supplied><unclear>α</unclear>χάων</seg>
+						</l>
+						<l n="513"><supplied reason="lost">βαινέτω, ἐς νῆας δὲ τάχιστ᾽ ἔχε</supplied>
+							<seg type="word"><supplied reason="lost">μών</supplied>υχας</seg> ἵππους</l>
+						<l n="513a"><gap reason="lost"/><gap extent="1" reason="illegible" unit="character"/> νοιο</l>
+						<l n="514">
+							<supplied reason="lost">ἰητρὸς γὰρ ἀνὴρ πολλῶν ἀντάξιος</supplied>
+							<seg type="word"><supplied reason="lost">ἄλ</supplied>λων</seg>
+						</l>
+						<l n="514a"><gap reason="lost"/> ἄλλους</l>
+						<l n="515"><supplied reason="lost">ἰούς τ᾽ ἐκτάμνων ἐπί τ᾽ ἤπια</supplied>
+							<seg type="word"><supplied reason="lost">φάρμα</supplied><unclear>κ</unclear>α</seg> πάσσων."</l>
+						<l n="516"><supplied reason="lost">ὣς ἔφατ᾽, οὐδ᾽ ἀπίθησε Γερήνιος</supplied>
+							<seg type="word"><supplied reason="lost">ἱππό</supplied>τα</seg> Νέστωρ.</l>
+						<l n="517"><supplied reason="lost">αὐτίκα δ᾽ ὧν ὀχέων ἐπεβήσατο,</supplied>
+							<seg type="word">
+								<supplied reason="lost">πὰρ</supplied>
+							</seg> δὲ Μαχάων</l>
+					</div>
+					<div n="2" type="col">
+						<l n="518">βαῖν᾽,<supplied reason="lost"> Ἀσκληπιοῦ υἱὸς ἀμύμονος ἰητῆρος.</supplied></l>
+						<l n="519">
+							<seg type="word">μά<supplied reason="lost">στιξεν</supplied></seg>
+							<supplied reason="lost">δ᾽ ἐλάαν, τὼ δ᾽ οὐκ ἀέκοντε πετέσθην</supplied>
+						</l>
+						<l n="520?">ως <unclear>ο</unclear><gap reason="lost"/><note resp="jm" xml:lang="eng"
+									>West numbers the line 520 even though it begins very differently from 520 in the tradition of the Vulgate and has hitherto been supplemented to read as a completely separate and independent line (<bibl>West 1967: 106</bibl>).</note></l>
+						<l n="521">
+							<seg type="word">Κεβριόν<supplied reason="lost">ης</supplied></seg>
+							<supplied reason="lost">δὲ Τρῶας ὀρινομένους ἐνόησεν,</supplied>
+						</l>
+						<l n="522">
+							<seg type="word">Ἕκ<supplied reason="lost">τορι</supplied></seg>
+							<supplied reason="lost">παρβεβαώς, καί μιν πρὸς μῦθον ἔειπεν·</supplied>
+						</l>
+						<l n="523">"Ἕκτορ, <seg type="word">ν<supplied reason="lost">ῶι</supplied></seg>
+							<supplied reason="lost">μὲν ἐνθάδ᾽ ὁμιλέομεν Δαναοῖσιν</supplied></l>
+						<l n="524">ἐσχατιῆ<supplied reason="lost">ι πολέμοιο δυσηχέος· οἳ δὲ δὴ ἄλλοι</supplied></l>
+						<l n="525">Τρῶες <seg type="word">
+								<unclear>ὀ</unclear>
+								<supplied reason="lost">ρίνονται</supplied>
+							</seg>
+							<supplied reason="lost">ἐπιμὶξ ἵπποι τε καὶ αὐτοί.</supplied></l>
+						<l n="526"><seg type="word"><unclear>Αἴα</unclear>ς</seg> δὲ <seg type="word">
+								<unclear>κ</unclear>
+								<supplied reason="lost">λονέει</supplied>
+							</seg>
+							<supplied reason="lost">Τελαμώνιος· εὖ δέ μιν ἔγνων·</supplied></l>
+						<l n="527">εὐρὺ <seg type="word"><unclear>γ</unclear>ὰρ</seg>
+							<supplied reason="lost">ἀμφ᾽ ὤμοισιν ἔχει σάκος. ἀλλὰ καὶ ἡμεῖς</supplied></l>
+						<l n="528">κεῖθ᾽ <seg type="word">ἵπ<supplied reason="lost">πους</supplied></seg>
+							<supplied reason="lost">τε καὶ ἅρμ᾽ ἰθύνομεν, ἔνθα μάλιστα</supplied></l>
+						<l n="529">κοῦροι <unclear>τ</unclear><gap reason="lost"/><note resp="jm" xml:lang="eng"
+									>This line continues to defy definitive restoration; West numbers it 529 in spite of the fact that it opens very differently from 529 in the tradition of the Vulgate (<bibl>West 1967: 107</bibl>).</note></l>
+						<l n="531">ὣς ἄρα <seg type="word">φ<unclear>ω</unclear><supplied reason="lost">νήσας</supplied></seg>
+							<supplied reason="lost">ἵμασεν καλλίτριχας ἵππους</supplied></l>
+						<l n="532">
+							<seg type="word"><unclear>μ</unclear>άστιγ<supplied reason="lost">ι</supplied></seg>
+							<supplied reason="lost">λιγυρῇ· τοὶ δὲ πληγῆς ἀίοντες</supplied>
+						</l>
+						<l n="533">
+							<seg type="word">ῥ<supplied reason="lost">ί</supplied>νφ᾽</seg>
+							<seg type="word">ἔφ<unclear>ε</unclear><supplied reason="lost">ρον</supplied></seg>
+							<supplied reason="lost">θοὸν ἅρμα μετὰ Τρῶας καὶ Ἀχαιοὺς</supplied>
+						</l>
+						<l n="534">
+							<seg type="word">στείβον<unclear>τ</unclear><supplied reason="lost">ες</supplied></seg>
+							<supplied reason="lost">νέκυάς τε καὶ ἀσπίδας. αἵματι δ᾽ ἄξων</supplied>
+						</l>
+						<l n="535">νέρθεν <supplied reason="lost">ἅπας πεπάλακτο καὶ ἄντυγες αἱ περὶ δίφρον,</supplied></l>
+						<l n="536"><unclear>ἃς</unclear> ἄρ᾽ ἀφ᾽ <seg type="word">ἱ<supplied reason="lost">ππείων</supplied></seg>
+							<supplied reason="lost">ὁπλέων ῥαθάμιγγες ἔβαλλον</supplied></l>
+						<l n="537">
+							<supplied reason="lost">αἵ τ᾽</supplied>
+							<seg type="word"><supplied reason="lost">ἀ</supplied>π᾽</seg>
+							<seg type="word">ἐπ<supplied reason="lost">ισσώτρων.</supplied></seg>
+							<supplied reason="lost">ὃ δὲ ἵετο δῦναι ὅμιλον</supplied>
+						</l>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

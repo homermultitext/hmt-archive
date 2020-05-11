@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../tei-analysis.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad H 87 (P. Cairo 60565)</title>
+				<editor>
+					<name xml:id="al">Alexander Loney</name>
+				</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+				<respStmt>
+					<name>Alexander Loney, ed.</name>
+					<resp>after the edition of</resp>
+					<resp>Waddell, W.G.<title>" Three Homeric Papyri from Oxyrhynchus," in Mélanges Maspero, vol. 2. </title>(1934), 145-48.</resp>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+				<authority>
+					<name>Casey Dué and Mary Ebbott, edd.</name>
+				</authority>
+				<availability>
+					<p>©2009, The Center for Hellenic Studies. This work is made available under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="eng">English</language>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Greek</language>
+				<language ident="xgrc">Transliterated Greek</language>
+				<language ident="deu">German</language>
+				<language ident="fra">French</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div n="date" type="description" xml:lang="eng">
+				<head>Date</head>
+				<p>Late 1st or early 2nd century AD (<bibl>Waddell 1934, 145</bibl>)</p>
+			</div>
+			<div n="provenance" type="description" xml:lang="eng">
+				<head>Provenance</head>
+				<p>Oxyrhynchus (<bibl>Waddell 1934, 145</bibl>)</p>
+			</div>
+			<div n="context" type="description" xml:lang="eng">
+				<head>Context</head>
+				<p>This papyrus is part of a collection of similes (the earliest such collection extant (<bibl>Waddell 1934, 146</bibl>)).</p>
+			</div>
+			<div n="bibliography" type="description" xml:lang="eng">
+				<head>Bibliography</head>
+				<list>
+					<item>
+						<bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl>
+					</item>
+					<item>
+						<bibl>Collart, P. 1926.<title>Les Papyrus Bouriant.</title> Paris.</bibl>
+					</item>
+					<item>
+						<bibl>Waddell, W.G. 1934.<title> "Three Homeric Papyri from Oxyrhynchus," in Mélanges Maspero, </title>vol. 2, 145-48.</bibl>
+					</item>
+				</list>
+			</div>
+			<div n="catalogues" type="description" xml:lang="eng">
+				<head>Catalogue entries</head>
+				<list>
+					<item>Mertens-Pack 1200</item>
+					<item>LDAB 2754</item>
+					<item>Allen-Sutton-West h87</item>
+				</list>
+			</div>
+			<div n="text" type="edition">
+				<head xml:lang="eng">Iliad H 87</head>
+				<div n="16" type="book">
+					<div n="1" type="col">
+						<div n="1" type="extract">
+							<gap reason="lost"/>
+							<l n="642">
+								<supplied reason="lost">σταθμῷ ἔνι βρομέωσι περιγλαγέας</supplied>
+								<seg type="word">
+									<supplied reason="lost">κα</supplied>
+									<unclear>τὰ</unclear>
+								</seg>
+								<seg type="word">
+									<unclear>πέλ</unclear>
+									<supplied reason="lost">λας</supplied>
+								</seg>
+							</l>
+							<l n="643">
+								<supplied reason="lost">ὥρῃ ἐν εἰαρινῇ, ὅτε τε γλάγος</supplied>
+								<seg type="word"><supplied reason="lost">ἄγγε</supplied>α</seg>
+								<seg type="word">δεύε<unclear>ι·</unclear></seg>
+							</l>
+							<l n="644"><supplied reason="lost">ὣς ἄρα τοὶ περὶ νεκρὸν ὁμίλεον, οὐδέ</supplied> ποτε Ζεὺς </l>
+							<l n="645">
+								<supplied reason="lost">τρέψεν ἀπὸ κρατερῆς ὑσμίνης ὄσσε</supplied>
+								<seg type="word"><supplied reason="lost">φα</supplied>εινώ,</seg>
+							</l>
+							<l n="646">
+								<supplied reason="lost">ἀλλὰ κατ᾽ αὐτοὺς αἰὲν ὅρα καὶ φράζετο</supplied>
+								<seg type="word"><unclear>θ</unclear>υμῷ</seg>
+							</l>
+						</div>
+						<div n="2" type="extract">
+							<gap extent="1" reason="lost" unit="line"/>
+							<head>
+								<supplied reason="lost">ὁμοίωσις</supplied>
+								<gap reason="lost"/>
+							</head>
+							<note resp="al" xml:lang="eng">Extracts 4 and 5 have the word "<foreign xml:lang="grc"
+									>ὁμοίωσις</foreign>" at their heads, in the single line gap between extracts. It is reasonable to assume that these headings also existed between the other extracts, though the portion of the papyrus that would have shown the headings has been lost. Waddell further suggests that numerals would have followed each heading, but these also would have been lost (<bibl>Waddell 1934, 146-47</bibl>).</note>
+							<l n="751">
+								<supplied reason="lost">ὣς εἰπὼν ἐπὶ Κεβριόνῃ ἥρωι</supplied>
+								<seg type="word"><supplied reason="lost">βεβ</supplied>ήκει</seg>
+							</l>
+							<l n="752">
+								<supplied reason="lost">οἶμα λέοντος ἔχων, ὅς τε σταθμοὺς</supplied>
+								<seg type="word"><supplied reason="lost">κε</supplied><unclear>ραΐζ</unclear>ων</seg>
+							</l>
+							<l n="753">
+								<supplied reason="lost">ἔβλητο πρὸς στῆθος, ἑή τέ μιν</supplied>
+								<seg type="word">
+									<supplied reason="lost">ὤλεσ</supplied>
+									<unclear>εν</unclear>
+								</seg>
+								<seg type="word"><unclear>ἀλ</unclear>κή·</seg>
+							</l>
+							<l n="754">
+								<supplied reason="lost">ὣς ἐπὶ Κεβριόνῃ Πατρόκλεις ἆλσο</supplied>
+								<seg type="word"><supplied reason="lost">με</supplied><unclear>μ</unclear>αώς.</seg>
+							</l>
+							<l n="755">
+								<supplied reason="lost">Ἕκτωρ δ᾽ αὖθ᾽ ἑτέρωθεν ἀφ᾽ ἵππων ἆλτο</supplied>
+								<seg type="word"><unclear>χ</unclear>αμᾶζε.</seg>
+							</l>
+							<l n="756">
+								<supplied reason="lost">τὼ περὶ Κεβριόναο λέονθ᾽ ὣς</supplied>
+								<seg type="word"><supplied reason="lost">δηρινθ</supplied><unclear>ή</unclear>την,</seg>
+							</l>
+							<l n="757">
+								<supplied reason="lost">ὥ τ᾽ ὄρεος κορυφῇσι περὶ κταμένης</supplied>
+								<seg type="word"><supplied reason="lost">ἐλ</supplied>άφοιο</seg>
+							</l>
+							<l n="758">
+								<supplied reason="lost">ἄμφω πεινάοντε μέγα φρονέοντε</supplied>
+								<seg type="word"><supplied reason="lost">μά</supplied>χεσθον·</seg>
+							</l>
+							<l n="759">
+								<supplied reason="lost">ὣς περὶ Κεβριόναο δύω μήστωρες</supplied>
+								<seg type="word"><unclear>ἀ</unclear>υτῆς</seg>
+							</l>
+							<l n="760"><supplied reason="lost">Πάτροκλός τε Μενοιτιάδης καὶ</supplied>
+								<seg type="word"><supplied reason="lost">φαίδι</supplied>μος</seg> Ἕκτωρ </l>
+							<l n="761">
+								<supplied reason="lost">ἵεντ᾽ ἀλλήλων ταμέειν χρόα νηλέι</supplied>
+								<seg type="word"><supplied reason="lost">χ</supplied><unclear>α</unclear>λκῷ.</seg>
+							</l>
+							<l n="762"><supplied reason="lost">Ἕκτωρ μὲν κεφαλῆφιν ἐπεὶ λάβεν</supplied>
+								<seg type="word"><supplied reason="lost">οὐχ</supplied>ὶ</seg> μεθίει· </l>
+							<l n="763"><supplied reason="lost">Πάτροκλος δ᾽ ἑτέρωθεν ἔχεν ποδός· οἳ</supplied>
+								<seg type="word"><supplied reason="lost">δ</supplied>ὲ</seg> δὴ ἄλλοι </l>
+							<l n="764"><supplied reason="lost">Τρῶες καὶ Δαναοὶ σύναγον κρατερὴν</supplied> ὑσμίνην. </l>
+							<l n="765">
+								<supplied reason="lost">ὡς δ᾽ Εὖρός τε Νότος τ᾽ ἐριδαίνετον</supplied>
+								<seg type="word"><supplied reason="lost">ἀλλ</supplied><unclear>ή</unclear>λοισιν</seg>
+							</l>
+							<l n="766"><supplied reason="lost">οὔρεος ἐν βήσσῃς βαθέην</supplied>
+								<seg type="word"><supplied reason="lost">πελεμιζέμ</supplied>εν</seg> ὕλην </l>
+							<l n="767">
+								<supplied reason="lost">φηγόν τε μελίην τε τανύφλοιόν τε</supplied>
+								<seg type="word"><supplied reason="lost">κρ</supplied>άνειαν,</seg>
+							</l>
+							<l n="768"><supplied reason="lost">αἵ τε πρὸς ἀλλήλας ἔβαλον</supplied>
+								<seg type="word"><supplied reason="lost">τανυήκεα</supplied>ς</seg> ὄζους </l>
+							<l n="769">
+								<supplied reason="lost">ἠχῇ θεσπεσίῃ, πάταγος δέ τε</supplied>
+								<seg type="word"><supplied reason="lost">ἀγνυμ</supplied><unclear>ε</unclear>νάων,</seg>
+							</l>
+							<l n="770">
+								<supplied reason="lost">ὣς Τρῶες καὶ Ἀχαιοὶ ἐπ᾽ ἀλλήλοισι</supplied>
+								<seg type="word"><supplied reason="lost">θορό</supplied>ντες</seg>
+							</l>
+						</div>
+					</div>
+					<div n="2" type="col">
+						<div n="3" type="extract">
+							<gap reason="lost"/>
+							<l n="818"><seg type="word">
+									<supplied reason="lost">Ἕκτω</supplied>
+									<unclear>ρ</unclear>
+								</seg> δ᾽<supplied reason="lost"> ὡς εἶδεν Πατροκλῆα μεγάθυμον </supplied></l>
+							<l n="819">
+								<supplied reason="lost">ἂψ</supplied>
+								<seg type="word"><supplied reason="lost">ἀν</supplied>α<unclear>χ</unclear>α<supplied reason="lost">ζόμενον</supplied></seg>
+								<supplied reason="lost">βεβλημένον ὀξέι χαλκῷ, </supplied>
+							</l>
+							<l n="820">
+								<seg type="word"><unclear>ἀγχί</unclear>μολόν</seg>
+								<supplied reason="lost">ῥά οἱ ἦλθε κατὰ στίχας, οὖτα δὲ δουρὶ </supplied>
+							</l>
+							<l n="821">νείατον εἰς <seg type="word">κε<unclear>ν</unclear><supplied reason="lost">εῶνα,</supplied></seg>
+								<supplied reason="lost">διαπρὸ δὲ χαλκὸν ἔλασσε. </supplied></l>
+							<l n="822"><seg type="word">δού<add n="editorial sign" place="infralinear">⸏</add>πησεν</seg> δὲ <seg type="word">
+									<unclear>π</unclear>
+									<supplied reason="lost">εσών,</supplied>
+								</seg>
+								<supplied reason="lost">μέγα δ᾽ ἤκαχε λαὸν Ἀχαιῶν· </supplied></l>
+							<l n="823"><add n="editorial sign" place="left">⸎</add><note resp="al" xml:lang="eng"
+									>A coronis-like sign, similar to an 8 in appearance, is in the left margin of the line.</note> ὡς δ᾽ ὅτε σῦν <seg type="word">ἀ<unclear>κ</unclear><supplied
+										reason="lost">άμαντα</supplied></seg>
+								<supplied reason="lost">λέων ἐβιήσατο χάρμῃ, </supplied></l>
+							<l n="824">ὥ<sic>ι</sic> τ᾽ ὄρεος <seg type="word">κορυ<unclear>φ</unclear><supplied reason="lost">ῇσι</supplied></seg>
+								<supplied reason="lost">μέγα φρονέοντε μάχεσθον </supplied></l>
+							<l n="825">πίδακος ἀμφ᾽ <seg type="word">ὀλ<unclear>ί</unclear><supplied reason="lost">γης,</supplied></seg>
+								<supplied reason="lost">ἐθέλουσι δὲ πιέμεν ἄμφω· </supplied></l>
+							<l n="826"><seg type="word"><unclear>π</unclear>ο<unclear>λ</unclear><supplied reason="lost">λ</supplied>ὰ</seg> δέ <unclear>τ᾽</unclear>
+								<seg type="word"><unclear>ἀ</unclear>σθ<supplied reason="lost">μαίνοντα</supplied></seg>
+								<supplied reason="lost">λέων ἐδάμασσε βίηφι· </supplied></l>
+							<l n="827">ὣς <seg type="word">πολέα<unclear>ς</unclear></seg>
+								<seg type="word"><supplied reason="lost">π</supplied>ε<unclear>φν</unclear><supplied reason="lost">όντα</supplied></seg>
+								<supplied reason="lost">Μενοιτίου ἄλκιμον υἱὸν </supplied></l>
+							<l n="828">
+								<seg type="word"><supplied reason="lost">Ἕκ</supplied>τωρ</seg>
+								<seg type="word"><unclear>Π</unclear>ρ<supplied reason="lost">ια</supplied>μί<unclear>δ</unclear><supplied reason="lost">ης</supplied></seg>
+								<supplied reason="lost">σχεδὸν ἔγχεϊ θυμὸν ἀπηύρα. </supplied>
+							</l>
+							<l n="829"><seg type="word"><supplied reason="lost">κα</supplied>ί</seg> οἱ <seg type="word">ἐπευχόμε<supplied reason="lost">νος</supplied></seg>
+								<supplied reason="lost">ἔπεα πτερόεντα προσηύδα· </supplied></l>
+						</div>
+					</div>
+				</div>
+				<div n="17" type="book">
+					<div n="2" type="col">
+						<div n="4" type="extract">
+							<head>ὁμοίως <sic>
+									<unclear>ις</unclear>
+								</sic><gap reason="lost"/></head>
+							<l n="1">οὐδ᾽ ἔλαθ᾽ Ἀτρέος <seg type="word">υ<supplied reason="lost">ἱὸν</supplied></seg>
+								<supplied reason="lost">ἀρηίφιλον Μενέλαον </supplied></l>
+							<l n="2">
+								<seg type="word"><supplied reason="lost">Π</supplied><unclear>ά</unclear>τροκλος</seg>
+								<seg type="word">Τρώ<supplied reason="lost">εσσι</supplied></seg>
+								<supplied reason="lost">δαμεὶς ἐν δηιοτῆτι. </supplied>
+							</l>
+							<l n="3">βῆ δὲ διὰ <seg type="word">προμά<unclear>χ</unclear><supplied reason="lost">ων</supplied></seg>
+								<supplied reason="lost">κεκορυθμένος αἴθοπι χαλκῷ, </supplied></l>
+							<l n="4"><note xml:lang="eng">Diple prefixed to line.</note><add n="editorial sign" place="left">></add>ἀμφὶ δ᾽ <seg type="word"
+									>ἄ<unclear>ρ᾽</unclear></seg> αὐτῷ <seg type="word">βαῖ<unclear>ν᾽</unclear></seg>
+								<supplied reason="lost"> ὥς τις περὶ πόρτακι μήτηρ </supplied></l>
+							<l n="5">πρωτοτόκος <seg type="word">κ<unclear>ιν</unclear><supplied reason="lost">υρὴ</supplied></seg>
+								<supplied reason="lost">οὐ πρὶν εἰδυῖα τόκοιο· </supplied></l>
+							<l n="6">ὣς <seg type="word"><del type="erasure">κ</del><add place="overstrike">π</add>ερὶ</seg>
+								<seg type="word">Πατρόκλ<unclear>ῳ</unclear></seg> βαῖνε ξανθὸς Μενέλαος. </l>
+							<l n="7"><seg type="word">πρόσ<sic>σ</sic>θε</seg> δέ οἱ <seg type="word">κόρυ<supplied reason="lost">ν</supplied></seg>
+								<supplied reason="lost">ἔσχε καὶ ἀσπίδα πάντος᾽ ἐίσην, </supplied></l>
+						</div>
+						<div n="5" type="extract">
+							<head>ὁμοίως <sic>
+									<supplied reason="lost">ις</supplied>
+								</sic><gap reason="lost"/></head>
+							<l n="18"><seg type="word"><unclear>τὸ</unclear>ν</seg> δὲ μέγ᾽ <seg type="word">ὀχθή<supplied reason="lost">σας</supplied></seg>
+								<supplied reason="lost">προσέφη ξανθὸς Μενέλαος· </supplied></l>
+							<l n="19"><add n="editorial sign" place="left">⸎</add><note resp="al" xml:lang="eng"
+									>A coronis-like sign, similar to an 8 in appearance, is in the left margin of the line.</note>
+								<seg type="word">Ζε<add n="editorial sign" place="infralinear">⸏</add>ῦ</seg> πάτερ οὐ μὲν <seg type="word">κ<supplied reason="lost">αλὸν</supplied></seg>
+								<supplied reason="lost">ὑπέρβιον εὐχετάασθαι. </supplied></l>
+							<l n="20">οὔτ᾽ οὖν <seg type="word">πορδάλιο<supplied reason="lost">ς</supplied></seg>
+								<supplied reason="lost">τόσσον μένος οὔτε λέοντος </supplied></l>
+							<l n="21">οὔτε συὸς κάπρου <seg type="word">
+									<unclear>ὀ</unclear>
+									<supplied reason="lost">λοόφρονος,</supplied>
+								</seg>
+								<supplied reason="lost">οὗ τε μέγιστος </supplied></l>
+							<l n="22">θυμὸς ἐνὶ <seg type="word">στήθεσ<unclear>σ</unclear><supplied reason="lost">ι</supplied></seg>
+								<supplied reason="lost">περὶ σθένεϊ βλεμεαίνει, </supplied></l>
+							<l n="23">ὅσσον Πάνθου <seg type="word">υ<unclear>ἷ</unclear><supplied reason="lost">ες</supplied></seg>
+								<supplied reason="lost">ἐυμμελίαι φρονέουσιν. </supplied></l>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
