@@ -4,7 +4,7 @@ urn:cite2:citebl:burney86imgs.v1:#urn:cite2:cite:datamodels.v1:imagemodel#Model 
 
 #!citecollections
 URN#Description#Labelling property#Ordering property#License
-urn:cite2:citebl:burney86imgs.v1:#Images of the British Library, Burney 86 manuscript#urn:cite2:citebl:burney86imgs.v1.caption:##Public domain
+urn:cite2:citebl:burney86imgs.v1:#Images of the British Library, Burney 86 manuscript#urn:cite2:citebl:burney86imgs.v1.caption:##Public domain.
 
 #!citeproperties
 Property#Label#Type#Authority list
@@ -14,565 +14,565 @@ urn:cite2:citebl:burney86imgs.v1.rights:#Rights#String#
 
 #!citedata
 urn#caption#rights
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f001r#British Library, Burney 86, folio 1 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f001v#British Library, Burney 86, folio 1 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f002r#British Library, Burney 86, folio 2 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f002v#British Library, Burney 86, folio 2 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f003r#British Library, Burney 86, folio 3 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f003v#British Library, Burney 86, folio 3 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f004r#British Library, Burney 86, folio 4 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f004v#British Library, Burney 86, folio 4 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f005r#British Library, Burney 86, folio 5 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f005v#British Library, Burney 86, folio 5 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f006r#British Library, Burney 86, folio 6 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f006v#British Library, Burney 86, folio 6 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f007r#British Library, Burney 86, folio 7 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f007v#British Library, Burney 86, folio 7 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f008r#British Library, Burney 86, folio 8 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f008v#British Library, Burney 86, folio 8 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f009r#British Library, Burney 86, folio 9 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f009v#British Library, Burney 86, folio 9 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f010r#British Library, Burney 86, folio 10 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f010v#British Library, Burney 86, folio 10 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f011r#British Library, Burney 86, folio 11 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f011v#British Library, Burney 86, folio 11 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f012r#British Library, Burney 86, folio 12 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f012v#British Library, Burney 86, folio 12 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f013r#British Library, Burney 86, folio 13 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f013v#British Library, Burney 86, folio 13 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f014r#British Library, Burney 86, folio 14 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f014v#British Library, Burney 86, folio 14 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f015r#British Library, Burney 86, folio 15 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f015v#British Library, Burney 86, folio 15 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f016r#British Library, Burney 86, folio 16 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f016v#British Library, Burney 86, folio 16 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f017r#British Library, Burney 86, folio 17 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f017v#British Library, Burney 86, folio 17 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f018r#British Library, Burney 86, folio 18 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f018v#British Library, Burney 86, folio 18 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f019r#British Library, Burney 86, folio 19 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f019v#British Library, Burney 86, folio 19 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f020r#British Library, Burney 86, folio 20 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f020v#British Library, Burney 86, folio 20 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f021r#British Library, Burney 86, folio 21 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f021v#British Library, Burney 86, folio 21 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f022r#British Library, Burney 86, folio 22 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f022v#British Library, Burney 86, folio 22 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f023r#British Library, Burney 86, folio 23 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f023v#British Library, Burney 86, folio 23 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f024r#British Library, Burney 86, folio 24 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f024v#British Library, Burney 86, folio 24 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f025r#British Library, Burney 86, folio 25 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f025v#British Library, Burney 86, folio 25 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f026r#British Library, Burney 86, folio 26 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f026v#British Library, Burney 86, folio 26 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f027r#British Library, Burney 86, folio 27 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f027v#British Library, Burney 86, folio 27 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f028r#British Library, Burney 86, folio 28 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f028v#British Library, Burney 86, folio 28 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f029r#British Library, Burney 86, folio 29 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f029v#British Library, Burney 86, folio 29 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f030r#British Library, Burney 86, folio 30 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f030v#British Library, Burney 86, folio 30 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f031r#British Library, Burney 86, folio 31 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f031v#British Library, Burney 86, folio 31 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f032r#British Library, Burney 86, folio 32 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f032v#British Library, Burney 86, folio 32 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f033r#British Library, Burney 86, folio 33 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f033v#British Library, Burney 86, folio 33 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f034r#British Library, Burney 86, folio 34 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f034v#British Library, Burney 86, folio 34 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f035r#British Library, Burney 86, folio 35 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f035v#British Library, Burney 86, folio 35 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f036r#British Library, Burney 86, folio 36 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f036v#British Library, Burney 86, folio 36 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f037r#British Library, Burney 86, folio 37 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f037v#British Library, Burney 86, folio 37 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f038r#British Library, Burney 86, folio 38 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f038v#British Library, Burney 86, folio 38 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f039r#British Library, Burney 86, folio 39 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f039v#British Library, Burney 86, folio 39 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f040r#British Library, Burney 86, folio 40 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f040v#British Library, Burney 86, folio 40 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f041r#British Library, Burney 86, folio 41 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f041v#British Library, Burney 86, folio 41 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f042r#British Library, Burney 86, folio 42 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f042v#British Library, Burney 86, folio 42 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f043r#British Library, Burney 86, folio 43 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f043v#British Library, Burney 86, folio 43 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f044r#British Library, Burney 86, folio 44 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f044v#British Library, Burney 86, folio 44 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f045r#British Library, Burney 86, folio 45 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f045v#British Library, Burney 86, folio 45 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f046r#British Library, Burney 86, folio 46 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f046v#British Library, Burney 86, folio 46 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f047r#British Library, Burney 86, folio 47 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f047v#British Library, Burney 86, folio 47 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f048r#British Library, Burney 86, folio 48 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f048v#British Library, Burney 86, folio 48 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f049r#British Library, Burney 86, folio 49 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f049v#British Library, Burney 86, folio 49 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f050r#British Library, Burney 86, folio 50 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f050v#British Library, Burney 86, folio 50 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f051r#British Library, Burney 86, folio 51 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f051v#British Library, Burney 86, folio 51 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f052r#British Library, Burney 86, folio 52 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f052v#British Library, Burney 86, folio 52 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f053r#British Library, Burney 86, folio 53 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f053v#British Library, Burney 86, folio 53 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f054r#British Library, Burney 86, folio 54 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f054v#British Library, Burney 86, folio 54 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f055r#British Library, Burney 86, folio 55 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f055v#British Library, Burney 86, folio 55 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f056r#British Library, Burney 86, folio 56 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f056v#British Library, Burney 86, folio 56 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f057r#British Library, Burney 86, folio 57 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f057v#British Library, Burney 86, folio 57 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f058r#British Library, Burney 86, folio 58 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f058v#British Library, Burney 86, folio 58 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f059r#British Library, Burney 86, folio 59 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f059v#British Library, Burney 86, folio 59 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f060r#British Library, Burney 86, folio 60 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f060v#British Library, Burney 86, folio 60 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f061r#British Library, Burney 86, folio 61 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f061v#British Library, Burney 86, folio 61 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f062r#British Library, Burney 86, folio 62 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f062v#British Library, Burney 86, folio 62 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f063r#British Library, Burney 86, folio 63 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f063v#British Library, Burney 86, folio 63 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f064r#British Library, Burney 86, folio 64 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f064v#British Library, Burney 86, folio 64 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f065r#British Library, Burney 86, folio 65 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f065v#British Library, Burney 86, folio 65 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f066r#British Library, Burney 86, folio 66 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f066v#British Library, Burney 86, folio 66 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f067r#British Library, Burney 86, folio 67 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f067v#British Library, Burney 86, folio 67 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f068r#British Library, Burney 86, folio 68 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f068v#British Library, Burney 86, folio 68 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f069r#British Library, Burney 86, folio 69 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f069v#British Library, Burney 86, folio 69 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f070r#British Library, Burney 86, folio 70 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f070v#British Library, Burney 86, folio 70 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f071r#British Library, Burney 86, folio 71 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f071v#British Library, Burney 86, folio 71 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f072r#British Library, Burney 86, folio 72 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f072v#British Library, Burney 86, folio 72 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f073r#British Library, Burney 86, folio 73 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f073v#British Library, Burney 86, folio 73 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f074r#British Library, Burney 86, folio 74 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f074v#British Library, Burney 86, folio 74 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f075r#British Library, Burney 86, folio 75 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f075v#British Library, Burney 86, folio 75 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f076r#British Library, Burney 86, folio 76 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f076v#British Library, Burney 86, folio 76 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f077r#British Library, Burney 86, folio 77 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f077v#British Library, Burney 86, folio 77 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f078r#British Library, Burney 86, folio 78 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f078v#British Library, Burney 86, folio 78 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f079r#British Library, Burney 86, folio 79 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f079v#British Library, Burney 86, folio 79 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f080r#British Library, Burney 86, folio 80 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f080v#British Library, Burney 86, folio 80 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f081r#British Library, Burney 86, folio 81 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f081v#British Library, Burney 86, folio 81 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f082r#British Library, Burney 86, folio 82 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f082v#British Library, Burney 86, folio 82 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f083r#British Library, Burney 86, folio 83 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f083v#British Library, Burney 86, folio 83 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f084r#British Library, Burney 86, folio 84 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f084v#British Library, Burney 86, folio 84 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f085r#British Library, Burney 86, folio 85 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f085v#British Library, Burney 86, folio 85 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f086r#British Library, Burney 86, folio 86 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f086v#British Library, Burney 86, folio 86 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f087r#British Library, Burney 86, folio 87 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f087v#British Library, Burney 86, folio 87 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f088r#British Library, Burney 86, folio 88 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f088v#British Library, Burney 86, folio 88 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f089r#British Library, Burney 86, folio 89 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f089v#British Library, Burney 86, folio 89 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f090r#British Library, Burney 86, folio 90 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f090v#British Library, Burney 86, folio 90 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f091r#British Library, Burney 86, folio 91 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f091v#British Library, Burney 86, folio 91 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f092r#British Library, Burney 86, folio 92 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f092v#British Library, Burney 86, folio 92 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f093r#British Library, Burney 86, folio 93 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f093v#British Library, Burney 86, folio 93 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f094r#British Library, Burney 86, folio 94 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f094v#British Library, Burney 86, folio 94 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f095r#British Library, Burney 86, folio 95 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f095v#British Library, Burney 86, folio 95 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f096r#British Library, Burney 86, folio 96 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f096v#British Library, Burney 86, folio 96 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f097r#British Library, Burney 86, folio 97 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f097v#British Library, Burney 86, folio 97 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f098r#British Library, Burney 86, folio 98 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f098v#British Library, Burney 86, folio 98 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f099r#British Library, Burney 86, folio 99 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f099v#British Library, Burney 86, folio 99 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f100r#British Library, Burney 86, folio 100 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f100v#British Library, Burney 86, folio 100 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f101r#British Library, Burney 86, folio 101 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f101v#British Library, Burney 86, folio 101 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f102r#British Library, Burney 86, folio 102 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f102v#British Library, Burney 86, folio 102 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f103r#British Library, Burney 86, folio 103 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f103v#British Library, Burney 86, folio 103 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f104r#British Library, Burney 86, folio 104 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f104v#British Library, Burney 86, folio 104 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f105r#British Library, Burney 86, folio 105 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f105v#British Library, Burney 86, folio 105 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f106r#British Library, Burney 86, folio 106 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f106v#British Library, Burney 86, folio 106 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f107r#British Library, Burney 86, folio 107 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f107v#British Library, Burney 86, folio 107 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f108r#British Library, Burney 86, folio 108 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f108v#British Library, Burney 86, folio 108 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f109r#British Library, Burney 86, folio 109 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f109v#British Library, Burney 86, folio 109 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f110r#British Library, Burney 86, folio 110 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f110v#British Library, Burney 86, folio 110 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f111r#British Library, Burney 86, folio 111 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f111v#British Library, Burney 86, folio 111 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f112r#British Library, Burney 86, folio 112 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f112v#British Library, Burney 86, folio 112 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f113r#British Library, Burney 86, folio 113 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f113v#British Library, Burney 86, folio 113 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f114r#British Library, Burney 86, folio 114 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f114v#British Library, Burney 86, folio 114 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f115r#British Library, Burney 86, folio 115 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f115v#British Library, Burney 86, folio 115 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f116r#British Library, Burney 86, folio 116 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f116v#British Library, Burney 86, folio 116 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f117r#British Library, Burney 86, folio 117 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f117v#British Library, Burney 86, folio 117 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f118r#British Library, Burney 86, folio 118 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f118v#British Library, Burney 86, folio 118 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f119r#British Library, Burney 86, folio 119 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f119v#British Library, Burney 86, folio 119 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f120r#British Library, Burney 86, folio 120 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f120v#British Library, Burney 86, folio 120 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f121r#British Library, Burney 86, folio 121 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f121v#British Library, Burney 86, folio 121 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f122r#British Library, Burney 86, folio 122 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f122v#British Library, Burney 86, folio 122 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f123r#British Library, Burney 86, folio 123 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f123v#British Library, Burney 86, folio 123 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f124r#British Library, Burney 86, folio 124 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f124v#British Library, Burney 86, folio 124 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f125r#British Library, Burney 86, folio 125 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f125v#British Library, Burney 86, folio 125 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f126r#British Library, Burney 86, folio 126 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f126v#British Library, Burney 86, folio 126 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f127r#British Library, Burney 86, folio 127 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f127v#British Library, Burney 86, folio 127 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f128r#British Library, Burney 86, folio 128 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f128v#British Library, Burney 86, folio 128 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f129r#British Library, Burney 86, folio 129 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f129v#British Library, Burney 86, folio 129 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f130r#British Library, Burney 86, folio 130 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f130v#British Library, Burney 86, folio 130 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f131r#British Library, Burney 86, folio 131 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f131v#British Library, Burney 86, folio 131 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f132r#British Library, Burney 86, folio 132 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f132v#British Library, Burney 86, folio 132 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f133r#British Library, Burney 86, folio 133 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f133v#British Library, Burney 86, folio 133 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f134r#British Library, Burney 86, folio 134 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f134v#British Library, Burney 86, folio 134 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f135r#British Library, Burney 86, folio 135 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f135v#British Library, Burney 86, folio 135 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f136r#British Library, Burney 86, folio 136 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f136v#British Library, Burney 86, folio 136 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f137r#British Library, Burney 86, folio 137 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f137v#British Library, Burney 86, folio 137 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f138r#British Library, Burney 86, folio 138 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f138v#British Library, Burney 86, folio 138 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f139r#British Library, Burney 86, folio 139 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f139v#British Library, Burney 86, folio 139 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f140r#British Library, Burney 86, folio 140 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f140v#British Library, Burney 86, folio 140 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f141r#British Library, Burney 86, folio 141 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f141v#British Library, Burney 86, folio 141 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f142r#British Library, Burney 86, folio 142 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f142v#British Library, Burney 86, folio 142 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f143r#British Library, Burney 86, folio 143 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f143v#British Library, Burney 86, folio 143 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f144r#British Library, Burney 86, folio 144 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f144v#British Library, Burney 86, folio 144 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f145r#British Library, Burney 86, folio 145 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f145v#British Library, Burney 86, folio 145 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f146r#British Library, Burney 86, folio 146 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f146v#British Library, Burney 86, folio 146 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f147r#British Library, Burney 86, folio 147 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f147v#British Library, Burney 86, folio 147 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f148r#British Library, Burney 86, folio 148 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f148v#British Library, Burney 86, folio 148 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f149r#British Library, Burney 86, folio 149 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f149v#British Library, Burney 86, folio 149 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f150r#British Library, Burney 86, folio 150 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f150v#British Library, Burney 86, folio 150 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f151r#British Library, Burney 86, folio 151 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f151v#British Library, Burney 86, folio 151 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f152r#British Library, Burney 86, folio 152 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f152v#British Library, Burney 86, folio 152 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f153r#British Library, Burney 86, folio 153 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f153v#British Library, Burney 86, folio 153 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f154r#British Library, Burney 86, folio 154 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f154v#British Library, Burney 86, folio 154 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f155r#British Library, Burney 86, folio 155 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f155v#British Library, Burney 86, folio 155 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f156r#British Library, Burney 86, folio 156 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f156v#British Library, Burney 86, folio 156 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f157r#British Library, Burney 86, folio 157 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f157v#British Library, Burney 86, folio 157 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f158r#British Library, Burney 86, folio 158 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f158v#British Library, Burney 86, folio 158 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f159r#British Library, Burney 86, folio 159 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f159v#British Library, Burney 86, folio 159 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f160r#British Library, Burney 86, folio 160 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f160v#British Library, Burney 86, folio 160 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f161r#British Library, Burney 86, folio 161 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f161v#British Library, Burney 86, folio 161 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f162r#British Library, Burney 86, folio 162 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f162v#British Library, Burney 86, folio 162 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f163r#British Library, Burney 86, folio 163 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f163v#British Library, Burney 86, folio 163 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f164r#British Library, Burney 86, folio 164 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f164v#British Library, Burney 86, folio 164 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f165r#British Library, Burney 86, folio 165 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f165v#British Library, Burney 86, folio 165 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f166r#British Library, Burney 86, folio 166 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f166v#British Library, Burney 86, folio 166 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f167r#British Library, Burney 86, folio 167 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f167v#British Library, Burney 86, folio 167 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f168r#British Library, Burney 86, folio 168 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f168v#British Library, Burney 86, folio 168 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f169r#British Library, Burney 86, folio 169 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f169v#British Library, Burney 86, folio 169 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f170r#British Library, Burney 86, folio 170 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f170v#British Library, Burney 86, folio 170 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f171r#British Library, Burney 86, folio 171 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f171v#British Library, Burney 86, folio 171 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f172r#British Library, Burney 86, folio 172 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f172v#British Library, Burney 86, folio 172 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f173r#British Library, Burney 86, folio 173 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f173v#British Library, Burney 86, folio 173 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f174r#British Library, Burney 86, folio 174 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f174v#British Library, Burney 86, folio 174 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f175r#British Library, Burney 86, folio 175 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f175v#British Library, Burney 86, folio 175 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f176r#British Library, Burney 86, folio 176 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f176v#British Library, Burney 86, folio 176 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f177r#British Library, Burney 86, folio 177 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f177v#British Library, Burney 86, folio 177 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f178r#British Library, Burney 86, folio 178 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f178v#British Library, Burney 86, folio 178 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f179r#British Library, Burney 86, folio 179 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f179v#British Library, Burney 86, folio 179 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f180r#British Library, Burney 86, folio 180 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f180v#British Library, Burney 86, folio 180 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f181r#British Library, Burney 86, folio 181 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f181v#British Library, Burney 86, folio 181 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f182r#British Library, Burney 86, folio 182 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f182v#British Library, Burney 86, folio 182 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f183r#British Library, Burney 86, folio 183 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f183v#British Library, Burney 86, folio 183 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f184r#British Library, Burney 86, folio 184 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f184v#British Library, Burney 86, folio 184 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f185r#British Library, Burney 86, folio 185 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f185v#British Library, Burney 86, folio 185 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f186r#British Library, Burney 86, folio 186 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f186v#British Library, Burney 86, folio 186 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f187r#British Library, Burney 86, folio 187 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f187v#British Library, Burney 86, folio 187 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f188r#British Library, Burney 86, folio 188 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f188v#British Library, Burney 86, folio 188 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f189r#British Library, Burney 86, folio 189 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f189v#British Library, Burney 86, folio 189 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f190r#British Library, Burney 86, folio 190 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f190v#British Library, Burney 86, folio 190 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f191r#British Library, Burney 86, folio 191 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f191v#British Library, Burney 86, folio 191 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f192r#British Library, Burney 86, folio 192 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f192v#British Library, Burney 86, folio 192 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f193r#British Library, Burney 86, folio 193 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f193v#British Library, Burney 86, folio 193 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f194r#British Library, Burney 86, folio 194 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f194v#British Library, Burney 86, folio 194 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f195r#British Library, Burney 86, folio 195 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f195v#British Library, Burney 86, folio 195 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f196r#British Library, Burney 86, folio 196 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f196v#British Library, Burney 86, folio 196 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f197r#British Library, Burney 86, folio 197 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f197v#British Library, Burney 86, folio 197 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f198r#British Library, Burney 86, folio 198 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f198v#British Library, Burney 86, folio 198 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f199r#British Library, Burney 86, folio 199 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f199v#British Library, Burney 86, folio 199 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f200r#British Library, Burney 86, folio 200 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f200v#British Library, Burney 86, folio 200 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f201r#British Library, Burney 86, folio 201 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f201v#British Library, Burney 86, folio 201 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f202r#British Library, Burney 86, folio 202 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f202v#British Library, Burney 86, folio 202 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f203r#British Library, Burney 86, folio 203 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f203v#British Library, Burney 86, folio 203 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f204r#British Library, Burney 86, folio 204 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f204v#British Library, Burney 86, folio 204 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f205r#British Library, Burney 86, folio 205 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f205v#British Library, Burney 86, folio 205 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f206r#British Library, Burney 86, folio 206 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f206v#British Library, Burney 86, folio 206 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f207r#British Library, Burney 86, folio 207 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f207v#British Library, Burney 86, folio 207 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f208r#British Library, Burney 86, folio 208 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f208v#British Library, Burney 86, folio 208 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f209r#British Library, Burney 86, folio 209 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f209v#British Library, Burney 86, folio 209 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f210r#British Library, Burney 86, folio 210 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f210v#British Library, Burney 86, folio 210 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f211r#British Library, Burney 86, folio 211 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f211v#British Library, Burney 86, folio 211 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f212r#British Library, Burney 86, folio 212 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f212v#British Library, Burney 86, folio 212 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f213r#British Library, Burney 86, folio 213 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f213v#British Library, Burney 86, folio 213 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f214r#British Library, Burney 86, folio 214 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f214v#British Library, Burney 86, folio 214 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f215r#British Library, Burney 86, folio 215 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f215v#British Library, Burney 86, folio 215 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f216r#British Library, Burney 86, folio 216 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f216v#British Library, Burney 86, folio 216 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f217r#British Library, Burney 86, folio 217 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f217v#British Library, Burney 86, folio 217 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f218r#British Library, Burney 86, folio 218 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f218v#British Library, Burney 86, folio 218 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f219r#British Library, Burney 86, folio 219 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f219v#British Library, Burney 86, folio 219 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f220r#British Library, Burney 86, folio 220 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f220v#British Library, Burney 86, folio 220 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f221r#British Library, Burney 86, folio 221 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f221v#British Library, Burney 86, folio 221 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f222r#British Library, Burney 86, folio 222 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f222v#British Library, Burney 86, folio 222 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f223r#British Library, Burney 86, folio 223 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f223v#British Library, Burney 86, folio 223 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f224r#British Library, Burney 86, folio 224 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f224v#British Library, Burney 86, folio 224 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f225r#British Library, Burney 86, folio 225 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f225v#British Library, Burney 86, folio 225 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f226r#British Library, Burney 86, folio 226 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f226v#British Library, Burney 86, folio 226 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f227r#British Library, Burney 86, folio 227 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f227v#British Library, Burney 86, folio 227 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f228r#British Library, Burney 86, folio 228 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f228v#British Library, Burney 86, folio 228 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f229r#British Library, Burney 86, folio 229 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f229v#British Library, Burney 86, folio 229 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f230r#British Library, Burney 86, folio 230 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f230v#British Library, Burney 86, folio 230 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f231r#British Library, Burney 86, folio 231 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f231v#British Library, Burney 86, folio 231 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f232r#British Library, Burney 86, folio 232 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f232v#British Library, Burney 86, folio 232 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f233r#British Library, Burney 86, folio 233 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f233v#British Library, Burney 86, folio 233 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f234r#British Library, Burney 86, folio 234 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f234v#British Library, Burney 86, folio 234 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f235r#British Library, Burney 86, folio 235 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f235v#British Library, Burney 86, folio 235 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f236r#British Library, Burney 86, folio 236 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f236v#British Library, Burney 86, folio 236 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f237r#British Library, Burney 86, folio 237 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f237v#British Library, Burney 86, folio 237 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f238r#British Library, Burney 86, folio 238 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f238v#British Library, Burney 86, folio 238 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f239r#British Library, Burney 86, folio 239 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f239v#British Library, Burney 86, folio 239 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f240r#British Library, Burney 86, folio 240 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f240v#British Library, Burney 86, folio 240 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f241r#British Library, Burney 86, folio 241 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f241v#British Library, Burney 86, folio 241 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f242r#British Library, Burney 86, folio 242 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f242v#British Library, Burney 86, folio 242 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f243r#British Library, Burney 86, folio 243 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f243v#British Library, Burney 86, folio 243 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f244r#British Library, Burney 86, folio 244 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f244v#British Library, Burney 86, folio 244 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f245r#British Library, Burney 86, folio 245 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f245v#British Library, Burney 86, folio 245 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f246r#British Library, Burney 86, folio 246 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f246v#British Library, Burney 86, folio 246 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f247r#British Library, Burney 86, folio 247 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f247v#British Library, Burney 86, folio 247 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f248r#British Library, Burney 86, folio 248 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f248v#British Library, Burney 86, folio 248 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f249r#British Library, Burney 86, folio 249 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f249v#British Library, Burney 86, folio 249 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r#British Library, Burney 86, folio 250 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250v#British Library, Burney 86, folio 250 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f251r#British Library, Burney 86, folio 251 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f251v#British Library, Burney 86, folio 251 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f252r#British Library, Burney 86, folio 252 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f252v#British Library, Burney 86, folio 252 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f253r#British Library, Burney 86, folio 253 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f253v#British Library, Burney 86, folio 253 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f254r#British Library, Burney 86, folio 254 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f254v#British Library, Burney 86, folio 254 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f255r#British Library, Burney 86, folio 255 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f255v#British Library, Burney 86, folio 255 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f256r#British Library, Burney 86, folio 256 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f256v#British Library, Burney 86, folio 256 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f257r#British Library, Burney 86, folio 257 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f257v#British Library, Burney 86, folio 257 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f258r#British Library, Burney 86, folio 258 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f258v#British Library, Burney 86, folio 258 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f259r#British Library, Burney 86, folio 259 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f259v#British Library, Burney 86, folio 259 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f260r#British Library, Burney 86, folio 260 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f260v#British Library, Burney 86, folio 260 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f261r#British Library, Burney 86, folio 261 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f261v#British Library, Burney 86, folio 261 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f262r#British Library, Burney 86, folio 262 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f262v#British Library, Burney 86, folio 262 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f263r#British Library, Burney 86, folio 263 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f263v#British Library, Burney 86, folio 263 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f264r#British Library, Burney 86, folio 264 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f264v#British Library, Burney 86, folio 264 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f265r#British Library, Burney 86, folio 265 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f265v#British Library, Burney 86, folio 265 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f266r#British Library, Burney 86, folio 266 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f266v#British Library, Burney 86, folio 266 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f267r#British Library, Burney 86, folio 267 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f267v#British Library, Burney 86, folio 267 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f268r#British Library, Burney 86, folio 268 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f268v#British Library, Burney 86, folio 268 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f269r#British Library, Burney 86, folio 269 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f269v#British Library, Burney 86, folio 269 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f270r#British Library, Burney 86, folio 270 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f270v#British Library, Burney 86, folio 270 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f271r#British Library, Burney 86, folio 271 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f271v#British Library, Burney 86, folio 271 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f272r#British Library, Burney 86, folio 272 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f272v#British Library, Burney 86, folio 272 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f273r#British Library, Burney 86, folio 273 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f273v#British Library, Burney 86, folio 273 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f274r#British Library, Burney 86, folio 274 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f274v#British Library, Burney 86, folio 274 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f275r#British Library, Burney 86, folio 275 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f275v#British Library, Burney 86, folio 275 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f276r#British Library, Burney 86, folio 276 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f276v#British Library, Burney 86, folio 276 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f277r#British Library, Burney 86, folio 277 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f277v#British Library, Burney 86, folio 277 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f278r#British Library, Burney 86, folio 278 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f278v#British Library, Burney 86, folio 278 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f279r#British Library, Burney 86, folio 279 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f279v#British Library, Burney 86, folio 279 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f280r#British Library, Burney 86, folio 280 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f280v#British Library, Burney 86, folio 280 verso#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f281r#British Library, Burney 86, folio 281 recto#Public domain
-urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f281v#British Library, Burney 86, folio 281 verso#Public domain
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f001r#British Library, Burney 86, folio 1 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f001v#British Library, Burney 86, folio 1 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f002r#British Library, Burney 86, folio 2 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f002v#British Library, Burney 86, folio 2 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f003r#British Library, Burney 86, folio 3 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f003v#British Library, Burney 86, folio 3 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f004r#British Library, Burney 86, folio 4 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f004v#British Library, Burney 86, folio 4 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f005r#British Library, Burney 86, folio 5 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f005v#British Library, Burney 86, folio 5 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f006r#British Library, Burney 86, folio 6 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f006v#British Library, Burney 86, folio 6 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f007r#British Library, Burney 86, folio 7 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f007v#British Library, Burney 86, folio 7 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f008r#British Library, Burney 86, folio 8 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f008v#British Library, Burney 86, folio 8 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f009r#British Library, Burney 86, folio 9 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f009v#British Library, Burney 86, folio 9 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f010r#British Library, Burney 86, folio 10 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f010v#British Library, Burney 86, folio 10 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f011r#British Library, Burney 86, folio 11 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f011v#British Library, Burney 86, folio 11 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f012r#British Library, Burney 86, folio 12 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f012v#British Library, Burney 86, folio 12 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f013r#British Library, Burney 86, folio 13 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f013v#British Library, Burney 86, folio 13 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f014r#British Library, Burney 86, folio 14 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f014v#British Library, Burney 86, folio 14 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f015r#British Library, Burney 86, folio 15 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f015v#British Library, Burney 86, folio 15 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f016r#British Library, Burney 86, folio 16 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f016v#British Library, Burney 86, folio 16 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f017r#British Library, Burney 86, folio 17 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f017v#British Library, Burney 86, folio 17 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f018r#British Library, Burney 86, folio 18 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f018v#British Library, Burney 86, folio 18 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f019r#British Library, Burney 86, folio 19 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f019v#British Library, Burney 86, folio 19 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f020r#British Library, Burney 86, folio 20 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f020v#British Library, Burney 86, folio 20 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f021r#British Library, Burney 86, folio 21 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f021v#British Library, Burney 86, folio 21 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f022r#British Library, Burney 86, folio 22 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f022v#British Library, Burney 86, folio 22 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f023r#British Library, Burney 86, folio 23 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f023v#British Library, Burney 86, folio 23 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f024r#British Library, Burney 86, folio 24 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f024v#British Library, Burney 86, folio 24 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f025r#British Library, Burney 86, folio 25 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f025v#British Library, Burney 86, folio 25 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f026r#British Library, Burney 86, folio 26 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f026v#British Library, Burney 86, folio 26 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f027r#British Library, Burney 86, folio 27 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f027v#British Library, Burney 86, folio 27 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f028r#British Library, Burney 86, folio 28 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f028v#British Library, Burney 86, folio 28 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f029r#British Library, Burney 86, folio 29 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f029v#British Library, Burney 86, folio 29 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f030r#British Library, Burney 86, folio 30 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f030v#British Library, Burney 86, folio 30 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f031r#British Library, Burney 86, folio 31 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f031v#British Library, Burney 86, folio 31 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f032r#British Library, Burney 86, folio 32 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f032v#British Library, Burney 86, folio 32 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f033r#British Library, Burney 86, folio 33 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f033v#British Library, Burney 86, folio 33 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f034r#British Library, Burney 86, folio 34 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f034v#British Library, Burney 86, folio 34 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f035r#British Library, Burney 86, folio 35 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f035v#British Library, Burney 86, folio 35 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f036r#British Library, Burney 86, folio 36 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f036v#British Library, Burney 86, folio 36 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f037r#British Library, Burney 86, folio 37 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f037v#British Library, Burney 86, folio 37 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f038r#British Library, Burney 86, folio 38 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f038v#British Library, Burney 86, folio 38 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f039r#British Library, Burney 86, folio 39 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f039v#British Library, Burney 86, folio 39 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f040r#British Library, Burney 86, folio 40 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f040v#British Library, Burney 86, folio 40 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f041r#British Library, Burney 86, folio 41 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f041v#British Library, Burney 86, folio 41 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f042r#British Library, Burney 86, folio 42 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f042v#British Library, Burney 86, folio 42 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f043r#British Library, Burney 86, folio 43 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f043v#British Library, Burney 86, folio 43 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f044r#British Library, Burney 86, folio 44 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f044v#British Library, Burney 86, folio 44 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f045r#British Library, Burney 86, folio 45 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f045v#British Library, Burney 86, folio 45 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f046r#British Library, Burney 86, folio 46 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f046v#British Library, Burney 86, folio 46 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f047r#British Library, Burney 86, folio 47 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f047v#British Library, Burney 86, folio 47 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f048r#British Library, Burney 86, folio 48 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f048v#British Library, Burney 86, folio 48 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f049r#British Library, Burney 86, folio 49 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f049v#British Library, Burney 86, folio 49 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f050r#British Library, Burney 86, folio 50 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f050v#British Library, Burney 86, folio 50 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f051r#British Library, Burney 86, folio 51 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f051v#British Library, Burney 86, folio 51 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f052r#British Library, Burney 86, folio 52 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f052v#British Library, Burney 86, folio 52 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f053r#British Library, Burney 86, folio 53 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f053v#British Library, Burney 86, folio 53 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f054r#British Library, Burney 86, folio 54 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f054v#British Library, Burney 86, folio 54 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f055r#British Library, Burney 86, folio 55 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f055v#British Library, Burney 86, folio 55 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f056r#British Library, Burney 86, folio 56 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f056v#British Library, Burney 86, folio 56 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f057r#British Library, Burney 86, folio 57 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f057v#British Library, Burney 86, folio 57 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f058r#British Library, Burney 86, folio 58 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f058v#British Library, Burney 86, folio 58 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f059r#British Library, Burney 86, folio 59 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f059v#British Library, Burney 86, folio 59 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f060r#British Library, Burney 86, folio 60 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f060v#British Library, Burney 86, folio 60 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f061r#British Library, Burney 86, folio 61 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f061v#British Library, Burney 86, folio 61 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f062r#British Library, Burney 86, folio 62 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f062v#British Library, Burney 86, folio 62 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f063r#British Library, Burney 86, folio 63 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f063v#British Library, Burney 86, folio 63 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f064r#British Library, Burney 86, folio 64 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f064v#British Library, Burney 86, folio 64 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f065r#British Library, Burney 86, folio 65 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f065v#British Library, Burney 86, folio 65 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f066r#British Library, Burney 86, folio 66 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f066v#British Library, Burney 86, folio 66 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f067r#British Library, Burney 86, folio 67 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f067v#British Library, Burney 86, folio 67 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f068r#British Library, Burney 86, folio 68 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f068v#British Library, Burney 86, folio 68 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f069r#British Library, Burney 86, folio 69 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f069v#British Library, Burney 86, folio 69 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f070r#British Library, Burney 86, folio 70 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f070v#British Library, Burney 86, folio 70 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f071r#British Library, Burney 86, folio 71 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f071v#British Library, Burney 86, folio 71 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f072r#British Library, Burney 86, folio 72 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f072v#British Library, Burney 86, folio 72 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f073r#British Library, Burney 86, folio 73 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f073v#British Library, Burney 86, folio 73 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f074r#British Library, Burney 86, folio 74 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f074v#British Library, Burney 86, folio 74 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f075r#British Library, Burney 86, folio 75 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f075v#British Library, Burney 86, folio 75 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f076r#British Library, Burney 86, folio 76 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f076v#British Library, Burney 86, folio 76 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f077r#British Library, Burney 86, folio 77 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f077v#British Library, Burney 86, folio 77 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f078r#British Library, Burney 86, folio 78 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f078v#British Library, Burney 86, folio 78 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f079r#British Library, Burney 86, folio 79 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f079v#British Library, Burney 86, folio 79 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f080r#British Library, Burney 86, folio 80 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f080v#British Library, Burney 86, folio 80 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f081r#British Library, Burney 86, folio 81 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f081v#British Library, Burney 86, folio 81 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f082r#British Library, Burney 86, folio 82 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f082v#British Library, Burney 86, folio 82 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f083r#British Library, Burney 86, folio 83 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f083v#British Library, Burney 86, folio 83 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f084r#British Library, Burney 86, folio 84 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f084v#British Library, Burney 86, folio 84 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f085r#British Library, Burney 86, folio 85 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f085v#British Library, Burney 86, folio 85 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f086r#British Library, Burney 86, folio 86 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f086v#British Library, Burney 86, folio 86 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f087r#British Library, Burney 86, folio 87 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f087v#British Library, Burney 86, folio 87 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f088r#British Library, Burney 86, folio 88 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f088v#British Library, Burney 86, folio 88 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f089r#British Library, Burney 86, folio 89 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f089v#British Library, Burney 86, folio 89 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f090r#British Library, Burney 86, folio 90 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f090v#British Library, Burney 86, folio 90 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f091r#British Library, Burney 86, folio 91 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f091v#British Library, Burney 86, folio 91 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f092r#British Library, Burney 86, folio 92 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f092v#British Library, Burney 86, folio 92 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f093r#British Library, Burney 86, folio 93 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f093v#British Library, Burney 86, folio 93 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f094r#British Library, Burney 86, folio 94 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f094v#British Library, Burney 86, folio 94 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f095r#British Library, Burney 86, folio 95 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f095v#British Library, Burney 86, folio 95 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f096r#British Library, Burney 86, folio 96 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f096v#British Library, Burney 86, folio 96 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f097r#British Library, Burney 86, folio 97 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f097v#British Library, Burney 86, folio 97 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f098r#British Library, Burney 86, folio 98 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f098v#British Library, Burney 86, folio 98 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f099r#British Library, Burney 86, folio 99 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f099v#British Library, Burney 86, folio 99 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f100r#British Library, Burney 86, folio 100 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f100v#British Library, Burney 86, folio 100 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f101r#British Library, Burney 86, folio 101 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f101v#British Library, Burney 86, folio 101 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f102r#British Library, Burney 86, folio 102 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f102v#British Library, Burney 86, folio 102 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f103r#British Library, Burney 86, folio 103 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f103v#British Library, Burney 86, folio 103 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f104r#British Library, Burney 86, folio 104 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f104v#British Library, Burney 86, folio 104 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f105r#British Library, Burney 86, folio 105 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f105v#British Library, Burney 86, folio 105 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f106r#British Library, Burney 86, folio 106 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f106v#British Library, Burney 86, folio 106 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f107r#British Library, Burney 86, folio 107 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f107v#British Library, Burney 86, folio 107 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f108r#British Library, Burney 86, folio 108 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f108v#British Library, Burney 86, folio 108 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f109r#British Library, Burney 86, folio 109 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f109v#British Library, Burney 86, folio 109 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f110r#British Library, Burney 86, folio 110 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f110v#British Library, Burney 86, folio 110 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f111r#British Library, Burney 86, folio 111 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f111v#British Library, Burney 86, folio 111 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f112r#British Library, Burney 86, folio 112 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f112v#British Library, Burney 86, folio 112 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f113r#British Library, Burney 86, folio 113 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f113v#British Library, Burney 86, folio 113 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f114r#British Library, Burney 86, folio 114 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f114v#British Library, Burney 86, folio 114 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f115r#British Library, Burney 86, folio 115 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f115v#British Library, Burney 86, folio 115 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f116r#British Library, Burney 86, folio 116 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f116v#British Library, Burney 86, folio 116 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f117r#British Library, Burney 86, folio 117 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f117v#British Library, Burney 86, folio 117 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f118r#British Library, Burney 86, folio 118 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f118v#British Library, Burney 86, folio 118 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f119r#British Library, Burney 86, folio 119 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f119v#British Library, Burney 86, folio 119 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f120r#British Library, Burney 86, folio 120 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f120v#British Library, Burney 86, folio 120 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f121r#British Library, Burney 86, folio 121 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f121v#British Library, Burney 86, folio 121 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f122r#British Library, Burney 86, folio 122 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f122v#British Library, Burney 86, folio 122 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f123r#British Library, Burney 86, folio 123 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f123v#British Library, Burney 86, folio 123 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f124r#British Library, Burney 86, folio 124 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f124v#British Library, Burney 86, folio 124 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f125r#British Library, Burney 86, folio 125 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f125v#British Library, Burney 86, folio 125 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f126r#British Library, Burney 86, folio 126 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f126v#British Library, Burney 86, folio 126 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f127r#British Library, Burney 86, folio 127 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f127v#British Library, Burney 86, folio 127 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f128r#British Library, Burney 86, folio 128 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f128v#British Library, Burney 86, folio 128 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f129r#British Library, Burney 86, folio 129 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f129v#British Library, Burney 86, folio 129 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f130r#British Library, Burney 86, folio 130 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f130v#British Library, Burney 86, folio 130 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f131r#British Library, Burney 86, folio 131 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f131v#British Library, Burney 86, folio 131 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f132r#British Library, Burney 86, folio 132 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f132v#British Library, Burney 86, folio 132 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f133r#British Library, Burney 86, folio 133 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f133v#British Library, Burney 86, folio 133 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f134r#British Library, Burney 86, folio 134 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f134v#British Library, Burney 86, folio 134 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f135r#British Library, Burney 86, folio 135 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f135v#British Library, Burney 86, folio 135 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f136r#British Library, Burney 86, folio 136 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f136v#British Library, Burney 86, folio 136 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f137r#British Library, Burney 86, folio 137 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f137v#British Library, Burney 86, folio 137 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f138r#British Library, Burney 86, folio 138 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f138v#British Library, Burney 86, folio 138 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f139r#British Library, Burney 86, folio 139 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f139v#British Library, Burney 86, folio 139 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f140r#British Library, Burney 86, folio 140 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f140v#British Library, Burney 86, folio 140 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f141r#British Library, Burney 86, folio 141 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f141v#British Library, Burney 86, folio 141 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f142r#British Library, Burney 86, folio 142 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f142v#British Library, Burney 86, folio 142 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f143r#British Library, Burney 86, folio 143 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f143v#British Library, Burney 86, folio 143 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f144r#British Library, Burney 86, folio 144 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f144v#British Library, Burney 86, folio 144 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f145r#British Library, Burney 86, folio 145 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f145v#British Library, Burney 86, folio 145 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f146r#British Library, Burney 86, folio 146 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f146v#British Library, Burney 86, folio 146 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f147r#British Library, Burney 86, folio 147 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f147v#British Library, Burney 86, folio 147 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f148r#British Library, Burney 86, folio 148 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f148v#British Library, Burney 86, folio 148 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f149r#British Library, Burney 86, folio 149 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f149v#British Library, Burney 86, folio 149 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f150r#British Library, Burney 86, folio 150 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f150v#British Library, Burney 86, folio 150 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f151r#British Library, Burney 86, folio 151 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f151v#British Library, Burney 86, folio 151 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f152r#British Library, Burney 86, folio 152 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f152v#British Library, Burney 86, folio 152 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f153r#British Library, Burney 86, folio 153 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f153v#British Library, Burney 86, folio 153 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f154r#British Library, Burney 86, folio 154 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f154v#British Library, Burney 86, folio 154 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f155r#British Library, Burney 86, folio 155 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f155v#British Library, Burney 86, folio 155 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f156r#British Library, Burney 86, folio 156 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f156v#British Library, Burney 86, folio 156 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f157r#British Library, Burney 86, folio 157 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f157v#British Library, Burney 86, folio 157 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f158r#British Library, Burney 86, folio 158 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f158v#British Library, Burney 86, folio 158 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f159r#British Library, Burney 86, folio 159 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f159v#British Library, Burney 86, folio 159 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f160r#British Library, Burney 86, folio 160 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f160v#British Library, Burney 86, folio 160 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f161r#British Library, Burney 86, folio 161 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f161v#British Library, Burney 86, folio 161 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f162r#British Library, Burney 86, folio 162 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f162v#British Library, Burney 86, folio 162 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f163r#British Library, Burney 86, folio 163 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f163v#British Library, Burney 86, folio 163 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f164r#British Library, Burney 86, folio 164 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f164v#British Library, Burney 86, folio 164 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f165r#British Library, Burney 86, folio 165 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f165v#British Library, Burney 86, folio 165 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f166r#British Library, Burney 86, folio 166 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f166v#British Library, Burney 86, folio 166 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f167r#British Library, Burney 86, folio 167 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f167v#British Library, Burney 86, folio 167 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f168r#British Library, Burney 86, folio 168 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f168v#British Library, Burney 86, folio 168 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f169r#British Library, Burney 86, folio 169 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f169v#British Library, Burney 86, folio 169 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f170r#British Library, Burney 86, folio 170 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f170v#British Library, Burney 86, folio 170 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f171r#British Library, Burney 86, folio 171 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f171v#British Library, Burney 86, folio 171 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f172r#British Library, Burney 86, folio 172 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f172v#British Library, Burney 86, folio 172 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f173r#British Library, Burney 86, folio 173 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f173v#British Library, Burney 86, folio 173 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f174r#British Library, Burney 86, folio 174 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f174v#British Library, Burney 86, folio 174 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f175r#British Library, Burney 86, folio 175 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f175v#British Library, Burney 86, folio 175 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f176r#British Library, Burney 86, folio 176 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f176v#British Library, Burney 86, folio 176 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f177r#British Library, Burney 86, folio 177 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f177v#British Library, Burney 86, folio 177 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f178r#British Library, Burney 86, folio 178 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f178v#British Library, Burney 86, folio 178 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f179r#British Library, Burney 86, folio 179 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f179v#British Library, Burney 86, folio 179 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f180r#British Library, Burney 86, folio 180 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f180v#British Library, Burney 86, folio 180 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f181r#British Library, Burney 86, folio 181 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f181v#British Library, Burney 86, folio 181 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f182r#British Library, Burney 86, folio 182 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f182v#British Library, Burney 86, folio 182 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f183r#British Library, Burney 86, folio 183 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f183v#British Library, Burney 86, folio 183 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f184r#British Library, Burney 86, folio 184 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f184v#British Library, Burney 86, folio 184 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f185r#British Library, Burney 86, folio 185 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f185v#British Library, Burney 86, folio 185 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f186r#British Library, Burney 86, folio 186 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f186v#British Library, Burney 86, folio 186 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f187r#British Library, Burney 86, folio 187 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f187v#British Library, Burney 86, folio 187 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f188r#British Library, Burney 86, folio 188 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f188v#British Library, Burney 86, folio 188 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f189r#British Library, Burney 86, folio 189 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f189v#British Library, Burney 86, folio 189 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f190r#British Library, Burney 86, folio 190 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f190v#British Library, Burney 86, folio 190 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f191r#British Library, Burney 86, folio 191 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f191v#British Library, Burney 86, folio 191 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f192r#British Library, Burney 86, folio 192 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f192v#British Library, Burney 86, folio 192 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f193r#British Library, Burney 86, folio 193 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f193v#British Library, Burney 86, folio 193 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f194r#British Library, Burney 86, folio 194 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f194v#British Library, Burney 86, folio 194 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f195r#British Library, Burney 86, folio 195 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f195v#British Library, Burney 86, folio 195 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f196r#British Library, Burney 86, folio 196 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f196v#British Library, Burney 86, folio 196 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f197r#British Library, Burney 86, folio 197 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f197v#British Library, Burney 86, folio 197 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f198r#British Library, Burney 86, folio 198 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f198v#British Library, Burney 86, folio 198 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f199r#British Library, Burney 86, folio 199 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f199v#British Library, Burney 86, folio 199 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f200r#British Library, Burney 86, folio 200 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f200v#British Library, Burney 86, folio 200 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f201r#British Library, Burney 86, folio 201 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f201v#British Library, Burney 86, folio 201 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f202r#British Library, Burney 86, folio 202 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f202v#British Library, Burney 86, folio 202 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f203r#British Library, Burney 86, folio 203 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f203v#British Library, Burney 86, folio 203 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f204r#British Library, Burney 86, folio 204 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f204v#British Library, Burney 86, folio 204 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f205r#British Library, Burney 86, folio 205 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f205v#British Library, Burney 86, folio 205 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f206r#British Library, Burney 86, folio 206 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f206v#British Library, Burney 86, folio 206 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f207r#British Library, Burney 86, folio 207 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f207v#British Library, Burney 86, folio 207 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f208r#British Library, Burney 86, folio 208 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f208v#British Library, Burney 86, folio 208 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f209r#British Library, Burney 86, folio 209 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f209v#British Library, Burney 86, folio 209 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f210r#British Library, Burney 86, folio 210 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f210v#British Library, Burney 86, folio 210 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f211r#British Library, Burney 86, folio 211 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f211v#British Library, Burney 86, folio 211 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f212r#British Library, Burney 86, folio 212 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f212v#British Library, Burney 86, folio 212 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f213r#British Library, Burney 86, folio 213 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f213v#British Library, Burney 86, folio 213 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f214r#British Library, Burney 86, folio 214 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f214v#British Library, Burney 86, folio 214 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f215r#British Library, Burney 86, folio 215 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f215v#British Library, Burney 86, folio 215 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f216r#British Library, Burney 86, folio 216 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f216v#British Library, Burney 86, folio 216 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f217r#British Library, Burney 86, folio 217 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f217v#British Library, Burney 86, folio 217 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f218r#British Library, Burney 86, folio 218 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f218v#British Library, Burney 86, folio 218 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f219r#British Library, Burney 86, folio 219 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f219v#British Library, Burney 86, folio 219 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f220r#British Library, Burney 86, folio 220 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f220v#British Library, Burney 86, folio 220 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f221r#British Library, Burney 86, folio 221 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f221v#British Library, Burney 86, folio 221 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f222r#British Library, Burney 86, folio 222 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f222v#British Library, Burney 86, folio 222 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f223r#British Library, Burney 86, folio 223 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f223v#British Library, Burney 86, folio 223 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f224r#British Library, Burney 86, folio 224 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f224v#British Library, Burney 86, folio 224 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f225r#British Library, Burney 86, folio 225 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f225v#British Library, Burney 86, folio 225 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f226r#British Library, Burney 86, folio 226 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f226v#British Library, Burney 86, folio 226 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f227r#British Library, Burney 86, folio 227 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f227v#British Library, Burney 86, folio 227 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f228r#British Library, Burney 86, folio 228 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f228v#British Library, Burney 86, folio 228 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f229r#British Library, Burney 86, folio 229 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f229v#British Library, Burney 86, folio 229 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f230r#British Library, Burney 86, folio 230 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f230v#British Library, Burney 86, folio 230 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f231r#British Library, Burney 86, folio 231 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f231v#British Library, Burney 86, folio 231 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f232r#British Library, Burney 86, folio 232 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f232v#British Library, Burney 86, folio 232 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f233r#British Library, Burney 86, folio 233 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f233v#British Library, Burney 86, folio 233 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f234r#British Library, Burney 86, folio 234 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f234v#British Library, Burney 86, folio 234 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f235r#British Library, Burney 86, folio 235 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f235v#British Library, Burney 86, folio 235 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f236r#British Library, Burney 86, folio 236 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f236v#British Library, Burney 86, folio 236 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f237r#British Library, Burney 86, folio 237 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f237v#British Library, Burney 86, folio 237 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f238r#British Library, Burney 86, folio 238 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f238v#British Library, Burney 86, folio 238 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f239r#British Library, Burney 86, folio 239 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f239v#British Library, Burney 86, folio 239 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f240r#British Library, Burney 86, folio 240 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f240v#British Library, Burney 86, folio 240 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f241r#British Library, Burney 86, folio 241 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f241v#British Library, Burney 86, folio 241 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f242r#British Library, Burney 86, folio 242 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f242v#British Library, Burney 86, folio 242 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f243r#British Library, Burney 86, folio 243 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f243v#British Library, Burney 86, folio 243 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f244r#British Library, Burney 86, folio 244 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f244v#British Library, Burney 86, folio 244 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f245r#British Library, Burney 86, folio 245 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f245v#British Library, Burney 86, folio 245 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f246r#British Library, Burney 86, folio 246 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f246v#British Library, Burney 86, folio 246 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f247r#British Library, Burney 86, folio 247 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f247v#British Library, Burney 86, folio 247 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f248r#British Library, Burney 86, folio 248 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f248v#British Library, Burney 86, folio 248 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f249r#British Library, Burney 86, folio 249 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f249v#British Library, Burney 86, folio 249 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r#British Library, Burney 86, folio 250 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250v#British Library, Burney 86, folio 250 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f251r#British Library, Burney 86, folio 251 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f251v#British Library, Burney 86, folio 251 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f252r#British Library, Burney 86, folio 252 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f252v#British Library, Burney 86, folio 252 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f253r#British Library, Burney 86, folio 253 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f253v#British Library, Burney 86, folio 253 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f254r#British Library, Burney 86, folio 254 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f254v#British Library, Burney 86, folio 254 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f255r#British Library, Burney 86, folio 255 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f255v#British Library, Burney 86, folio 255 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f256r#British Library, Burney 86, folio 256 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f256v#British Library, Burney 86, folio 256 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f257r#British Library, Burney 86, folio 257 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f257v#British Library, Burney 86, folio 257 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f258r#British Library, Burney 86, folio 258 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f258v#British Library, Burney 86, folio 258 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f259r#British Library, Burney 86, folio 259 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f259v#British Library, Burney 86, folio 259 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f260r#British Library, Burney 86, folio 260 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f260v#British Library, Burney 86, folio 260 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f261r#British Library, Burney 86, folio 261 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f261v#British Library, Burney 86, folio 261 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f262r#British Library, Burney 86, folio 262 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f262v#British Library, Burney 86, folio 262 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f263r#British Library, Burney 86, folio 263 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f263v#British Library, Burney 86, folio 263 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f264r#British Library, Burney 86, folio 264 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f264v#British Library, Burney 86, folio 264 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f265r#British Library, Burney 86, folio 265 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f265v#British Library, Burney 86, folio 265 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f266r#British Library, Burney 86, folio 266 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f266v#British Library, Burney 86, folio 266 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f267r#British Library, Burney 86, folio 267 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f267v#British Library, Burney 86, folio 267 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f268r#British Library, Burney 86, folio 268 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f268v#British Library, Burney 86, folio 268 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f269r#British Library, Burney 86, folio 269 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f269v#British Library, Burney 86, folio 269 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f270r#British Library, Burney 86, folio 270 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f270v#British Library, Burney 86, folio 270 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f271r#British Library, Burney 86, folio 271 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f271v#British Library, Burney 86, folio 271 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f272r#British Library, Burney 86, folio 272 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f272v#British Library, Burney 86, folio 272 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f273r#British Library, Burney 86, folio 273 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f273v#British Library, Burney 86, folio 273 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f274r#British Library, Burney 86, folio 274 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f274v#British Library, Burney 86, folio 274 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f275r#British Library, Burney 86, folio 275 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f275v#British Library, Burney 86, folio 275 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f276r#British Library, Burney 86, folio 276 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f276v#British Library, Burney 86, folio 276 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f277r#British Library, Burney 86, folio 277 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f277v#British Library, Burney 86, folio 277 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f278r#British Library, Burney 86, folio 278 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f278v#British Library, Burney 86, folio 278 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f279r#British Library, Burney 86, folio 279 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f279v#British Library, Burney 86, folio 279 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f280r#British Library, Burney 86, folio 280 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f280v#British Library, Burney 86, folio 280 verso#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f281r#British Library, Burney 86, folio 281 recto#Image in the public domain.
+urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f281v#British Library, Burney 86, folio 281 verso#Image in the public domain.
