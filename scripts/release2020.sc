@@ -39,6 +39,7 @@ import java.io.File
 // 1. src directories for texts broken out by MS and book
 val scholiaXml = "archive/scholia"
 val iliadXml = "archive/iliad"
+val otherCex = "archive/other_cex"
 // 2. target directory for intermeidate composite xml output
 val scholiaComposites = "archive/scholia-xml-composites"
 val iliadComposites = "archive/iliad-xml-composites"
@@ -170,10 +171,11 @@ def catAll: String = {
   // for a given release in the file "library.cex".
   //val libraryCex = DataCollector.compositeFiles("archive", "cex")
 
-  // Four subdirectories of the archive root contain all archival
+  // Five subdirectories of the archive root contain all archival
   // data in CEX format:
   val tbsCex = DataCollector.compositeFiles("archive/codices", "cex")
   val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
+  val otherCex = DataCollector.compositeFiles( "archive/other_cex", "cex")
   val imageCex = DataCollector.compositeFiles("archive/images", "cex")
   val annotationCex = DataCollector.compositeFiles("archive/annotations","cex")
   val dseCex = DataCollector.compositeFiles("archive/dse-catalog", "cex") +  DataCollector.compositeFiles("archive/dse-data", "cex")
@@ -182,7 +184,7 @@ def catAll: String = {
   val authlistsCex = DataCollector.compositeFiles("archive/authlists", "cex")
 
   // Concatenate into a single string:
-  List(tbsCex, textCex, imageCex, annotationCex, dseCex, indexCex, authlistsCex ).mkString("\n\n") + "\n"
+  List(tbsCex, textCex, otherCex, imageCex, annotationCex, dseCex, indexCex, authlistsCex ).mkString("\n\n") + "\n"
 }
 
 /** Remove all temporary files created in process of composing
@@ -217,12 +219,12 @@ def tidy = {
 /** Compose CEX header for library by replacing
 * template values for name and urn of release in library.cex.
 */
-def libraryHeader(releaseId: String): String = {
+def libraryHeader(releaseId: String, cexId: String = "all"): String = {
   val src = Source.fromFile("archive/library.cex").getLines.toVector.mkString("\n")
   val modified = src.replaceFirst("RELEASE_NAME_VALUE",
     s"name#Homer Multitext project, release ${releaseId}"
   ).replaceFirst("RELEASE_URN_VALUE",
-    s"urn#urn:cite2:hmt:publications.cex.${releaseId}:all"
+    s"urn#urn:cite2:hmt:publications.cex.${releaseId}:${cexId}"
   )
   modified
 }
@@ -230,18 +232,19 @@ def libraryHeader(releaseId: String): String = {
 /** Concatenate all CEX source into a single string.
 */
 def catTextThings: String = {
-  // Four subdirectories of the archive root contain all archival
-  // data in CEX format:
+  // Five subdirectories of the archive root contain all archival
+  // data in CEX format. Three of them deal with texts.
   val textCex = DataCollector.compositeFiles( "archive/editions", "cex")
   val indexCex = DataCollector.compositeFiles("archive/relations", "cex")
+  val otherCex = DataCollector.compositeFiles( "archive/other_cex", "cex")
 
   // Concatenate into a single string:
-  List(textCex,  indexCex ).mkString("\n\n") + "\n"
+  List(textCex, otherCex,  indexCex ).mkString("\n\n") + "\n"
 }
 
 def releaseTexts(releaseId: String) =  {
   // build single CEX composite and write it out to a file:
-  val allCex = libraryHeader(releaseId) + "\n" + catTextThings
+  val allCex = libraryHeader(releaseId, "texts") + "\n" + catTextThings
   new PrintWriter(s"release-candidates/hmt-${releaseId}-texts.cex") { write(allCex); close}
 }
 

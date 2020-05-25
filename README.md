@@ -15,8 +15,6 @@ Other directories include work in progress and older work being updated to confo
 
 
 
-
-
 ## Guide to HMT project publications
 
 -   See a [guide to understanding HMT project publications](overview.md) (2018).
@@ -24,4 +22,4 @@ Other directories include work in progress and older work being updated to confo
 
 ## Contributors
 
-Contributors to releases published in 2018 are [listed here](contributors/2018.md).  If you know of any name that is missing, please get in touch with us.  (You may file an issue directly on our issue tracker if you're a github user.)
+Contributors to releases published in 2020 are [listed here](contributors/2020.md).  If you know of any name that is missing, please get in touch with us.  (You may file an issue directly on our issue tracker if you're a github user.)

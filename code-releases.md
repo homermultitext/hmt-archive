@@ -1,5 +1,6 @@
 # Release notes for `hmt-cexbuilder` code library
 
+**3.6.0**:  adds `other_cex` directory for dropping pre-made CEX files to be included in the build; fixed build with a parameterized `cexId` (defaults to "all"), so the main CEX file and the texts-only CEX file have unique URNs.
 
 **3.5.0**:  adds logging, updates libraries.
 

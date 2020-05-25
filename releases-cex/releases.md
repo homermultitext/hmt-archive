@@ -2,6 +2,9 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2020i**: Casey Dué’s and Mary Ebbott’s translation of *Iliad* Book 10 added to data.
+- **2020h**: DSE records that were missing for *Iliad* Book 23 (poetic text) added.
+- **2020g**: numerous invalid range-URNs corrected in scholia.
 - **2020f**: illegal characters removed from scholia XML edition.  Validations applied:
     - DSE relations validated.
 - **2020e**: further correctios to invalid image references in DSE records.  Validations applied:
