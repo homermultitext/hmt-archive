@@ -15,7 +15,7 @@ lazy val crossed = crossProject(JSPlatform, JVMPlatform).in(file(".")).
     settings(
       name := "hmtcexbuilder",
       organization := "org.homermultitext",
-      version := "3.6.0"
+      version := "3.6.0",
       licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html")),
 
       resolvers += Resolver.jcenterRepo,
