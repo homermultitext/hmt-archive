@@ -361,7 +361,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div n="comment">
                      <p>προς τὸ σχῆμα ὅτι ἔμελλον: ἡμεῖς δὲ ἐροῦ <q>ἔμελλεν</q> ἑνικῶς. καὶ ὅτι
-                           τὸ <rs type="waw">ἔμελλον</rs> ἀντι τοῦ <rs type="waw">ἐῴκεσαν</rs>⁑</p>
+                           τὸ<rs type="waw">ἔμελλον</rs>ἀντι τοῦ <rs type="waw">ἐῴκεσαν</rs>⁑</p>
                   </div>
                </div>
                <div n="55" type="scholion">
@@ -372,10 +372,10 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.41</p>
                   </div>
                   <div n="comment">
-                     <p>ὅτι ὀμφὴ ἡ θεία κληδὼν οὐ πάσα φήμη διὃ καὶ ὁ <persName n="urn:cite2:hmt:pers.r1:pers8"
+                     <p>ὅτιὀμφὴἡ θεία κληδὼν οὐ πάσα φήμη διὃ καὶ ὁ <persName n="urn:cite2:hmt:pers.r1:pers8"
                            >Ζεῦς</persName> πανομφαῖος <note resp="Erbse">cf. Θ 250</note>, ὁ
-                        κληδόνιος: ὀμφὴ δὲ ἡ τὸ ὂν φαίνουσα: λέγει δὲ ὅτι ἔναυλον εἶχε τὴν τοῦ
-                        ὀνείρου φωνήν. ἐμφαντικὸν δὲ τὸ ἀμφέχυτο προς τὸ μηδὲν αυτῆς
+                        κληδόνιος: ὀμφὴδὲ ἡ τὸ ὂν φαίνουσα: λέγει δὲ ὅτι ἔναυλον εἶχε τὴν τοῦ
+                        ὀνείρου φωνήν. ἐμφαντικὸν δὲ τὸἀμφέχυτοπρος τὸ μηδὲν αυτῆς
                         ἐπιλελῆσθαι⁑</p>
                   </div>
                </div>
@@ -440,7 +440,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.45</p>
                   </div>
                   <div n="comment">
-                     <p>ὅτι τὸ <persName n="urn:cite2:hmt:pers.r1:pers22">Ἀγαμέμνονος</persName> νῦν μὲν ἀργυρόηλον ἐν
+                     <p>ὅτι τὸ <persName n="urn:cite2:hmt:pers.r1:pers22">Ἀγαμέμνονος</persName> νῦν μὲνἀργυρόηλονἐν
                         ἄλλοις δὲ <note resp="Erbse">cf. Λ 29-30</note> χρυσόηλον: καὶ <persName
                            n="urn:cite2:hmt:pers.r1:pers97">Εὐριπίδης</persName>: <cit>
                            <q>σφυὸν σιδηρᾶ κέντρα</q>
@@ -475,7 +475,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.48</p>
                   </div>
                   <div n="comment">
-                     <p>ἠὼς μέν ῥα πρὸς τῶν ἡμερῶν ἀριθμὸν ὅτι τρίτη καὶ εἰκοστή: δέκα μὲν μέχρι τῆς
+                     <p>ἠὼς μέν ῥαπρὸς τῶν ἡμερῶν ἀριθμὸν ὅτι τρίτη καὶ εἰκοστή: δέκα μὲν μέχρι τῆς
                         μήνιδος, δώδεκα τῶν θεῶν ἐν <placeName n="urn:cite2:hmt:place.r1:place46">Αἰθιοπῆᾳ</placeName>
                         ὄντων. ἡ δὲ ἀνατολὴ αὕτη τρίτη καὶ εἰκοστῆ ἐστιν: καὶ ὅτι όρος ὁ <placeName
                            n="urn:cite2:hmt:place.r1:place45">Ὄλυμπος</placeName> διὃ καὶ μακρός⁑</p>
@@ -517,7 +517,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.53</p>
                   </div>
                   <div n="comment">
-                     <p>ἡ κοινὴ τὸ <rs type="waw">ἱ¨ζε</rs> συστέλλει φθάνει δὲ τῆν <rs
+                     <p>ἡ κοινὴ τὸ<rs type="waw">ἱ¨ζε</rs>συστέλλει φθάνει δὲ τῆν <rs
                            type="ethnic" n="urn:cite2:hmt:place.r1:place53">Λακώνων</rs> πολιτείαν βουλὴν γερόντων καὶ δύο
                         βασιλεῖς λέγων⁑</p>
                   </div>
@@ -755,11 +755,11 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.99</p>
                   </div>
                   <div n="comment">
-                     <p>ἤτοι στικτέον ἐπι τὸ <rs type="waw">λαὸς</rs> καὶ τὰ εξῆς συναπτέον ἕως <rs
-                           type="waw">κλαγγῆς</rs>: ἢ ὡς δια μέσου κειμένου τοῦ ἐρήτυθεν δὲ καθ
-                        έδρας ἀνυποκρίτως ὑποστικτέον ἐπι τὸ καθ έδρας ὅτε ἔστι διαστολὴ ἐπι τὸ <rs
-                           type="waw">λαὸς</rs> ἵν ᾖ τὸ ἑξῆς <q>σπουδῇ δ' ἔζετο λαὸς</q> παυσάμενοι
-                           <rs type="waw">κλαγγῆς</rs> καὶ τὸ σχῆμα Ὁμηρικόν καὶ ἡ δια μέσου
+                     <p>ἤτοι στικτέον ἐπι τὸ <rs type="waw">λαὸς</rs> καὶ τὰ εξῆς συναπτέον ἕως<rs
+                           type="waw">κλαγγῆς</rs>: ἢ ὡς δια μέσου κειμένου τοῦἐρήτυθεν δὲ καθ
+                        έδρας ἀνυποκρίτως ὑποστικτέον ἐπι τὸ καθ έδρας ὅτε ἔστι διαστολὴ ἐπι τὸ<rs
+                           type="waw">λαὸς</rs> ἵν ᾖ τὸ ἑξῆς<q>σπουδῇ δ' ἔζετο λαὸς</q> παυσάμενοι
+                           <rs type="waw">κλαγγῆς</rs>καὶ τὸ σχῆμα Ὁμηρικόν καὶ ἡ δια μέσου
                         ἀναφώνησις ὁμοίως: ὁ δὲ νοῦς τοῦ ημιστιχίου οὗτος ἐρήτυθεν δὲ κατὰ θὰς εδρας
                         οιον ἡρεμησαν καθίσαντες⁑</p>
                   </div>
@@ -801,7 +801,7 @@ style simple scholia" alternate="no"?>
                         </choice>: ὁ δὲ οὐ δὲ τῷ ἑαυτοῦ παιδὶ ζῶντι τῷ <persName n="urn:cite2:hmt:pers.r1:pers27"
                            >Αἰγίσθῳ</persName> τὴν αρχὴν ἐνεχείρισεν: ἀλλ ὥσπερ ἀγαθὸς επίτροπος
                         διαφυλαξας ἀπέδωκεν <persName n="urn:cite2:hmt:pers.r1:pers22">Ἀγαμέμνονι</persName> ἄχρι δὲ
-                           τοῦ <q>αὐτὰρ ὁ αὖτε <persName n="urn:cite2:hmt:pers.r1:pers28">Θυέστ'</persName>
+                           τοῦ<q>αὐτὰρ ὁ αὖτε <persName n="urn:cite2:hmt:pers.r1:pers28">Θυέστ'</persName>
                            <persName n="urn:cite2:hmt:pers.r1:pers22">Αγαμεμνονι</persName> δῶκε φορῆναι</q> καλεῖται
                         κλίμαξ: δίδωσι δὲ <persName n="urn:cite2:hmt:pers.r1:pers192">Ἥφαιστος</persName> τῷ μὲν <persName
                            n="urn:cite2:hmt:pers.r1:pers8">Διῒ</persName> τὸ σκῆπτρον ὡς βασιλικόν: τῷ δὲ <persName
