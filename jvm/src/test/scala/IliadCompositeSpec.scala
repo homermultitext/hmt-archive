@@ -7,11 +7,11 @@ import scala.xml._
 class IliadCompositeSpec extends FlatSpec {
 
 
-  val srcDir = "src/test/resources/iliad-xml"
-  val outDir = "src/test/resources/iliad-composites"
+  val srcDir = "jvm/src/test/resources/iliad-xml"
+  val outDir = "jvm/src/test/resources/iliad-composites"
 
 
-  "The IliadComposite object" should "extract text content in boks in a single text" in pending /*{
+  "The IliadComposite object" should "extract text content in boks in a single text" in {
 
     val xmlFiles = DataCollector.filesInDir(srcDir,"xml")
 
@@ -31,15 +31,15 @@ class IliadCompositeSpec extends FlatSpec {
     val book2 = books(1)
     val lines2 = book2 \ "l"
     assert (lines2.size == 3)
-  }*/
+  }
 
 
-  it should "write full-blown CEX serialization of iliad content"  in  pending /*{
-    val srcDir = "src/test/resources/iliad-xml"
-    val outDir = "src/test/resources/iliad-composites"
+  it should "write full-blown CEX serialization of iliad content"  in  {
+    val srcDir = "jvm/src/test/resources/iliad-xml"
+    val outDir = "jvm/src/test/resources/iliad-composites"
     IliadComposite.composite(srcDir, outDir)
     val expectedOutput = Vector(
-      new File ("src/test/resources/iliad-composites/va_iliad.xml")
+      new File ("jvm/src/test/resources/iliad-composites/va_iliad.xml")
     )
     val actualOutput = DataCollector.filesInDir(outDir, "xml")
     assert(actualOutput == expectedOutput)
@@ -48,5 +48,5 @@ class IliadCompositeSpec extends FlatSpec {
     for (f <- actualOutput.toSeq) {
       f.delete()
     }
-  }*/
+  }
 }
