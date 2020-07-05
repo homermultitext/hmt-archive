@@ -29,7 +29,8 @@ import edu.holycross.shot.xmlutils._
 
 import org.homermultitext.edmodel._
 import edu.holycross.shot.mid.validator._
-
+import edu.holycross.shot.mid.orthography._
+import edu.holycross.shot.greek._
 
 import java.io.PrintWriter
 import scala.io._
@@ -49,7 +50,7 @@ val authListDir = "archive/authlists"
 val cexEditions = "archive/editions"
 
 val orthoMap : Map[CtsUrn, MidOrthography] = Map(
-  CtsUrn("urn:cts:greekLit:tlg0012.tlg001:") -> IliadOrthography
+  CtsUrn("urn:cts:greekLit:tlg0012.tlg001:") -> LiteraryGreekString
   //CtsUrn("urn:cts:greekLit:tlg5026:") -> ScholiaOrthography
 )
 
@@ -118,7 +119,7 @@ def scholia: Unit = {
       println("Clean nodes: " + cleanNodes.size)
       val subcorpus = Corpus(cleanNodes)
       println("Got " + subcorpus.size + " scholia.")
-      val diplSubcorpus = DiplomaticReader.edition(subcorpus)
+      val diplSubcorpus = DiplomaticReader.edition(subcorpus,HmtDiplomaticEdition)
 
       val diplHeader: String = {
         val entries: Vector[CatalogEntry] = scholiaCatalog.entriesForUrn(s)
@@ -154,7 +155,7 @@ def iliad : Unit= {
   // write CEX-formatted version of archival XML:
   //new PrintWriter(s"${iliadComposites}/va_iliad_xml.cex") { write(repo.cex("#"));close }
 
-  val diplIliad =  DiplomaticReader.edition(repo.corpus)
+  val diplIliad =  DiplomaticReader.edition(repo.corpus, HmtDiplomaticEdition)
   val diplHeader = "\n\n#!ctscatalog\nurn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang\nurn:cts:greekLit:tlg0012.tlg001.msA:#book,line#Homeric epic#Iliad#HMT project diplomatic edition##true#grc\n\n#!ctsdata\n"
 
 
@@ -261,7 +262,7 @@ def updateAuthlists = {
   new PrintWriter("archive/authlists/hmtplaces.cex") {write(placeLines.mkString("\n") + "\n"); close;}
 }
 
-
+/*
 def hmtValidators(lib: CiteLibrary) : Vector[MidValidator[Any]]= {
   val dsev = DseValidator(lib)
   Vector(dsev)
@@ -276,6 +277,9 @@ def validateRelease(releaseId: String) : TestResultGroup = {
   val title = "Valdation results for HMT release " + releaseId
   TestResultGroup(title, rslts)
 }
+*/
+
+
 
 /** Build a release of the HMT archive as a CITE library.*/
 def buildRelease(releaseId: String) = {
@@ -296,11 +300,12 @@ def buildRelease(releaseId: String) = {
   tidy
 }
 
+/*
 def printValidation(releaseId: String) : Unit = {
   println("Validating release " + releaseId)
   val testResults = validateRelease(releaseId)
   new PrintWriter(s"release-candidates/hmt-${releaseId}-validation.md") { write(testResults.markdown); close}
-}
+}*/
 
 /** Publish a release of the Homer Multitext project archive.
 *
@@ -312,7 +317,7 @@ def printValidation(releaseId: String) : Unit = {
 */
 def release(releaseId: String) =  {
   buildRelease(releaseId)
-  printValidation(releaseId)
+  //printValidation(releaseId)
 
   println(s"\nRelease ${releaseId} is available in release-candidates/hmt-${releaseId}.cex with accompanying report on validation in release-candidates/hmt-${releaseId}-validation.md\n")
 

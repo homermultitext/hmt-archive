@@ -7,8 +7,8 @@ import scala.xml._
 class IliadCompositeSpec extends FlatSpec {
 
 
-  val srcDir = "src/test/resources/iliad-xml"
-  val outDir = "src/test/resources/iliad-composites"
+  val srcDir = "jvm/src/test/resources/iliad-xml"
+  val outDir = "jvm/src/test/resources/iliad-composites"
 
 
   "The IliadComposite object" should "extract text content in boks in a single text" in {
@@ -34,12 +34,12 @@ class IliadCompositeSpec extends FlatSpec {
   }
 
 
-  it should "write full-blown CEX serialization of iliad content"  in {
-    val srcDir = "src/test/resources/iliad-xml"
-    val outDir = "src/test/resources/iliad-composites"
+  it should "write full-blown CEX serialization of iliad content"  in  {
+    val srcDir = "jvm/src/test/resources/iliad-xml"
+    val outDir = "jvm/src/test/resources/iliad-composites"
     IliadComposite.composite(srcDir, outDir)
     val expectedOutput = Vector(
-      new File ("src/test/resources/iliad-composites/va_iliad.xml")
+      new File ("jvm/src/test/resources/iliad-composites/va_iliad.xml")
     )
     val actualOutput = DataCollector.filesInDir(outDir, "xml")
     assert(actualOutput == expectedOutput)
