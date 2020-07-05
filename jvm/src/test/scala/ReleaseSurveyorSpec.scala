@@ -8,11 +8,11 @@ import edu.holycross.shot.scm._
 
 class ReleaseSurveyorSpec extends FlatSpec {
 
-  val tinyCex = "src/test/resources/hmt-tiny.cex"
+  val tinyCex = "jvm/src/test/resources/hmt-tiny.cex"
   //val tinyCex = "src/test/resources/hmt-test.cex"
   val lib = CiteLibrarySource.fromFile(tinyCex)
 
-  val rootDir = "src/test/resources"
+  val rootDir = "jvm/src/test/resources"
   val releaseId = "test-release"
 
   def tidy(surveyor: ReleaseSurveyor) = {

@@ -11,7 +11,7 @@ class IliadCompositeSpec extends FlatSpec {
   val outDir = "src/test/resources/iliad-composites"
 
 
-  "The IliadComposite object" should "extract text content in boks in a single text" in {
+  "The IliadComposite object" should "extract text content in boks in a single text" in pending /*{
 
     val xmlFiles = DataCollector.filesInDir(srcDir,"xml")
 
@@ -31,10 +31,10 @@ class IliadCompositeSpec extends FlatSpec {
     val book2 = books(1)
     val lines2 = book2 \ "l"
     assert (lines2.size == 3)
-  }
+  }*/
 
 
-  it should "write full-blown CEX serialization of iliad content"  in {
+  it should "write full-blown CEX serialization of iliad content"  in  pending /*{
     val srcDir = "src/test/resources/iliad-xml"
     val outDir = "src/test/resources/iliad-composites"
     IliadComposite.composite(srcDir, outDir)
@@ -48,5 +48,5 @@ class IliadCompositeSpec extends FlatSpec {
     for (f <- actualOutput.toSeq) {
       f.delete()
     }
-  }
+  }*/
 }
