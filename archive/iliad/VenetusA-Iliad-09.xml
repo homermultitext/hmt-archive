@@ -1,38 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-            <titleStmt>
-                <title>Iliad</title>
-
-            </titleStmt>
-
-            <publicationStmt>
-
-
-
-
-                <availability status="unknown">
-                    <p>Licensed under the Creative Commons, Non-Commercial, Attribution, Share-alike
-                        license: http://creativecommons.org/licenses/by-nc-sa/2.0/</p>
-                </availability>
-
-            </publicationStmt>
-            <sourceDesc>
-                <p>Diplomatic edition of text in Venetus A manuscript</p>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="grc">Greek</language>
-                <language ident="en">English</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc>
-            <change><date>Jan. 19, 2010</date> Beta-code Greek converted to UTF-8 by Neel Smith. </change>
-            <change><date>June 18, 2004</date><label>markup</label><name>C.
-                Blackwell</name>conversion from TLG betacode through Diogenes, hand-crafted
-                markup.</change>
-        </revisionDesc>
+			<titleStmt>
+				<title>Iliad 9 (A)</title>
+				<author>Homer</author>
+				<sponsor>The Homer Multitext</sponsor>
+				<editor>C. Dué and Mary Ebbott, Editors in Chief</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Copyright 2010, The Center for Hellenic Studies of Harvard University</p>
+				<p>Licensed under the Creative Commons, Non-Commercial, Attribution, Share-alike
+					license: http://creativecommons.org/licenses/by-nc-sa/2.0/</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A new, born-digital diplomatic edition of the Venetus A manuscript of the Iliad,
+					Marcianus Graecus Z.454 (=822). Diplomatic edition based on a digital facsimile
+					prepared by the Center for Hellenic Studies in collaboration with the Biblioteca
+					Marciana, M. Zorzi, Director.</p>
+			</sourceDesc>
+		</fileDesc>
     </teiHeader>
     <text>
         <body xml:lang="grc">

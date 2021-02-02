@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -726,7 +727,7 @@
         <l n="470">ποιητὰς ἐσέχυντο πύλας· <rs type="ethnic" n="urn:cite2:hmt:pers.r1:pers66"
             >Δαναοὶ</rs> δ' ἐφόβηθεν</l>
         <l n="471">νῆας ἀνα γλαφυρὰς. ὅμαδος δ' ἀλίαστος ἐτύχθη ⁑</l>
-      -->
+    
       </div>
     </body>
   </text>

@@ -1,25 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+
 <TEI  xmlns='http://www.tei-c.org/ns/1.0'>
-    <teiHeader ><fileDesc >
+    <teiHeader >
+        <fileDesc >
             <titleStmt>
-                <title>Ilias</title>
-                <author>Homerus</author>
-                <editor role="editor">T.W. Allen</editor>
-            </titleStmt>
-            <extent >about 1 mb</extent>
-            <publicationStmt ><pubPlace >Greenville, SC</pubPlace><publisher >Furman University</publisher><date >June 18, 2004</date><availability  status='unknown'>
-                    <p >Licensed under the Creative Commons, Non-Commercial, Attribution, Share-alike
-                        license: http://creativecommons.org/licenses/by-nc-sa/2.0/</p>
-                </availability></publicationStmt>
-            <sourceDesc>
-                <bibl>Homer, Iliad 6, an electronic edition based on the readings and emendations of
-                    T.W. Allen (Oxford, 1931) and additional semantic markup.</bibl>
-            </sourceDesc>
-        </fileDesc><profileDesc >
-            <langUsage >
-                <language  ident='grc'>Greek, in Beta-code</language>
-                <language  ident='en'>English</language>
-            </langUsage>
-        </profileDesc></teiHeader>
+				<title>Iliad 1 (A)</title>
+				<author>Homer</author>
+				<sponsor>The Homer Multitext</sponsor>
+				<editor>C. Dué and Mary Ebbott, Editors in Chief</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Unpublihsed version in progress</p>
+				<p>Licensed under the Creative Commons, Non-Commercial, Attribution, Share-alike
+					license: http://creativecommons.org/licenses/by-nc-sa/2.0/</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A new, born-digital diplomatic edition of the Venetus A manuscript of the Iliad,
+					Marcianus Graecus Z.454 (=822). Diplomatic edition based on a digital facsimile
+					prepared by the Center for Hellenic Studies in collaboration with the Biblioteca
+					Marciana, M. Zorzi, Director.</p>
+			</sourceDesc>
+        </fileDesc>
+    </teiHeader>
     <text >
         <body  xml:lang='grc'>
             <div  n='6'>
