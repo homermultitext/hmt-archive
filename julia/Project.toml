@@ -1,0 +1,9 @@
+[deps]
+CitableTeiReaders = "b4325aa9-906c-402e-9c3f-19ab8a88308e"
+CitableText = "41e66566-473b-49d4-85b7-da83b66615d8"
+EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
+
+[compat]
+CitableTeiReaders = "0.4"
+CitableText = "0.4"
+EzXML = "1.1"
