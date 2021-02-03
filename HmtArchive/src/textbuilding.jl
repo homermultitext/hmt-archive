@@ -12,7 +12,7 @@ function iliadxmlcorpus()
     vailiad = CtsUrn("urn:cts:greekLit:tlg0012.tlg001.msA:")
     iliadsrc = dirname(pwd()) * "/archive/iliad/"
     iliadfiles = filter(f -> endswith(f, "xml"), readdir(iliadsrc))
-    fullpath = map(f -> iliaddir * f, iliadfiles)
+    fullpath = map(f -> iliadsrc * f, iliadfiles)
     corpora = [] 
     for f in fullpath
         contents = open(f) do file
@@ -24,5 +24,5 @@ function iliadxmlcorpus()
             println("ERROR ON $(f) : $(e)")
         end
     end
-    composite_array(corpora)
+    composite_array(reverse!(corpora))
 end
