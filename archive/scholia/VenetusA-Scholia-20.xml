@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei~c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -137,7 +139,7 @@
                           <p>urn:cts:greekLit:tlg0012.tlg001:20.17</p>
                       </div>
                       <div n="comment">
-                          <p>ἐρωτηματικως ὁ σύνδεσμος καὶ ἁπαξ εἰλημμενος κατα μίαν διάνοιαν διὸ περι παστέος τοῦτο δε φημι. προς τὰ τοιαυτα, <cite><ref type="urn">urn:cts:greekLit:tlg0012.tlg002:11.172</ref><q>ῆ δουλιχῆ νοῦσος ὴ <persName n="urn:cite2:hmt:pers:pers39">Ἄρτεμις</persName> ἰοχεαιρα~</q></cite> <cite><ref type="urn">urn:cts:greekLit:tlg0012.tlg002:1.175</ref><q>ἠὲ νεὸν μεθέπεις ἠ καὶ πατρώϊος ἔση.</q></cite> ἐν γὰρ τοῖς τοιαύταις συντάξησιν. ὁ μὲν πρότερος ῆ ἐγκλίνεται ὁ δε δευτερος περισπᾶσται~</p>
+                          <p>ἐρωτηματικως ὁ σύνδεσμος καὶ ἁπαξ εἰλημμενος κατα μίαν διάνοιαν διὸ περι παστέος τοῦτο δε φημι. προς τὰ τοιαυτα, <cit><ref type="urn">urn:cts:greekLit:tlg0012.tlg002:11.172</ref><q>ῆ δουλιχῆ νοῦσος ὴ <persName n="urn:cite2:hmt:pers:pers39">Ἄρτεμις</persName> ἰοχεαιρα~</q></cit> <cit><ref type="urn">urn:cts:greekLit:tlg0012.tlg002:1.175</ref><q>ἠὲ νεὸν μεθέπεις ἠ καὶ πατρώϊος ἔση.</q></cit> ἐν γὰρ τοῖς τοιαύταις συντάξησιν. ὁ μὲν πρότερος ῆ ἐγκλίνεται ὁ δε δευτερος περισπᾶσται~</p>
                       </div>
                   </div>
                   <div n="10_10b" type="scholion">
@@ -1467,7 +1469,10 @@
 
                             <div n="268r_3" type="scholion">
                                   <div n="lemma">
-                                        <p><choice><sic>προτί</sic><corr>προτὶ</corr> οἷ δ' έλαβ'</choice></p>
+                                        <p>
+                                            <choice>
+                                                <sic>προτί</sic>
+                                                <corr>προτὶ</corr> </choice> οἷ δ' έλαβ'</p>
                                   </div>
                                   <div n="ref">
                                         <p>urn:cts:greekLit:tlg0012.tlg001:418</p>
@@ -2280,7 +2285,8 @@
                               <p>urn:cts:greekLit:tlg0012.tlg001:20.426</p>
                           </div>
                           <div n="comment">
-                              <p><choice><abbr>Αρισταρχ</abbr>Ἀρίσταρχος<expan></expan></choice> <q>οὐδ ὰν ετι δὴν</q> δια τοῦ <rs type="waw">αν</rs>⁑</p>
+                              <p>
+                                  <choice><abbr>Αρισταρχ</abbr><expan>Ἀρίσταρχος</expan></choice> <q>οὐδ ὰν ετι δὴν</q> δια τοῦ <rs type="waw">αν</rs>⁑</p>
                           </div>
                       </div>
                       <div n="268v_1" type="scholion">
@@ -2913,7 +2919,10 @@
                             <p>urn:cts:greekLit:tlg0012.tlg001:20.293</p>
                         </div>
                         <div n="comment">
-                            <p><choice><abbr>οτ</abbr><expan>ὅτι</expan></choice> <choice><abbr>λειπ</abbr><expan>λείπει</expan></choice> ἡ <p>περι</p> περὶ <persName n="urn:cite2:hmt:persName:pers142">Αινειου</persName>⁑</p>
+                            <p>
+                                <choice><abbr>οτ</abbr><expan>ὅτι</expan></choice> 
+                                <choice><abbr>λειπ</abbr><expan>λείπει</expan></choice> ἡ 
+                                <choice><sic>περι</sic><corr>περὶ</corr></choice> <persName n="urn:cite2:hmt:persName:pers142">Αινειου</persName>⁑</p>
                         </div>
                     </div>
 

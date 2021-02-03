@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
   <fileDesc>
@@ -2180,8 +2182,13 @@
         </div>
         <div n="comment">
 
-        <p>ὅτι προειπὼν <q>ῥινοῦ τε</q> ὡς ἕτερον τι διάφορον συμπλέκει <q>βοῶν τε</q>~ καὶ ἤτοι ἐξ επαναλήψεως νοητέον λέγεσθαι τὸ αὐτὸ ὡς <cite><ref>urn:cts:greeklit:tlg0012.tlg001:12.92</ref><q>πυκνοὶ καὶ θαμέες</q></cite> <cite><ref>urn:cts:greeklit:tlg0012.tlg001:16.251</ref><q>πολέμον τε μάχην τε</q>
-        </cite>~ ἢ τὸν <rs type="waw">τε</rs> σύνδεσμον περιττὸν νομιστέον ἵν' ᾖ ῥινοῦ βοῶν τοῦτέστι τῶν ἀσπίδων⁑</p>
+        <p>ὅτι προειπὼν <q>ῥινοῦ τε</q> ὡς ἕτερον τι διάφορον συμπλέκει <q>βοῶν τε</q>~ καὶ ἤτοι ἐξ επαναλήψεως νοητέον λέγεσθαι τὸ αὐτὸ ὡς 
+          <cit><ref>urn:cts:greeklit:tlg0012.tlg001:12.92</ref>
+            <q>πυκνοὶ καὶ θαμέες</q></cit> 
+            <cit><ref>urn:cts:greeklit:tlg0012.tlg001:16.251</ref>
+              <q>πολέμον τε μάχην τε</q>
+            </cit>~ 
+          ἢ τὸν <rs type="waw">τε</rs> σύνδεσμον περιττὸν νομιστέον ἵν' ᾖ ῥινοῦ βοῶν τοῦτέστι τῶν ἀσπίδων⁑</p>
 
         </div>
         </div>
@@ -2195,7 +2202,11 @@
         </div>
         <div n="comment">
 
-        <p>τὸ <q>εὖ</q> οὐ θέλουσι κατ ιδίαν προφέρεσθαι ἀλλ' ἓν ποιεῖν εὐποιητάων ἐπεὶ καὶ ἐν ετέροις φησὶ τὴν δοτικὴν <cite><ref>urn:cts:greeklit:tlg0012.tlg001:5.466</ref><q>εὐποιητῇσι πύλῃσι</q></cite> παρωνυμως <choice><sic>καγῶ</sic><corr>καγὼ</corr></choice> δὲ <choice><abbr>συγκαττίθεμαι</abbr><expan>συγκατατίθεμαι</expan></choice>~ ἐν δέ τισιν εὕρομεν <q>ῥινῶν τε βοων</q> τε κατα τὸ πληθυντικὸν⁑</p>
+        <p>τὸ <q>εὖ</q> 
+          οὐ θέλουσι κατ ιδίαν προφέρεσθαι ἀλλ' ἓν ποιεῖν εὐποιητάων ἐπεὶ καὶ ἐν ετέροις 
+          φησὶ τὴν δοτικὴν 
+          <cit><ref>urn:cts:greeklit:tlg0012.tlg001:5.466</ref><q>εὐποιητῇσι πύλῃσι</q></cit> παρωνυμως <choice><sic>καγῶ</sic><corr>καγὼ</corr></choice> δὲ <choice><abbr>συγκαττίθεμαι</abbr><expan>συγκατατίθεμαι</expan></choice>~ 
+          ἐν δέ τισιν εὕρομεν <q>ῥινῶν τε βοων</q> τε κατα τὸ πληθυντικὸν⁑</p>
 
         </div>
         </div>
