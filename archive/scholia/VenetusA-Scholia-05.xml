@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 
-<?xml-stylesheet type="text/css" href="scholia-css/tei-scholia.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -1702,8 +1701,9 @@
                   <persName n="urn:cite2:hmt:pers.r1:pers216">Πανδάρου</persName> ὁ <persName n="urn:cite2:hmt:pers.r1:pers142"
                   >Αἰνειας</persName> αίρει τὰ ὁπλα. οὐ γὰρ εδήλωσεν ὁ ποιητης· ἀπίθανον τὲ αὐτὸν
                 εἶναι τὸν <persName n="urn:cite2:hmt:pers.r1:pers142">Αἰνείαν</persName> γυμνὸν παραδεδωκέναι τοῖς
-                πολεμίοις. ὑπόψυχρόν τε τὸ ἐκδέχεσθαι τὸν <w><persName n="urn:cite2:hmt:pers.r1:pers215"
-                      >Διομ<unclear>ή</unclear>δη</persName></w> ἕως οὗ καθοπλίσηται ὁ <persName
+                πολεμίοις. ὑπόψυχρόν τε τὸ ἐκδέχεσθαι τὸν 
+                <persName n="urn:cite2:hmt:pers.r1:pers215"
+                      ><w>Διομ<unclear>ή</unclear>δη</w></persName> ἕως οὗ καθοπλίσηται ὁ <persName
                   n="urn:cite2:hmt:pers.r1:pers142">Αἰνείας</persName>. καὶ μὴ εὐθέως αὐτὸν ἀνελεῖν. διὸ καὶ ὁ <placeName
                   n="urn:cite2:hmt:place.r1:place74">Ἀσκαλωνίτης</placeName> συνάπτει ὥστε ἐπι τοῦ <persName n="urn:cite2:hmt:pers.r1:pers142"
                   >Αἰνείου</persName> κεῖσθαι τὸ συν ασπίδι δουρί τε μακρῷ. καὶ δῆλον ὅτι ὁ
