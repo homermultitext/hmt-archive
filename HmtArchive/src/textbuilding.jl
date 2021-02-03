@@ -2,7 +2,6 @@
 diplbuilder = MidDiplomaticBuilder("Diplomatic edition", "dipl")
 normbuilder = MidNormalizedBuilder("Normalized edition", "normed")
 
-# scholiasrc = dirname(pwd()) * "/archive/scholia/"
 function iliaddipl()
     edition(normbuilder, iliadxmlcorpus())
 end
@@ -28,6 +27,7 @@ function iliadxmlcorpus()
 end
 
 
+"Make a CitableCorpus for one scholia document in one book."
 function scholiaforbookdoc(docroot, bk)
     wrkcomponent = "tlg5026." *  docroot["n"] * ".hmt"
     baseurn = CtsUrn("urn:cts:greekLit:$(wrkcomponent):")
@@ -43,9 +43,9 @@ function scholiaforbookdoc(docroot, bk)
         end
     end
     CitableCorpus(citableNodes)
-    
 end
 
+"Compile a single citable edition of all Venetus A schola."
 function scholiaxmlcorpus()
     # XPaths for finding the parts of the document we need:
     bookxp = "/ns:TEI/ns:text/ns:group"
@@ -72,21 +72,14 @@ function scholiaxmlcorpus()
             scholiadocs = findall(docxp, doc,["ns"=> teins]) 
             sigla = map(root -> root["n"], scholiadocs)
 
-            
             for sdoc in scholiadocs
                 scholia = scholiaforbookdoc(sdoc, book)
                 push!(allscholia, scholia)
             end
             
-            
         catch e
             throw(DomainError("ERROR ON $(f) : $(e)"))
-        end
-        
+        end 
     end
-
     CitableText.composite_array(allscholia)
-    
-   
-    #return reverse!(docs)
 end
