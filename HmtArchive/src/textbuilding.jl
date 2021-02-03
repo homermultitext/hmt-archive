@@ -33,31 +33,24 @@ function scholiaforbookdoc(docroot, bk)
     baseurn = CtsUrn("urn:cts:greekLit:$(wrkcomponent):")
     body = elements(docroot)[1]
     scholiadivs = elements(body)
-#=
-    nodexp = "//ns:body/ns:div"
-    scholia = findall(nodexp, docroot, ["ns"=> teins])
-=#
-    println("Found ", length(scholiadivs), " scholia for ", baseurn, " in book ", bk)
-    citableNodes = []
+    #println("Found ", length(scholiadivs), " scholia for ", baseurn, " in book ", bk)
+    citableNodes =  Array{CitableNode}(undef, 0)
     for s in scholiadivs
         scholid = "$(bk)." * s["n"]
         for div in eachelement(s)
-            psg = scholid * "." * div["n"]
-            cn = CitableTeiReaders.citeNAttr(div, baseurn, psg)       
-            push!(citableNodes, baseurn, psg)
+            cn = CitableTeiReaders.citeNAttr(div, baseurn, scholid)       
+            push!(citableNodes, cn)
         end
     end
-    citableNodes
+    CitableCorpus(citableNodes)
     
 end
 
-function groupscholia()
+function scholiaxmlcorpus()
     # XPaths for finding the parts of the document we need:
     bookxp = "/ns:TEI/ns:text/ns:group"
     docxp = "/ns:TEI/ns:text/ns:group/ns:text"
-    
-
-    
+        
     # collect files:
     scholiasrc = dirname(pwd()) * "/archive/scholia/"
     scholiafiles = filter(f -> endswith(f, "xml"), readdir(scholiasrc))
@@ -92,7 +85,7 @@ function groupscholia()
         
     end
 
-    allscholia
+    CitableText.composite_array(allscholia)
     
    
     #return reverse!(docs)

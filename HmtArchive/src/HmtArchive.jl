@@ -7,7 +7,7 @@ using EditionBuilders
 using EzXML
 
 
-# Diplomatic edition of VA Iliad
+export iliadxmlcorpus, scholiaxmlcorpus
 export iliaddipl
 
 # Useful to make declaration of TEI namespace global
