@@ -3,7 +3,18 @@ diplbuilder = MidDiplomaticBuilder("Diplomatic edition", "dipl")
 normbuilder = MidNormalizedBuilder("Normalized edition", "normed")
 
 function iliaddipl()
+    edition(diplbuilder, iliadxmlcorpus())
+end
+function ilianormed()
     edition(normbuilder, iliadxmlcorpus())
+end
+
+function scholiadipl()
+    edition(diplbuilder, scholiaxmlcorpus())
+end
+
+function scholianormed()
+    edition(normbuilder, scholiaxmlcorpus())
 end
 
 "Compile a single citable edition of Venetus A Iliad."
@@ -26,24 +37,6 @@ function iliadxmlcorpus()
     composite_array(reverse!(corpora))
 end
 
-
-"Make a CitableCorpus for one scholia document in one book."
-function scholiaforbookdoc(docroot, bk)
-    wrkcomponent = "tlg5026." *  docroot["n"] * ".hmt"
-    baseurn = CtsUrn("urn:cts:greekLit:$(wrkcomponent):")
-    body = elements(docroot)[1]
-    scholiadivs = elements(body)
-    #println("Found ", length(scholiadivs), " scholia for ", baseurn, " in book ", bk)
-    citableNodes =  Array{CitableNode}(undef, 0)
-    for s in scholiadivs
-        scholid = "$(bk)." * s["n"]
-        for div in eachelement(s)
-            cn = CitableTeiReaders.citeNAttr(div, baseurn, scholid)       
-            push!(citableNodes, cn)
-        end
-    end
-    CitableCorpus(citableNodes)
-end
 
 "Compile a single citable edition of all Venetus A schola."
 function scholiaxmlcorpus()
@@ -82,4 +75,23 @@ function scholiaxmlcorpus()
         end 
     end
     CitableText.composite_array(allscholia)
+end
+
+
+"Make a CitableCorpus for one scholia document in one book."
+function scholiaforbookdoc(docroot, bk)
+    wrkcomponent = "tlg5026." *  docroot["n"] * ".hmt"
+    baseurn = CtsUrn("urn:cts:greekLit:$(wrkcomponent):")
+    body = elements(docroot)[1]
+    scholiadivs = elements(body)
+    #println("Found ", length(scholiadivs), " scholia for ", baseurn, " in book ", bk)
+    citableNodes =  Array{CitableNode}(undef, 0)
+    for s in scholiadivs
+        scholid = "$(bk)." * s["n"]
+        for div in eachelement(s)
+            cn = CitableTeiReaders.citeNAttr(div, baseurn, scholid)       
+            push!(citableNodes, cn)
+        end
+    end
+    CitableCorpus(citableNodes)
 end
