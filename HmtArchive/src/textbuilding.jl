@@ -27,33 +27,73 @@ function iliadxmlcorpus()
     composite_array(reverse!(corpora))
 end
 
+
+function scholiaforbookdoc(docroot, bk)
+    wrkcomponent = "tlg5026." *  docroot["n"] * ".hmt"
+    baseurn = CtsUrn("urn:cts:greekLit:$(wrkcomponent):")
+    body = elements(docroot)[1]
+    scholiadivs = elements(body)
+#=
+    nodexp = "//ns:body/ns:div"
+    scholia = findall(nodexp, docroot, ["ns"=> teins])
+=#
+    println("Found ", length(scholiadivs), " scholia for ", baseurn, " in book ", bk)
+    citableNodes = []
+    for s in scholiadivs
+        scholid = "$(bk)." * s["n"]
+        for div in eachelement(s)
+            psg = scholid * "." * div["n"]
+            cn = CitableTeiReaders.citeNAttr(div, baseurn, psg)       
+            push!(citableNodes, baseurn, psg)
+        end
+    end
+    citableNodes
+    
+end
+
 function groupscholia()
+    # XPaths for finding the parts of the document we need:
     bookxp = "/ns:TEI/ns:text/ns:group"
     docxp = "/ns:TEI/ns:text/ns:group/ns:text"
-    nodexp = "/ns:TEI/ns:text/ns:group/ns:text/ns:body/ns:div"
-    scholiagroup = CtsUrn("urn:cts:greekLit:tlg5026:")
+    
+
+    
+    # collect files:
     scholiasrc = dirname(pwd()) * "/archive/scholia/"
     scholiafiles = filter(f -> endswith(f, "xml"), readdir(scholiasrc))
     fullpath = map(f -> scholiasrc * f, scholiafiles)
+
     docs = [] 
+    allscholia = []
     for f in fullpath
         try 
+            doc = readxml(f).root
+            # One book per file: use the book-containing element
+            # to save the book value we'll need for passage URNs.
             booklevel = findall(bookxp, doc,["ns"=> teins]) 
             book = booklevel[1]["n"]
+
+            # Scholia documents for the book in this file,
+            # and their sigla, which we'll use for text ID 
+            # in URNs
             scholiadocs = findall(docxp, doc,["ns"=> teins]) 
             sigla = map(root -> root["n"], scholiadocs)
-            # nodexp
-            # Now find nodes for each doc
-            # Use method call directly in CitableTei lib to convert xml node to 
-            # Citable node
+
+            
+            for sdoc in scholiadocs
+                scholia = scholiaforbookdoc(sdoc, book)
+                push!(allscholia, scholia)
+            end
+            
             
         catch e
             throw(DomainError("ERROR ON $(f) : $(e)"))
         end
+        
     end
 
-
+    allscholia
     
    
-    return reverse!(docs)
+    #return reverse!(docs)
 end
