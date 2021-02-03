@@ -110,9 +110,9 @@ version = "0.26.1"
 
 [[EditionBuilders]]
 deps = ["CitableText", "DocStringExtensions", "Documenter", "EzXML", "Test"]
-git-tree-sha1 = "51983eaa34c4d8ce3ce21118141e3514b491257a"
+git-tree-sha1 = "c45b45c1cde5d666033ca8090061900d841bd34e"
 uuid = "2fb66cca-c1f8-4a32-85dd-1a01a9e8cd8f"
-version = "0.2.3"
+version = "0.2.5"
 
 [[EzXML]]
 deps = ["Printf", "XML2_jll"]
