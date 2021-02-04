@@ -13,7 +13,7 @@ export scholiadipl, scholianormed
 
 # Useful to make declaration of TEI namespace global
 export teins
-
+export scholianormbook
 
 include("textbuilding.jl")
 include("namedentities.jl")
