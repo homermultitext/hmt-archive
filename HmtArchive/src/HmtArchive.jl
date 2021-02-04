@@ -13,7 +13,10 @@ export iliaddipl
 # Useful to make declaration of TEI namespace global
 export teins
 
+
 include("textbuilding.jl")
 include("namedentities.jl")
+include("debug.jl")
+
 
 end # module
