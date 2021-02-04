@@ -23,9 +23,9 @@ version = "0.8.3"
 
 [[CategoricalArrays]]
 deps = ["DataAPI", "Future", "JSON", "Missings", "Printf", "Statistics", "StructTypes", "Unicode"]
-git-tree-sha1 = "b0f7ea8fc2baa3d9b4077c2518ee01564702c4bd"
+git-tree-sha1 = "99809999c8ee01fa89498480b147f7394ea5450f"
 uuid = "324d7699-5711-5eae-9e2f-1d82baa6b597"
-version = "0.9.1"
+version = "0.9.2"
 
 [[CitableBase]]
 deps = ["DocStringExtensions", "Documenter", "Test"]
@@ -47,9 +47,9 @@ version = "0.4.2"
 
 [[CitableText]]
 deps = ["BenchmarkTools", "CSV", "CitableBase", "DataFrames", "DocStringExtensions", "Documenter", "HTTP", "Test"]
-git-tree-sha1 = "11a3280b4361b4bbde4136256225c7b51f6c67f2"
+git-tree-sha1 = "86b6a790e2af40f6c3db5d7bb12aacc223d6c9a5"
 uuid = "41e66566-473b-49d4-85b7-da83b66615d8"
-version = "0.4.0"
+version = "0.4.1"
 
 [[Compat]]
 deps = ["Base64", "Dates", "DelimitedFiles", "Distributed", "InteractiveUtils", "LibGit2", "Libdl", "LinearAlgebra", "Markdown", "Mmap", "Pkg", "Printf", "REPL", "Random", "SHA", "Serialization", "SharedArrays", "Sockets", "SparseArrays", "Statistics", "Test", "UUIDs", "Unicode"]

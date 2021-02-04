@@ -11,4 +11,5 @@ EditionBuilders = "2fb66cca-c1f8-4a32-85dd-1a01a9e8cd8f"
 EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
 
 [compat]
+CitableText = "0.4.1"
 EditionBuilders = "0.2.10"
