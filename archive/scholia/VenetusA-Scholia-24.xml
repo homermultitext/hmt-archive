@@ -1182,7 +1182,7 @@
                         <div n="comment">
                             <p> τὴν <rs type="waw">κλε</rs><choice>
                                     <abbr>συλλα</abbr>
-                                    <ex>συλλαβὴν</ex>
+                                    <expan>συλλαβὴν</expan>
                                 </choice> ὀξυτονεῖ ὁ <persName n="urn:cite2:hmt:pers.v1:pers485"><choice>
                                         <abbr>Ἀσκαλωνιτ</abbr>
                                         <expan>Ἀσκαλωνιτης</expan>
@@ -2370,7 +2370,7 @@
                                     <expan>ἐνταυθα</expan>
                                 </choice> μὲν ὁ ποιητής φησὶν ἐπισπᾶσθαι τὰ κακὰ <choice>
                                     <sic>τοῦς</sic>
-                                    <expan>τοὺς</expan>
+                                    <corr>τοὺς</corr>
                                 </choice>
                                 <choice>
                                     <abbr>ἄνους</abbr>
