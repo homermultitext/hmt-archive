@@ -2,6 +2,30 @@
 diplbuilder = MidDiplomaticBuilder("Diplomatic edition", "dipl")
 normbuilder = MidNormalizedBuilder("Normalized edition", "normed")
 
+"""
+Builds a single corpus comprising Venetus A Iliad and scholia in
+mulitvalent archival XML edition, and univocal diplomatic and
+normalized editions.
+"""
+function corpus()
+    println("1. Compiling XML corpora ...")
+    iliadx = iliadxmlcorpus()
+    scholiax = scholiaxmlcorpus()
+    println("2. Building dipomatic and normalized editions...")
+    corpora = [
+        edition(diplbuilder, iliadx), 
+        edition(normbuilder, iliadx), 
+        edition(diplbuilder, scholiax), 
+        edition(normbuilder, scholiax), 
+        iliadx,
+        scholiax
+    ]
+    println("3. Compositing separate editions...")
+    rslt = composite_array(corpora)
+    println("Done.")
+    rslt
+end
+
 function iliaddipl()
     edition(diplbuilder, iliadxmlcorpus())
 end
