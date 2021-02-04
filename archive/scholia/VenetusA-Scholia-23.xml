@@ -591,7 +591,9 @@
                         </div>
                         <div n="comment">
                             <p>ἑκατὸν ποδῶν ἔχουσαν πλευράν ὡς καὶ τετράπους λίθος ὥστε ἑκαστην
-                                πλευρὰν <choice><abbr>ρ</abbr><reg>ἑκατόν</reg></choice> ποδῶν μέτρον ἔχειν</p>
+                                πλευρὰν 
+                                <num value="100">ρ</num>
+                                ποδῶν μέτρον ἔχειν</p>
                         </div>
 
                     </div>
@@ -821,7 +823,8 @@
                                 <div n="comment">
                                     <p>δεόντος τοῦ <persName n="urn:cite2:hmt:pers:pers443">Εὐμηλου</persName> ἵππων
                                         προνοούμενος εἰσάγεται ὁ <persName n="urn:cite2:hmt:pers:pers40">Ἀπόλλων</persName>
-                                        ἐπεὶ αὐτος ἀνεθρέψατο αὐτὰς κατα τὸν <choice> <abbr>ποιητ</abbr><reg>ποιητὴν</reg>
+                                        ἐπεὶ αὐτος ἀνεθρέψατο αὐτὰς κατα τὸν 
+                                        <choice> <abbr>ποιητ</abbr><expan>ποιητὴν</expan>
                                         </choice> λέγοντα τὰς ἐν Πειερίῃ θρέψατ' ἀργυρότοξος ἄμφω θηλείας, φόβον <persName
                                             n="urn:cite2:hmt:pers:pers83">¨Αρεως</persName> φορεούσας δοκεῖ γὰρ κατα τὸν μῦθον
                                         <persName n="urn:cite2:hmt:pers:pers40">Ἀπόλλων</persName> θητεῦσαι <persName
@@ -1282,7 +1285,8 @@
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:23.603</p>
                         </div>
                         <div n="comment">
-                            <p>ὅτι παρήορος ὁ παρηρτημένος τὰς φρένας. οὐκ αραρῶς οὐδε κατα χώραν ἔχων<choice> <corr>αὐτὰς αὐτάς</corr></choice> ~
+                            <p>ὅτι παρήορος ὁ παρηρτημένος τὰς φρένας. οὐκ αραρῶς οὐδε κατα χώραν ἔχων
+                                <choice><sic>αὐτὰς</sic> <corr>αὐτάς</corr></choice> ~
                                 καὶ ὅτι χωόμενος νῦν ἀντι τοῦ χολούμενος</p>
                         </div>
                     </div>

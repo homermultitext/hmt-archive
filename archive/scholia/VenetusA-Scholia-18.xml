@@ -3210,10 +3210,11 @@
                                     <q><rs n="urn:cite2:hmt:astro.r1:3" type="astro">Πληϊάδων</rs>
                                         <sic>Ἄτληγενέων</sic> ἐπιτελλομενάων. ἄρχεσθ' ἀμήτοιο·
                                         ἀρότροιο δὲ δυσομενάων.</q>
-                                </cit> τὰς δὲ Ἄτλαντας ἀτυχιας· κλαιούσας αὐτὰς <choice>
-                                    <sic><abbr>κατστερισθῆναι</abbr>
-                                        <expan>καταστερισθῆναι</expan></sic>
-                                </choice> φησιν ὁ <persName n="urn:cite2:hmt:pers.r1:pers225"
+                                </cit> τὰς δὲ Ἄτλαντας ἀτυχιας· κλαιούσας αὐτὰς 
+                                
+                                    <choice><abbr>κατστερισθῆναι</abbr>
+                                        <expan>καταστερισθῆναι</expan></choice>
+                                φησιν ὁ <persName n="urn:cite2:hmt:pers.r1:pers225"
                                     >Αἰσχυλος</persName>· <rs n="urn:cite2:hmt:astro.r1:3" type="astro"
                                     >Πλειαδων</rs> δὲ ἀνατολην ἑώαν ηλιου ὄντος ἐν διδύμοις. δύσις
                                 δὲ ἑώα <choice>
