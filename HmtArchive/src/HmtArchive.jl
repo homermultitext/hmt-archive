@@ -8,7 +8,8 @@ using EzXML
 
 
 export iliadxmlcorpus, scholiaxmlcorpus
-export iliaddipl
+export iliaddipl, ilianormed
+export scholiadipl, scholianormed
 
 # Useful to make declaration of TEI namespace global
 export teins
