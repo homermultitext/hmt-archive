@@ -130,10 +130,48 @@ texts = corpus(hmt)
 md"It has many citable text passages."
 
 # ╔═╡ af73bce6-679e-11eb-38a7-a9de07f3ed00
-length(texts.corpus)
+totalpsgs = length(texts.corpus)
+
+# ╔═╡ 2351680a-67b0-11eb-2978-a7e0755c15b3
+md"""Ever wonder how many citable nodes of text are in the editions of the HMT archive?  **$(totalpsgs)** !
+"""
+
+# ╔═╡ e54abade-67af-11eb-1de7-411146641f50
+md"""
+> A couple of useful functions
+> (some may be generic enough that they belong in a library someplace)
+"""
+
+# ╔═╡ 78dc551c-67b0-11eb-1ad1-310b07cbf096
+function textid(u::CtsUrn)
+  workparts(u)[2]
+end
+
+# ╔═╡ 73c2688e-67b0-11eb-3c83-cd45f4bc9174
+function textids(c::CitableCorpus)
+  alltexts = map(cn -> workcomponent(dropversion(cn.urn)), c.corpus)
+  unique(alltexts)
+end
+
+# ╔═╡ 5031108c-67b0-11eb-2c2b-8b0541ec1b61
+#  Find ...
+function textversions(c::CitableCorpus)
+  textlist = textids(c)
+  pairs = []
+  for t in textlist
+    filtered = filter(cn -> occursin(t, workcomponent(cn.urn)), c.corpus)
+    prs = map(cn -> workcomponent(cn.urn) , filtered)
+    push!(prs, pairs)
+  end
+  pairs
+end
+
+# ╔═╡ 61686274-67b0-11eb-07cb-09c6a743356c
+textversions(texts)
 
 # ╔═╡ Cell order:
 # ╟─b6a8d7d4-679a-11eb-3b88-9d40c1e45114
+# ╟─2351680a-67b0-11eb-2978-a7e0755c15b3
 # ╟─9eaf507a-679a-11eb-32ee-331cc3e5212f
 # ╟─f7fa0692-679d-11eb-3769-83bfcf93c3ea
 # ╟─ea2b5ee0-679c-11eb-3a7e-f704d9a92a4b
@@ -156,7 +194,12 @@ length(texts.corpus)
 # ╟─0b04c29e-67a1-11eb-1049-3bf387925d06
 # ╠═0ff8d9e6-67a1-11eb-2154-0b50d3925734
 # ╠═168b83f8-67a1-11eb-075c-776a77a2ac35
-# ╠═4c710160-679e-11eb-1e6d-d7f17286051d
+# ╟─4c710160-679e-11eb-1e6d-d7f17286051d
 # ╟─5f5f5530-679e-11eb-245c-799749bd64ef
 # ╟─a935c4b4-679e-11eb-088c-757e96eff8b8
-# ╠═af73bce6-679e-11eb-38a7-a9de07f3ed00
+# ╟─af73bce6-679e-11eb-38a7-a9de07f3ed00
+# ╟─e54abade-67af-11eb-1de7-411146641f50
+# ╠═78dc551c-67b0-11eb-1ad1-310b07cbf096
+# ╠═73c2688e-67b0-11eb-3c83-cd45f4bc9174
+# ╠═5031108c-67b0-11eb-2c2b-8b0541ec1b61
+# ╠═61686274-67b0-11eb-07cb-09c6a743356c
