@@ -37,9 +37,9 @@ using HmtArchive
 # ╔═╡ f7fa0692-679d-11eb-3769-83bfcf93c3ea
 md"""
 
-Create an `Archive` by passing in the root directory in a clone of the repository at [https://github.com/homermultitext/hmt-archive](https://github.com/homermultitext/hmt-archive).
+Create an `Archive` by passing in the root directory of a local clone of the `hmt-archive` repository ([https://github.com/homermultitext/hmt-archive](https://github.com/homermultitext/hmt-archive)).
 
-Since this notebook is actually part of that repository in a subdirectory of the root we can create an `Archive` like this:
+Since this notebook is actually included in a subdirectory of that repository we can create an `Archive` like this:
 
 ```julia
 hmt = Archive(dirname(pwd()))
@@ -102,13 +102,26 @@ length(scholiadiplomatic.corpus)
 md"**Normalized**:"
 
 # ╔═╡ ab55be60-679f-11eb-17bc-c317b6222f17
-iliadnormalized = ilianormed(hmt)
+iliadnormalized = iliadnormed(hmt)
 
 # ╔═╡ b8466e4e-679f-11eb-2701-253cda3a88db
 scholianormalized = scholianormed(hmt)
 
+# ╔═╡ 0b04c29e-67a1-11eb-1049-3bf387925d06
+md"Sizes:"
+
+# ╔═╡ 0ff8d9e6-67a1-11eb-2154-0b50d3925734
+length(iliadnormalized.corpus)
+
+# ╔═╡ 168b83f8-67a1-11eb-075c-776a77a2ac35
+length(scholianormalized.corpus)
+
 # ╔═╡ 4c710160-679e-11eb-1e6d-d7f17286051d
-md"Build a comprehensive `CitableCorpus`:"
+md"""
+**Comprehensive corpus**
+
+There is also a functoin to build a comprehensive `CitableCorpus` containing all of these:
+"""
 
 # ╔═╡ 5f5f5530-679e-11eb-245c-799749bd64ef
 texts = corpus(hmt)
@@ -118,9 +131,6 @@ md"It has many citable text passages."
 
 # ╔═╡ af73bce6-679e-11eb-38a7-a9de07f3ed00
 length(texts.corpus)
-
-# ╔═╡ 1023c2d2-679c-11eb-031a-0dd8fea0bfb0
-iliad = CtsUrn("urn:cts:greekLit:tlg0012.tlg001:")
 
 # ╔═╡ Cell order:
 # ╟─b6a8d7d4-679a-11eb-3b88-9d40c1e45114
@@ -143,8 +153,10 @@ iliad = CtsUrn("urn:cts:greekLit:tlg0012.tlg001:")
 # ╟─a01c6058-679f-11eb-2ec1-e3d1900aa0de
 # ╠═ab55be60-679f-11eb-17bc-c317b6222f17
 # ╠═b8466e4e-679f-11eb-2701-253cda3a88db
-# ╟─4c710160-679e-11eb-1e6d-d7f17286051d
+# ╟─0b04c29e-67a1-11eb-1049-3bf387925d06
+# ╠═0ff8d9e6-67a1-11eb-2154-0b50d3925734
+# ╠═168b83f8-67a1-11eb-075c-776a77a2ac35
+# ╠═4c710160-679e-11eb-1e6d-d7f17286051d
 # ╟─5f5f5530-679e-11eb-245c-799749bd64ef
 # ╟─a935c4b4-679e-11eb-088c-757e96eff8b8
 # ╠═af73bce6-679e-11eb-38a7-a9de07f3ed00
-# ╟─1023c2d2-679c-11eb-031a-0dd8fea0bfb0

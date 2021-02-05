@@ -138,11 +138,11 @@ version = "0.9.2"
 
 [[HmtArchive]]
 deps = ["CitableObject", "CitableTeiReaders", "CitableText", "EditionBuilders", "EzXML"]
-git-tree-sha1 = "bf080d6b566e57bc0406b072542ff71c732bfd13"
+git-tree-sha1 = "3d7bbfd7014e5e4b20cf663dbf8583b8b89d24aa"
 repo-rev = "main"
 repo-url = "https://github.com/homermultitext/HmtArchive.jl"
 uuid = "1e7b0059-6550-4515-8382-5d3f2046a0a7"
-version = "0.1.0"
+version = "0.1.1"
 
 [[IOCapture]]
 deps = ["Logging"]
