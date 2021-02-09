@@ -9,10 +9,13 @@ begin
 	using Pkg
 	Pkg.activate(".")
 	Pkg.add("CitableText")
+	Pkg.add("Markdown")
+	
 	Pkg.add(url="https://github.com/homermultitext/HmtArchive.jl")
 	
 	using CitableText
 	using HmtArchive
+	using Markdown
 end
 
 # ╔═╡ 9eaf507a-679a-11eb-32ee-331cc3e5212f
@@ -136,6 +139,18 @@ totalpsgs = length(texts.corpus)
 md"""Ever wonder how many citable nodes of text are in the editions of the HMT archive?  **$(totalpsgs)** !
 """
 
+# ╔═╡ 0c82f4ca-6b04-11eb-020a-036745d9d3ba
+md"## Surveying the contents of the corpus"
+
+# ╔═╡ 24efc298-67c8-11eb-16a4-d9a0d1edcdc6
+md"Here is an alphabetically sorted list of `textgroup.work` values in the corpus."
+
+# ╔═╡ fcac42b8-6b03-11eb-0fec-93b035ee2989
+md"Here is a list of all versions for each `textgroup.work` combination."
+
+# ╔═╡ 9f868134-67ca-11eb-16bd-01101e5f1d03
+md"And here's a list of version identifiers for each `textgroup.work`."
+
 # ╔═╡ e54abade-67af-11eb-1de7-411146641f50
 md"""
 > A couple of useful functions
@@ -143,31 +158,66 @@ md"""
 """
 
 # ╔═╡ 78dc551c-67b0-11eb-1ad1-310b07cbf096
+# Extract text part of workcomponent.
+# With proper error checkling, this should be in the `CitableText` library.
 function textid(u::CtsUrn)
   workparts(u)[2]
 end
 
 # ╔═╡ 73c2688e-67b0-11eb-3c83-cd45f4bc9174
+# Find list of unique values for textgroup-work component of URNs in corpus
 function textids(c::CitableCorpus)
   alltexts = map(cn -> workcomponent(dropversion(cn.urn)), c.corpus)
   unique(alltexts)
 end
 
+# ╔═╡ 1aa7c484-67c8-11eb-32b6-43b57046993f
+begin 
+	groupworks = textids(texts)
+	items = map(gw -> "- $(gw)", groupworks)
+	mdlist = join(sort(items), "\n")
+	Markdown.parse(mdlist)
+end
+
+# ╔═╡ 2bfa9a62-67c9-11eb-0431-9da8868b86d2
+# Extract version part of workcomponent.
+# With proper error checkling, this should be in the `CitableText` library.
+function versionid(u::CtsUrn)
+	workparts(u)[3]
+end
+
 # ╔═╡ 5031108c-67b0-11eb-2c2b-8b0541ec1b61
-#  Find ...
+#  Find versions in corpus of each textgroup-work
 function textversions(c::CitableCorpus)
   textlist = textids(c)
   pairs = []
   for t in textlist
     filtered = filter(cn -> occursin(t, workcomponent(cn.urn)), c.corpus)
-    prs = map(cn -> workcomponent(cn.urn) , filtered)
-    push!(prs, pairs)
+    verss = unique(map(cn -> versionid(cn.urn) , filtered))
+    push!(pairs, (t => verss))
   end
-  pairs
+  Dict(pairs)
 end
 
-# ╔═╡ 61686274-67b0-11eb-07cb-09c6a743356c
-textversions(texts)
+
+# ╔═╡ 318396e4-67cb-11eb-3eff-278dc6b22341
+# Format list of versions given for work in `textversions` dictionary
+# as a markdown list
+function mdlistforcorpus(c::CitableCorpus)
+	verss = textversions(c)
+	#join(map(v -> "- $(v)", verss), "\n")
+	entries = []
+	for k in keys(verss)
+		verslist = verss[k]
+		items = map(i -> "    - " * i, verslist)
+		push!(entries, "- $(k):\n" * join(items,"\n") * "\n")
+	end
+	join(entries,"\n")
+end
+
+
+# ╔═╡ 9a0c5354-67cb-11eb-1175-59717ea7c6cc
+versionsperwork = Markdown.parse(mdlistforcorpus(texts))
 
 # ╔═╡ Cell order:
 # ╟─b6a8d7d4-679a-11eb-3b88-9d40c1e45114
@@ -195,11 +245,18 @@ textversions(texts)
 # ╠═0ff8d9e6-67a1-11eb-2154-0b50d3925734
 # ╠═168b83f8-67a1-11eb-075c-776a77a2ac35
 # ╟─4c710160-679e-11eb-1e6d-d7f17286051d
-# ╟─5f5f5530-679e-11eb-245c-799749bd64ef
+# ╠═5f5f5530-679e-11eb-245c-799749bd64ef
 # ╟─a935c4b4-679e-11eb-088c-757e96eff8b8
 # ╟─af73bce6-679e-11eb-38a7-a9de07f3ed00
+# ╟─0c82f4ca-6b04-11eb-020a-036745d9d3ba
+# ╟─24efc298-67c8-11eb-16a4-d9a0d1edcdc6
+# ╟─1aa7c484-67c8-11eb-32b6-43b57046993f
+# ╟─fcac42b8-6b03-11eb-0fec-93b035ee2989
+# ╠═9a0c5354-67cb-11eb-1175-59717ea7c6cc
+# ╟─9f868134-67ca-11eb-16bd-01101e5f1d03
 # ╟─e54abade-67af-11eb-1de7-411146641f50
 # ╠═78dc551c-67b0-11eb-1ad1-310b07cbf096
 # ╠═73c2688e-67b0-11eb-3c83-cd45f4bc9174
+# ╠═2bfa9a62-67c9-11eb-0431-9da8868b86d2
 # ╠═5031108c-67b0-11eb-2c2b-8b0541ec1b61
-# ╠═61686274-67b0-11eb-07cb-09c6a743356c
+# ╠═318396e4-67cb-11eb-3eff-278dc6b22341
