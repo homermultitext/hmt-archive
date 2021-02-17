@@ -9,15 +9,11 @@ begin
 	using Pkg
 	Pkg.activate(".")
 	Pkg.add("CitableText")
-	#Pkg.add("PolytonicGreek")
-	#Pkg.add("Markdown")
-	
+
 	Pkg.add(url="https://github.com/homermultitext/HmtArchive.jl")
 	
 	using CitableText
 	using HmtArchive
-	#using Markdown
-	#using PolytonicGreek
 	using Unicode
 end
 
@@ -120,9 +116,19 @@ md"**2**.  Strip breathings and accents."
 # ╔═╡ 0543125c-7104-11eb-22e2-97614e4cd2bf
 stripped = map(cn -> CitableNode(cn.urn, Unicode.normalize(cn.text,stripmark=true)), lc)
 
+# ╔═╡ 9fdc607e-7105-11eb-04de-7780cb8bc2c3
+md"## Write corpus to delimited-text file"
+
+# ╔═╡ a9eb7cb2-7105-11eb-370c-fd4cfce2ec05
+#=
+open("searchable_scholia.tsv", "w") do io
+    print(io, cex(stripped, "\t")
+end
+=#
+
 # ╔═╡ Cell order:
 # ╟─d0c15568-7101-11eb-32b1-a3daf87952bb
-# ╠═b6a8d7d4-679a-11eb-3b88-9d40c1e45114
+# ╟─b6a8d7d4-679a-11eb-3b88-9d40c1e45114
 # ╟─9eaf507a-679a-11eb-32ee-331cc3e5212f
 # ╟─f7fa0692-679d-11eb-3769-83bfcf93c3ea
 # ╟─ea2b5ee0-679c-11eb-3a7e-f704d9a92a4b
@@ -145,3 +151,5 @@ stripped = map(cn -> CitableNode(cn.urn, Unicode.normalize(cn.text,stripmark=tru
 # ╠═fec9c596-7104-11eb-119a-cd421eb243c1
 # ╟─f788a1fe-7103-11eb-1bca-635d569460d2
 # ╠═0543125c-7104-11eb-22e2-97614e4cd2bf
+# ╟─9fdc607e-7105-11eb-04de-7780cb8bc2c3
+# ╠═a9eb7cb2-7105-11eb-370c-fd4cfce2ec05
