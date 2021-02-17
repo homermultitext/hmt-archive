@@ -9,6 +9,6 @@ PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
 PooledArrays = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
 
 [compat]
-CitableText = "0.4"
-HmtArchive = "0.1.1"
+CitableText = "0.5"
+HmtArchive = "0.1"
 PolytonicGreek = "0.2"
