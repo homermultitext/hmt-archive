@@ -9,15 +9,16 @@ begin
 	using Pkg
 	Pkg.activate(".")
 	Pkg.add("CitableText")
-	Pkg.add("PolytonicGreek")
-	Pkg.add("Markdown")
+	#Pkg.add("PolytonicGreek")
+	#Pkg.add("Markdown")
 	
 	Pkg.add(url="https://github.com/homermultitext/HmtArchive.jl")
 	
 	using CitableText
 	using HmtArchive
-	using Markdown
-	using PolytonicGreek
+	#using Markdown
+	#using PolytonicGreek
+	using Unicode
 end
 
 # ╔═╡ d0c15568-7101-11eb-32b1-a3daf87952bb
@@ -31,12 +32,12 @@ How to build a corpus of HMT scholia for easy string searching:  a normalized te
 
 ## Prerequisites
 
-The hidden cell above this one loads three Julia packages:
+The hidden cell above this one loads the Julia packages you need:
 
 ```julia
 using CitableText
 using HmtArchive
-using PolytonicGreek
+using Unicode
 ```
 
 
@@ -83,15 +84,45 @@ md"The two corpora should be the same size."
 # ╔═╡ 168b83f8-67a1-11eb-075c-776a77a2ac35
 length(scholiaxml.corpus) == length(scholianormalized.corpus)
 
+# ╔═╡ abb52fa4-7103-11eb-36f6-2dcebd07ca19
+md"Omit citable nodes with no text."
+
+# ╔═╡ b6bda1b0-7103-11eb-29d9-c5520a81d5c7
+nonempty = filter(n -> n.text != "", scholianormalized.corpus)
+
+# ╔═╡ c88752d8-7103-11eb-1e48-398e57cfe61d
+length(nonempty)
+
+# ╔═╡ d7cd31a8-7104-11eb-1a7b-0507c64510f7
+md"Omit `ref` nodes."
+
+# ╔═╡ d178f3c8-7104-11eb-249a-9106a334a908
+scholia = filter(cn -> !occursin("ref", passagecomponent(cn.urn)), nonempty)
+
+# ╔═╡ f4e9f898-7104-11eb-15a9-69c85c385d5c
+length(scholia)
+
 # ╔═╡ e1e89e40-7102-11eb-2bfd-3deba3df971f
 md"## Preparing the corpus for easy searching"
 
-# ╔═╡ f3e39eb0-7102-11eb-17b8-4178aa088a38
+# ╔═╡ ebbeb5e8-7103-11eb-26e9-9f9690ce08f5
+md"**1**. Make corpus lower case."
 
+# ╔═╡ f3e39eb0-7102-11eb-17b8-4178aa088a38
+lc = map(cn -> CitableNode(cn.urn, lowercase(cn.text)), scholia)
+
+# ╔═╡ fec9c596-7104-11eb-119a-cd421eb243c1
+length(lc) == length(scholia)
+
+# ╔═╡ f788a1fe-7103-11eb-1bca-635d569460d2
+md"**2**.  Strip breathings and accents."
+
+# ╔═╡ 0543125c-7104-11eb-22e2-97614e4cd2bf
+stripped = map(cn -> CitableNode(cn.urn, Unicode.normalize(cn.text,stripmark=true)), lc)
 
 # ╔═╡ Cell order:
 # ╟─d0c15568-7101-11eb-32b1-a3daf87952bb
-# ╟─b6a8d7d4-679a-11eb-3b88-9d40c1e45114
+# ╠═b6a8d7d4-679a-11eb-3b88-9d40c1e45114
 # ╟─9eaf507a-679a-11eb-32ee-331cc3e5212f
 # ╟─f7fa0692-679d-11eb-3769-83bfcf93c3ea
 # ╟─ea2b5ee0-679c-11eb-3a7e-f704d9a92a4b
@@ -102,5 +133,15 @@ md"## Preparing the corpus for easy searching"
 # ╠═b8466e4e-679f-11eb-2701-253cda3a88db
 # ╟─9975dbc8-7102-11eb-1d49-972b13d2204e
 # ╠═168b83f8-67a1-11eb-075c-776a77a2ac35
+# ╟─abb52fa4-7103-11eb-36f6-2dcebd07ca19
+# ╠═b6bda1b0-7103-11eb-29d9-c5520a81d5c7
+# ╠═c88752d8-7103-11eb-1e48-398e57cfe61d
+# ╟─d7cd31a8-7104-11eb-1a7b-0507c64510f7
+# ╠═d178f3c8-7104-11eb-249a-9106a334a908
+# ╠═f4e9f898-7104-11eb-15a9-69c85c385d5c
 # ╟─e1e89e40-7102-11eb-2bfd-3deba3df971f
+# ╟─ebbeb5e8-7103-11eb-26e9-9f9690ce08f5
 # ╠═f3e39eb0-7102-11eb-17b8-4178aa088a38
+# ╠═fec9c596-7104-11eb-119a-cd421eb243c1
+# ╟─f788a1fe-7103-11eb-1bca-635d569460d2
+# ╠═0543125c-7104-11eb-22e2-97614e4cd2bf
