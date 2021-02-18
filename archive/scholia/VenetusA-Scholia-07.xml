@@ -2307,7 +2307,8 @@
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:7.171</p>
                   </div>
                   <div n="comment">
-                     <p>ουτος <persName type="pers16">Ἀρίσταρχος</persName> καὶ <persName n="urn:cite2:hmt:pers.v1:pers75"
+                     <p>ουτος <persName n="urn:cite2:hmt:pers.v1:pers16">Ἀρίσταρχος</persName> καὶ 
+                        <persName n="urn:cite2:hmt:pers.v1:pers75"
                            >Ἡρωδιανὸς</persName> δια τοῦ <rs type="waw">σ</rs> πεπάλασθε ου δια τοῦ
                            <rs type="waw">χ</rs></p>
                   </div>
