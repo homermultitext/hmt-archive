@@ -5903,7 +5903,7 @@
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:18.53</p>
                         </div>
                         <div n="comment">
-                            <p><persName><choice>
+                            <p><persName n="urn:cite2:hmt:pers.v1:pers21"><choice>
                                         <abbr>ἀριστοφ</abbr>
                                         <expan>Ἀριστοφάνη</expan>
                                     </choice></persName>
