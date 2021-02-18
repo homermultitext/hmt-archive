@@ -88,7 +88,7 @@
 						n="urn:cite2:hmt:place.r1:place96">Ἀχαιοὺς</rs>
 				</l>
 				<l n="29">πανσυδίῃ: νῦν γάρ κεν ἕλοις πόλιν εὐρυάγυιαν </l>
-				<l n="30"><rs type="urn:cite2:hmt:place.r1:place6">Τρώων</rs>: οὐ γὰρ ἔτ' ἀμφὶς <placeName n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</placeName> δώματ'
+				<l n="30"><rsn="urn:cite2:hmt:place.r1:place6">Τρώων</rs>: οὐ γὰρ ἔτ' ἀμφὶς <placeName n="urn:cite2:hmt:place.r1:place45">Ὀλύμπια</placeName> δώματ'
 					ἔχοντες: </l>
 				<l n="31">ἀθάνατοι φράζονται: ἐπέγναμψεν γὰρ ἅπαντας </l>
 				<l n="32"><persName n="urn:cite2:hmt:pers.r1:pers116">Ἥρη</persName> λισσομένη: <rs
@@ -1573,10 +1573,10 @@
 					ἡγεῖτο <persName n="urn:cite2:hmt:pers.r1:pers415">Πυλαιμένεος</persName> λάσιον
 					κῆρ </l>
 				<l n="852">ἐξ Ενετῶν, ὅθεν ἡμιόνων γένος ἀγροτεράων </l>
-				<l n="853">οἵ ῥα <placeName type="urn:cite2:hmt:place.r1:place404">Κύτωρον</placeName>
-					ἔχον, καὶ <placeName type="urn:cite2:hmt:place.r1:place405">Σήσαμον</placeName>
+				<l n="853">οἵ ῥα <placeNamen="urn:cite2:hmt:place.r1:place404">Κύτωρον</placeName>
+					ἔχον, καὶ <placeNamen="urn:cite2:hmt:place.r1:place405">Σήσαμον</placeName>
 					ἀμφενέμοντο: </l>
-				<l n="854">ἀμφί τε <placeName type="urn:cite2:hmt:place.r1:place169"
+				<l n="854">ἀμφί τε <placeNamen="urn:cite2:hmt:place.r1:place169"
 						>Παρθένιον</placeName> ποταμὸν κλυτὰ δώματ' έναιον: </l>
 				<l n="855"><placeName n="urn:cite2:hmt:place.r1:place406">Κρῶμνάν</placeName> τ'
 						<placeName n="urn:cite2:hmt:place.r1:place407">Αἰγιαλόν</placeName> τε καὶ
