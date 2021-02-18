@@ -2439,9 +2439,9 @@ urn:cts:greekLit:tlg5026.msAim.hmt:14.B1.comment|urn:cite2:hmt:pers.r1:pers15
 urn:cts:greekLit:tlg5026.msAim.hmt:14.B2.comment|urn:cite2:hmt:pers.r1:pers16
 urn:cts:greekLit:tlg5026.msAim.hmt:14.B5.comment|urn:cite2:hmt:pers.r1:pers21
 urn:cts:greekLit:tlg5026.msAim.hmt:14.E5.comment|BAD ENTRY <persName>Άγριος</persName>
-urn:cts:greekLit:tlg5026.msAim.hmt:14.E5.comment|BAD ENTRY <persName>Μέλας</persName>
-urn:cts:greekLit:tlg5026.msAim.hmt:14.E6.comment|BAD ENTRY <persName>Αρίσταρχος</persName>
-urn:cts:greekLit:tlg5026.msAim.hmt:14.E6.comment|BAD ENTRY <persName>Ζηνόδοτος</persName>
+urn:cts:greekLit:tlg5026.msAim.hmt:14.E5.comment|urn:cite2:hmt:pers.v1:pers882
+urn:cts:greekLit:tlg5026.msAim.hmt:14.E6.comment|urn:cite2:hmt:pers.v1:pers16
+urn:cts:greekLit:tlg5026.msAim.hmt:14.E6.comment|urn:cite2:hmt:pers.v1:pers15
 urn:cts:greekLit:tlg5026.msAim.hmt:14.E8.comment|urn:cite2:hmt:pers.r1:pers16
 urn:cts:greekLit:tlg5026.msAim.hmt:14.G4.comment|urn:cite2:hmt:pers.r1:pers16
 urn:cts:greekLit:tlg5026.msAim.hmt:14.G7.comment|urn:cite2:hmt:pers.r1:pers16
@@ -2510,7 +2510,7 @@ urn:cts:greekLit:tlg5026.msA.hmt:14.B1.comment|urn:cite2:hmt:pers.r1:pers89
 urn:cts:greekLit:tlg5026.msA.hmt:14.B2.lemma|urn:cite2:hmt:pers.r1:pers117
 urn:cts:greekLit:tlg5026.msA.hmt:14.B2.comment|urn:cite2:hmt:pers.r1:pers117
 urn:cts:greekLit:tlg5026.msA.hmt:14.B2.comment|urn:cite2:hmt:pers.r1:pers117
-urn:cts:greekLit:tlg5026.msA.hmt:14.B2.comment|BAD ENTRY <persName>Ὅμηρος</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.B2.comment|urn:cite2:hmt:pers.v1:pers17
 urn:cts:greekLit:tlg5026.msA.hmt:14.B2.comment|urn:cite2:hmt:pers.r1:pers117
 urn:cts:greekLit:tlg5026.msA.hmt:14.B3.comment|urn:cite2:hmt:pers.r1:pers96
 urn:cts:greekLit:tlg5026.msA.hmt:14.B7.comment|urn:cite2:hmt:pers.r1:pers22
@@ -2531,29 +2531,28 @@ urn:cts:greekLit:tlg5026.msA.hmt:14.B24.comment|urn:cite2:hmt:pers.r1:pers15
 urn:cts:greekLit:tlg5026.msA.hmt:14.B25.comment|urn:cite2:hmt:pers.r1:pers8
 urn:cts:greekLit:tlg5026.msA.hmt:14.B25.comment|urn:cite2:hmt:pers.r1:pers881
 urn:cts:greekLit:tlg5026.msA.hmt:14.B26.comment|urn:cite2:hmt:pers.r1:pers485
-urn:cts:greekLit:tlg5026.msA.hmt:14.E1.comment|BAD ENTRY <persName>Ὁμηρικὸν</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E2.comment|BAD ENTRY <persName>Ἀρίσταρχος</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E4.comment|BAD ENTRY <persName>Ἀρισταρχου</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E5.comment|BAD ENTRY <persName>Ἀρισταρχου</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E9.comment|BAD ENTRY <persName>Αγαμέμνων</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E9.comment|BAD ENTRY <persName>Ἀγαμέμνων</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|BAD ENTRY <persName>Ἀγαμέμνονι</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|BAD ENTRY <persName>Ὀδυσσεὺς</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|BAD ENTRY <persName>Ἀγαμέμνονος</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|BAD ENTRY <persName>Ὀδυσεῦ</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E11.comment|BAD ENTRY <persName>Ζηνόδοτος</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E11.comment|BAD ENTRY <persName>Ἀριστοφάνης</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E13.comment|BAD ENTRY <persName>Διομήδης</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E13.comment|BAD ENTRY <persName>Nέστωρ</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E13.comment|BAD ENTRY <persName>Διομήδης</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E14.lemma|BAD ENTRY <persName>Τυδέος</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E14.comment|BAD ENTRY <persName>Ζηνόδοτος</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E14.comment|BAD ENTRY <persName>Ἀριστοφάνει</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.E2.comment|urn:cite2:hmt:pers.v1:pers16
+urn:cts:greekLit:tlg5026.msA.hmt:14.E4.comment|urn:cite2:hmt:pers.v1:pers16
+urn:cts:greekLit:tlg5026.msA.hmt:14.E5.comment|urn:cite2:hmt:pers.v1:pers16
+urn:cts:greekLit:tlg5026.msA.hmt:14.E9.comment|urn:cite2:hmt:pers.v1:pers22
+urn:cts:greekLit:tlg5026.msA.hmt:14.E9.comment|urn:cite2:hmt:pers.v1:pers22
+urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|urn:cite2:hmt:pers.v1:pers22
+urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|urn:cite2:hmt:pers.v1:pers118
+urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|urn:cite2:hmt:pers.v1:pers22
+urn:cts:greekLit:tlg5026.msA.hmt:14.E10.comment|urn:cite2:hmt:pers.v1:pers118
+urn:cts:greekLit:tlg5026.msA.hmt:14.E11.comment|urn:cite2:hmt:pers.v1:pers15
+urn:cts:greekLit:tlg5026.msA.hmt:14.E11.comment|urn:cite2:hmt:pers.v1:pers21
+urn:cts:greekLit:tlg5026.msA.hmt:14.E13.comment|urn:cite2:hmt:pers.v1:pers215
+urn:cts:greekLit:tlg5026.msA.hmt:14.E13.comment|urn:cite2:hmt:pers.v1:pers117
+urn:cts:greekLit:tlg5026.msA.hmt:14.E13.comment|urn:cite2:hmt:pers.v1:pers215
+urn:cts:greekLit:tlg5026.msA.hmt:14.E14.lemma|urn:cite2:hmt:pers.v1:pers251
+urn:cts:greekLit:tlg5026.msA.hmt:14.E14.comment|urn:cite2:hmt:pers.v1:pers15
+urn:cts:greekLit:tlg5026.msA.hmt:14.E14.comment|urn:cite2:hmt:pers.v1:pers21
 urn:cts:greekLit:tlg5026.msA.hmt:14.E15.lemma|BAD ENTRY <persName>Ἄγριος</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E15.lemma|BAD ENTRY <persName>Μέλας</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E15.comment|BAD ENTRY <persName>Οἰνεὺς</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E16.comment|BAD ENTRY <persName>Οἰνεὺς</persName>
-urn:cts:greekLit:tlg5026.msA.hmt:14.E16.comment|BAD ENTRY <persName>Ησίοδος</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.E15.lemma|urn:cite2:hmt:pers.v1:pers882
+urn:cts:greekLit:tlg5026.msA.hmt:14.E15.comment|urn:cite2:hmt:pers.v1:pers327
+urn:cts:greekLit:tlg5026.msA.hmt:14.E16.comment|urn:cite2:hmt:pers.v1:pers327
+urn:cts:greekLit:tlg5026.msA.hmt:14.E16.comment|urn:cite2:hmt:pers.v1:pers4
 urn:cts:greekLit:tlg5026.msA.hmt:14.E18.comment|urn:cite2:hmt:pers.v1:pers16
 urn:cts:greekLit:tlg5026.msA.hmt:14.E19.comment|urn:cite2:hmt:pers.v1:pers215
 urn:cts:greekLit:tlg5026.msA.hmt:14.E19.comment|urn:cite2:hmt:pers.v1:pers251
@@ -2580,9 +2579,9 @@ urn:cts:greekLit:tlg5026.msA.hmt:14.G9.lemma|urn:cite2:hmt:pers.r1:pers47
 urn:cts:greekLit:tlg5026.msA.hmt:14.G10.comment|urn:cite2:hmt:pers.r1:pers192
 urn:cts:greekLit:tlg5026.msA.hmt:14.G12.comment|urn:cite2:hmt:pers.r1:pers15
 urn:cts:greekLit:tlg5026.msA.hmt:14.G12.comment|urn:cite2:hmt:pers.r1:pers16
-urn:cts:greekLit:tlg5026.msA.hmt:14.G15.comment|BAD ENTRY <persName>Ζηνόδοτος</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.G15.comment|urn:cite2:hmt:pers.v1:pers15
 urn:cts:greekLit:tlg5026.msA.hmt:14.G15.comment|urn:cite2:hmt:pers.r1:pers17
-urn:cts:greekLit:tlg5026.msA.hmt:14.G17.comment|BAD ENTRY <persName>Ἀπόλλων</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.G17.comment|urn:cite2:hmt:pers.v1:pers40
 urn:cts:greekLit:tlg5026.msA.hmt:14.G18.comment|urn:cite2:hmt:pers.r1:pers86
 urn:cts:greekLit:tlg5026.msA.hmt:14.G19.comment|urn:cite2:hmt:pers.r1:pers16
 urn:cts:greekLit:tlg5026.msA.hmt:14.G19.comment|urn:cite2:hmt:pers.r1:pers8
@@ -2613,8 +2612,9 @@ urn:cts:greekLit:tlg5026.msA.hmt:14.C19.comment|urn:cite2:hmt:pers.r1:pers895
 urn:cts:greekLit:tlg5026.msA.hmt:14.C19.comment|urn:cite2:hmt:pers.r1:pers896
 urn:cts:greekLit:tlg5026.msA.hmt:14.C20.comment|urn:cite2:hmt:pers.r1:pers192
 urn:cts:greekLit:tlg5026.msA.hmt:14.C20.comment|urn:cite2:hmt:pers.r1:pers897
+urn:cts:greekLit:tlg5026.msA.hmt:14.C20.comment|urn:cite2:hmt:pers.v1:pers900
 urn:cts:greekLit:tlg5026.msA.hmt:14.C20.comment|urn:cite2:hmt:pers.r1:pers897
-urn:cts:greekLit:tlg5026.msA.hmt:14.C20.comment|BAD ENTRY <persName>Ὕπνος</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.C20.comment|urn:cite2:hmt:pers.v1:pers894
 urn:cts:greekLit:tlg5026.msA.hmt:14.C20.comment|BAD ENTRY <persName>οἰνοφόρος</persName>
 urn:cts:greekLit:tlg5026.msA.hmt:14.C22.lemma|urn:cite2:hmt:pers.r1:pers8
 urn:cts:greekLit:tlg5026.msA.hmt:14.C22.comment|urn:cite2:hmt:pers.r1:pers16
@@ -2653,7 +2653,7 @@ urn:cts:greekLit:tlg5026.msA.hmt:14.H3.comment|urn:cite2:hmt:pers.r1:pers431
 urn:cts:greekLit:tlg5026.msA.hmt:14.H3.comment|urn:cite2:hmt:pers.r1:pers255
 urn:cts:greekLit:tlg5026.msA.hmt:14.H6.comment|urn:cite2:hmt:pers.r1:pers485
 urn:cts:greekLit:tlg5026.msA.hmt:14.H6.comment|urn:cite2:hmt:pers.r1:pers39
-urn:cts:greekLit:tlg5026.msA.hmt:14.H9.comment|BAD ENTRY <persName>Ζηνόδοτος</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.H9.comment|urn:cite2:hmt:pers.v1:pers15
 urn:cts:greekLit:tlg5026.msA.hmt:14.H10.lemma|urn:cite2:hmt:pers.r1:pers139
 urn:cts:greekLit:tlg5026.msA.hmt:14.H10.comment|urn:cite2:hmt:pers.r1:pers139
 urn:cts:greekLit:tlg5026.msA.hmt:14.H10.comment|urn:cite2:hmt:pers.r1:pers139
@@ -2789,10 +2789,10 @@ urn:cts:greekLit:tlg5026.msA.hmt:14.F7.comment|urn:cite2:hmt:pers.r1:pers16
 urn:cts:greekLit:tlg5026.msA.hmt:14.F8.comment|urn:cite2:hmt:pers.r1:pers17
 urn:cts:greekLit:tlg5026.msA.hmt:14.F8.comment|urn:cite2:hmt:pers.r1:pers7
 urn:cts:greekLit:tlg5026.msA.hmt:14.F11.lemma|urn:cite2:hmt:pers.r1:pers119
-urn:cts:greekLit:tlg5026.msA.hmt:14.F11.comment|BAD ENTRY <persName>Ὑπερήνωρ</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.F11.comment|urn:cite2:hmt:pers.v1:pers921
 urn:cts:greekLit:tlg5026.msA.hmt:14.F11.comment|urn:cite2:hmt:pers.r1:pers464
 urn:cts:greekLit:tlg5026.msA.hmt:14.F11.comment|urn:cite2:hmt:pers.r1:pers119
-urn:cts:greekLit:tlg5026.msA.hmt:14.F11.comment|BAD ENTRY <persName>Ὑπερήνορος</persName>
+urn:cts:greekLit:tlg5026.msA.hmt:14.F11.comment|urn:cite2:hmt:pers.v1:pers921
 urn:cts:greekLit:tlg5026.msAext.hmt:13.164r2.comment|urn:cite2:hmt:pers.v1:pers47
 urn:cts:greekLit:tlg5026.msAext.hmt:13.164v2.comment|urn:cite2:hmt:pers.v1:pers47
 urn:cts:greekLit:tlg5026.msAext.hmt:13.164v3.comment|urn:cite2:hmt:pers.v1:pers47
