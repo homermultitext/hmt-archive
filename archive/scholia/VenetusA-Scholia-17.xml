@@ -631,14 +631,14 @@
                                         type="urn" n="urn:cts:greekLit:tlg0012.tlg002"
                                         >Ὀδυσσείᾳ</ref></title>, ὁμώνυμον <persName
                                     n="urn:cite2:hmt:pers.v1:pers1062">Μέντην</persName> ἔτερος γὰρ
-                                    <persName>Ταφίων</persName> βασιλεὺς <persName
+                                    <rs type="ethnic">Ταφίων</rs> βασιλεὺς <persName
                                     n="urn:cite2:hmt:pers.v1:pers">Μέντης</persName> δὲ ὁ μενετικὸς ἐν
                                 τοῖς πολέμοις ⁑</p>
                         </div>
                     </div>
                     <div n="35" type="scholion">
                         <div n="lemma">
-                            <p><persName n="urn:cite2:hmt:pers.v1:pers172">Ἕ:κτορ</persName>, νῦν σῦ μὲν
+                            <p><persName n="urn:cite2:hmt:pers.v1:pers172">Ἕκτορ</persName>, νῦν σῦ μὲν
                                 ὦδε,</p>
                         </div>
                         <div n="ref">
@@ -650,7 +650,7 @@
                                     <sic>φησὶ</sic>
                                     <corr>φασὶ</corr>
                                 </choice>
-                                <persName>Ποσειδώνιον</persName> τὸν <persName
+                                <persName n="urn:cite2:hmt:pers.v1:pers176">Ποσειδώνιον</persName> τὸν <persName
                                     n="urn:cite2:hmt:pers.v1:pers16">Ἀριστάρχου</persName> ἀναγνώστην
                                 τοῖς ἑξῆς προσνέμειν. καὶ τὸν <persName n="urn:cite2:hmt:pers.v1:pers16"
                                     >Ἀρίσταρχον</persName> ἀποδέχεσθαι ⁑</p>
