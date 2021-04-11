@@ -1,22 +1,22 @@
 #!citecollections
-URN#Description#Labelling property#Ordering property#License
-urn:cite2:hmt:pers.v1:#Names of persons#urn:cite2:hmt:pers.v1.label:##Public domain
-urn:cite2:hmt:place.v1:#Geographic names#urn:cite2:hmt:place.v1.label:##Public domain
+URN|Description|Labelling property|Ordering property|License
+urn:cite2:hmt:pers.v1:|Names of persons|urn:cite2:hmt:pers.v1.label:||Public domain
+urn:cite2:hmt:place.v1:|Geographic names|urn:cite2:hmt:place.v1.label:||Public domain
 
 
 #!citeproperties
-Property#Label#Type#Authority list
-urn:cite2:hmt:pers.v1.urn:#Person#Cite2Urn#
-urn:cite2:hmt:pers.v1.label:#Label#String#
-urn:cite2:hmt:pers.v1.mf:#MF#String#
-urn:cite2:hmt:pers.v1.character:#Character#String#
-urn:cite2:hmt:pers.v1.description:#Description#String#
-urn:cite2:hmt:pers.v1.status:#Status#String#proposed,accepted,rejected
-urn:cite2:hmt:pers.v1.redirect:#Redirected to#String#
+Property|Label|Type|Authority list
+urn:cite2:hmt:pers.v1.urn:|Person|Cite2Urn|
+urn:cite2:hmt:pers.v1.label:|Label|String|
+urn:cite2:hmt:pers.v1.mf:|MF|String|
+urn:cite2:hmt:pers.v1.character:|Character|String|
+urn:cite2:hmt:pers.v1.description:|Description|String|
+urn:cite2:hmt:pers.v1.status:|Status|String|proposed,accepted,rejected
+urn:cite2:hmt:pers.v1.redirect:|Redirected to|String|
 
-urn:cite2:hmt:place.v1.urn:#Place#Cite2Urn#
-urn:cite2:hmt:place.v1.label:#Label#String#
-urn:cite2:hmt:place.v1.description:#Description#String#
-urn:cite2:hmt:place.v1.pleiades:#Pleiades project identifier#String#
-urn:cite2:hmt:place.v1.status:#Status#String#proposed,accepted,rejected
-urn:cite2:hmt:place.v1.redirect:#Redirected to#String#
+urn:cite2:hmt:place.v1.urn:|Place|Cite2Urn|
+urn:cite2:hmt:place.v1.label:|Label|String|
+urn:cite2:hmt:place.v1.description:|Description|String|
+urn:cite2:hmt:place.v1.pleiades:|Pleiades project identifier|String|
+urn:cite2:hmt:place.v1.status:|Status|String|proposed,accepted,rejected
+urn:cite2:hmt:place.v1.redirect:|Redirected to|String|

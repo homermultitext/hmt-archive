@@ -1,26 +1,26 @@
 
 
 #!citecollections
-URN#Description#Labelling property#Ordering property#License
-urn:cite2:hmt:critsigns.v1:#Aristarchan critical signs#urn:cite2:hmt:critsigns.v1.englishName:##CC-attribution-share-alike
+URN|Description|Labelling property|Ordering property|License
+urn:cite2:hmt:critsigns.v1:|Aristarchan critical signs|urn:cite2:hmt:critsigns.v1.englishName:||CC-attribution-share-alike
 
 
 #!citeproperties
-Property#Label#Type#Authority list
-urn:cite2:hmt:critsigns.v1.urn:#Aristarchan sign#Cite2Urn#
-urn:cite2:hmt:critsigns.v1.englishName:#English name#String#diple,dotted diple,obelos,asteriskos,antisigma,dotted antisigma
-urn:cite2:hmt:critsigns.v1.greekName:#Greek name#String#
-urn:cite2:hmt:critsigns.v1.ucodehex:#Unicode code point (hex)#String#
-urn:cite2:hmt:critsigns.v1.notes:#Notes on Unicode value#String#
+Property|Label|Type|Authority list
+urn:cite2:hmt:critsigns.v1.urn:|Aristarchan sign|Cite2Urn|
+urn:cite2:hmt:critsigns.v1.englishName:|English name|String|diple,dotted diple,obelos,asteriskos,antisigma,dotted antisigma
+urn:cite2:hmt:critsigns.v1.greekName:|Greek name|String|
+urn:cite2:hmt:critsigns.v1.ucodehex:|Unicode code point (hex)|String|
+urn:cite2:hmt:critsigns.v1.notes:|Notes on Unicode value|String|
 
 
 #!citedata
-urn#englishName#greekName#ucodehex#notes
-urn:cite2:hmt:critsigns.v1:diple#diple#διπλῆ ἀπερίστικτος#003E#No distinct character:  substitute greater-than sign for display.
-urn:cite2:hmt:critsigns.v1:dotteddiple#dotted diple#διπλῆ περιεστιγμένη#2E16#Dotted right-pointing angle
-urn:cite2:hmt:critsigns.v1:obelos#obelos#ὀβελός#2014#No distinct character:  substitute en dash for display.
-urn:cite2:hmt:critsigns.v1:asterisk#asteriskos#ἀστερίσκος#203B#Unicode Reference mark
-urn:cite2:hmt:critsigns.v1:antisigma#antisigma#ἀντίσιγμα#03FD#Greek capital reversed lunate sigma
-urn:cite2:hmt:critsigns.v1:dottedantisigma#dotted antisigma#ἀντίσιγμα περιστιγμένον#03FF#Greek capital reversed dotted lunate sigma
+urn|englishName|greekName|ucodehex|notes
+urn:cite2:hmt:critsigns.v1:diple|diple|διπλῆ ἀπερίστικτος|003E|No distinct character:  substitute greater-than sign for display.
+urn:cite2:hmt:critsigns.v1:dotteddiple|dotted diple|διπλῆ περιεστιγμένη|2E16|Dotted right-pointing angle
+urn:cite2:hmt:critsigns.v1:obelos|obelos|ὀβελός|2014|No distinct character:  substitute en dash for display.
+urn:cite2:hmt:critsigns.v1:asterisk|asteriskos|ἀστερίσκος|203B|Unicode Reference mark
+urn:cite2:hmt:critsigns.v1:antisigma|antisigma|ἀντίσιγμα|03FD|Greek capital reversed lunate sigma
+urn:cite2:hmt:critsigns.v1:dottedantisigma|dotted antisigma|ἀντίσιγμα περιστιγμένον|03FF|Greek capital reversed dotted lunate sigma
 
 
