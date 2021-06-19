@@ -2,3 +2,8 @@
 CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
 CitableText = "41e66566-473b-49d4-85b7-da83b66615d8"
 EditorsRepo = "3fa2051c-bcb6-4d65-8a68-41ff86d56437"
+
+[compat]
+CitableCorpus = "0.2"
+CitableText = "0.9"
+EditorsRepo = "0.11"
