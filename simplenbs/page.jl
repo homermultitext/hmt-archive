@@ -7,6 +7,99 @@ using InteractiveUtils
 # ╔═╡ 863754ac-d0ea-11eb-0a68-83e30f2d48f6
 using CitableText, CitableCorpus, EditorsRepo
 
+# ╔═╡ 6378bfe4-a3e1-42a0-969d-e3fc81b3ab43
+md"Work with HMT material by page."
+
+# ╔═╡ 8e91e0aa-c8d6-4a5f-834f-fe7d511453d8
+md"> Corpora"
+
+# ╔═╡ a047dcd9-d340-4cd6-af9c-5a2b56816203
+md"> Useful lists of `CitableNode`s"
+
+# ╔═╡ 605f0b78-b528-41d4-95c8-127a38b19cdc
+md"> Functions"
+
+# ╔═╡ 9e7b78f4-aea0-4ad4-b1c9-cd1f260b4400
+# Create a citable corpus of archival text in a repo
+# This could also be directly loaded from component publication
+# or from full CEX publicatoin.
+function archivalcorpus(r::EditingRepository, citesdf)
+    urns = citesdf[:, :urn]
+
+    corpora = []
+    for u in urns
+        # 1. Read the source text (here, XML)
+        src = textsourceforurn(r, u)
+        if isnothing(src)
+            # skip it
+        else
+            # 2. get the EditionBuilder for the urn
+            reader = ohco2forurn(citesdf, u)
+            # 3. create citable corpus of the archival version
+            push!(corpora, reader(src, u))
+        end
+    end
+    CitableCorpus.composite_array(corpora)
+end
+
+# ╔═╡ db1a994f-eb0f-4766-a04a-5bedd7f1446b
+md"> Metadata"
+
+# ╔═╡ 6d1d5fe2-94b0-4c28-b00e-7f2eaad97e40
+# An MID EditorialRepository.  Useful for constructing CITE architecture
+# abstractions from complex data sets in a local file system.
+repo = begin
+	archiveroot = string(pwd() |> dirname, "/archive")
+	repository(archiveroot; editions= "tei-editions", dse="dse-data", config="textconfigs")
+end
+
+
+# ╔═╡ d4045c64-1d08-46db-9263-74edc128dde6
+normalizedcorpus = begin 
+	normednodes = []
+	for t in texturns(repo)
+		nds = normalizednodes(repo, t)
+		push!(normednodes, nds)        
+	end
+	normed = filter(nodelist -> ! isnothing(nodelist), normednodes) |> Iterators.flatten |> collect 
+	filter(cn -> ! isempty(cn.text), normed) |> CitableTextCorpus
+end
+
+
+# ╔═╡ 2570e582-c478-46bc-853e-ef7c34393fee
+iliadnormed = filter(cn -> contains(cn.urn.urn, "tlg0012"),  normalizedcorpus.corpus)
+
+# ╔═╡ 318e8c93-3e72-4fff-952d-3a574446e91c
+scholianormed = filter(cn -> contains(cn.urn.urn, "tlg5026"),  normalizedcorpus.corpus)
+
+
+# ╔═╡ e1591ba9-16d2-45aa-a8a1-50ee7daf0135
+commentarynormed = filter(cn -> endswith(passagecomponent(cn.urn),"comment"), normalizedcorpus.corpus)
+
+
+# ╔═╡ 0042fe1b-fdda-4876-aabb-e91ee11a56e5
+reff = filter(cn -> endswith(passagecomponent(cn.urn), "ref"), normalizedcorpus.corpus)
+
+
+
+# ╔═╡ 402a4d7c-2060-4b74-9b50-60f5853a9bb2
+diplomaticcorpus = begin 
+	diplnodes = []
+	for t in texturns(repo)
+		nds = diplomaticnodes(repo, t)
+		push!(diplnodes, nds)        
+	end
+	diplomatic = filter(nodelist -> ! isnothing(nodelist), diplnodes) |> Iterators.flatten |> collect 
+	filter(cn -> ! isempty(cn.text), diplomatic) |> CitableTextCorpus
+end
+
+# ╔═╡ 26cc1194-df98-4714-a74f-53b8bbe60181
+# Citation configuration for this repository as a DataFrame
+citation = citation_df(repo)
+
+# ╔═╡ 93bc8273-b859-4d8b-a85f-e4fe176466c4
+archivaltextcorpus = archivalcorpus(repo, citation)
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [compat]
@@ -445,6 +538,21 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 """
 
 # ╔═╡ Cell order:
-# ╠═863754ac-d0ea-11eb-0a68-83e30f2d48f6
+# ╟─863754ac-d0ea-11eb-0a68-83e30f2d48f6
+# ╟─6378bfe4-a3e1-42a0-969d-e3fc81b3ab43
+# ╟─8e91e0aa-c8d6-4a5f-834f-fe7d511453d8
+# ╟─93bc8273-b859-4d8b-a85f-e4fe176466c4
+# ╟─d4045c64-1d08-46db-9263-74edc128dde6
+# ╟─402a4d7c-2060-4b74-9b50-60f5853a9bb2
+# ╟─a047dcd9-d340-4cd6-af9c-5a2b56816203
+# ╟─2570e582-c478-46bc-853e-ef7c34393fee
+# ╟─318e8c93-3e72-4fff-952d-3a574446e91c
+# ╟─e1591ba9-16d2-45aa-a8a1-50ee7daf0135
+# ╟─0042fe1b-fdda-4876-aabb-e91ee11a56e5
+# ╟─605f0b78-b528-41d4-95c8-127a38b19cdc
+# ╟─9e7b78f4-aea0-4ad4-b1c9-cd1f260b4400
+# ╟─db1a994f-eb0f-4766-a04a-5bedd7f1446b
+# ╟─6d1d5fe2-94b0-4c28-b00e-7f2eaad97e40
+# ╟─26cc1194-df98-4714-a74f-53b8bbe60181
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
