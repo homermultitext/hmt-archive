@@ -45,3 +45,5 @@ iliadlines = filter(cn -> contains(cn.urn.urn, "tlg0012"),  nonempty)
 schnodes = filter(cn -> contains(cn.urn.urn, "tlg5026"),  nonempty)
 schcomments = filter(cn -> endswith(passagecomponent(cn.urn),"comment"), schnodes)
 reff = filter(cn -> endswith(passagecomponent(cn.urn), "ref"), normed.corpus)
+
+dse_df(repo)
