@@ -51,4 +51,6 @@ reff = filter(cn -> endswith(passagecomponent(cn.urn), "ref"), normed.corpus)
 
 alldse = dse_df(repo)
 
-alldse[1,:passage]
+
+ilb = filter(cn -> contains(workcomponent(cn.urn),"msB") ,iliadlines)
+ilsch = filter(cn -> contains(workcomponent(cn.urn),"msB") ,schnodes)
