@@ -3,12 +3,14 @@
 using CitableText
 using CitableCorpus
 using EditorsRepo
+using CiteEXchange
 
 archiveroot = string(pwd(), "/archive")
 repo = repository(archiveroot; editions= "tei-editions", dse="dse-data", config="textconfigs")
+
 citation = citation_df(repo)
 
-
+string(repo.editions, "/catalog.cex")
 # Create a citable corpus of archival text in a repo
 function archivalcorpus(r::EditingRepository, citesdf)
     urns = citesdf[:, :urn]
@@ -32,6 +34,7 @@ end
 archivaltexts = archivalcorpus(repo, citation)
 
 texts = texturns(repo)
+println(join(texts,"\n"))
 normednodes = []
 for t in texts
     nds = normalizednodes(repo, t)
@@ -46,4 +49,6 @@ schnodes = filter(cn -> contains(cn.urn.urn, "tlg5026"),  nonempty)
 schcomments = filter(cn -> endswith(passagecomponent(cn.urn),"comment"), schnodes)
 reff = filter(cn -> endswith(passagecomponent(cn.urn), "ref"), normed.corpus)
 
-dse_df(repo)
+alldse = dse_df(repo)
+
+alldse[1,:passage]
