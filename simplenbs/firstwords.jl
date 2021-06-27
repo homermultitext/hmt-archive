@@ -209,14 +209,6 @@ end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
-[compat]
-CitableCorpus = "~0.2.1"
-CitableText = "~0.9.0"
-DataFrames = "~1.1.1"
-EditorsRepo = "~0.11.6"
-Plots = "~1.16.5"
-PlutoUI = "~0.7.9"
-
 [deps]
 CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
 CitableText = "41e66566-473b-49d4-85b7-da83b66615d8"
@@ -225,6 +217,14 @@ EditorsRepo = "3fa2051c-bcb6-4d65-8a68-41ff86d56437"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+[compat]
+CitableCorpus = "~0.2.1"
+CitableText = "~0.9.0"
+DataFrames = "~1.1.1"
+EditorsRepo = "~0.11.6"
+Plots = "~1.16.5"
+PlutoUI = "~0.7.9"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
@@ -1198,14 +1198,14 @@ version = "0.9.1+5"
 # ╟─7edad06a-ae9b-40f9-b508-0d95b7073f58
 # ╟─51efa8af-8406-41da-9ff3-fc826b988403
 # ╟─d714af70-f314-48bb-9a0b-935682e35d6e
-# ╟─bd3203ae-3ae4-439b-bd96-aa077f9d76d3
+# ╠═bd3203ae-3ae4-439b-bd96-aa077f9d76d3
 # ╟─0e6ee65f-1525-4ac1-9c03-4c87e9d5888a
 # ╟─3833f7c1-aa4f-460f-b39b-4a15c0e2b7c3
 # ╟─3c18e06e-bfe3-493e-bcbd-e1f0ab1b2d10
 # ╟─53f2a8cc-d3f9-4b02-b761-7c09d259e943
 # ╟─6d132ef9-4522-402a-b3de-cba093027a4a
 # ╟─4a1142f2-b810-4659-932d-37aba2bafcbf
-# ╠═2329f800-498e-4de1-91d5-c48bd5a18596
+# ╟─2329f800-498e-4de1-91d5-c48bd5a18596
 # ╟─2dd428e5-9f9d-4ff7-8b29-9bf8eae11243
 # ╟─d07b9a29-fda3-4d52-ae72-02ff84528d66
 # ╟─88a567a4-0806-4cea-a600-ceb03522f204
