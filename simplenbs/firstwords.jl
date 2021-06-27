@@ -40,7 +40,7 @@ md"> Data to graph"
 function plotcount(counts, labels, termlimit)
 	max = termlimit > length(counts) ? length(counts) : termlimit
 	xtix = (1:max, labels[1:max])
-	bar(counts[1:max], xticks=xtix, xrotation=45, xlabel="Term", label="Number of occurrences", bar_width=0.7)
+	bar(counts[1:max], xticks=xtix, xrotation=45, xlabel="Term", label="Number of occurrences", bar_width=0.7, grid = (:y, :blue, :dot, 1, 0.4), minorticks = 10)
 end
 
 # ╔═╡ 27c2c22e-159b-4e96-9e14-ab80048bbabf
@@ -154,14 +154,6 @@ commentarynormed = filter(cn -> endswith(passagecomponent(cn.urn),"comment"), no
 # Compose list of initial n-gram in normalized scholia comments
 firstwords = map(cn -> firstn(cn.text,ncount), commentarynormed)
 
-# ╔═╡ 3c18e06e-bfe3-493e-bcbd-e1f0ab1b2d10
-# Total number of ngrams
-md"""### Frequency of $(ncount)-grams in $ms
-
-Total number of $(ncount)-grams: $(firstwords |> length)
-
-"""
-
 # ╔═╡ 68a35a99-549f-41a6-bace-a82acc7b9493
 # group terms
 grouped = begin
@@ -197,6 +189,23 @@ md"Number of distinct labels: $(labels |> length)"
 reff = filter(cn -> endswith(passagecomponent(cn.urn), "ref"), normalizedcorpus.corpus)
 
 
+
+# ╔═╡ 6d132ef9-4522-402a-b3de-cba093027a4a
+mslabel = begin
+	pairing = filter(pr -> pr[1] == ms, menu)
+	pairing[1][2]
+end
+
+# ╔═╡ 3c18e06e-bfe3-493e-bcbd-e1f0ab1b2d10
+
+begin
+	labelsrc = """### Frequency of $(ncount)-grams in *$mslabel*
+
+Total number of $(ncount)-grams: $(firstwords |> length)
+
+"""
+	Markdown.parse(labelsrc)
+end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1194,8 +1203,9 @@ version = "0.9.1+5"
 # ╟─3833f7c1-aa4f-460f-b39b-4a15c0e2b7c3
 # ╟─3c18e06e-bfe3-493e-bcbd-e1f0ab1b2d10
 # ╟─53f2a8cc-d3f9-4b02-b761-7c09d259e943
+# ╟─6d132ef9-4522-402a-b3de-cba093027a4a
 # ╟─4a1142f2-b810-4659-932d-37aba2bafcbf
-# ╟─2329f800-498e-4de1-91d5-c48bd5a18596
+# ╠═2329f800-498e-4de1-91d5-c48bd5a18596
 # ╟─2dd428e5-9f9d-4ff7-8b29-9bf8eae11243
 # ╟─d07b9a29-fda3-4d52-ae72-02ff84528d66
 # ╟─88a567a4-0806-4cea-a600-ceb03522f204
