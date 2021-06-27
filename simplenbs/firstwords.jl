@@ -22,11 +22,8 @@ using DataFrames, Plots, PlutoUI, Unicode
 # ╔═╡ 51efa8af-8406-41da-9ff3-fc826b988403
 plotly()
 
-# ╔═╡ 6378bfe4-a3e1-42a0-969d-e3fc81b3ab43
-md"Work with HMT material by page."
-
 # ╔═╡ d714af70-f314-48bb-9a0b-935682e35d6e
-md"> This is cool"
+md"># Introductory expressions in *scholia*"
 
 # ╔═╡ 0e6ee65f-1525-4ac1-9c03-4c87e9d5888a
 md"""n: $(@bind ncount Slider(1:10; default=1, show_value=true))"""
@@ -34,16 +31,16 @@ md"""n: $(@bind ncount Slider(1:10; default=1, show_value=true))"""
 # ╔═╡ 3833f7c1-aa4f-460f-b39b-4a15c0e2b7c3
 md"""Number of words to show: $(@bind lmt Slider(15:500; default=20, show_value=true))"""
 
-# ╔═╡ 2329f800-498e-4de1-91d5-c48bd5a18596
-function plotcount(counts, labels, termlimit)
-	xtix = (1:termlimit, labels[1:termlimit])
-	bar(counts[1:lmt], xticks=xtix, xrotation=45, xlabel="Term", label="Number of occurrences", bar_width=0.7)
-end
+# ╔═╡ 4a1142f2-b810-4659-932d-37aba2bafcbf
+md"> Data to graph"
 
-# ╔═╡ de815156-8175-44e2-af49-1eaad166045c
-function firstword(s)
-	words = split(s)
-	words[1]
+# ╔═╡ 2329f800-498e-4de1-91d5-c48bd5a18596
+# Draw graph using vector of histogram counts,
+# vector of histogram labels, and maximum number of terms to include
+function plotcount(counts, labels, termlimit)
+	max = termlimit > length(counts) ? length(counts) : termlimit
+	xtix = (1:max, labels[1:max])
+	bar(counts[1:max], xticks=xtix, xrotation=45, xlabel="Term", label="Number of occurrences", bar_width=0.7)
 end
 
 # ╔═╡ 27c2c22e-159b-4e96-9e14-ab80048bbabf
@@ -97,71 +94,6 @@ repo = begin
 end
 
 
-# ╔═╡ d4045c64-1d08-46db-9263-74edc128dde6
-normalizedcorpus = begin 
-	normednodes = []
-	for t in texturns(repo)
-		nds = normalizednodes(repo, t)
-		push!(normednodes, nds)        
-	end
-	normed = filter(nodelist -> ! isnothing(nodelist), normednodes) |> Iterators.flatten |> collect 
-	filter(cn -> ! isempty(cn.text), normed) |> CitableTextCorpus
-end
-
-
-# ╔═╡ 2570e582-c478-46bc-853e-ef7c34393fee
-iliadnormed = filter(cn -> contains(cn.urn.urn, "tlg0012"),  normalizedcorpus.corpus)
-
-# ╔═╡ 318e8c93-3e72-4fff-952d-3a574446e91c
-scholianormed = filter(cn -> contains(cn.urn.urn, "tlg5026"),  normalizedcorpus.corpus)
-
-
-# ╔═╡ e1591ba9-16d2-45aa-a8a1-50ee7daf0135
-commentarynormed = filter(cn -> endswith(passagecomponent(cn.urn),"comment"), normalizedcorpus.corpus)
-
-
-# ╔═╡ cb3c30e3-9f3f-4cb1-a3f1-0ce83eac663c
-#firstwords = map(cn -> firstword(cn.text), commentarynormed)
-firstwords = map(cn -> firstn(cn.text,ncount), commentarynormed)
-
-# ╔═╡ 3c18e06e-bfe3-493e-bcbd-e1f0ab1b2d10
-firstwords |> length
-
-# ╔═╡ fb0b1cf3-1698-4245-8e30-fc27838c9f13
-wordsdf = DataFrame(word = firstwords)
-
-# ╔═╡ 68a35a99-549f-41a6-bace-a82acc7b9493
-grouped = groupby(wordsdf, :word)
-
-# ╔═╡ 2dd428e5-9f9d-4ff7-8b29-9bf8eae11243
-histdata= begin
-	prs = []
-	for k in keys(grouped)
-    	push!(prs, (nrow(grouped[k]), k.word, ))
-	end
-	histdata = sort(prs; rev=true)
-end
-
-# ╔═╡ d07b9a29-fda3-4d52-ae72-02ff84528d66
-counts = map(pr -> pr[1], histdata)
-
-# ╔═╡ b0c8d2c5-6a51-4629-85bd-9fbe08aa2f2a
-filter(n -> n > 1, counts) |> length
-
-# ╔═╡ 88a567a4-0806-4cea-a600-ceb03522f204
-labels = map(pr -> pr[2], histdata)
-
-# ╔═╡ 53f2a8cc-d3f9-4b02-b761-7c09d259e943
-plotcount(counts, labels, lmt)
-
-# ╔═╡ 4c7d43af-8ddb-4d63-8111-7dd1c2e61186
-labels |> length
-
-# ╔═╡ 0042fe1b-fdda-4876-aabb-e91ee11a56e5
-reff = filter(cn -> endswith(passagecomponent(cn.urn), "ref"), normalizedcorpus.corpus)
-
-
-
 # ╔═╡ 402a4d7c-2060-4b74-9b50-60f5853a9bb2
 diplomaticcorpus = begin 
 	diplnodes = []
@@ -179,6 +111,92 @@ citation = citation_df(repo)
 
 # ╔═╡ 93bc8273-b859-4d8b-a85f-e4fe176466c4
 archivaltextcorpus = archivalcorpus(repo, citation)
+
+# ╔═╡ b52bde91-5f7b-4bef-a663-2bbb80650ba0
+menu = ["all" => "all material in hmt-archive",
+"msA" => "Main scholia of Venetus A",
+"msAim" => "Intermarginal scholia of Venetus A",
+"msAint" => "Interior scholia of Venetus A",
+"msAil" => "Interlinear scholia of Venetus A",
+"msB" => "Scholia of Venetus B",
+"e3" => "Scholia of Escorial, Upsilon 1.1",
+]
+
+# ╔═╡ bd3203ae-3ae4-439b-bd96-aa077f9d76d3
+md"""Manuscript $(@bind ms Select(menu))
+"""
+
+# ╔═╡ d4045c64-1d08-46db-9263-74edc128dde6
+normalizedcorpus = begin 
+	normednodes = []
+	for t in texturns(repo)
+		nds = normalizednodes(repo, t)
+		push!(normednodes, nds)        
+	end
+	normed = filter(nodelist -> ! isnothing(nodelist), normednodes) |> Iterators.flatten |> collect 
+	nonempty = filter(cn -> ! isempty(cn.text), normed) # |> CitableTextCorpus
+	ms == "all" ? nonempty |> CitableTextCorpus  : filter(cn -> occursin(ms, cn.urn.urn), nonempty) |> CitableTextCorpus
+end
+
+
+# ╔═╡ 2570e582-c478-46bc-853e-ef7c34393fee
+iliadnormed = filter(cn -> contains(cn.urn.urn, "tlg0012"),  normalizedcorpus.corpus)
+
+# ╔═╡ 318e8c93-3e72-4fff-952d-3a574446e91c
+scholianormed = filter(cn -> contains(cn.urn.urn, "tlg5026"),  normalizedcorpus.corpus)
+
+
+# ╔═╡ e1591ba9-16d2-45aa-a8a1-50ee7daf0135
+commentarynormed = filter(cn -> endswith(passagecomponent(cn.urn),"comment"), normalizedcorpus.corpus)
+
+
+# ╔═╡ cb3c30e3-9f3f-4cb1-a3f1-0ce83eac663c
+# Compose list of initial n-gram in normalized scholia comments
+firstwords = map(cn -> firstn(cn.text,ncount), commentarynormed)
+
+# ╔═╡ 3c18e06e-bfe3-493e-bcbd-e1f0ab1b2d10
+# Total number of ngrams
+md"""### Frequency of $(ncount)-grams in $ms
+
+Total number of $(ncount)-grams: $(firstwords |> length)
+
+"""
+
+# ╔═╡ 68a35a99-549f-41a6-bace-a82acc7b9493
+# group terms
+grouped = begin
+	wordsdf = DataFrame(word = firstwords)
+	groupby(wordsdf, :word)
+end
+
+# ╔═╡ 2dd428e5-9f9d-4ff7-8b29-9bf8eae11243
+# Histogram of initial n-grams, organizend as 2-ples of (count, ngram)
+histdata= begin
+	prs = []
+	for k in keys(grouped)
+    	push!(prs, (nrow(grouped[k]), k.word, ))
+	end
+	histdata = sort(prs; rev=true)
+end
+
+# ╔═╡ d07b9a29-fda3-4d52-ae72-02ff84528d66
+# Extract counts from histdata as a separate vector
+counts = map(pr -> pr[1], histdata)
+
+# ╔═╡ 88a567a4-0806-4cea-a600-ceb03522f204
+# Extract labels from histdata as a separate vector
+labels = map(pr -> pr[2], histdata)
+
+# ╔═╡ 53f2a8cc-d3f9-4b02-b761-7c09d259e943
+plotcount(counts, labels, lmt)
+
+# ╔═╡ 4c7d43af-8ddb-4d63-8111-7dd1c2e61186
+md"Number of distinct labels: $(labels |> length)"
+
+# ╔═╡ 0042fe1b-fdda-4876-aabb-e91ee11a56e5
+reff = filter(cn -> endswith(passagecomponent(cn.urn), "ref"), normalizedcorpus.corpus)
+
+
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1170,23 +1188,21 @@ version = "0.9.1+5"
 # ╟─863754ac-d0ea-11eb-0a68-83e30f2d48f6
 # ╟─7edad06a-ae9b-40f9-b508-0d95b7073f58
 # ╟─51efa8af-8406-41da-9ff3-fc826b988403
-# ╟─6378bfe4-a3e1-42a0-969d-e3fc81b3ab43
 # ╟─d714af70-f314-48bb-9a0b-935682e35d6e
+# ╟─bd3203ae-3ae4-439b-bd96-aa077f9d76d3
 # ╟─0e6ee65f-1525-4ac1-9c03-4c87e9d5888a
 # ╟─3833f7c1-aa4f-460f-b39b-4a15c0e2b7c3
-# ╟─53f2a8cc-d3f9-4b02-b761-7c09d259e943
-# ╟─2329f800-498e-4de1-91d5-c48bd5a18596
-# ╟─b0c8d2c5-6a51-4629-85bd-9fbe08aa2f2a
-# ╟─d07b9a29-fda3-4d52-ae72-02ff84528d66
-# ╟─4c7d43af-8ddb-4d63-8111-7dd1c2e61186
-# ╟─88a567a4-0806-4cea-a600-ceb03522f204
-# ╟─cb3c30e3-9f3f-4cb1-a3f1-0ce83eac663c
 # ╟─3c18e06e-bfe3-493e-bcbd-e1f0ab1b2d10
-# ╟─fb0b1cf3-1698-4245-8e30-fc27838c9f13
-# ╠═de815156-8175-44e2-af49-1eaad166045c
-# ╠═27c2c22e-159b-4e96-9e14-ab80048bbabf
-# ╠═68a35a99-549f-41a6-bace-a82acc7b9493
-# ╠═2dd428e5-9f9d-4ff7-8b29-9bf8eae11243
+# ╟─53f2a8cc-d3f9-4b02-b761-7c09d259e943
+# ╟─4a1142f2-b810-4659-932d-37aba2bafcbf
+# ╟─2329f800-498e-4de1-91d5-c48bd5a18596
+# ╟─2dd428e5-9f9d-4ff7-8b29-9bf8eae11243
+# ╟─d07b9a29-fda3-4d52-ae72-02ff84528d66
+# ╟─88a567a4-0806-4cea-a600-ceb03522f204
+# ╟─27c2c22e-159b-4e96-9e14-ab80048bbabf
+# ╟─4c7d43af-8ddb-4d63-8111-7dd1c2e61186
+# ╟─cb3c30e3-9f3f-4cb1-a3f1-0ce83eac663c
+# ╟─68a35a99-549f-41a6-bace-a82acc7b9493
 # ╟─8e91e0aa-c8d6-4a5f-834f-fe7d511453d8
 # ╟─93bc8273-b859-4d8b-a85f-e4fe176466c4
 # ╟─d4045c64-1d08-46db-9263-74edc128dde6
@@ -1201,5 +1217,6 @@ version = "0.9.1+5"
 # ╟─db1a994f-eb0f-4766-a04a-5bedd7f1446b
 # ╟─6d1d5fe2-94b0-4c28-b00e-7f2eaad97e40
 # ╟─26cc1194-df98-4714-a74f-53b8bbe60181
+# ╟─b52bde91-5f7b-4bef-a663-2bbb80650ba0
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
