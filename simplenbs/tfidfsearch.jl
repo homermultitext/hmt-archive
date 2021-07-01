@@ -33,7 +33,7 @@ Term: $(@bind rawterm TextField(;default=""))
 """
 
 # ╔═╡ f6d71fbd-cf3b-4ee3-a45a-4108f28a84d5
-term = Unicode.normalize(rawterm; stripmark=true)
+term = Unicode.normalize(rawterm; stripmark=true) |> lowercase
 
 # ╔═╡ 99dab151-d9bb-43d0-b215-3c38482d3d50
 md">(Peek at internals of how `TextAnalysis` module indexing works:)"
@@ -95,6 +95,9 @@ end
 
 # ╔═╡ 9fc91194-e193-4a82-8283-1a3e55dff4dc
 md">Other"
+
+# ╔═╡ 528b3811-e55e-4fb9-96e6-47a102f8c53c
+archivecorpus = ""
 
 # ╔═╡ 5b2cb068-2f9d-4877-8124-f8640c361543
 url = "https://raw.githubusercontent.com/hmteditors/composite-summer21/main/data/s21corpus-normed.cex" #"https://raw.githubusercontent.com/hmteditors/composite-summer21/main/data/s21corpus-normed.cex"
@@ -675,6 +678,7 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─42ea5cd8-e6a5-4214-b243-caad4f6299d9
 # ╟─1c938931-47bb-4042-a051-84b48c2eaecb
 # ╟─9fc91194-e193-4a82-8283-1a3e55dff4dc
+# ╠═528b3811-e55e-4fb9-96e6-47a102f8c53c
 # ╟─5b2cb068-2f9d-4877-8124-f8640c361543
 # ╟─09e0722b-9571-4c94-a6cc-b408fc3f13cc
 # ╟─9d0c3590-293b-427c-82bd-9e9f1c67b73e
