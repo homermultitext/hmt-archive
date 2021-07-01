@@ -100,7 +100,7 @@ md">Other"
 archivecorpus = ""
 
 # ╔═╡ 5b2cb068-2f9d-4877-8124-f8640c361543
-url = "https://raw.githubusercontent.com/hmteditors/composite-summer21/main/data/s21corpus-normed.cex" #"https://raw.githubusercontent.com/hmteditors/composite-summer21/main/data/s21corpus-normed.cex"
+url = "https://raw.githubusercontent.com/hmteditors/composite-summer21/main/data/archive-normed.cex" #"https://raw.githubusercontent.com/hmteditors/composite-summer21/main/data/s21corpus-normed.cex"
 
 # ╔═╡ 09e0722b-9571-4c94-a6cc-b408fc3f13cc
 c = CitableCorpus.fromurl(CitableTextCorpus, url, "|")
