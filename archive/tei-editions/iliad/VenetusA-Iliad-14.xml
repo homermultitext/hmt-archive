@@ -382,7 +382,7 @@
         <l n="231">ἔνθ' <persName n="urn:cite2:hmt:pers.v1:pers894">Ὕπνῳ</persName> ξύμβλητο, κασιγνήτῳ
           Θανάτοιο.</l>
         <l n="232">ἔν τ' ἄρα οἱ φῦ χειρὶ ἔπος τ' ἔφατ', ἔκ τ' ὀνόμαζεν:</l>
-        <l n="233"><persName>Ὕπνε</persName>, ἄναξ πάντων τε θεῶν πάντων τ' <choice>
+        <l n="233"><persName n="urn:cite2:hmt:pers.v1:pers894">Ὕπνε</persName>, ἄναξ πάντων τε θεῶν πάντων τ' <choice>
             <abbr>ἀνων</abbr>
             <expan>ἀνθρώπων</expan>
           </choice>.</l>
@@ -399,7 +399,7 @@
             <sic>εἰλαπινἄζων</sic>
             <corr>εἰλαπινάζων</corr>
           </choice></l>
-        <l n="242">τὴνδ' ἀπαμειβόμενος προσεφώνεε, νήδυμος <persName>Ὕπνος</persName>:</l>
+        <l n="242">τὴνδ' ἀπαμειβόμενος προσεφώνεε, νήδυμος <persName n="urn:cite2:hmt:pers.v1:pers894">Ὕπνος</persName>:</l>
         <l n="243"><persName n="urn:cite2:hmt:pers.v1:pers116">Ἥρη</persName>. πρέσβα θεὰ, θύγατερ
           μεγάλοιο <persName n="urn:cite2:hmt:pers.v1:pers139">Κρόνοιο</persName>.</l>
         <l n="244">ἄλλον μέν κεν ἔγωγε θεῶν αἰειγενετάων</l>
@@ -427,18 +427,18 @@
         <l n="259">εἰ μὴ <persName n="urn:cite2:hmt:pers.v1:pers899">Νὺξ</persName> δμήτειρα θεῶν ἐσάωσε
           καὶ ἀνδρῶν:</l>
         <l n="260">τὴν ϊκόμην φεύγων. ὁ δ' ἐπαύσατο χωόμενός περ,</l>
-        <l n="261">ἅζετο γὰρ, μὴ <persName>Νυκτὶ</persName> θοῇ ἀποθύμια ἔρδοι:</l>
+        <l n="261">ἅζετο γὰρ, μὴ <persName n="urn:cite2:hmt:pers.v1:pers899">Νυκτὶ</persName> θοῇ ἀποθύμια ἔρδοι:</l>
         <l n="262">νῦν αὖ, τοῦτό μ' ἄνωγας ἀμήχανον ἄλλο τελέσσαι.</l>
         <l n="263">τὸνδ' αὖτε προσέειπε βοῶπις πότνια <persName n="urn:cite2:hmt:pers.v1:pers116"
             >Ἥρη</persName>:</l>
-        <l n="264"><persName>Ὕπνε</persName>. τί ὴ δὲ σὺ ταῦτα μετα φρεσὶ σῇσι μενοινᾶς:</l>
+        <l n="264"><persName n="urn:cite2:hmt:pers.v1:pers894">Ὕπνε</persName>. τί ὴ δὲ σὺ ταῦτα μετα φρεσὶ σῇσι μενοινᾶς:</l>
         <l n="265">ῆ φῂς. ὡς <rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρώεσσιν</rs> ἀρηξέμεν
           εὐρύοπα ζῆ</l>
         <l n="266">ν' ὡς <persName n="urn:cite2:hmt:pers.v1:pers71">Ἡρακλῆος</persName> περιχώσατο
           παιδὸς ἑοῖο</l>
         <l n="267">ἂλλ' ἴ̈θ', ἐγὼ δέ κέ τοι Χαρίτων μίαν ὁπλοτεράων</l>
         <l n="268">δώσω ὀπυιέμεναι, καὶ σὴν κεκλῆσθαι ἄκοιτιν:</l>
-        <l n="270">ὡς φάτο, χῄρατο δ' <persName>Ὕπνος</persName>, ἀμειβόμενος δὲ προσηύδα:</l>
+        <l n="270">ὡς φάτο, χῄρατο δ' <persName n="urn:cite2:hmt:pers.v1:pers894">Ὕπνος</persName>, ἀμειβόμενος δὲ προσηύδα:</l>
         <l n="271">ἄγρει νῦν μοι όμοσσον ἀ̆ά̄ᾰτον <placeName n="urn:cite2:hmt:place.r1:place280"
             >Στυγὸς</placeName> ὕδωρ,</l>
         <l n="272">χειρὶ δὲ, τῇ ἑτέρῃ μὲν, ἕλε χθόνα πουλυβότειραν.</l>
@@ -522,7 +522,7 @@
         <l n="324">ἥ ρ' <persName n="urn:cite2:hmt:pers.v1:pers71">Ἡρακλῆα</persName> κρατερόφρονα
           γείνατο παῖδα.</l>
         <l n="325">ἡ δὲ <persName n="urn:cite2:hmt:pers.v1:pers59">Διώνυσον</persName>
-          <persName>Σεμέλη</persName> τέκε. χάρμα βροτοῖσιν:</l>
+          <persName n="urn:cite2:hmt:pers.v1:pers905">Σεμέλη</persName> τέκε. χάρμα βροτοῖσιν:</l>
         <l n="326">οὐδ' ὅτε <persName n="urn:cite2:hmt:pers.v1:pers210">Δήμητρος</persName>
           καλλιπλοκάμοιο ἀνάσσης</l>
         <l n="327">οὐδ' ὁπότε <persName n="urn:cite2:hmt:pers.v1:pers35">Λητοῦς</persName> ἐρικυδέος.
