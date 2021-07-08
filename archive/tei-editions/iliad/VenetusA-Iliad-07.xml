@@ -289,7 +289,7 @@
         <l n="232">καὶ πολέες: ἀλλ᾽ ἄρχε μάχης ἠδὲ πτολέμοιο:</l>
         <l n="233">Τὸν δ᾽ αῦτε προσέειπε μέγας κορυθαίολος <persName n="urn:cite2:hmt:pers.v1:pers172">Ἕκτωρ</persName>:</l>
         
-        <l n="234"><add><persName n="pers127">αἶαν</persName> διογενὲς <persName n="pers127"
+        <l n="234"><add><persName n="urn:cite2:hmt:pers.v1:pers127">αἶαν</persName> διογενὲς <persName n="urn:cite2:hmt:pers.v1:pers127"
           >Τελαμώνιε</persName>. κοίρανε λαῶν.</add></l>
         <l n="235">μή τί μευ ἠΰτε παιδὸς ἀφαυροῦ πειρήτιζε</l>
         <l n="236">ἠὲ γυναικὸς ἣ οὐκ οῖδεν πολεμήϊα ἔργα:</l>
@@ -448,7 +448,7 @@
         <l n="383">νηῒ παρα πρύμνη. <persName n="urn:cite2:hmt:pers.v1:pers22">Ἀγαμέμνονος</persName>: αὐτὰρ ὃ τοῖσι</l>
         <l n="384">στὰς ἐν μέσσοισιν μετεφώνεεν. ἠπύτα κῆρυξ:</l>
         
-        <l n="385"><add><persName n="pers22">Ἀτρείδη</persName> τὲ καὶ ἄλλοι ἀριστῆες <rs
+        <l n="385"><add><persName n="urn:cite2:hmt:pers.v1:pers22">Ἀτρείδη</persName> τὲ καὶ ἄλλοι ἀριστῆες <rs
           type="ethnic" n="place96">Παναχαιῶν</rs></add></l>
         
         <l n="386">ἠνώγει <persName n="urn:cite2:hmt:pers.v1:pers145">Πρίαμος</persName> τε καὶ ἄλλοι <rs type="ethnic" n="urn:cite2:hmt:place.r1:place6">Τρῶες</rs> ἀγαυοὶ</l>
@@ -536,10 +536,10 @@
         <l n="465">δύσετο <choice><orig>τ᾽</orig><reg>δ᾽</reg></choice> ἠέλιος τετέλεστο δὲ ἔργον <rs type="ethnic" n="urn:cite2:hmt:place.r1:place96">Ἀχαιῶν</rs>: </l>
         <l n="466">βουφόνεον δὲ κατὰ κλισίας. καὶ δόρπον ἕλοντο: </l>
         <l n="467">νῆες δ`᾽ ἐκ <placeName n="urn:cite2:hmt:place.r1:place69">Λήμνοιο</placeName> παρέστασαν οἶνον ἄγουσαι </l>
-        <l n="468">πολλαὶ: τὰς προέηκεν, <persName>Ἰ̈ησονίδης Εὔνηος</persName>: </l>
-        <l n="469">τόν ῥ᾽ ἔτεχ᾽ <persName>Ὑψιπύλη</persName> ὑπ᾽ Ἰ̈ήσονι ποιμένι λαῶν: </l>
+        <l n="468">πολλαὶ: τὰς προέηκεν, <persName n="urn:cite2:hmt:pers.v1:pers1300">Ἰ̈ησονίδης Εὔνηος</persName>: </l>
+        <l n="469">τόν ῥ᾽ ἔτεχ᾽ <persName n="urn:cite2:hmt:pers.v1:pers1301">Ὑψιπύλη</persName> ὑπ᾽ <persName n="urn:cite2:hmt:pers.v1:pers406">Ἰ̈ήσονι</persName> ποιμένι λαῶν: </l>
         <l n="470">χωρὶς δ᾽ <persName n="urn:cite2:hmt:pers.v1:pers119"><persName n="urn:cite2:hmt:pers.v1:pers22">Ἀτρείδῃς</persName></persName> <persName n="urn:cite2:hmt:pers.v1:pers22">Ἀγαμέμνονι</persName> καὶ <persName n="urn:cite2:hmt:pers.v1:pers119">Μενελάῳ</persName> </l>
-        <l n="471">δῶκεν <persName>Ἰ̈ησονίδης</persName> ἀγέμεν μέθυ, χίλια μέτρα:</l>
+        <l n="471">δῶκεν <persName n="urn:cite2:hmt:pers.v1:pers1300">Ἰ̈ησονίδης</persName> ἀγέμεν μέθυ, χίλια μέτρα:</l>
         <l n="472">ἔνθεν ὰρ οἰνίζοντο κάρη κομόωντες <rs type="ethnic" n="urn:cite2:hmt:place.r1:place96">Ἀχαιοί</rs>:</l>
         <l n="473">ἄλλοι μὲν χαλκῷ. ἄλλοι δ᾽ αἴθωνι σιδήρῳ: </l>
         <l n="474">ἄλλοι δὲ ῥινοῖς, ἄλλοι δ᾽ αὐτῇσι βόεσσιν: </l>
