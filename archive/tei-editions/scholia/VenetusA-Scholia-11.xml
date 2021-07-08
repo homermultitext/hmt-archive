@@ -4427,17 +4427,15 @@
                         </div>
                         <div n="comment">
                             <p><persName n="urn:cite2:hmt:pers.v1:pers16">Ἀρίσταρχος</persName> ὡς
-                                        <q><placeName n="urn:cite2:hmt:place.r1:place158"
-                                        >Χαλκίδα</placeName></q>. <persName
+                                        <rs type="waw">Χαλκίδα</rs>. <persName
                                     n="urn:cite2:hmt:pers.v1:pers595">Μενεκράτης</persName> ὡς
-                                        <q><placeName n="urn:cite2:hmt:place.r1:place65"
-                                        >Ἥλιδα</placeName></q> ἔστι δὲ οὕτως ὁρίσασθαι περὶ τῆς
+                                    <rs type="waw">Ἥλιδα</rs> ἔστι δὲ οὕτως ὁρίσασθαι περὶ τῆς
                                 προσῳδίας ὡς πάντα τὰ εἰς <rs type="waw">ις</rs> λήγοντα καθαρὸν
                                 μόνως θηλυκὰ ὀξύνεσθαι θέλει οἷον
-                                    <q><persName>Κριφηΐς</persName></q>
-                                <q><persName n="urn:cite2:hmt:pers.v1:pers113">Βρισηΐς</persName></q>
-                                <q><persName>Θαΐς</persName></q>
-                                <q><persName>Λαΐς</persName></q> ὁ δὲ λόγος ἐπι <rs type="ethnic"
+                                    <rs type="waw">Κριφηΐς</rs>
+                                    <rs type="waw">Βρισηΐς</rs>
+                                    <rs type="waw">Θαΐς</rs>
+                                    <rs type="waw">Λαΐς</rs> ὁ δὲ λόγος ἐπι <rs type="ethnic"
                                     n="urn:cite2:hmt:place.r1:place3">Ἑλληνικῶν</rs> ὀνομάτων μή τις το
                                         <q><placeName n="urn:cite2:hmt:place.r1:place273"
                                         >Ξόϊς</placeName></q> καὶ <q><placeName

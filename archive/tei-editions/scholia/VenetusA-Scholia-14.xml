@@ -1044,7 +1044,7 @@
 						<div
 							n="lemma">
 							<p>
-								<persName>Ἄγριος</persName> ἢ δὲ <persName n="urn:cite2:hmt:pers.v1:pers882">Μέλας</persName>
+								<persName n="urn:cite2:hmt:pers.v1:pers313">Ἄγριος</persName> ἢ δὲ <persName n="urn:cite2:hmt:pers.v1:pers882">Μέλας</persName>
 							</p>
 						</div>
 						<div
@@ -2144,13 +2144,16 @@
 						<div
 							n="comment">
 							<p>δια ποίαν αιτίαν ἐν τῇ <placeName
-									n="urn:cite2:hmt:place.r1:place69">Λήμνῳ</placeName> μάλιστα ὁ ὑπνος διατρίβει: ῥητέον οῦν. ὅτι <placeName
+									n="urn:cite2:hmt:place.r1:place69">Λήμνῳ</placeName> μάλιστα ὁ ὑπνος διατρίβει: 
+									ῥητέον οῦν. ὅτι <placeName
 									n="urn:cite2:hmt:place.r1:place69">Λήμνου</placeName> μὲν ἢν δεσπότης <persName
-									n="urn:cite2:hmt:pers.v1:pers192">Ἥφαιστος</persName>: γυνὴ δὲ τουτου <persName
-									n="urn:cite2:hmt:pers.v1:pers897">Χάρις</persName>. <persName n="urn:cite2:hmt:pers.v1:pers900">πασιθέας</persName> δὲ τῆς <persName
+									n="urn:cite2:hmt:pers.v1:pers192">Ἥφαιστος</persName>: 
+									γυνὴ δὲ τουτου <persName n="urn:cite2:hmt:pers.v1:pers897">Χάρις</persName>. 
+									<persName n="urn:cite2:hmt:pers.v1:pers900">πασιθέας</persName> δὲ τῆς <persName
 									n="urn:cite2:hmt:pers.v1:pers897">Χάριτος</persName> ἀδελφῆς ἐρωτικῶς ἔχων ὁ
-									<persName n="urn:cite2:hmt:pers.v1:pers894">Ὕπνος</persName> ἐκεῖ δίετριβεν: ταύτην οὖν ἀυτῷ ἐπαγγέλλεται γυναῖκα δώσειν ἥρα
-								δύναται δὲ καὶ φυσικώτερον λυθῆναι: ὅτι <persName>οἰνοφόρος</persName> ἡ <placeName
+									<persName n="urn:cite2:hmt:pers.v1:pers894">Ὕπνος</persName> ἐκεῖ δίετριβεν: 
+									ταύτην οὖν ἀυτῷ ἐπαγγέλλεται γυναῖκα δώσειν <persName n="urn:cite2:hmt:pers.v1:pers116">ἥρα</persName>
+								δύναται δὲ καὶ φυσικώτερον λυθῆναι: ὅτι οἰνοφόρος ἡ <placeName
 									n="urn:cite2:hmt:place.r1:place69">Λὴμνος</placeName> καθῶς λέγει <cit>
 									<ref
 										type="urn">urn:cts:greekLit:tlg0012.tlg001:7.467</ref>
@@ -5896,7 +5899,7 @@
 						</div>
 						<div
 							n="comment">
-							<p>οὗτος ὁ στίχος μεταξὺ κεῖται: τὸ δὲ ἑξῆς <q><persName>Άγριος</persName> ἡ δὲ
+							<p>οὗτος ὁ στίχος μεταξὺ κεῖται: τὸ δὲ ἑξῆς <q><persName n="urn:cite2:hmt:pers.v1:pers313">Άγριος</persName> ἡ δὲ
 										<persName n="urn:cite2:hmt:pers.v1:pers882">Μέλας</persName></q></p>
 						</div>
 					</div>
