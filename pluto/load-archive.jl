@@ -77,7 +77,7 @@ end
 md"""Select a text: $(@bind txtchoice Select(txtmenu)) """
 
 # ╔═╡ 9f2ae445-9bd5-4504-96cd-411cde08164a
-catalogdf = catalogdf_fromcex(cexblocks,"#")
+catalogdf = catalogdf_fromcex(cexblocks; delimiter = "#")
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -89,7 +89,7 @@ HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-CitableCorpus = "~0.7.1"
+CitableCorpus = "~0.7.2"
 CitableText = "~0.11.1"
 CiteEXchange = "~0.4.6"
 HTTP = "~0.9.16"
@@ -128,9 +128,9 @@ version = "4.0.0"
 
 [[CitableCorpus]]
 deps = ["CitableBase", "CitableText", "CiteEXchange", "DataFrames", "DocStringExtensions", "Documenter", "HTTP", "Test"]
-git-tree-sha1 = "a9967f4498d96f8b4f75b3872058248dda71ecde"
+git-tree-sha1 = "ac33dd70e4f4e808d9a40a3b45740388337b3bc7"
 uuid = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
-version = "0.7.1"
+version = "0.7.2"
 
 [[CitableObject]]
 deps = ["CitableBase", "DocStringExtensions", "Documenter", "Test"]
