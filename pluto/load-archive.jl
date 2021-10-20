@@ -59,38 +59,25 @@ cexblocks = let
 	if uselocal
 		read(releasefile, String) |> blocks
 	else
-		loading = true
 		archiveurl = "https://raw.githubusercontent.com/homermultitext/hmt-archive/master/releases-cex/hmt-2020i.cex"
 		HTTP.get(archiveurl).body |> String |> blocks
 	end
 end
 
-# ╔═╡ 8b23dcef-60dd-4efe-a3aa-7c5bee80e030
-ctsdatalines = datafortype("ctsdata", cexblocks)
-
-# ╔═╡ 46129c63-5b77-4870-858f-851cfe6d52da
-corpus = begin
-	psgs =  CitablePassage[]
-	for ln in ctsdatalines
-		push!(psgs, CitableCorpus.passage_fromcex(ln, "#"))
-	end
-	CitableTextCorpus(psgs)
-end
+# ╔═╡ ac495a8d-3b0b-4232-9cf2-2788585f1a92
+corpus = corpus_fromcex(cexblocks, "#")
 
 # ╔═╡ 7198bd92-6ffd-4684-be3c-56cc05a5ecd5
 txtmenu = begin
-	urnlist = map( doc -> urn(doc), documents(corpus))
+	urnlist = map( doc -> urn(doc).urn, documents(corpus))
 
 end
 
 # ╔═╡ b8c84009-cdb6-44b2-9fc0-412c6691fd6e
 md"""Select a text: $(@bind txtchoice Select(txtmenu)) """
 
-# ╔═╡ 6daf2658-73f6-4acd-b0db-901586f28b34
-ctscataloglines = datafortype("ctscatalog", cexblocks)
-
-# ╔═╡ e305d8b2-1f2d-4e2f-acb2-b64b6355cb45
-cexblocks |> typeof
+# ╔═╡ 9f2ae445-9bd5-4504-96cd-411cde08164a
+catalogdf = catalogdf_fromcex(cexblocks,"#")
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -102,9 +89,9 @@ HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-CitableCorpus = "~0.7.0"
+CitableCorpus = "~0.7.1"
 CitableText = "~0.11.1"
-CiteEXchange = "~0.4.5"
+CiteEXchange = "~0.4.6"
 HTTP = "~0.9.16"
 PlutoUI = "~0.7.16"
 """
@@ -141,9 +128,9 @@ version = "4.0.0"
 
 [[CitableCorpus]]
 deps = ["CitableBase", "CitableText", "CiteEXchange", "DataFrames", "DocStringExtensions", "Documenter", "HTTP", "Test"]
-git-tree-sha1 = "597ed37ccfb3118bc55a55a989eee3b7fccc3f80"
+git-tree-sha1 = "a9967f4498d96f8b4f75b3872058248dda71ecde"
 uuid = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
-version = "0.7.0"
+version = "0.7.1"
 
 [[CitableObject]]
 deps = ["CitableBase", "DocStringExtensions", "Documenter", "Test"]
@@ -159,9 +146,9 @@ version = "0.11.1"
 
 [[CiteEXchange]]
 deps = ["CSV", "CitableObject", "DocStringExtensions", "Documenter", "HTTP", "Test"]
-git-tree-sha1 = "3aac7d4ab0b5b97bed262c63cbe3ef1fbefc517f"
+git-tree-sha1 = "26156894cf3a817910adf9cc59c7d4625af72f67"
 uuid = "e2e9ead3-1b6c-4e96-b95f-43e6ab899178"
-version = "0.4.5"
+version = "0.4.6"
 
 [[CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
@@ -505,15 +492,13 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─4778b480-ef76-4a92-a26c-289a89a18240
 # ╟─36eea7d7-305e-4ff3-b01a-5a0071477c31
 # ╟─37e56d20-31bd-11ec-14c5-01e390edfe24
-# ╠═b8c84009-cdb6-44b2-9fc0-412c6691fd6e
+# ╟─b8c84009-cdb6-44b2-9fc0-412c6691fd6e
 # ╟─a866367f-78f1-4405-9c90-8a0409b1b8fb
-# ╠═7198bd92-6ffd-4684-be3c-56cc05a5ecd5
+# ╟─7198bd92-6ffd-4684-be3c-56cc05a5ecd5
 # ╟─e8f2723b-30d6-4efd-a963-f554421e64bf
-# ╟─46129c63-5b77-4870-858f-851cfe6d52da
-# ╠═8b23dcef-60dd-4efe-a3aa-7c5bee80e030
-# ╠═6daf2658-73f6-4acd-b0db-901586f28b34
+# ╠═ac495a8d-3b0b-4232-9cf2-2788585f1a92
+# ╠═9f2ae445-9bd5-4504-96cd-411cde08164a
 # ╟─e0229654-074e-43e3-a0a5-48aabca1619f
-# ╠═e305d8b2-1f2d-4e2f-acb2-b64b6355cb45
 # ╟─c576b061-4d67-421c-9a10-c8a5cfcf20cf
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
