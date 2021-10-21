@@ -1,13 +1,21 @@
 [deps]
 CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
+CitableParserBuilder = "c834cb9d-35b9-419a-8ff8-ecaeea9e2a2a"
 CitableText = "41e66566-473b-49d4-85b7-da83b66615d8"
 CiteEXchange = "e2e9ead3-1b6c-4e96-b95f-43e6ab899178"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 EditorsRepo = "3fa2051c-bcb6-4d65-8a68-41ff86d56437"
+Kanones = "107500f9-53d4-4696-8485-0747242ad8bc"
+ManuscriptOrthography = "c7d01213-112e-44c9-bed3-ac95fd3728c7"
+Orthography = "0b4c9448-09b0-4e78-95ea-3eb3328be36d"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
 
 [compat]
 CitableCorpus = "0.7"
+CitableParserBuilder = "0.20"
 CitableText = "0.11"
 CiteEXchange = "0.4"
 EditorsRepo = "0.14"
+Orthography = "0.15"
+PolytonicGreek = "0.13"
