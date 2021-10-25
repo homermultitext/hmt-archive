@@ -5,6 +5,7 @@ using CitableParserBuilder
 using CitableText, CitableCorpus
 using PolytonicGreek, Orthography, ManuscriptOrthography
 
+
 # Build scholia parser
 function scholiaparser(kdir, lexdir)
     fstsrc  =  joinpath(kdir, "fst")
@@ -52,6 +53,13 @@ lexrepo = joinpath(dirname(pwd()), "hmt-lexicon")
 p = scholiaparser(krepo, lexrepo)
 
 
+
+
 # Repeat this as needed:
 rebuild(krepo, lexrepo, tknized)
+
+# Round trip:
+tokenfile = joinpath(pwd(), "analyses", "scholia_parsed.cex")
+
+tkns = read(f, String) |> CitableParserBuilder.analyzedtokens_fromabbrcex
 
