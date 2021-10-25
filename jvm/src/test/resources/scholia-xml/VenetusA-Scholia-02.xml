@@ -31,14 +31,14 @@ style simple scholia" alternate="no"?>
                   <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.8</p>
                </div>
                <div n="comment">
-                  <p><persName n="urn:cite2:hmt:pers.r1:pers105"
+                  <p><persName n="urn:cite2:hmt:pers.v1:pers105"
                      >τυρ<unclear>α</unclear>ννί<unclear>ω</unclear>ν</persName> ὑφεν
                      <w><unclear>ω</unclear>ς</w> ἄπιθι: παραιτητέον δὲ τὰ γὰρ εις μῖ λήγοντα μετα
                      προθεσεως φιλεῖ συντίθεσθαι μετ άλλων δὲ λέξεων οὐκέτι καὶ πάλιν τα δια τοῦ <rs
                         type="waw">κ</rs> παραχθέντα κατ αρχην ου θέλει συντίθεσθαι καὶ ἄμεινον ταυτολογίαν
                      εἶναι ἐμφαίνουσαν τὴν ἔπειξιν. καὶ ἀλλαχοῦ ἔλθοι καὶ ΐκοιτο καὶ <persName
-                        n="urn:cite2:hmt:pers.r1:pers493">ἡρῳδιανος</persName> μεν φησὶ τὸ ίθι ἐνεστῶτα νῦν
-                     <persName n="urn:cite2:hmt:pers.r1:pers283">ἐπαφρόδιτος</persName> δε αορίστον ὡς
+                        n="urn:cite2:hmt:pers.v1:pers493">ἡρῳδιανος</persName> μεν φησὶ τὸ ίθι ἐνεστῶτα νῦν
+                     <persName n="urn:cite2:hmt:pers.v1:pers283">ἐπαφρόδιτος</persName> δε αορίστον ὡς
                      <q>έφατ' ἔκ τ'ὀνόμαζε</q> δύναται δὲ καὶ ἴθι ἐπίρρημα παρακελεύσεως ὡς <q>ἴθι
                         ἐκκάλυψον ὡς ίδω τὸ πᾶν κακ ὄν</q>: στικτέον δὲ κατα τὸ τέλος τοῦ στίχου περίοδον
                      γὰρ <choice>
@@ -62,7 +62,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.msA:2.1</p>
                   </div>
                   <div n="comment">
-                     <p>ὅτι <persName n="urn:cite2:hmt:pers.r1:pers15"><choice>
+                     <p>ὅτι <persName n="urn:cite2:hmt:pers.v1:pers15"><choice>
                               <abbr>ζηνοδ</abbr>
                               <expan>Ζηνόδοτος</expan>
                            </choice></persName> γράφει <rs type="waw">ὦλλοι</rs> ὁ δὲ ποιητὴς
@@ -79,8 +79,8 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div n="comment">
                      <p>πῶς εν τῆ <ref n="urn:cts:greekLit:tlg0012.tlg001:1" type="ctsurn">Α</ref>
-                        εἰπὼν τὸν <persName n="urn:cite2:hmt:pers.r1:pers8">δία</persName> καθεύδειν: νῦν φησὶ
-                              <q><persName n="urn:cite2:hmt:pers.r1:pers8">δία</persName> δ' οὐκ έχε, νήδυμος ὕπνος:</q>
+                        εἰπὼν τὸν <persName n="urn:cite2:hmt:pers.v1:pers8">δία</persName> καθεύδειν: νῦν φησὶ
+                              <q><persName n="urn:cite2:hmt:pers.v1:pers8">δία</persName> δ' οὐκ έχε, νήδυμος ὕπνος:</q>
                         λεγομεν δὲ ἡμεῖς ὅτι ἐκαθευδε μὲν ἀλλ' ἐπ ολίγον ἐκαθεύδησεν καὶ οὐ δια
                         πάσης τῆς νυκτὸς ὡς οἱ ἄλλοι μεριμνῶν⁑</p>
                   </div>
