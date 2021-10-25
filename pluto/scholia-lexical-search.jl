@@ -74,17 +74,12 @@ end
 # ╔═╡ e9b9a397-7cf8-410a-a4c0-5e2d8ae46b15
 md"""*Choose a lexeme*: $(@bind lexchoice Select(lexmenu))"""
 
-# ╔═╡ 95971c5c-e0fc-4b0e-bf55-8701d2bfe1b9
-lexpassages = CitableParserBuilder.passagesforlexeme(tkns,lexchoice)
-
-# ╔═╡ 8ed31067-b737-4558-a056-1d14f8c19eeb
-md"""**$(length(lexpassages))** passages for *lexchoice*"""
-
 # ╔═╡ 768a5e5d-3817-413f-a472-8e9dcecb67f5
-function formatpassage(psg)
-	scholurn = collapsePassageBy(psg,2)
+function formatpassage(scholurn,  num)
+
 	scholtokens = filter(t -> urncontains(scholurn, t.passage.urn), tkns)
-	tokenhtml = ["<li> <b>$(passagecomponent(psg))</b>"]
+	tokenhtml = ["<li> <b><i>$(num)</i></b>. <b> $(workcomponent(scholurn)), $(passagecomponent(scholurn))</b>"]
+	
 	for t in scholtokens
 		if isempty(t.analyses)
 			push!(tokenhtml, t.passage.text * "</li>")
@@ -96,15 +91,43 @@ function formatpassage(psg)
 			end
 		end
 	end
+	
 	join(tokenhtml, " ")
 end
 
+# ╔═╡ 95971c5c-e0fc-4b0e-bf55-8701d2bfe1b9
+lexpassages = CitableParserBuilder.passagesforlexeme(tkns,lexchoice)
+
+# ╔═╡ aa50f476-17aa-45e5-8379-cc2a58c556ce
+scholiapassages = map(u -> collapsePassageBy(u,2), lexpassages) |> unique
+
+# ╔═╡ 8ed31067-b737-4558-a056-1d14f8c19eeb
+md"""For *$(lexchoice)*, **$(length(lexpassages))** tokens in **$(length(scholiapassages))** passages."""
+
+# ╔═╡ 50042fea-d0a4-49b3-a6fb-4e6a15afd03d
+begin
+	psglimit = length(scholiapassages) > 40 ? 40 : length(scholiapassages)
+	md"""*Max. passages to show*: $(@bind maxpassages Slider(1:10:psglimit; default=10, show_value=true)) *, starting from*: $(@bind startpoint NumberField(1:10:length(scholiapassages)))"""
+end
+
+
 # ╔═╡ 457d2fad-5524-4a3a-80ac-55368c198d8d
 begin
-	
-	items = join(map(p -> formatpassage(p), lexpassages))
-	join("<ul>", items, "</ul>")
+	maxendpoint = startpoint + maxpassages
+	endpoint = maxendpoint < length(scholiapassages) ? maxendpoint : length(scholiapassages)
+
+	#items = join(map(p -> formatpassage(p), lexpassages))
+	items = []
+	count = startpoint - 1
+	for psg in scholiapassages[startpoint:endpoint]
+		count = count + 1
+		push!(items, formatpassage(psg, count))
+	end
+	HTML(join(["<ul>", join(items), "</ul>"]))
 end
+
+# ╔═╡ c2cfc47e-8e65-48a3-86f7-ac820e86116c
+# http://folio2.furman.edu/lsj/?urn=urn:cite2:hmt:lsj.chicago_md:n20600
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -619,20 +642,23 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 """
 
 # ╔═╡ Cell order:
-# ╠═a6bfa46c-d7d6-4ef8-b9b3-4b971c877b60
+# ╟─a6bfa46c-d7d6-4ef8-b9b3-4b971c877b60
 # ╟─8568c8fc-35bf-11ec-345e-25f2feeb26f0
 # ╟─bcacc767-6709-4851-92ad-8a9823ca26fc
 # ╟─e9b9a397-7cf8-410a-a4c0-5e2d8ae46b15
 # ╟─8ed31067-b737-4558-a056-1d14f8c19eeb
-# ╟─95971c5c-e0fc-4b0e-bf55-8701d2bfe1b9
-# ╠═457d2fad-5524-4a3a-80ac-55368c198d8d
+# ╟─50042fea-d0a4-49b3-a6fb-4e6a15afd03d
+# ╟─457d2fad-5524-4a3a-80ac-55368c198d8d
+# ╟─c0c0954c-9b08-46f0-8dda-bd6771a37d69
 # ╟─768a5e5d-3817-413f-a472-8e9dcecb67f5
-# ╠═c0c0954c-9b08-46f0-8dda-bd6771a37d69
-# ╠═c7fd9f27-5c75-4765-a8ff-8d967ba358d4
+# ╟─95971c5c-e0fc-4b0e-bf55-8701d2bfe1b9
+# ╟─aa50f476-17aa-45e5-8379-cc2a58c556ce
+# ╟─c7fd9f27-5c75-4765-a8ff-8d967ba358d4
 # ╟─51a3fb01-aa28-4b9c-9814-9d3efe304cd8
 # ╟─0c420aef-135d-4743-9703-bdf61e9e7d30
 # ╟─3a11e0c0-feed-4e71-8991-8aef9ccaf481
 # ╟─646ee9a2-c6fc-4a42-aba2-7a407036a5b9
 # ╟─3ed4f761-8f12-46a2-8d87-864b029e334d
+# ╠═c2cfc47e-8e65-48a3-86f7-ac820e86116c
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
