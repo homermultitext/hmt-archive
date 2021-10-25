@@ -23,7 +23,7 @@ begin
 end
 
 # ╔═╡ 4778b480-ef76-4a92-a26c-289a89a18240
-md" *Use local copy of archive* $(@bind uselocal CheckBox(default = true)) (Can you explain what this means? $(@bind explain CheckBox()))"
+md" *Use local copy of archive* $(@bind uselocal CheckBox(default = true)) (See an explanation of what this means: $(@bind explain CheckBox()))"
 
 # ╔═╡ 36eea7d7-305e-4ff3-b01a-5a0071477c31
 if explain
@@ -67,17 +67,23 @@ end
 # ╔═╡ ac495a8d-3b0b-4232-9cf2-2788585f1a92
 corpus = corpus_fromcex(cexblocks, "#")
 
-# ╔═╡ 7198bd92-6ffd-4684-be3c-56cc05a5ecd5
-txtmenu = begin
-	urnlist = map( doc -> urn(doc).urn, documents(corpus))
+# ╔═╡ 9f2ae445-9bd5-4504-96cd-411cde08164a
+catalogdf = catalogdf_fromcex(cexblocks; delimiter = "#")
 
+# ╔═╡ 4c5bbcb8-17df-4f5b-ae9e-1e84a66756e7
+txtmenu = begin
+	menuopts = Pair{AbstractString, AbstractString}[]
+	for r in eachrow(catalogdf)
+		if r.online
+			lbl = join([r.group, r.work, "($(r.version))"], ", ")
+			push!(menuopts, r.urn.urn => lbl)
+		end
+	end
+	menuopts
 end
 
 # ╔═╡ b8c84009-cdb6-44b2-9fc0-412c6691fd6e
 md"""Select a text: $(@bind txtchoice Select(txtmenu)) """
-
-# ╔═╡ 9f2ae445-9bd5-4504-96cd-411cde08164a
-catalogdf = catalogdf_fromcex(cexblocks; delimiter = "#")
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -488,16 +494,16 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 """
 
 # ╔═╡ Cell order:
-# ╠═cf330098-ba83-4b3f-8d45-0ac676920b7a
+# ╟─cf330098-ba83-4b3f-8d45-0ac676920b7a
 # ╟─4778b480-ef76-4a92-a26c-289a89a18240
 # ╟─36eea7d7-305e-4ff3-b01a-5a0071477c31
 # ╟─37e56d20-31bd-11ec-14c5-01e390edfe24
 # ╟─b8c84009-cdb6-44b2-9fc0-412c6691fd6e
 # ╟─a866367f-78f1-4405-9c90-8a0409b1b8fb
-# ╟─7198bd92-6ffd-4684-be3c-56cc05a5ecd5
+# ╟─4c5bbcb8-17df-4f5b-ae9e-1e84a66756e7
 # ╟─e8f2723b-30d6-4efd-a963-f554421e64bf
-# ╠═ac495a8d-3b0b-4232-9cf2-2788585f1a92
-# ╠═9f2ae445-9bd5-4504-96cd-411cde08164a
+# ╟─ac495a8d-3b0b-4232-9cf2-2788585f1a92
+# ╟─9f2ae445-9bd5-4504-96cd-411cde08164a
 # ╟─e0229654-074e-43e3-a0a5-48aabca1619f
 # ╟─c576b061-4d67-421c-9a10-c8a5cfcf20cf
 # ╟─00000000-0000-0000-0000-000000000001

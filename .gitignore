@@ -1,3 +1,6 @@
 Manifest.toml
 *~
 .vscode/
+jvm/target/
+project/
+target/
