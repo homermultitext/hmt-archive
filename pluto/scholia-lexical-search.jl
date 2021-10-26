@@ -143,7 +143,7 @@ PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
 
 [compat]
 CitableCorpus = "~0.7.3"
-CitableParserBuilder = "~0.20.1"
+CitableParserBuilder = "~0.20.2"
 CitableText = "~0.11.1"
 DataFrames = "~1.2.2"
 Kanones = "~0.1.8"
@@ -214,9 +214,9 @@ version = "0.8.3"
 
 [[CitableParserBuilder]]
 deps = ["CSV", "CitableBase", "CitableCorpus", "CitableObject", "CitableText", "DataStructures", "DocStringExtensions", "Documenter", "HTTP", "Orthography", "Test", "TypedTables"]
-git-tree-sha1 = "0fc01861ac4e16d7ea41606ccd3c3e5ab0dc85bf"
+git-tree-sha1 = "ccfc55e0d8116c6cbba1ce137cae4ec95178b299"
 uuid = "c834cb9d-35b9-419a-8ff8-ecaeea9e2a2a"
-version = "0.20.1"
+version = "0.20.2"
 
 [[CitableText]]
 deps = ["CitableBase", "DocStringExtensions", "Documenter", "Test"]
@@ -289,9 +289,9 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[DocStringExtensions]]
 deps = ["LibGit2"]
-git-tree-sha1 = "a32185f5428d3986f47c2ab78b1f216d5e6cc96f"
+git-tree-sha1 = "b19534d1895d702889b219c382a6e18010797f0b"
 uuid = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-version = "0.8.5"
+version = "0.8.6"
 
 [[Documenter]]
 deps = ["ANSIColoredPrinters", "Base64", "Dates", "DocStringExtensions", "IOCapture", "InteractiveUtils", "JSON", "LibGit2", "Logging", "Markdown", "REPL", "Test", "Unicode"]
