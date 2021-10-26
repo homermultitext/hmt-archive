@@ -118,10 +118,10 @@ begin
 
 	#items = join(map(p -> formatpassage(p), lexpassages))
 	items = []
-	count = startpoint - 1
+	pcount = startpoint - 1
 	for psg in scholiapassages[startpoint:endpoint]
-		count = count + 1
-		push!(items, formatpassage(psg, count))
+		pcount = pcount + 1
+		push!(items, formatpassage(psg, pcount))
 	end
 	HTML(join(["<ul>", join(items), "</ul>"]))
 end
