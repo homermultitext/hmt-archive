@@ -1,7 +1,3 @@
-Manifest.toml
+verify/
 *~
-.vscode/
-jvm/target/
-project/
 target/
-scratch/
