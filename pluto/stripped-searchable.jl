@@ -7,7 +7,6 @@ using InteractiveUtils
 # ╔═╡ b6a8d7d4-679a-11eb-3b88-9d40c1e45114
 begin
 	using Pkg
-	Pkg.activate(".")
 	Pkg.add("CitableText")
 
 	Pkg.add(url="https://github.com/homermultitext/HmtArchive.jl")
@@ -80,11 +79,14 @@ md"The two corpora should be the same size."
 # ╔═╡ 168b83f8-67a1-11eb-075c-776a77a2ac35
 length(scholiaxml.corpus) == length(scholianormalized.corpus)
 
+# ╔═╡ 9701f7f0-7148-11eb-395a-7da4a34c4f6b
+scholianormalized[3]
+
 # ╔═╡ abb52fa4-7103-11eb-36f6-2dcebd07ca19
 md"Omit citable nodes with no text."
 
 # ╔═╡ b6bda1b0-7103-11eb-29d9-c5520a81d5c7
-nonempty = filter(n -> n.text != "", scholianormalized.corpus)
+nonempty = filter(n -> n.text != "", scholianormalized)
 
 # ╔═╡ c88752d8-7103-11eb-1e48-398e57cfe61d
 length(nonempty)
@@ -128,7 +130,7 @@ end
 
 # ╔═╡ Cell order:
 # ╟─d0c15568-7101-11eb-32b1-a3daf87952bb
-# ╟─b6a8d7d4-679a-11eb-3b88-9d40c1e45114
+# ╠═b6a8d7d4-679a-11eb-3b88-9d40c1e45114
 # ╟─9eaf507a-679a-11eb-32ee-331cc3e5212f
 # ╟─f7fa0692-679d-11eb-3769-83bfcf93c3ea
 # ╟─ea2b5ee0-679c-11eb-3a7e-f704d9a92a4b
@@ -139,6 +141,7 @@ end
 # ╠═b8466e4e-679f-11eb-2701-253cda3a88db
 # ╟─9975dbc8-7102-11eb-1d49-972b13d2204e
 # ╠═168b83f8-67a1-11eb-075c-776a77a2ac35
+# ╠═9701f7f0-7148-11eb-395a-7da4a34c4f6b
 # ╟─abb52fa4-7103-11eb-36f6-2dcebd07ca19
 # ╠═b6bda1b0-7103-11eb-29d9-c5520a81d5c7
 # ╠═c88752d8-7103-11eb-1e48-398e57cfe61d

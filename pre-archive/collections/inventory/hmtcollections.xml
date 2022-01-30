@@ -8,7 +8,7 @@
 
 	<!-- IMAGE DATA ********************   -->
 
-    <citeCollection canonicalId="URN" label="Caption" urn="urn:cite:hmt:capimgs">
+    <citCollection canonicalId="URN" label="Caption" urn="urn:cite:hmt:capimgs">
     	<namespaceMapping abbr="hmt" uri="http://www.homermultitext.org/datans"/>
     	<extendedBy extension="cite:CiteImage"/>
         <title
@@ -28,13 +28,13 @@
         <source
             type="file"
             value="images/churikimgs.csv"/>
-        <citeProperty name="URN" label="Image URN" type="citeurn"/>
-        <citeProperty name="Caption" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="URN" label="Image URN" type="citeurn"/>
+        <citProperty name="Caption" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
 
-    <citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vaimg">
+    <citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vaimg">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -56,12 +56,12 @@
         <source
             type="file"
             value="images/vaimgs.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vbimg">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vbimg">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -83,12 +83,12 @@
         <source
             type="file"
             value="images/vbimgs.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:e3img">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:e3img">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -110,12 +110,12 @@
         <source
             type="file"
             value="images/upsilon-1-1.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:e3bifolio">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:e3bifolio">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -137,12 +137,12 @@
         <source
             type="file"
             value="images/e3bifolios.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection> 
     
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:u4img">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:u4img">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -164,12 +164,12 @@
         <source
             type="file"
             value="images/marciana-841.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vgf64img">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:vgf64img">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -191,12 +191,12 @@
         <source
             type="file"
             value="images/vgf64img.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:muncg88img">
+    <citCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:muncg88img">
         <namespaceMapping
             abbr="ecod"
             uri="http://www.homermultitext.org/datans/ecod"/>
@@ -220,12 +220,12 @@
         <source
             type="file"
             value="images/muncg88img.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Caption" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Caption" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
 
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:bmpap114">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:bmpap114">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -247,12 +247,12 @@
         <source
             type="file"
             value="images/bankes.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:blpd">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:blpd">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -274,12 +274,12 @@
         <source
             type="file"
             value="images/blpd.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     <!--
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:ecod:codbod85">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:ecod:codbod85">
         <namespaceMapping
             abbr="ecod"
             uri="http://www.homermultitext.org/datans"/>
@@ -301,13 +301,13 @@
         <source
             type="file"
             value="images/codbod85.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
     -->
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:compimg">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:hmt:compimg">
         <namespaceMapping
             abbr="hmt"
             uri="http://www.homermultitext.org/datans"/>
@@ -329,13 +329,13 @@
         <source
             type="file"
             value="images/comparetti-images.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
     
-	<citeCollection canonicalId="Image" label="Label" urn="urn:cite:ecod:gen44">
+	<citCollection canonicalId="Image" label="Label" urn="urn:cite:ecod:gen44">
         <namespaceMapping
             abbr="ecod"
             uri="http://www.homermultitext.org/datans"/>
@@ -357,16 +357,16 @@
         <source
             type="file"
             value="images/gen44.csv"/>
-        <citeProperty name="Image" label="Image URN" type="citeurn"/>
-        <citeProperty name="Label" label="Caption" type="string"/>
-        <citeProperty name="Rights" label="Rights" type="string"/>
+        <citProperty name="Image" label="Image URN" type="citeurn"/>
+        <citProperty name="Label" label="Caption" type="string"/>
+        <citProperty name="Rights" label="Rights" type="string"/>
     </citeCollection>
     
 	<!-- END IMAGE DATA ********************   -->
 	<!-- CODEX MODELS:  CODICES AND PAGE ZONES ********************   -->
 	
 	<!-- 
-	<citeCollection
+	<citCollection
 		canonicalId="codex"
 		label="description"
 		urn="urn:cite:hmt:codices">
@@ -391,25 +391,25 @@
 		<source
 			type="file"
 			value="codexModels/codices.csv"/>
-		<citeProperty
+		<citProperty
 			label="Codex URN"
 			name="codex"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Label"
 			name="description"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Page model"
 			name="pageModel"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Century (approx.)"
 			name="century"
 			type="number"/>
 	</citeCollection> -->
 	
-	<citeCollection
+	<citCollection
 		canonicalId="PageZone"
 		label="Label"
 		urn="urn:cite:hmt:pageroi">
@@ -433,24 +433,24 @@
 		<source
 			type="file"
 			value="layout/pageRois.csv"/>
-		<citeProperty
+		<citProperty
 			label="Zone on image"
 			name="PageZone"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Folio"
 			name="Folio"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Region of image"
 			name="ImageRoI"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Label"
 			name="Label"
 			type="string"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="IliadZone"
 		label="IliadZone"
 		urn="urn:cite:hmt:textblock">
@@ -474,19 +474,19 @@
 		<source
 			type="file"
 			value="layout/iliad-text-blocks.csv"/>
-		<citeProperty
+		<citProperty
 			label="Zone on image"
 			name="IliadZone"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Folio"
 			name="Folio"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Region of image"
 			name="ImageRoI"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Notes"
 			name="Notes"
 			type="string"/>
@@ -495,7 +495,7 @@
 	
 	<!-- CODEX MODELS:  ORDERED COLLECTIONS OF TEXT-BEARING SURFACES ********************   -->
 
-	<citeCollection
+	<citCollection
 		canonicalId="PageUrn"
 		label="Label"
 		urn="urn:cite:hmt:msA">
@@ -521,24 +521,24 @@
 		<source
 			type="file"
 			value="codexModels/venetusA.csv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="PageUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="Sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Recto or verso"
 			name="RV"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="description"
 			name="Label"
 			type="string"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="PageUrn"
 		label="Label"
 		urn="urn:cite:hmt:e4">
@@ -565,24 +565,24 @@
 		<source
 			type="file"
 			value="codexModels/omega-1-12.csv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="PageUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="Sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Recto or verso"
 			name="RV"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="description"
 			name="Label"
 			type="string"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="PageUrn"
 		label="Label"
 		urn="urn:cite:hmt:e3">
@@ -609,15 +609,15 @@
 		<source
 			type="file"
 			value="codexModels/upsilon-1-1.csv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="PageUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="Sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Recto or verso"
 			name="RV"
 			type="string">
@@ -626,12 +626,12 @@
 				<value>verso</value>
 			</valueList>
 		</citeProperty>
-		<citeProperty
+		<citProperty
 			label="label"
 			name="Label"
 			type="string"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="PageUrn"
 		label="Label"
 		urn="urn:cite:hmt:u4">
@@ -658,24 +658,24 @@
 		<source
 			type="file"
 			value="codexModels/marciana841.csv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="PageUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="Sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Recto or verso"
 			name="RV"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="description"
 			name="Label"
 			type="string"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="PageUrn"
 		label="Label"
 		urn="urn:cite:hmt:msB">
@@ -701,25 +701,25 @@
 		<source
 			type="file"
 			value="codexModels/venetusB.csv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="PageUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="Sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Recto or verso"
 			name="RV"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="description"
 			name="Label"
 			type="string"/>
 	</citeCollection>
 
-	<citeCollection
+	<citCollection
 		canonicalId="page"
 		label="label"
 		urn="urn:cite:hmt:comp">
@@ -745,11 +745,11 @@
 		<source
 			type="file"
 			value="codexModels/comparetti-codex.tsv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="page"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Recto/verso"
 			name="rv"
 			type="string">
@@ -758,11 +758,11 @@
 				<value>verso</value>
 			</valueList>
 		</citeProperty>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Description"
 			name="label"
 			type="string"/>
@@ -771,7 +771,7 @@
 
 
 <!--
-	<citeCollection
+	<citCollection
 		canonicalId="Page"
 		label="Page"
 		urn="urn:cite:hmt:muncg88">
@@ -799,7 +799,7 @@
 		<source
 			type="file"
 			value="codexModels/muncg88model.csv"/>
-		<citeProperty
+		<citProperty
 			label="Page"
 			name="Page"
 			type="citeurn"/>
@@ -808,7 +808,7 @@
 	
 	
 	
-		<citeProperty
+		<citProperty
             label="Recto/verso"
             name="rv"
             type="string">
@@ -818,11 +818,11 @@
             </valueList>
         </citeProperty>
      
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Default image"
 			name="DefaultImage"
 			type="citeurn"/>
@@ -834,7 +834,7 @@
 	
 	
 	<!--
-    <citeCollection
+    <citCollection
         canonicalId="page"
         label="label"
         urn="urn:cite:hmt:comp">
@@ -862,11 +862,11 @@
         <source
             type="file"
             value="comparetti-codex.tsv"/>
-        <citeProperty
+        <citProperty
             label="URN"
             name="page"
             type="citeurn"/>
-        <citeProperty
+        <citProperty
             label="Recto/verso"
             name="rv"
             type="string">
@@ -875,11 +875,11 @@
                 <value>verso</value>
             </valueList>
         </citeProperty>
-        <citeProperty
+        <citProperty
             label="Sequence"
             name="sequence"
             type="number"/>
-        <citeProperty
+        <citProperty
             label="Description"
             name="label"
             type="string"/>
@@ -887,7 +887,7 @@
     -->
 	<!-- END CODEX MODELS ************************************************* ********************   -->
 	<!-- INVENTORY OF SCHOLIA: ************************************************* ********************   -->
-	<!--<citeCollection
+	<!--<citCollection
         canonicalId="URN"
         label="Comments"
         urn="urn:cite:hmt:scholia">
@@ -912,25 +912,25 @@
         <source
             type="file"
             value="scholiainventory.csv"/>
-        <citeProperty
+        <citProperty
             label="Scholion URN"
             name="URN"
             type="citeurn"/>
-        <citeProperty
+        <citProperty
             label="Text URN"
             name="CtsUrn"
             type="ctsurn"/>
-        <citeProperty
+        <citProperty
             label="Comments"
             name="Comments"
             type="string"/>
-        <citeProperty
+        <citProperty
             label="Visual evidence"
             name="VisualEvidence"
             type="citeurn">
             <indexRelation rdfverb="dse:illustratedBy" inverseverb="dse:illustrates"/>
         </citeProperty>
-        <citeProperty
+        <citProperty
             label="Folio URN"
             name="FolioUrn"
             type="citeurn">
@@ -942,7 +942,7 @@
 	<!-- END INVENTORY OF SCHOLIA: ************************************************* ********************   -->
 	<!-- ANALYTICAL COLLECTIONS ************************************************* ********************   -->
 	<!--
-    <citeCollection
+    <citCollection
         canonicalId="LexURN"
         label="Lemma"
         urn="urn:cite:perseusGreek:lexentity">
@@ -958,21 +958,21 @@
         <source
             type="file"
             value="analyses/hmtgloss.tsv"/>
-        <citeProperty
+        <citProperty
             label="Greek lemma"
             name="Lemma"
             type="string"/>
-        <citeProperty
+        <citProperty
             label="English gloss"
             name="Gloss"
             type="string"/>
-        <citeProperty
+        <citProperty
             label="URN"
             name="LexURN"
             type="citeurn"/>
     </citeCollection>
    -->
-	<!--<citeCollection
+	<!--<citCollection
 		canonicalId="ClassId"
 		label="Meaning"
 		urn="urn:cite:hmt:tokentypes">
@@ -988,7 +988,7 @@
 		<source
 			type="file"
 			value="analyses/tokenclasses.csv"/>
-		<citeProperty
+		<citProperty
 			label="Class"
 			name="ClassId"
 			type="string">
@@ -999,7 +999,7 @@
 				<value>sic</value>
 			</valueList>
 		</citeProperty>
-		<citeProperty
+		<citProperty
 			label="Meaning"
 			name="Meaning"
 			type="string"/>
@@ -1008,7 +1008,7 @@
 	-->
 	
 	<!--  
-    <citeCollection
+    <citCollection
         canonicalId="urn"
         label="normalizedlemma"
         urn="urn:cite:perseus:grclexent">
@@ -1026,16 +1026,16 @@
         <source
             type="file"
             value="lexentsrc.csv"/>
-        <citeProperty
+        <citProperty
             label="URN"
             name="urn"
             type="ctsurn">
         </citeProperty>
-        <citeProperty
+        <citProperty
             label="normalizedlemma"
             name="Lemma"
             type="string"/>
-        <citeProperty
+        <citProperty
             label="Short definition"
             name="shortdef"
             type="string"/>
@@ -1046,7 +1046,7 @@
 	     *************************************************
 	     ********************   -->
 <!--
-	<citeCollection
+	<citCollection
 
 		canonicalId="Graphic"
 		label="Caption"
@@ -1063,20 +1063,20 @@
 		<source
 			type="file"
 			value="venetusA/venAgraphics.csv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="Graphic"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Caption"
 			name="Caption"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Image"
 			name="ImageRoi"
 			type="citeurn"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="Graphic"
 		label="Caption"
 		urn="urn:cite:hmt:vagraphics">
@@ -1091,24 +1091,24 @@
 		<source
 			type="file"
 			value="venetusA/venAgraphics.csv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="Graphic"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Caption"
 			name="Caption"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Folio"
 			name="Folio"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Image"
 			name="VisualEvidence"
 			type="citeurn"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="SignURN"
 		label="EnglishName"
 		urn="urn:cite:hmt:critsigns">
@@ -1124,28 +1124,28 @@
 		<source
 			type="file"
 			value="venetusA/criticalsigns.tsv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="SignURN"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="English name"
 			name="EnglishName"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Greek name"
 			name="GreekName"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Unicode codepoint (hex value)"
 			name="UnicodeHex"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Notes on Unicode representation"
 			name="UnicodeNotes"
 			type="string"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="Caption"
 		label="Label"
 		urn="urn:cite:hmt:captions">
@@ -1174,28 +1174,28 @@
 		<source
 			type="file"
 			value="venetusA/captions.csv"/>
-		<citeProperty
+		<citProperty
 			label="Caption"
 			name="Caption"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Text"
 			name="Text"
 			type="ctsurn"/>
-		<citeProperty
+		<citProperty
 			label="Visual evidence"
 			name="VisualEvidence"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Folio"
 			name="Folio"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Label"
 			name="Label"
 			type="string"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="Entry"
 		label="Label"
 		urn="urn:cite:hmt:catships">
@@ -1223,24 +1223,24 @@
 		<source
 			type="file"
 			value="venetusA/catships.csv"/>
-		<citeProperty
+		<citProperty
 			label="Entry"
 			name="Entry"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Label"
 			name="Label"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Attached to line"
 			name="AttachedTo"
 			type="ctsurn"/>
-		<citeProperty
+		<citProperty
 			label="Visual evidence"
 			name="VisualEvidence"
 			type="citeurn"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="OccurrenceUrn"
 		label="OccurrenceUrn"
 		urn="urn:cite:hmt:venAsign">
@@ -1258,24 +1258,24 @@
 		<source
 			type="file"
 			value="venetusA/venAsigns.tsv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="OccurrenceUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="Sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Critical sign"
 			name="CriticalSign"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Attached to line"
 			name="TextPassage"
 			type="ctsurn"/>
 	</citeCollection>
-	<citeCollection
+	<citCollection
 		canonicalId="StatusUrn"
 		label="Meaning"
 		urn="urn:cite:hmt:edstatus">
@@ -1290,22 +1290,22 @@
 		<source
 			type="file"
 			value="projectmeta/editorialStatus.csv"/>
-		<citeProperty
+		<citProperty
 			label="Status"
 			name="StatusUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Definition"
 			name="Meaning"
 			type="string"/>
-		<citeProperty
+		<citProperty
 			label="Tier"
 			name="Tier"
 			type="number"/>
 	</citeCollection>
 
 
-	<citeCollection
+	<citCollection
 		canonicalId="OccurrenceUrn"
 		label="CriticalSign"
 		urn="urn:cite:hmt:proclusSign">
@@ -1323,23 +1323,23 @@
 		<source
 			type="file"
 			value="venetusA/proclusSigns.tsv"/>
-		<citeProperty
+		<citProperty
 			label="URN"
 			name="OccurrenceUrn"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Sequence"
 			name="Sequence"
 			type="number"/>
-		<citeProperty
+		<citProperty
 			label="Critical sign"
 			name="CriticalSign"
 			type="citeurn"/>
-		<citeProperty
+		<citProperty
 			label="Attached to text"
 			name="TextPassage"
 			type="ctsurn"/>
-		<citeProperty
+		<citProperty
 			label="Region of image"
 			name="ImageRoI"
 			type="citeurn"/>
