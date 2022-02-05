@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.17.7
+# v0.17.5
 
 using Markdown
 using InteractiveUtils
@@ -23,6 +23,11 @@ begin
 	using Unicode
 	using PlutoUI
 end
+
+# ╔═╡ 530c3958-1cba-420e-92c0-b38dbdbdec14
+md"""
+*Notebook version*:  **1.0.0**
+"""
 
 # ╔═╡ 19fb1827-4e34-4e13-b41a-45be89943277
 md"""
@@ -59,13 +64,75 @@ hmt_corpus = fromcex(release_candidate_url, CitableTextCorpus, UrlReader)
 normalizededition = filter(psg -> endswith(workcomponent(psg.urn), "normalized"), hmt_corpus.passages)
 
 
+# ╔═╡ cc739038-5dc1-4466-a9f4-94269ce5318a
+md"> User selection of content"
+
+# ╔═╡ 621643c2-cf17-4c62-bf27-7a8103b6f325
+md"> UI"
+
+# ╔═╡ b63800b8-cc35-4af7-9635-ff52120edd79
+msmenu = ["va" => "Venetus A only", "all" => "All manuscripts",]
+
+# ╔═╡ be2c98b7-aa8a-480b-9827-18d30f811bfa
+md"""*Manuscripts to include*: $(@bind ms Select(msmenu, default = "all"))"""
+
+# ╔═╡ b3615d84-a1b0-4773-b981-82b11c5b669f
+# Filter hmt_normalized for selected setting for mss 
+function filtermss()
+	if ms == "all"
+		normalizededition
+		
+	elseif ms == "va"
+		msascholia = filter(p -> startswith(workcomponent(p.urn), "tlg5026.msA"), normalizededition)
+		msailiad = filter(p -> startswith(workcomponent(p.urn), "tlg0012.tlg001.msA"), normalizededition)
+		vcat(msascholia, msailiad)
+
+		
+	end
+end
+
+# ╔═╡ 2191664d-f346-4c87-acd4-73c88e3d8579
+textmenu = [
+"iliad" => "Iliad",
+"scholia" => "scholia",
+"all" => "All texts"
+]
+
+# ╔═╡ b7716ef3-02f3-453d-b97c-c42b988fcd42
+md"""*Texts to include*: $(@bind txt Select(textmenu, default = "all"))"""
+
+# ╔═╡ 766be4f8-74f5-4e8e-a7d0-ff608b1f137f
+function filtertext(psgs)
+	if txt == "all"
+		psgs
+	elseif txt == "iliad"
+		iliadurn = CtsUrn("urn:cts:greekLit:tlg0012.tlg001:")
+		filter(p -> urncontains(iliadurn, p.urn), psgs)
+	elseif txt == "scholia"
+		scholiaurn = CtsUrn("urn:cts:greekLit:tlg5026:")
+		filter(p -> urncontains(scholiaurn, p.urn), psgs)
+	end
+end
+
+# ╔═╡ 117aabd7-1258-4c8b-ba0a-8c5c152b8343
+function selection()
+	mss = filtermss()
+	filtertext(mss)
+end
+
+# ╔═╡ c216d97b-0149-42d3-940b-9da96e5b6796
+selectedpassages = selection()
+
+# ╔═╡ 6d5a3b9c-09a8-44e9-9c4f-b6ebf8eace74
+md"""Text passages to search: $(length(selectedpassages))"""
+
 # ╔═╡ 5a580c58-7e05-4616-b1c3-b7a5859fda01
 # Generate text with accents and breathings stripped:
-alphabeticstrings = map(psg -> Unicode.normalize(psg.text, stripmark=true) |> lowercase, normalizededition)
+alphabeticstrings = map(psg -> Unicode.normalize(psg.text, stripmark=true) |> lowercase, selectedpassages)
 
 # ╔═╡ 36673851-5e71-424f-bf40-9a9728dc7546
 # Sanity check:
-length(alphabeticstrings) == length(normalizededition)
+length(alphabeticstrings) == length(selectedpassages)
 
 # ╔═╡ 829da435-58ca-4c13-a027-48cd0f041a34
 md"""> Searching"""
@@ -75,8 +142,9 @@ minlength = 3
 
 # ╔═╡ 9e8143e0-5817-4ca8-a1f4-6d2738518f3c
 md"""
-- Enter a string to search for in the box below
-- Minimum length of query string:  **$(minlength) characters** .
+- Select manuscripts and texts to include
+- Enter an alphabetic string (no accents or breathings) in Unicode Greek to search for
+- Minimum length of query string is **$(minlength) characters** .
 """
 
 # ╔═╡ 329827b7-51dc-4285-a959-cd6b9ad9fc4f
@@ -87,7 +155,7 @@ results = begin
 		indices = findall(contains(lowercase(query)), alphabeticstrings)
 		rslts = []
 		for i in indices
-			push!(rslts, normalizededition[i])
+			push!(rslts, selectedpassages[i])
 		end
 		rslts
 	else
@@ -550,8 +618,12 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 
 # ╔═╡ Cell order:
 # ╟─424e46e1-4d83-4145-990f-d229cb71fa95
+# ╟─530c3958-1cba-420e-92c0-b38dbdbdec14
 # ╟─19fb1827-4e34-4e13-b41a-45be89943277
 # ╟─9e8143e0-5817-4ca8-a1f4-6d2738518f3c
+# ╟─be2c98b7-aa8a-480b-9827-18d30f811bfa
+# ╟─b7716ef3-02f3-453d-b97c-c42b988fcd42
+# ╟─6d5a3b9c-09a8-44e9-9c4f-b6ebf8eace74
 # ╟─e869534c-7091-498c-abb6-9479dcbd7c15
 # ╟─869d2ad6-120f-4038-9a63-113b84a43f65
 # ╟─74066309-96f6-470d-ad93-1bd12d0a4b84
@@ -561,7 +633,15 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─fe772369-107c-407b-b825-baaeea6e997e
 # ╟─4e586e90-3d81-4a2f-a720-0d1969674eff
 # ╟─5a580c58-7e05-4616-b1c3-b7a5859fda01
+# ╟─cc739038-5dc1-4466-a9f4-94269ce5318a
+# ╟─c216d97b-0149-42d3-940b-9da96e5b6796
+# ╟─117aabd7-1258-4c8b-ba0a-8c5c152b8343
+# ╟─766be4f8-74f5-4e8e-a7d0-ff608b1f137f
+# ╟─b3615d84-a1b0-4773-b981-82b11c5b669f
 # ╠═36673851-5e71-424f-bf40-9a9728dc7546
+# ╟─621643c2-cf17-4c62-bf27-7a8103b6f325
+# ╟─b63800b8-cc35-4af7-9635-ff52120edd79
+# ╟─2191664d-f346-4c87-acd4-73c88e3d8579
 # ╟─829da435-58ca-4c13-a027-48cd0f041a34
 # ╟─6f192fc5-1801-4546-ad34-d4e2eaab2ca1
 # ╟─329827b7-51dc-4285-a959-cd6b9ad9fc4f
