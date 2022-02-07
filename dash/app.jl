@@ -5,6 +5,7 @@ using Unicode
 
 url = "https://raw.githubusercontent.com/homermultitext/hmt-archive/master/release-candidates/hmt-current.cex"
 corpus = fromcex(url, CitableTextCorpus, UrlReader)
+normalizededition = filter(psg -> endswith(workcomponent(psg.urn), "normalized"), corpus.passages)
 #external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 #app = dash(external_stylesheets=external_stylesheets)
 
@@ -28,13 +29,21 @@ app.layout = html_div() do
                 )
             )
     end,
-
-    html_div(
-      
-        children = [
-            "Searching corpus with $(length(corpus.passages)) passages. "
-        ]
-    ),
+    html_div() do
+        "Texts to include:",
+        html_div(style=Dict("max-width" => "200px"),
+            dcc_dropdown(
+                id = "txt",
+                options = [
+                    (label = "All texts", value = "all"),
+                    (label = "Iliad", value = "iliad"),
+                    (label = "scholia", value = "scholia"),
+                ],
+                value = "scholia"
+            )
+        )
+end,
+  
     html_div(
         children = [
         "Search for: ",
@@ -49,12 +58,42 @@ callback!(app,
     Output("results", "children"), 
     Input("query", "value"),
     Input("ms", "value"),
-    ) do query_value, ms_value
-    if length(query_value) > 2
-        count = filter(p -> contains(p.text, query_value), corpus.passages) 
-        "Results of search for: $(query_value) : $(count) in $(ms_value)"
-    else
+    Input("txt", "value"),
+    ) do query_value, ms_value, txt_value
+
+
+    selected_mss = if ms_value == "all"
+		normalizededition
+	elseif ms_value == "va"
+		msascholia = filter(p -> startswith(workcomponent(p.urn), "tlg5026.msA"), normalizededition)
+		msailiad = filter(p -> startswith(workcomponent(p.urn), "tlg0012.tlg001.msA"), normalizededition)
+		vcat(msascholia, msailiad)
+	end
+    
+    selected_passages = if txt_value == "all"
+		selected_mss
+	elseif txt_value == "iliad"
+		iliadurn = CtsUrn("urn:cts:greekLit:tlg0012.tlg001:")
+		filter(p -> urncontains(iliadurn, p.urn), selected_mss)
+	elseif txt_value == "scholia"
+		scholiaurn = CtsUrn("urn:cts:greekLit:tlg5026:")
+		filter(p -> urncontains(scholiaurn, p.urn), selected_mss)
+	end
+   
+    if isnothing(selected_passages)
         ""
+    elseif length(query_value) > 2
+        hits = filter(p -> contains(lowercase(p.text), lowercase(query_value)), selected_passages) 
+     
+        summary = "Results of search for: $(query_value) : $(length(selected_passages)) passages in $(ms_value). $(length(hits)) matches"
+        rslts = []
+        for hit in hits
+            push!(rslts, "1. " * hit.text)
+        end
+        dcc_markdown(summary * "\n\n" * join(rslts, "\n"))
+    else
+        "Selected corpus has $(length(selected_passages)) passages. "
+
     end
 end
 
