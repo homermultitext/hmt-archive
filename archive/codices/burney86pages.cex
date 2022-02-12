@@ -1,6 +1,6 @@
 #!datamodels
 Collection|Model|Label|Description
-urn:cite2:citebl:burney86pages.v1:|urn:cite2:cite:datamodels.v1:tbsmodel|Model of Burney 86 codex|British Library, Burney 86, in the CITE model of a sequence of text-bearing surfaces
+urn:cite2:citebl:burney86pages.v1:|urn:cite2:hmt:datamodels.v1:codexmodel|Model of Burney 86 codex|British Library, Burney 86, in the CITE model of a sequence of text-bearing surfaces
 
 #!citecollections
 URN|Description|Labelling property|Ordering property|License
