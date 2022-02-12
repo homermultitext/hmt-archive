@@ -2,6 +2,12 @@
 
 ## Notes on published releases of HMT archival data
 
+
+- **2022b**: Updates datamodel for codex collections.
+- **2022a**: Replaces deprecated `relations` block in CEX output with `citerelationset`. Incorporates minor data corrections.
+
+## Prior to 2022
+
 - **2020i**: Casey Dué’s and Mary Ebbott’s translation of *Iliad* Book 10 added to data.
 - **2020h**: DSE records that were missing for *Iliad* Book 23 (poetic text) added.
 - **2020g**: numerous invalid range-URNs corrected in scholia.
