@@ -2,6 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2022e**: Corrects an error in configuration of Venetus B indexing
 - **2022d**: Assigns explicit data model to indicies of *Iliad* lines to pages of incompletely edited manuscripts.
 - **2022c**: Adds `citerelationset`s indexing *Iliad* lines to pages of incompletely edited manuscripts.
 - **2022b**: Updates datamodel for codex collections.
