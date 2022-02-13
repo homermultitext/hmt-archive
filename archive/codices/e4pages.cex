@@ -1,6 +1,6 @@
 #!datamodels
 Collection|Model|Label|Description
-urn:cite2:hmt:e4pages.v1:|urn:cite2:cite:datamodels.v1:tbsmodel|Model of Escorial, codex Ω 1.12|Escorial, codex Ω 1.12, in the CITE model of a sequence of text-bearing surfaces
+urn:cite2:hmt:e4pages.v1:|urn:cite2:hmt:datamodels.v1:codexmodel|Model of Escorial, codex Ω 1.12|Escorial, codex Ω 1.12, in the CITE model of a sequence of text-bearing surfaces
 
 #!citecollections
 URN|Description|Labelling property|Ordering property|License

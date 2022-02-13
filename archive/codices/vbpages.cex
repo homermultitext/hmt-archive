@@ -1,7 +1,7 @@
 
 #!datamodels
 Collection|Model|Label|Description
-urn:cite2:hmt:msB.v1:|urn:cite2:cite:datamodels.v1:tbsmodel|Model of Venetus B codex|The Venetus B manuscript in the CITE model of a sequence of text-bearing surfaces
+urn:cite2:hmt:msB.v1:|urn:cite2:hmt:datamodels.v1:codexmodel|Model of Venetus B codex|The Venetus B manuscript in the CITE model of a sequence of text-bearing surfaces
 
 #!citecollections
 URN|Description|Labelling property|Ordering property|License
