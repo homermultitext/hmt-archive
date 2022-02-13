@@ -3,6 +3,7 @@
 ## Notes on published releases of HMT archival data
 
 
+- **2022c**: Adds `citerelationset`s indexing *Iliad* lines to pages of incompletely edited manuscripts.
 - **2022b**: Updates datamodel for codex collections.
 - **2022a**: Replaces deprecated `relations` block in CEX output with `citerelationset`. Incorporates minor data corrections.
 
