@@ -1,14 +1,10 @@
-
-
 #!datamodels
 Collection|Model|Label|Description
 urn:cite2:ecod:gen44.2017a:|urn:cite2:cite:datamodels.v1:imagemodel|Model of citable images of the Upsilon 1.1 manuscript|Model of citable images of the Upsilon 1.1 manuscript
 
-
 #!citecollections
 URN|Description|Labelling property|Ordering property|License
-urn:cite2:hmt:e3bifolio.v1:|Images of the Upsilon 1.1 manuscript (bifolios) from the Homer Multitext project|urn:cite2:hmt:e3bifolio.v1.caption:||CC-attribution-share-alike
-urn:cite2:ecod:gen44.2017a:|Images of the Upsilon 1.1 manuscript (individual folios) from the Homer Multitext project|urn:cite2:ecod:gen44.2017a.caption:||CC-attribution-share-alike
+urn:cite2:ecod:gen44.2017a:|Images of Bibliothèque de Genève Ms. gr. 44|urn:cite2:ecod:gen44.2017a.caption:||CC BY-NC 3.0
 
 #!citeproperties
 Property|Label|Type|Authority list
