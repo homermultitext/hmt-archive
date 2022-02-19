@@ -29,7 +29,6 @@ urn:cite2:cite:datamodels.v1.description:|Description|String|
 #!citedata
 urn|label|description
 urn:cite2:cite:datamodels.v1:imagemodel|Citable Image|Model of a citable image.  See http://cite-architecture.github.io/imagemodel/.
-urn:cite2:cite:datamodels.v1:binaryimg|Binary image data|Model of a binary image data associated with a citable image.  See TBA.
 urn:cite2:cite:datamodels.v1:tbsmodel|Text Bearing Surface Model|Model of TextBearing Surfaces.  See http://cite-architecture.github.io/tbsmodel/.
 urn:cite2:cite:datamodels.v1:dsemodel|Diplomatic Scholarly Edition|Diplomatic Scholarly Edition.  See https://cite-architecture.github.io/dsemodel/.
 urn:cite2:cite:datamodels.v1:commentarymodel|Commentary|Model text passages commenting on text passages
