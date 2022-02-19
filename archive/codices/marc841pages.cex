@@ -16,7 +16,7 @@ urn:cite2:hmt:u4pages.v1.label:|Label|String|
 
 
 #!citedata
-sequence|urn|rv|label|image
+sequence|image|urn|rv|label
 1|urn:cite2:hmt:u4img.2019a:U4001RN_0001|urn:cite2:hmt:u4pages.v1:1r|recto|Marciana 841, folio 1, recto.
 2|urn:cite2:hmt:u4img.2019a:U4001VN_0002|urn:cite2:hmt:u4pages.v1:1v|verso|Marciana 841, folio 1, verso.
 3|urn:cite2:hmt:u4img.2019a:U4002RN_0003|urn:cite2:hmt:u4pages.v1:2r|recto|Marciana 841, folio 2, recto.
