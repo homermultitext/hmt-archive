@@ -2,6 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2022i**: Make *Iliad* indexes refer to specific version.
 - **2022h**: Adds codexz model of Marciana 841 MS.
 - **2022g**: Adds images of Geneva 44 MS.
 - **2022f**: Corrects data formatting and URN references in indexes of *Iliad* lines to MS pages.
