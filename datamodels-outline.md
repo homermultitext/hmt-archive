@@ -9,10 +9,10 @@ This document summarizes what data models apply to CEX files in the archive.
 -  URN: `urn:cite2:cite:datamodels.v1:imagemodel`
 -  Documentation:  <https://cite-architecture.github.io/imagemodel>
 
-### Text-bearing surface model
+### Codex model
 
--   URN: `urn:cite2:cite:datamodels.v1:tbsmodel`
--   Documentation:  <https://cite-architecture.github.io/tbsmodel>
+-   URN:
+-   Documentation: 
 
 
 ### Diplomatic Scholarly Edition (DSE) model
@@ -25,12 +25,12 @@ This document summarizes what data models apply to CEX files in the archive.
 
 ### Text commentary model
 
-TBD
+TBA
 
 
 ### Text annotation model
 
-TBD
+TBA
 
 
 
