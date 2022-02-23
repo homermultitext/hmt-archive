@@ -2,6 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2022k**: Updates `datamodel` collection and datamodel declarations for DSE records and *scholia*<->*Iliad* indexing.
 - **2022j**: Correct datamodel declarations.
 - **2022i**: Make *Iliad* indexes refer to specific version.
 - **2022h**: Adds codexz model of Marciana 841 MS.
