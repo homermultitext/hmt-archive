@@ -17,3 +17,4 @@ urn:cite2:hmt:datamodels.v1:codexmodel|HMT codex model|Codex with successive she
 urn:cite2:hmt:datamodels.v1:textonpage|HMT text index model|Association of citable passages of text with pages in a manuscript
 urn:cite2:cite:datamodels.v1:dsemodel|Diplomatic Scholarly Edition|Diplomatic Scholarly Edition.  See https://cite-architecture.github.io/dsemodel/.
 urn:cite2:cite:datamodels.v1:commentarymodel|Commentary|Model text passages commenting on text passages
+urn:cite2:hmt:datamodels.v1:paragraphing|Text paragraphs|Model of chunking of text in "paragraph" units.

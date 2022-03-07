@@ -1,8 +1,16 @@
 #!ctscatalog
 urn|citationScheme|groupName|workTitle|versionLabel|exemplarLabel|online|language
-urn:cts:greekLit:tlg0012.tlg001.msA:|book,line|Homeric poetry|Iliad|Venetus A manuscript||true|grc
-urn:cts:greekLit:tlg0012.tlg001.msB:|book,line|Homeric poetry|Iliad|Venetus B manuscript||true|grc
-urn:cts:greekLit:tlg0012.tlg001.e3:|book,line|Homeric poetry|Iliad|Escorial, Upsilon 1.1 manuscript||true|grc
+urn:cts:greekLit:tlg0012.tlg001.msA:|book,line|Homeric poetry|Iliad|Venetus A (Marciana 454 = 822)||true|grc
+urn:cts:greekLit:tlg0012.tlg001.msB:|book,line|Homeric poetry|Iliad|Venetus B (Marciana 453 = 821)||true|grc
+urn:cts:greekLit:tlg0012.tlg001.e3:|book,line|Homeric poetry|Iliad|Escorial, Upsilon 1.1||true|grc
+
+// Indexed but no online edition yet:
+urn:cts:greekLit:tlg0012.tlg001.e4:|book,line|Homeric poetry|Iliad|Escorial, Ω 1.12||false|grc
+urn:cts:greekLit:tlg0012.tlg001.u4:|book,line|Homeric poetry|Iliad|Marciana 841||false|grc
+urn:cts:greekLit:tlg0012.tlg001.gen4:|book,line|Homeric poetry|Iliad|Geneva 44||false|grc
+urn:cts:greekLit:tlg0012.tlg001.laur32_3:|book,line|Homeric poetry|Iliad|Laurentian Library 32.3||false|grc
+
+
 
 urn:cts:greekLit:tlg5026.msAint.hmt:|book,scholion,part|Iliadic scholia|Interior scholia of the Venetus A manuscript|HMT project edition||true|grc
 urn:cts:greekLit:tlg5026.msA.hmt:|book,scholion,part|Iliadic scholia|Main scholia of the Venetus A manuscript|HMT project edition||true|grc
