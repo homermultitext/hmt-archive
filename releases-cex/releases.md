@@ -2,6 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
+
+- **2022l**: Adds new data set and datamodel for pargraphing of *Iliad* text in the Ω 1.12 manuscript; corrects URNs in image catalog for Geneva 44 manuscript.
 - **2022k**: Updates `datamodel` collection and datamodel declarations for DSE records and *scholia*<->*Iliad* indexing.
 - **2022j**: Correct datamodel declarations.
 - **2022i**: Make *Iliad* indexes refer to specific version.
