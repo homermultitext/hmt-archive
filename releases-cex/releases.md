@@ -2,16 +2,17 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2022n**: Corrects URNs for pages of Escorial, Upsilon 1.1.
 - **2022m**: Corrects URNs for pages of Marciana 841.
 - **2022l**: Adds new data set and datamodel for pargraphing of *Iliad* text in the Ω 1.12 manuscript; corrects URNs in image catalog for Geneva 44 manuscript.
 - **2022k**: Updates `datamodel` collection and datamodel declarations for DSE records and *scholia*<->*Iliad* indexing.
-- **2022j**: Correct datamodel declarations.
-- **2022i**: Make *Iliad* indexes refer to specific version.
-- **2022h**: Adds codexz model of Marciana 841 MS.
+- **2022j**: Corrects datamodel declarations.
+- **2022i**: Makes *Iliad* indexes refer to specific version.
+- **2022h**: Adds codex model of Marciana 841 MS.
 - **2022g**: Adds images of Geneva 44 MS.
 - **2022f**: Corrects data formatting and URN references in indexes of *Iliad* lines to MS pages.
 - **2022e**: Corrects an error in configuration of Venetus B indexing
-- **2022d**: Assigns explicit data model to indicies of *Iliad* lines to pages of incompletely edited manuscripts.
+- **2022d**: Assigns explicit data model to indices of *Iliad* lines to pages of incompletely edited manuscripts.
 - **2022c**: Adds `citerelationset`s indexing *Iliad* lines to pages of incompletely edited manuscripts.
 - **2022b**: Updates datamodel for codex collections.
 - **2022a**: Replaces deprecated `relations` block in CEX output with `citerelationset`. Incorporates minor data corrections.
