@@ -2,6 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2022p**: Adds paragraph indexing of *Iliad* 1 in Burney 86.
 - **2022o**: Clusters DSE records by book for easier verification.
 - **2022n**: Corrects URNs for pages of Escorial, Upsilon 1.1.
 - **2022m**: Corrects URNs for pages of Marciana 841.
