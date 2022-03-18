@@ -2,6 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2022o**: Cluster DSE records by book for easier verification.
 - **2022n**: Corrects URNs for pages of Escorial, Upsilon 1.1.
 - **2022m**: Corrects URNs for pages of Marciana 841.
 - **2022l**: Adds new data set and datamodel for pargraphing of *Iliad* text in the Ω 1.12 manuscript; corrects URNs in image catalog for Geneva 44 manuscript.
