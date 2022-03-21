@@ -2,6 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
+
+- **2022r**: Corrections to cataloging of bifolio images for Venetus B and Upsilon 1.1.
 - **2022q**: Adds indexing of *Iliad* lines to pages of Burney 86 MS through book 1.
 - **2022p**: Adds paragraph indexing of *Iliad* 1 in Burney 86.
 - **2022o**: Clusters DSE records by book for easier verification.
