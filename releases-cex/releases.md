@@ -2,7 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
-
+- **2022t**: Adds metrical summaries and epigram of Hadrian from Venetus A; miscellaneous corrections and improvements to DSE indexing of Venetus A.
 - **2022s**: Adds collection of images of Marciana 841.
 - **2022r**: Corrections to cataloging of bifolio images for Venetus B and Upsilon 1.1.
 - **2022q**: Adds indexing of *Iliad* lines to pages of Burney 86 MS through book 1.
