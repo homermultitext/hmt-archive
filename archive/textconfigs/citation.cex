@@ -1,4 +1,7 @@
 urn|file|converter|diplomatic|normalized|orthography
+
+urn:cts:greekLit:tlg7000.tlg001.msA:|other/VenetusA-anthology.xml|TEIDivDivLine|MidDiplomaticBuilder("Diplomatic editionbuilder","dipl")|MidNormalizedBuilder("Normalized edition builder","normed")|msGreek()
+
 urn:cts:greekLit:tlg0012.tlg001.msA:1|iliad/VenetusA-Iliad-01.xml|TEIDivLine|MidDiplomaticBuilder("Diplomatic edition builder","msAdipl")|MidNormalizedBuilder("Normalized edition builder","msAnormed")|msGreek()
 urn:cts:greekLit:tlg0012.tlg001.msA:2|iliad/VenetusA-Iliad-02.xml|TEIDivLine|MidDiplomaticBuilder("Diplomatic edition builder","msAdipl")|MidNormalizedBuilder("Normalized edition builder","msAnormed")|msGreek()
 urn:cts:greekLit:tlg0012.tlg001.msA:3|iliad/VenetusA-Iliad-03.xml|TEIDivLine|MidDiplomaticBuilder("Diplomatic edition builder","msAdipl")|MidNormalizedBuilder("Normalized edition builder","msAnormed")|msGreek()
