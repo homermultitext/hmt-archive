@@ -4,6 +4,10 @@ urn:cts:greekLit:tlg0012.tlg001.msA:|book,line|Homeric poetry|Iliad|Venetus A (M
 urn:cts:greekLit:tlg0012.tlg001.msB:|book,line|Homeric poetry|Iliad|Venetus B (Marciana 453 = 821)||true|grc
 urn:cts:greekLit:tlg0012.tlg001.e3:|book,line|Homeric poetry|Iliad|Escorial, Upsilon 1.1||true|grc
 
+// Non-Iliadic texts
+urn:cts:greekLit:tlg7000.tlg001.msA:|book, poem, line|The Greek Anthology|Selected poems|Poems in the Venetus A manuscript||true|grc
+
+
 // Indexed but no online edition yet:
 urn:cts:greekLit:tlg0012.tlg001.e4:|book,line|Homeric poetry|Iliad|Escorial, Ω 1.12||false|grc
 urn:cts:greekLit:tlg0012.tlg001.u4:|book,line|Homeric poetry|Iliad|Marciana 841||false|grc
