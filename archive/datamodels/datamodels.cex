@@ -12,9 +12,14 @@ urn:cite2:cite:datamodels.v1.description:|Description|String|
 
 #!citedata
 urn|label|description
-urn:cite2:cite:datamodels.v1:imagemodel|Citable Image|Model of a citable image.  See http://cite-architecture.github.io/imagemodel/.
+// HMT models:
 urn:cite2:hmt:datamodels.v1:codexmodel|HMT codex model|Codex with successive sheets with recto and verso faces
-urn:cite2:hmt:datamodels.v1:textonpage|HMT text index model|Association of citable passages of text with pages in a manuscript
+urn:cite2:hmt:datamodels.v1:paragraphing|HMT text chunking model|HMT model of chunking of text in "paragraph" units.
+
+// Cite collection models:
+urn:cite2:cite:datamodels.v1:imagemodel|Citable Image|Model of a citable image.  See http://cite-architecture.github.io/imagemodel/.
 urn:cite2:cite:datamodels.v1:dsemodel|Diplomatic Scholarly Edition|Diplomatic Scholarly Edition.  See https://cite-architecture.github.io/dsemodel/.
+
+// CITE indexing models:
 urn:cite2:cite:datamodels.v1:commentarymodel|Commentary|Model text passages commenting on text passages
-urn:cite2:hmt:datamodels.v1:paragraphing|Text paragraphs|Model of chunking of text in "paragraph" units.
+urn:cite2:cite:datamodels.v1:textonpage|Indexed text index model|Association of citable passages of text with pages in a manuscript
