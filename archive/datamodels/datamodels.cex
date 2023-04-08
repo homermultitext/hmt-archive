@@ -8,7 +8,7 @@ urn:cite2:cite:datamodels.v1:|CITE data models|urn:cite2:cite:datamodels.v1.labe
 Property|Label|Type|Authority list
 urn:cite2:cite:datamodels.v1.urn:|Data model|Cite2Urn|
 urn:cite2:cite:datamodels.v1.label:|Label|String|
-urn:cite2:cite:datamodels.v1.description:|Description|String|
+urn:cite2:cite:datamodels.v1.description:|Description|String|  
 
 #!citedata
 urn|label|description
