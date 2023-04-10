@@ -22,4 +22,4 @@ urn:cite2:cite:datamodels.v1:dsemodel|Diplomatic Scholarly Edition|Diplomatic Sc
 
 // CITE indexing models:
 urn:cite2:cite:datamodels.v1:commentarymodel|Commentary|Model text passages commenting on text passages
-urn:cite2:cite:datamodels.v1:textonpage|Indexed text index model|Association of citable passages of text with pages in a manuscript
+urn:cite2:cite:datamodels.v1:textonpagemodel|Indexed text index model|Association of citable passages of text with pages in a manuscript
