@@ -3,6 +3,7 @@
 ## Notes on published releases of HMT archival data
 
 
+- **2023b**: Corrections to several pages of book 6 in the Venetus A.
 - **2023a**: Adds data models for commentaries and for indexing of *Iliad* lines to pages. Note that these can be instantiated with versions 0.11 and higher of the julia package `HmtArchive`.
 - **2022t**: Adds metrical summaries and epigram of Hadrian from Venetus A; miscellaneous corrections and improvements to DSE indexing of Venetus A.
 - **2022s**: Adds collection of images of Marciana 841.
