@@ -2166,13 +2166,13 @@
                     </div>
                     <div ana="5-6" type="scholion" n="5">
                         <div n="lemma">
-                            <p>ἕρκος <rs type="ethnic" n="urn:cite2:hmt:place:place96">Ἀχαιῶν</rs></p>
+                            <p>ἕρκος <rs type="ethnic" n="urn:cite2:hmt:place:place96">Ἀχαιῶν</rs> Τρώων. ῥῆξε φάλαγγα</p>
                         </div>
                         <div n="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.5-6.6</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.5</p>
                         </div>
                         <div n="comment">
-                            <p>Τρώων ῥῆξε φάλαγγα τρισὶ μεταφοραῖς κέχρηται ἐπιφαίνων την ὁμοιότητα
+                            <p>τρισὶ μεταφοραῖς κέχρηται ἐπιφαίνων την ὁμοιότητα
                                 ὃ γὰρ δύναται προς ἀσφάλειαν <choice>
                                     <abbr>π</abbr>
                                     <expan>πολεως</expan>
@@ -2430,7 +2430,6 @@
                         </div>
                         <div n="comment">
                             <p>ὡς ἀσθενούσης κατ εκεῖνο τὸ μερος τῆς ψυχῆς ⁑</p>
-
                         </div>
                     </div>
                     <div ana="71a" type="scholion" n="21">
@@ -2465,6 +2464,9 @@
 
                         </div>
                     </div>
+
+
+
                     <div ana="76b" type="scholion" n="22">
                         <div n="lemma">
                             <p>‡ <persName n="urn:cite2:hmt:pers.v1:pers507">Πριαμίδης Ἕλενος</persName></p>
