@@ -1674,7 +1674,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div n="A10" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -3463,7 +3463,7 @@
                             <p>πάτον <choice>
                                     <abbr>ἀνων</abbr>
                                     <expan>ἀνθρωπων</expan>
-                                </choice> ἀλε είνων</p>
+                                </choice> ἀλεείνων</p>
                         </div>
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.202</p>
@@ -3477,6 +3477,8 @@
 
                         </div>
                     </div>
+
+
                     <div ana="210" type="scholion" n="72">
                         <div n="lemma">
                             <p>‡ ἔντ' ἐφύρῃ ἐγένοντ</p>
@@ -3498,6 +3500,8 @@
 
                         </div>
                     </div>
+
+                    
                     <div ana="198" type="scholion" n="73">
                         <div n="lemma">
                             <p><persName n="urn:cite2:hmt:pers:pers327">Οἰνεὺς</persName> μὲν</p>
@@ -3510,6 +3514,10 @@
 
                         </div>
                     </div>
+
+
+
+
                     <div ana="211" type="scholion" n="74">
                         <div n="lemma">
                             <p>ταύτης τοι γενεῆς καὶ αἵματος</p>
