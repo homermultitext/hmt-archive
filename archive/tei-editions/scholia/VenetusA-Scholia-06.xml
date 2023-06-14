@@ -979,7 +979,7 @@
                             <p/>
                         </div>
                         <div n="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.227-6.229</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.227</p><!-- range to 6.229-->
                         </div>
                         <div n="comment">
                             <p>οἱον οὐκ επρίγει προς αλλήλους ἡμ ἀμφοτέρος μάχεσθαι ⁑ </p>
@@ -996,6 +996,9 @@
                             <p>ἐν ἄλλω <q>παρ αιδοίης ἀλόχοισι</q> ⁑</p>
                         </div>
                     </div>
+
+
+                    
                     <div ana="248a" type="scholion" n="236">
                         <div n="lemma">
                             <p/>
@@ -1017,7 +1020,7 @@
                         <div n="comment">
                             <p>ἐν ἄλλω <q>παρα <choice>
                                         <abbr>μντης</abbr>
-                                        <expan>μνηςτης</expan>
+                                        <expan>μνηστης</expan>
                                     </choice> ἀλόχοισι</q>⁑ </p>
                         </div>
                     </div>
@@ -3478,7 +3481,6 @@
                         </div>
                     </div>
 
-
                     <div ana="210" type="scholion" n="72">
                         <div n="lemma">
                             <p>‡ ἔντ' ἐφύρῃ ἐγένοντ</p>
@@ -3500,8 +3502,7 @@
 
                         </div>
                     </div>
-
-                    
+   
                     <div type="scholion" n="73">
                         <div n="lemma">
                             <p><persName n="urn:cite2:hmt:pers:pers327">Οἰνεὺς</persName> μὲν</p>
@@ -3611,6 +3612,7 @@
 
                         </div>
                     </div>
+
                     <div ana="236b" type="scholion" n="79">
                         <div n="lemma">
                             <p>‡ ἐννεαβοίων</p>
