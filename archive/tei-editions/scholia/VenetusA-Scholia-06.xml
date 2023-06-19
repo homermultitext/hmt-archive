@@ -100,7 +100,7 @@
                             <p/>
                         </div>
                         <div n="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.87-6.89</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.87</p>
                         </div>
                         <div n="comment">
                             <p>ουτω συναπτεον τὸ ἡ δὲ ξυνάγουσα γεραιας τῶ νηον <rs type="ethnic"
@@ -781,6 +781,8 @@
                             <p>οτι τὸν κατα τὸν πὸλεμον ἔργον πόνον εἴρηκεν πάλιν ⁑ </p>
                         </div>
                     </div>
+
+
                     <div ana="79a" type="scholion" n="220">
                         <div n="lemma">
                             <p/>
@@ -815,6 +817,8 @@
                             <p>οτι ἀντι του φύγης </p>
                         </div>
                     </div>
+
+
                     <div ana="113a" type="scholion" n="223">
                         <div n="lemma">
                             <p/>
@@ -828,6 +832,7 @@
                                 δια του ἂν</p>
                         </div>
                     </div>
+
                     <div ana="135c" type="scholion" n="224">
                         <div n="lemma">
                             <p/>
@@ -840,6 +845,9 @@
                                 γραφει <q>χολωθεῖς</q> και οτι περισσος ὁ δε ⁑</p>
                         </div>
                     </div>
+
+
+
                     <div ana="155a" type="scholion" n="225">
                         <div n="lemma">
                             <p/>
@@ -899,6 +907,7 @@
                                 </choice> καὶ ξείνισσε καὶ <q>ξείνιζε</q>⁑ </p>
                         </div>
                     </div>
+
 
                     <div ana="unknown" type="scholion" n="229">
                         <div n="lemma">
@@ -970,7 +979,7 @@
                             <p/>
                         </div>
                         <div n="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.227-6.229</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.227</p><!-- range to 6.229-->
                         </div>
                         <div n="comment">
                             <p>οἱον οὐκ επρίγει προς αλλήλους ἡμ ἀμφοτέρος μάχεσθαι ⁑ </p>
@@ -987,6 +996,9 @@
                             <p>ἐν ἄλλω <q>παρ αιδοίης ἀλόχοισι</q> ⁑</p>
                         </div>
                     </div>
+
+
+                    
                     <div ana="248a" type="scholion" n="236">
                         <div n="lemma">
                             <p/>
@@ -1008,7 +1020,7 @@
                         <div n="comment">
                             <p>ἐν ἄλλω <q>παρα <choice>
                                         <abbr>μντης</abbr>
-                                        <expan>μνηςτης</expan>
+                                        <expan>μνηστης</expan>
                                     </choice> ἀλόχοισι</q>⁑ </p>
                         </div>
                     </div>
@@ -1664,6 +1676,8 @@
                             <p>οι</p>
                         </div>
                     </div>
+
+
                     <div n="A10" type="scholion">
                         <div n="lemma">
                             <p/>
@@ -2466,7 +2480,6 @@
                     </div>
 
 
-
                     <div ana="76b" type="scholion" n="22">
                         <div n="lemma">
                             <p>‡ <persName n="urn:cite2:hmt:pers.v1:pers507">Πριαμίδης Ἕλενος</persName></p>
@@ -2539,13 +2552,13 @@
                     <div ana="87-89" type="scholion" n="26">
                         <div n="lemma">
                             <p>νηὸν <persName n="urn:cite2:hmt:pers.v1:pers67">Ἀθηναίης</persName>
-                                γλαυκώ πιδος ἐν<choice>
+                                γλαυκώπιδος ἐν<choice>
                                     <abbr>π</abbr>
                                     <expan>πολιν</expan>
                                 </choice> άκρῃ</p>
                         </div>
                         <div n="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.87-6.88</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.87</p>
                         </div>
                         <div n="comment">
                             <p>συναπτέον τὸ<q> ἱ δὲ ξυνάγουσα γεραιὰς.</q>τὸ <q>νηὸν <persName
@@ -2565,7 +2578,7 @@
                     </div>
                     <div ana="90a" type="scholion" n="27">
                         <div n="lemma">
-                            <p>πέπλον ὅσ οι</p>
+                            <p>πέπλον ὅσοι</p>
                         </div>
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.90</p>
@@ -3453,7 +3466,7 @@
                             <p>πάτον <choice>
                                     <abbr>ἀνων</abbr>
                                     <expan>ἀνθρωπων</expan>
-                                </choice> ἀλε είνων</p>
+                                </choice> ἀλεείνων</p>
                         </div>
                         <div n="ref">
                             <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.202</p>
@@ -3467,6 +3480,7 @@
 
                         </div>
                     </div>
+
                     <div ana="210" type="scholion" n="72">
                         <div n="lemma">
                             <p>‡ ἔντ' ἐφύρῃ ἐγένοντ</p>
@@ -3488,18 +3502,23 @@
 
                         </div>
                     </div>
-                    <div ana="198" type="scholion" n="73">
+   
+                    <div type="scholion" n="73">
                         <div n="lemma">
                             <p><persName n="urn:cite2:hmt:pers:pers327">Οἰνεὺς</persName> μὲν</p>
                         </div>
                         <div n="ref">
-                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.198</p>
+                            <p>urn:cts:greekLit:tlg0012.tlg001.msA:6.219</p>
                         </div>
                         <div n="comment">
                             <p>σημειοῦνται τινὲς οτι πρὸς τὸ πρῶτον ἀπήντηκεν ⁑</p>
 
                         </div>
                     </div>
+
+
+
+
                     <div ana="211" type="scholion" n="74">
                         <div n="lemma">
                             <p>ταύτης τοι γενεῆς καὶ αἵματος</p>
@@ -3593,6 +3612,7 @@
 
                         </div>
                     </div>
+
                     <div ana="236b" type="scholion" n="79">
                         <div n="lemma">
                             <p>‡ ἐννεαβοίων</p>
