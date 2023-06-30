@@ -3593,7 +3593,7 @@
 -   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:7.15.comment.6 λέλυνται Invalid structure: cit should have both q and ref children
 -   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:9.328.comment.1 οτ Invalid element name: del
 -   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:9.328.comment.2 ἄοροι Invalid element name: del
--   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:13.164r6.comment.5 Τρώων Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite:hmt:place.place15 is invalid: collection component must be separated from empty object selection with :
+-   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:13.164r6.comment.5 Τρώων Exception: java.lang.IllegalArgumentException: requirement failed: urn:cite2:hmt:place.r1:place15 is invalid: collection component must be separated from empty object selection with :
 -   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:13.7.comment.5 ϊ rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:13.8.comment.5 ε rs element missing required @type attribute
 -   urn:cts:greekLit:tlg5026.msAint.hmt_xml.tokens:13.8.comment.13 α rs element missing required @type attribute
