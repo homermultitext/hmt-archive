@@ -2,6 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2023e**: Adds index of all occurrences of place names.
 - **2023d**: Adds index of all occurrences of personal names.
 - **2023c**: Adds missing scholia editions from book 21 in the Venetus A.
 - **2023b**: Corrections to several pages of book 6 in the Venetus A.
