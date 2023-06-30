@@ -2,6 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2023e**: Adds index of all occurrences of place names.
+- **2023d**: Adds index of all occurrences of personal names.
 - **2023c**: Adds missing scholia editions from book 21 in the Venetus A.
 - **2023b**: Corrections to several pages of book 6 in the Venetus A.
 - **2023a**: Adds data models for commentaries and for indexing of *Iliad* lines to pages. Note that these can be instantiated with versions 0.11 and higher of the julia package `HmtArchive`.
