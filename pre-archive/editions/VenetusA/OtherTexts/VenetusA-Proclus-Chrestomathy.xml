@@ -20,21 +20,21 @@
     <text xml:lang="grc-c">
         <body>
             <milestone unit="page" n="1r"/>
-            <head>‡ <persName n="urn:cite:hmt:pers.pers780">Πρόκλου</persName>
+            <head>‡ <persName n="urn:cite2:hmt:pers.v1:pers780">Πρόκλου</persName>
                 <title>Χρηστομαθίας</title> γραμματικῆς τῶν εἰς <num value="4">Δ</num>
                 διῃρημένων</head>
             <div n="Homer">
 
                 <head n="title"> τὸ <num value="1">Α</num>
-                    <persName n="urn:cite:hmt:pers.pers17">Ὁμήρου</persName>· χρόνοι· βίος·
+                    <persName n="urn:cite2:hmt:pers.v1:pers17">Ὁμήρου</persName>· χρόνοι· βίος·
                     χαρακτηρ· ἀναγραφὴ ποιημάτων ⁑</head>
                 <p n="1">Ἐπῶν ποιηταὶ γεγόνασι πολλοὶ τούτων δ' εἰσὶ κράτιστοι· <persName
-                        n="urn:cite:hmt:pers.pers17">Ὅμηρος</persName> · <persName
-                        n="urn:cite:hmt:pers.ers4">Ἡσίοδος</persName> · <persName
-                        n="urn:cite:hmt:pers.pers778">Πείσανδρος</persName> · <persName
-                        n="urn:cite:hmt:pers.pers779">Πανύασσις</persName> · <persName
-                        n="urn:cite:hmt:pers.pers7">Ἀντίμαχος</persName>·</p>
-                <p n="2"><persName n="urn:cite:hmt:pers.pers17">Ὅμηρος</persName> μὲν οὖν
+                        n="urn:cite2:hmt:pers.v1:pers17">Ὅμηρος</persName> · <persName
+                        n="urn:cite2:hmt:pers.ers4">Ἡσίοδος</persName> · <persName
+                        n="urn:cite2:hmt:pers.v1:pers778">Πείσανδρος</persName> · <persName
+                        n="urn:cite2:hmt:pers.v1:pers779">Πανύασσις</persName> · <persName
+                        n="urn:cite2:hmt:pers.v1:pers7">Ἀντίμαχος</persName>·</p>
+                <p n="2"><persName n="urn:cite2:hmt:pers.v1:pers17">Ὅμηρος</persName> μὲν οὖν
                     τίνων γονέων ἠ ποίας ἐγένετο πατρίδος. οὐ ῥᾴδιον ἀποφήνασθαι· οὔτε
                     γὰρ αὐτός τι λελάληκεν· ἀλλ' οὐδε οἱ περὶ αὐτοῦ εἰπόντες
                     συμπεφωνήκασιν· ἀλλ' ἐκ τοῦ μηδὲν ῥητῶς ἐμφαίνειν περι τούτων τὴν
@@ -50,36 +50,36 @@
                     λέγοιτο·</p>
                 <p n="4">οἱ μὲν οὖν <rs type="ethnic" n="urn:cite:hmt:place.place412"
                         >Σμυρναῖον</rs> αὐτὸν ἀποφαινόμενοι· <persName
-                        n="urn:cite:hmt:pers.pers781">Μαίονος</persName> μὲν πατρὸς λέγουσιν
+                        n="urn:cite2:hmt:pers.v1:pers781">Μαίονος</persName> μὲν πατρὸς λέγουσιν
                     εἶναι· γεννηθῆναι δὲ ἐπὶ <placeName n="urn:cite:hmt:place.place414"
                         >Μέλητος</placeName> τοῦ ποταμοῦ· ὅθεν καὶ <persName
-                        n="urn:cite:hmt:pers.pers17">Μελησιγενῆ</persName> ὀνομασθῆναι· δοθέντα
+                        n="urn:cite2:hmt:pers.v1:pers17">Μελησιγενῆ</persName> ὀνομασθῆναι· δοθέντα
                     δὲ <rs type="ethnic" n="urn:cite:hmt:place.place411">Χίοις</rs> εἰς
-                    ὁμηρείαν <persName n="urn:cite:hmt:pers.pers17">Ὅμηρον</persName> κληθῆναι·
+                    ὁμηρείαν <persName n="urn:cite2:hmt:pers.v1:pers17">Ὅμηρον</persName> κληθῆναι·
                     οἱ δὲ ἀπὸ τῆς τῶν ὀμμάτων πηρώσεως τούτου τυχεῖν αὐτὸν φασι τοῦ
                     ὀνόματος τοὺς γὰρ τυφλοὺς ὑπὸ <rs type="ethnic" n="place77"
                         >Αἰολέων</rs>
-                    <persName n="urn:cite:hmt:pers.pers17">Ὁμηρος</persName> καλεῖσθαι· </p>
-                <p n="5"> | <persName n="urn:cite:hmt:pers.pers303">Ἑλλανικὸς</persName> δὲ καὶ
-                        <persName n="urn:cite:hmt:pers.pers782">Δαμάστης</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers255">Φερεκύδης</persName> εἰς <persName
-                        n="urn:cite:hmt:pers.pers544">Ὀρφέα</persName> τὸ γένος ἀνάγουσιν
-                    αὐτοῦ· <persName n="urn:cite:hmt:pers.pers781">Μαίονα</persName> γὰρ φασὶ
-                    τὸν <persName n="urn:cite:hmt:pers.pers17">Ὁμήρου</persName> πατέρα καὶ
-                        <persName n="urn:cite:hmt:pers.pers783">Δῖον</persName> τὸν <persName
-                        n="urn:cite:hmt:pers.pers4">Ἡσιόδου</persName> γενέσθαι <persName
-                        n="urn:cite:hmt:pers.pers784">Ἀπέλλιδος</persName> τοῦ <persName
-                        n="urn:cite:hmt:pers.pers785">Μελανωποῦ</persName>· τοῦ <persName
-                        n="urn:cite:hmt:pers.pers786">Ἐπιφραδέος</persName>· τοῦ <persName
-                        n="urn:cite:hmt:pers.pers787">Χαριφήμου</persName>· τοῦ <persName
-                        n="urn:cite:hmt:pers.pers788">Φιλοτερπέος</persName> τοῦ <persName
-                        n="urn:cite:hmt:pers.pers789">Ἰδμονίδα</persName> τοῦ <persName
-                        n="urn:cite:hmt:pers.pers790">Εὐκλέους</persName> τοῦ <persName
-                        n="urn:cite:hmt:pers.pers791">Δωρίωνος</persName> τοῦ <persName
-                        n="urn:cite:hmt:pers.pers544">Ὀρφέος</persName>· </p>
-                <p n="6"><persName n="urn:cite:hmt:pers.pers792">Γοργίας</persName> δὲ ὁ
+                    <persName n="urn:cite2:hmt:pers.v1:pers17">Ὁμηρος</persName> καλεῖσθαι· </p>
+                <p n="5"> | <persName n="urn:cite2:hmt:pers.v1:pers303">Ἑλλανικὸς</persName> δὲ καὶ
+                        <persName n="urn:cite2:hmt:pers.v1:pers782">Δαμάστης</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers255">Φερεκύδης</persName> εἰς <persName
+                        n="urn:cite2:hmt:pers.v1:pers544">Ὀρφέα</persName> τὸ γένος ἀνάγουσιν
+                    αὐτοῦ· <persName n="urn:cite2:hmt:pers.v1:pers781">Μαίονα</persName> γὰρ φασὶ
+                    τὸν <persName n="urn:cite2:hmt:pers.v1:pers17">Ὁμήρου</persName> πατέρα καὶ
+                        <persName n="urn:cite2:hmt:pers.v1:pers783">Δῖον</persName> τὸν <persName
+                        n="urn:cite2:hmt:pers.v1:pers4">Ἡσιόδου</persName> γενέσθαι <persName
+                        n="urn:cite2:hmt:pers.v1:pers784">Ἀπέλλιδος</persName> τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers785">Μελανωποῦ</persName>· τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers786">Ἐπιφραδέος</persName>· τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers787">Χαριφήμου</persName>· τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers788">Φιλοτερπέος</persName> τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers789">Ἰδμονίδα</persName> τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers790">Εὐκλέους</persName> τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers791">Δωρίωνος</persName> τοῦ <persName
+                        n="urn:cite2:hmt:pers.v1:pers544">Ὀρφέος</persName>· </p>
+                <p n="6"><persName n="urn:cite2:hmt:pers.v1:pers792">Γοργίας</persName> δὲ ὁ
                         <placeName n="urn:cite:hmt:place.place415">Λεοντῖνος</placeName> εἰς
-                        <persName n="urn:cite:hmt:pers.pers793">Μουσαῖον</persName> αὐτὸν
+                        <persName n="urn:cite2:hmt:pers.v1:pers793">Μουσαῖον</persName> αὐτὸν
                     ἀνάγει.</p>
                 <p n="7">| περι δὲ τῆς τελευτῆς αὐτοῦ· λόγος τις φέρεται τοιοῦτος ἀνελεῖν
                     φασὶν αὐτῷ τὸν θεὸν χρωμένῳ περὶ ἀσφαλείας τάδε· <q>
@@ -88,9 +88,9 @@
                         <l>δέξεται· ἀλλὰ νέων ἀνδρῶν αἴνιγμα φύλαξαι·</l>
                     </q> λέγουσιν οὖν αὐτὸν εἰς <placeName n="urn:cite:hmt:place.place268"
                         >Ἴον</placeName> πλεύσαντα διατρίψαι μὲν παρὰ <persName
-                        n="urn:cite:hmt:pers.pers794">Κρεοφύλῳ</persName> γράψαντα δὲ
+                        n="urn:cite2:hmt:pers.v1:pers794">Κρεοφύλῳ</persName> γράψαντα δὲ
                             <title><placeName n="place230">Οἰχαλίας</placeName> ἅλωσιν</title>
-                    τούτῳ χαρίσασθαι. ἥτις νῦν ὡς <persName n="urn:cite:hmt:pers.pers794"
+                    τούτῳ χαρίσασθαι. ἥτις νῦν ὡς <persName n="urn:cite2:hmt:pers.v1:pers794"
                         >Κρεοφύλου</persName> περιφέρεται· καθεζόμενον δὲ ἐπί τινος ἀκτῆς
                     θεασάμενον ἁλιεῖς προσειπεῖν αὐτοὺς καὶ ἀνακρῖναι τοῖσδε τοῖς
                     ἔπεσιν· <q>
@@ -114,26 +114,26 @@
                     </choice> ὅσα οὐδεὶς πώποτε</p>
 
                 <p n="10">εἰσὶ δὲ οἵτινες ἀνεψιὸν αὐτὸν <persName
-                        n="urn:cite:hmt:pers.pers4">Ἡσιόδου</persName> παρέδοσαν ἀτριβεῖς όντες
+                        n="urn:cite2:hmt:pers.v1:pers4">Ἡσιόδου</persName> παρέδοσαν ἀτριβεῖς όντες
                     ποιήσεως· τοσοῦτον γὰρ ἀπέχουσι τοῦ γένει προσήκειν· ὅσον ἡ ποίησις
                     διέστηκεν αὐτῶν· ἄλλως δὲ· οὐδε τοῖς χρόνοις συνεπέβαλον
                     ἀλλήλοις.</p>
                 <p n="11">ἄθλιοι δὲ οἱ τὸ αἴνιγμα πλάσαντες τοῦτο· <q>
-                        <l><persName n="urn:cite:hmt:pers.pers4">Ἡσίοδος</persName> Μούσαις <rs
+                        <l><persName n="urn:cite2:hmt:pers.v1:pers4">Ἡσίοδος</persName> Μούσαις <rs
                                 type="ethnic" n="urn:cite:hmt:place.place145">Ἑλικωνίσι</rs>
                             τόνδ' ἀνέθηκεν·</l>
                         <l>ὕμνῳ νικήσας ἐν <placeName n="urn:cite:hmt:place.place158"
-                                >Χαλκίδι</placeName> θεῖον <persName n="urn:cite:hmt:pers.pers17"
+                                >Χαλκίδι</placeName> θεῖον <persName n="urn:cite2:hmt:pers.v1:pers17"
                                 >Ὅμηρον</persName>·</l>
                     </q> ἀλλὰ γὰρ ἐπλανήθησαν ἐκ τῶν <title>Ἡσιοδείων Ἡμερῶν</title>· έτερον
                     γάρ τι σημαίνει·</p>
                 <p n="12">τοῖς δὲ χρόνοις αὐτὸν, οἱ μὲν περι τὸν <persName
-                        n="urn:cite:hmt:pers.pers16">Ἀρίσταρχον</persName> φασὶ γενέσθαι κατὰ
+                        n="urn:cite2:hmt:pers.v1:pers16">Ἀρίσταρχον</persName> φασὶ γενέσθαι κατὰ
                     τὴν τῆς <placeName n="urn:cite:hmt:place.place79">Ἰωνίας</placeName>
                     ἀποικίαν· ἥτις ὑστερεῖ τῆς Ἡρακλειδῶν καθόδου ἔτεσιν ἑξήκοντα· τὸ
                     δὲ περὶ τοὺς Ἡρακλείδας, λείπεται τῶν <rs type="ethnic"
                         n="urn:cite:hmt:place.place6">Τρωϊκῶν</rs> ἔτεσιν ὀγδοήκοντα· οἱ δὲ
-                    περὶ <persName n="urn:cite:hmt:pers.pers667">Κράτητα</persName> ἀνάγουσιν
+                    περὶ <persName n="urn:cite2:hmt:pers.v1:pers667">Κράτητα</persName> ἀνάγουσιν
                     αὐτὸν, εἰς τοὺς <rs type="ethnic" n="urn:cite:hmt:place.place6"
                         >Τρωϊκοὺς</rs> χρόνους· </p>
                 <p n="13">| φαίνεται δὲ γηραιὸς ἐκλελοιπὼς τὸν βίον· ἡ γὰρ ἀνυπέρβλητος
@@ -147,8 +147,8 @@
                 <p n="15"> γέγραφε δὲ ποιήσεις δύο· <title><ref type="urn"
                             n="urn:cts:greekLit:tlg0012.tlg001">Ἰλιάδα</ref></title> καὶ
                             <title><ref type="urn:cts:greekLit:tlg0012.tlg002"
-                        >Ὀδύσσειαν</ref></title>· ἣν <persName n="urn:cite:hmt:pers.pers795"
-                        >Ξένων</persName> καὶ <persName n="urn:cite:hmt:pers.pers303"
+                        >Ὀδύσσειαν</ref></title>· ἣν <persName n="urn:cite2:hmt:pers.v1:pers795"
+                        >Ξένων</persName> καὶ <persName n="urn:cite2:hmt:pers.v1:pers303"
                         >Ἑλλανικὸς</persName> ἀφαιροῦνται αὐτοῦ· οἱ μέντοι γε ἀρχαῖοι καὶ
                     τὸν Κύκλον ἀναφέρουσιν εἰς αὐτόν· προστιθέασι δὲ αὐτῷ καὶ παίγνια
                     τινά· <title>Μαργίτην</title>, <title>Βατραχομαχίαν, ἠ Μυομαχίαν</title>·
@@ -163,79 +163,79 @@
             <milestone unit="page" n="4r"/>
             <div n="Iliupersis">
 
-                <p n="12"> καὶ <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσέως</persName>
-                    <persName n="urn:cite:hmt:pers.pers726">Ἀστυάνακτα</persName> ἀνελόντος
-                        <persName n="urn:cite:hmt:pers.pers796">Νεοπτόλεμος</persName>
-                    <persName n="urn:cite:hmt:pers.pers171">Ἀνδρομάχην</persName> γέρας λαμβάνει. </p>
+                <p n="12"> καὶ <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσέως</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers726">Ἀστυάνακτα</persName> ἀνελόντος
+                        <persName n="urn:cite2:hmt:pers.v1:pers796">Νεοπτόλεμος</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers171">Ἀνδρομάχην</persName> γέρας λαμβάνει. </p>
                 <p n="13"> καὶ τὰ λοιπὰ λάφυρα διανέμονται· </p>
                 <p n="14">
-                    <persName n="urn:cite:hmt:pers.pers797">Δημοφῶν</persName> δὲ καὶ <persName
-                        n="urn:cite:hmt:pers.pers798">Ἀκάμας</persName>
-                    <persName n="urn:cite:hmt:pers.pers257">Αἰθραν</persName> εὑρόντες άγουσι μεθ
+                    <persName n="urn:cite2:hmt:pers.v1:pers797">Δημοφῶν</persName> δὲ καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers798">Ἀκάμας</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers257">Αἰθραν</persName> εὑρόντες άγουσι μεθ
                     ἑαυτῶν. </p>
                 <p n="15"> ἔπειτα ἐμπρήσαντες τὴν <choice>
                         <abbr>πό</abbr>
                         <expan>πόλιν</expan>
                     </choice>
-                    <persName n="urn:cite:hmt:pers.pers799">Πολυξένην</persName> σφαγιάζουσιν ἐπὶ
-                    τὸν τοῦ <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλέως</persName> τάφον ⁑ </p>
+                    <persName n="urn:cite2:hmt:pers.v1:pers799">Πολυξένην</persName> σφαγιάζουσιν ἐπὶ
+                    τὸν τοῦ <persName n="urn:cite2:hmt:pers.v1:pers1">Ἀχιλλέως</persName> τάφον ⁑ </p>
             </div>
 
             <div n="Nostoi">
                 <head>
                     <title>Νόστων</title>
                     <num value="5">Ε</num>
-                    <persName n="urn:cite:hmt:pers.pers800">Αγιου</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers800">Αγιου</persName>
                 </head>
                 <p n="1">Συνάπτει δὲ τούτοις τὰ τῶν <title>Νόστων</title> βιβλία <num value="5"
                         >ε</num>
-                    <persName n="urn:cite:hmt:pers.pers800">Ἁγίου</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers800">Ἁγίου</persName>
                     <rs type="ethnic" n="urn:cite:hmt:place.place160">Τροιζηνίου</rs> περιέχοντα
                     τάδε. </p>
-                <p n="2"><persName n="urn:cite:hmt:pers.pers67">Ἀθηνᾶ</persName>, <persName
-                        n="urn:cite:hmt:pers.pers22">Ἀγαμέμνονα</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers119">Μενέλαον</persName>, εἰς έριν καθ' ἵστησι περι
+                <p n="2"><persName n="urn:cite2:hmt:pers.v1:pers67">Ἀθηνᾶ</persName>, <persName
+                        n="urn:cite2:hmt:pers.v1:pers22">Ἀγαμέμνονα</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers119">Μενέλαον</persName>, εἰς έριν καθ' ἵστησι περι
                     τοῦ έκπλου·</p>
-                <p n="3"><persName n="urn:cite:hmt:pers.pers22">Ἀγαμέμνον</persName> μὲν οὖν τὸν τῆς
-                        <persName n="urn:cite:hmt:pers.pers67">Αθηνᾶς</persName> ἐξιλασόμενος χόλον
+                <p n="3"><persName n="urn:cite2:hmt:pers.v1:pers22">Ἀγαμέμνον</persName> μὲν οὖν τὸν τῆς
+                        <persName n="urn:cite2:hmt:pers.v1:pers67">Αθηνᾶς</persName> ἐξιλασόμενος χόλον
                     ἐπιμένει·</p>
-                <p n="4"><persName n="urn:cite:hmt:pers.pers215">Διομήδης</persName> δὲ καὶ
-                        <persName n="urn:cite:hmt:pers.pers117">Νέστωρ</persName> ἀναχθέντες εἰς τὴν
+                <p n="4"><persName n="urn:cite2:hmt:pers.v1:pers215">Διομήδης</persName> δὲ καὶ
+                        <persName n="urn:cite2:hmt:pers.v1:pers117">Νέστωρ</persName> ἀναχθέντες εἰς τὴν
                     οἰκίαν διασώζονται·</p>
-                <p n="5">μεθ' οὓς ἐκπλεύσας ὁ <persName n="urn:cite:hmt:pers.pers119"
+                <p n="5">μεθ' οὓς ἐκπλεύσας ὁ <persName n="urn:cite2:hmt:pers.v1:pers119"
                         >Μενέλαος</persName> μετα πέντε. νεῶν εἰς <placeName
                         n="urn:cite:hmt:place.place25">Αίγυπτον</placeName> παραγίνεται· τῶν λοιπῶν
                     διαφθαρεισῶν νεῶν ἐν τῷ πελάγει· </p>
-                <p n="6">οἱ δὲ περὶ <persName n="urn:cite:hmt:pers.pers74">Κάλχαντα</persName> καὶ
-                        <persName n="urn:cite:hmt:pers.pers548">Λεοντέα</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers547">Πολυποίτην</persName> πεζῇ πορευθέντες εἰς
+                <p n="6">οἱ δὲ περὶ <persName n="urn:cite2:hmt:pers.v1:pers74">Κάλχαντα</persName> καὶ
+                        <persName n="urn:cite2:hmt:pers.v1:pers548">Λεοντέα</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers547">Πολυποίτην</persName> πεζῇ πορευθέντες εἰς
                         <placeName n="urn:cite:hmt:place.place54">Κολοφῶνα</placeName>, <persName
-                        n="urn:cite:hmt:pers.pers801">Τειρεσίαν</persName> ἐνταῦθα τελευτήσαντα
+                        n="urn:cite2:hmt:pers.v1:pers801">Τειρεσίαν</persName> ἐνταῦθα τελευτήσαντα
                     θάπτουσι·</p>
-                <p n="7">τὸν δὲ περὶ τὸν <persName n="urn:cite:hmt:pers.pers22"
-                        >Ἀγαμέμνονα</persName> ἀποπλεόντων· <persName n="urn:cite:hmt:pers.pers1"
+                <p n="7">τὸν δὲ περὶ τὸν <persName n="urn:cite2:hmt:pers.v1:pers22"
+                        >Ἀγαμέμνονα</persName> ἀποπλεόντων· <persName n="urn:cite2:hmt:pers.v1:pers1"
                         >Ἀχιλλέως</persName> είδωλον ἐπιφανὲν πειρᾶται διακωλύειν προλέγον τὰ
                     συμβησόμενα· </p>
                 <p n="8">εἶθ' ὁ περὶ τὰς <placeName n="urn:cite:hmt:place.place416"
                         >Καφηρίδας</placeName> πέτρας δηλοῦται χειμὼν. καὶ ἡ <persName
-                        n="urn:cite:hmt:pers.pers281">Αἴαντος</persName> φθορὰ τοῦ <placeName
+                        n="urn:cite2:hmt:pers.v1:pers281">Αἴαντος</persName> φθορὰ τοῦ <placeName
                         n="urn:cite:hmt:place.place269">Λοκροῦ</placeName>.</p>
-                <p n="9"><persName n="urn:cite:hmt:pers.pers796">Νεοπτόλεμος</persName> δὲ <persName
-                        n="urn:cite:hmt:pers.pers19">Θέτιδος</persName> ὑποθεμένης πεζῆ ποιεῖται τὴν
+                <p n="9"><persName n="urn:cite2:hmt:pers.v1:pers796">Νεοπτόλεμος</persName> δὲ <persName
+                        n="urn:cite2:hmt:pers.v1:pers19">Θέτιδος</persName> ὑποθεμένης πεζῆ ποιεῖται τὴν
                     πορείαν· καὶ παραγενόμενος εἰς <placeName n="urn:cite:hmt:place.place70"
                         >Θρᾴκην</placeName>
-                    <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσέα</persName> καταλαμβάνει ἐν τῇ
+                    <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσέα</persName> καταλαμβάνει ἐν τῇ
                         <placeName n="urn:cite:hmt:place.place223">Μαρωνείᾳ</placeName> καὶ τὸ
-                    λοιπὸν ἀνύει τῆς οδοῦ· καὶ τελευτήσαντα <persName n="urn:cite:hmt:pers.pers405"
+                    λοιπὸν ἀνύει τῆς οδοῦ· καὶ τελευτήσαντα <persName n="urn:cite2:hmt:pers.v1:pers405"
                         >Φοίνικα</persName> θάπτει· αὐτὸς δὲ εἰς <rs type="ethnic"
-                        n="urn:cite:hmt:pers.pers802">Μολοσσοὺς</rs> ἀφικόμενος ἀναγνωρίζεται
-                        <persName n="urn:cite:hmt:pers.pers184">Πηλεῖ</persName></p>
-                <p n="10">τὰ <persName n="urn:cite:hmt:pers.pers22">Ἀγαμέμνονος</persName> ὑπὸ
-                        <persName n="urn:cite:hmt:pers.pers27">Αιγίσθου</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers29">Κλυταιμήστρας</persName> ἀναιρεθέντος ὑπ'
-                        <persName n="urn:cite:hmt:pers.pers30">Ὀρέστου</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers803">Πυλάδου</persName> τιμωρία καὶ <persName
-                        n="urn:cite:hmt:pers.pers119">Μενελάου</persName> εἰς τὴν οἰκίαν ἀνακομιδή ⁑
+                        n="urn:cite2:hmt:pers.v1:pers802">Μολοσσοὺς</rs> ἀφικόμενος ἀναγνωρίζεται
+                        <persName n="urn:cite2:hmt:pers.v1:pers184">Πηλεῖ</persName></p>
+                <p n="10">τὰ <persName n="urn:cite2:hmt:pers.v1:pers22">Ἀγαμέμνονος</persName> ὑπὸ
+                        <persName n="urn:cite2:hmt:pers.v1:pers27">Αιγίσθου</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers29">Κλυταιμήστρας</persName> ἀναιρεθέντος ὑπ'
+                        <persName n="urn:cite2:hmt:pers.v1:pers30">Ὀρέστου</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers803">Πυλάδου</persName> τιμωρία καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers119">Μενελάου</persName> εἰς τὴν οἰκίαν ἀνακομιδή ⁑
                 </p>
             </div>
 
@@ -245,62 +245,62 @@
                 <head>
                     <title>Τηλεγονίας</title>
                     <num value="2">Β</num>
-                    <persName n="urn:cite:hmt:pers.pers804">Εὐγάμμωνος</persName>: </head>
-                <p n="1">Μετὰ ταῦτα ἐστὶν <persName n="urn:cite:hmt:pers.pers17"
+                    <persName n="urn:cite2:hmt:pers.v1:pers804">Εὐγάμμωνος</persName>: </head>
+                <p n="1">Μετὰ ταῦτα ἐστὶν <persName n="urn:cite2:hmt:pers.v1:pers17"
                         >Ὁμήρου</persName>
                     <title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg002"
                         >Ὀδύσσεια</ref></title>. <sic>᾿ἔπειτα</sic>
-                    <title>Τηλεγονίας</title> βιβλία δύο <persName n="urn:cite:hmt:pers.pers804"
+                    <title>Τηλεγονίας</title> βιβλία δύο <persName n="urn:cite2:hmt:pers.v1:pers804"
                         >Εὐγάμμωνος</persName>
                     <rs type="ethnic" n="urn:cite:hmt:place.place417">Κυριναίου</rs> περιέχοντα
                     τάδε·</p>
                 <p n="2">οἱ μνήστορες ὑπο τῶν προσηκόντων θάπτονται· </p>
-                <p n="3">καὶ <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσεὺς</persName> θύσας
+                <p n="3">καὶ <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσεὺς</persName> θύσας
                     νύμφαις εἰς <placeName n="urn:cite:hmt:place.place65">῀Ηλιν</placeName>
                     ἀποπλεῖ ἐπισκεψόμενος τὰ βουκόλια· καὶ ξενίζεται παρα <persName
-                        n="urn:cite:hmt:pers.pers733">Πολυξένῳ</persName> δῶρον τὲ λαμβάνει
-                    κρατῆρα καὶ ἐπι τούτῳ τὰ περι <persName n="urn:cite:hmt:pers.pers246"
-                        >Τροφώνιον</persName> καὶ <persName n="urn:cite:hmt:pers.pers805"
-                        >Ἀγαμήδην</persName>. καὶ <persName n="urn:cite:hmt:pers.pers594"
+                        n="urn:cite2:hmt:pers.v1:pers733">Πολυξένῳ</persName> δῶρον τὲ λαμβάνει
+                    κρατῆρα καὶ ἐπι τούτῳ τὰ περι <persName n="urn:cite2:hmt:pers.v1:pers246"
+                        >Τροφώνιον</persName> καὶ <persName n="urn:cite2:hmt:pers.v1:pers805"
+                        >Ἀγαμήδην</persName>. καὶ <persName n="urn:cite2:hmt:pers.v1:pers594"
                         >Αυγεαν</persName>·</p>
                 <p n="4">ἔπειτα εἰς <placeName n="urn:cite:hmt:place.place63">Ϊθάκην</placeName>
-                    καταπλεύσας τὰς ὑπὸ <persName n="urn:cite:hmt:pers.pers801"
+                    καταπλεύσας τὰς ὑπὸ <persName n="urn:cite2:hmt:pers.v1:pers801"
                         >Τειρεσίου</persName> ῥηθείσας τελεῖ θυσίας </p>
                 <p n="5">καὶ μετὰ ταῦτα εἰς <rs type="ethnic" n="place73">Θεσπρωτοὺς</rs>
-                    ἀφικνεῖται καὶ γαμεῖ <persName n="urn:cite:hmt:pers.pers806"
+                    ἀφικνεῖται καὶ γαμεῖ <persName n="urn:cite2:hmt:pers.v1:pers806"
                         >Καλλιδίκην</persName> βασιλίδα τῶν <rs type="ethnic"
                         n="urn:cite:hmt:place.place73">Θεσπρωτῶν</rs>·</p>
                 <p n="6">ἔπειτα πόλεμος συνίσταται τοῖς <rs type="ethnic"
                         n="urn:cite:hmt:place.place73">Θεσπρωτοῖς</rs> προς <rs type="ethnic"
                         n="urn:cite:hmt:place.place418">Βρυγοὺς</rs>
-                    <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσέως</persName> ἡγουμένου·
-                    ἐνταῦθα <persName n="urn:cite:hmt:pers.pers83">Ἄρης</persName> τοὺς περι
-                    τὸν <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσέα</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσέως</persName> ἡγουμένου·
+                    ἐνταῦθα <persName n="urn:cite2:hmt:pers.v1:pers83">Ἄρης</persName> τοὺς περι
+                    τὸν <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσέα</persName>
                     <w>τρέ<milestone unit="page" n="4v"/>πεται</w>. καὶ αὐτῷ εἰς μάχην
-                        <persName n="urn:cite:hmt:pers.pers67">Ἀθηνᾶ</persName> καθίσταται·
-                    τούτους μὲν <persName n="urn:cite:hmt:pers.pers40">Ἀπόλλων</persName>
+                        <persName n="urn:cite2:hmt:pers.v1:pers67">Ἀθηνᾶ</persName> καθίσταται·
+                    τούτους μὲν <persName n="urn:cite2:hmt:pers.v1:pers40">Ἀπόλλων</persName>
                     διαλύει·</p>
-                <p n="7">μετὰ δὲ τὴν <persName n="urn:cite:hmt:pers.pers806"
+                <p n="7">μετὰ δὲ τὴν <persName n="urn:cite2:hmt:pers.v1:pers806"
                         >Καλλιδίκης</persName> τελευτὴν. τὴν μὲν βασιλείαν διαδέχεται
-                        <persName n="urn:cite:hmt:pers.pers807">Πολυποίτης</persName>
-                    <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσέως</persName> υἱός. αὐτὸς δ'
+                        <persName n="urn:cite2:hmt:pers.v1:pers807">Πολυποίτης</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσέως</persName> υἱός. αὐτὸς δ'
                     εἰς <placeName n="urn:cite:hmt:place.place63">Ἰθάκην</placeName>
                     ἀφικνεῖται· </p>
-                <p n="8">καν τούτῳ <persName n="urn:cite:hmt:pers.pers808">Τηλεγόμενος</persName>
+                <p n="8">καν τούτῳ <persName n="urn:cite2:hmt:pers.v1:pers808">Τηλεγόμενος</persName>
                     ἐπι ζήτησιν τοῦ πατρὸς πλέων· ἀποβὰς εἰς τὴν <placeName
                         n="urn:cite:hmt:place.place63">Ἰθάκην</placeName> τέμνει τὴν νῆσον·
-                    ἐκβοηθήσας δ' <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσεὺς</persName>
+                    ἐκβοηθήσας δ' <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσεὺς</persName>
                     ὑπὸ τοῦ παιδὸς ἀναιρεῖται κατ' άγνοιαν·</p>
                 <p n="9">
-                    <persName n="urn:cite:hmt:pers.pers808">Τηλέγονος</persName> δ' ἐπιγνοὺς τὴν
+                    <persName n="urn:cite2:hmt:pers.v1:pers808">Τηλέγονος</persName> δ' ἐπιγνοὺς τὴν
                     ἁμαρτίαν, τό τε τοῦ πατρὸς σῶμα καὶ τὸν <persName
-                        n="urn:cite:hmt:pers.pers271">Τηλέμαχον</persName> καὶ τὴν <persName
-                        n="urn:cite:hmt:pers.pers284">Πηνελόπην</persName> προς τὴν μητέρα
+                        n="urn:cite2:hmt:pers.v1:pers271">Τηλέμαχον</persName> καὶ τὴν <persName
+                        n="urn:cite2:hmt:pers.v1:pers284">Πηνελόπην</persName> προς τὴν μητέρα
                     μεθίστησιν· ἡ δὲ αὐτοὺς ἀθανάτους ποιεῖ καὶ συνοικεῖ, τὴν μὲν
-                        <persName n="urn:cite:hmt:pers.pers284">Πηνελόπην</persName>, <persName
-                        n="urn:cite:hmt:pers.pers808">Τηλέγονος</persName>, <persName
-                        n="urn:cite:hmt:pers.pers96">Κίρκην</persName> δὲ <persName
-                        n="urn:cite:hmt:pers.pers271">Τηλέμαχος</persName> ⁑ </p>
+                        <persName n="urn:cite2:hmt:pers.v1:pers284">Πηνελόπην</persName>, <persName
+                        n="urn:cite2:hmt:pers.v1:pers808">Τηλέγονος</persName>, <persName
+                        n="urn:cite2:hmt:pers.v1:pers96">Κίρκην</persName> δὲ <persName
+                        n="urn:cite2:hmt:pers.v1:pers271">Τηλέμαχος</persName> ⁑ </p>
             </div>
             <!-- patches of text visible underneath painting -->
             <milestone unit="page" n="5r"/>
@@ -310,7 +310,7 @@
             <milestone unit="page" n="6r"/>
             <div n="Aithiopis">
 
-                <head><persName n="urn:cite:hmt:pers.pers780">Πρόκλου</persName>
+                <head><persName n="urn:cite2:hmt:pers.v1:pers780">Πρόκλου</persName>
                     <title>χρηστομαθίας</title> γραμματικῆς τὸ <choice>
                         <abbr>δεύτερον</abbr>
                     </choice></head>
@@ -318,115 +318,115 @@
                 <head n="title">
                     <title>Αιθιόπιδος</title>
                     <num value="5">ε</num>
-                    <persName n="urn:cite:hmt:pers.pers809">Ἀρκτίνου</persName> ⁑</head>
+                    <persName n="urn:cite2:hmt:pers.v1:pers809">Ἀρκτίνου</persName> ⁑</head>
 
                 <p n="1"> Ἐπιβάλλει δὲ τοῖς προειρημένοις ἐν τῇ προ ταύτης βίβλῳ
                             <title><ref type="urn" n="urn:cts:greekLit:tlg0012.tlg001"
                         >Ἰλιὰς</ref></title>
-                    <persName n="urn:cite:hmt:pers.pers17">Ὁμήρου</persName>· μεθ' ἥν ἐστιν
+                    <persName n="urn:cite2:hmt:pers.v1:pers17">Ὁμήρου</persName>· μεθ' ἥν ἐστιν
                         <title>Αἰθιόπιδος</title> βιβλία <num value="5">ε</num>
-                    <persName n="urn:cite:hmt:pers.pers809">Ἀρκτίνου</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers809">Ἀρκτίνου</persName>
                     <rs type="ethnic" n="urn:cite:hmt:place.place120">Μιλησίου</rs> περιέχοντα
                     τάδε·</p>
                 <p n="2">
                     <sic>Ἁμαζὼν</sic>
-                    <persName n="urn:cite:hmt:pers.pers331">Πενθεσίλεια</persName> παραγίνεται <rs
+                    <persName n="urn:cite2:hmt:pers.v1:pers331">Πενθεσίλεια</persName> παραγίνεται <rs
                         type="ethnic" n="urn:cite:hmt:place.place6">Τρωσὶ</rs> συμμαχήσουσα·
-                        <persName n="urn:cite:hmt:pers.pers83">Άρεως</persName> μὲν θυγάτηρ Θράσα
+                        <persName n="urn:cite2:hmt:pers.v1:pers83">Άρεως</persName> μὲν θυγάτηρ Θράσα
                     δὲ τὸ γένος· καὶ κτείνει αὐτὴν ἀριστεύουσαν <persName
-                        n="urn:cite:hmt:pers.pers1">Ἀχιλλεύς</persName>· οἱ δὲ <rs type="ethnic"
+                        n="urn:cite2:hmt:pers.v1:pers1">Ἀχιλλεύς</persName>· οἱ δὲ <rs type="ethnic"
                         n="urn:cite:hmt:place.place6">Τρῶες</rs> αὐτὴν θάπτουσι. </p>
-                <p n="3">καὶ <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλεὺς</persName>
-                    <persName n="urn:cite:hmt:pers.pers310">Θερσίτην</persName> ἀναιρεῖ
+                <p n="3">καὶ <persName n="urn:cite2:hmt:pers.v1:pers1">Ἀχιλλεὺς</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers310">Θερσίτην</persName> ἀναιρεῖ
                     λοιδορηθεὶς προς αὐτοῦ καὶ ὀνειδισθεὶς τὸν ἐπὶ τῇ <persName
-                        n="urn:cite:hmt:pers.pers331">Πενθεσιλείᾳ</persName> λεγόμενον ἔρωτα·
+                        n="urn:cite2:hmt:pers.v1:pers331">Πενθεσιλείᾳ</persName> λεγόμενον ἔρωτα·
                     καὶ ἐκ τούτου στάσις γίνεται τοῖς <rs type="ethnic"
                         n="urn:cite:hmt:place.place97">Ἀχαιοῖς</rs> περι τοῦ <persName
-                        n="urn:cite:hmt:pers.pers310">Θερσίτου</persName> φόνου·</p>
-                <p n="4">μετὰ δὲ ταῦτα. <persName n="urn:cite:hmt:pers.pers1"
+                        n="urn:cite2:hmt:pers.v1:pers310">Θερσίτου</persName> φόνου·</p>
+                <p n="4">μετὰ δὲ ταῦτα. <persName n="urn:cite2:hmt:pers.v1:pers1"
                         >Ἀχιλλεὺς</persName> εἰς <placeName n="urn:cite:hmt:place.place13"
                         >Λέσβον</placeName> πλεῖ, καὶ θύσας <persName
-                        n="urn:cite:hmt:pers.pers40">Ἀπόλλωνι</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers39">Ἀρτέμιδι</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers35">Λητοῖ</persName> καθαίρεται τοῦ φόνου ὑπ'
-                        <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσέως</persName>·</p>
+                        n="urn:cite2:hmt:pers.v1:pers40">Ἀπόλλωνι</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers39">Ἀρτέμιδι</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers35">Λητοῖ</persName> καθαίρεται τοῦ φόνου ὑπ'
+                        <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσέως</persName>·</p>
                 <p n="5">
-                    <persName n="urn:cite:hmt:pers.pers177">Μέμνων</persName> δὲ ὁ <persName
-                        n="urn:cite:hmt:pers.pers286">Ἡοῦς</persName> υἱὸς ἔχων
+                    <persName n="urn:cite2:hmt:pers.v1:pers177">Μέμνων</persName> δὲ ὁ <persName
+                        n="urn:cite2:hmt:pers.v1:pers286">Ἡοῦς</persName> υἱὸς ἔχων
                     ἡφαιστότευκτον πανοπλίαν· παραγίνεται τοῖς <rs type="ethnic"
                         n="urn:cite:hmt:place.place6">Τρωσὶ</rs> βοηθήσων καὶ <persName
-                        n="urn:cite:hmt:pers.pers19">Θέτις</persName> τῷ παιδὶ, τὰ κατα τὸν
-                        <persName n="urn:cite:hmt:pers.pers177">Μέμνονα</persName> προλέγει·</p>
-                <p n="6">καὶ συμβολῆς γενομένης, <persName n="urn:cite:hmt:pers.pers712"
-                        >Ἀντίλοχος</persName> ὑπο <persName n="urn:cite:hmt:pers.pers177"
+                        n="urn:cite2:hmt:pers.v1:pers19">Θέτις</persName> τῷ παιδὶ, τὰ κατα τὸν
+                        <persName n="urn:cite2:hmt:pers.v1:pers177">Μέμνονα</persName> προλέγει·</p>
+                <p n="6">καὶ συμβολῆς γενομένης, <persName n="urn:cite2:hmt:pers.v1:pers712"
+                        >Ἀντίλοχος</persName> ὑπο <persName n="urn:cite2:hmt:pers.v1:pers177"
                         >Μέμνονος</persName> ἀναιρεῖται· ἔπειτα <persName
-                        n="urn:cite:hmt:pers.pers1">Ἀχιλλεὺς</persName>
-                    <persName n="urn:cite:hmt:pers.pers177">Μέμνονα</persName> κτείνει καὶ
-                    τούτῳ μὲν <persName n="urn:cite:hmt:pers.pers286">Ἡὼς</persName> παρὰ
-                        <persName n="urn:cite:hmt:pers.pers8">Διὸς</persName> αἰτησαμένη
+                        n="urn:cite2:hmt:pers.v1:pers1">Ἀχιλλεὺς</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers177">Μέμνονα</persName> κτείνει καὶ
+                    τούτῳ μὲν <persName n="urn:cite2:hmt:pers.v1:pers286">Ἡὼς</persName> παρὰ
+                        <persName n="urn:cite2:hmt:pers.v1:pers8">Διὸς</persName> αἰτησαμένη
                     ἀθανασίαν δίδωσι·</p>
-                <p n="7">τρεψάμενος δ' <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλεὺς</persName>
+                <p n="7">τρεψάμενος δ' <persName n="urn:cite2:hmt:pers.v1:pers1">Ἀχιλλεὺς</persName>
                     τοὺς <rs type="ethnic" n="urn:cite:hmt:place.place6">Τρῶας</rs>, καὶ εἰς
-                    τὴν πόλιν συνεισπεσὼν, ὑπο <persName n="urn:cite:hmt:pers.pers129"
+                    τὴν πόλιν συνεισπεσὼν, ὑπο <persName n="urn:cite2:hmt:pers.v1:pers129"
                         >Πάριδος</persName> ἀναιρεῖται καὶ <persName
-                        n="urn:cite:hmt:pers.pers40">Ἀπόλλωνος</persName>· καὶ περι τοῦ
-                    πτώματος γενομένης ἰσχυρᾶς μάχης, <persName n="urn:cite:hmt:pers.pers127"
+                        n="urn:cite2:hmt:pers.v1:pers40">Ἀπόλλωνος</persName>· καὶ περι τοῦ
+                    πτώματος γενομένης ἰσχυρᾶς μάχης, <persName n="urn:cite2:hmt:pers.v1:pers127"
                         >Αἴας</persName> ἀνελόμενος, ἐπι τὰς ναῦς κομίζει, <persName
-                        n="urn:cite:hmt:pers.pers118">Ὀδυσσέως</persName> ἀπομαχομένου τοῖς <rs
+                        n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσέως</persName> ἀπομαχομένου τοῖς <rs
                         type="ethnic" n="urn:cite:hmt:place.place6"><choice>
                             <sic>Τρωσὶν</sic>
                             <corr>Τρωσίν</corr>
                         </choice></rs>·</p>
-                <p n="8">ἔπειτα <persName n="urn:cite:hmt:pers.pers712">Ἀντίλοχόν</persName> τε
-                    θάπτουσι καὶ τὸν νεκρὸν τοῦ <persName n="urn:cite:hmt:pers.pers1"
+                <p n="8">ἔπειτα <persName n="urn:cite2:hmt:pers.v1:pers712">Ἀντίλοχόν</persName> τε
+                    θάπτουσι καὶ τὸν νεκρὸν τοῦ <persName n="urn:cite2:hmt:pers.v1:pers1"
                         >Ἀχιλλέως</persName> προτίθενται·</p>
-                <p n="9">καὶ <persName n="urn:cite:hmt:pers.pers19">Θέτις</persName> ἀφικομένη
+                <p n="9">καὶ <persName n="urn:cite2:hmt:pers.v1:pers19">Θέτις</persName> ἀφικομένη
                     σῦν Μούσαις καὶ ταῖς ἀδελφαῖς θρηνεῖ τὸν <sic>παίδα</sic>· καὶ μετα
-                    ταῦτα ἐκ τῆς πυρᾶς ἡ <persName n="urn:cite:hmt:pers.pers19"
+                    ταῦτα ἐκ τῆς πυρᾶς ἡ <persName n="urn:cite2:hmt:pers.v1:pers19"
                         >Θέτις</persName> ἀναρπάσασα τὸν παῖδα εἰς τὴν <placeName
                         n="urn:cite:hmt:place.place419">Λευκὴν</placeName> νῆσον διακομίζει·</p>
                 <p n="10">οἱ δὲ <rs type="ethnic" n="urn:cite:hmt:place.place96">Ἀχαιοὶ</rs>
                     τὸν τάφον χώσαντες ἀγῶνα τιθέασι· καὶ περι τῶν <persName
-                        n="urn:cite:hmt:pers.pers1">Ἀχιλλέως</persName> ὅπλων. <persName
-                        n="urn:cite:hmt:pers.pers118">Ὀδυσσεῖ</persName> καὶ <persName
-                        n="urn:cite:hmt:pers.pers127">Αἴαντι</persName>. στάσις ἐμπίπτει ⁑</p>
+                        n="urn:cite2:hmt:pers.v1:pers1">Ἀχιλλέως</persName> ὅπλων. <persName
+                        n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσεῖ</persName> καὶ <persName
+                        n="urn:cite2:hmt:pers.v1:pers127">Αἴαντι</persName>. στάσις ἐμπίπτει ⁑</p>
             </div>
 
             <div n="Iliasparva">
                 <head>
                     <title>Ἰλιάδος μικρᾶς</title>
                     <num value="4">Δ</num>
-                    <persName n="urn:cite:hmt:pers.pers810">Λέσχεω</persName>·</head>
+                    <persName n="urn:cite2:hmt:pers.v1:pers810">Λέσχεω</persName>·</head>
                 <p n="1">Ἑξῆς δ' ἐστὶν <title>Ἰλιάδος μικρᾶς</title> βιβλία τέσσαρα·
-                        <persName n="urn:cite:hmt:pers.pers810">Λέσχεω</persName>
+                        <persName n="urn:cite2:hmt:pers.v1:pers810">Λέσχεω</persName>
                     <rs type="ethnic" n="urn:cite:hmt:place.place420">Μιτυληναίου</rs> περιέχον
                     τάδε.</p>
-                <p n="2">Ἡ τῶν όπλων κρίσις γίνεται καὶ <persName n="urn:cite:hmt:pers.pers118"
+                <p n="2">Ἡ τῶν όπλων κρίσις γίνεται καὶ <persName n="urn:cite2:hmt:pers.v1:pers118"
                         >Ὀδυσσεὺς</persName>, κατὰ βούλησιν <persName
-                        n="urn:cite:hmt:pers.pers67">Ἀθηνᾶς</persName> λαμβάνει· <persName
-                        n="urn:cite:hmt:pers.pers127">Αἴας</persName> δ' ἐμμανὴς γενόμενος τὴν
+                        n="urn:cite2:hmt:pers.v1:pers67">Ἀθηνᾶς</persName> λαμβάνει· <persName
+                        n="urn:cite2:hmt:pers.v1:pers127">Αἴας</persName> δ' ἐμμανὴς γενόμενος τὴν
                     τε λείαν τῶν <rs type="ethnic" n="urn:cite:hmt:place.place96">Ἀχαιῶν</rs>
                     <choice>
                         <sic>λύμαινεται</sic>
                         <corr>λυμαίνεται</corr>
                     </choice>· καὶ ἑαυτὸν ἀναιρεῖ. </p>
-                <p n="3">μετα ταῦτα. <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσεὺς</persName>
-                    λοχήσας <persName n="urn:cite:hmt:pers.pers507">Ἔλενον</persName> λαμβάνει.
+                <p n="3">μετα ταῦτα. <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσεὺς</persName>
+                    λοχήσας <persName n="urn:cite2:hmt:pers.v1:pers507">Ἔλενον</persName> λαμβάνει.
                     καὶ χρήσαντος περὶ τῆς ἁλώσεως τούτου <persName
-                        n="urn:cite:hmt:pers.pers215">Διομήδης</persName> ἐκ <placeName
+                        n="urn:cite2:hmt:pers.v1:pers215">Διομήδης</persName> ἐκ <placeName
                         n="urn:cite:hmt:place.place69">Λήμνου</placeName>
-                    <persName n="urn:cite:hmt:pers.pers291">Φιλόκτητον</persName> ἀνάγει· ἰαθεὶς
-                    δὲ οὗτος ὑπο <persName n="urn:cite:hmt:pers.pers89">Μαχάονος</persName>
-                    καὶ μονομαχήσας <persName n="urn:cite:hmt:pers.pers129"
+                    <persName n="urn:cite2:hmt:pers.v1:pers291">Φιλόκτητον</persName> ἀνάγει· ἰαθεὶς
+                    δὲ οὗτος ὑπο <persName n="urn:cite2:hmt:pers.v1:pers89">Μαχάονος</persName>
+                    καὶ μονομαχήσας <persName n="urn:cite2:hmt:pers.v1:pers129"
                         >Ἀλεξάνδρῳ</persName> κτείνει· καὶ τὸν νεκρὸν ὑπο <persName
-                        n="urn:cite:hmt:pers.pers119">Μενελάου</persName> καταικισθέντα
+                        n="urn:cite2:hmt:pers.v1:pers119">Μενελάου</persName> καταικισθέντα
                     ἀνελόμενοι, θάπτουσιν οἱ <rs type="ethnic" n="urn:cite:hmt:place.place6"
                         >Τρῶες</rs>· </p>
-                <p n="4">μετὰ δὲ ταῦτα <persName n="urn:cite:hmt:pers.pers508"
+                <p n="4">μετὰ δὲ ταῦτα <persName n="urn:cite2:hmt:pers.v1:pers508"
                         >Διήφοβος</persName>
-                    <persName n="urn:cite:hmt:pers.pers94">Ἑλένην</persName> γαμεῖ· </p>
-                <p n="5">καὶ <persName n="urn:cite:hmt:pers.pers796">Νεοπτόλεμον</persName>
-                    <persName n="urn:cite:hmt:pers.pers118">Ὀδυσσεὺς</persName> ἐκ <placeName
+                    <persName n="urn:cite2:hmt:pers.v1:pers94">Ἑλένην</persName> γαμεῖ· </p>
+                <p n="5">καὶ <persName n="urn:cite2:hmt:pers.v1:pers796">Νεοπτόλεμον</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσεὺς</persName> ἐκ <placeName
                         n="urn:cite:hmt:place.place61">Σκύρου</placeName>
                     <choice>
                         <sic>ἀγαγῶ̀ν</sic>
@@ -434,29 +434,29 @@
                     </choice> τὰ ὅπλα δίδωσι τὰ τοῦ <choice>
                         <abbr>πρς</abbr>
                         <expan>πατρός</expan>
-                    </choice>· καὶ <persName n="urn:cite:hmt:pers.pers1">Ἀχιλλεὺς</persName>,
+                    </choice>· καὶ <persName n="urn:cite2:hmt:pers.v1:pers1">Ἀχιλλεὺς</persName>,
                     αὐτῷ φαντάζεται·</p>
-                <p n="6"><persName n="urn:cite:hmt:pers.pers249">Εὐρύπυλος</persName> δὲ ὁ
-                        <persName n="urn:cite:hmt:pers.pers70">Τηλέφου</persName>.<milestone
+                <p n="6"><persName n="urn:cite2:hmt:pers.v1:pers249">Εὐρύπυλος</persName> δὲ ὁ
+                        <persName n="urn:cite2:hmt:pers.v1:pers70">Τηλέφου</persName>.<milestone
                         unit="page" n="6v"/> ἐπίκουρος τοῖς <rs type="ethnic"
                         n="urn:cite:hmt:place.place6">Τρωσὶ</rs> παραγίνεται· καὶ <choice>
                         <sic>ἀριστευοντὰ</sic>
                         <corr>ἀριστεύοντα</corr>
-                    </choice> αὐτὸν ἀποκτείνει <persName n="urn:cite:hmt:pers.pers796"
+                    </choice> αὐτὸν ἀποκτείνει <persName n="urn:cite2:hmt:pers.v1:pers796"
                         >Νεοπτόλεμος</persName>·</p>
                 <p n="7">καὶ οἱ <rs type="ethnic" n="urn:cite:hmt:place.place6">Τρῶες</rs>
                     πολιορκοῦνται·</p>
-                <p n="8">καὶ <persName n="urn:cite:hmt:pers.pers289">Ἐπειὸς</persName> κατ'
-                        <persName n="urn:cite:hmt:pers.pers67">Ἀθηνᾶς</persName> προαίρεσιν τὸν
+                <p n="8">καὶ <persName n="urn:cite2:hmt:pers.v1:pers289">Ἐπειὸς</persName> κατ'
+                        <persName n="urn:cite2:hmt:pers.v1:pers67">Ἀθηνᾶς</persName> προαίρεσιν τὸν
                     δούρειον ἵππον κατασκευάζει·</p>
-                <p n="9"><persName n="urn:cite:hmt:pers.pers118">Ὀδυσσεύς</persName> τε
+                <p n="9"><persName n="urn:cite2:hmt:pers.v1:pers118">Ὀδυσσεύς</persName> τε
                     αἰκισάμενος ἑαυτὸν. κατάσκοπος εἰς <placeName
                         n="urn:cite:hmt:place.place6">Ἴλιον</placeName> παραγίνεται· καὶ
-                    ἀναγνωρισθεὶς ὑφ' <persName n="urn:cite:hmt:pers.pers94">Ἑλένης</persName>,
+                    ἀναγνωρισθεὶς ὑφ' <persName n="urn:cite2:hmt:pers.v1:pers94">Ἑλένης</persName>,
                     περι τῆς ἁλώσεως τῆς πόλεως συντίθεται· κτείνας τὲ τινὰς τῶν <rs
                         type="ethnic" n="urn:cite:hmt:place.place6">Τρώων</rs> ἐπὶ τὰς ναῦς
                     ἀφικνεῖται·</p>
-                <p n="10">καὶ μετὰ ταῦτα, συν <persName n="urn:cite:hmt:pers.pers215"
+                <p n="10">καὶ μετὰ ταῦτα, συν <persName n="urn:cite2:hmt:pers.v1:pers215"
                         >Διομήδει</persName> τὸ παλλάδιον ἐκκομίζει ἐκ τῆς <placeName
                         n="urn:cite:hmt:place.place6">Ἰλίου</placeName>. ἔπειτα εἰς τὸν
                     δούρειον ἵππον τοὺς ἀρίστους ἐμβιβάσαντες, τάς τε σκηνὰς
@@ -477,54 +477,54 @@
                 <head><title><placeName n="urn:cite:hmt:place.place6">Ἰλίου</placeName>
                         περσίδος</title>
                     <num value="2">Β</num>
-                    <persName n="urn:cite:hmt:pers.pers809">Ἀρκτίνου</persName></head>
+                    <persName n="urn:cite2:hmt:pers.v1:pers809">Ἀρκτίνου</persName></head>
                 <p n="1"> Ἕπεται δὲ τούτοις <title><placeName n="urn:cite:hmt:place.place6"
                             >Ἰλίου</placeName>, περσίδος</title> βιβλία <num value="2">β</num>
-                    <persName n="urn:cite:hmt:pers.pers809">Ἀρκτίνου</persName>
+                    <persName n="urn:cite2:hmt:pers.v1:pers809">Ἀρκτίνου</persName>
                     <rs type="ethnic" n="uen:cite:hmt:place.place120">Μιλησίου</rs> περιέχοντα
                     τάδε. </p>
                 <p n="2">ὡς τὰ περι τὸν ἵππον οἱ <rs type="ethnic"
                         n="urn:cite:hmt:place.place6">Τρῶες</rs> ὑπόπτως ἔχοντες. περιστάντες
                     βουλεύονται ὅ, τι χρὴ ποιεῖν· καὶ τοῖς μὲν δοκεῖ κατακρημνίσαι
                     αὐτόν, τοῖς δὲ καταφλέγειν, οἱ δὲ ἱερὸν αὐτὸν ἔφασαν δεῖν τῇ
-                        <persName n="urn:cite:hmt:pers.pers67">Ἀθηνᾷ</persName> ἀνατεθῆναι·
+                        <persName n="urn:cite2:hmt:pers.v1:pers67">Ἀθηνᾷ</persName> ἀνατεθῆναι·
                     καὶ τέλος, νικᾷ ἡ τούτων γνώμη· </p>
                 <p n="3">τραπέντες δὲ εἰς εὐφροσύνην εὐωχοῦνται· ὡς ἀπηλλαγμένοι τοῦ
                     πολέμου.</p>
                 <p n="4">ἐν αὐτῷ δὲ τ' <gap></gap> δύο δράκοντες ἐπιφανέντες τόν τε <persName
-                        n="urn:cite:hmt:pers.pers811">Λαοκόωντα</persName> καὶ τὸν ἕτερον τῶν
+                        n="urn:cite2:hmt:pers.v1:pers811">Λαοκόωντα</persName> καὶ τὸν ἕτερον τῶν
                     παίδων διαφθείρουσιν. </p>
                 <p n="5">ἐπι δὲ τῷ τέρατι δυσφορήσαντες οἱ περὶ τὸν <persName
-                        n="urn:cite:hmt:pers.pers142">Αἰνείαν</persName> ὑπεξῆλθον εἰς τὴν
+                        n="urn:cite2:hmt:pers.v1:pers142">Αἰνείαν</persName> ὑπεξῆλθον εἰς τὴν
                         <placeName n="urn:cit:hmt:place.place89">Ί̈δην</placeName></p>
-                <p n="6">καὶ <persName n="urn:cite:hmt:pers.pers812">Σίνων</persName> τοὺς
+                <p n="6">καὶ <persName n="urn:cite2:hmt:pers.v1:pers812">Σίνων</persName> τοὺς
                     πυρσοὺς ἀνίσχει τοῖς <rs type="ethnic" n="urn:cite:hmt:place.place96"
                         >Ἀχαιοῖς</rs> πρότερον εἰσεληλυθὼς προσποίητος·</p>
                 <p n="7">οἱ δὲ ἐκ <placeName n="urn:cite:hmt:place.place14">Τενέδου</placeName>
                     προσπλεύσαντες καὶ οἱ ἐκ τοῦ δουρείου ἵππου ἐπιπίπτουσι τοῖς
                     πολεμίοις· καὶ πολλοὺς ἀνελόντες τὴν πόλιν κατὰ κράτος λαμβάνουσι.</p>
-                <p n="8">καὶ <persName n="urn:cite:hmt:pers.pers796">Νεοπτόλεμος</persName> μὲν
-                    ἀποκτείνει <persName n="urn:cite:hmt:pers.pers145"><choice>
+                <p n="8">καὶ <persName n="urn:cite2:hmt:pers.v1:pers796">Νεοπτόλεμος</persName> μὲν
+                    ἀποκτείνει <persName n="urn:cite2:hmt:pers.v1:pers145"><choice>
                             <sic>Πριάμον</sic>
                             <corr>Πρίαμον</corr>
-                        </choice></persName> ἐπι τὸν τοῦ <persName n="urn:cite:hmt:pers.pers8"
+                        </choice></persName> ἐπι τὸν τοῦ <persName n="urn:cite2:hmt:pers.v1:pers8"
                         >Διὸς</persName> τοῦ ερκείου βωμὸν καταφυγόντα·</p>
-                <p n="9"><persName n="urn:cite:hmt:pers.pers119">Μενέλαος</persName> δὲ ἀνευρὼν
-                        <persName n="urn:cite:hmt:pers.pers507">Ἔλενον</persName>, ἐπὶ τὰς ναῦς
-                    κατάγει <persName n="urn:cite:hmt:pers.pers508">Δηΐφοβον</persName>
+                <p n="9"><persName n="urn:cite2:hmt:pers.v1:pers119">Μενέλαος</persName> δὲ ἀνευρὼν
+                        <persName n="urn:cite2:hmt:pers.v1:pers507">Ἔλενον</persName>, ἐπὶ τὰς ναῦς
+                    κατάγει <persName n="urn:cite2:hmt:pers.v1:pers508">Δηΐφοβον</persName>
                     φονεύσας·</p>
-                <p n="10"><persName n="urn:cite:hmt:pers.pers813">Κασσάνδραν</persName> δὲ
-                        <persName n="urn:cite:hmt:pers.pers281">Αἴας</persName> ὁ <persName
-                        n="urn:cite:hmt:pers.pers150">Ἰ̈λέως</persName> πρὸς βίαν ἀποσπῶν.
-                    συνεφέλκεται τὸ τῆς <persName n="urn:cite:hmt:pers.pers67"
+                <p n="10"><persName n="urn:cite2:hmt:pers.v1:pers813">Κασσάνδραν</persName> δὲ
+                        <persName n="urn:cite2:hmt:pers.v1:pers281">Αἴας</persName> ὁ <persName
+                        n="urn:cite2:hmt:pers.v1:pers150">Ἰ̈λέως</persName> πρὸς βίαν ἀποσπῶν.
+                    συνεφέλκεται τὸ τῆς <persName n="urn:cite2:hmt:pers.v1:pers67"
                         >Ἀθηνᾶς</persName> ξόανον· ἐφ' ᾧ παροξυνθέντες οἱ <rs type="ethnic"
                         n="urn:cite:hmt:place.place3">Ἕλληνες</rs>, καταλεῦσαι βουλεύονται τὸν
-                        <persName n="urn:cite:hmt:pers.pers281">Αἴαντα</persName>· ὁ δὲ ἐπι
-                    τὸν τῆς <persName n="urn:cite:hmt:pers.pers67">Ἀθηνᾶς</persName> βωμὸν
+                        <persName n="urn:cite2:hmt:pers.v1:pers281">Αἴαντα</persName>· ὁ δὲ ἐπι
+                    τὸν τῆς <persName n="urn:cite2:hmt:pers.v1:pers67">Ἀθηνᾶς</persName> βωμὸν
                     καταφεύγει καὶ διασώζεται ἐκ τοῦ ἐπικειμένου κινδύνου.</p>
                 <p n="11">ἔπειτα ἀποπλέουσιν οἱ <rs type="ethnic" n="urn:cit:hmt:place.place3"
                         >Ἕλληνες</rs>, καὶ φθορὰν αὐτοῖς ἡ <persName
-                        n="urn:cite:hmt:pers.pers67">Ἀθηνᾶ</persName> κατα τὸ πέλαγος
+                        n="urn:cite2:hmt:pers.v1:pers67">Ἀθηνᾶ</persName> κατα τὸ πέλαγος
                     μηχανᾶται. </p>
             </div>
             <milestone unit="page" n="7r"/>
