@@ -150,9 +150,9 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>τοῦτο εὐκτικόν· τὸ δὲ ὀλέσῃ ὑποτακτικόν· στικτέον δὲ ἐν τῷ <rs type="ethnic"
-                           n="place96">Ἀχαιῶν</rs>· μόνους γὰρ τούτους ἀνελεῖν ἤθελε· διὸ φησιν· <cit>
+                           n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs>· μόνους γὰρ τούτους ἀνελεῖν ἤθελε· διὸ φησιν· <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:16.780</ref>
-                           <q>ὑπὲρ αἶσαν <rs type="ethnic" n="place96">Αχαιοὶ</rs> φέρτεροι ἦσαν</q>
+                           <q>ὑπὲρ αἶσαν <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Αχαιοὶ</rs> φέρτεροι ἦσαν</q>
                         </cit>· ὥστε διωχθῆναι μέχρι νηῶν⁑</p>
                   </div>
                </div>
@@ -1398,7 +1398,7 @@ style simple scholia" alternate="no"?>
                      <p>2.112</p>
                   </div>
                   <div type="comment">
-                     <p>προτρεπτικὸν τοῦτο, πρὸς τὸ μένειν τοὺς <rs type="ethnic" n="place96"
+                     <p>προτρεπτικὸν τοῦτο, πρὸς τὸ μένειν τοὺς <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96"
                            >Ἀχαιοὺς</rs>· οὐ γὰρ ἀτελεύτητον <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:1.527</ref>
                            <q>ὅττι κεν κεφαλῆ κατανεύσει</q>
@@ -2771,7 +2771,7 @@ style simple scholia" alternate="no"?>
                      <p>2.233-2.234</p>
                   </div>
                   <div type="comment">
-                     <p>ἄρχοντα ὄντα τῶν <rs type="ethnic" n="place96">Ἀχαιῶν</rs>· ἀπὸ
+                     <p>ἄρχοντα ὄντα τῶν <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs>· ἀπὸ
                            <title>κοινοῦ</title> γάρ ἐστι· κακῶν δὲ διὰ τὸν λοιμὸν καὶ τὴν <persName
                            n="pers1">Ἀχιλλέως</persName> ἀπόστασιν δι' αὐτόν⁑</p>
                   </div>
@@ -2790,7 +2790,7 @@ style simple scholia" alternate="no"?>
                            <ref type="urn">urn:cts:greekLit:tlg0012:tlg001:1.231</ref>
                            <q>ἐπεὶ` οὐτιδανοῖσιν ἀνάσσεις</q>
                         </cit>· γέλωτα δὲ κινεῖ κακὰ ἐλέγχεα ἀποκαλῶν τοὺς <rs type="ethnic"
-                           n="place96">Ἀχαιοὺς</rs> ὁ καὶ τῷ σώματι καὶ τῆ ψυχῆ ἐπονείδιστος⁑</p>
+                           n="urn:cite2:hmt:place.v1:place96">Ἀχαιοὺς</rs> ὁ καὶ τῷ σώματι καὶ τῆ ψυχῆ ἐπονείδιστος⁑</p>
                   </div>
                </div>
 
@@ -3319,7 +3319,7 @@ style simple scholia" alternate="no"?>
                         πῶς ἂν αὐτοὺς προτρέποιτο φεύγειν· ηὔξηται δὲ καὶ τὸ πᾶσι βροτοῖσιν, ἀλλὰ μὴ
                         μόνοις <rs type="ethnic" n="place3">Ἕλλησιν</rs>· ἐντέχνως δὲ κατ’ αὐτῶν
                         πρὸς αὐτὸν λέγει, ὡς συναχθόμενος· πικρὸν δὲ ἦν τὸ φάναι. ἐπονείδιστον ὦ <rs
-                           type="ethnic" n="place96">Ἀχαιοὶ</rs> ποιήσετε τὸν <choice>
+                           type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιοὶ</rs> ποιήσετε τὸν <choice>
                            <abbr>βασιλε</abbr>
                            <expan>βασιλέα</expan>
                         </choice>· κἀκεῖνο δὲ πικρὸν. τὸ ὡς νήπιοι παῖδες. ἢ ὡς κόρη ἀποδύρεσθε
@@ -3471,7 +3471,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>κατα μαλάξας τὸ πλῆθος πρότερον, νῦν ἀποστρέφει πρὸς αὐτοὺς τὸν λόγον· καὶ
-                        ἀντὶ <rs type="ethnic" n="place96">Ἀχαιῶν</rs> φίλους καλεῖ⁑ </p>
+                        ἀντὶ <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs> φίλους καλεῖ⁑ </p>
                   </div>
                </div>
 
@@ -3873,7 +3873,7 @@ style simple scholia" alternate="no"?>
                         πρὸς <persName n="pers118">Ὀδυσσέα</persName> ἀποτείνεται, δημοχαριστικῶς
                         παρελθόντα· ἔλεγε γὰρ. <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.296</ref>
-                           <q>οὐ νεμεσίζομ' <rs type="ethnic" n="place96">Ἀχαιούς</rs></q>
+                           <q>οὐ νεμεσίζομ' <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιούς</rs></q>
                         </cit>⁑</p>
                   </div>
                </div>
@@ -3932,7 +3932,7 @@ style simple scholia" alternate="no"?>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:3.269-3.270</ref>
                            <q>κρητῆρι δὲ οἶνον μίσγον</q>
                         </cit>. οὐ λέγει σὺν ὕδατι· ἀλλ' ὅτι τὸν <rs type="ethnic" n="place6"
-                           >Τρώων</rs> καὶ <rs type="ethnic" n="place96">Ἀχαιῶν</rs> οἶνον
+                           >Τρώων</rs> καὶ <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs> οἶνον
                         ἔμισγον⁑</p>
                   </div>
                </div>
@@ -3992,7 +3992,7 @@ style simple scholia" alternate="no"?>
                   <div type="comment">
                      <p>ὑφ' ἓν τὸ τούς δε ἀναφορικῶς· τὰ δὲ τοιαῦτα ἀεὶ δηκτικά ἐστιν· ἕνα δὲ. ὅτι
                         τῶ ἐλαχίστω ἀριθμῷ κἀκείνους εὐτελίζει· καὶ τοὺς λοιτοὺς εὐέλπιδας ποιεῖ·
-                           <rs type="ethnic" n="place96">Ἀχαιῶν</rs> δὲ καὶ οὐ σοῦ εἶπεν· ἀλλὰ
+                           <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs> δὲ καὶ οὐ σοῦ εἶπεν· ἀλλὰ
                         κοινὴν αὐτῶν κατηγορίαν ποιεῖται. ἐφελκόμενος τὸ πλῆθος·</p>
                   </div>
                </div>
@@ -4051,7 +4051,7 @@ style simple scholia" alternate="no"?>
                            type="ethnic" n="place3">Ἑλλήνων</rs>, <persName n="pers117"
                            >Νέστωρ</persName> δὲ παρὰ τοῦ βασιλέως ἐγκωμιάζεται· <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.370</ref>
-                           <q>ἦ μὰν αὖτ' ἀγορῇ νικᾶς γέρον υἷας <rs type="ethnic" n="place96"
+                           <q>ἦ μὰν αὖτ' ἀγορῇ νικᾶς γέρον υἷας <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96"
                                  >Ἀχαιῶν</rs></q>
                         </cit>· ἐπὶ δὲ <persName n="pers118">Ὀδυσσέως</persName>. <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.333</ref>
@@ -4078,7 +4078,7 @@ style simple scholia" alternate="no"?>
                      <p>καὶ <persName n="pers118">Ὀδυσσεὺς</persName> ὁμοίως· <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.303-2.304</ref>
                            <q>ὅτ' ἐς <placeName n="place29">Αὐλίδα</placeName> νῆες <rs
-                                 type="ethnic" n="place96">Ἀχαιῶν</rs> ἠγερέθοντο. κακὰ <persName
+                                 type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs> ἠγερέθοντο. κακὰ <persName
                                  n="pers145">Πριάμῳ</persName> καὶ <rs type="ethnic" n="place6"
                                  >Τρωσὶ</rs> φέρουσαι</q>
                         </cit>⁑ </p>
@@ -4462,7 +4462,7 @@ style simple scholia" alternate="no"?>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg002:4.185</ref>
                            <q>κλαῖε δὲ <persName n="pers271">Τηλέμαχος</persName></q>
                         </cit>· ἰδὼν δὲ ὁ <persName n="pers22">Ἀγαμέμνων</persName> τοὺς <rs
-                           type="ethnic" n="place96">Ἀχαιοὺς</rs>· καὶ τὸν <persName n="pers118"
+                           type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιοὺς</rs>· καὶ τὸν <persName n="pers118"
                            >Ὀδυσσέα</persName> ἐπαινέσαντας· καὶ τὴν <persName n="pers117"
                            >Νέστορος</persName> ἐπιτίμησιν πράως ἐνεγκόντας. τρέπεται ἐπὶ τὸ
                         προστάσσειν⁑</p>
@@ -5580,7 +5580,7 @@ style simple scholia" alternate="no"?>
                      <p>2.496</p>
                   </div>
                   <div type="comment">
-                     <p>παρὰ τὸ τοὺς <rs type="ethnic" n="place96">Ἀχαιοὺς</rs> ἐκεῖ
+                     <p>παρὰ τὸ τοὺς <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιοὺς</rs> ἐκεῖ
                         αὐλισθῆναι·⁑</p>
                   </div>
                </div>
@@ -7214,14 +7214,14 @@ style simple scholia" alternate="no"?>
                            >Θεσσαλὸς</persName>. ἀφ' οὗ καὶ ὠνομάσθη· οὗ, ἔκγονος <persName
                            n="pers432">Ἄμμων</persName>· ἐξ οὗ. καὶ <persName n="pers432"
                            >Ἄμμονες</persName>· οὗ <persName n="pers433">Πελασγὸς</persName>. <rs
-                           type="ethnic" n="place34">Φθῖος</rs>. <rs type="ethnic" n="place96"
+                           type="ethnic" n="place34">Φθῖος</rs>. <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96"
                            >Ἀχαιός</rs>· ἄρχει δὲ <persName n="pers433">Πελασγὸς</persName> ταύτης
                         τῆς χώρας· <placeName n="place114">Ἄργος</placeName> δὲ. ἀπὸ <rs
                            type="ethnic" n="place114">Ἀργείας</rs> τῆς αὐτοῦ <choice>
                            <abbr>μρς</abbr>
                            <expan>μητρός</expan>
                         </choice>· μετὰ δὲ θάνατον αὐτοῦ οἱ ἀδελφοὶ ἄρξαντες, <placeName n="place34"
-                           >Φθίαν</placeName> καὶ <placeName n="place96">Ἀχαΐαν</placeName>
+                           >Φθίαν</placeName> καὶ <placeName n="urn:cite2:hmt:place.v1:place96">Ἀχαΐαν</placeName>
                         <choice>
                            <abbr>ὠνόμα</abbr>
                            <expan>ὠνόμασαν</expan>

@@ -285,7 +285,7 @@ style simple scholia" alternate="no"?>
                   <div type="comment">
                      <p>ταύτην τὴν ῥαψωδίαν. κολοβομάχην καλοῦσιν· συντέμνει γὰρ τὴν <w>διήγησ
                               <unclear>ιν</unclear></w>
-                        <w>συναχθόμεν<unclear>ος</unclear></w> τοις <rs type="ethnic" n="place96"
+                        <w>συναχθόμεν<unclear>ος</unclear></w> τοις <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96"
                            >Αχαιοις</rs>
                         <note resp="HMT">Here the commentary switches from notes about the entire
                            book in general to specifics on line 8.1</note>
@@ -364,7 +364,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.e3:8.5</p>
                   </div>
                   <div type="comment">
-                     <p>κοινοποιεῖται τὸ βούλευμα ἵνα μὴ λυπήσῃ τοὺς <rs type="ethnic" n="place96"
+                     <p>κοινοποιεῖται τὸ βούλευμα ἵνα μὴ λυπήσῃ τοὺς <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96"
                            >Ἀχαϊκούς</rs>· τὸ δὲ θέαιναι, δι᾽ <persName n="pers116">Ἥραν</persName>
                         καὶ <persName n="pers67">Ἀθηνᾶν</persName>⁑</p>
                   </div>
@@ -903,7 +903,7 @@ style simple scholia" alternate="no"?>
                         ἑκατέρου στρατοῦ. ἐν δὲ τοῖς ἑξῆς <note resp="Erbse"> sc. Θ 73 – 4 </note>
                         πλείους αὐτὰς φησιν· <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:8.73</ref>
-                           <q>αἱ μὲν <rs type="ethnic" n="place96">Ἀχαιῶν</rs> κῆρες</q>
+                           <q>αἱ μὲν <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs> κῆρες</q>
                         </cit>· ὅτι αἱ δύο καὶ πολλαὶ ἂν εἶεν· λέγομεν γοῦν διττὰ πράγματα· πλειόνων
                         δὲ ἔμφασιν διδόντος τοῦ <choice>
                            <abbr>ὀνόμτος</abbr>
@@ -975,7 +975,7 @@ style simple scholia" alternate="no"?>
                      <p>urn:cts:greekLit:tlg0012.tlg001.e3:8.77</p>
                   </div>
                   <div type="comment">
-                     <p>δαιμονίαν ὑποφαίνει τῶν <rs type="ethnic" n="place96">Ἀχαιῶν</rs> τὴν φυγὴν
+                     <p>δαιμονίαν ὑποφαίνει τῶν <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs> τὴν φυγὴν
                         αὔξων αὐτούς· ἑτέρου γὰρ ὑποχωροῦντος. καὶ οἱ λοιποὶ τοῦτο ποιοῦσι· δόξαν
                         γὰρ ἔχουσι περὶ αὐτῶν. ὡς οὐδείς ἐστι φυγοπόλεμος. ἀλλ᾽ ἕνα θυμὸν ἔχουσιν·
                         ὅτ᾽ ἂν οὖν ἴδωσι τοὺς ἀρίστους ὑποχωροῦντας. οὐκ ἐξ ἀναλκίας ὑποπτεύουσι
@@ -1344,7 +1344,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>δῆλον ὡς καὶ ἄλλα διαθεμένου <persName n="pers215">Διομήδους</persName>·
-                        τέως δὲ ἡ τῶν <rs type="ethnic" n="place96">Ἀχαιῶν</rs> φυγὴ οὐ μεμένηκεν
+                        τέως δὲ ἡ τῶν <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιῶν</rs> φυγὴ οὐ μεμένηκεν
                         ἄπρακτος· ἀλλὰ <rs type="ethnic" n="pers6">Τρῶες</rs> ἀναιροῦνται ⁑</p>
                   </div>
                </div>
@@ -1686,7 +1686,7 @@ style simple scholia" alternate="no"?>
                      <p>ὑφ᾽ ἓν τὸ <rs type="waw">οὐδενόσωρα</rs>. εἰ καὶ σπάνιος ἡ τοιαύτη σύνθεσις·
                         λέγω δὲ ἐξ ἀποφάσεως καὶ συνδέσμου καὶ τῆς ἑνὸς γενικῆς τελείας· τινὲς δὲ
                         οὐδενὸς φυλακτικά· πιθανὸν δὲ καὶ τὸ ὑπογύου ἔργου μεμνῆσθαι. τῶν <rs
-                           type="ethnic" n="place96">Ἀχαῖων</rs> τὴν πρᾶξιν ἐξευτελίζοντα·⁑</p>
+                           type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαῖων</rs> τὴν πρᾶξιν ἐξευτελίζοντα·⁑</p>
                   </div>
                </div>
                <div n="108" type="scholion">
@@ -1843,7 +1843,7 @@ style simple scholia" alternate="no"?>
                         <persName n="pers47">Ποσειδῶνα</persName> διεγείρει· καὶ νῦν μὲ`ν μέχρι
                         λόγων προέρχεται· ἑξῆς δὲ <note resp="Erbse">sc. Θ 218 – 9</note> ἐντίθησιν
                            <persName n="pers22">Ἀγαμέμνονι</persName> αὐτῷ ποιπνύσαντι. θοῶς ἐγεῖραι
-                           <rs type="ethnic" n="place96">Ἀχαιούς</rs>· τέλεον δὲ ἡττηθεῖσα ὑπὸ τοῦ
+                           <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαιούς</rs>· τέλεον δὲ ἡττηθεῖσα ὑπὸ τοῦ
                         θυμοῦ καὶ προέρχεται <note resp="Erbse">cf. Θ 350 – 483</note>⁑</p>
                   </div>
                </div>
@@ -1871,7 +1871,7 @@ style simple scholia" alternate="no"?>
                   </div>
                   <div type="comment">
                      <p>προτρεπτικὸν καὶ τοῦτο πρὸς τὴν βοήθειαν· <placeName n="place208"
-                           >Ἑλίκη</placeName> δὲ ἐστι τῆς <rs type="ethnic" n="place96">Ἀχαΐας</rs>
+                           >Ἑλίκη</placeName> δὲ ἐστι τῆς <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96">Ἀχαΐας</rs>
                         πόλις ὑπὸ σεισμοῦ ἠφανισμένη· <placeName n="place207">Αἰγαὶ</placeName> δὲ
                         νῆσος πλησίον <placeName n="place100">Εὐβοίας</placeName>⁑ </p>
                   </div>
@@ -3433,7 +3433,7 @@ style simple scholia" alternate="no"?>
                      <p>παρὰ τὸ λέχος· καὶ ξύλα λέξασθαι· καὶ <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:2.125</ref>
                            <q><rs type="ethnic" n="place6">Τρῶας</rs> μὲν λέξασθαι</q>
-                        </cit>· ὅθεν καὶ λογάδες καὶ <title>Σύλλογος <rs type="ethnic" n="place96"
+                        </cit>· ὅθεν καὶ λογάδες καὶ <title>Σύλλογος <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96"
                               >Ἀχαιῶν</rs></title>⁑</p>
                   </div>
                </div>

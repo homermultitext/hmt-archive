@@ -2223,7 +2223,7 @@ style simple scholia" alternate="no"?>
                            n="place36">Πελοπόννησον</placeName> καὶ τὴν <placeName n="place2"
                            >Θεσσαλίαν</placeName> καλεῖ· ἄμεινον δὲ νῦν <placeName n="place114"
                            >Ἄργος</placeName> τὴν <placeName n="place2">Θεσσαλίαν</placeName> λέγειν
-                           <placeName n="place96">Ἀχαιΐδα</placeName> δὲ πᾶσαν <placeName n="place3"
+                           <placeName n="urn:cite2:hmt:place.v1:place96">Ἀχαιΐδα</placeName> δὲ πᾶσαν <placeName n="place3"
                            >Ἑλληνίδα</placeName>⁑</p>
                   </div>
                </div>
@@ -3577,7 +3577,7 @@ style simple scholia" alternate="no"?>
                         <persName n="pers22">Ἀγαμέμνονος</persName> φωνὴν· τὸ <cit>
                            <ref type="urn">urn:cts:greekLit:tlg0012.tlg001:3.284</ref>
                            <q>εἰ δέ κ' <persName n="pers129">Ἀλέξανδρον</persName> κτείνει</q>
-                        </cit> επίκουρον· οὐ γὰρ ἐκτάνθη· <rs type="ethnic" n="place96"
+                        </cit> επίκουρον· οὐ γὰρ ἐκτάνθη· <rs type="ethnic" n="urn:cite2:hmt:place.v1:place96"
                                  ><w>Ἀ<unclear>χ</unclear>αιοὶ</w></rs>
                         <unclear>δὲ τὴν</unclear>
                         <persName n="pers172">Ἕκτορος</persName>. τὸ „<cit>
