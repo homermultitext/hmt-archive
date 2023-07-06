@@ -1,6 +1,6 @@
 #!datamodels
 Collection|Model|Label|Description
-cite2:hmt:pagerois.v1:msA|urn:cite2:hmt:datamodels.v1:pageroi|Index of pages of the Venetus A manuscript to rectangular regions of interest (RoI) on an image. The images are not spatially rectified, but photographic distortion is minimal enough that the image zones of this index are appropriate for computational analyis of the spatial layout of the Venetus manuscript's pages.
+urn:cite2:hmt:pagerois.v1:msA|urn:cite2:hmt:datamodels.v1:pageroi|Index of pages of the Venetus A manuscript to rectangular regions of interest (RoI) on an image. The images are not spatially rectified, but photographic distortion is minimal enough that the image zones of this index are appropriate for computational analyis of the spatial layout of the Venetus manuscript's pages.
 
 #!citerelationset
 urn|urn:cite2:hmt:pagerois.v1:msA
