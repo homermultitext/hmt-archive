@@ -2,6 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2023h**: Publishes index of all Venetus A pages with *Iliad* text to rectangular regions on image.
 - **2023g**: Adds index of Venetus A pages to rectangular regions on image.
 - **2023f**: Adds index of all occurrences of names of ethnic groups.
 - **2023e**: Adds index of all occurrences of place names.
