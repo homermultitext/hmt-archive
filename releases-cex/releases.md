@@ -2,7 +2,7 @@
 
 ## Notes on published releases of HMT archival data
 
-
+- **2023k**: Adds missing indexing of *Iliad* lines in the Venetus A in DSE records.  As of 2023k, 100% of *Iliad* lines of the Venetus A manuscript are indexed to DSE records.
 - **2023j**: Corrects formatting of URN subreferences in cross referencing scholia to *Iliad*.
 - **2023i**: Corrects a malformed URN in index of page RoIs.
 - **2023h**: Publishes index of all Venetus A pages with *Iliad* text to rectangular regions on image.
