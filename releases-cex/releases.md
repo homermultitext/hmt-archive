@@ -2,6 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
+
+- **2024c**: Corrects errors in indexing of *scholia* to *Iliad* passages.
 - **2024b**: Further corrections to index of images for *Iliad* lines in book 13.
 - **2024a**: Corrects index of images for *Iliad* lines in folios 169v-174r of the Venetus A.
 - **2023k**: Adds missing indexing of *Iliad* lines in the Venetus A in DSE records.  As of 2023k, 100% of *Iliad* lines of the Venetus A manuscript are indexed to DSE records.
