@@ -34,7 +34,9 @@ vamanifest =  "https://raw.githubusercontent.com/homermultitext/hmt-archive/refs
 vaconfig = iiifconfig(vamanifest)
 
 vajson = iiifmanifest(va, vaconfig, imgsvc)
-vaoutfile = joinpath(repo, "iiif", vamanifest)
+outdir = joinpath(repo, "iiif")
+isdir(outdir)
+vaoutfile = joinpath(outdir, "venetusA.json")
 open(vaoutfile,"w") do io
     write(io, vajson)
 end
