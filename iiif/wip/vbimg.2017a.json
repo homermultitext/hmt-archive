@@ -1,0 +1,115 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://neelsmith.github.io/hmt-apps/images/vbimg.2017a.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Images of the Venetus B manuscript (individual folios) from the Homer Multitext project"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Collection URN"
+        ]
+      },
+      "value": {
+        "en": [
+          "urn:cite2:hmt:vbimg.2017a:"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Made from"
+        ]
+      },
+      "value": {
+        "en": [
+          "Homer Multitext project, release 2024c"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "License"
+      ]
+    },
+    "value": {
+      "en": [
+        "CC-attribution-share-alike"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "https://neelsmith.github.io/hmt-apps/images/vbimg.2017a.json/canvas/VBMSFront_cover_page_pasted_down_rectoN_0444",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Image of the Venetus B manuscript, front-cover, recto"
+        ]
+      },
+      "width": 5428,
+      "height": 7230,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Image URN"
+            ]
+          },
+          "value": {
+            "en": [
+              "urn:cite2:hmt:vbimg.2017a:VBMSFront_cover_page_pasted_down_rectoN_0444"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Rights"
+            ]
+          },
+          "value": {
+            "en": [
+              "This image was derived from an original ©2007, Biblioteca Nazionale Marciana, Venezia, Italia. The derivative image is ©2010, Center for Hellenic Studies. Original and derivative are licensed under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 License. The CHS/Marciana Imaging Project was directed by David Jacobs of the British Library."
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://neelsmith.github.io/hmt-apps/images/vbimg.2017a.json/canvas/VBMSFront_cover_page_pasted_down_rectoN_0444/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://neelsmith.github.io/hmt-apps/images/vbimg.2017a.json/canvas/VBMSFront_cover_page_pasted_down_rectoN_0444/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://www.homermultitext.org/iipsrv?IIIF=/project/homer/pyramidal/deepzoom/hmt/vbimg/2017a/VBMSFront_cover_page_pasted_down_rectoN_0444.tif/full/2000,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 2000,
+                "height": 2664,
+                "service": [
+                  {
+                    "id": "http://www.homermultitext.org/iipsrv?IIIF=/project/homer/pyramidal/deepzoom/hmt/vbimg/2017a/VBMSFront_cover_page_pasted_down_rectoN_0444.tif",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://neelsmith.github.io/hmt-apps/images/vbimg.2017a.json/canvas/VBMSFront_cover_page_pasted_down_rectoN_0444"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
