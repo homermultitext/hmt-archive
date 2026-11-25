@@ -2,4 +2,55 @@
 title: "Building a release"
 ---
 
-**TBA**: *how a published release is build from archival data sources.*
+
+
+## Prerequisites
+
+- Julia, with the dependencies of `HmtArchive.jl` installed (from its `test` directory: `julia --project=.. -e 'using Pkg; Pkg.instantiate()'`).
+- the `hmt-archive` and `HmtArchive.jl` repositories should be cloned side by side in the same parent directory.
+- internet access: the authority lists (persons, places, astronomy, cited works) are fetched from the `hmt-authlists` repository on GitHub.
+
+
+## 1. Build a release candidate
+
+From the `HmtArchive.jl` directory:
+
+```julia
+using HmtArchive
+hmt = adjacent()                 # finds ../hmt-archive/archive
+writerc(hmt, "2025a")            # writes ../hmt-archive/release-candidates/hmt-2025a.cex
+```
+
+- Release IDs follow `YYYYC`: four-digit year plus a letter that increases with each release in that year (the last release is `2024c`, so the next would be `2025a`).
+- The build takes a while and logs progress. Read the warnings, especially the list of scholia that could not be mapped to *Iliad* passages.
+- Release candidates are git-ignored (`release-candidates/hmt*cex`), so they are never committed.
+- If the repositories are not side by side, use `Archive("/full/path/to/hmt-archive/archive")` instead of `adjacent()`.
+
+## 2. Validate the candidate
+
+Load the candidate as text and run the library's checks, for example:
+
+```julia
+using HmtArchive.Analysis
+src = read("../hmt-archive/release-candidates/hmt-2025a.cex", String)
+hmt_releaseinfo(src)             # confirm the release ID
+missingtexts(src)                # DSE records pointing to text that is not in the editions
+dsec = hmt_dse(src)[1]
+missingdse(hmt_normalized(src), dsec)   # text passages with no DSE record
+scholiapagecheck(src)            # scholia indexed to a different page than their Iliad line
+```
+
+
+## 3. Publishing a release
+
+```julia
+publish(hmt, "2025a")            # writes ../hmt-archive/releases-cex/hmt-2025a.cex
+```
+
+Then, by convention:
+
+1. Copy the new file to `releases-cex/hmt-current.cex`. The library's `hmt_cex()` and the Quarto guides read this file from GitHub `master`.
+2. File the previous release in its year folder if needed (for example `releases-cex/2024/hmt-2024c.cex`).
+3. Add a line to `releases-cex/releases.md` describing the release.
+4. Commit and push. The functions above never touch git; that is deliberate.
+

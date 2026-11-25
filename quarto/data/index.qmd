@@ -2,6 +2,22 @@
 title: "Data files"
 ---
 
+
+
+## What goes into a published release
+
+Published releases are built from the contents of the `archive/` directory.
+
+
+- TEI editions (`tei-editions`) text catalog and configuration (`textconfigs`)
+- DSE records (`dse-data`)
+, `datamodels/datamodels.cex`, `library/header.cex`, 
+
+
+and the pre-formatted CEX in `codices`, `images` and `relations`. It composes diplomatic and normalized editions of all texts, the scholia-to-*Iliad* index, and indexes of person, place and ethnic-group names. Nothing in `archive/` is changed by a build.
+
+
+
 - [cataloged collections](./collections/)
 - [TEI editions](../tei/) of texts
 - indexing for a [digital scholarly edition](./dse/) (DSE)
