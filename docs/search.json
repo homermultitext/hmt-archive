@@ -1,0 +1,77 @@
+[
+  {
+    "objectID": "cex/index.html",
+    "href": "cex/index.html",
+    "title": "The release file",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "data/collections/index.html",
+    "href": "data/collections/index.html",
+    "title": "Cataloged data collections",
+    "section": "",
+    "text": "TBA",
+    "crumbs": [
+      "Data files",
+      "Cataloged data collections"
+    ]
+  },
+  {
+    "objectID": "data/iiif/index.html",
+    "href": "data/iiif/index.html",
+    "title": "Citable image manifests",
+    "section": "",
+    "text": "TBA",
+    "crumbs": [
+      "Data files",
+      "Citable image manifests"
+    ]
+  },
+  {
+    "objectID": "tei/index.html",
+    "href": "tei/index.html",
+    "title": "XML markup conventions",
+    "section": "",
+    "text": "TBA",
+    "crumbs": [
+      "Data files",
+      "XML markup conventions"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Homer Multitext archive",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "build/index.html",
+    "href": "build/index.html",
+    "title": "Building a release",
+    "section": "",
+    "text": "TBA"
+  },
+  {
+    "objectID": "data/index.html",
+    "href": "data/index.html",
+    "title": "Data files",
+    "section": "",
+    "text": "cataloged collections\nTEI editions of texts\nindexing for a digital scholarly edition (DSE)\ncitable IIIF manifests",
+    "crumbs": [
+      "Data files"
+    ]
+  },
+  {
+    "objectID": "data/dse/index.html",
+    "href": "data/dse/index.html",
+    "title": "DSE relations",
+    "section": "",
+    "text": "TBA",
+    "crumbs": [
+      "Data files",
+      "DSE relations"
+    ]
+  }
+]
