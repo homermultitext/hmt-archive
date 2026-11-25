@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: quarto_build
+
+version: "0.1.0"
+metadata:
+  date: today
+  
+execute:
+  freeze: auto
+date: last-modified  
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    toc: true
+
+website:
+  title: "hmt-archive"
+  page-footer:
+    center: "`hmt-archive`, website last updated {{< meta date >}}"
+
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Data files"
+        file: data/index.qmd        
+      - text: "Building a release"
+        file: build/index.qmd
+      - text: "The release file"
+        file: cex/index.qmd
+
+  sidebar:
+      - title: "Data files"
+        contents:
+          - data/index.qmd
+          - "---"
+          - tei/index.qmd
+          - data/collections/index.qmd
+          - data/dse/index.qmd
+          - data/iiif/index.qmd
