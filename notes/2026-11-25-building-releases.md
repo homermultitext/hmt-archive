@@ -4,7 +4,7 @@ Summary for end users. Based on `HmtArchive.jl` (`src/publish.jl`, `src/archive.
 
 ## Prerequisites
 
-- Julia, with the dependencies of `HmtArchive.jl` installed (from its `test` directory: `julia --project=.. -e 'using Pkg; Pkg.instantiate()'`).
+- Julia, with the dependencies of `HmtArchive.jl` installed (from the root of your `HmtArchive.jl` clone, not this repository: `julia --project=. -e 'using Pkg; Pkg.instantiate()'`).
 - `hmt-archive` and `HmtArchive.jl` cloned side by side in the same parent directory.
 - Internet access: the authority lists (persons, places, astronomy, cited works) are always fetched from the `hmt-authlists` repository on GitHub, even when building locally.
 
