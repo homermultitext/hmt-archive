@@ -32,13 +32,18 @@ website:
         file: build/index.qmd
       - text: "The release file"
         file: cex/index.qmd
-
+    right:
+      - icon: person-circle
+        menu:
+          - text: "hmt-archive on github"
+            href: https://github.com/homermultitext/hmt-archive
+        aria-label: Home 
   sidebar:
       - title: "Data files"
         contents:
           - data/index.qmd
           - "---"
+          - data/collections/index.qmd          
           - tei/index.qmd
-          - data/collections/index.qmd
           - data/dse/index.qmd
           - data/iiif/index.qmd
