@@ -1,5 +1,5 @@
 // CEX representation of HMT archive.
-// - data release: 2026b 
+// - data release: 2026c 
 // Automatically assembled by the `HmtArchive` module.
 // - module version: 0.16.1
 
@@ -8,8 +8,8 @@
 
 #!citelibrary
 // Definition of the current release as a CITE library
-name|Homer Multitext project, release 2026b
-urn|urn:cite2:hmt:publications.cex.2026b:all
+name|Homer Multitext project, release 2026c
+urn|urn:cite2:hmt:publications.cex.2026c:all
 license|Creative Commons Attribution, Non-Commercial 4.0 License <https://creativecommons.org/licenses/by-nc/4.0/>.
 
 // CITE namespace definitions
@@ -152807,7 +152807,7 @@ urn:cts:greekLit:tlg0012.tlg001.burney86:2.21|urn:cite2:citebl:burney86pages.v1:
 
 #!datamodels
 Collection|Model|Label|Description
-urn:cite2:hmt:hmtdse.v1:all|urn:cite2:cite:datamodels.v1:illustrationmodel|Comparetti pages|Relations images from Comparetti facsimile to pages of the Venetus A amnuscript
+urn:cite2:hmt:comparetti.v1:msA|urn:cite2:cite:datamodels.v1:illustrationmodel|Comparetti pages|Relations images from Comparetti facsimile to pages of the Venetus A amnuscript
 
 #!citerelationset
 urn|urn:cite2:hmt:comparetti.v1:msA

@@ -1,6 +1,6 @@
 #!datamodels
 Collection|Model|Label|Description
-urn:cite2:hmt:hmtdse.v1:all|urn:cite2:cite:datamodels.v1:illustrationmodel|Comparetti pages|Relations images from Comparetti facsimile to pages of the Venetus A amnuscript
+urn:cite2:hmt:comparetti.v1:msA|urn:cite2:cite:datamodels.v1:illustrationmodel|Comparetti pages|Relations images from Comparetti facsimile to pages of the Venetus A amnuscript
 
 #!citerelationset
 urn|urn:cite2:hmt:comparetti.v1:msA
