@@ -1,5 +1,5 @@
 // CEX representation of HMT archive.
-// - data release: 2026a 
+// - data release: 2026b 
 // Automatically assembled by the `HmtArchive` module.
 // - module version: 0.16.1
 
@@ -8,8 +8,8 @@
 
 #!citelibrary
 // Definition of the current release as a CITE library
-name|Homer Multitext project, release 2026a
-urn|urn:cite2:hmt:publications.cex.2026a:all
+name|Homer Multitext project, release 2026b
+urn|urn:cite2:hmt:publications.cex.2026b:all
 license|Creative Commons Attribution, Non-Commercial 4.0 License <https://creativecommons.org/licenses/by-nc/4.0/>.
 
 // CITE namespace definitions
@@ -32,6 +32,7 @@ urn:cite2:cite:datamodels.v1.description:|Description|String|
 urn|label|description
 // HMT models:
 urn:cite2:hmt:datamodels.v1:codexmodel|HMT codex model|Codex with successive sheets with recto and verso faces
+
 urn:cite2:hmt:datamodels.v1:paragraphing|HMT text chunking model|HMT model of chunking of text in "paragraph" units.
 
 // Cite collection models:
@@ -40,7 +41,11 @@ urn:cite2:cite:datamodels.v1:dsemodel|Diplomatic Scholarly Edition|Diplomatic Sc
 
 // CITE indexing models:
 urn:cite2:cite:datamodels.v1:commentarymodel|Commentary|Model text passages commenting on text passages
-urn:cite2:cite:datamodels.v1:textonpagemodel|Indexed text index model|Association of citable passages of text with pages in a manuscript
+
+urn:cite2:cite:datamodels.v1:textonpagemodel|Indexed text index model|Association of citable passages of text with pages in a manuscript.
+
+urn:cite2:cite:datamodels.v1:illustrationmodel|Illustration|Model images illustrating a citable object.
+
 
 #!ctsdata
 urn:cts:greekLit:tlg0012.tlg001.msA.diplomatic:1.title|ἰλιάδος ἄλφα
@@ -152800,12 +152805,16 @@ urn:cts:greekLit:tlg0012.tlg001.burney86:2.19|urn:cite2:citebl:burney86pages.v1:
 urn:cts:greekLit:tlg0012.tlg001.burney86:2.20|urn:cite2:citebl:burney86pages.v1:12r
 urn:cts:greekLit:tlg0012.tlg001.burney86:2.21|urn:cite2:citebl:burney86pages.v1:12r
 
+#!datamodels
+Collection|Model|Label|Description
+urn:cite2:hmt:hmtdse.v1:all|urn:cite2:cite:datamodels.v1:illustrationmodel|Comparetti pages|Relations images from Comparetti facsimile to pages of the Venetus A amnuscript
+
 #!citerelationset
 urn|urn:cite2:hmt:comparetti.v1:msA
-label|Index of images of Comparetti facsimile to pages of the Venetus A
+label|Index of images of Comparetti facsimile images to pages of the Venetus A
 
 
-comparetti|venetusa
+image|illustrated
 urn:cite2:hmt:compimg.v1:Comparetti_001recto016|urn:cite2:hmt:msA.v1:1r
 urn:cite2:hmt:compimg.v1:Comparetti_001verso010|urn:cite2:hmt:msA.v1:1v
 urn:cite2:hmt:compimg.v1:Comparetti_004recto017|urn:cite2:hmt:msA.v1:4r
