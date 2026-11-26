@@ -1,9 +1,13 @@
+#!datamodels
+Collection|Model|Label|Description
+urn:cite2:hmt:comparetti.v1:msA|urn:cite2:cite:datamodels.v1:illustrationmodel|Comparetti pages|Relations images from Comparetti facsimile to pages of the Venetus A amnuscript
+
 #!citerelationset
 urn|urn:cite2:hmt:comparetti.v1:msA
-label|Index of images of Comparetti facsimile to pages of the Venetus A
+label|Index of images of Comparetti facsimile images to pages of the Venetus A
 
 
-comparetti|venetusa
+image|illustrated
 urn:cite2:hmt:compimg.v1:Comparetti_001recto016|urn:cite2:hmt:msA.v1:1r
 urn:cite2:hmt:compimg.v1:Comparetti_001verso010|urn:cite2:hmt:msA.v1:1v
 urn:cite2:hmt:compimg.v1:Comparetti_004recto017|urn:cite2:hmt:msA.v1:4r

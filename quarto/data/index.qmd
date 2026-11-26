@@ -9,7 +9,9 @@ title: "Data files"
 Published releases are built from the contents of the `archive/` directory.
 
 
-- TEI editions (`tei-editions`) text catalog and configuration (`textconfigs`)
+
+
+
 - DSE records (`dse-data`)
 , `datamodels/datamodels.cex`, `library/header.cex`, 
 

@@ -2,6 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
+- **2026c**: Corrects an error in data model declaration for index of Comparetti images.
+- **2026b**: Adds explicit illustration data model for index of Comparetti images.
 - **2026a**: Regularizes captions in Venetus A image collection.
 - **2024c**: Corrects errors in indexing of *scholia* to *Iliad* passages.
 - **2024b**: Further corrections to index of images for *Iliad* lines in book 13.
