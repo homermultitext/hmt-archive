@@ -56,7 +56,7 @@ DSE records index scholia at the level of the whole *scholion*, but the editions
 
 ## Manuscripts and images
 
-Seven codices are modelled as sequences of pages: Venetus A (660), Venetus B (680), Escorial Υ 1.1 (660), Escorial Ω 1.12 (437), Marciana 841 (388), Burney 86 (562) and Laurentian 32.3 (862).
+Seven codices are modelled as sequences of pages: Venetus A (662), Venetus B (683), Escorial Υ 1.1 (660), Escorial Ω 1.12 (437), Marciana 841 (388), Burney 86 (562) and Laurentian 32.3 (862).
 
 Image catalogs (approximate row counts): Venetus A about 970; Comparetti facsimile about 680; Venetus B bifolios 205; Escorial Υ 1.1 bifolios about 520; Escorial Ω 1.12 about 870; Marciana 841 about 780; Burney 86 about 1,120; Geneva 44 about 800; Laurentian 32.3 about 1,720.
 
