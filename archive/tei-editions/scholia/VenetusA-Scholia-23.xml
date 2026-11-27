@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Venetus A Main Shcolia</title>
+                <title>Venetus A Main Scholia</title>
                 <author>Olga Levaniouk</author>
                 <author>Adriana Vazquez</author>
                 <author>Joseph Bringman</author>
@@ -3035,9 +3035,17 @@
                       <div n="ref">
                         <p>urn:cts:greekLit:tlg0012.tlg001.msA:23.106</p>
                       </div>
+                      <div n="comment">
+                        <p>ὁ <choice><abbr>ἀρισταρχ</abbr><expan>ἀρίσταρχος</expan></choice> ἐφεστήκει χωρὶς τοῦ <rs type="waw">ϊ</rs></p>
                       </div>
-                    <!-- 295r missing 2 and unindexed -->
+                      </div>
+
+
+
                     <!-- 295v missing at least 4  and unindexed-->
+
+
+
                     <!-- 296r has no Aim -->
                     <!-- 296v -->
                     <div n="902" type="scholion">
