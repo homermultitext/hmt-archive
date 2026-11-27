@@ -2,6 +2,8 @@
 
 ## Notes on published releases of HMT archival data
 
+
+- **2026e**: Manual corrections to editions of VA book 23.
 - **2026d**: Manual corrections to *scholia* indexing in VA book 1.
 - **2026c**: Corrects an error in data model declaration for index of Comparetti images.
 - **2026b**: Adds explicit illustration data model for index of Comparetti images.
