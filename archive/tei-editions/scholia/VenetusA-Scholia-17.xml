@@ -4658,6 +4658,18 @@
         					<p><q>αφείλετο</q></p>
         				</div>
         			</div>
+                    <div n="5" type="scholion">
+        				<div n="lemma">
+        					<p/>
+        				</div>
+        				<div n="ref" >
+        					<p>urn:cts:greekLit:tlg0012.tlg001.msA:17.724</p>
+        				</div>
+        				<div n="comment">
+        					<p><del><q>αἴροντας</q></del></p>
+        				</div>
+        			</div>
+                    	<!--
         			<div n="3bis" type="scholion">
         				<div n="lemma">
         					<p/>
@@ -4669,7 +4681,7 @@
         					<p><del><q>αἴροντας</q></del></p>
         				</div>
         			</div>
-        			<!--
+        		
                     <div n="4" type="scholion">
                         <div n="lemma">
                             <p/>
